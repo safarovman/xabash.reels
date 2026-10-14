@@ -57,7 +57,9 @@ for i, sc in enumerate(scenes):
 scene_len = [LEAD + d + TAIL + scenes[i].get("extra", 0) for i, d in enumerate(vod)]
 scene_len[-1] += CFG.get("end_hold", 1.4)
 starts = np.cumsum([0] + scene_len[:-1]).tolist()
-TOTAL = sum(scene_len)
+SCENES_END = sum(scene_len)
+COVER_LEN = 1.8 if CFG.get("cover_title") else 0.0
+TOTAL = SCENES_END + COVER_LEN
 
 def norm(s): return re.sub(r"[^a-z0-9 ]", "", s.lower().replace("‘", "'").replace("’", "'").replace("ʻ", "'").replace("'", ""))
 def anchor(i, at):
@@ -291,7 +293,53 @@ def torn_edge(seed_, x_edge):
     rnd = np.random.RandomState(seed_); ys = np.arange(H)
     n = np.cumsum(rnd.normal(0, 3.2, H)); n -= np.linspace(n[0], n[-1], H)
     return x_edge + n + 10 * np.sin(ys / 37.0 + seed_) + rnd.normal(0, 2.5, H)
+LOGO = None
+_lp = CFG.get("logo") or (f"{HERE}/../brand/logo_99foiz.png" if os.path.exists(f"{HERE}/../brand/logo_99foiz.png") else None)
+if _lp and CFG.get("logo", True) is not False:
+    _li = Image.open(_lp).convert("RGBA")
+    LOGO = to_np(_li.resize((150, 150), Image.LANCZOS)); LOGO_BIG = to_np(_li.resize((300, 300), Image.LANCZOS))
+COVER = None
+if COVER_LEN:
+    ci = CFG.get("cover_scene", 0)
+    cb = bases[ci]; bh, bw = cb.shape[:2]; cw = bw / 1.16; ch = cw * H / W
+    crop = cb[int((bh - ch) / 2):int((bh - ch) / 2 + ch), int((bw - cw) / 2):int((bw - cw) / 2 + cw)]
+    COVER = cv2.resize(crop, (W, H)).astype(np.float32)
+    COVER = cv2.GaussianBlur(COVER, (0, 0), 6) * 0.55 + COVER * 0.0
+    COVER = COVER * 0.72
+    yy2 = np.linspace(0, 1, H)[:, None, None]; COVER = COVER * (1 - 0.35 * np.abs(yy2 - 0.5) * 2)
+    cov_lines = CFG["cover_title"]
+    COVER_SPR = []
+    for k, ln in enumerate(cov_lines):
+        words = ln.split(); color = (255, 255, 255) if k % 2 == 0 else YEL
+        sprs = [to_np(caption_word(wd, color, 150, 14)) for wd in words]
+        widths = [sp.shape[1] - 2 * 38 for sp in sprs]; total = sum(widths) + 30 * (len(words) - 1); kf = min(1.0, 990 / total)
+        x = W / 2 - total * kf / 2
+        for sp, wd in zip(sprs, widths): COVER_SPR.append((sp, x + wd * kf / 2, 0, kf, k)); x += (wd + 30) * kf
+    n_lines = len(cov_lines); y0 = 960 - (n_lines - 1) * 95 + 60
+    COVER_SPR = [(sp, x, y0 + k * 190, kf, k) for (sp, x, _, kf, k) in COVER_SPR]
+    COVER_SUB = to_np(note_strip(CFG["cover_sub"], 64, 77)) if CFG.get("cover_sub") else None
+
+def render_cover(t):
+    fr = COVER.copy()
+    z = 1.0 + 0.03 * t / max(COVER_LEN, .1)
+    if LOGO is not None: paste(fr, LOGO_BIG, W / 2, 560 - (y0_shift if False else 0), ease_out_back(t / .35, 1.8), 0, clamp(t / .15))
+    for j, (sp, x, y, kf, k) in enumerate(COVER_SPR):
+        tt = t - 0.08 - k * 0.12
+        if tt > 0: paste(fr, sp, x, y, kf * (0.3 + 0.7 * ease_out_back(tt / .25, 2.2)), 0, clamp(tt / .08))
+    if COVER_SUB is not None and t > .4: paste(fr, COVER_SUB, W / 2, 1400, 1.0, -2, clamp((t - .4) / .2))
+    return fr
+
 def frame_at(T):
+    if T >= SCENES_END and COVER is not None:
+        t = T - SCENES_END; fr = render_cover(t)
+        if t < 0.25:  # quick flash transition
+            fr = fr * (0.4 + 0.6 * t / 0.25) + 255 * (1 - t / 0.25) * 0.25
+        fr = fr * vign
+        if T > TOTAL - 0.3: fr *= max(0, (TOTAL - T) / 0.3)
+        return np.clip(fr, 0, 255).astype(np.uint8)
+    return frame_scene(T)
+
+def frame_scene(T):
     i = max(j for j in range(N) if starts[j] <= T + 1e-9); t = T - starts[i]; fr = render_scene(i, t); TR = 0.42
     if i > 0 and t < TR:
         prev = render_scene(i - 1, scene_len[i - 1] + t); p = ease_in_out(t / TR)
@@ -304,8 +352,9 @@ def frame_at(T):
         if 0 <= d < 0.3:
             amp = 16 * (1 - d / 0.3); fr = cv2.warpAffine(fr, np.float32([[1, 0, amp * math.sin(d * 90)], [0, 1, amp * math.cos(d * 73)]]), (W, H), borderMode=cv2.BORDER_REFLECT)
     fr = fr * vign + cv2.resize(grain_bank[int(T * FPS) % 6], (W, H), interpolation=cv2.INTER_NEAREST)[..., None]
+    if LOGO is not None: paste(fr, LOGO, W - 105, H - 115, 1.0, 0, 0.95)
     if T < 0.25: fr *= T / 0.25
-    if T > TOTAL - 0.5: fr *= max(0, (TOTAL - T) / 0.5)
+    if COVER is None and T > TOTAL - 0.5: fr *= max(0, (TOTAL - T) / 0.5)
     return np.clip(fr, 0, 255).astype(np.uint8)
 
 # ---------------- audio ----------------
@@ -365,14 +414,14 @@ if ONLY:
     for k, im in enumerate(ims): sheet.paste(im, ((k % cols) * 324, (k // cols) * 576))
     sheet.save(f"{OUT}/preview/sheet.jpg", quality=85); print("preview", f"{OUT}/preview/sheet.jpg", "starts", [round(s, 2) for s in starts]); sys.exit()
 if "--auto-preview" in sys.argv:
-    pts = [starts[i] + scene_len[i] * 0.85 for i in range(N)]
+    pts = [starts[i] + scene_len[i] * 0.85 for i in range(N)] + ([SCENES_END + 1.0] if COVER is not None else [])
     os.makedirs(f"{OUT}/preview", exist_ok=True); ims = [Image.fromarray(frame_at(T)).resize((324, 576)) for T in pts]
     cols = 5; rows = math.ceil(len(ims) / cols); sheet = Image.new("RGB", (324 * cols, 576 * rows))
     for k, im in enumerate(ims): sheet.paste(im, ((k % cols) * 324, (k // cols) * 576))
     sheet.save(f"{OUT}/preview/sheet.jpg", quality=85); print("preview", f"{OUT}/preview/sheet.jpg"); sys.exit()
 
 build_audio(f"{OUT}/audio.wav")
-cover_t = (HITS[0] + 0.5) if HITS else min(3.0, TOTAL / 2)
+cover_t = (SCENES_END + 1.0) if COVER is not None else ((HITS[0] + 0.5) if HITS else min(3.0, TOTAL / 2))
 Image.fromarray(frame_at(cover_t)).save(f"{OUT}/cover.jpg", quality=92)
 timing["cover_ms"] = int(cover_t * 1000); json.dump(timing, open(f"{OUT}/timing.json", "w"), indent=1)
 nf = int(TOTAL * FPS)

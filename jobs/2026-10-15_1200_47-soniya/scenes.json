@@ -1,0 +1,217 @@
+{
+ "title": "8 soat ish = 47 soniya",
+ "music_seed": 41,
+ "scenes": [
+  {
+   "text": "Bu odam bugun sakkiz soat ishladi.",
+   "mood": "hero",
+   "elements": [
+    {
+     "type": "caption",
+     "words": [
+      "8",
+      "SOAT"
+     ],
+     "color": "white",
+     "y": 1300,
+     "at": 0.3
+    },
+    {
+     "type": "stamp",
+     "text": "ISHLADI!",
+     "y": 1500,
+     "rot": -5,
+     "at": "ishladi"
+    }
+   ]
+  },
+  {
+   "text": "Aniqrog'i — qirq yetti soniyadan.",
+   "mood": "sad",
+   "elements": [
+    {
+     "type": "big",
+     "text": "…47 SONIYADAN",
+     "size": 120,
+     "y": 1450,
+     "rot": -3,
+     "at": "qirq"
+    }
+   ]
+  },
+  {
+   "text": "Soat to'qqiz. Ishni boshladi. Bildirishnoma: «Siz guruhga qo'shildingiz».",
+   "mood": "groove",
+   "elements": [
+    {
+     "type": "clock",
+     "day": "ISH KUNI",
+     "time": "09:00",
+     "at": "start"
+    },
+    {
+     "type": "pill",
+     "text": "+1 GURUH",
+     "bg": "royal",
+     "x": 760,
+     "y": 640,
+     "rot": 5,
+     "at": "guruhga"
+    }
+   ]
+  },
+  {
+   "text": "Qarindoshlar guruhi: tug'ilgan kun tabrigi, ikki yuz ta stiker.",
+   "mood": "groove",
+   "elements": [
+    {
+     "type": "pill",
+     "text": "TABRIK!",
+     "bg": "orange",
+     "x": 300,
+     "y": 480,
+     "rot": -6,
+     "at": "tugilgan"
+    },
+    {
+     "type": "pill",
+     "text": "+200 STIKER",
+     "bg": "purple",
+     "x": 740,
+     "y": 620,
+     "rot": 4,
+     "at": "ikki yuz"
+    }
+   ]
+  },
+  {
+   "text": "Ishga qaytdi. «Qayerda edim?» ...Yana boshidan.",
+   "mood": "groove",
+   "elements": [
+    {
+     "type": "note",
+     "text": "«qayerda edim?»",
+     "size": 84,
+     "y": 420,
+     "rot": -2,
+     "at": "qayerda"
+    },
+    {
+     "type": "stamp",
+     "text": "YANA BOSHIDAN",
+     "y": 1580,
+     "rot": 4,
+     "at": "yana boshidan"
+    }
+   ]
+  },
+  {
+   "text": "Tushlik — telefon bilan. Tushlikdan keyin ham — telefon.",
+   "mood": "groove",
+   "elements": [
+    {
+     "type": "clock",
+     "day": "TUSHLIK",
+     "time": "13:00",
+     "at": "start"
+    },
+    {
+     "type": "pill",
+     "text": "YANA TELEFON",
+     "bg": "navy",
+     "fg": "yellow",
+     "x": 540,
+     "y": 1540,
+     "rot": -2,
+     "at": "keyin ham"
+    }
+   ]
+  },
+  {
+   "text": "Olima Gloria Mark hisoblagan: ikki ming to'rtinchi yilda ekranga diqqatimiz ikki yarim daqiqa edi. Hozir — qirq yetti soniya.",
+   "mood": "mystery",
+   "elements": [
+    {
+     "type": "dark",
+     "amount": 0.35,
+     "at": "start"
+    },
+    {
+     "type": "card",
+     "kicker": "Tadqiqot",
+     "title": [
+      "DIQQAT",
+      "VAQTI"
+     ],
+     "sub": "Gloria Mark · UC Irvine",
+     "y": 540,
+     "at": 0.3
+    },
+    {
+     "type": "pill",
+     "text": "2004: 2,5 DAQIQA",
+     "bg": "royal",
+     "x": 540,
+     "y": 1050,
+     "rot": -2,
+     "at": "ikki ming"
+    },
+    {
+     "type": "big",
+     "text": "HOZIR: 47 SONIYA",
+     "size": 110,
+     "y": 1280,
+     "rot": -2,
+     "at": "hozir"
+    }
+   ]
+  },
+  {
+   "text": "Hamkasbi esa bildirishnomalarni o'chirib qo'ydi. Ishni ikki soat oldin tugatdi.",
+   "mood": "warm",
+   "elements": [
+    {
+     "type": "note",
+     "text": "bildirishnomalar: O‘CHIQ",
+     "size": 76,
+     "y": 360,
+     "rot": -2,
+     "at": "bildirishnomalarni"
+    },
+    {
+     "type": "big",
+     "text": "−2 SOAT",
+     "y": 1450,
+     "rot": -2,
+     "at": "ikki soat"
+    }
+   ]
+  },
+  {
+   "text": "Bildirishnomalarni o'chirishga jur'atingiz yetadimi?",
+   "mood": "finale",
+   "elements": [
+    {
+     "type": "dark",
+     "amount": 0.5,
+     "at": 0.1
+    },
+    {
+     "type": "final",
+     "lines": [
+      "JUR’ATINGIZ",
+      "YETADIMI?"
+     ],
+     "y": 880,
+     "size": 130,
+     "at": "jur"
+    }
+   ]
+  }
+ ],
+ "cover_title": [
+  "8 SOAT ISH",
+  "= 47 SONIYA"
+ ],
+ "cover_sub": "diqqatingiz qayerda?"
+}

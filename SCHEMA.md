@@ -44,3 +44,9 @@
 
 Layout rules: canvas 1080×1920. Keep text inside x 60–1020. Leave the character's face visible —
 put stickers/pills on the side or top, captions in the lower third. Max ~3 overlay items visible at once.
+
+## Brend va muqova
+- `cover_title`: `["1-qator", "2-qator"]` — video oxirida 1.8 s muqova kadri (xira qahramon rasmi + logotip + katta sarlavha). Instagram thumbnail shu kadrdan olinadi (`timing.json` → `cover_ms`). Profil to'rida markaziy 3:4 qism ko'rinadi — sarlavha markazda.
+- `cover_sub`: muqova ostidagi qisqa qo'lyozma qator.
+- `cover_scene`: muqova foni uchun sahna raqami (0 = 1-sahna).
+- Logotip `brand/logo_99foiz.png` avtomatik o'ng pastki burchakka qo'yiladi (`"logo": false` bilan o'chiriladi).

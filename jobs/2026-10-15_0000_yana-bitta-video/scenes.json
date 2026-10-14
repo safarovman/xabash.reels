@@ -1,0 +1,246 @@
+{
+ "title": "Yana bitta video…",
+ "music_seed": 23,
+ "scenes": [
+  {
+   "text": "Bu odam har kecha qahramonlik qiladi: o'zi bilan jang qiladi... va yutqazadi.",
+   "mood": "hero",
+   "elements": [
+    {
+     "type": "caption",
+     "words": [
+      "HAR",
+      "KECHA"
+     ],
+     "color": "white",
+     "y": 1300,
+     "at": 0.3
+    },
+    {
+     "type": "caption",
+     "words": [
+      "QAHRAMONLIK"
+     ],
+     "color": "yellow",
+     "y": 1425,
+     "at": "qahramonlik"
+    },
+    {
+     "type": "stamp",
+     "text": "YUTQAZADI!",
+     "y": 1590,
+     "rot": -5,
+     "at": "yutqazadi"
+    }
+   ]
+  },
+  {
+   "text": "Soat o'n bir. «Bugun erta yotaman». Telefon — faqat budilnik qo'yish uchun.",
+   "mood": "tense",
+   "elements": [
+    {
+     "type": "clock",
+     "day": "TUN",
+     "time": "23:00",
+     "at": "start"
+    },
+    {
+     "type": "note",
+     "text": "«bugun erta yotaman»",
+     "size": 80,
+     "y": 1520,
+     "rot": -2,
+     "at": "bugun erta"
+    }
+   ]
+  },
+  {
+   "text": "Bitta video. Yana bitta. Bu ham qiziq ekan...",
+   "mood": "groove",
+   "elements": [
+    {
+     "type": "pill",
+     "text": "1 VIDEO",
+     "bg": "navy",
+     "fg": "yellow",
+     "x": 300,
+     "y": 480,
+     "rot": -5,
+     "at": "bitta video"
+    },
+    {
+     "type": "pill",
+     "text": "+1",
+     "bg": "navy",
+     "fg": "yellow",
+     "x": 760,
+     "y": 560,
+     "rot": 5,
+     "at": "yana bitta"
+    },
+    {
+     "type": "pill",
+     "text": "+1 +1 +1",
+     "bg": "navy",
+     "fg": "yellow",
+     "x": 520,
+     "y": 700,
+     "rot": -3,
+     "at": "qiziq"
+    }
+   ]
+  },
+  {
+   "text": "Soat ikki-yu qirq yetti. Ko'zlar qizargan. Ertaga — ish.",
+   "mood": "tense",
+   "elements": [
+    {
+     "type": "clock",
+     "day": "TUN",
+     "time": "02:47",
+     "at": "start"
+    },
+    {
+     "type": "stamp",
+     "text": "ERTAGA ISH!",
+     "y": 1580,
+     "rot": 4,
+     "at": "ertaga"
+    }
+   ]
+  },
+  {
+   "text": "Ertalab — ko'z ochilmaydi, choy ham yordam bermaydi.",
+   "mood": "groove",
+   "elements": [
+    {
+     "type": "note",
+     "text": "choy ham yordam bermaydi…",
+     "size": 74,
+     "y": 1540,
+     "rot": 2,
+     "at": "choy"
+    }
+   ]
+  },
+  {
+   "text": "Olimlar buni «uxlashni kechiktirish» deb atashadi: hech narsa xalaqit bermasa ham, uyquni orqaga suramiz.",
+   "mood": "mystery",
+   "elements": [
+    {
+     "type": "dark",
+     "amount": 0.35,
+     "at": "start"
+    },
+    {
+     "type": "card",
+     "kicker": "Psixologiya",
+     "title": [
+      "UXLASHNI",
+      "KECHIKTIRISH"
+     ],
+     "sub": "Kroese va boshq. · 2014",
+     "y": 560,
+     "at": 0.3
+    },
+    {
+     "type": "note",
+     "text": "hech narsa xalaqit bermasa ham",
+     "size": 66,
+     "y": 960,
+     "rot": 1.5,
+     "at": "hech narsa"
+    }
+   ]
+  },
+  {
+   "text": "Sababi oddiy: kun bo'yi o'zimizga vaqt qolmaydi — uni kechasi o'g'irlab olamiz.",
+   "mood": "mystery",
+   "elements": [
+    {
+     "type": "dark",
+     "amount": 0.2,
+     "at": "start"
+    },
+    {
+     "type": "caption",
+     "words": [
+      "VAQTNI"
+     ],
+     "color": "white",
+     "y": 1330,
+     "at": "vaqt"
+    },
+    {
+     "type": "caption",
+     "words": [
+      "O‘G‘IRLAYMIZ"
+     ],
+     "color": "yellow",
+     "y": 1455,
+     "at": "ogirlab"
+    }
+   ]
+  },
+  {
+   "text": "Lekin har kecha bir soat kam uxlasangiz — haftasiga yetti soat. Bu bitta to'liq tun.",
+   "mood": "warm",
+   "elements": [
+    {
+     "type": "note",
+     "text": "1 soat × 7 kun",
+     "size": 80,
+     "y": 1250,
+     "rot": -1,
+     "at": "har kecha"
+    },
+    {
+     "type": "big",
+     "text": "= 1 TUN",
+     "y": 1450,
+     "rot": -2,
+     "at": "bitta toliq"
+    }
+   ]
+  },
+  {
+   "text": "Telefoningizni qo'ying. Hoziroq. ...Bu videodan keyin, albatta.",
+   "mood": "finale",
+   "elements": [
+    {
+     "type": "caption",
+     "words": [
+      "TELEFONNI",
+      "QO‘YING."
+     ],
+     "color": "white",
+     "y": 1320,
+     "at": 0
+    },
+    {
+     "type": "hide_captions",
+     "at": "bu videodan"
+    },
+    {
+     "type": "dark",
+     "amount": 0.5,
+     "at": "bu videodan"
+    },
+    {
+     "type": "final",
+     "lines": [
+      "BU VIDEODAN",
+      "KEYIN"
+     ],
+     "y": 880,
+     "at": "bu videodan"
+    }
+   ]
+  }
+ ],
+ "cover_title": [
+  "YANA BITTA",
+  "VIDEO…"
+ ],
+ "cover_sub": "23:00 → 02:47"
+}

@@ -1,61 +1,403 @@
 {
-  "title": "Ertadan boshlayman",
-  "music_seed": 1,
-  "scenes": [
-    {"text": "Bu odam bir yilda hayotini ellik ikki marta o'zgartirdi.", "mood": "hero",
-     "elements": [
-       {"type": "caption", "words": ["BIR", "YILDA"], "color": "white", "y": 1300, "at": 0.45},
-       {"type": "caption", "words": ["52", "MARTA"], "color": "yellow", "y": 1425, "at": "ellik ikki"},
-       {"type": "stamp", "text": "O‘ZGARTIRDI!", "y": 1590, "rot": -5, "at": 3.05}]},
-    {"text": "Rejada.", "mood": "sad",
-     "elements": [{"type": "note", "text": "…rejada.", "size": 120, "y": 1480, "rot": -3, "at": 0}]},
-    {"text": "Har safar — dushanbadan. Yakshanba kechasi: sport, ingliz tili, parhez.", "mood": "groove",
-     "elements": [
-       {"type": "clock", "day": "YAKSHANBA", "time": "23:58", "at": "start"},
-       {"type": "note", "text": "har safar — dushanbadan", "size": 74, "y": 1540, "rot": 2, "at": "dushanbadan"},
-       {"type": "sticker", "lines": ["SPORT"], "color": "yellow", "x": 185, "y": 640, "rot": -9, "w": 270, "size": 52, "at": "sport"},
-       {"type": "sticker", "lines": ["INGLIZ TILI"], "color": "pink", "x": 200, "y": 935, "rot": 6, "w": 270, "size": 52, "at": "ingliz tili"},
-       {"type": "sticker", "lines": ["PARHEZ"], "color": "blue", "x": 180, "y": 1230, "rot": -5, "w": 270, "size": 52, "at": "parhez"}]},
-    {"text": "Dushanba, ertalab soat yetti. Yana besh daqiqa...", "mood": "groove",
-     "elements": [
-       {"type": "clock", "day": "DUSHANBA", "time": "07:00", "at": "start"},
-       {"type": "ring", "x": 880, "y": 1210, "at": 1.0},
-       {"type": "pill", "text": "+5 daqiqa", "bg": "navy", "fg": "yellow", "x": 300, "y": 620, "rot": -7, "at": 3.0},
-       {"type": "pill", "text": "+5 daqiqa", "bg": "navy", "fg": "yellow", "x": 760, "y": 560, "rot": 6, "at": 3.42},
-       {"type": "pill", "text": "+5 daqiqa", "bg": "navy", "fg": "yellow", "x": 540, "y": 780, "rot": -3, "at": 3.84}]},
-    {"text": "Tushlikda — somsa. Parhez? Ertadan.", "mood": "groove",
-     "elements": [
-       {"type": "caption", "words": ["TUSHLIKDA"], "color": "white", "y": 1330, "at": 0},
-       {"type": "caption", "words": ["SOMSA"], "color": "yellow", "y": 1455, "size": 120, "at": "somsa"},
-       {"type": "stamp", "text": "PARHEZ: ERTADAN", "size": 84, "y": 1640, "rot": 4, "at": "ertadan"}]},
-    {"text": "Ingliz tili — ikki ming o'n to'qqizinchi yildan beri ertadan.", "mood": "groove",
-     "elements": [
-       {"type": "sticker", "lines": ["INGLIZ TILI", "2019-dan"], "color": "yellow", "x": 290, "y": 640, "rot": -6, "w": 340, "at": 0},
-       {"type": "sticker", "lines": ["SPORT", "2021-dan"], "color": "pink", "x": 790, "y": 900, "rot": 5, "w": 340, "at": 1.6},
-       {"type": "sticker", "lines": ["KITOB", "2023-dan"], "color": "blue", "x": 360, "y": 1200, "rot": -3, "w": 340, "at": 2.45},
-       {"type": "xmark", "x": 290, "y": 650, "at": 3.55},
-       {"type": "xmark", "x": 790, "y": 910, "at": 3.77},
-       {"type": "xmark", "x": 360, "y": 1210, "at": 3.99}]},
-    {"text": "Psixologlar buni yangi boshlanish effekti deyishadi: biz o'zgarishni sanaga bog'laymiz. Dushanba... birinchi yanvar... tug'ilgan kun...", "mood": "mystery",
-     "elements": [
-       {"type": "dark", "amount": 0.35, "at": "start"},
-       {"type": "card", "kicker": "Psixologiya", "title": ["YANGI BOSHLANISH", "EFFEKTI"], "sub": "Dai, Milkman, Riis · 2014", "y": 560, "at": 0.25},
-       {"type": "note", "text": "biz o‘zgarishni sanaga bog‘laymiz", "size": 66, "y": 930, "rot": 1.5, "at": "biz ozgarishni"},
-       {"type": "pill", "text": "DUSHANBA", "bg": "crimson", "x": 320, "y": 1230, "rot": -4, "at": "dushanba"},
-       {"type": "pill", "text": "1-YANVAR", "bg": "royal", "x": 760, "y": 1345, "rot": 3, "at": "birinchi yanvar"},
-       {"type": "pill", "text": "TUG‘ILGAN KUN", "bg": "orange", "x": 500, "y": 1470, "rot": -2, "at": "tugilgan kun"}]},
-    {"text": "Do'sti esa reja tuzmadi. Kuniga o'n daqiqa kitob o'qidi. Bir yilda — oltmish soatdan ko'p.", "mood": "warm",
-     "elements": [
-       {"type": "note", "text": "do‘sti — reja tuzmadi", "y": 300, "rot": -2, "at": 0},
-       {"type": "note", "text": "10 daqiqa × 365 kun", "size": 76, "y": 1250, "rot": -1, "at": "kuniga"},
-       {"type": "note", "text": "= 3 650 daqiqa", "size": 76, "x": 560, "y": 1385, "rot": 1, "at": "bir yilda"},
-       {"type": "big", "text": "≈ 61 SOAT", "y": 1575, "rot": -2, "at": "oltmish"}]},
-    {"text": "Dushanba — kalendarda. Boshlanish — sizda. Sizniki qachon?", "mood": "finale",
-     "elements": [
-       {"type": "caption", "words": ["DUSHANBA", "—", "KALENDARDA."], "color": "white", "y": 1320, "gap": 0.35, "at": 0},
-       {"type": "caption", "words": ["BOSHLANISH", "—", "SIZDA."], "color": "yellow", "y": 1445, "gap": 0.4, "at": "boshlanish"},
-       {"type": "hide_captions", "at": 4.55},
-       {"type": "dark", "amount": 0.55, "at": 4.5},
-       {"type": "final", "lines": ["SIZNIKI", "QACHON?"], "y": 880, "at": "sizniki qachon"}]}
-  ]
+ "title": "Ertadan boshlayman",
+ "music_seed": 1,
+ "scenes": [
+  {
+   "text": "Bu odam bir yilda hayotini ellik ikki marta o'zgartirdi.",
+   "mood": "hero",
+   "elements": [
+    {
+     "type": "caption",
+     "words": [
+      "BIR",
+      "YILDA"
+     ],
+     "color": "white",
+     "y": 1300,
+     "at": 0.45
+    },
+    {
+     "type": "caption",
+     "words": [
+      "52",
+      "MARTA"
+     ],
+     "color": "yellow",
+     "y": 1425,
+     "at": "ellik ikki"
+    },
+    {
+     "type": "stamp",
+     "text": "O‘ZGARTIRDI!",
+     "y": 1590,
+     "rot": -5,
+     "at": 3.05
+    }
+   ]
+  },
+  {
+   "text": "Rejada.",
+   "mood": "sad",
+   "elements": [
+    {
+     "type": "note",
+     "text": "…rejada.",
+     "size": 120,
+     "y": 1480,
+     "rot": -3,
+     "at": 0
+    }
+   ]
+  },
+  {
+   "text": "Har safar — dushanbadan. Yakshanba kechasi: sport, ingliz tili, parhez.",
+   "mood": "groove",
+   "elements": [
+    {
+     "type": "clock",
+     "day": "YAKSHANBA",
+     "time": "23:58",
+     "at": "start"
+    },
+    {
+     "type": "note",
+     "text": "har safar — dushanbadan",
+     "size": 74,
+     "y": 1540,
+     "rot": 2,
+     "at": "dushanbadan"
+    },
+    {
+     "type": "sticker",
+     "lines": [
+      "SPORT"
+     ],
+     "color": "yellow",
+     "x": 185,
+     "y": 640,
+     "rot": -9,
+     "w": 270,
+     "size": 52,
+     "at": "sport"
+    },
+    {
+     "type": "sticker",
+     "lines": [
+      "INGLIZ TILI"
+     ],
+     "color": "pink",
+     "x": 200,
+     "y": 935,
+     "rot": 6,
+     "w": 270,
+     "size": 52,
+     "at": "ingliz tili"
+    },
+    {
+     "type": "sticker",
+     "lines": [
+      "PARHEZ"
+     ],
+     "color": "blue",
+     "x": 180,
+     "y": 1230,
+     "rot": -5,
+     "w": 270,
+     "size": 52,
+     "at": "parhez"
+    }
+   ]
+  },
+  {
+   "text": "Dushanba, ertalab soat yetti. Yana besh daqiqa...",
+   "mood": "groove",
+   "elements": [
+    {
+     "type": "clock",
+     "day": "DUSHANBA",
+     "time": "07:00",
+     "at": "start"
+    },
+    {
+     "type": "ring",
+     "x": 880,
+     "y": 1210,
+     "at": 1.0
+    },
+    {
+     "type": "pill",
+     "text": "+5 daqiqa",
+     "bg": "navy",
+     "fg": "yellow",
+     "x": 300,
+     "y": 620,
+     "rot": -7,
+     "at": 3.0
+    },
+    {
+     "type": "pill",
+     "text": "+5 daqiqa",
+     "bg": "navy",
+     "fg": "yellow",
+     "x": 760,
+     "y": 560,
+     "rot": 6,
+     "at": 3.42
+    },
+    {
+     "type": "pill",
+     "text": "+5 daqiqa",
+     "bg": "navy",
+     "fg": "yellow",
+     "x": 540,
+     "y": 780,
+     "rot": -3,
+     "at": 3.84
+    }
+   ]
+  },
+  {
+   "text": "Tushlikda — somsa. Parhez? Ertadan.",
+   "mood": "groove",
+   "elements": [
+    {
+     "type": "caption",
+     "words": [
+      "TUSHLIKDA"
+     ],
+     "color": "white",
+     "y": 1330,
+     "at": 0
+    },
+    {
+     "type": "caption",
+     "words": [
+      "SOMSA"
+     ],
+     "color": "yellow",
+     "y": 1455,
+     "size": 120,
+     "at": "somsa"
+    },
+    {
+     "type": "stamp",
+     "text": "PARHEZ: ERTADAN",
+     "size": 84,
+     "y": 1640,
+     "rot": 4,
+     "at": "ertadan"
+    }
+   ]
+  },
+  {
+   "text": "Ingliz tili — ikki ming o'n to'qqizinchi yildan beri ertadan.",
+   "mood": "groove",
+   "elements": [
+    {
+     "type": "sticker",
+     "lines": [
+      "INGLIZ TILI",
+      "2019-dan"
+     ],
+     "color": "yellow",
+     "x": 290,
+     "y": 640,
+     "rot": -6,
+     "w": 340,
+     "at": 0
+    },
+    {
+     "type": "sticker",
+     "lines": [
+      "SPORT",
+      "2021-dan"
+     ],
+     "color": "pink",
+     "x": 790,
+     "y": 900,
+     "rot": 5,
+     "w": 340,
+     "at": 1.6
+    },
+    {
+     "type": "sticker",
+     "lines": [
+      "KITOB",
+      "2023-dan"
+     ],
+     "color": "blue",
+     "x": 360,
+     "y": 1200,
+     "rot": -3,
+     "w": 340,
+     "at": 2.45
+    },
+    {
+     "type": "xmark",
+     "x": 290,
+     "y": 650,
+     "at": 3.55
+    },
+    {
+     "type": "xmark",
+     "x": 790,
+     "y": 910,
+     "at": 3.77
+    },
+    {
+     "type": "xmark",
+     "x": 360,
+     "y": 1210,
+     "at": 3.99
+    }
+   ]
+  },
+  {
+   "text": "Psixologlar buni yangi boshlanish effekti deyishadi: biz o'zgarishni sanaga bog'laymiz. Dushanba... birinchi yanvar... tug'ilgan kun...",
+   "mood": "mystery",
+   "elements": [
+    {
+     "type": "dark",
+     "amount": 0.35,
+     "at": "start"
+    },
+    {
+     "type": "card",
+     "kicker": "Psixologiya",
+     "title": [
+      "YANGI BOSHLANISH",
+      "EFFEKTI"
+     ],
+     "sub": "Dai, Milkman, Riis · 2014",
+     "y": 560,
+     "at": 0.25
+    },
+    {
+     "type": "note",
+     "text": "biz o‘zgarishni sanaga bog‘laymiz",
+     "size": 66,
+     "y": 930,
+     "rot": 1.5,
+     "at": "biz ozgarishni"
+    },
+    {
+     "type": "pill",
+     "text": "DUSHANBA",
+     "bg": "crimson",
+     "x": 320,
+     "y": 1230,
+     "rot": -4,
+     "at": "dushanba"
+    },
+    {
+     "type": "pill",
+     "text": "1-YANVAR",
+     "bg": "royal",
+     "x": 760,
+     "y": 1345,
+     "rot": 3,
+     "at": "birinchi yanvar"
+    },
+    {
+     "type": "pill",
+     "text": "TUG‘ILGAN KUN",
+     "bg": "orange",
+     "x": 500,
+     "y": 1470,
+     "rot": -2,
+     "at": "tugilgan kun"
+    }
+   ]
+  },
+  {
+   "text": "Do'sti esa reja tuzmadi. Kuniga o'n daqiqa kitob o'qidi. Bir yilda — oltmish soatdan ko'p.",
+   "mood": "warm",
+   "elements": [
+    {
+     "type": "note",
+     "text": "do‘sti — reja tuzmadi",
+     "y": 300,
+     "rot": -2,
+     "at": 0
+    },
+    {
+     "type": "note",
+     "text": "10 daqiqa × 365 kun",
+     "size": 76,
+     "y": 1250,
+     "rot": -1,
+     "at": "kuniga"
+    },
+    {
+     "type": "note",
+     "text": "= 3 650 daqiqa",
+     "size": 76,
+     "x": 560,
+     "y": 1385,
+     "rot": 1,
+     "at": "bir yilda"
+    },
+    {
+     "type": "big",
+     "text": "≈ 61 SOAT",
+     "y": 1575,
+     "rot": -2,
+     "at": "oltmish"
+    }
+   ]
+  },
+  {
+   "text": "Dushanba — kalendarda. Boshlanish — sizda. Sizniki qachon?",
+   "mood": "finale",
+   "elements": [
+    {
+     "type": "caption",
+     "words": [
+      "DUSHANBA",
+      "—",
+      "KALENDARDA."
+     ],
+     "color": "white",
+     "y": 1320,
+     "gap": 0.35,
+     "at": 0
+    },
+    {
+     "type": "caption",
+     "words": [
+      "BOSHLANISH",
+      "—",
+      "SIZDA."
+     ],
+     "color": "yellow",
+     "y": 1445,
+     "gap": 0.4,
+     "at": "boshlanish"
+    },
+    {
+     "type": "hide_captions",
+     "at": 4.55
+    },
+    {
+     "type": "dark",
+     "amount": 0.55,
+     "at": 4.5
+    },
+    {
+     "type": "final",
+     "lines": [
+      "SIZNIKI",
+      "QACHON?"
+     ],
+     "y": 880,
+     "at": "sizniki qachon"
+    }
+   ]
+  }
+ ],
+ "cover_title": [
+  "ERTADAN",
+  "BOSHLAYMAN"
+ ],
+ "cover_sub": "52 ta reja · 0 ta boshlanish"
 }

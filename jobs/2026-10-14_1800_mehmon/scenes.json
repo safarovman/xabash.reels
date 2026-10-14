@@ -1,0 +1,308 @@
+{
+ "title": "Mehmon kelyapti!",
+ "music_seed": 11,
+ "scenes": [
+  {
+   "text": "Bu oila o'n besh daqiqada yigirma xil taom tayyorladi. Bitta mehmon uchun!",
+   "mood": "hero",
+   "elements": [
+    {
+     "type": "caption",
+     "words": [
+      "15",
+      "DAQIQADA"
+     ],
+     "color": "white",
+     "y": 1300,
+     "at": 0.3
+    },
+    {
+     "type": "caption",
+     "words": [
+      "20",
+      "XIL",
+      "TAOM"
+     ],
+     "color": "yellow",
+     "y": 1425,
+     "at": "yigirma xil"
+    },
+    {
+     "type": "stamp",
+     "text": "BITTA MEHMON UCHUN!",
+     "y": 1590,
+     "rot": -5,
+     "at": "bitta mehmon"
+    }
+   ]
+  },
+  {
+   "text": "Hammasi bitta qo'ng'iroqdan boshlandi: «Ovora bo'lmanglar, bir piyola choyga kiraman».",
+   "mood": "tense",
+   "elements": [
+    {
+     "type": "clock",
+     "day": "CHORSHANBA",
+     "time": "17:45",
+     "at": "start"
+    },
+    {
+     "type": "note",
+     "text": "«ovora bo‘lmanglar, bir piyola choyga…»",
+     "size": 66,
+     "y": 1560,
+     "rot": -2,
+     "at": "ovora"
+    }
+   ]
+  },
+  {
+   "text": "Ona — oshxonaga. Ota — bozorga. Bola — dasturxonni yozishga.",
+   "mood": "groove",
+   "elements": [
+    {
+     "type": "pill",
+     "text": "ONA → OSHXONA",
+     "bg": "crimson",
+     "x": 330,
+     "y": 420,
+     "rot": -4,
+     "at": "ona"
+    },
+    {
+     "type": "pill",
+     "text": "OTA → BOZOR",
+     "bg": "royal",
+     "x": 720,
+     "y": 560,
+     "rot": 3,
+     "at": "ota"
+    },
+    {
+     "type": "pill",
+     "text": "BOLA → DASTURXON",
+     "bg": "orange",
+     "x": 480,
+     "y": 700,
+     "rot": -2,
+     "at": "bola"
+    }
+   ]
+  },
+  {
+   "text": "Non, choy, salat, somsa, chuchvara, palov, uch xil shirinlik... «Uzr, hech narsa qilolmadik».",
+   "mood": "groove",
+   "elements": [
+    {
+     "type": "sticker",
+     "lines": [
+      "NON"
+     ],
+     "color": "yellow",
+     "x": 200,
+     "y": 420,
+     "rot": -8,
+     "w": 230,
+     "size": 56,
+     "at": "non"
+    },
+    {
+     "type": "sticker",
+     "lines": [
+      "SOMSA"
+     ],
+     "color": "pink",
+     "x": 540,
+     "y": 380,
+     "rot": 5,
+     "w": 230,
+     "size": 52,
+     "at": "somsa"
+    },
+    {
+     "type": "sticker",
+     "lines": [
+      "PALOV"
+     ],
+     "color": "blue",
+     "x": 870,
+     "y": 440,
+     "rot": -4,
+     "w": 230,
+     "size": 52,
+     "at": "palov"
+    },
+    {
+     "type": "caption",
+     "words": [
+      "«HECH",
+      "NARSA"
+     ],
+     "color": "white",
+     "y": 1330,
+     "at": "uzr"
+    },
+    {
+     "type": "caption",
+     "words": [
+      "QILOLMADIK»"
+     ],
+     "color": "yellow",
+     "y": 1455,
+     "at": "qilolmadik"
+    }
+   ]
+  },
+  {
+   "text": "Mehmon yarim soat o'tirdi, ikki piyola choy ichdi va ketdi.",
+   "mood": "groove",
+   "elements": [
+    {
+     "type": "pill",
+     "text": "30 DAQIQA",
+     "bg": "navy",
+     "fg": "yellow",
+     "x": 300,
+     "y": 480,
+     "rot": -5,
+     "at": "yarim soat"
+    },
+    {
+     "type": "pill",
+     "text": "2 PIYOLA CHOY",
+     "bg": "navy",
+     "fg": "yellow",
+     "x": 700,
+     "y": 600,
+     "rot": 4,
+     "at": "ikki piyola"
+    },
+    {
+     "type": "stamp",
+     "text": "KETDI!",
+     "y": 1560,
+     "rot": -6,
+     "at": "ketdi"
+    }
+   ]
+  },
+  {
+   "text": "Ertasi kuni: nonushtaga palov, tushlikka palov, kechki ovqatga... yana palov.",
+   "mood": "groove",
+   "elements": [
+    {
+     "type": "pill",
+     "text": "NONUSHTA: PALOV",
+     "bg": "orange",
+     "x": 380,
+     "y": 420,
+     "rot": -4,
+     "at": "nonushtaga"
+    },
+    {
+     "type": "pill",
+     "text": "TUSHLIK: PALOV",
+     "bg": "orange",
+     "x": 700,
+     "y": 560,
+     "rot": 3,
+     "at": "tushlikka"
+    },
+    {
+     "type": "pill",
+     "text": "KECHKI: PALOV",
+     "bg": "orange",
+     "x": 430,
+     "y": 700,
+     "rot": -2,
+     "at": "kechki"
+    },
+    {
+     "type": "stamp",
+     "text": "YANA PALOV",
+     "y": 1580,
+     "rot": 4,
+     "at": "yana palov"
+    }
+   ]
+  },
+  {
+   "text": "BMT hisobotiga ko'ra, har bir odam uyda yiliga yetmish to'qqiz kilogramm ovqatni isrof qiladi.",
+   "mood": "mystery",
+   "elements": [
+    {
+     "type": "dark",
+     "amount": 0.35,
+     "at": "start"
+    },
+    {
+     "type": "card",
+     "kicker": "BMT hisoboti",
+     "title": [
+      "YILIGA",
+      "ISROF"
+     ],
+     "sub": "UNEP Food Waste Index · 2024",
+     "y": 560,
+     "at": 0.3
+    },
+    {
+     "type": "big",
+     "text": "79 KG",
+     "y": 1250,
+     "rot": -3,
+     "at": "yetmish"
+    }
+   ]
+  },
+  {
+   "text": "Mehmondo'stlik — dasturxonning uzunligida emas, suhbatning issiqligida.",
+   "mood": "warm",
+   "elements": [
+    {
+     "type": "note",
+     "text": "dasturxon uzunligi ≠ mehmondo‘stlik",
+     "size": 70,
+     "y": 320,
+     "rot": -2,
+     "at": 0
+    },
+    {
+     "type": "caption",
+     "words": [
+      "SUHBAT",
+      "ISSIQLIGI"
+     ],
+     "color": "yellow",
+     "y": 1450,
+     "at": "suhbatning"
+    }
+   ]
+  },
+  {
+   "text": "Xo'sh, sizning oxirgi mehmondorchiligingizda nechta taom bo'lgan?",
+   "mood": "finale",
+   "elements": [
+    {
+     "type": "dark",
+     "amount": 0.5,
+     "at": 0.2
+    },
+    {
+     "type": "final",
+     "lines": [
+      "SIZDA",
+      "NECHTA?"
+     ],
+     "y": 880,
+     "at": "nechta"
+    }
+   ]
+  }
+ ],
+ "cover_title": [
+  "MEHMON",
+  "KELYAPTI!"
+ ],
+ "cover_sub": "15 daqiqa · 20 xil taom · 2 piyola choy"
+}

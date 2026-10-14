@@ -1,0 +1,245 @@
+{
+ "title": "O'zing izlab top",
+ "music_seed": 37,
+ "scenes": [
+  {
+   "text": "Bu talaba dasturlashni o'rganmoqchi edi. Unga birinchi bo'lib... daftar berishdi.",
+   "mood": "hero",
+   "elements": [
+    {
+     "type": "caption",
+     "words": [
+      "DASTURLASHNI"
+     ],
+     "color": "white",
+     "y": 1300,
+     "at": 0.3
+    },
+    {
+     "type": "caption",
+     "words": [
+      "O‘RGANMOQCHI",
+      "EDI"
+     ],
+     "color": "yellow",
+     "y": 1425,
+     "at": "organmoqchi"
+    },
+    {
+     "type": "stamp",
+     "text": "DAFTAR BERISHDI!",
+     "y": 1590,
+     "rot": -5,
+     "at": "daftar berishdi"
+    }
+   ]
+  },
+  {
+   "text": "Rahbarga bordi: «Nega bu mavzuni o'tmaymiz?» Javob: «Ustozingdan so'ra».",
+   "mood": "groove",
+   "elements": [
+    {
+     "type": "note",
+     "text": "«nega bu mavzuni o‘tmaymiz?»",
+     "size": 70,
+     "y": 380,
+     "rot": -2,
+     "at": 0.5
+    },
+    {
+     "type": "stamp",
+     "text": "USTOZINGDAN SO‘RA",
+     "size": 88,
+     "y": 1580,
+     "rot": 4,
+     "at": "ustozingdan"
+    }
+   ]
+  },
+  {
+   "text": "Ustozga bordi. Javob: «O'zing izlab top».",
+   "mood": "groove",
+   "elements": [
+    {
+     "type": "stamp",
+     "text": "«O‘ZING IZLAB TOP»",
+     "size": 92,
+     "y": 1580,
+     "rot": -4,
+     "at": "ozing izlab"
+    }
+   ]
+  },
+  {
+   "text": "Lekin... mavzuni o'tish — ustozning vazifasi emasmidi?",
+   "mood": "tense",
+   "elements": [
+    {
+     "type": "caption",
+     "words": [
+      "USTOZNING"
+     ],
+     "color": "white",
+     "y": 1330,
+     "at": "ustozning"
+    },
+    {
+     "type": "caption",
+     "words": [
+      "VAZIFASI?"
+     ],
+     "color": "yellow",
+     "y": 1455,
+     "at": "vazifasi"
+    }
+   ]
+  },
+  {
+   "text": "Keyingi dars: «Daftaring qani?» — «Ustoz, dasturlashga daftar nega kerak?»",
+   "mood": "groove",
+   "elements": [
+    {
+     "type": "pill",
+     "text": "DAFTARING QANI?",
+     "bg": "crimson",
+     "x": 540,
+     "y": 420,
+     "rot": -3,
+     "at": "daftaring qani"
+    },
+    {
+     "type": "note",
+     "text": "«dasturlashga daftar nega kerak?»",
+     "size": 68,
+     "y": 1540,
+     "rot": 2,
+     "at": "ustoz dasturlashga"
+    }
+   ]
+  },
+  {
+   "text": "Uyda ota-ona so'raydi: «Dasturlashdan nimani o'rganding?» Nima ko'rsataman — daftarnimi?",
+   "mood": "groove",
+   "elements": [
+    {
+     "type": "note",
+     "text": "«nimani o‘rganding?»",
+     "size": 78,
+     "y": 380,
+     "rot": -2,
+     "at": "nimani"
+    },
+    {
+     "type": "caption",
+     "words": [
+      "DAFTARNIMI?"
+     ],
+     "color": "yellow",
+     "y": 1455,
+     "at": "daftarnimi"
+    }
+   ]
+  },
+  {
+   "text": "«Ustoz, qachon amaliyot qilamiz?» — «Avval daftaringdagini ko'rsat».",
+   "mood": "groove",
+   "elements": [
+    {
+     "type": "note",
+     "text": "«qachon amaliyot qilamiz?»",
+     "size": 74,
+     "y": 380,
+     "rot": -2,
+     "at": 0
+    },
+    {
+     "type": "stamp",
+     "text": "DAFTARINGNI KO‘RSAT!",
+     "size": 86,
+     "y": 1580,
+     "rot": 4,
+     "at": "avval daftaringdagini"
+    }
+   ]
+  },
+  {
+   "text": "Tadqiqotlar ko'rsatadi: faqat ma'ruza tinglagan talabalar amaliyot qilganlarga qaraganda bir yarim baravar ko'proq yiqiladi.",
+   "mood": "mystery",
+   "elements": [
+    {
+     "type": "dark",
+     "amount": 0.35,
+     "at": "start"
+    },
+    {
+     "type": "card",
+     "kicker": "Tadqiqot",
+     "title": [
+      "AMALIYOT",
+      "YUTADI"
+     ],
+     "sub": "Freeman va boshq. · PNAS 2014",
+     "y": 560,
+     "at": 0.3
+    },
+    {
+     "type": "big",
+     "text": "1,5× KO‘P YIQILADI",
+     "size": 110,
+     "y": 1250,
+     "rot": -2,
+     "at": "bir yarim"
+    }
+   ]
+  },
+  {
+   "text": "Dasturlash daftarda emas — kompyuterda o'rganiladi. Sizda ham shunaqa ustoz bo'lganmi?",
+   "mood": "finale",
+   "elements": [
+    {
+     "type": "caption",
+     "words": [
+      "DAFTARDA",
+      "EMAS —"
+     ],
+     "color": "white",
+     "y": 1320,
+     "at": 0
+    },
+    {
+     "type": "caption",
+     "words": [
+      "KOMPYUTERDA."
+     ],
+     "color": "yellow",
+     "y": 1445,
+     "at": "kompyuterda"
+    },
+    {
+     "type": "hide_captions",
+     "at": "sizda ham"
+    },
+    {
+     "type": "dark",
+     "amount": 0.5,
+     "at": "sizda ham"
+    },
+    {
+     "type": "final",
+     "lines": [
+      "SIZDA HAM",
+      "SHUNAQAMI?"
+     ],
+     "y": 880,
+     "size": 130,
+     "at": "sizda ham"
+    }
+   ]
+  }
+ ],
+ "cover_title": [
+  "«O‘ZING",
+  "IZLAB TOP»"
+ ],
+ "cover_sub": "daftaring qani?"
+}

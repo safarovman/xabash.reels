@@ -1,0 +1,18 @@
+{
+  "repo": "safarovman/xabash.reels",
+  "media_branch": "media",
+  "raw_base": "https://raw.githubusercontent.com/safarovman/xabash.reels/media",
+  "buffer": {"organizationId": "6acf32171f604a4a9e53f75e", "channelId": "6acf32c0778b240e2f04fcdf", "account": "xabash.jonkam"},
+  "elevenlabs": {"voice_id": "kGOig3GPePLxobJGHo2M", "voice_name": "Bekzod - Warm, Confident, Deep", "model_id": "eleven_v4"},
+  "timezone": "Asia/Tashkent",
+  "slots": [
+    {"time": "00:00", "theme": "tun: telefon, uyqusizlik, tungi o'ylar, ertangi kun rejasi"},
+    {"time": "06:00", "theme": "ertalab: nonushta, choy, uyg'onish, ishga/o'qishga tayyorlanish"},
+    {"time": "12:00", "theme": "tush: tushlik, ish/o'qish, ofis hayoti, pul, avtobus/tirbandlik"},
+    {"time": "18:00", "theme": "kechqurun: oila, qo'shnilar, to'y/mehmon, uyga qaytish, dam olish"}
+  ],
+  "style": {
+    "image_prefix": "Hand-drawn storybook illustration, fine ink crosshatching linework, rich painted gouache colors, vertical 9:16 composition, no text, no letters, no logos.",
+    "brand_logo": null
+  }
+}

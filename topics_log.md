@@ -12,4 +12,4 @@ Har yangi videoda qahramon va ochilish turi oxirgi 3 videodagidan farq qilsin.
 | 2026-10-15 | 16:00 | 2050-yil: bir kunlik hayot (robotlar, uchuvchi taksi) — TRIAL | Akmal, 40 + otasi (do'ppi) + uy roboti | tomoshabinga murojaat | rejalashtirildi (notification) |
 | 2026-10-15 | 18:30 | Nega piyolam yarim? (choy odobi) | Jon (amerikalik sayyoh) + Karim ota + Zarina | epik ilmoq | rejalashtirildi |
 | 2026-10-15 | 21:00 | Parolim 123456 (zaif parollar, NordPass) | Bahodir aka, sartarosh + qizi Sevara + mijoz | dialog bilan | rejalashtirildi |
-| 2026-10-16 | 08:00 | Xating hali pochtada (birinchi SMS 1992) | Rahim bobo + nevara Shoxrux + Oysha buvi | savol bilan | render (rasmlar Flow'da) |
+| 2026-10-16 | 08:00 | Xating hali pochtada (birinchi SMS 1992) | Rahim bobo + nevara Shoxrux + Oysha buvi | savol bilan | video tayyor (media), Buffer kutilmoqda |

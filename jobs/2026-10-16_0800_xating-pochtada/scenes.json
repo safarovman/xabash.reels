@@ -35,7 +35,7 @@
    "elements": [
     {
      "type": "stamp",
-     "text": "IKKI HAFTA!",
+     "text": "Javob ikki haftada kelardi!",
      "y": 1540,
      "rot": -5,
      "at": "ikki hafta"
@@ -100,7 +100,7 @@
     },
     {
      "type": "stamp",
-     "text": "JAVOB YO'Q!",
+     "text": "Hech kim javob bermaydi!",
      "y": 1560,
      "rot": -5,
      "at": "javob bermaydi"
@@ -147,8 +147,8 @@
       "xat yuboradi?"
      ],
      "color": "yellow",
-     "x": 760,
-     "y": 420,
+     "x": 300,
+     "y": 1450,
      "w": 420,
      "size": 58,
      "rot": 4,

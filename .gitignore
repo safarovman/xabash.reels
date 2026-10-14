@@ -1,0 +1,4 @@
+jobs/*/out/
+jobs/*/img/
+jobs/*/aud/
+__pycache__/

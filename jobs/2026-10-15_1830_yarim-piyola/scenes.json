@@ -11,7 +11,7 @@
  "scenes": [
   {
    "speaker": "bekzod",
-   "text": "Jon Amerikadan Samarqandga keldi. U hayotida birinchi marta haqiqiy o'zbek dasturxoniga o'tirdi.",
+   "text": "Jon Amerikadan Samarqandga keldi. U umrida birinchi marta haqiqiy o'zbek dasturxoniga o'tirdi.",
    "mood": "hero",
    "img": "01.jpg",
    "elements": [
@@ -92,7 +92,7 @@
   },
   {
    "speaker": "bekzod",
-   "text": "Bu odatning sababi oddiy: yarim piyola qo'lni kuydirmaydi, choy sovimaydi, mezbon esa har safar yangi choy quyib, e'tibor ko'rsatadi.",
+   "text": "Bu odatning sababi oddiy: yarim piyola qo'lni kuydirmaydi, choy sovib qolmaydi, mezbon esa har safar yangi choy quyib, e'tibor ko'rsatadi.",
    "mood": "mystery",
    "img": "05.jpg",
    "elements": [
@@ -117,7 +117,7 @@
   },
   {
    "speaker": "charlie",
-   "text": "Demak, piyolam bo'shashi bilan yana quyib berasizmi? Bu ajoyib odat-ku!",
+   "text": "Demak, piyolam bo'shashi bilan yana quyib berasizlarmi? Bu ajoyib odat-ku!",
    "mood": "groove",
    "img": "06.jpg",
    "elements": [

@@ -11,7 +11,7 @@
  "scenes": [
   {
    "speaker": "sarah",
-   "text": "Mening savatchamda qirq yetti ta narsa bor. Sotib olganim esa — nol. Lekin men ularni har kuni ko'rib, ko'nglimni ko'taraman.",
+   "text": "Savatchamda qirq yetti ta narsa bor. Sotib olganim esa — nol. Lekin men ularni har kuni ko'rib, ko'nglimni ko'taraman.",
    "mood": "groove",
    "img": "01.jpg",
    "elements": [
@@ -53,7 +53,7 @@
   },
   {
    "speaker": "bekzod",
-   "text": "Kamola, yana savatchaga nimadir qo'shdingmi? U yer allaqachon bizning ikkinchi uyimizga aylandi-ku!",
+   "text": "Kamola, savatchaga yana bir narsa qo'shdingmi? U yer allaqachon ikkinchi uyimizga aylanib qoldi-ku!",
    "mood": "groove",
    "img": "03.jpg",
    "elements": [
@@ -77,7 +77,7 @@
   },
   {
    "speaker": "sarah",
-   "text": "Men sotib olmayapman, Bekzod. Men shunchaki saqlab qo'yyapman. Bu butunlay boshqa narsa!",
+   "text": "Men sotib olayotganim yo'q, Bekzod. Men shunchaki saqlab qo'yyapman. Bu butunlay boshqa narsa!",
    "mood": "groove",
    "img": "04.jpg",
    "elements": [

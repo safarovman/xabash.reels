@@ -188,8 +188,8 @@ def paste(frame, spr, cx, cy, scale=1.0, rot=0.0, alpha=1.0):
 # ---------------- backgrounds ----------------
 KB_DEF = [(1.00, 1.12, 0.0, -0.4), (1.02, 1.14, 0.2, 0.2), (1.00, 1.10, -0.3, 0.0), (1.10, 1.00, 0.3, 0.1), (1.00, 1.11, 0.0, 0.2),
           (1.02, 1.10, -0.2, -0.2), (1.00, 1.08, 0.0, 0.0), (1.10, 1.01, -0.2, 0.0), (1.00, 1.13, 0.0, -0.3)]
-bases = []; FG = {}; BGC = {}
-ANIM = CFG.get("anim", "cutout")
+bases = []; FG = {}; BGC = {}; BASE2 = {}; SW = {}
+ANIM = CFG.get("anim", "static")   # "cutout" is disabled by default (owner: keep pictures whole)
 for i, sc in enumerate(scenes):
     ip = f"{JOB}/img/{sc.get('img', f'{i + 1:02d}.jpg')}"
     im = cv2.cvtColor(cv2.imread(ip), cv2.COLOR_BGR2RGB)
@@ -197,6 +197,12 @@ for i, sc in enumerate(scenes):
     sz = (int(im.shape[1] * s), int(im.shape[0] * s))
     bases.append(cv2.resize(im, sz, interpolation=cv2.INTER_LANCZOS4).astype(np.float32))
     stem = ip[:-4]
+    # 2-frame animation: NN_b.jpg = same picture with a small change (hand moved, eyes, etc.)
+    ip2 = f"{JOB}/img/{sc['img2']}" if sc.get("img2") else stem + "_b.jpg"
+    if os.path.exists(ip2) and not sc.get("no_img2"):
+        im2 = cv2.cvtColor(cv2.imread(ip2), cv2.COLOR_BGR2RGB)
+        BASE2[i] = cv2.resize(im2, sz, interpolation=cv2.INTER_LANCZOS4).astype(np.float32)
+        if sc.get("img2_at") is not None: SW[i] = anchor(i, sc["img2_at"])
     if sc.get("anim", ANIM) == "cutout" and os.path.exists(stem + "_fg.png") and os.path.exists(stem + "_bg.jpg"):
         fgi = np.asarray(Image.open(stem + "_fg.png").convert("RGBA"))
         FG[i] = cv2.resize(fgi, sz, interpolation=cv2.INTER_LANCZOS4).astype(np.float32)
@@ -228,7 +234,13 @@ def bg(i, t):
         return np.array([[W / cw, 0, -x0 * W / cw], [0, H / ch, -y0 * H / ch]], np.float32)
     M = view(zb)
     if not cut:
-        return cv2.warpAffine(base, M, (W, H), flags=cv2.INTER_LINEAR, borderMode=cv2.BORDER_REFLECT)
+        fr = cv2.warpAffine(base, M, (W, H), flags=cv2.INTER_LINEAR, borderMode=cv2.BORDER_REFLECT)
+        if i in BASE2:
+            sw = SW.get(i, scene_len[i] * 0.5); a = clamp((t - sw) / 0.12)
+            if a > 0:
+                f2 = cv2.warpAffine(BASE2[i], M, (W, H), flags=cv2.INTER_LINEAR, borderMode=cv2.BORDER_REFLECT)
+                fr = f2 if a >= 1 else fr * (1 - a) + f2 * a
+        return fr
     fr = cv2.warpAffine(BGC[i], M, (W, H), flags=cv2.INTER_LINEAR, borderMode=cv2.BORDER_REFLECT)
     fg, fx, fyb, fyt = FG[i]
     zf = z0 + (z1 - z0) * p * 1.35 + bump(i, t) * 1.3   # subject moves more -> depth

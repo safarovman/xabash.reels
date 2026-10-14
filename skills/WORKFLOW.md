@@ -1,5 +1,13 @@
 # xabash.reels — to'liq ish tartibi (skill'lar saqlanmagan bo'lsa ham shu yetarli)
 
+## 0. YANGI QOIDALAR (2026-10-14, egasi aytgan — eng ustun)
+- Kuniga 5 ta video (Asia/Tashkent): **08:00 o'tmish** (ota-bobolar zamoni vs hozir) · **12:30 hozirgi zamon** (internet, o'yinlar, ish, pul) · **16:00 kelajak** (koinot, AI, 2050 — *trial reel*: Buffer'da `schedulingType: notification`, egasi Instagram'da "Trial" qilib joylaydi; Buffer API trial reel'ni qo'llamaydi) · **18:30 urf-odatlar** · **21:00 odamlardagi ko'p xatolar**. Hammasi hazil-mutoyibali + tekshirilgan qiziq fakt. `config.json` → `slots`, `video_rules`.
+- Davomiylik ~60 s. 2–3 personaj gapiradi (masalan dadasi: «Ex bolam, mening vaqtimda...»), har biri boshqa ElevenLabs ovozida. Ovoz bo'laklari uzunroq (1–3 to'liq gap). Ekrandagi yozuvlar — to'liq, tugallangan gap.
+- Uslub namunasi: bitta qahramonning kuni, holat ko'rsatkichi (SABR/ENERGIYA %), soat, tez almashuvchi sahnalar, oxirida hisob-kitob varag'i. Boshqa sahifalarning logotip/brendini ishlatmang.
+- Qahramonni kesib qimirlatish YO'Q (`anim` default `static`). Har videoda faqat **1–2 sahnaga 2-kadr**: `img/NN_b.jpg` — Flow'da asl rasm tile menyusi → "Добавить в запрос" → "Edit the reference image: keep exactly the same ... Only one small change: ..." → yuborish (558,575). Dvigatel gap o'rtasida (yoki `img2_at` iborasida) 1-kadrdan 2-kadrga o'tadi.
+- Flow rasmlarini to'liq o'lchamda olish: tile `img.src` ni fetch → yakuniy URL dagi `=s512-rw` ni `=s0` ga almashtirib fetch; hammasini bitta paket faylga yig'ib Downloads → stage. Mos sahnani rasm o'xshashligi bo'yicha toping.
+- Render uzoq (~20 daq): sessiya bo'sh qolsa jarayon to'xtaydi — `sleep` bilan kutib turing.
+
 ## 1. Mavzular (xabash-topics)
 - `topics_log.md` dagi so'nggi 30 kun mavzularini takrorlamang.
 - Har kuni 4 ta: **00:00** tun (telefon, uyqusizlik), **06:00** ertalab (nonushta, choy, ishga tayyorlanish), **12:00** tush (tushlik, ish, pul, tirbandlik), **18:00** kechqurun (oila, mehmon, to'y, qo'shnilar).

@@ -1,40 +1,59 @@
 {
-  "repo": "safarovman/xabash.reels",
-  "media_branch": "media",
-  "raw_base": "https://raw.githubusercontent.com/safarovman/xabash.reels/media",
-  "buffer": {
-    "organizationId": "6acf32171f604a4a9e53f75e",
-    "channelId": "6acf32c0778b240e2f04fcdf",
-    "account": "xabash.jonkam"
+ "repo": "safarovman/xabash.reels",
+ "media_branch": "media",
+ "raw_base": "https://raw.githubusercontent.com/safarovman/xabash.reels/media",
+ "buffer": {
+  "organizationId": "6acf32171f604a4a9e53f75e",
+  "channelId": "6acf32c0778b240e2f04fcdf",
+  "account": "xabash.jonkam"
+ },
+ "elevenlabs": {
+  "voice_id": "kGOig3GPePLxobJGHo2M",
+  "voice_name": "Bekzod - Warm, Confident, Deep",
+  "model_id": "eleven_v4"
+ },
+ "timezone": "Asia/Tashkent",
+ "slots": [
+  {
+   "time": "08:00",
+   "category": "o'tmish",
+   "theme": "o'tgan zamon: ota-bobolarimiz hayoti, eski Toshkent, SSSR davri, «bizning vaqtimizda» — hozirgi bilan hazil taqqoslash"
   },
-  "elevenlabs": {
-    "voice_id": "kGOig3GPePLxobJGHo2M",
-    "voice_name": "Bekzod - Warm, Confident, Deep",
-    "model_id": "eleven_v4"
+  {
+   "time": "12:30",
+   "category": "hozirgi zamon",
+   "theme": "hozirgi o'zbekchilik: internet, telefon, o'yinlar, ish, pul, tirbandlik — hazil va qiziq faktlar"
   },
-  "timezone": "Asia/Tashkent",
-  "slots": [
-    {
-      "time": "00:00",
-      "theme": "tun: telefon, uyqusizlik, tungi o'ylar, ertangi kun rejasi"
-    },
-    {
-      "time": "06:00",
-      "theme": "ertalab: nonushta, choy, uyg'onish, ishga/o'qishga tayyorlanish"
-    },
-    {
-      "time": "12:00",
-      "theme": "tush: tushlik, ish/o'qish, ofis hayoti, pul, avtobus/tirbandlik"
-    },
-    {
-      "time": "18:00",
-      "theme": "kechqurun: oila, qo'shnilar, to'y/mehmon, uyga qaytish, dam olish"
-    }
-  ],
-  "style": {
-    "image_prefix": "Hand-drawn storybook illustration, fine ink crosshatching linework, rich painted gouache colors, vertical 9:16 composition, no text, no letters, no logos.",
-    "brand_logo": "brand/logo_99foiz.png"
+  {
+   "time": "16:00",
+   "category": "kelajak",
+   "theme": "kelajak: 2050-yil, koinot, sun'iy intellekt, robotlar, Marsdagi o'zbek to'yi — fantastik hazil + haqiqiy ilmiy fakt",
+   "trial": true
   },
-  "brand": "99 FOIZ",
-  "image_fallback": "none — rasm faqat Google Flow (egasi Higgsfield'ni rad etdi). Noutbuk o'chiq bo'lsa to'xtab egasiga xabar ber."
+  {
+   "time": "18:30",
+   "category": "urf-odat",
+   "theme": "urf-odatlar: to'y, mehmondorchilik, sovchilik, hayit, qo'shnichilik — mehr va hazil bilan, masxarasiz"
+  },
+  {
+   "time": "21:00",
+   "category": "xatolar",
+   "theme": "odamlarda ko'p uchraydigan xatolar: kechiktirish, telefon, pul, sog'liq, o'qish — hazil + foydali xulosa (bugungi videolardek)"
+  }
+ ],
+ "style": {
+  "image_prefix": "Hand-drawn storybook illustration, fine ink crosshatching linework, rich painted gouache colors, vertical 9:16 composition, no text, no letters, no logos.",
+  "brand_logo": "brand/logo_99foiz.png"
+ },
+ "brand": "99 FOIZ",
+ "image_fallback": "none — rasm faqat Google Flow (egasi Higgsfield'ni rad etdi). Noutbuk o'chiq bo'lsa to'xtab egasiga xabar ber.",
+ "video_rules": {
+  "duration_s": 60,
+  "multi_character": "kamida 2-3 personaj gapiradi (masalan dadasi: «Ex bolam, mening vaqtimda...»), har biri boshqa ElevenLabs ovozida",
+  "vo_chunks": "ovoz bo'laklari uzunroq (1-3 to'liq gap), mayda-mayda emas",
+  "on_screen_text": "ekrandagi yozuvlar to'liq, tugallangan gap",
+  "two_frame": "har videoda faqat 1-2 sahnada 2-kadr (_b.jpg)",
+  "no_cutout": true,
+  "style_ref": "bitta qahramonning kuni: holat ko'rsatkichi (SABR/ENERGIYA %), soat, tez almashadigan sahnalar, oxirida hisob-kitob varag'i; ammo boshqa brend logotiplarini ishlatmang"
+ }
 }

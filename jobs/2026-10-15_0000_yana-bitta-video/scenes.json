@@ -1,42 +1,58 @@
 {
  "title": "Yana bitta video…",
  "music_seed": 23,
+ "cover_title": [
+  "YANA BITTA",
+  "VIDEO…"
+ ],
+ "cover_sub": "23:00 → 02:47",
  "scenes": [
   {
-   "text": "Bu odam har kecha qahramonlik qiladi: o'zi bilan jang qiladi... va yutqazadi.",
-   "mood": "hero",
+   "text": "Soat ikki-yu qirq yetti. U hali ham «oxirgi video»ni ko'ryapti.",
+   "mood": "tense",
    "elements": [
     {
-     "type": "caption",
-     "words": [
-      "HAR",
-      "KECHA"
-     ],
-     "color": "white",
-     "y": 1300,
-     "at": 0.3
+     "type": "clock",
+     "day": "TUN",
+     "time": "02:47",
+     "at": "start"
     },
     {
      "type": "caption",
      "words": [
-      "QAHRAMONLIK"
+      "«OXIRGI",
+      "VIDEO»"
      ],
      "color": "yellow",
-     "y": 1425,
-     "at": "qahramonlik"
+     "y": 1420,
+     "at": "oxirgi"
     },
     {
      "type": "stamp",
-     "text": "YUTQAZADI!",
-     "y": 1590,
+     "text": "47-CHISI",
+     "y": 1600,
      "rot": -5,
-     "at": "yutqazadi"
+     "at": "koryapti"
+    }
+   ]
+  },
+  {
+   "text": "To'rt soat oldin hammasi boshqacha edi.",
+   "mood": "sad",
+   "elements": [
+    {
+     "type": "note",
+     "text": "4 soat oldin…",
+     "size": 110,
+     "y": 1480,
+     "rot": -3,
+     "at": 0
     }
    ]
   },
   {
    "text": "Soat o'n bir. «Bugun erta yotaman». Telefon — faqat budilnik qo'yish uchun.",
-   "mood": "tense",
+   "mood": "groove",
    "elements": [
     {
      "type": "clock",
@@ -91,25 +107,6 @@
    ]
   },
   {
-   "text": "Soat ikki-yu qirq yetti. Ko'zlar qizargan. Ertaga — ish.",
-   "mood": "tense",
-   "elements": [
-    {
-     "type": "clock",
-     "day": "TUN",
-     "time": "02:47",
-     "at": "start"
-    },
-    {
-     "type": "stamp",
-     "text": "ERTAGA ISH!",
-     "y": 1580,
-     "rot": 4,
-     "at": "ertaga"
-    }
-   ]
-  },
-  {
    "text": "Ertalab — ko'z ochilmaydi, choy ham yordam bermaydi.",
    "mood": "groove",
    "elements": [
@@ -151,7 +148,8 @@
      "rot": 1.5,
      "at": "hech narsa"
     }
-   ]
+   ],
+   "anim": "static"
   },
   {
    "text": "Sababi oddiy: kun bo'yi o'zimizga vaqt qolmaydi — uni kechasi o'g'irlab olamiz.",
@@ -183,7 +181,7 @@
    ]
   },
   {
-   "text": "Lekin har kecha bir soat kam uxlasangiz — haftasiga yetti soat. Bu bitta to'liq tun.",
+   "text": "Ammo har kecha bir soat kam uxlasangiz, bir haftada yetti soat yo'qotasiz. Bu — butun bir tun.",
    "mood": "warm",
    "elements": [
     {
@@ -237,10 +235,5 @@
     }
    ]
   }
- ],
- "cover_title": [
-  "YANA BITTA",
-  "VIDEO…"
- ],
- "cover_sub": "23:00 → 02:47"
+ ]
 }

@@ -1,10 +1,38 @@
 {
  "title": "8 soat ish = 47 soniya",
  "music_seed": 41,
+ "cover_title": [
+  "8 SOAT ISH",
+  "= 47 SONIYA"
+ ],
+ "cover_sub": "diqqatingiz qayerda?",
  "scenes": [
   {
-   "text": "Bu odam bugun sakkiz soat ishladi.",
-   "mood": "hero",
+   "text": "Qirq yetti soniya. Bu videoni ham taxminan shuncha ko'rasiz... agar omadim kelsa.",
+   "mood": "tense",
+   "elements": [
+    {
+     "type": "big",
+     "text": "47 SONIYA",
+     "size": 150,
+     "y": 1300,
+     "rot": -3,
+     "at": 0
+    },
+    {
+     "type": "note",
+     "text": "…agar omadim kelsa",
+     "size": 78,
+     "y": 1520,
+     "rot": 2,
+     "at": "agar"
+    }
+   ],
+   "anim": "static"
+  },
+  {
+   "text": "Bu Nodira. U bugun sakkiz soat ishladi. Aniqrog'i — qirq yetti soniyadan.",
+   "mood": "sad",
    "elements": [
     {
      "type": "caption",
@@ -13,29 +41,15 @@
       "SOAT"
      ],
      "color": "white",
-     "y": 1300,
-     "at": 0.3
+     "y": 1330,
+     "at": "sakkiz"
     },
     {
      "type": "stamp",
-     "text": "ISHLADI!",
-     "y": 1500,
-     "rot": -5,
-     "at": "ishladi"
-    }
-   ]
-  },
-  {
-   "text": "Aniqrog'i — qirq yetti soniyadan.",
-   "mood": "sad",
-   "elements": [
-    {
-     "type": "big",
      "text": "…47 SONIYADAN",
-     "size": 120,
-     "y": 1450,
-     "rot": -3,
-     "at": "qirq"
+     "y": 1520,
+     "rot": -4,
+     "at": "aniqrogi"
     }
    ]
   },
@@ -164,7 +178,8 @@
      "rot": -2,
      "at": "hozir"
     }
-   ]
+   ],
+   "anim": "static"
   },
   {
    "text": "Hamkasbi esa bildirishnomalarni o'chirib qo'ydi. Ishni ikki soat oldin tugatdi.",
@@ -208,10 +223,5 @@
     }
    ]
   }
- ],
- "cover_title": [
-  "8 SOAT ISH",
-  "= 47 SONIYA"
- ],
- "cover_sub": "diqqatingiz qayerda?"
+ ]
 }

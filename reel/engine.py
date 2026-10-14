@@ -188,23 +188,68 @@ def paste(frame, spr, cx, cy, scale=1.0, rot=0.0, alpha=1.0):
 # ---------------- backgrounds ----------------
 KB_DEF = [(1.00, 1.12, 0.0, -0.4), (1.02, 1.14, 0.2, 0.2), (1.00, 1.10, -0.3, 0.0), (1.10, 1.00, 0.3, 0.1), (1.00, 1.11, 0.0, 0.2),
           (1.02, 1.10, -0.2, -0.2), (1.00, 1.08, 0.0, 0.0), (1.10, 1.01, -0.2, 0.0), (1.00, 1.13, 0.0, -0.3)]
-bases = []
+bases = []; FG = {}; BGC = {}
+ANIM = CFG.get("anim", "cutout")
 for i, sc in enumerate(scenes):
-    im = cv2.cvtColor(cv2.imread(f"{JOB}/img/{sc.get('img', f'{i + 1:02d}.jpg')}"), cv2.COLOR_BGR2RGB)
+    ip = f"{JOB}/img/{sc.get('img', f'{i + 1:02d}.jpg')}"
+    im = cv2.cvtColor(cv2.imread(ip), cv2.COLOR_BGR2RGB)
     s = max(W / im.shape[1], H / im.shape[0]) * 1.16
-    bases.append(cv2.resize(im, (int(im.shape[1] * s), int(im.shape[0] * s)), interpolation=cv2.INTER_LANCZOS4).astype(np.float32))
+    sz = (int(im.shape[1] * s), int(im.shape[0] * s))
+    bases.append(cv2.resize(im, sz, interpolation=cv2.INTER_LANCZOS4).astype(np.float32))
+    stem = ip[:-4]
+    if sc.get("anim", ANIM) == "cutout" and os.path.exists(stem + "_fg.png") and os.path.exists(stem + "_bg.jpg"):
+        fgi = np.asarray(Image.open(stem + "_fg.png").convert("RGBA"))
+        FG[i] = cv2.resize(fgi, sz, interpolation=cv2.INTER_LANCZOS4).astype(np.float32)
+        BGC[i] = cv2.resize(cv2.cvtColor(cv2.imread(stem + "_bg.jpg"), cv2.COLOR_BGR2RGB), sz, interpolation=cv2.INTER_LANCZOS4).astype(np.float32)
+        ys, xs = np.where(FG[i][..., 3] > 128)
+        FG[i] = (FG[i], float(xs.mean()), float(ys.max()), float(ys.min()))
 yy, xx = np.mgrid[0:H, 0:W]
 vign = np.clip(1 - 0.38 * (((xx - W / 2) / (W * .75)) ** 2 + ((yy - H / 2) / (H * .72)) ** 2), 0.55, 1)[..., None].astype(np.float32)
 grain_bank = [np.random.RandomState(k).normal(0, 2.5, (H // 2, W // 2)).astype(np.float32) for k in range(6)]
+BUMPS = {}
+def bump(i, t):
+    """camera punch-in on hits: quick zoom kick that decays"""
+    z = 0.0
+    for tb in BUMPS.get(i, []):
+        d = t - tb
+        if 0 <= d < 0.6: z += 0.045 * math.exp(-d * 7) * (1 if d > 0.03 else d / 0.03)
+    return z
 def bg(i, t):
     base = bases[i]; bh, bw = base.shape[:2]
     z0, z1, px, py = scenes[i].get("kb", KB_DEF[i % len(KB_DEF)])
-    p = ease_in_out(t / scene_len[i]); z = z0 + (z1 - z0) * p
-    cw = (bw / 1.16) / z; ch = cw * H / W
-    cx = bw / 2 + px * (bw - cw) / 2 * (p - .5) * 2; cy = bh / 2 + py * (bh - ch) / 2 * (p - .5) * 2
-    x0, y0 = cx - cw / 2, cy - ch / 2
-    M = np.array([[W / cw, 0, -x0 * W / cw], [0, H / ch, -y0 * H / ch]], np.float32)
-    return cv2.warpAffine(base, M, (W, H), flags=cv2.INTER_LINEAR, borderMode=cv2.BORDER_REFLECT)
+    p = ease_in_out(t / scene_len[i])
+    cut = i in FG
+    zb = z0 + (z1 - z0) * p * (0.55 if cut else 1.0)   # background moves slower (parallax)
+    zb += bump(i, t)
+    def view(z):
+        cw = (bw / 1.16) / z; ch = cw * H / W
+        cx = bw / 2 + px * (bw - cw) / 2 * (p - .5) * 2; cy = bh / 2 + py * (bh - ch) / 2 * (p - .5) * 2
+        x0, y0 = cx - cw / 2, cy - ch / 2
+        return np.array([[W / cw, 0, -x0 * W / cw], [0, H / ch, -y0 * H / ch]], np.float32)
+    M = view(zb)
+    if not cut:
+        return cv2.warpAffine(base, M, (W, H), flags=cv2.INTER_LINEAR, borderMode=cv2.BORDER_REFLECT)
+    fr = cv2.warpAffine(BGC[i], M, (W, H), flags=cv2.INTER_LINEAR, borderMode=cv2.BORDER_REFLECT)
+    fg, fx, fyb, fyt = FG[i]
+    zf = z0 + (z1 - z0) * p * 1.35 + bump(i, t) * 1.3   # subject moves more -> depth
+    Mf = view(zf)
+    # character life: breathing (scale about feet), sway, bob, entrance pop
+    seed = (i * 7.31) % 6.28
+    br = 1 + 0.014 * math.sin(2 * math.pi * t / 1.7 + seed)
+    rot = 0.9 * math.sin(2 * math.pi * t / 2.9 + seed)
+    bob = 7 * math.sin(2 * math.pi * t / 1.25 + seed)
+    ent = ease_out_back(clamp(t / 0.45), 1.6)
+    br *= 0.94 + 0.06 * ent; bob += (1 - ent) * 60
+    R = cv2.getRotationMatrix2D((fx, fyb), rot, br); R[1, 2] += bob
+    A = np.vstack([Mf, [0, 0, 1]]) @ np.vstack([R, [0, 0, 1]])
+    lay = cv2.warpAffine(fg, A[:2].astype(np.float32), (W, H), flags=cv2.INTER_LINEAR, borderMode=cv2.BORDER_CONSTANT, borderValue=(0, 0, 0, 0))
+    al = lay[..., 3:4] / 255.0
+    # soft contact shadow
+    sh = cv2.GaussianBlur(al, (0, 0), 14)
+    if sh.ndim == 2: sh = sh[..., None]
+    sh = np.roll(sh, (14, 10), (0, 1))
+    fr = fr * (1 - 0.35 * sh)
+    return fr * (1 - al) + lay[..., :3] * al
 
 # ---------------- build elements ----------------
 SFX = []; HITS = []; BLIPS = []
@@ -255,6 +300,8 @@ for i, sc in enumerate(scenes):
                 E[i] += caption_line(i, ln.split(), YEL if k % 2 else (255, 255, 255), y0 + k * 180, t0 + k * 0.32, size=el.get("size", 150))
             SHAKE[i].append(t0); HITS.append(starts[i] + t0); CFG.setdefault("_final_hit", starts[i] + t0)
 for i in range(1, N): sfx(i, 0.0, "whoosh")
+for i in range(N):
+    BUMPS[i] = sorted(set([round(ts, 3) for ts in SHAKE[i]] + [round(e["t0"], 3) for e in E[i] if e.get("cap") and e is E[i][0]]))
 
 def draw_el(frame, e, t):
     if t < e["t0"]: return

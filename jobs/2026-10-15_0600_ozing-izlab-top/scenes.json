@@ -1,41 +1,47 @@
 {
  "title": "O'zing izlab top",
  "music_seed": 37,
+ "cover_title": [
+  "«O‘ZING",
+  "IZLAB TOP»"
+ ],
+ "cover_sub": "daftaring qani?",
  "scenes": [
   {
-   "text": "Bu talaba dasturlashni o'rganmoqchi edi. Unga birinchi bo'lib... daftar berishdi.",
-   "mood": "hero",
+   "text": "«Daftaring qani?» Dasturlash darsida eshitgan birinchi savolim shu bo'ldi.",
+   "mood": "tense",
    "elements": [
     {
-     "type": "caption",
-     "words": [
-      "DASTURLASHNI"
-     ],
-     "color": "white",
-     "y": 1300,
-     "at": 0.3
+     "type": "pill",
+     "text": "DAFTARING QANI?",
+     "bg": "crimson",
+     "size": 70,
+     "x": 540,
+     "y": 430,
+     "rot": -3,
+     "at": 0
     },
     {
      "type": "caption",
      "words": [
-      "O‘RGANMOQCHI",
-      "EDI"
+      "DASTURLASH",
+      "DARSIDA"
      ],
-     "color": "yellow",
-     "y": 1425,
-     "at": "organmoqchi"
+     "color": "white",
+     "y": 1330,
+     "at": "dasturlash"
     },
     {
      "type": "stamp",
-     "text": "DAFTAR BERISHDI!",
-     "y": 1590,
-     "rot": -5,
-     "at": "daftar berishdi"
+     "text": "1-SAVOL",
+     "y": 1520,
+     "rot": 4,
+     "at": "birinchi"
     }
    ]
   },
   {
-   "text": "Rahbarga bordi: «Nega bu mavzuni o'tmaymiz?» Javob: «Ustozingdan so'ra».",
+   "text": "Men rahbarga bordim: «Nega bu mavzuni o'tmaymiz?» Javob: «Ustozingdan so'ra».",
    "mood": "groove",
    "elements": [
     {
@@ -44,7 +50,7 @@
      "size": 70,
      "y": 380,
      "rot": -2,
-     "at": 0.5
+     "at": "nega"
     },
     {
      "type": "stamp",
@@ -57,7 +63,7 @@
    ]
   },
   {
-   "text": "Ustozga bordi. Javob: «O'zing izlab top».",
+   "text": "Ustozga bordim. Javob: «O'zing izlab top».",
    "mood": "groove",
    "elements": [
     {
@@ -71,7 +77,7 @@
    ]
   },
   {
-   "text": "Lekin... mavzuni o'tish — ustozning vazifasi emasmidi?",
+   "text": "Lekin... mavzuni o'tish — ustozning vazifasi emasmi?",
    "mood": "tense",
    "elements": [
     {
@@ -95,30 +101,7 @@
    ]
   },
   {
-   "text": "Keyingi dars: «Daftaring qani?» — «Ustoz, dasturlashga daftar nega kerak?»",
-   "mood": "groove",
-   "elements": [
-    {
-     "type": "pill",
-     "text": "DAFTARING QANI?",
-     "bg": "crimson",
-     "x": 540,
-     "y": 420,
-     "rot": -3,
-     "at": "daftaring qani"
-    },
-    {
-     "type": "note",
-     "text": "«dasturlashga daftar nega kerak?»",
-     "size": 68,
-     "y": 1540,
-     "rot": 2,
-     "at": "ustoz dasturlashga"
-    }
-   ]
-  },
-  {
-   "text": "Uyda ota-ona so'raydi: «Dasturlashdan nimani o'rganding?» Nima ko'rsataman — daftarnimi?",
+   "text": "Uyda ota-onam so'raydi: «Dasturlashdan nimani o'rganding?» Nima ko'rsataman — daftarnimi?",
    "mood": "groove",
    "elements": [
     {
@@ -190,7 +173,8 @@
      "rot": -2,
      "at": "bir yarim"
     }
-   ]
+   ],
+   "anim": "static"
   },
   {
    "text": "Dasturlash daftarda emas — kompyuterda o'rganiladi. Sizda ham shunaqa ustoz bo'lganmi?",
@@ -236,10 +220,5 @@
     }
    ]
   }
- ],
- "cover_title": [
-  "«O‘ZING",
-  "IZLAB TOP»"
- ],
- "cover_sub": "daftaring qani?"
+ ]
 }

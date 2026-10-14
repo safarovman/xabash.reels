@@ -6,7 +6,7 @@ Job folder layout:
   aud/vo_NN.mp3    one voice-over clip per scene
 Usage:
   python3 reel/engine.py JOB_DIR [--preview] [--frames=1.0,5.2]
-Outputs (in JOB_DIR/out): video_master.mp4, video.mp4 (<28 MB), cover.jpg, timing.json
+Outputs (in JOB_DIR/out): video_master.mp4, video.mp4 (max quality, <95 MB), cover.jpg, timing.json
 """
 import os, sys, math, random, subprocess, json, re
 import numpy as np, cv2
@@ -193,7 +193,7 @@ for i, sc in enumerate(scenes):
     bases.append(cv2.resize(im, (int(im.shape[1] * s), int(im.shape[0] * s)), interpolation=cv2.INTER_LANCZOS4).astype(np.float32))
 yy, xx = np.mgrid[0:H, 0:W]
 vign = np.clip(1 - 0.38 * (((xx - W / 2) / (W * .75)) ** 2 + ((yy - H / 2) / (H * .72)) ** 2), 0.55, 1)[..., None].astype(np.float32)
-grain_bank = [np.random.RandomState(k).normal(0, 4, (H // 2, W // 2)).astype(np.float32) for k in range(6)]
+grain_bank = [np.random.RandomState(k).normal(0, 2.5, (H // 2, W // 2)).astype(np.float32) for k in range(6)]
 def bg(i, t):
     base = bases[i]; bh, bw = base.shape[:2]
     z0, z1, px, py = scenes[i].get("kb", KB_DEF[i % len(KB_DEF)])
@@ -377,12 +377,17 @@ Image.fromarray(frame_at(cover_t)).save(f"{OUT}/cover.jpg", quality=92)
 timing["cover_ms"] = int(cover_t * 1000); json.dump(timing, open(f"{OUT}/timing.json", "w"), indent=1)
 nf = int(TOTAL * FPS)
 proc = subprocess.Popen(["ffmpeg", "-v", "error", "-y", "-f", "rawvideo", "-pix_fmt", "rgb24", "-s", f"{W}x{H}", "-r", str(FPS), "-i", "-", "-i", f"{OUT}/audio.wav",
-                         "-c:v", "libx264", "-preset", "medium", "-crf", "20", "-pix_fmt", "yuv420p", "-c:a", "aac", "-b:a", "192k", "-shortest", "-movflags", "+faststart", f"{OUT}/video_master.mp4"], stdin=subprocess.PIPE)
+                         "-c:v", "libx264", "-preset", "slow", "-crf", "16", "-pix_fmt", "yuv420p", "-c:a", "aac", "-b:a", "192k", "-shortest", "-movflags", "+faststart", f"{OUT}/video_master.mp4"], stdin=subprocess.PIPE)
 for f in range(nf):
     proc.stdin.write(frame_at(f / FPS).tobytes())
     if f % 300 == 0: print(f, "/", nf, flush=True)
 proc.stdin.close(); proc.wait()
-br = int(min(4.0, 26 * 8 / TOTAL * 0.92) * 1000)  # keep final under ~26 MB
-subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", f"{OUT}/video_master.mp4", "-c:v", "libx264", "-preset", "slow", "-b:v", f"{br - 200}k", "-maxrate", f"{br}k", "-bufsize", f"{br * 2}k",
-                "-pix_fmt", "yuv420p", "-c:a", "copy", "-movflags", "+faststart", f"{OUT}/video.mp4"], check=True)
+# Final upload file: as high quality as possible but < 95 MB (GitHub hard limit is 100 MB per file).
+MAX_MB = float(CFG.get("max_mb", 95))
+br = int(min(16000, MAX_MB * 8 * 1024 / TOTAL * 0.93 - 192))  # kbit/s for video
+subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", f"{OUT}/video_master.mp4", "-c:v", "libx264", "-preset", "slow", "-tune", "film",
+                "-b:v", f"{br}k", "-maxrate", f"{int(br * 1.25)}k", "-bufsize", f"{br * 2}k", "-profile:v", "high", "-level", "4.2",
+                "-pix_fmt", "yuv420p", "-r", "30", "-c:a", "aac", "-b:a", "256k", "-ar", "48000", "-movflags", "+faststart", f"{OUT}/video.mp4"], check=True)
+if os.path.getsize(f"{OUT}/video.mp4") > 99 * 1024 * 1024:
+    raise SystemExit("video.mp4 > 99 MB, lower max_mb in scenes.json")
 print("done", round(TOTAL, 2), "s ->", f"{OUT}/video.mp4", os.path.getsize(f"{OUT}/video.mp4") // 1024, "KB")

@@ -128,50 +128,49 @@ JOBS["2026-10-15_1230_savatcha"] = dict(
 )
 
 # ---------------- 16:00 KELAJAK (TRIAL) ----------------
-JOBS["2026-10-15_1600_marsdan-qongiroq"] = dict(
+JOBS["2026-10-15_1600_2050-yil"] = dict(
     slot="2026-10-15T16:00+05:00", theme="kelajak", trial=True,
-    title="Marsdan onamga qo'ng'iroq", music_seed=58,
-    cover_title=["MARSDAN", "ONAMGA QO'NG'IROQ"], cover_sub="«ovqat yedingmi?» — 20 daqiqada", cover_scene=0,
-    hero="kosmonavt Temur (35, oq skafandr, O'zbekiston bayrog'i nishoni) + Yerdagi onasi Saodat opa + robot-yordamchi",
-    opening="cold open",
+    title="2050-yil: bir kunlik hayot", music_seed=58,
+    cover_title=["2050-YIL:", "BIR KUNLIK HAYOT"], cover_sub="robot nonushta, uchuvchi taksi", cover_scene=1,
+    hero="Akmal (40, 2050-yildagi ota, kumush kurtka) + otasi (75, do'ppi) + uy roboti",
+    opening="tomoshabinga murojaat",
     images={
-        "01": "Year 2050, inside a cozy Mars habitat kitchen module: Uzbek astronaut Temur, 35, short black hair, trimmed mustache, white space suit without helmet with a small Uzbekistan flag patch, holding a tablet showing his mother's frozen video call; through a round window red Martian desert and dust. Teal and rust-red palette.",
-        "01_b": "SMALL CHANGE: same picture, but the astronaut is now typing on the tablet with both thumbs and shouting with his mouth open.",
-        "02": "Same Uzbek astronaut Temur in a white space suit standing proudly in a Mars greenhouse dome with green plants, red Martian landscape outside, heroic low angle, year 2050.",
-        "03": "Uzbek mother Saodat, about 60, colorful headscarf tied at the back, flowered housedress, sitting in a Tashkent kitchen with a big plov kazan on the stove, talking worriedly to a laptop video call, warm yellow light.",
-        "03_b": "SMALL CHANGE: same picture, but the mother now proudly holds up a big glass jar of apricot jam to the laptop camera, smiling.",
-        "04": "Space infographic illustration: planet Earth on the left and planet Mars on the right, a thin glowing beam of light traveling between them with a small clock icon, starry black background.",
-        "05": "A cute round white helper robot with a blue screen face and small arms, standing in a Mars habitat holding a clipboard list, a big cargo rocket visible through the window, friendly cartoon look.",
-        "06": "Uzbek astronaut Temur in a white space suit sitting on a rock on Mars at sunset looking at a tiny blue dot Earth in the sky, gentle smile, blue Martian sunset, emotional.",
+        "01": "Year 2050, futuristic bright Tashkent apartment at sunrise, smart glass windows showing Tashkent TV tower among green skyscrapers; a friendly white humanoid home robot opens the curtains while Uzbek man Akmal, 40, short black hair, neat stubble, wakes up in bed stretching. Clean white, mint and warm gold palette.",
+        "02": "Year 2050 kitchen: friendly white humanoid robot with a soft blue face screen, wearing a colorful Uzbek atlas-pattern apron, serving breakfast with non bread, tea and a cup of coffee on a modern table, futuristic but cozy.",
+        "02_b": "SMALL CHANGE: same picture, but the robot now winks with its screen face and gives a thumbs up.",
+        "03": "Elderly Uzbek man, about 75, white embroidered doppi skullcap, grey mustache, modern grey cardigan, sitting at a futuristic breakfast table holding a round traditional non bread and frowning skeptically at a humanoid robot, year 2050, comic expression.",
+        "04": "Wide illustration: a long row of many different humanoid robots silhouetted in a huge bright futuristic factory hall, assembly lights, blue and silver palette, sense of scale.",
+        "05": "Year 2050, a sleek white electric air taxi with several rotors flying over Tashkent with the Tashkent TV tower and green parks below, morning sky; inside the window Uzbek man Akmal, 40, in a silver jacket, smiling; small delivery drones around.",
+        "06": "Rooftop air-taxi pad in 2050 Tashkent: elderly Uzbek man in white doppi and grey cardigan raising his arm high and waving at the sky like stopping a street taxi, an air taxi hovering above, his son in a silver jacket laughing next to him.",
+        "07": "Year 2050 family dinner in a modern Uzbek home: elderly father in white doppi proudly serving plov from a big kazan, son Akmal in a silver jacket, his wife and kids around a dastarkhan, a humanoid robot politely holding a plate, warm evening light, cozy.",
     },
     scenes=[
-        S("bekzod", "Yigirma daqiqa oldin onam «Bolam, ovqat yedingmi?» deb so'ragan edi. Bu savol menga hozirgina yetib keldi.", "mystery", "01.jpg",
-          [note("Savol yigirma daqiqada yetib keldi.", y=1500, at="hozirgina")], no_img2=True),
-        S("bekzod", "Hozir ikki ming ellikinchi yil. Men — Marsdagi birinchi o'zbek kosmonavti Temurman. Bu yerda hamma narsa bor, faqat tez javob yo'q.", "hero", "02.jpg",
-          [pill("MARS · 2050-YIL", bg="crimson", y=330, at="start"), note("Faqat tez javob yo'q.", y=1520, at="tez javob")]),
-        S("lily", "Bolam, nega jim turibsan? Sovuq qotib qoldingmi? Issiq kiyinganmisan, ishqilib?", "warm", "03.jpg",
-          [sticker(["Issiq", "kiyindingmi?"], color="pink", x=780, y=420, at="issiq")], no_img2=True),
-        S("bekzod", "«Yedim, ona, hammasi yaxshi!» deb yozdim. Endi bu javob onamga yana yigirma daqiqada yetib boradi.", "groove", "01.jpg",
-          [stamp("Yana 20 daqiqa!", at="yigirma", y=1540)], img2="01_b.jpg", img2_at="yozdim"),
-        S("charlie", "Ma'lumot: Yer va Mars orasida signal bir tomonga uch daqiqadan yigirma ikki daqiqagacha yuradi. Buni hatto men ham tezlashtira olmayman, kapitan.", "mystery", "04.jpg",
-          [dark(0.3), card("NASA ma'lumoti", ["3–22", "DAQIQA"], "Signal Yerdan Marsgacha shuncha vaqt yuradi.", at="signal")]),
-        S("lily", "Senga qovun qoqi, non va o'rik murabbo jo'natyapman. Raketa qachon uchadi, o'g'lim?", "groove", "03_b.jpg",
-          [note("Qovun qoqi, non va murabbo yo'lda.", y=1500, at="murabbo")], no_img2=True),
-        S("charlie", "Kapitan, keyingi yuk raketasi yetti oydan keyin uchadi. Murabbo yo'lda yaxshilab yetiladi.", "groove", "05.jpg",
-          [stamp("Yetti oy kutasiz!", at="yetti oydan", y=1540)]),
-        S("bekzod", "Marsgacha uchib kelish mumkin ekan. Lekin onaning mehribon savollaridan hech qayerga qochib bo'lmaydi.", "warm", "06.jpg",
-          [note("Onaning savollaridan qochib bo'lmaydi.", y=1500, at="qochib")]),
-        S("bekzod", "Sizning onangiz kuniga necha marta «ovqat yedingmi?» deb so'raydi?", "finale", "06.jpg",
-          [final(["ONANGIZ KUNIGA", "NECHA MARTA SO'RAYDI?"])]),
+        S("bekzod", "Tasavvur qiling: ikki ming ellikinchi yil, ertalab soat yetti. Meni budilnik emas, uy roboti uyg'otadi.", "hero", "01.jpg",
+          [pill("2050-YIL · 07:00", bg="royal", y=330, at="start"), note("Meni uy roboti uyg'otadi.", y=1500, at="robot")]),
+        S("sarah", "Xayrli tong, Akmal aka! Nonushta tayyor, qahvangiz iliq. Otangiz esa ertalabdan beri men bilan bahslashyapti.", "groove", "02.jpg",
+          [sticker(["Nonushta", "tayyor!"], color="blue", x=780, y=420, at="nonushta")], img2="02_b.jpg", img2_at="otangiz"),
+        S("bill", "Ex bolam, mening vaqtimda nonni tandirdan o'zimiz uzardik! Bu temir bola non ushatishni ham bilmaydi-ya.", "groove", "03.jpg",
+          [stamp("Mening vaqtimda boshqacha edi!", at="mening vaqtimda", y=1540)]),
+        S("bekzod", "Bu shunchaki xayol emas. Morgan Stanley tahlilchilari ikki ming ellikinchi yilga borib dunyoda bir milliarddan ortiq insonsimon robot ishlashini taxmin qilishmoqda.", "mystery", "04.jpg",
+          [dark(0.35), card("Morgan Stanley prognozi", ["1 MILLIARD", "ROBOT"], "2050-yilda insonsimon robotlar soni milliarddan oshishi mumkin.", at="Morgan")]),
+        S("bekzod", "Ishga uchuvchi taksida boraman. Tirbandlik yo'q, faqat qo'shnining dronini aylanib o'tamiz. Aytgancha, Dubayda bunday taksilar allaqachon sinovdan o'tyapti.", "hero", "05.jpg",
+          [pill("UCHUVCHI TAKSI", bg="green", y=330, at="uchuvchi"), note("Tirbandlik yo'q, faqat dronlar bor.", y=1500, at="tirbandlik")]),
+        S("bill", "Mening vaqtimda taksini qo'l ko'tarib to'xtatardik. Endi qo'limni qayerga ko'taray, osmongami?!", "groove", "06.jpg",
+          [note("Taksini osmondan to'xtataman!", y=1500, at="osmongami")]),
+        S("sarah", "Ota, qo'lingizni tushiring. Taksi sizni yuzingizdan taniydi, pulini ham o'zi yechib oladi.", "groove", "06.jpg",
+          [stamp("Taksi yuzingizni taniydi!", at="yuzingizdan", y=1540)]),
+        S("bekzod", "Texnologiya qanchalik o'zgarmasin, kechqurun hammamiz baribir bitta dasturxonga yig'ilamiz. Oshni esa hali ham otam damlaydi.", "warm", "07.jpg",
+          [note("Oshni hali ham otam damlaydi.", y=1500, at="oshni")]),
+        S("bekzod", "Sizningcha, ikki ming ellikinchi yilda qaysi texnologiya hammadan oldin hayotimizga kiradi?", "finale", "07.jpg",
+          [final(["2050-YILDA QAYSI", "TEXNOLOGIYA KELADI?"])]),
     ],
-    caption=("2050-yil. Mars. Onam so'radi: «Bolam, ovqat yedingmi?» — savol menga 20 daqiqada yetib keldi 🚀👩‍🍳\n\n"
-             "Marsga uchish mumkin, lekin onaning mehribon savollaridan qochib bo'lmaydi 😄 Murabbo esa yetti oyda yetib keladi.\n\n"
-             "Fakt (NASA): Yer va Mars orasida signal bir tomonga 3 dan 22 daqiqagacha yuradi.\n\n"
-             "Onangiz kuniga necha marta «ovqat yedingmi?» deb so'raydi? 👇\n\n"
-             "#99foiz #kelajak #mars #koinot #2050 #ona #kosmonavt #ozbekcha #ozbekiston #uzbekistan #toshkent #hazil #reels #reelsuz #uzbekreels"),
+    caption=("Tasavvur qiling: 2050-yil, soat 07:00. Sizni budilnik emas, uy roboti uyg'otadi 🤖☕\n\n"
+             "Nonushtani robot tayyorlaydi, ishga uchuvchi taksida borasiz, otangiz esa osmonga qo'l ko'tarib taksi to'xtatmoqchi 😄 Lekin oshni baribir otam damlaydi!\n\n"
+             "Fakt: Morgan Stanley prognoziga ko'ra, 2050-yilga kelib dunyoda 1 milliarddan ortiq insonsimon robot ishlashi mumkin. Uchuvchi taksilar esa Dubayda allaqachon sinovdan o'tmoqda (Joby).\n\n"
+             "Sizningcha, qaysi texnologiya birinchi keladi? 👇\n\n"
+             "#99foiz #kelajak #2050 #robot #texnologiya #suniyintellekt #uchuvchitaksi #ozbekcha #ozbekiston #uzbekistan #toshkent #hazil #reels #reelsuz #uzbekreels"),
 )
 
-# ---------------- 18:30 URF-ODAT ----------------
 JOBS["2026-10-15_1830_yarim-piyola"] = dict(
     slot="2026-10-15T18:30+05:00", theme="urf-odatlar", trial=False,
     title="Nega piyolam yarim?", music_seed=67,

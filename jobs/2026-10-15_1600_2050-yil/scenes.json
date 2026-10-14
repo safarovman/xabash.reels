@@ -1,0 +1,208 @@
+{
+ "title": "2050-yil: bir kunlik hayot",
+ "music_seed": 58,
+ "cover_title": [
+  "2050-YIL:",
+  "BIR KUNLIK HAYOT"
+ ],
+ "cover_sub": "robot nonushta, uchuvchi taksi",
+ "cover_scene": 1,
+ "anim": "static",
+ "scenes": [
+  {
+   "speaker": "bekzod",
+   "text": "Tasavvur qiling: ikki ming ellikinchi yil, ertalab soat yetti. Meni budilnik emas, uy roboti uyg'otadi.",
+   "mood": "hero",
+   "img": "01.jpg",
+   "elements": [
+    {
+     "type": "pill",
+     "text": "2050-YIL · 07:00",
+     "bg": "royal",
+     "fg": "white",
+     "x": 540,
+     "y": 330,
+     "rot": -3,
+     "at": "start"
+    },
+    {
+     "type": "note",
+     "text": "Meni uy roboti uyg'otadi.",
+     "y": 1500,
+     "size": 76,
+     "rot": -2,
+     "at": "robot"
+    }
+   ],
+   "vo": "vo_01.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M"
+  },
+  {
+   "speaker": "sarah",
+   "text": "Xayrli tong, Akmal aka! Nonushta tayyor, qahvangiz iliq. Otangiz esa ertalabdan beri men bilan bahslashyapti.",
+   "mood": "groove",
+   "img": "02.jpg",
+   "elements": [
+    {
+     "type": "sticker",
+     "lines": [
+      "Nonushta",
+      "tayyor!"
+     ],
+     "color": "blue",
+     "x": 780,
+     "y": 420,
+     "w": 420,
+     "size": 58,
+     "rot": 4,
+     "at": "nonushta"
+    }
+   ],
+   "img2": "02_b.jpg",
+   "img2_at": "otangiz",
+   "vo": "vo_02.mp3",
+   "voice_id": "EXAVITQu4vr4xnSDxMaL"
+  },
+  {
+   "speaker": "bill",
+   "text": "Ex bolam, mening vaqtimda nonni tandirdan o'zimiz uzardik! Bu temir bola non ushatishni ham bilmaydi-ya.",
+   "mood": "groove",
+   "img": "03.jpg",
+   "elements": [
+    {
+     "type": "stamp",
+     "text": "Mening vaqtimda boshqacha edi!",
+     "y": 1540,
+     "rot": -5,
+     "at": "mening vaqtimda"
+    }
+   ],
+   "vo": "vo_03.mp3",
+   "voice_id": "pqHfZKP75CvOlQylNhV4"
+  },
+  {
+   "speaker": "bekzod",
+   "text": "Bu shunchaki xayol emas. Morgan Stanley tahlilchilari ikki ming ellikinchi yilga borib dunyoda bir milliarddan ortiq insonsimon robot ishlashini taxmin qilishmoqda.",
+   "mood": "mystery",
+   "img": "04.jpg",
+   "elements": [
+    {
+     "type": "dark",
+     "amount": 0.35,
+     "at": "start"
+    },
+    {
+     "type": "card",
+     "kicker": "Morgan Stanley prognozi",
+     "title": [
+      "1 MILLIARD",
+      "ROBOT"
+     ],
+     "sub": "2050-yilda insonsimon robotlar soni milliarddan oshishi mumkin.",
+     "at": "Morgan"
+    }
+   ],
+   "vo": "vo_04.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M"
+  },
+  {
+   "speaker": "bekzod",
+   "text": "Ishga uchuvchi taksida boraman. Tirbandlik yo'q, faqat qo'shnining dronini aylanib o'tamiz. Aytgancha, Dubayda bunday taksilar allaqachon sinovdan o'tyapti.",
+   "mood": "hero",
+   "img": "05.jpg",
+   "elements": [
+    {
+     "type": "pill",
+     "text": "UCHUVCHI TAKSI",
+     "bg": "green",
+     "fg": "white",
+     "x": 540,
+     "y": 330,
+     "rot": -3,
+     "at": "uchuvchi"
+    },
+    {
+     "type": "note",
+     "text": "Tirbandlik yo'q, faqat dronlar bor.",
+     "y": 1500,
+     "size": 76,
+     "rot": -2,
+     "at": "tirbandlik"
+    }
+   ],
+   "vo": "vo_05.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M"
+  },
+  {
+   "speaker": "bill",
+   "text": "Mening vaqtimda taksini qo'l ko'tarib to'xtatardik. Endi qo'limni qayerga ko'taray, osmongami?!",
+   "mood": "groove",
+   "img": "06.jpg",
+   "elements": [
+    {
+     "type": "note",
+     "text": "Taksini osmondan to'xtataman!",
+     "y": 1500,
+     "size": 76,
+     "rot": -2,
+     "at": "osmongami"
+    }
+   ],
+   "vo": "vo_06.mp3",
+   "voice_id": "pqHfZKP75CvOlQylNhV4"
+  },
+  {
+   "speaker": "sarah",
+   "text": "Ota, qo'lingizni tushiring. Taksi sizni yuzingizdan taniydi, pulini ham o'zi yechib oladi.",
+   "mood": "groove",
+   "img": "06.jpg",
+   "elements": [
+    {
+     "type": "stamp",
+     "text": "Taksi yuzingizni taniydi!",
+     "y": 1540,
+     "rot": -5,
+     "at": "yuzingizdan"
+    }
+   ],
+   "vo": "vo_07.mp3",
+   "voice_id": "EXAVITQu4vr4xnSDxMaL"
+  },
+  {
+   "speaker": "bekzod",
+   "text": "Texnologiya qanchalik o'zgarmasin, kechqurun hammamiz baribir bitta dasturxonga yig'ilamiz. Oshni esa hali ham otam damlaydi.",
+   "mood": "warm",
+   "img": "07.jpg",
+   "elements": [
+    {
+     "type": "note",
+     "text": "Oshni hali ham otam damlaydi.",
+     "y": 1500,
+     "size": 76,
+     "rot": -2,
+     "at": "oshni"
+    }
+   ],
+   "vo": "vo_08.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M"
+  },
+  {
+   "speaker": "bekzod",
+   "text": "Sizningcha, ikki ming ellikinchi yilda qaysi texnologiya hammadan oldin hayotimizga kiradi?",
+   "mood": "finale",
+   "img": "07.jpg",
+   "elements": [
+    {
+     "type": "final",
+     "lines": [
+      "2050-YILDA QAYSI",
+      "TEXNOLOGIYA KELADI?"
+     ],
+     "at": 0.4
+    }
+   ],
+   "vo": "vo_09.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M"
+  }
+ ]
+}

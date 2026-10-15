@@ -1,6 +1,8 @@
 # Jadval kelishuvi (boshqa sessiyalar uchun)
-2026-10-15 uchun Buffer'da allaqachon rejalashtirilgan (session xabash-reels-88):
-- 2026-10-14 22:15 — Yana bitta video (6acf7b5686d4961cd67db271)
-- 2026-10-15 08:00 — O'zing izlab top (6acfb2b4920cbaa2c1566f20)
-- 2026-10-15 10:00 — 47 soniya (6acfb536d95fde8a287e8d03) — 12:30 bo'sh qoldirildi
-12:30 / 16:00 / 18:30 / 21:00 — plan_2026-10-15_v3.py dagi videolar uchun bo'sh. Rejalashtirishdan oldin list_posts bilan tekshiring.
+2026-10-16 — 5 ta slot ham Buffer'da (hammasi automatic, shouldShareToFeed true):
+- 08:00 Xating hali pochtada (6ad0a5066742034cc4e7b95c)
+- 12:30 Dadam o'yinga qo'shildi (6ad0a97802a4f4f292316de4)
+- 16:00 Robotaksi bilan savdolashish (6ad0ab82b324123738c6075b)
+- 18:30 Nahor oshi (6ad0fc2843886cbb07532faa)
+- 21:00 Har kecha 100% gacha zaryad (6ad0fc2b00e152e7cd1ba82c)
+Keyingi navbat: 2026-10-17 uchun 5 ta mavzu (16-okt 19:00 dagi run). Rejalashtirishdan oldin list_posts bilan tekshiring.

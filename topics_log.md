@@ -14,6 +14,6 @@ Har yangi videoda qahramon, ochilish turi va dizayn (theme: shrift, palitra, fon
 | 2026-10-15 | 21:00 | Parolim 123456 (zaif parollar, NordPass) | Bahodir aka, sartarosh + qizi Sevara + mijoz | dialog bilan | rejalashtirildi |
 | 2026-10-16 | 08:00 | Xating hali pochtada (birinchi SMS 1992) | Rahim bobo + nevara Shoxrux + Oysha buvi | savol bilan | rejalashtirildi (Buffer 6ad0a506) |
 | 2026-10-16 | 12:30 | Dadam o'yinga qo'shildi (Newzoo: 3,58 mlrd o'yinchi) | o'g'il Sardor + dadasi Anvar + onasi Gulnora | cold open | rejalashtirildi (Buffer 6ad0a978) |
-| 2026-10-16 | 16:00 | Haydovchisiz taksi bilan savdolashish (Waymo 400 000+ safar/hafta) | Muqaddas opa + robotaksi + Dilfuza | savdolashish | rejalashtirildi (Buffer 6ad0ab82, automatic — trial bekor) |
-| 2026-10-16 | 18:30 | Nahor oshi (YUNESKO 2016) | kuyov Javlon + oshpaz Hamid aka + mahalla oqsoqoli | tasvir | tayyorlanmoqda |
-| 2026-10-16 | 21:00 | Har kecha 100% gacha zaryad (Apple optimal zaryadlash) | Madina + telefoni + usta Rustam aka | telefon gapiradi | video tayyor (media), Buffer kutilmoqda |
+| 2026-10-16 | 16:00 | Haydovchisiz taksi bilan savdolashish (Waymo 400 000+ safar/hafta) | Muqaddas opa + robotaksi + Dilfuza | savdolashish | rejalashtirildi (Buffer 6ad0ab82, automatic) |
+| 2026-10-16 | 18:30 | Nahor oshi (YUNESKO 2016) | kuyov Javlon + oshpaz Hamid aka + mahalla oqsoqoli | tasvir | rejalashtirildi (Buffer 6ad0fc28, automatic) |
+| 2026-10-16 | 21:00 | Har kecha 100% gacha zaryad (Apple optimal zaryadlash) | Madina + telefoni + usta Rustam aka | telefon gapiradi | rejalashtirildi (Buffer 6ad0fc2b, automatic) |

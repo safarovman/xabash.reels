@@ -16,4 +16,4 @@ Har yangi videoda qahramon, ochilish turi va dizayn (theme: shrift, palitra, fon
 | 2026-10-16 | 12:30 | Dadam o'yinga qo'shildi (Newzoo: 3,58 mlrd o'yinchi) | o'g'il Sardor + dadasi Anvar + onasi Gulnora | cold open | rejalashtirildi (Buffer 6ad0a978) |
 | 2026-10-16 | 16:00 | TRIAL: Haydovchisiz taksi bilan savdolashish (Waymo 400 000+ safar/hafta) | Muqaddas opa + robotaksi + Dilfuza | savdolashish | rejalashtirildi (Buffer 6ad0ab82, notification/Trial) |
 | 2026-10-16 | 18:30 | Nahor oshi (YUNESKO 2016) | kuyov Javlon + oshpaz Hamid aka + mahalla oqsoqoli | tasvir | tayyorlanmoqda |
-| 2026-10-16 | 21:00 | Har kecha 100% gacha zaryad (Apple optimal zaryadlash) | Madina + telefoni + dadasi | telefon gapiradi | tayyorlanmoqda |
+| 2026-10-16 | 21:00 | Har kecha 100% gacha zaryad (Apple optimal zaryadlash) | Madina + telefoni + usta Rustam aka | telefon gapiradi | tayyorlanmoqda |

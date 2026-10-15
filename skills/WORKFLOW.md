@@ -16,7 +16,7 @@
 - **Butun videoga bitta umumiy fon qo'yib tashlamang.** Har sahna foni mavzuga mos, Flow'da yaratiladi. Protsedurali `space`/`blueprint` fonlar faqat ataylab tanlangan 1–2 sahnada.
 - **Qahramon hissiyotlari**: bosh qahramon PNG stiker bo'lib 2–3 sahnada chiqadi va har xil reaksiya qiladi — bir gapda kulib turadi, keyingisida kayfiyati tushadi, keyin hayron qoladi. Har hissiyot uchun alohida Flow rasmi (o'sha personajni namuna qilib): `img/c_<nom>_<hissiyot>.jpg`; `char` elementida `moods` bilan gapga qarab almashadi.
 - Mavzuga kerakli qo'shimcha rasmlarni (personajlar, buyumlar, fonlar) Google Flow'da o'zingiz yarating.
-- **Yorqin, ochiq rangli** rasmlar (`style.image_prefix`). Qorong'i sahna faqat syujet talab qilsa.
+- **Rasm uslubi: tabiiy, yarim-realistik** (jurnal illyustratsiyasi) — haqiqiy odam proporsiyalari va yuzlari, iliq kinematik yorug'lik, tabiiy ranglar. **Multfilm/chibi/katta ko'zli uslub YO'Q** (`style.image_prefix`, `character_prefix`). Qorong'i sahna faqat syujet talab qilsa. Haqiqiy siyosatchi va mashhurlarni chizmang.
 - **PNG stikerlar ko'p**: har videoda 3–6 marta personaj yoki buyum oq konturli stiker bo'lib chetdan/pastdan chiqadi va gapirganda qimirlaydi (`char`, `prop`). Personajlar Flow'da alohida, oq fonda (`style.character_prefix`) → `img/c_<nom>.jpg`; buyumlar `style.prop_prefix` → `img/p_<nom>.jpg`. Fon rasmlari personajsiz ham bo'lishi mumkin.
 - **Dialog**: `bubble` — gapiruvchi nomi (DADA, OYI, BOBUR...) va so'zlar ovozga qarab yonadi, kalit so'zlar rangli.
 - **Stikerlar xilma-xil**: pill, yorliq, sticky, soat, checklist/daftar varag'i, karta, emoji-buyumlar, ovoz berish (1-2-3). Katta qizil `stamp`/`big` — videoda ko'pi bilan 1 marta.

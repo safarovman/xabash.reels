@@ -41,10 +41,11 @@
   }
  ],
  "style": {
-  "image_prefix": "Bright cheerful hand-drawn cartoon illustration, clean bold ink outlines, vivid saturated warm colors, high-key soft lighting, light airy palette (no dark or gloomy scenes unless the story needs night), vertical 9:16 composition, no text, no letters, no logos.",
+  "image_prefix": "Semi-realistic digital painting, natural human proportions and realistic faces (NOT cartoon, NOT chibi, NOT big-eyed anime), detailed expressive features, real Uzbek people and real places, warm cinematic golden lighting, rich but natural colors, soft painterly texture like an editorial magazine illustration, slightly vintage film grain, vertical 9:16 composition, no text, no letters, no logos.",
   "brand_logo": "brand/logo_99foiz.png",
-  "character_prefix": "Same art style. Single character only, full or half body, expressive pose, isolated on a plain flat pure white background, no shadow, no scenery, no text.",
-  "prop_prefix": "Same art style. Single object only, isolated on a plain flat pure white background, no shadow, no text."
+  "character_prefix": "Same semi-realistic painted style, realistic proportions and face (not cartoon). Single person only, full or half body, clear expressive emotion, isolated on a plain flat pure white background, no shadow, no scenery, no text.",
+  "prop_prefix": "Same semi-realistic painted style, realistic object. Single object only, isolated on a plain flat pure white background, no shadow, no text.",
+  "style_note": "2026-10-15 dan: multfilm uslubi YO'Q. Tabiiy, yarim-realistik rasm (jurnal illyustratsiyasi): haqiqiy odam proporsiyalari, tabiiy yuzlar, iliq kinematik yorug'lik. Faqat keyingi videolar uchun; eski videolar o'zgartirilmaydi. Haqiqiy siyosatchi/mashhur shaxslar rasmini chizmang."
  },
  "brand": "99 FOIZ",
  "image_fallback": "none — rasm faqat Google Flow (egasi Higgsfield'ni rad etdi). Noutbuk o'chiq bo'lsa to'xtab egasiga xabar ber.",

@@ -63,8 +63,10 @@
   "stickers": "stikerlar xilma-xil: pill, label, sticky, clock, card, note, checklist, emoji-buyumlar; katta qizil `stamp`/`big` har videoda ko'pi bilan 1 marta",
   "no_repeat_motifs": "bir xil raqam/motivni videodan-videoga takrorlamang (masalan '47' endi ishlatilmaydi)",
   "caption": "caption qisqa: 1 ilmoq jumla + 1 savol + 6-8 heshteg; butun mavzuni yozib tashlamang",
-  "own_design": "Reference videolarni NUSXALAMANG — ulardan faqat g'oya oling (PNG stikerlar, pufakchalar). Har video mavzusiga mos O'Z dizayni: masalan koinot mavzusi — bola PNG holida koinotda suzib yuradi, o'zga sayyoraliklar bilan; o'yin mavzusi — piksel shrift va o'yin interfeysi; o'tmish — eski fotosurat/qog'oz uslubi.",
-  "theme_each_video": "har videoda `theme` boshqacha: shrift (bangers/luckiest/pixel/orbitron/lobster/fredoka/russo/rubikmono/marker/inter), rang palitrasi (accent, accent2), pufakcha ranglari, fon turi (rasm/space/blueprint), personaj harakati (float/fly/bounce/shake/spin/idle). Oldingi videodagi kombinatsiyani takrorlamang — topics_log.md ga yozing.",
-  "extra_images": "mavzuga kerakli qo'shimcha rasmlarni (PNG personajlar, o'zga sayyoralik, buyumlar, fonlar) Google Flow'da o'zing yarat"
+  "own_design": "Dizaynni har mavzu uchun agentning O'ZI o'ylab topadi. Egasining misollari (koinot, o'yin...) faqat misol, shablon emas. Reference videolarni nusxalamang.",
+  "extra_images": "mavzuga kerakli qo'shimcha rasmlarni (PNG personajlar, o'zga sayyoralik, buyumlar, fonlar) Google Flow'da o'zing yarat",
+  "backgrounds": "Butun videoga bitta umumiy fon (masalan protsedurali `space`/`blueprint`) qo'yib tashlamang. Har sahna fonini mavzuga mos qilib Flow'da yarating; protsedurali fonlar faqat ataylab tanlangan 1-2 sahnada.",
+  "emotions": "Bosh qahramon PNG stiker bo'lib 2-3 sahnada chiqadi va har xil reaksiya qiladi: bir gapda kulib turadi, keyingi gapda kayfiyati tushadi va h.k. Har bir hissiyot uchun alohida Flow rasmi (o'sha personaj namuna qilinadi): c_<nom>_<hissiyot>.jpg; `char` elementida `moods` bilan almashadi.",
+  "theme_each_video": "`theme` (shrift, palitra, pufakcha ranglari, harakat) mavzudan kelib chiqib tanlanadi va videodan-videoga takrorlanmaydi."
  }
 }

@@ -66,3 +66,4 @@ put stickers/pills on the side or top, captions in the lower third. Max ~3 overl
 - `scenes.json` → `"theme": {"font":"orbitron","font2":"fredoka","accent":[120,230,255],"accent2":[255,120,220],"bubble_bg":[20,24,60],"bubble_line":[120,230,255],"bubble_ink":[255,255,255],"bubble_dim":[110,120,170],"bubble_radius":30}` — shriftlar: inter, bangers, luckiest, pixel, orbitron, lobster, fredoka, russo, rubikmono, marker, caveat. `accent` = qizil o'rniga, `accent2` = sariq o'rniga (stamp, final, captionlar).
 - Sahna fonida `"bg": "space"` — protsedurali koinot (yulduzlar, tumanliklar), `"bg_seed"`.
 - `char`/`prop` da `"motion"`: `idle` (default), `float` (vaznsizlik: sekin suzish va aylanish), `fly` (`"path":[x0,y0]` dan `x,y` ga `dur` s ichida uchib keladi), `bounce`, `shake`, `spin`.
+- `char` da `"moods": [["c_bobur_xafa.jpg","ibora"], ["c_bobur_hayron.jpg","ibora2"]]` — personaj hissiyoti gapga qarab almashadi (kulgan → xafa → hayron), almashganda kichik "pop".

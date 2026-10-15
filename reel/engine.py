@@ -416,15 +416,18 @@ for i, sc in enumerate(scenes):
         elif ty == "ring":
             E[i].append(dict(kind="ring", x=int(x), y=int(y), t0=t0, t1=t0 + el.get("dur", 1.6))); sfx(i, t0, "alarm")
         elif ty in ("char", "prop"):
-            spr = to_np(sticker_img(el["img"], el.get("h", 900 if ty == "char" else 420), el.get("outline", 14 if ty == "char" else 10), el.get("flip", False)))
+            hh_ = el.get("h", 900 if ty == "char" else 420); ol_ = el.get("outline", 14 if ty == "char" else 10)
+            spr = to_np(sticker_img(el["img"], hh_, ol_, el.get("flip", False)))
+            moods = [(anchor(i, a_), to_np(sticker_img(im_, hh_, ol_, el.get("flip", False)))) for im_, a_ in el.get("moods", [])]   # emotion swaps: [["c_x_sad.jpg","ibora"], ...]
             side = el.get("from", "bottom" if ty == "char" else "pop")
             talk = []
             for tr in el.get("talk", []):
                 if tr == "vo": talk.append((LEAD, LEAD + vod[i]))
                 else: talk.append((anchor(i, tr[0]), anchor(i, tr[1])))
-            E[i].append(dict(kind="char", spr=spr, x=x, y=y, t0=t0, rot=rot, side=side, talk=talk, seed=seed % 7, motion=el.get("motion", "idle"), path=el.get("path"), pdur=el.get("dur", 3.0), label=to_np(label_tag(el["label"], col(el.get("label_bg", "green"), (46, 160, 100)))) if el.get("label") else None))
+            E[i].append(dict(kind="char", spr=spr, x=x, y=y, t0=t0, rot=rot, side=side, talk=talk, seed=seed % 7, motion=el.get("motion", "idle"), path=el.get("path"), pdur=el.get("dur", 3.0), moods=moods, label=to_np(label_tag(el["label"], col(el.get("label_bg", "green"), (46, 160, 100)))) if el.get("label") else None))
             if el.get("out") is not None: E[i][-1]["t_out"] = anchor(i, el["out"])
             sfx(i, t0, "whoosh" if side in ("left", "right", "bottom") else "pop")
+            for ta_, _ in moods: sfx(i, ta_, "pop")
         elif ty == "bubble":
             txt = el.get("text") or sc.get("text", ""); L = bubble_layout(txt, el.get("speaker", sc.get("speaker_name", "")), el.get("w", 860), el.get("size", 62), el.get("tail", "down"), el.get("tail_x", 0.5), col(el.get("tag", "navy"), (60, 70, 90)))
             hl = {re.sub(r"[^\w']", "", k.lower()): col(v, RED) for k, v in el.get("hl", {}).items()}
@@ -489,7 +492,11 @@ def draw_el(frame, e, t):
         if talking: scl *= 1 + 0.022 * abs(math.sin(t * 13)); rr += 1.5 * math.sin(t * 9)
         if "t_out" in e and t > e["t_out"]:
             q = clamp((t - e["t_out"]) / .35); ox += (-1 if side == "left" else 1) * W * 0.8 * q * q; al_out = 1.0
-        paste(frame, e["spr"], e["x"] + ox, e["y"] + oy + bob, scl, rr, clamp(dt / .1) * al_out)
+        spr_ = e["spr"]; sw_ = None
+        for ta, sp in e.get("moods", []):
+            if t >= ta: spr_ = sp; sw_ = ta
+        if sw_ is not None and t - sw_ < 0.22: scl *= 1 + 0.12 * math.sin(math.pi * (t - sw_) / 0.22)   # little pop on emotion change
+        paste(frame, spr_, e["x"] + ox, e["y"] + oy + bob, scl, rr, clamp(dt / .1) * al_out)
         if e.get("label") is not None and dt > .3:
             paste(frame, e["label"], e["x"] + ox + e["spr"].shape[1] * 0.18, e["y"] + oy + bob + e["spr"].shape[0] * 0.36, ease_out_back((dt - .3) / .25, 2), -4, 1.0)
     elif k == "anim":

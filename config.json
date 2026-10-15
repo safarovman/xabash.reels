@@ -50,7 +50,7 @@
  "brand": "99 FOIZ",
  "image_fallback": "none — rasm faqat Google Flow (egasi Higgsfield'ni rad etdi). Noutbuk o'chiq bo'lsa to'xtab egasiga xabar ber.",
  "video_rules": {
-  "duration_s": 60,
+  "duration_s": "75-80 (egasi tasdiqladi: 60 emas, 75-80 soniya yaxshi)",
   "multi_character": "kamida 2-3 personaj gapiradi (masalan dadasi: «Ex bolam, mening vaqtimda...»), har biri boshqa ElevenLabs ovozida",
   "vo_chunks": "ovoz bo'laklari uzunroq (1-3 to'liq gap), mayda-mayda emas",
   "on_screen_text": "ekrandagi yozuvlar to'liq, tugallangan gap",

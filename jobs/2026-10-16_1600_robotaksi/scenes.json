@@ -1,0 +1,199 @@
+{
+ "title": "Haydovchisiz taksi bilan savdolashish",
+ "music_seed": 92,
+ "cover_title": [
+  "ROBOTAKSI BILAN",
+  "SAVDOLASHISH"
+ ],
+ "cover_sub": "«Chorsugacha 15 ming bo'ladimi?»",
+ "cover_scene": 1,
+ "anim": "static",
+ "scenes": [
+  {
+   "speaker": "lily",
+   "text": "Chorsugacha o'n besh mingga boramizmi, ukam? Ha, nega indamaysan? Rulda hech kim yo'q-ku!",
+   "mood": "groove",
+   "img": "01.jpg",
+   "elements": [
+    {
+     "type": "pill",
+     "text": "2035-YIL · TOSHKENT",
+     "bg": "royal",
+     "fg": "white",
+     "x": 540,
+     "y": 330,
+     "rot": -3,
+     "at": "start"
+    },
+    {
+     "type": "note",
+     "text": "Rulda hech kim yo'q!",
+     "y": 1500,
+     "size": 76,
+     "rot": -2,
+     "at": "hech kim"
+    }
+   ],
+   "vo": "vo_01.mp3",
+   "voice_id": "pFZP5JQG7iQjIQuC4Bku"
+  },
+  {
+   "speaker": "sarah",
+   "text": "Assalomu alaykum, men haydovchisiz taksiman. Chorsugacha narx — o'ttiz ikki ming so'm. Narx qat'iy.",
+   "mood": "mystery",
+   "img": "02.jpg",
+   "elements": [
+    {
+     "type": "stamp",
+     "text": "Narx qat'iy!",
+     "y": 1560,
+     "rot": -5,
+     "at": "qat'iy"
+    }
+   ],
+   "no_img2": true,
+   "vo": "vo_02.mp3",
+   "voice_id": "EXAVITQu4vr4xnSDxMaL"
+  },
+  {
+   "speaker": "lily",
+   "text": "Qat'iy? Bozorda hech narsa qat'iy emas, bolam. Yigirmaga bor, men doimiy mijozman!",
+   "mood": "groove",
+   "img": "02.jpg",
+   "elements": [
+    {
+     "type": "sticker",
+     "lines": [
+      "Bozorda hech narsa",
+      "qat'iy emas!"
+     ],
+     "color": "pink",
+     "x": 760,
+     "y": 1450,
+     "w": 420,
+     "size": 58,
+     "rot": 4,
+     "at": "bozorda"
+    }
+   ],
+   "img2": "02_b.jpg",
+   "img2_at": "yigirmaga",
+   "vo": "vo_03.mp3",
+   "voice_id": "pFZP5JQG7iQjIQuC4Bku"
+  },
+  {
+   "speaker": "sarah",
+   "text": "Kechirasiz, savdolashish dasturimda yo'q. Lekin sizga musiqa qo'yib berishim mumkin.",
+   "mood": "mystery",
+   "img": "03.jpg",
+   "elements": [
+    {
+     "type": "note",
+     "text": "Savdolashish dasturda yo'q.",
+     "y": 1500,
+     "size": 76,
+     "rot": -2,
+     "at": "savdolashish"
+    }
+   ],
+   "vo": "vo_04.mp3",
+   "voice_id": "EXAVITQu4vr4xnSDxMaL"
+  },
+  {
+   "speaker": "bekzod",
+   "text": "Bu xayol emas. Amerikada haydovchisiz taksilar allaqachon haftasiga to'rt yuz mingdan ortiq pullik safar qilmoqda. Ertaga ular bizga ham keladi.",
+   "mood": "mystery",
+   "img": "04.jpg",
+   "elements": [
+    {
+     "type": "dark",
+     "amount": 0.35,
+     "at": "start"
+    },
+    {
+     "type": "card",
+     "kicker": "Waymo, 2026",
+     "title": [
+      "400 000+",
+      "SAFAR"
+     ],
+     "sub": "Haftasiga haydovchisiz taksida.",
+     "at": "Amerikada"
+    }
+   ],
+   "vo": "vo_05.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M"
+  },
+  {
+   "speaker": "lily",
+   "text": "Mayli, unda bunday qilamiz: men senga uy murabbosidan bir banka beraman, sen narxni tushirasan. Kelishdikmi?",
+   "mood": "warm",
+   "img": "05.jpg",
+   "elements": [
+    {
+     "type": "note",
+     "text": "Murabbo evaziga chegirma.",
+     "y": 1500,
+     "size": 76,
+     "rot": -2,
+     "at": "murabbo"
+    }
+   ],
+   "vo": "vo_06.mp3",
+   "voice_id": "pFZP5JQG7iQjIQuC4Bku"
+  },
+  {
+   "speaker": "sarah",
+   "text": "Tizim xatosi. Murabbo qabul qilindi. Narx — yigirma besh ming. Bu qanday bo'ldi, o'zim ham tushunmadim.",
+   "mood": "groove",
+   "img": "06.jpg",
+   "elements": [
+    {
+     "type": "stamp",
+     "text": "Chegirma: 7 000 so'm!",
+     "y": 1560,
+     "rot": -5,
+     "at": "yigirma besh"
+    }
+   ],
+   "vo": "vo_07.mp3",
+   "voice_id": "EXAVITQu4vr4xnSDxMaL"
+  },
+  {
+   "speaker": "lily",
+   "text": "Ko'rdingmi, Dilfuza? Robot ham o'zbek opasiga yutqazadi. Texnologiya qanchalik aqlli bo'lmasin, bozor qoidasi o'zgarmaydi!",
+   "mood": "warm",
+   "img": "07.jpg",
+   "elements": [
+    {
+     "type": "note",
+     "text": "Bozor qoidasi o'zgarmaydi.",
+     "y": 1500,
+     "size": 76,
+     "rot": -2,
+     "at": "bozor qoidasi"
+    }
+   ],
+   "vo": "vo_08.mp3",
+   "voice_id": "pFZP5JQG7iQjIQuC4Bku"
+  },
+  {
+   "speaker": "bekzod",
+   "text": "Sizningcha, haydovchisiz taksi bilan savdolashish mumkinmi? Kim yutadi: robotmi yoki opa?",
+   "mood": "finale",
+   "img": "07.jpg",
+   "elements": [
+    {
+     "type": "final",
+     "lines": [
+      "ROBOTMI",
+      "YOKI OPA?"
+     ],
+     "at": 0.4
+    }
+   ],
+   "vo": "vo_09.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M"
+  }
+ ]
+}

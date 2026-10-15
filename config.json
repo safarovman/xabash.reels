@@ -27,8 +27,7 @@
   {
    "time": "16:00",
    "category": "kelajak",
-   "theme": "kelajak: 2050-yil, koinot, sun'iy intellekt, robotlar, Marsdagi o'zbek to'yi — fantastik hazil + haqiqiy ilmiy fakt",
-   "trial": true
+   "theme": "kelajak: 2050-yil, koinot, sun'iy intellekt, robotlar, Marsdagi o'zbek to'yi — fantastik hazil + haqiqiy ilmiy fakt"
   },
   {
    "time": "18:30",
@@ -68,5 +67,6 @@
   "backgrounds": "Butun videoga bitta umumiy fon (masalan protsedurali `space`/`blueprint`) qo'yib tashlamang. Har sahna fonini mavzuga mos qilib Flow'da yarating; protsedurali fonlar faqat ataylab tanlangan 1-2 sahnada.",
   "emotions": "Bosh qahramon PNG stiker bo'lib 2-3 sahnada chiqadi va har xil reaksiya qiladi: bir gapda kulib turadi, keyingi gapda kayfiyati tushadi va h.k. Har bir hissiyot uchun alohida Flow rasmi (o'sha personaj namuna qilinadi): c_<nom>_<hissiyot>.jpg; `char` elementida `moods` bilan almashadi.",
   "theme_each_video": "`theme` (shrift, palitra, pufakcha ranglari, harakat) mavzudan kelib chiqib tanlanadi va videodan-videoga takrorlanmaydi."
- }
+ },
+ "no_trial": "Trial reel QILINMAYDI. Hamma video, 16:00 dagisi ham, oddiy Reels: schedulingType automatic, shouldShareToFeed true (profilda ko'rinadi)."
 }

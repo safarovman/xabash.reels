@@ -1,5 +1,8 @@
 # xabash.reels — to'liq ish tartibi (skill'lar saqlanmagan bo'lsa ham shu yetarli)
 
+## 0a. TRIAL REEL YO'Q (2026-10-15)
+- Trial reel qilinmaydi. Hamma video, 16:00 dagisi ham, oddiy Reels: `schedulingType: automatic`, `shouldShareToFeed: true` — profilda ko'rinadi. `notification` ishlatilmaydi.
+
 ## 0. YANGI QOIDALAR (2026-10-14, egasi aytgan — eng ustun)
 - Kuniga 5 ta video (Asia/Tashkent): **08:00 o'tmish** (ota-bobolar zamoni vs hozir) · **12:30 hozirgi zamon** (internet, o'yinlar, ish, pul) · **16:00 kelajak** (koinot, AI, 2050 — *trial reel*: Buffer'da `schedulingType: notification`, egasi Instagram'da "Trial" qilib joylaydi; Buffer API trial reel'ni qo'llamaydi) · **18:30 urf-odatlar** · **21:00 odamlardagi ko'p xatolar**. Hammasi hazil-mutoyibali + tekshirilgan qiziq fakt. `config.json` → `slots`, `video_rules`.
 - Davomiylik ~60 s. 2–3 personaj gapiradi (masalan dadasi: «Ex bolam, mening vaqtimda...»), har biri boshqa ElevenLabs ovozida. Ovoz bo'laklari uzunroq (1–3 to'liq gap). Ekrandagi yozuvlar — to'liq, tugallangan gap.

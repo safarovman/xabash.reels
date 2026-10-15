@@ -11,6 +11,7 @@
 caption + video_url + thumbnailOffset bilan automatic qilib qo'ysin; keyin 18-okt mavzularini taklif qilsin.
 - 08:00 kasseta · 12:30 texnikum (egasining hikoyasi) · 16:00 mars-kechikish (2061) · 18:30 askiya · 21:00 koz-charchoq
 - ElevenLabs krediti tugagan (15-okt 20:10 UTC): 0800 #6,#9 · 1830 #3,#9 · 2100 #2,#8 sahnalar ovozsiz (matn ekranda).
+  Rasmlar+ovozlar: media/2026-10-17/assets_1017.tar (repo ildizida tar -xf).
   Egasi kredit to'ldirsa — shu qatorlarni yozib (scenes.json → tts), qayta render qilib, media faylini almashtiring.
 
 ## 2026-10-15 18:35 — OVOZLAR (keyingi postlardan)

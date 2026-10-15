@@ -15,6 +15,7 @@
 - **Stikerlar xilma-xil**: pill, yorliq, sticky, soat, checklist/daftar varag'i, karta, emoji-buyumlar, ovoz berish (1-2-3). Katta qizil `stamp`/`big` — videoda ko'pi bilan 1 marta.
 - Bir xil raqam/motivni takrorlamang ("47" endi yo'q).
 - **Caption qisqa**: 1 ilmoq jumla + 1 savol + 6–8 heshteg. Mavzuni to'liq yozib tashlamang.
+- Infografika sahnalari: `bg: blueprint` fon + `tag` (YIL 1995 → 2005 → 2025), `bars` (taqqoslash), `avatar` (qo'ng'iroq qilayotgan odam). Bir personaj yillar davomida o'zgarishi mumkin (yosh → keksa) — har yosh uchun alohida stiker rasmi.
 - Yakunda tomoshabinni faollashtiruvchi savol/ovoz berish ("Siz nechanchi farzandsiz? 1·2·3 — izohda yozing").
 
 ## 1. Mavzular (xabash-topics)

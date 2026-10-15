@@ -171,6 +171,36 @@ def big_paper(txt, size=150, color=RED):
     im, m = torn_paper(w + 90, h + 70, (255, 248, 230), 23); ImageDraw.Draw(im).text((m + 45 - b[0], m + 32 - b[1]), txt, font=f, fill=color); return im
 def to_np(im): return np.array(im.convert("RGBA")).astype(np.float32)
 
+def blueprint_bg(color=(28, 52, 150)):
+    im = np.zeros((int(H * 1.16), int(W * 1.16), 3), np.float32); im[:] = color
+    yy_, xx_ = np.mgrid[0:im.shape[0], 0:im.shape[1]]
+    im += (np.exp(-(((xx_ - im.shape[1] / 2) / (im.shape[1] * .6)) ** 2 + ((yy_ - im.shape[0] * .45) / (im.shape[0] * .6)) ** 2)) * 30)[..., None]
+    for step, a in ((36, 0.10), (180, 0.22)):
+        g = ((xx_ % step) < 2) | ((yy_ % step) < 2); im[g] = im[g] * (1 - a) + 255 * a
+    return im
+def year_tag(head, big, color=RED):
+    f1 = F(INTER_BLACK, 26); f2 = F(INTER_BLACK, 70); w2, h2, b2 = text_size(f2, big); w = max(150, w2 + 50); h = h2 + 80
+    im = Image.new("RGBA", (w + 30, h + 30), (0, 0, 0, 0)); sh = Image.new("RGBA", im.size, (0, 0, 0, 0)); ImageDraw.Draw(sh).rectangle((14, 18, 14 + w, 18 + h), fill=(0, 0, 0, 120)); im.alpha_composite(sh.filter(ImageFilter.GaussianBlur(7)))
+    d = ImageDraw.Draw(im); d.rectangle((8, 8, 8 + w, 8 + h), fill=(255, 255, 255, 255)); d.rectangle((8, 8, 8 + w, 44), fill=color + (255,))
+    w1, h1, b1 = text_size(f1, head); d.text((8 + (w - w1) / 2 - b1[0], 26 - h1 / 2 - b1[1]), head, font=f1, fill=(255, 255, 255))
+    d.text((8 + (w - w2) / 2 - b2[0], 56 - b2[1]), big, font=f2, fill=INK); return im
+def bars_frame(rows, p):
+    """rows: [(label, value, color)], p: 0..1 fill progress"""
+    w = 900; rh = 92; h = rh * len(rows) + 50; im = Image.new("RGBA", (w + 30, h + 30), (0, 0, 0, 0)); d = ImageDraw.Draw(im)
+    d.rounded_rectangle((10, 10, 10 + w, 10 + h), 20, fill=(20, 24, 40, 235)); f = F(INTER_BLACK, 48); vmax = max(r[1] for r in rows) or 1
+    for k, (lab, v, c) in enumerate(rows):
+        y = 36 + k * rh; d.text((40, y + 10), lab.upper(), font=f, fill=(235, 235, 240))
+        bx0 = 330; bx1 = bx0 + (w - 470) * (v / vmax) * p; d.rounded_rectangle((bx0, y + 14, w - 140, y + 62), 24, fill=(60, 64, 84))
+        if bx1 > bx0 + 4: d.rounded_rectangle((bx0, y + 14, bx1, y + 62), 24, fill=c + (255,))
+        d.text((w - 115, y + 10), str(int(round(v * p))), font=f, fill=(255, 255, 255))
+    return im
+def avatar_img(name, size=200, ring=(255, 255, 255)):
+    im = load_rgba(name); bb = im.getbbox(); im = im.crop(bb); side = min(im.width, im.height)
+    im = im.crop(((im.width - side) // 2, 0, (im.width - side) // 2 + side, side)).resize((size, size), Image.LANCZOS)
+    out = Image.new("RGBA", (size + 30, size + 30), (0, 0, 0, 0)); m = Image.new("L", (size, size), 0); ImageDraw.Draw(m).ellipse((0, 0, size - 1, size - 1), fill=255)
+    bgc = Image.new("RGBA", (size, size), (120, 170, 240, 255)); bgc.alpha_composite(im); d = ImageDraw.Draw(out); d.ellipse((5, 5, size + 25, size + 25), fill=ring + (255,))
+    out.paste(bgc, (15, 15), m); return out
+
 # ---------------- PNG stickers (characters / props) + speech bubbles ----------------
 def load_rgba(name):
     """img/<name>: PNG with alpha used as-is; JPG/PNG without alpha -> background removed with rembg (cached as _cut.png)."""
@@ -254,6 +284,8 @@ bases = []; FG = {}; BGC = {}; BASE2 = {}; SW = {}
 ANIM = CFG.get("anim", "static")   # "cutout" is disabled by default (owner: keep pictures whole)
 for i, sc in enumerate(scenes):
     ip = f"{JOB}/img/{sc.get('img', f'{i + 1:02d}.jpg')}"
+    if sc.get("bg") == "blueprint":
+        bases.append(blueprint_bg(tuple(sc.get("bg_color", (28, 52, 150))))); continue
     im = cv2.cvtColor(cv2.imread(ip), cv2.COLOR_BGR2RGB)
     s = max(W / im.shape[1], H / im.shape[0]) * 1.16
     sz = (int(im.shape[1] * s), int(im.shape[0] * s))
@@ -382,6 +414,14 @@ for i, sc in enumerate(scenes):
             nW = len(L["pos"]); lens = np.cumsum([len(w_) + 1 for w_, _, _ in L["pos"]]); lens = lens / lens[-1]
             frames = [to_np(bubble_frame(L, k, hl)) for k in range(nW + 1)]
             E[i].append(dict(kind="bubble", frames=frames, cum=lens, t1=t1, x=x, y=y, t0=t0, rot=rot)); sfx(i, t0, "pop")
+        elif ty == "tag":
+            E[i].append(dict(kind="drop", spr=to_np(year_tag(el.get("head", "YIL"), str(el["text"]), col(el.get("color", "red")))), x=x, y=el.get("y", 200), t0=t0, rot=rot or -3)); sfx(i, t0, "paper")
+        elif ty == "bars":
+            rows = [(r[0], float(r[1]), col(r[2] if len(r) > 2 else "yellow")) for r in el["rows"]]
+            frames = [to_np(bars_frame(rows, q / 12)) for q in range(13)]
+            E[i].append(dict(kind="anim", frames=frames, x=x, y=y, t0=t0, dur=el.get("dur", 1.2), rot=rot)); sfx(i, t0, "whoosh")
+        elif ty == "avatar":
+            E[i].append(dict(kind="pop", spr=to_np(avatar_img(el["img"], el.get("size", 200))), x=x, y=y, t0=t0, rot=rot, dur=.3)); sfx(i, t0, "pop")
         elif ty == "dark":
             DARK[i].append((t0, t0 + el.get("fade", 0.5), el.get("amount", 0.45)))
         elif ty == "hide_captions":
@@ -427,6 +467,9 @@ def draw_el(frame, e, t):
         paste(frame, e["spr"], e["x"] + ox, e["y"] + oy + bob, scl, rr, clamp(dt / .1) * al_out)
         if e.get("label") is not None and dt > .3:
             paste(frame, e["label"], e["x"] + ox + e["spr"].shape[1] * 0.18, e["y"] + oy + bob + e["spr"].shape[0] * 0.36, ease_out_back((dt - .3) / .25, 2), -4, 1.0)
+    elif k == "anim":
+        q = clamp(dt / e["dur"]); fr_ = e["frames"][min(len(e["frames"]) - 1, int(q * (len(e["frames"]) - 1) + 0.5))]
+        paste(frame, fr_, e["x"], e["y"], sc * (0.6 + 0.4 * ease_out_back(dt / .25, 2)), rot, clamp(dt / .1) * al_out)
     elif k == "bubble":
         prog = clamp((t - e["t0"]) / max(.3, e["t1"] - e["t0"])); n_lit = int(np.searchsorted(e["cum"], prog + 1e-6, side="right")); n_lit = min(n_lit, len(e["frames"]) - 1)
         p = ease_out_back(dt / .25, 2.0); paste(frame, e["frames"][n_lit], e["x"], e["y"], sc * (0.4 + 0.6 * p), rot, clamp(dt / .08) * al_out)

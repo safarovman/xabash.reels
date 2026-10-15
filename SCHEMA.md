@@ -57,3 +57,7 @@ put stickers/pills on the side or top, captions in the lower third. Max ~3 overl
 - `prop` — buyum stikeri (default `from: pop`, `h: 420`), ixtiyoriy `label` (yashil yorliq).
 - `bubble` — gap pufakchasi: `{"type":"bubble","speaker":"DADA","text":"...","x":540,"y":330,"at":"start","until":"ibora","hl":{"so'z":"crimson"},"tail":"down|up|none","tail_x":0.3,"tag":"navy"}`. So'zlar ovozga mos ravishda kulrangdan qoraga yonadi; `hl` dagi so'zlar rangli va tagiga chiziladi. `text` berilmasa sahna matni olinadi.
 - `scenes.json` → `"bright": true` (default) — yengil vinyetka, ochiq ko'rinish.
+- Sahna fonida `"bg": "blueprint"` (+ `bg_color`) — ko'k chizma (grid) fon, infografika sahnalari uchun.
+- `tag` — yirtma kalendar yorlig'i: `{"type":"tag","head":"YIL","text":"2005","x":150,"y":190,"color":"red"}` (REJA, YOSH, NARX va h.k.).
+- `bars` — taqqoslash chiziqlari (animatsiyali to'lib boradi): `{"type":"bars","rows":[["Qo'shni",40,"red"],["Rahim",50,"yellow"]],"x":540,"y":620}`.
+- `avatar` — doira ichidagi portret (telefon qo'ng'irog'i, eslab qolish): `{"type":"avatar","img":"c_bobur.jpg","x":880,"y":300,"size":200}`.

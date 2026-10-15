@@ -118,7 +118,7 @@
   },
   {
    "speaker": "charlie",
-   "text": "Bilasizmi, Newzoo hisobiga ko'ra dunyoda uch yarim milliarddan ortiq odam o'yin o'ynaydi. Demak, har ikki odamdan biri. Dadam endi shu yarmida.",
+   "text": "Bilasizmi, Newzoo hisobiga ko'ra dunyoda uch yarim milliarddan ko'proq odam o'yin o'ynaydi. Ya'ni har ikki odamdan biri. Dadam endi shu yarmida.",
    "mood": "mystery",
    "img": "05.jpg",
    "elements": [
@@ -143,7 +143,7 @@
   },
   {
    "speaker": "lily",
-   "text": "Ikkalangiz ham hozir o'chirasizlar! Osh sovidi, choy muzladi, qo'shnilar esa kim urishyapti deb qo'ng'iroq qilishyapti!",
+   "text": "Ikkalangiz ham hoziroq o'chiring! Osh sovidi, choy muzladi, qo'shnilar esa kim urishyapti deb qo'ng'iroq qilishyapti!",
    "mood": "tense",
    "img": "06.jpg",
    "elements": [
@@ -160,7 +160,7 @@
   },
   {
    "speaker": "bekzod",
-   "text": "Ertalab dadam ko'zini ochib, birinchi bo'lib so'radi: «Kecha bizni kim yutdi? Revansh qachon?»",
+   "text": "Ertalab dadam ko'zini ochdi va birinchi bo'lib so'radi: «Kecha bizni kim yutdi? Revansh qachon bo'ladi?»",
    "mood": "groove",
    "img": "07.jpg",
    "elements": [

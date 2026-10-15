@@ -11,7 +11,7 @@
  "scenes": [
   {
    "speaker": "lily",
-   "text": "Chorsugacha o'n besh mingga boramizmi, ukam? Ha, nega indamaysan? Rulda hech kim yo'q-ku!",
+   "text": "Ukam, Chorsugacha o'n besh mingga boramizmi? Nega jimsan? Rulda hech kim yo'q-ku!",
    "mood": "groove",
    "img": "01.jpg",
    "elements": [
@@ -39,7 +39,7 @@
   },
   {
    "speaker": "sarah",
-   "text": "Assalomu alaykum, men haydovchisiz taksiman. Chorsugacha narx — o'ttiz ikki ming so'm. Narx qat'iy.",
+   "text": "Assalomu alaykum, men haydovchisiz taksiman. Chorsugacha narx — o'ttiz ikki ming so'm. Bu narx qat'iy.",
    "mood": "mystery",
    "img": "02.jpg",
    "elements": [

@@ -8,6 +8,15 @@
 - Flow rasmlarini to'liq o'lchamda olish: tile `img.src` ni fetch → yakuniy URL dagi `=s512-rw` ni `=s0` ga almashtirib fetch; hammasini bitta paket faylga yig'ib Downloads → stage. Mos sahnani rasm o'xshashligi bo'yicha toping.
 - Render uzoq (~20 daq): sessiya bo'sh qolsa jarayon to'xtaydi — `sleep` bilan kutib turing.
 
+## 0b. DIZAYN QOIDALARI (2026-10-15, egasi + reference video)
+- **Yorqin, ochiq rangli** rasmlar (`style.image_prefix`). Qorong'i sahna faqat syujet talab qilsa.
+- **PNG stikerlar ko'p**: har videoda 3–6 marta personaj yoki buyum oq konturli stiker bo'lib chetdan/pastdan chiqadi va gapirganda qimirlaydi (`char`, `prop`). Personajlar Flow'da alohida, oq fonda (`style.character_prefix`) → `img/c_<nom>.jpg`; buyumlar `style.prop_prefix` → `img/p_<nom>.jpg`. Fon rasmlari personajsiz ham bo'lishi mumkin.
+- **Dialog**: `bubble` — gapiruvchi nomi (DADA, OYI, BOBUR...) va so'zlar ovozga qarab yonadi, kalit so'zlar rangli.
+- **Stikerlar xilma-xil**: pill, yorliq, sticky, soat, checklist/daftar varag'i, karta, emoji-buyumlar, ovoz berish (1-2-3). Katta qizil `stamp`/`big` — videoda ko'pi bilan 1 marta.
+- Bir xil raqam/motivni takrorlamang ("47" endi yo'q).
+- **Caption qisqa**: 1 ilmoq jumla + 1 savol + 6–8 heshteg. Mavzuni to'liq yozib tashlamang.
+- Yakunda tomoshabinni faollashtiruvchi savol/ovoz berish ("Siz nechanchi farzandsiz? 1·2·3 — izohda yozing").
+
 ## 1. Mavzular (xabash-topics)
 - `topics_log.md` dagi so'nggi 30 kun mavzularini takrorlamang.
 - Har kuni 4 ta: **00:00** tun (telefon, uyqusizlik), **06:00** ertalab (nonushta, choy, ishga tayyorlanish), **12:00** tush (tushlik, ish, pul, tirbandlik), **18:00** kechqurun (oila, mehmon, to'y, qo'shnilar).

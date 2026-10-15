@@ -171,6 +171,68 @@ def big_paper(txt, size=150, color=RED):
     im, m = torn_paper(w + 90, h + 70, (255, 248, 230), 23); ImageDraw.Draw(im).text((m + 45 - b[0], m + 32 - b[1]), txt, font=f, fill=color); return im
 def to_np(im): return np.array(im.convert("RGBA")).astype(np.float32)
 
+# ---------------- PNG stickers (characters / props) + speech bubbles ----------------
+def load_rgba(name):
+    """img/<name>: PNG with alpha used as-is; JPG/PNG without alpha -> background removed with rembg (cached as _cut.png)."""
+    p = f"{JOB}/img/{name}"
+    im = Image.open(p)
+    if im.mode == "RGBA" and np.asarray(im)[..., 3].min() < 250: return im
+    cache = p.rsplit(".", 1)[0] + "_cut.png"
+    if os.path.exists(cache): return Image.open(cache).convert("RGBA")
+    from rembg import remove, new_session
+    global _RB
+    try: _RB
+    except NameError: _RB = new_session("isnet-general-use")
+    out = remove(im.convert("RGB"), session=_RB, post_process_mask=True); out.save(cache); return out
+def sticker_img(name, height=900, outline=14, flip=False):
+    im = load_rgba(name); bb = im.getbbox(); im = im.crop(bb)
+    if flip: im = im.transpose(Image.FLIP_LEFT_RIGHT)
+    s = height / im.height; im = im.resize((max(1, int(im.width * s)), int(height)), Image.LANCZOS)
+    pad = outline + 30; a = np.zeros((im.height + 2 * pad, im.width + 2 * pad), np.uint8); a[pad:pad + im.height, pad:pad + im.width] = np.asarray(im)[..., 3]
+    k = cv2.getStructuringElement(cv2.MORPH_ELLIPSE, (2 * outline + 1, 2 * outline + 1))
+    ring = cv2.GaussianBlur(cv2.dilate((a > 110).astype(np.uint8) * 255, k), (0, 0), 1.2)
+    canvas = Image.new("RGBA", (a.shape[1] + 20, a.shape[0] + 28), (0, 0, 0, 0))
+    sh = Image.new("RGBA", canvas.size, (0, 0, 0, 0)); sh.paste((0, 0, 0, 110), (8, 18), Image.fromarray(ring)); canvas.alpha_composite(sh.filter(ImageFilter.GaussianBlur(10)))
+    wl = Image.new("RGBA", (a.shape[1], a.shape[0]), (255, 255, 255, 0)); wl.putalpha(Image.fromarray(ring)); canvas.alpha_composite(wl, (0, 0))
+    canvas.alpha_composite(im, (pad, pad)); return canvas
+def label_tag(txt, bg=(46, 160, 100), fg=(255, 255, 255), size=40):
+    f = F(INTER_BLACK, size); w, h, b = text_size(f, txt); im = Image.new("RGBA", (w + 44, h + 30), (0, 0, 0, 0)); d = ImageDraw.Draw(im)
+    d.rounded_rectangle((0, 0, w + 43, h + 29), 8, fill=bg + (255,)); d.text((22 - b[0], 15 - b[1]), txt, font=f, fill=fg); return im
+def wrap_words(f, words, maxw):
+    lines, cur = [], []
+    for wd in words:
+        if cur and text_size(f, " ".join(cur + [wd]))[0] > maxw: lines.append(cur); cur = [wd]
+        else: cur.append(wd)
+    if cur: lines.append(cur)
+    return lines
+def bubble_layout(text, speaker, w=860, size=66, tail="down", tail_x=0.5, tag_color=(60, 70, 90)):
+    f = F(INTER_BLACK, size); words = text.upper().split()
+    lines = wrap_words(f, words, w - 90)
+    while len(lines) > 4 and size > 40: size -= 4; f = F(INTER_BLACK, size); lines = wrap_words(f, words, w - 90)
+    lh = int(size * 1.18); bh = lh * len(lines) + 70; im_w, im_h = w + 40, bh + 110
+    pos = []; y = 60 + 35
+    for ln in lines:
+        lw = text_size(f, " ".join(ln))[0]; x = 20 + (w - lw) / 2
+        for wd in ln:
+            pos.append((wd, x, y)); x += text_size(f, wd + " ")[0]
+        y += lh
+    return dict(f=f, pos=pos, w=w, bh=bh, im_w=im_w, im_h=im_h, tail=tail, tail_x=tail_x, speaker=speaker.upper() if speaker else "", tag_color=tag_color)
+def bubble_frame(L, n_lit, hl):
+    im = Image.new("RGBA", (L["im_w"], L["im_h"]), (0, 0, 0, 0)); sh = Image.new("RGBA", im.size, (0, 0, 0, 0)); top = 50
+    ImageDraw.Draw(sh).rounded_rectangle((26, top + 12, 26 + L["w"], top + 12 + L["bh"]), 30, fill=(0, 0, 0, 120)); im.alpha_composite(sh.filter(ImageFilter.GaussianBlur(10)))
+    d = ImageDraw.Draw(im); d.rounded_rectangle((20, top, 20 + L["w"], top + L["bh"]), 30, fill=(255, 255, 255, 255), outline=(30, 30, 36, 255), width=4)
+    tx = 20 + L["w"] * L["tail_x"]
+    if L["tail"] == "down": d.polygon([(tx - 34, top + L["bh"] - 3), (tx + 34, top + L["bh"] - 3), (tx + 6, top + L["bh"] + 52)], fill=(255, 255, 255, 255), outline=(30, 30, 36, 255))
+    elif L["tail"] == "up": d.polygon([(tx - 34, top + 3), (tx + 34, top + 3), (tx + 6, top - 46)], fill=(255, 255, 255, 255), outline=(30, 30, 36, 255))
+    if L["speaker"]:
+        tf = F(INTER_BLACK, 30); tw, th, b = text_size(tf, L["speaker"]); d.rounded_rectangle((44, top - 22, 44 + tw + 30, top + th + 4), 6, fill=L["tag_color"] + (255,)); d.text((59 - b[0], top - 13 - b[1]), L["speaker"], font=tf, fill=(255, 255, 255))
+    for k, (wd, x, y) in enumerate(L["pos"]):
+        key = re.sub(r"[^\w']", "", wd.lower())
+        c = (190, 190, 196) if k >= n_lit else (hl.get(key) or (28, 26, 30))
+        d.text((x, y + top - 60), wd, font=L["f"], fill=c)
+        if k < n_lit and hl.get(key): ww = text_size(L["f"], wd)[0]; d.line((x, y + top - 60 + L["f"].size * 1.05, x + ww, y + top - 60 + L["f"].size * 1.05), fill=hl[key], width=5)
+    return im
+
 # ---------------- compositing ----------------
 def paste(frame, spr, cx, cy, scale=1.0, rot=0.0, alpha=1.0):
     if alpha <= 0.003 or scale <= 0.01: return
@@ -211,7 +273,9 @@ for i, sc in enumerate(scenes):
         FG[i] = (FG[i], float(xs.mean()), float(ys.max()), float(ys.min()))
 yy, xx = np.mgrid[0:H, 0:W]
 vign = np.clip(1 - 0.38 * (((xx - W / 2) / (W * .75)) ** 2 + ((yy - H / 2) / (H * .72)) ** 2), 0.55, 1)[..., None].astype(np.float32)
+VIGN_SOFT = None
 grain_bank = [np.random.RandomState(k).normal(0, 2.5, (H // 2, W // 2)).astype(np.float32) for k in range(6)]
+VIGN_SOFT = (1 - (1 - vign) * 0.35).astype(np.float32)
 BUMPS = {}
 def bump(i, t):
     """camera punch-in on hits: quick zoom kick that decays"""
@@ -301,6 +365,23 @@ for i, sc in enumerate(scenes):
             E[i].append(dict(kind="xmark", x=x, y=y, t0=t0, size=el.get("size", 300))); sfx(i, t0, "marker")
         elif ty == "ring":
             E[i].append(dict(kind="ring", x=int(x), y=int(y), t0=t0, t1=t0 + el.get("dur", 1.6))); sfx(i, t0, "alarm")
+        elif ty in ("char", "prop"):
+            spr = to_np(sticker_img(el["img"], el.get("h", 900 if ty == "char" else 420), el.get("outline", 14 if ty == "char" else 10), el.get("flip", False)))
+            side = el.get("from", "bottom" if ty == "char" else "pop")
+            talk = []
+            for tr in el.get("talk", []):
+                if tr == "vo": talk.append((LEAD, LEAD + vod[i]))
+                else: talk.append((anchor(i, tr[0]), anchor(i, tr[1])))
+            E[i].append(dict(kind="char", spr=spr, x=x, y=y, t0=t0, rot=rot, side=side, talk=talk, seed=seed % 7, label=to_np(label_tag(el["label"], col(el.get("label_bg", "green"), (46, 160, 100)))) if el.get("label") else None))
+            if el.get("out") is not None: E[i][-1]["t_out"] = anchor(i, el["out"])
+            sfx(i, t0, "whoosh" if side in ("left", "right", "bottom") else "pop")
+        elif ty == "bubble":
+            txt = el.get("text") or sc.get("text", ""); L = bubble_layout(txt, el.get("speaker", sc.get("speaker_name", "")), el.get("w", 860), el.get("size", 62), el.get("tail", "down"), el.get("tail_x", 0.5), col(el.get("tag", "navy"), (60, 70, 90)))
+            hl = {re.sub(r"[^\w']", "", k.lower()): col(v, RED) for k, v in el.get("hl", {}).items()}
+            t1 = anchor(i, el["until"]) if el.get("until") else LEAD + vod[i]
+            nW = len(L["pos"]); lens = np.cumsum([len(w_) + 1 for w_, _, _ in L["pos"]]); lens = lens / lens[-1]
+            frames = [to_np(bubble_frame(L, k, hl)) for k in range(nW + 1)]
+            E[i].append(dict(kind="bubble", frames=frames, cum=lens, t1=t1, x=x, y=y, t0=t0, rot=rot)); sfx(i, t0, "pop")
         elif ty == "dark":
             DARK[i].append((t0, t0 + el.get("fade", 0.5), el.get("amount", 0.45)))
         elif ty == "hide_captions":
@@ -330,6 +411,25 @@ def draw_el(frame, e, t):
         p = ease_out(dt / .4); paste(frame, e["spr"], e["x"], e["y"] + 160 * (1 - p), sc, rot + (1 - p) * 6 + wob * .4, clamp(dt / .15) * al_out)
     elif k == "drop":
         p = ease_out_back(dt / .45, 1.6); paste(frame, e["spr"], e["x"], e["y"] - 260 * (1 - p), sc, rot, clamp(dt / .1) * al_out)
+    elif k == "char":
+        side = e["side"]; sd = e["seed"]
+        p = ease_out_back(dt / .5, 1.5)
+        ox = oy = 0
+        if side == "left": ox = -(W * 0.7) * (1 - p)
+        elif side == "right": ox = (W * 0.7) * (1 - p)
+        elif side == "bottom": oy = 900 * (1 - p)
+        scl = sc * (0.3 + 0.7 * ease_out_back(dt / .3, 2.2)) if side == "pop" else sc
+        bob = 8 * math.sin(t * 2.3 + sd); rr = rot + 1.2 * math.sin(t * 1.7 + sd)
+        talking = any(a <= t <= b for a, b in e["talk"])
+        if talking: scl *= 1 + 0.022 * abs(math.sin(t * 13)); rr += 1.5 * math.sin(t * 9)
+        if "t_out" in e and t > e["t_out"]:
+            q = clamp((t - e["t_out"]) / .35); ox += (-1 if side == "left" else 1) * W * 0.8 * q * q; al_out = 1.0
+        paste(frame, e["spr"], e["x"] + ox, e["y"] + oy + bob, scl, rr, clamp(dt / .1) * al_out)
+        if e.get("label") is not None and dt > .3:
+            paste(frame, e["label"], e["x"] + ox + e["spr"].shape[1] * 0.18, e["y"] + oy + bob + e["spr"].shape[0] * 0.36, ease_out_back((dt - .3) / .25, 2), -4, 1.0)
+    elif k == "bubble":
+        prog = clamp((t - e["t0"]) / max(.3, e["t1"] - e["t0"])); n_lit = int(np.searchsorted(e["cum"], prog + 1e-6, side="right")); n_lit = min(n_lit, len(e["frames"]) - 1)
+        p = ease_out_back(dt / .25, 2.0); paste(frame, e["frames"][n_lit], e["x"], e["y"], sc * (0.4 + 0.6 * p), rot, clamp(dt / .08) * al_out)
     elif k == "xmark":
         s = e["size"]; x, y = e["x"], e["y"]
         for (ax, ay), (bx, by), p in [((x - s / 2, y - s / 2), (x + s / 2, y + s / 2), clamp(dt / .12)), ((x + s / 2, y - s / 2), (x - s / 2, y + s / 2), clamp((dt - .12) / .12))]:
@@ -410,7 +510,7 @@ def frame_scene(T):
         d = t - ts
         if 0 <= d < 0.3:
             amp = 16 * (1 - d / 0.3); fr = cv2.warpAffine(fr, np.float32([[1, 0, amp * math.sin(d * 90)], [0, 1, amp * math.cos(d * 73)]]), (W, H), borderMode=cv2.BORDER_REFLECT)
-    fr = fr * vign + cv2.resize(grain_bank[int(T * FPS) % 6], (W, H), interpolation=cv2.INTER_NEAREST)[..., None]
+    fr = fr * (VIGN_SOFT if CFG.get("bright", True) else vign) + cv2.resize(grain_bank[int(T * FPS) % 6], (W, H), interpolation=cv2.INTER_NEAREST)[..., None]
     if LOGO is not None: paste(fr, LOGO, W - 105, H - 115, 1.0, 0, 0.95)
     if T < 0.25: fr *= T / 0.25
     if COVER is None and T > TOTAL - 0.5: fr *= max(0, (TOTAL - T) / 0.5)

@@ -50,3 +50,10 @@ put stickers/pills on the side or top, captions in the lower third. Max ~3 overl
 - `cover_sub`: muqova ostidagi qisqa qo'lyozma qator.
 - `cover_scene`: muqova foni uchun sahna raqami (0 = 1-sahna).
 - Logotip `brand/logo_99foiz.png` avtomatik o'ng pastki burchakka qo'yiladi (`"logo": false` bilan o'chiriladi).
+
+
+## PNG stikerlar va gap pufakchalari (2026-10-15)
+- `char` — PNG personaj stikeri (oq kontur + soya). `{"type":"char","img":"c_dada.jpg","from":"left|right|bottom|pop","x":780,"y":1450,"h":900,"at":0.5,"talk":["vo"] | [["ibora1","ibora2"]],"out":"ibora","flip":false,"label":"DADA"}`. `img` — oq fondagi rasm (rembg avtomatik kesadi, `_cut.png` kesh) yoki tayyor RGBA PNG. Chetdan sakrab kiradi, yengil tebranadi, `talk` oralig'ida gapirgandek qimirlaydi, `out` da chiqib ketadi.
+- `prop` — buyum stikeri (default `from: pop`, `h: 420`), ixtiyoriy `label` (yashil yorliq).
+- `bubble` — gap pufakchasi: `{"type":"bubble","speaker":"DADA","text":"...","x":540,"y":330,"at":"start","until":"ibora","hl":{"so'z":"crimson"},"tail":"down|up|none","tail_x":0.3,"tag":"navy"}`. So'zlar ovozga mos ravishda kulrangdan qoraga yonadi; `hl` dagi so'zlar rangli va tagiga chiziladi. `text` berilmasa sahna matni olinadi.
+- `scenes.json` → `"bright": true` (default) — yengil vinyetka, ochiq ko'rinish.

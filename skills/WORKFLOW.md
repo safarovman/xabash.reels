@@ -9,6 +9,9 @@
 - Render uzoq (~20 daq): sessiya bo'sh qolsa jarayon to'xtaydi — `sleep` bilan kutib turing.
 
 ## 0b. DIZAYN QOIDALARI (2026-10-15, egasi + reference video)
+- **Reference videolarni nusxalamang.** Ulardan faqat g'oya oling. Har video mavzusiga mos O'Z dizaynini o'ylab toping: koinot → bola PNG holida koinotda suzadi (`bg: space`, `motion: float`), o'zga sayyoraliklar bilan gaplashadi; o'yinlar → piksel shrift (`font: pixel`), HP/XP chiziqlari (`bars`), "LEVEL UP" yorliqlari; o'tmish → eski qog'oz/fotosurat, `lobster`/`caveat` shrift; urf-odat → milliy naqshli ranglar.
+- **Har videoda `theme` boshqacha** (shrift, palitra, pufakcha ranglari, fon turi, personaj harakati). Oldingi videodagi kombinatsiyani takrorlamang; `topics_log.md` ga yozing.
+- Mavzuga kerakli qo'shimcha rasmlarni (PNG personajlar, o'zga sayyoraliklar, buyumlar, fonlar) Google Flow'da o'zingiz yarating.
 - **Yorqin, ochiq rangli** rasmlar (`style.image_prefix`). Qorong'i sahna faqat syujet talab qilsa.
 - **PNG stikerlar ko'p**: har videoda 3–6 marta personaj yoki buyum oq konturli stiker bo'lib chetdan/pastdan chiqadi va gapirganda qimirlaydi (`char`, `prop`). Personajlar Flow'da alohida, oq fonda (`style.character_prefix`) → `img/c_<nom>.jpg`; buyumlar `style.prop_prefix` → `img/p_<nom>.jpg`. Fon rasmlari personajsiz ham bo'lishi mumkin.
 - **Dialog**: `bubble` — gapiruvchi nomi (DADA, OYI, BOBUR...) va so'zlar ovozga qarab yonadi, kalit so'zlar rangli.

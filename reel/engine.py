@@ -31,8 +31,15 @@ INTER_BLACK = find_font(["Inter-Black.otf", "Inter-Black.ttf"])
 INTER_XB = find_font(["Inter-ExtraBold.otf", "Inter-ExtraBold.ttf", "Inter-Black.otf"])
 CAVEAT = f"{HERE}/fonts/Caveat-Bold.ttf"; MARKER = f"{HERE}/fonts/Marker.ttf"
 def F(p, s): return ImageFont.truetype(p, s)
+# ---- per-video theme (each video should look different: font, palette, motion) ----
+THEME = CFG.get("theme", {})
+FONTS = {"inter": INTER_BLACK, "bangers": f"{HERE}/fonts/Bangers.ttf", "luckiest": f"{HERE}/fonts/LuckiestGuy.ttf", "pixel": f"{HERE}/fonts/PressStart2P.ttf",
+         "orbitron": f"{HERE}/fonts/Orbitron.ttf", "lobster": f"{HERE}/fonts/Lobster.ttf", "fredoka": f"{HERE}/fonts/Fredoka.ttf", "russo": f"{HERE}/fonts/RussoOne.ttf",
+         "rubikmono": f"{HERE}/fonts/RubikMonoOne.ttf", "marker": MARKER, "caveat": CAVEAT}
+if THEME.get("font") in FONTS: INTER_BLACK = FONTS[THEME["font"]]
+if THEME.get("font2") in FONTS: INTER_XB = FONTS[THEME["font2"]]
 
-YEL = (255, 210, 63); RED = (214, 40, 57); INK = (28, 26, 30); PAPER = (246, 240, 226)
+YEL = tuple(CFG.get("theme", {}).get("accent2", (255, 210, 63))); RED = tuple(CFG.get("theme", {}).get("accent", (214, 40, 57))); INK = (28, 26, 30); PAPER = (246, 240, 226)
 COLORS = {"white": (255, 255, 255), "yellow": YEL, "red": RED, "pink": (255, 150, 180), "blue": (130, 200, 255),
           "sticky_yellow": (255, 214, 92), "green": (140, 220, 140), "navy": (40, 46, 70), "orange": (230, 150, 20),
           "royal": (40, 110, 200), "crimson": (214, 40, 57), "purple": (150, 90, 210)}
@@ -178,6 +185,15 @@ def blueprint_bg(color=(28, 52, 150)):
     for step, a in ((36, 0.10), (180, 0.22)):
         g = ((xx_ % step) < 2) | ((yy_ % step) < 2); im[g] = im[g] * (1 - a) + 255 * a
     return im
+def space_bg(seed_=3):
+    hh, ww = int(H * 1.16), int(W * 1.16); rs = np.random.RandomState(seed_); im = np.zeros((hh, ww, 3), np.float32); im[:] = (12, 10, 38)
+    yy_, xx_ = np.mgrid[0:hh, 0:ww]
+    for _ in range(4):
+        cx, cy, r = rs.uniform(0, ww), rs.uniform(0, hh), rs.uniform(300, 700); c = np.array([[120, 60, 200], [40, 120, 220], [220, 70, 160], [60, 200, 200]][rs.randint(4)], np.float32)
+        im += np.exp(-(((xx_ - cx) ** 2 + (yy_ - cy) ** 2) / (2 * r * r)))[..., None] * c * 0.55
+    n = 900; xs, ys = rs.randint(0, ww, n), rs.randint(0, hh, n); br = rs.uniform(120, 255, n)
+    for x_, y_, b_ in zip(xs, ys, br): cv2.circle(im, (int(x_), int(y_)), int(rs.choice([1, 1, 1, 2, 3])), (b_, b_, b_), -1, cv2.LINE_AA)
+    return np.clip(im, 0, 255)
 def year_tag(head, big, color=RED):
     f1 = F(INTER_BLACK, 26); f2 = F(INTER_BLACK, 70); w2, h2, b2 = text_size(f2, big); w = max(150, w2 + 50); h = h2 + 80
     im = Image.new("RGBA", (w + 30, h + 30), (0, 0, 0, 0)); sh = Image.new("RGBA", im.size, (0, 0, 0, 0)); ImageDraw.Draw(sh).rectangle((14, 18, 14 + w, 18 + h), fill=(0, 0, 0, 120)); im.alpha_composite(sh.filter(ImageFilter.GaussianBlur(7)))
@@ -250,15 +266,15 @@ def bubble_layout(text, speaker, w=860, size=66, tail="down", tail_x=0.5, tag_co
 def bubble_frame(L, n_lit, hl):
     im = Image.new("RGBA", (L["im_w"], L["im_h"]), (0, 0, 0, 0)); sh = Image.new("RGBA", im.size, (0, 0, 0, 0)); top = 50
     ImageDraw.Draw(sh).rounded_rectangle((26, top + 12, 26 + L["w"], top + 12 + L["bh"]), 30, fill=(0, 0, 0, 120)); im.alpha_composite(sh.filter(ImageFilter.GaussianBlur(10)))
-    d = ImageDraw.Draw(im); d.rounded_rectangle((20, top, 20 + L["w"], top + L["bh"]), 30, fill=(255, 255, 255, 255), outline=(30, 30, 36, 255), width=4)
+    d = ImageDraw.Draw(im); BB = tuple(THEME.get("bubble_bg", (255, 255, 255))); BO = tuple(THEME.get("bubble_line", (30, 30, 36))); d.rounded_rectangle((20, top, 20 + L["w"], top + L["bh"]), THEME.get("bubble_radius", 30), fill=BB + (255,), outline=BO + (255,), width=4)
     tx = 20 + L["w"] * L["tail_x"]
-    if L["tail"] == "down": d.polygon([(tx - 34, top + L["bh"] - 3), (tx + 34, top + L["bh"] - 3), (tx + 6, top + L["bh"] + 52)], fill=(255, 255, 255, 255), outline=(30, 30, 36, 255))
-    elif L["tail"] == "up": d.polygon([(tx - 34, top + 3), (tx + 34, top + 3), (tx + 6, top - 46)], fill=(255, 255, 255, 255), outline=(30, 30, 36, 255))
+    if L["tail"] == "down": d.polygon([(tx - 34, top + L["bh"] - 3), (tx + 34, top + L["bh"] - 3), (tx + 6, top + L["bh"] + 52)], fill=BB + (255,), outline=BO + (255,))
+    elif L["tail"] == "up": d.polygon([(tx - 34, top + 3), (tx + 34, top + 3), (tx + 6, top - 46)], fill=BB + (255,), outline=BO + (255,))
     if L["speaker"]:
         tf = F(INTER_BLACK, 30); tw, th, b = text_size(tf, L["speaker"]); d.rounded_rectangle((44, top - 22, 44 + tw + 30, top + th + 4), 6, fill=L["tag_color"] + (255,)); d.text((59 - b[0], top - 13 - b[1]), L["speaker"], font=tf, fill=(255, 255, 255))
     for k, (wd, x, y) in enumerate(L["pos"]):
         key = re.sub(r"[^\w']", "", wd.lower())
-        c = (190, 190, 196) if k >= n_lit else (hl.get(key) or (28, 26, 30))
+        c = tuple(THEME.get("bubble_dim", (190, 190, 196))) if k >= n_lit else (hl.get(key) or tuple(THEME.get("bubble_ink", (28, 26, 30))))
         d.text((x, y + top - 60), wd, font=L["f"], fill=c)
         if k < n_lit and hl.get(key): ww = text_size(L["f"], wd)[0]; d.line((x, y + top - 60 + L["f"].size * 1.05, x + ww, y + top - 60 + L["f"].size * 1.05), fill=hl[key], width=5)
     return im
@@ -284,6 +300,8 @@ bases = []; FG = {}; BGC = {}; BASE2 = {}; SW = {}
 ANIM = CFG.get("anim", "static")   # "cutout" is disabled by default (owner: keep pictures whole)
 for i, sc in enumerate(scenes):
     ip = f"{JOB}/img/{sc.get('img', f'{i + 1:02d}.jpg')}"
+    if sc.get("bg") == "space":
+        bases.append(space_bg(sc.get("bg_seed", i + 3))); continue
     if sc.get("bg") == "blueprint":
         bases.append(blueprint_bg(tuple(sc.get("bg_color", (28, 52, 150))))); continue
     im = cv2.cvtColor(cv2.imread(ip), cv2.COLOR_BGR2RGB)
@@ -404,7 +422,7 @@ for i, sc in enumerate(scenes):
             for tr in el.get("talk", []):
                 if tr == "vo": talk.append((LEAD, LEAD + vod[i]))
                 else: talk.append((anchor(i, tr[0]), anchor(i, tr[1])))
-            E[i].append(dict(kind="char", spr=spr, x=x, y=y, t0=t0, rot=rot, side=side, talk=talk, seed=seed % 7, label=to_np(label_tag(el["label"], col(el.get("label_bg", "green"), (46, 160, 100)))) if el.get("label") else None))
+            E[i].append(dict(kind="char", spr=spr, x=x, y=y, t0=t0, rot=rot, side=side, talk=talk, seed=seed % 7, motion=el.get("motion", "idle"), path=el.get("path"), pdur=el.get("dur", 3.0), label=to_np(label_tag(el["label"], col(el.get("label_bg", "green"), (46, 160, 100)))) if el.get("label") else None))
             if el.get("out") is not None: E[i][-1]["t_out"] = anchor(i, el["out"])
             sfx(i, t0, "whoosh" if side in ("left", "right", "bottom") else "pop")
         elif ty == "bubble":
@@ -459,7 +477,14 @@ def draw_el(frame, e, t):
         elif side == "right": ox = (W * 0.7) * (1 - p)
         elif side == "bottom": oy = 900 * (1 - p)
         scl = sc * (0.3 + 0.7 * ease_out_back(dt / .3, 2.2)) if side == "pop" else sc
-        bob = 8 * math.sin(t * 2.3 + sd); rr = rot + 1.2 * math.sin(t * 1.7 + sd)
+        bob = 8 * math.sin(t * 2.3 + sd); rr = rot + 1.2 * math.sin(t * 1.7 + sd); mo = e.get("motion", "idle")
+        if mo == "float":   # zero gravity: slow drift + spin
+            ox += 34 * math.sin(t * 0.9 + sd); bob = 46 * math.sin(t * 0.7 + sd * 2); rr = rot + 9 * math.sin(t * 0.55 + sd)
+        elif mo == "bounce": bob = -abs(60 * math.sin(t * 4.2 + sd))
+        elif mo == "shake": ox += 7 * math.sin(t * 38); rr = rot + 2 * math.sin(t * 31)
+        elif mo == "spin": rr = rot + (dt * 120) % 360
+        elif mo == "fly" and e.get("path"):
+            (x0_, y0_) = e["path"]; q = ease_in_out(dt / e["pdur"]); ox += (x0_ - e["x"]) * (1 - q); oy += (y0_ - e["y"]) * (1 - q); rr = rot - 12 * (1 - q) * (1 if x0_ < e["x"] else -1)
         talking = any(a <= t <= b for a, b in e["talk"])
         if talking: scl *= 1 + 0.022 * abs(math.sin(t * 13)); rr += 1.5 * math.sin(t * 9)
         if "t_out" in e and t > e["t_out"]:

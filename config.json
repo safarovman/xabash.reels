@@ -62,6 +62,9 @@
   "bubbles": "dialoglarda `bubble` (gapiruvchi nomi + so'zlar ovozga qarab yonadi), muhim so'zlar rangli",
   "stickers": "stikerlar xilma-xil: pill, label, sticky, clock, card, note, checklist, emoji-buyumlar; katta qizil `stamp`/`big` har videoda ko'pi bilan 1 marta",
   "no_repeat_motifs": "bir xil raqam/motivni videodan-videoga takrorlamang (masalan '47' endi ishlatilmaydi)",
-  "caption": "caption qisqa: 1 ilmoq jumla + 1 savol + 6-8 heshteg; butun mavzuni yozib tashlamang"
+  "caption": "caption qisqa: 1 ilmoq jumla + 1 savol + 6-8 heshteg; butun mavzuni yozib tashlamang",
+  "own_design": "Reference videolarni NUSXALAMANG — ulardan faqat g'oya oling (PNG stikerlar, pufakchalar). Har video mavzusiga mos O'Z dizayni: masalan koinot mavzusi — bola PNG holida koinotda suzib yuradi, o'zga sayyoraliklar bilan; o'yin mavzusi — piksel shrift va o'yin interfeysi; o'tmish — eski fotosurat/qog'oz uslubi.",
+  "theme_each_video": "har videoda `theme` boshqacha: shrift (bangers/luckiest/pixel/orbitron/lobster/fredoka/russo/rubikmono/marker/inter), rang palitrasi (accent, accent2), pufakcha ranglari, fon turi (rasm/space/blueprint), personaj harakati (float/fly/bounce/shake/spin/idle). Oldingi videodagi kombinatsiyani takrorlamang — topics_log.md ga yozing.",
+  "extra_images": "mavzuga kerakli qo'shimcha rasmlarni (PNG personajlar, o'zga sayyoralik, buyumlar, fonlar) Google Flow'da o'zing yarat"
  }
 }

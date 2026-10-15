@@ -1,0 +1,22 @@
+{
+ "images": {
+  "c_ravshan": "CHAR: Uzbek man Ravshan, 50, neat black mustache with grey strands, short dark hair, brown knitted vest over a light blue shirt, laughing proudly with one hand raised as if telling a story, half body.",
+  "c_ravshan_hayron": "CHAR: Same man as in the reference image (Ravshan, 50, mustache, brown knitted vest, light blue shirt), eyebrows raised in amazement, mouth open, half body.",
+  "c_ravshan_xafa": "CHAR: Same man as in the reference image (Ravshan, 50, mustache, brown knitted vest), wistful nostalgic smile with slightly sad eyes, holding an old audio cassette to his chest, half body.",
+  "c_temur": "CHAR: Uzbek teenage boy Temur, 17, modern haircut, oversized grey hoodie, white wireless earbuds, holding a smartphone, grinning, half body.",
+  "c_buvi": "CHAR: Elderly Uzbek grandmother Oydin, 75, white headscarf tied at the back, colorful atlas-patterned dress, kind wrinkled face, laughing warmly with one hand on her chest, half body.",
+  "p_kasseta": "PROP: an old 1990s audio cassette with a yellow pencil inserted into one spool, tape slightly loose, realistic.",
+  "01": "SCENE: Modern cozy Uzbek living room in the evening, teenage boy Temur (17, grey hoodie, white earbuds) sitting on a sofa enthusiastically showing his smartphone to his father Ravshan (50, mustache, brown knitted vest, light blue shirt) who looks skeptical with a tea cup in hand. Characters on the left and center, calm wall space at top.",
+  "02": "SCENE: 1993, sunny traditional Uzbek courtyard with a grape vine trellis, a young man of 18 with a mustache-free face, 1990s haircut and striped shirt (young Ravshan) sitting on a wooden tapchan carefully rewinding an audio cassette tape with a pencil, an old silver radio cassette player beside him, warm nostalgic light.",
+  "03": "SCENE: Same modern living room, teenage boy Temur (grey hoodie, earbuds) staring in total disbelief, holding his phone, mouth open, sofa and lamp behind him.",
+  "04": "SCENE: 1990s Uzbek bedroom with carpet on the wall, young Ravshan (18, striped shirt) crouched tensely in front of a silver radio cassette player, finger hovering over the record button, waiting for a song on the radio, focused face.",
+  "04_b": "EDIT 04: Only one small change: the young man now grabs his head with both hands in despair, mouth open.",
+  "05": "SCENE: 1990s Uzbek wedding in a courtyard at dusk, a lively woman of 50 in a headscarf and atlas dress (grandmother Oydin when younger) proudly holding up an audio cassette next to a big boombox, guests dancing behind her, string lights.",
+  "06": "SCENE: 1963 European radio exhibition hall, vintage display table with an early portable cassette recorder and small cassettes under spotlight, curious visitors in 1960s suits in the background, no logos.",
+  "07": "SCENE: Dusty home storage room, father Ravshan (mustache, brown vest) and son Temur (grey hoodie) opening an old cardboard box full of hand-labeled audio cassettes, the son amazed, warm light through a small window.",
+  "08": "SCENE: Father Ravshan (mustache, brown vest) and son Temur (grey hoodie) sitting together on the sofa, the son wearing old foam headphones connected to a 1990s portable cassette player, both smiling, the father's arm around his shoulder, warm evening lamp light."
+ },
+ "hero": "Ravshan aka (50, mo'ylov, jigarrang jilet) + o'g'li Temur (17, quloqchin) + buvi Oydin (Ravshanning onasi)",
+ "opening": "dialog bilan",
+ "design": "retro 90-yillar: kasseta varag'i ranglari (to'q sariq, jigarrang, krem), russo + caveat shrift, krem pufakcha jigarrang chiziq; 1993 yorlig'i, kasseta stikeri"
+}

@@ -1,0 +1,372 @@
+{
+ "title": "Qalam bilan aylantirilgan kasseta",
+ "music_seed": 171,
+ "cover_title": [
+  "QALAM BILAN",
+  "AYLANGAN KASSETA"
+ ],
+ "cover_sub": "«Ex bolam, mening vaqtimda...»",
+ "cover_scene": 1,
+ "anim": "static",
+ "bright": true,
+ "theme": {
+  "font": "russo",
+  "font2": "caveat",
+  "accent": [
+   222,
+   96,
+   40
+  ],
+  "accent2": [
+   255,
+   196,
+   86
+  ],
+  "bubble_bg": [
+   252,
+   238,
+   210
+  ],
+  "bubble_line": [
+   120,
+   66,
+   30
+  ],
+  "bubble_ink": [
+   60,
+   32,
+   18
+  ],
+  "bubble_dim": [
+   200,
+   170,
+   140
+  ],
+  "bubble_radius": 18
+ },
+ "scenes": [
+  {
+   "speaker": "sardor",
+   "text": "Dada, qarang! Telefonimda o'n million qo'shiq bor. Xohlagan qo'shig'imni bir soniyada qo'yaman!",
+   "tts": "[excited] Dada, qarang! Telefonimda o'n million qo'shiq bor. Xohlagan qo'shig'imni bir soniyada qo'yaman!",
+   "mood": "groove",
+   "img": "01.jpg",
+   "elements": [
+    {
+     "type": "bubble",
+     "speaker": "TEMUR",
+     "x": 540,
+     "y": 330,
+     "at": "start",
+     "hl": {
+      "million": "red",
+      "soniyada": "red"
+     },
+     "tail": "down",
+     "tail_x": 0.3,
+     "tag": "orange",
+     "w": 880
+    }
+   ],
+   "vo": "vo_01.mp3",
+   "voice_id": "UjuEL3hLLUaDED9iW4Yb"
+  },
+  {
+   "speaker": "jahongir",
+   "text": "Ex bolam, mening vaqtimda bitta qo'shiq eshitish uchun avval qalam topardik. Lenta chigallashsa, qalamga kiygizib, sekin-sekin aylantirardik.",
+   "tts": "[chuckles] Ex bolam, mening vaqtimda bitta qo'shiq eshitish uchun avval qalam topardik. Lenta chigallashsa, qalamga kiygizib, sekin-sekin aylantirardik.",
+   "mood": "warm",
+   "img": "02.jpg",
+   "elements": [
+    {
+     "type": "tag",
+     "head": "YIL",
+     "text": "1993",
+     "x": 170,
+     "y": 210,
+     "color": "red",
+     "at": "start"
+    },
+    {
+     "type": "char",
+     "img": "c_ravshan.jpg",
+     "from": "right",
+     "x": 760,
+     "y": 1430,
+     "h": 780,
+     "at": 0.3,
+     "motion": "idle",
+     "flip": false,
+     "talk": [
+      "vo"
+     ],
+     "label": "DADA",
+     "label_bg": "orange"
+    },
+    {
+     "type": "prop",
+     "img": "p_kasseta.jpg",
+     "x": 300,
+     "y": 1330,
+     "h": 420,
+     "at": "qalamga",
+     "motion": "idle",
+     "from": "pop",
+     "label": "ENG ZO'R ASBOB"
+    }
+   ],
+   "vo": "vo_02.mp3",
+   "voice_id": "xDwfBjUEPdIoQekNOXAX"
+  },
+  {
+   "speaker": "sardor",
+   "text": "Qalam bilan? Qo'shiq eshitish uchun? Dada, bu qanaqa texnologiya o'zi?",
+   "tts": "[surprised] Qalam bilan? Qo'shiq eshitish uchun? Dada, bu qanaqa texnologiya o'zi?",
+   "mood": "groove",
+   "img": "03.jpg",
+   "elements": [
+    {
+     "type": "bubble",
+     "speaker": "TEMUR",
+     "x": 540,
+     "y": 330,
+     "at": "start",
+     "hl": {
+      "Qalam": "red"
+     },
+     "tail": "down",
+     "tail_x": 0.3,
+     "tag": "orange",
+     "w": 880
+    },
+    {
+     "type": "char",
+     "img": "c_ravshan.jpg",
+     "from": "left",
+     "x": 280,
+     "y": 1430,
+     "h": 780,
+     "at": "texnologiya",
+     "motion": "idle",
+     "flip": false,
+     "moods": [
+      [
+       "c_ravshan_hayron.jpg",
+       "texnologiya"
+      ]
+     ]
+    }
+   ],
+   "vo": "vo_03.mp3",
+   "voice_id": "UjuEL3hLLUaDED9iW4Yb"
+  },
+  {
+   "speaker": "jahongir",
+   "text": "Radiodan sevimli qo'shig'ing chiqsa, yugurib borib yozish tugmasini bosarding. Lekin oxirida baribir diktor gapirib yuborardi!",
+   "tts": "[warmly] Radiodan sevimli qo'shig'ing chiqsa, yugurib borib yozish tugmasini bosarding. Lekin oxirida baribir diktor gapirib yuborardi!",
+   "mood": "tense",
+   "img": "04.jpg",
+   "elements": [
+    {
+     "type": "pill",
+     "text": "YOZISH TUGMASI TAYYOR",
+     "bg": "orange",
+     "fg": "white",
+     "x": 540,
+     "y": 300,
+     "rot": -3,
+     "at": "start"
+    },
+    {
+     "type": "stamp",
+     "text": "DIKTOR GAPIRIB YUBORDI!",
+     "y": 1560,
+     "rot": -5,
+     "at": "diktor"
+    }
+   ],
+   "img2": "04_b.jpg",
+   "img2_at": "diktor",
+   "vo": "vo_04.mp3",
+   "voice_id": "xDwfBjUEPdIoQekNOXAX"
+  },
+  {
+   "speaker": "malika",
+   "text": "Voy, o'sha kassetalarni men to'yga olib borardim. Bitta kassetani butun mahalla qarzga olib, hech kim qaytarib bermasdi!",
+   "tts": "[elderly voice] [laughs] Voy, o'sha kassetalarni men to'yga olib borardim. Bitta kassetani butun mahalla qarzga olib, hech kim qaytarib bermasdi!",
+   "mood": "warm",
+   "img": "05.jpg",
+   "elements": [
+    {
+     "type": "char",
+     "img": "c_buvi.jpg",
+     "from": "right",
+     "x": 760,
+     "y": 1430,
+     "h": 780,
+     "at": 0.2,
+     "motion": "idle",
+     "flip": false,
+     "talk": [
+      "vo"
+     ],
+     "label": "BUVI",
+     "label_bg": "purple"
+    },
+    {
+     "type": "sticker",
+     "lines": [
+      "Kasseta qarzga ketdi,",
+      "qaytmadi!"
+     ],
+     "color": "pink",
+     "x": 330,
+     "y": 420,
+     "w": 400,
+     "size": 54,
+     "rot": 4,
+     "at": "qarzga"
+    }
+   ],
+   "vo": "vo_05.mp3",
+   "voice_id": "VTN9ql0D5MshokKncKAy"
+  },
+  {
+   "speaker": "bekzod",
+   "text": "Bilasizmi, bu ixcham kassetani Philips kompaniyasi bir ming to'qqiz yuz oltmish uchinchi yilda Berlin radio ko'rgazmasida taqdim etgan. Keyin u butun dunyoning cho'ntagiga sig'adigan musiqaga aylandi.",
+   "tts": "[warmly] Bilasizmi, bu ixcham kassetani Philips kompaniyasi bir ming to'qqiz yuz oltmish uchinchi yilda Berlin radio ko'rgazmasida taqdim etgan. Keyin u butun dunyoning cho'ntagiga sig'adigan musiqaga aylandi.",
+   "mood": "mystery",
+   "img": "06.jpg",
+   "elements": [
+    {
+     "type": "dark",
+     "amount": 0.35,
+     "at": "start"
+    },
+    {
+     "type": "card",
+     "kicker": "Philips, 1963",
+     "title": [
+      "IXCHAM KASSETA",
+      "1963-YILDA CHIQQAN"
+     ],
+     "sub": "Berlin radio ko'rgazmasida taqdim etilgan.",
+     "at": "Philips"
+    }
+   ],
+   "vo": "vo_06.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M",
+   "silent_vo": true
+  },
+  {
+   "speaker": "sardor",
+   "text": "Dada, sizning o'n million qo'shig'ingiz shu bitta qutida yotibdi-ku! Bularning hammasini qayerdan topgansiz?",
+   "tts": "[laughs] Dada, sizning o'n million qo'shig'ingiz shu bitta qutida yotibdi-ku! Bularning hammasini qayerdan topgansiz?",
+   "mood": "groove",
+   "img": "07.jpg",
+   "elements": [
+    {
+     "type": "bubble",
+     "speaker": "TEMUR",
+     "x": 540,
+     "y": 330,
+     "at": "start",
+     "hl": {
+      "qutida": "red"
+     },
+     "tail": "down",
+     "tail_x": 0.3,
+     "tag": "orange",
+     "w": 880
+    },
+    {
+     "type": "char",
+     "img": "c_ravshan_xafa.jpg",
+     "from": "right",
+     "x": 800,
+     "y": 1430,
+     "h": 780,
+     "at": 0.3,
+     "motion": "idle",
+     "flip": false,
+     "moods": [
+      [
+       "c_ravshan.jpg",
+       "qayerdan"
+      ]
+     ]
+    }
+   ],
+   "vo": "vo_07.mp3",
+   "voice_id": "UjuEL3hLLUaDED9iW4Yb"
+  },
+  {
+   "speaker": "jahongir",
+   "text": "Har bir kassetaning o'z hikoyasi bor, bolam. Mana bu qo'shiqni men oyingga birinchi marta sovg'a qilganman. Sening telefoningda shunaqa hikoya bormi?",
+   "tts": "[sighs] Har bir kassetaning o'z hikoyasi bor, bolam. Mana bu qo'shiqni men oyingga birinchi marta sovg'a qilganman. Sening telefoningda shunaqa hikoya bormi?",
+   "mood": "warm",
+   "img": "08.jpg",
+   "elements": [
+    {
+     "type": "note",
+     "text": "Har bir kassetaning o'z hikoyasi bor.",
+     "y": 1560,
+     "size": 70,
+     "rot": -2,
+     "at": "hikoyasi"
+    },
+    {
+     "type": "sticker",
+     "lines": [
+      "Birinchi sovg'a:",
+      "bitta kasseta"
+     ],
+     "color": "yellow",
+     "x": 760,
+     "y": 420,
+     "w": 400,
+     "size": 54,
+     "rot": 4,
+     "at": "sovg'a"
+    }
+   ],
+   "vo": "vo_08.mp3",
+   "voice_id": "xDwfBjUEPdIoQekNOXAX"
+  },
+  {
+   "speaker": "bekzod",
+   "text": "Siz kassetani qalam bilan aylantirganmisiz? Bir — ha, ikki — yo'q, uch — kasseta nima o'zi? Izohda yozing!",
+   "tts": "[excited] Siz kassetani qalam bilan aylantirganmisiz? Bir — ha, ikki — yo'q, uch — kasseta nima o'zi? Izohda yozing!",
+   "mood": "finale",
+   "img": "08.jpg",
+   "elements": [
+    {
+     "type": "final",
+     "lines": [
+      "QALAM BILAN",
+      "AYLANTIRGANMISIZ?"
+     ],
+     "at": 0.4
+    },
+    {
+     "type": "sticker",
+     "lines": [
+      "1 - HA",
+      "2 - YO'Q",
+      "3 - KASSETA NIMA?"
+     ],
+     "color": "yellow",
+     "x": 540,
+     "y": 1500,
+     "w": 460,
+     "size": 54,
+     "rot": 4,
+     "at": "Bir"
+    }
+   ],
+   "vo": "vo_09.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M",
+   "silent_vo": true
+  }
+ ]
+}

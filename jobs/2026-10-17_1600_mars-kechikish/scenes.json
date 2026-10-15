@@ -1,0 +1,347 @@
+{
+ "title": "Marsda kech qolishning bahonasi",
+ "music_seed": 196,
+ "cover_title": [
+  "MARSDA KECHIKISH",
+  "BAHONASI"
+ ],
+ "cover_sub": "2061-yil, Mars universiteti",
+ "cover_scene": 0,
+ "anim": "static",
+ "bright": true,
+ "theme": {
+  "font": "orbitron",
+  "font2": "rubikmono",
+  "accent": [
+   255,
+   110,
+   60
+  ],
+  "accent2": [
+   120,
+   228,
+   255
+  ],
+  "bubble_bg": [
+   44,
+   22,
+   20
+  ],
+  "bubble_line": [
+   255,
+   140,
+   80
+  ],
+  "bubble_ink": [
+   255,
+   245,
+   236
+  ],
+  "bubble_dim": [
+   140,
+   100,
+   90
+  ],
+  "bubble_radius": 34
+ },
+ "scenes": [
+  {
+   "speaker": "bekzod",
+   "text": "Ikki ming oltmish birinchi yil. Mars. Universitet koridorida bitta talaba skafandrda yugurib ketyapti. Uning ismi Asal va u yana kechikdi.",
+   "tts": "[excited] Ikki ming oltmish birinchi yil. Mars. Universitet koridorida bitta talaba skafandrda yugurib ketyapti. Uning ismi Asal va u yana kechikdi.",
+   "mood": "tense",
+   "img": "01.jpg",
+   "elements": [
+    {
+     "type": "tag",
+     "head": "YIL",
+     "text": "2061",
+     "x": 170,
+     "y": 210,
+     "color": "red",
+     "at": "start"
+    },
+    {
+     "type": "pill",
+     "text": "MARS UNIVERSITETI",
+     "bg": "orange",
+     "fg": "white",
+     "x": 640,
+     "y": 300,
+     "rot": -3,
+     "at": "Mars"
+    }
+   ],
+   "vo": "vo_01.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M"
+  },
+  {
+   "speaker": "bekzod",
+   "text": "Qirq daqiqa oldin Asal yotoqxonada shirin uxlab yotgan edi. Chunki budilnigi hali ham Yer vaqtiga qo'yilgan edi.",
+   "tts": "[whispers] Qirq daqiqa oldin Asal yotoqxonada shirin uxlab yotgan edi. Chunki budilnigi hali ham Yer vaqtiga qo'yilgan edi.",
+   "mood": "mystery",
+   "img": "02.jpg",
+   "elements": [
+    {
+     "type": "clock",
+     "day": "YER VAQTI",
+     "time": "07:00",
+     "at": "start"
+    },
+    {
+     "type": "note",
+     "text": "Budilnik hali ham Yer vaqtida.",
+     "y": 1560,
+     "size": 70,
+     "rot": -2,
+     "at": "budilnigi"
+    }
+   ],
+   "img2": "02_b.jpg",
+   "img2_at": "Chunki",
+   "vo": "vo_02.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M"
+  },
+  {
+   "speaker": "shahnoza",
+   "text": "Asal! Yana kechikdingmi? Bu semestrda o'n birinchi marta! Bahonang tayyormi?",
+   "tts": "[angry] Asal! Yana kechikdingmi? Bu semestrda o'n birinchi marta! Bahonang tayyormi?",
+   "mood": "tense",
+   "img": "03.jpg",
+   "elements": [
+    {
+     "type": "bubble",
+     "speaker": "DOMLA",
+     "x": 540,
+     "y": 330,
+     "at": "start",
+     "hl": {
+      "o'n": "red",
+      "birinchi": "red"
+     },
+     "tail": "down",
+     "tail_x": 0.3,
+     "tag": "crimson",
+     "w": 880
+    },
+    {
+     "type": "char",
+     "img": "c_domla.jpg",
+     "from": "right",
+     "x": 740,
+     "y": 1430,
+     "h": 780,
+     "at": 0.3,
+     "motion": "idle",
+     "flip": false,
+     "talk": [
+      "vo"
+     ],
+     "label": "DOMLA",
+     "label_bg": "crimson"
+    }
+   ],
+   "vo": "vo_03.mp3",
+   "voice_id": "eggZu1Ffe4if51TKev2v"
+  },
+  {
+   "speaker": "zilola",
+   "text": "Domla, men kechikmadim! Marsda bir kun Yernikidan qariyb qirq daqiqa uzun. Men shunchaki... Yer vaqtida yashayapman!",
+   "tts": "[nervous] [laughs] Domla, men kechikmadim! Marsda bir kun Yernikidan qariyb qirq daqiqa uzun. Men shunchaki... Yer vaqtida yashayapman!",
+   "mood": "groove",
+   "img": "04.jpg",
+   "elements": [
+    {
+     "type": "bubble",
+     "speaker": "ASAL",
+     "x": 540,
+     "y": 330,
+     "at": "start",
+     "hl": {
+      "qirq": "orange",
+      "Yer": "orange"
+     },
+     "tail": "down",
+     "tail_x": 0.3,
+     "tag": "royal",
+     "w": 880
+    },
+    {
+     "type": "char",
+     "img": "c_asal.jpg",
+     "from": "left",
+     "x": 280,
+     "y": 1430,
+     "h": 780,
+     "at": 0.3,
+     "motion": "idle",
+     "flip": false,
+     "talk": [
+      "vo"
+     ],
+     "moods": [
+      [
+       "c_asal_hayron.jpg",
+       "Men shunchaki"
+      ]
+     ],
+     "label": "ASAL",
+     "label_bg": "royal"
+    }
+   ],
+   "vo": "vo_04.mp3",
+   "voice_id": "cyPun3bl9MxcpLBX6pT0"
+  },
+  {
+   "speaker": "bekzod",
+   "text": "Va bu safar u haq edi. Marsdagi bir sutka, ya'ni sol, yigirma to'rt soat o'ttiz to'qqiz daqiqa davom etadi.",
+   "tts": "[surprised] Va bu safar u haq edi. Marsdagi bir sutka, ya'ni sol, yigirma to'rt soat o'ttiz to'qqiz daqiqa davom etadi.",
+   "mood": "mystery",
+   "elements": [
+    {
+     "type": "prop",
+     "img": "p_mars.jpg",
+     "x": 540,
+     "y": 640,
+     "h": 520,
+     "at": 0.2,
+     "motion": "float",
+     "from": "pop"
+    },
+    {
+     "type": "card",
+     "kicker": "NASA",
+     "title": [
+      "1 SOL =",
+      "24 SOAT 39 DAQIQA"
+     ],
+     "sub": "Marsdagi sutka Yernikidan uzunroq.",
+     "at": "sol",
+     "y": 1350
+    }
+   ],
+   "bg": "space",
+   "bg_seed": 17,
+   "vo": "vo_05.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M"
+  },
+  {
+   "speaker": "shahnoza",
+   "text": "Zo'r. Unda imtihon ham Yer vaqtida bo'ladi. Ya'ni... u o'ttiz to'qqiz daqiqa oldin boshlangan.",
+   "tts": "[sarcastic] Zo'r. Unda imtihon ham Yer vaqtida bo'ladi. Ya'ni... u o'ttiz to'qqiz daqiqa oldin boshlangan.",
+   "mood": "tense",
+   "img": "06.jpg",
+   "elements": [
+    {
+     "type": "stamp",
+     "text": "IMTIHON BOSHLANGAN!",
+     "y": 1560,
+     "rot": -5,
+     "at": "boshlangan"
+    },
+    {
+     "type": "char",
+     "img": "c_asal_xafa.jpg",
+     "from": "left",
+     "x": 240,
+     "y": 1430,
+     "h": 640,
+     "at": "Ya'ni",
+     "motion": "idle",
+     "flip": false
+    }
+   ],
+   "vo": "vo_06.mp3",
+   "voice_id": "eggZu1Ffe4if51TKev2v"
+  },
+  {
+   "speaker": "zilola",
+   "text": "Kelajakda raketalar uchadi, robotlar ovqat pishiradi... Lekin kechikish uchun bahona baribir ish bermas ekan.",
+   "tts": "[sighs] Kelajakda raketalar uchadi, robotlar ovqat pishiradi... Lekin kechikish uchun bahona baribir ish bermas ekan.",
+   "mood": "sad",
+   "img": "07.jpg",
+   "elements": [
+    {
+     "type": "prop",
+     "img": "p_robot.jpg",
+     "x": 700,
+     "y": 560,
+     "h": 360,
+     "at": 0.3,
+     "motion": "float",
+     "from": "pop",
+     "label": "ROBOT-DAVOMAT"
+    },
+    {
+     "type": "sticker",
+     "lines": [
+      "Kechikdi:",
+      "11-marta"
+     ],
+     "color": "blue",
+     "x": 300,
+     "y": 420,
+     "w": 400,
+     "size": 54,
+     "rot": 4,
+     "at": "bahona"
+    }
+   ],
+   "vo": "vo_07.mp3",
+   "voice_id": "cyPun3bl9MxcpLBX6pT0"
+  },
+  {
+   "speaker": "bekzod",
+   "text": "Xullas, Marsga ko'chsangiz ham, budilnikni Mars vaqtiga qo'ying. Kun uzun bo'lgani bilan, domla baribir kutmaydi.",
+   "tts": "[warmly] Xullas, Marsga ko'chsangiz ham, budilnikni Mars vaqtiga qo'ying. Kun uzun bo'lgani bilan, domla baribir kutmaydi.",
+   "mood": "warm",
+   "img": "08.jpg",
+   "elements": [
+    {
+     "type": "note",
+     "text": "Budilnikni Mars vaqtiga qo'ying!",
+     "y": 1560,
+     "size": 70,
+     "rot": -2,
+     "at": "budilnikni"
+    }
+   ],
+   "vo": "vo_08.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M"
+  },
+  {
+   "speaker": "bekzod",
+   "text": "Sizga har kuni qo'shimcha qirq daqiqa berilsa, nimaga sarflardingiz? Bir — uyquga, ikki — choyga, uch — baribir kechikardim!",
+   "tts": "[excited] Sizga har kuni qo'shimcha qirq daqiqa berilsa, nimaga sarflardingiz? Bir — uyquga, ikki — choyga, uch — baribir kechikardim!",
+   "mood": "finale",
+   "img": "08.jpg",
+   "elements": [
+    {
+     "type": "final",
+     "lines": [
+      "QO'SHIMCHA 40 DAQIQA",
+      "NIMAGA KETADI?"
+     ],
+     "at": 0.4
+    },
+    {
+     "type": "sticker",
+     "lines": [
+      "1 - UYQU",
+      "2 - CHOY",
+      "3 - BARIBIR KECHIKAMAN"
+     ],
+     "color": "blue",
+     "x": 540,
+     "y": 1500,
+     "w": 500,
+     "size": 54,
+     "rot": 4,
+     "at": "Bir"
+    }
+   ],
+   "vo": "vo_09.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M"
+  }
+ ]
+}

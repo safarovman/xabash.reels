@@ -1,0 +1,20 @@
+{
+ "images": {
+  "c_bobo": "CHAR: Elderly Uzbek grandfather Hoji bobo, 75, neat white beard, traditional striped chapan robe, black-and-white doppi skullcap, laughing heartily with a sly twinkle in his eyes, one finger raised, half body.",
+  "c_bobo_dono": "CHAR: Same old man as in the reference image (white beard, striped chapan, doppi), calm wise warm smile, hand on heart, half body.",
+  "c_bobo_hayron": "CHAR: Same old man as in the reference image (white beard, striped chapan, doppi), surprised eyebrows up, mouth open in a delighted 'oho!', half body.",
+  "c_doniyor": "CHAR: Uzbek teenage boy Doniyor, 16, short hair, white shirt with an embroidered vest, cheeky confident grin, pointing forward, half body.",
+  "c_buvi": "CHAR: Elderly Uzbek grandmother Mehri, 72, light green headscarf, dark velvet vest over a floral dress, laughing and clapping her hands, half body.",
+  "01": "SCENE: Fergana teahouse (choyxona) at golden hour, wooden carved pillars, an old man with a white beard in a striped chapan and doppi sitting on a tapchan facing a teenage grandson in an embroidered vest, other men around watching with smiles, teapots and bread on the table.",
+  "02": "SCENE: Close medium shot in the teahouse: the white-bearded grandfather in the striped chapan leaning forward with a sly grin, delivering a witty line, warm golden light, tea steam.",
+  "03": "SCENE: The teenage grandson in an embroidered vest on the tapchan answering back with a cheeky grin, onlookers laughing behind him, teahouse at golden hour.",
+  "04": "SCENE: Grandmother in a light green headscarf sitting at the edge of the tapchan clapping and laughing, the grandfather and grandson in the background, warm light.",
+  "05": "SCENE: The white-bearded grandfather gently putting a hand on his grandson's shoulder and explaining something wisely, both on the tapchan, teahouse at sunset.",
+  "06": "SCENE: Outdoor stage at a festival in Uzbekistan, two performers in chapans facing each other mid-joke, a large audience laughing, colorful lights, dusk.",
+  "07": "SCENE: Grandson leaning in with a mischievous challenging smile, holding a stack of round Uzbek bread (non), the grandfather listening with a raised eyebrow, teahouse.",
+  "08": "SCENE: Grandfather hugging his grandson and both laughing, grandmother pouring tea, teahouse onlookers applauding, golden sunset light."
+ },
+ "hero": "Hoji bobo (75, oq soqol, chopon, do'ppi) + nevarasi Doniyor (16) + buvi Mehri (hakam)",
+ "opening": "epik ilmoq",
+ "design": "Farg'ona choyxonasi: oltin-indigo, atlas naqshi ruhi; lobster + fredoka shrift, oq pufakcha indigo chiziq; hisob tablosi (bars), 1-RAUND/2-RAUND pill'lari"
+}

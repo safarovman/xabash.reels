@@ -1,0 +1,396 @@
+{
+ "title": "10 daqiqa kechikish",
+ "music_seed": 183,
+ "cover_title": [
+  "10 DAQIQA KECHIKDIM,",
+  "3 SOAT NASIHAT"
+ ],
+ "cover_sub": "texnikumdagi tekshiruvchi",
+ "cover_scene": 1,
+ "anim": "static",
+ "bright": true,
+ "theme": {
+  "font": "marker",
+  "font2": "fredoka",
+  "accent": [
+   235,
+   80,
+   60
+  ],
+  "accent2": [
+   250,
+   232,
+   120
+  ],
+  "bubble_bg": [
+   34,
+   66,
+   50
+  ],
+  "bubble_line": [
+   236,
+   236,
+   222
+  ],
+  "bubble_ink": [
+   250,
+   250,
+   240
+  ],
+  "bubble_dim": [
+   110,
+   140,
+   120
+  ],
+  "bubble_radius": 12
+ },
+ "scenes": [
+  {
+   "speaker": "bekzod",
+   "text": "Texnikumda o'qigan paytlarim... O'n daqiqa kechikdim, xolos. Lekin eshik oldida meni bitta odam kutib turardi.",
+   "tts": "[sighs] Texnikumda o'qigan paytlarim... O'n daqiqa kechikdim, xolos. Lekin eshik oldida meni bitta odam kutib turardi.",
+   "mood": "mystery",
+   "img": "01.jpg",
+   "elements": [
+    {
+     "type": "clock",
+     "day": "DUSHANBA",
+     "time": "08:10",
+     "at": "start"
+    },
+    {
+     "type": "char",
+     "img": "c_men.jpg",
+     "from": "left",
+     "x": 280,
+     "y": 1430,
+     "h": 780,
+     "at": 0.4,
+     "motion": "idle",
+     "flip": false,
+     "label": "MEN",
+     "label_bg": "royal"
+    }
+   ],
+   "vo": "vo_01.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M"
+  },
+  {
+   "speaker": "sardor",
+   "text": "Ha-a, keldingmi? O'n daqiqa kechikding! Otang kim? Bobong kim? Qaysi mahalladansan? Butun urug'-aymog'ingni aytib ber-chi!",
+   "tts": "[angry] Ha-a, keldingmi? O'n daqiqa kechikding! Otang kim? Bobong kim? Qaysi mahalladansan? Butun urug'-aymog'ingni aytib ber-chi!",
+   "mood": "tense",
+   "img": "02.jpg",
+   "elements": [
+    {
+     "type": "bubble",
+     "speaker": "TEKSHIRUVCHI",
+     "x": 540,
+     "y": 330,
+     "at": "start",
+     "hl": {
+      "Otang": "red",
+      "Bobong": "red",
+      "urug'-aymog'ingni": "red"
+     },
+     "tail": "down",
+     "tail_x": 0.3,
+     "tag": "crimson",
+     "w": 880
+    },
+    {
+     "type": "char",
+     "img": "c_tekshiruvchi.jpg",
+     "from": "right",
+     "x": 250,
+     "y": 1450,
+     "h": 700,
+     "at": "Otang",
+     "motion": "idle",
+     "flip": false,
+     "talk": [
+      "vo"
+     ],
+     "label": "TEKSHIRUVCHI",
+     "label_bg": "crimson"
+    }
+   ],
+   "vo": "vo_02.mp3",
+   "voice_id": "UjuEL3hLLUaDED9iW4Yb"
+  },
+  {
+   "speaker": "bekzod",
+   "text": "U meni koridorda ikki soat ushlab turdi. Nasihati esa uch soatga cho'zildi. Oxirida u mening urug'imni mendan ham yaxshiroq bilib oldi.",
+   "tts": "[sarcastic] U meni koridorda ikki soat ushlab turdi. Nasihati esa uch soatga cho'zildi. Oxirida u mening urug'imni mendan ham yaxshiroq bilib oldi.",
+   "mood": "groove",
+   "elements": [
+    {
+     "type": "tag",
+     "head": "HISOB",
+     "text": "DAQIQA",
+     "x": 200,
+     "y": 260,
+     "color": "red",
+     "at": "start"
+    },
+    {
+     "type": "bars",
+     "rows": [
+      [
+       "Kechikish",
+       10,
+       "yellow"
+      ],
+      [
+       "Turish",
+       120,
+       "red"
+      ],
+      [
+       "Nasihat",
+       180,
+       "red"
+      ]
+     ],
+     "x": 540,
+     "y": 820,
+     "at": 0.3
+    },
+    {
+     "type": "char",
+     "img": "c_men_xafa.jpg",
+     "from": "bottom",
+     "x": 540,
+     "y": 1500,
+     "h": 700,
+     "at": "urug'imni",
+     "motion": "idle",
+     "flip": false
+    }
+   ],
+   "bg": "blueprint",
+   "bg_color": [
+    30,
+    70,
+    55
+   ],
+   "vo": "vo_03.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M"
+  },
+  {
+   "speaker": "sardor",
+   "text": "Konspekting qani? Yo'qmi? Unda uch para tik turasan! Soching nega uzun? Soqoling nega o'sib ketgan? Hammasini tekshiraman!",
+   "tts": "[shouting] Konspekting qani? Yo'qmi? Unda uch para tik turasan! Soching nega uzun? Soqoling nega o'sib ketgan? Hammasini tekshiraman!",
+   "mood": "tense",
+   "img": "04.jpg",
+   "elements": [
+    {
+     "type": "bubble",
+     "speaker": "TEKSHIRUVCHI",
+     "x": 540,
+     "y": 330,
+     "at": "start",
+     "hl": {
+      "uch": "red",
+      "para": "red"
+     },
+     "tail": "down",
+     "tail_x": 0.3,
+     "tag": "crimson",
+     "w": 880,
+     "until": "Soching"
+    },
+    {
+     "type": "sticker",
+     "lines": [
+      "SOCH - TEKSHIRILDI",
+      "SOQOL - TEKSHIRILDI",
+      "KONSPEKT - YO'Q!"
+     ],
+     "color": "yellow",
+     "x": 540,
+     "y": 1480,
+     "w": 520,
+     "size": 54,
+     "rot": -3,
+     "at": "Soching"
+    }
+   ],
+   "img2": "04_b.jpg",
+   "img2_at": "Soqoling",
+   "vo": "vo_04.mp3",
+   "voice_id": "UjuEL3hLLUaDED9iW4Yb"
+  },
+  {
+   "speaker": "bekzod",
+   "text": "Keyin u ko'k Nexiasiga o'tirdi, qornini rulga tirab, viqor bilan ketdi. Men esa uch para devor yonida tik turdim.",
+   "tts": "[chuckles] Keyin u ko'k Nexiasiga o'tirdi, qornini rulga tirab, viqor bilan ketdi. Men esa uch para devor yonida tik turdim.",
+   "mood": "groove",
+   "img": "05.jpg",
+   "elements": [
+    {
+     "type": "prop",
+     "img": "p_nexia.jpg",
+     "x": 700,
+     "y": 760,
+     "h": 330,
+     "at": "Nexiasiga",
+     "motion": "fly",
+     "from": "pop",
+     "label": "KO'K NEXIA",
+     "path": [
+      -300,
+      760
+     ],
+     "dur": 1.6
+    },
+    {
+     "type": "note",
+     "text": "Men esa uch para devor yonida tik turdim.",
+     "y": 1560,
+     "size": 70,
+     "rot": -2,
+     "at": "Men esa"
+    }
+   ],
+   "vo": "vo_05.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M"
+  },
+  {
+   "speaker": "jahongir",
+   "text": "Bolalar, yozib olinglar. Sakson beshinchi yildagi konspekt, o'n ikkinchi bet. Savol bermanglar... men ham bilmayman.",
+   "tts": "[elderly voice] Bolalar, yozib olinglar. Sakson beshinchi yildagi konspekt, o'n ikkinchi bet. Savol bermanglar... men ham bilmayman.",
+   "mood": "mystery",
+   "img": "06.jpg",
+   "elements": [
+    {
+     "type": "bubble",
+     "speaker": "USTOZ",
+     "x": 540,
+     "y": 320,
+     "at": "start",
+     "hl": {
+      "bilmayman": "red"
+     },
+     "tail": "down",
+     "tail_x": 0.3,
+     "tag": "purple",
+     "w": 880
+    },
+    {
+     "type": "char",
+     "img": "c_ustoz.jpg",
+     "from": "right",
+     "x": 740,
+     "y": 1430,
+     "h": 740,
+     "at": 0.3,
+     "motion": "idle",
+     "flip": false,
+     "talk": [
+      "vo"
+     ],
+     "label": "USTOZ",
+     "label_bg": "purple"
+    }
+   ],
+   "vo": "vo_06.mp3",
+   "voice_id": "xDwfBjUEPdIoQekNOXAX"
+  },
+  {
+   "speaker": "bekzod",
+   "text": "Intizom — besh. Soch-soqol — besh. Ilm-chi? Ilm o'sha kuni ham eshik oldida tik turib qolgan edi.",
+   "tts": "[sighs] Intizom — besh. Soch-soqol — besh. Ilm-chi? Ilm o'sha kuni ham eshik oldida tik turib qolgan edi.",
+   "mood": "sad",
+   "img": "07.jpg",
+   "elements": [
+    {
+     "type": "pill",
+     "text": "INTIZOM: 5",
+     "bg": "green",
+     "fg": "white",
+     "x": 300,
+     "y": 330,
+     "rot": -3,
+     "at": "Intizom"
+    },
+    {
+     "type": "pill",
+     "text": "SOCH-SOQOL: 5",
+     "bg": "green",
+     "fg": "white",
+     "x": 720,
+     "y": 450,
+     "rot": 3,
+     "at": "Soch-soqol"
+    },
+    {
+     "type": "note",
+     "text": "Ilm eshik oldida tik turib qoldi.",
+     "y": 1560,
+     "size": 70,
+     "rot": -2,
+     "at": "Ilm-chi"
+    }
+   ],
+   "vo": "vo_07.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M"
+  },
+  {
+   "speaker": "bekzod",
+   "text": "Olimlar ham buni isbotlagan. Freeman va hamkasblarining ikki ming o'n to'rtinchi yilgi tadqiqotiga ko'ra, faqat ma'ruza tinglagan talabalar faol o'qiganlarga qaraganda bir yarim barobar ko'p yiqilgan.",
+   "tts": "[warmly] Olimlar ham buni isbotlagan. Freeman va hamkasblarining ikki ming o'n to'rtinchi yilgi tadqiqotiga ko'ra, faqat ma'ruza tinglagan talabalar faol o'qiganlarga qaraganda bir yarim barobar ko'p yiqilgan.",
+   "mood": "mystery",
+   "img": "08.jpg",
+   "elements": [
+    {
+     "type": "dark",
+     "amount": 0.4,
+     "at": "start"
+    },
+    {
+     "type": "card",
+     "kicker": "PNAS, 2014 - Freeman va boshq.",
+     "title": [
+      "FAQAT MA'RUZA:",
+      "1,5 BAROBAR KO'P YIQILISH"
+     ],
+     "sub": "Faol o'qish natijani yaxshilaydi.",
+     "at": "Freeman"
+    }
+   ],
+   "vo": "vo_08.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M"
+  },
+  {
+   "speaker": "bekzod",
+   "text": "Sizni ham kechikkaningiz uchun tik turg'izishganmi? Bir — ha, ikki — yo'q, uch — men o'zim tekshiruvchi edim. Izohda yozing!",
+   "tts": "[laughs] Sizni ham kechikkaningiz uchun tik turg'izishganmi? Bir — ha, ikki — yo'q, uch — men o'zim tekshiruvchi edim. Izohda yozing!",
+   "mood": "finale",
+   "img": "09.jpg",
+   "elements": [
+    {
+     "type": "final",
+     "lines": [
+      "SIZNI HAM",
+      "TURG'IZISHGANMI?"
+     ],
+     "at": 0.4
+    },
+    {
+     "type": "char",
+     "img": "c_men_kulgan.jpg",
+     "from": "left",
+     "x": 250,
+     "y": 1500,
+     "h": 640,
+     "at": 0.3,
+     "motion": "idle",
+     "flip": false
+    }
+   ],
+   "vo": "vo_09.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M"
+  }
+ ]
+}

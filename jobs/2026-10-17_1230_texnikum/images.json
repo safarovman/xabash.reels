@@ -1,0 +1,22 @@
+{
+ "images": {
+  "c_men": "CHAR: Uzbek college student, 18, slim, short neat haircut, white shirt, black trousers, black backpack on one shoulder, cheerful confident smile, full body.",
+  "c_men_xafa": "CHAR: Same young man as in the reference image (18, white shirt, black trousers, backpack), standing tired against an invisible wall, shoulders dropped, bored exhausted face, full body.",
+  "c_men_kulgan": "CHAR: Same young man as in the reference image (white shirt, backpack) laughing out loud, holding his stomach, full body.",
+  "c_tekshiruvchi": "CHAR: Uzbek college discipline inspector, 50, completely bald shiny head, striking bright green eyes, big round belly, tight grey suit jacket that barely buttons, dark tie, hands on hips, stern suspicious squint, holding car keys, full body.",
+  "c_ustoz": "CHAR: Thin elderly Uzbek college teacher, 65, huge old-fashioned thick glasses, oversized faded brown suit, holding a yellowed old notebook close to his face, sleepy monotone expression, half body.",
+  "p_nexia": "PROP: small blue 1990s four-door compact sedan car, side view, slightly dusty, realistic, no logos, no license plate text.",
+  "01": "SCENE: Morning entrance hall of an old Uzbek technical college (texnikum), long empty corridor with green-painted walls, big round wall clock, sunlight from tall windows, worn parquet floor.",
+  "02": "SCENE: Same college corridor, a bald college inspector (50, shiny bald head, bright green eyes, big belly, tight grey suit) blocking the way with hands on hips, staring down at a nervous student (18, white shirt, backpack) who just arrived, dramatic morning light.",
+  "04": "SCENE: Same corridor, the bald green-eyed inspector with a big belly measuring the student's hair with a wooden ruler, the student (white shirt) standing stiffly against the green wall, other students peeking from a classroom door.",
+  "04_b": "EDIT 04: Only one small change: the inspector now holds a big magnifying glass to the student's chin instead of the ruler.",
+  "05": "SCENE: College parking lot, the bald inspector with a big belly squeezing into a small blue 1990s compact sedan, belly pressed against the steering wheel, proud face; in the background through a window the student stands against a wall.",
+  "06": "SCENE: Old Soviet-era classroom with a green chalkboard, a thin elderly teacher with huge thick glasses and an oversized brown suit reading monotonously from a yellowed notebook, students half asleep at wooden desks, dust in the sunbeams.",
+  "07": "SCENE: Close-up of an old teacher's grade journal and a piece of chalk on a wooden desk by the window, an empty classroom behind, soft afternoon light, melancholic.",
+  "08": "SCENE: Modern bright classroom, young Uzbek students working actively in small groups around a whiteboard, discussing and laughing, a young teacher guiding them.",
+  "09": "SCENE: The same old college corridor today, renovated, a grown man in his 30s (the former student, now with a short beard, casual jacket) walking past the wall where he once stood, smiling to himself."
+ },
+ "hero": "«men» — texnikum talabasi (oq ko'ylak, ryukzak) + tekshiruvchi (kal, yashil ko'z, qorin, ko'k Nexia) + ustoz (ozg'in, katta ko'zoynak, eski konspekt)",
+ "opening": "birinchi shaxs (egasining xotirasi)",
+ "design": "bo'r doska: to'q yashil pufakcha, oq bo'r yozuv, marker + fredoka shrift, qizil-sariq aksent; 1 sahna blueprint infografika (kechikish/nasihat chiziqlari), checklist stikeri, ko'k Nexia uchib o'tadi"
+}

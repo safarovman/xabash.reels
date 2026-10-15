@@ -1,0 +1,382 @@
+{
+ "title": "Askiya: so'z bilan kurash",
+ "music_seed": 204,
+ "cover_title": [
+  "BOBO VA NEVARA:",
+  "ASKIYA JANGI"
+ ],
+ "cover_sub": "qilich yo'q, faqat so'z",
+ "cover_scene": 0,
+ "anim": "static",
+ "bright": true,
+ "theme": {
+  "font": "lobster",
+  "font2": "fredoka",
+  "accent": [
+   200,
+   36,
+   96
+  ],
+  "accent2": [
+   255,
+   204,
+   64
+  ],
+  "bubble_bg": [
+   255,
+   250,
+   238
+  ],
+  "bubble_line": [
+   40,
+   52,
+   130
+  ],
+  "bubble_ink": [
+   30,
+   34,
+   70
+  ],
+  "bubble_dim": [
+   180,
+   180,
+   200
+  ],
+  "bubble_radius": 40
+ },
+ "scenes": [
+  {
+   "speaker": "bekzod",
+   "text": "Farg'onadagi choyxonada jang boshlandi. Qilich yo'q, musht yo'q... qurol faqat so'z. Bir tomonda Hoji bobo, bir tomonda nevarasi Doniyor.",
+   "tts": "[excited] Farg'onadagi choyxonada jang boshlandi. Qilich yo'q, musht yo'q... qurol faqat so'z. Bir tomonda Hoji bobo, bir tomonda nevarasi Doniyor.",
+   "mood": "hero",
+   "img": "01.jpg",
+   "elements": [
+    {
+     "type": "pill",
+     "text": "1-RAUND",
+     "bg": "crimson",
+     "fg": "white",
+     "x": 540,
+     "y": 300,
+     "rot": -3,
+     "at": "jang"
+    },
+    {
+     "type": "note",
+     "text": "Qurol faqat so'z.",
+     "y": 1560,
+     "size": 70,
+     "rot": -2,
+     "at": "qurol"
+    }
+   ],
+   "vo": "vo_01.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M"
+  },
+  {
+   "speaker": "jahongir",
+   "text": "Ha, nevaram, eshitdimki, bir kunda ming marta layk bosarkansan. Barmog'ing chiniqib, bolg'adek bo'lib qolibdi-yu!",
+   "tts": "[elderly voice] [chuckles] Ha, nevaram, eshitdimki, bir kunda ming marta layk bosarkansan. Barmog'ing chiniqib, bolg'adek bo'lib qolibdi-yu!",
+   "mood": "groove",
+   "img": "02.jpg",
+   "elements": [
+    {
+     "type": "bubble",
+     "speaker": "HOJI BOBO",
+     "x": 540,
+     "y": 330,
+     "at": "start",
+     "hl": {
+      "layk": "red",
+      "bolg'adek": "red"
+     },
+     "tail": "down",
+     "tail_x": 0.3,
+     "tag": "navy",
+     "w": 880
+    },
+    {
+     "type": "char",
+     "img": "c_bobo.jpg",
+     "from": "right",
+     "x": 760,
+     "y": 1430,
+     "h": 720,
+     "at": 0.3,
+     "motion": "idle",
+     "flip": false,
+     "talk": [
+      "vo"
+     ],
+     "label": "HOJI BOBO",
+     "label_bg": "navy"
+    }
+   ],
+   "vo": "vo_02.mp3",
+   "voice_id": "xDwfBjUEPdIoQekNOXAX"
+  },
+  {
+   "speaker": "sardor",
+   "text": "Bobojon, kecha osh yeyishda shunaqa tez edingizki, qoshiq ortingizdan yetolmay qoldi!",
+   "tts": "[laughs] Bobojon, kecha osh yeyishda shunaqa tez edingizki, qoshiq ortingizdan yetolmay qoldi!",
+   "mood": "groove",
+   "img": "03.jpg",
+   "elements": [
+    {
+     "type": "bubble",
+     "speaker": "DONIYOR",
+     "x": 540,
+     "y": 330,
+     "at": "start",
+     "hl": {
+      "qoshiq": "red"
+     },
+     "tail": "down",
+     "tail_x": 0.3,
+     "tag": "royal",
+     "w": 880
+    },
+    {
+     "type": "char",
+     "img": "c_bobo.jpg",
+     "from": "left",
+     "x": 240,
+     "y": 1430,
+     "h": 640,
+     "at": "qoshiq",
+     "motion": "idle",
+     "flip": false,
+     "moods": [
+      [
+       "c_bobo_hayron.jpg",
+       "yetolmay"
+      ]
+     ]
+    }
+   ],
+   "vo": "vo_03.mp3",
+   "voice_id": "UjuEL3hLLUaDED9iW4Yb",
+   "silent_vo": true
+  },
+  {
+   "speaker": "malika",
+   "text": "Voy, ikkalangiz ham bir-biringizdan qolishmaysiz! Bitta ochko bobosiga, bitta ochko nevarasiga!",
+   "tts": "[elderly voice] [laughs] Voy, ikkalangiz ham bir-biringizdan qolishmaysiz! Bitta ochko bobosiga, bitta ochko nevarasiga!",
+   "mood": "groove",
+   "img": "04.jpg",
+   "elements": [
+    {
+     "type": "bars",
+     "rows": [
+      [
+       "HOJI BOBO",
+       1,
+       "yellow"
+      ],
+      [
+       "DONIYOR",
+       1,
+       "red"
+      ]
+     ],
+     "x": 540,
+     "y": 520,
+     "at": "ochko"
+    },
+    {
+     "type": "char",
+     "img": "c_buvi.jpg",
+     "from": "right",
+     "x": 700,
+     "y": 1430,
+     "h": 700,
+     "at": 0.2,
+     "motion": "idle",
+     "flip": false,
+     "talk": [
+      "vo"
+     ],
+     "label": "HAKAM: BUVI",
+     "label_bg": "purple"
+    }
+   ],
+   "vo": "vo_04.mp3",
+   "voice_id": "VTN9ql0D5MshokKncKAy"
+  },
+  {
+   "speaker": "jahongir",
+   "text": "Bolam, askiyada yutish uchun tez gapirish kam. Avval tinglash kerak, keyin kulib javob qaytarish kerak.",
+   "tts": "[elderly voice] [warmly] Bolam, askiyada yutish uchun tez gapirish kam. Avval tinglash kerak, keyin kulib javob qaytarish kerak.",
+   "mood": "warm",
+   "img": "05.jpg",
+   "elements": [
+    {
+     "type": "char",
+     "img": "c_bobo.jpg",
+     "from": "right",
+     "x": 820,
+     "y": 1350,
+     "h": 640,
+     "at": 0.2,
+     "motion": "idle",
+     "flip": false,
+     "talk": [
+      "vo"
+     ],
+     "moods": [
+      [
+       "c_bobo_dono.jpg",
+       "Avval"
+      ]
+     ]
+    },
+    {
+     "type": "note",
+     "text": "Avval tingla, keyin kulib javob qaytar.",
+     "y": 1740,
+     "size": 62,
+     "rot": -2,
+     "at": "Avval"
+    }
+   ],
+   "vo": "vo_05.mp3",
+   "voice_id": "xDwfBjUEPdIoQekNOXAX"
+  },
+  {
+   "speaker": "bekzod",
+   "text": "Bu shunchaki o'yin emas, bu san'at. «Askiya — so'z san'ati» ikki ming o'n to'rtinchi yilda YUNESKO nomoddiy madaniy merosi ro'yxatiga kiritilgan.",
+   "tts": "[warmly] Bu shunchaki o'yin emas, bu san'at. «Askiya — so'z san'ati» ikki ming o'n to'rtinchi yilda YUNESKO nomoddiy madaniy merosi ro'yxatiga kiritilgan.",
+   "mood": "mystery",
+   "img": "06.jpg",
+   "elements": [
+    {
+     "type": "dark",
+     "amount": 0.35,
+     "at": "start"
+    },
+    {
+     "type": "card",
+     "kicker": "YUNESKO, 2014",
+     "title": [
+      "ASKIYA -",
+      "SO'Z SAN'ATI"
+     ],
+     "sub": "Nomoddiy madaniy meros ro'yxatida.",
+     "at": "Askiya"
+    }
+   ],
+   "vo": "vo_06.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M"
+  },
+  {
+   "speaker": "sardor",
+   "text": "Unda oxirgi savol, bobojon: nega mehmon kelsa, eng shirin gapni siz aytasiz-u, eng og'ir nonni men tashiyman?",
+   "tts": "[excited] Unda oxirgi savol, bobojon: nega mehmon kelsa, eng shirin gapni siz aytasiz-u, eng og'ir nonni men tashiyman?",
+   "mood": "tense",
+   "img": "07.jpg",
+   "elements": [
+    {
+     "type": "pill",
+     "text": "2-RAUND",
+     "bg": "crimson",
+     "fg": "white",
+     "x": 540,
+     "y": 300,
+     "rot": -3,
+     "at": "start"
+    },
+    {
+     "type": "bubble",
+     "speaker": "DONIYOR",
+     "x": 540,
+     "y": 470,
+     "at": "start",
+     "hl": {
+      "shirin": "red",
+      "nonni": "red"
+     },
+     "tail": "down",
+     "tail_x": 0.3,
+     "tag": "royal",
+     "w": 880
+    }
+   ],
+   "vo": "vo_07.mp3",
+   "voice_id": "UjuEL3hLLUaDED9iW4Yb"
+  },
+  {
+   "speaker": "jahongir",
+   "text": "Chunki askiyani men o'rgataman, nonni esa sen o'rgatasan! Ana, bugun ikkalamiz ham ustoz bo'ldik.",
+   "tts": "[elderly voice] [laughs] Chunki askiyani men o'rgataman, nonni esa sen o'rgatasan! Ana, bugun ikkalamiz ham ustoz bo'ldik.",
+   "mood": "warm",
+   "img": "08.jpg",
+   "elements": [
+    {
+     "type": "stamp",
+     "text": "DURRANG!",
+     "y": 420,
+     "rot": -5,
+     "at": "ustoz"
+    },
+    {
+     "type": "char",
+     "img": "c_bobo_hayron.jpg",
+     "from": "left",
+     "x": 250,
+     "y": 1430,
+     "h": 620,
+     "at": 0.2,
+     "motion": "idle",
+     "flip": false,
+     "talk": [
+      "vo"
+     ],
+     "moods": [
+      [
+       "c_bobo.jpg",
+       "Chunki"
+      ]
+     ]
+    }
+   ],
+   "vo": "vo_08.mp3",
+   "voice_id": "xDwfBjUEPdIoQekNOXAX"
+  },
+  {
+   "speaker": "bekzod",
+   "text": "Sizning oilangizda kim eng zo'r askiyachi? Bir — bobom, ikki — buvim, uch — o'zim! Izohda yozing.",
+   "tts": "[excited] Sizning oilangizda kim eng zo'r askiyachi? Bir — bobom, ikki — buvim, uch — o'zim! Izohda yozing.",
+   "mood": "finale",
+   "img": "08.jpg",
+   "elements": [
+    {
+     "type": "final",
+     "lines": [
+      "OILANGIZDA KIM",
+      "ZO'R ASKIYACHI?"
+     ],
+     "at": 0.4
+    },
+    {
+     "type": "sticker",
+     "lines": [
+      "1 - BOBOM",
+      "2 - BUVIM",
+      "3 - O'ZIM"
+     ],
+     "color": "yellow",
+     "x": 540,
+     "y": 1500,
+     "w": 420,
+     "size": 54,
+     "rot": 4,
+     "at": "Bir"
+    }
+   ],
+   "vo": "vo_09.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M",
+   "silent_vo": true
+  }
+ ]
+}

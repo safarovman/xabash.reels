@@ -1,0 +1,358 @@
+{
+ "title": "Ko'zim qizardi, seriya tugamadi",
+ "music_seed": 219,
+ "cover_title": [
+  "KO'Z QIZARDI,",
+  "SERIYA TUGAMADI"
+ ],
+ "cover_sub": "20 - 20 - 20 qoidasi",
+ "cover_scene": 0,
+ "anim": "static",
+ "bright": true,
+ "theme": {
+  "font": "inter",
+  "font2": "russo",
+  "accent": [
+   0,
+   150,
+   140
+  ],
+  "accent2": [
+   255,
+   226,
+   80
+  ],
+  "bubble_bg": [
+   255,
+   255,
+   255
+  ],
+  "bubble_line": [
+   0,
+   140,
+   132
+  ],
+  "bubble_ink": [
+   20,
+   40,
+   46
+  ],
+  "bubble_dim": [
+   170,
+   200,
+   200
+  ],
+  "bubble_radius": 24
+ },
+ "scenes": [
+  {
+   "speaker": "bekzod",
+   "text": "Ha, siz. Hozir shu videoni ko'rayotgan siz. Oxirgi marta qachon ko'zingizni qirpdingiz? Farhod ham buni eslay olmaydi.",
+   "tts": "[sarcastic] Ha, siz. Hozir shu videoni ko'rayotgan siz. Oxirgi marta qachon ko'zingizni qirpdingiz? Farhod ham buni eslay olmaydi.",
+   "mood": "mystery",
+   "img": "01.jpg",
+   "elements": [
+    {
+     "type": "pill",
+     "text": "KO'Z ENERGIYASI: 12%",
+     "bg": "crimson",
+     "fg": "white",
+     "x": 540,
+     "y": 300,
+     "rot": -3,
+     "at": "qirpdingiz"
+    },
+    {
+     "type": "char",
+     "img": "c_farhod.jpg",
+     "from": "right",
+     "x": 760,
+     "y": 1430,
+     "h": 700,
+     "at": "Farhod",
+     "motion": "idle",
+     "flip": false,
+     "label": "FARHOD",
+     "label_bg": "royal"
+    }
+   ],
+   "vo": "vo_01.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M"
+  },
+  {
+   "speaker": "sardor",
+   "text": "Yana bitta qism, keyin uxlayman. Kodni tugataman, keyin seriyani tugataman, keyin... qaysi seriya edi o'zi?",
+   "tts": "[tired] [laughs] Yana bitta qism, keyin uxlayman. Kodni tugataman, keyin seriyani tugataman, keyin... qaysi seriya edi o'zi?",
+   "mood": "groove",
+   "img": "02.jpg",
+   "elements": [
+    {
+     "type": "clock",
+     "day": "SESHANBA",
+     "time": "02:40",
+     "at": "start"
+    },
+    {
+     "type": "bubble",
+     "speaker": "FARHOD",
+     "x": 540,
+     "y": 620,
+     "at": "start",
+     "hl": {
+      "Yana": "red",
+      "bitta": "red"
+     },
+     "tail": "down",
+     "tail_x": 0.3,
+     "tag": "royal",
+     "w": 880
+    }
+   ],
+   "img2": "02_b.jpg",
+   "img2_at": "keyin...",
+   "vo": "vo_02.mp3",
+   "voice_id": "UjuEL3hLLUaDED9iW4Yb",
+   "silent_vo": true
+  },
+  {
+   "speaker": "dilnoza",
+   "text": "Aka, ko'zingiz quyonnikidek qizarib ketibdi-ku! Ertaga shifokorga boramiz, gap tamom!",
+   "tts": "[worried] Aka, ko'zingiz quyonnikidek qizarib ketibdi-ku! Ertaga shifokorga boramiz, gap tamom!",
+   "mood": "tense",
+   "img": "03.jpg",
+   "elements": [
+    {
+     "type": "bubble",
+     "speaker": "NILUFAR",
+     "x": 540,
+     "y": 330,
+     "at": "start",
+     "hl": {
+      "quyonnikidek": "red"
+     },
+     "tail": "down",
+     "tail_x": 0.3,
+     "tag": "purple",
+     "w": 880
+    },
+    {
+     "type": "char",
+     "img": "c_nilufar.jpg",
+     "from": "left",
+     "x": 260,
+     "y": 1430,
+     "h": 680,
+     "at": 0.2,
+     "motion": "idle",
+     "flip": false,
+     "talk": [
+      "vo"
+     ],
+     "label": "SINGLISI",
+     "label_bg": "purple"
+    }
+   ],
+   "vo": "vo_03.mp3",
+   "voice_id": "O72h9AUwisM6Zj4He72B"
+  },
+  {
+   "speaker": "bekzod",
+   "text": "Ertasi kuni ko'z shifokori Dilorom opa uni ko'rib, ko'zoynagini sekin burnining uchiga tushirdi.",
+   "tts": "[chuckles] Ertasi kuni ko'z shifokori Dilorom opa uni ko'rib, ko'zoynagini sekin burnining uchiga tushirdi.",
+   "mood": "mystery",
+   "img": "04.jpg",
+   "elements": [
+    {
+     "type": "char",
+     "img": "c_dilorom.jpg",
+     "from": "right",
+     "x": 700,
+     "y": 1430,
+     "h": 720,
+     "at": "Dilorom",
+     "motion": "idle",
+     "flip": false,
+     "label": "DILOROM OPA",
+     "label_bg": "green"
+    }
+   ],
+   "vo": "vo_04.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M"
+  },
+  {
+   "speaker": "nodira",
+   "text": "O'g'lim, ekranga tikilganda odam kamroq qirpadi va ko'z quriydi. Har yigirma daqiqada yigirma soniya uzoqqa qarab turish kerak.",
+   "tts": "[sighs] O'g'lim, ekranga tikilganda odam kamroq qirpadi va ko'z quriydi. Har yigirma daqiqada yigirma soniya uzoqqa qarab turish kerak.",
+   "mood": "warm",
+   "img": "04.jpg",
+   "elements": [
+    {
+     "type": "bubble",
+     "speaker": "DILOROM OPA",
+     "x": 540,
+     "y": 330,
+     "at": "start",
+     "hl": {
+      "yigirma": "red"
+     },
+     "tail": "down",
+     "tail_x": 0.3,
+     "tag": "green",
+     "w": 880
+    },
+    {
+     "type": "char",
+     "img": "c_dilorom.jpg",
+     "from": "right",
+     "x": 700,
+     "y": 1430,
+     "h": 720,
+     "at": 0.1,
+     "motion": "idle",
+     "flip": false,
+     "talk": [
+      "vo"
+     ]
+    }
+   ],
+   "vo": "vo_05.mp3",
+   "voice_id": "132QLQIkg1RJGmpicuhR"
+  },
+  {
+   "speaker": "bekzod",
+   "text": "Bu shifokorning o'ylab topgani emas. Amerika Oftalmologiya Akademiyasi ham «yigirma-yigirma-yigirma» qoidasini tavsiya qiladi.",
+   "tts": "[warmly] Bu shifokorning o'ylab topgani emas. Amerika Oftalmologiya Akademiyasi ham «yigirma-yigirma-yigirma» qoidasini tavsiya qiladi.",
+   "mood": "mystery",
+   "elements": [
+    {
+     "type": "prop",
+     "img": "p_taymer.jpg",
+     "x": 540,
+     "y": 560,
+     "h": 380,
+     "at": 0.2,
+     "motion": "bounce",
+     "from": "pop"
+    },
+    {
+     "type": "card",
+     "kicker": "AAO, AQSh",
+     "title": [
+      "20 - 20 - 20",
+      "QOIDASI"
+     ],
+     "sub": "Har 20 daqiqada 20 soniya 6 metr uzoqqa qarang.",
+     "at": "Akademiyasi",
+     "y": 1300
+    }
+   ],
+   "bg": "blueprint",
+   "bg_color": [
+    0,
+    92,
+    96
+   ],
+   "vo": "vo_06.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M"
+  },
+  {
+   "speaker": "sardor",
+   "text": "Yigirma daqiqada bir marta? Opa, men yigirma daqiqada faqat bitta reels ko'rib ulguraman-ku!",
+   "tts": "[surprised] Yigirma daqiqada bir marta? Opa, men yigirma daqiqada faqat bitta reels ko'rib ulguraman-ku!",
+   "mood": "groove",
+   "img": "07.jpg",
+   "elements": [
+    {
+     "type": "char",
+     "img": "c_farhod_hayron.jpg",
+     "from": "left",
+     "x": 250,
+     "y": 1430,
+     "h": 660,
+     "at": 0.1,
+     "motion": "idle",
+     "flip": false,
+     "talk": [
+      "vo"
+     ]
+    },
+    {
+     "type": "bubble",
+     "speaker": "FARHOD",
+     "x": 540,
+     "y": 330,
+     "at": "start",
+     "hl": {
+      "reels": "red"
+     },
+     "tail": "down",
+     "tail_x": 0.3,
+     "tag": "royal",
+     "w": 880
+    }
+   ],
+   "vo": "vo_07.mp3",
+   "voice_id": "UjuEL3hLLUaDED9iW4Yb"
+  },
+  {
+   "speaker": "bekzod",
+   "text": "Bir haftadan keyin Farhod derazadan uzoqqa qaradi va qo'shnisining mushugini birinchi marta ko'rdi. Mushuk u yerda uch yildan beri yasharkan.",
+   "tts": "[chuckles] Bir haftadan keyin Farhod derazadan uzoqqa qaradi va qo'shnisining mushugini birinchi marta ko'rdi. Mushuk u yerda uch yildan beri yasharkan.",
+   "mood": "warm",
+   "img": "08.jpg",
+   "elements": [
+    {
+     "type": "pill",
+     "text": "BIR HAFTADAN KEYIN",
+     "bg": "green",
+     "fg": "white",
+     "x": 540,
+     "y": 300,
+     "rot": -3,
+     "at": "start"
+    },
+    {
+     "type": "note",
+     "text": "Mushuk uch yildan beri o'sha yerda ekan.",
+     "y": 1740,
+     "size": 62,
+     "rot": -2,
+     "at": "Mushuk"
+    },
+    {
+     "type": "char",
+     "img": "c_farhod_kulgan.jpg",
+     "from": "left",
+     "x": 220,
+     "y": 1320,
+     "h": 560,
+     "at": "birinchi",
+     "motion": "idle",
+     "flip": false
+    }
+   ],
+   "vo": "vo_08.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M",
+   "silent_vo": true
+  },
+  {
+   "speaker": "bekzod",
+   "text": "Endi navbat sizga: hozir yigirma soniya uzoqqa qarang. Keyin izohda yozing — nimani ko'rdingiz?",
+   "tts": "[excited] Endi navbat sizga: hozir yigirma soniya uzoqqa qarang. Keyin izohda yozing — nimani ko'rdingiz?",
+   "mood": "finale",
+   "img": "08.jpg",
+   "elements": [
+    {
+     "type": "final",
+     "lines": [
+      "20 SONIYA",
+      "UZOQQA QARANG!"
+     ],
+     "at": 0.4
+    }
+   ],
+   "vo": "vo_09.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M"
+  }
+ ]
+}

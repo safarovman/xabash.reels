@@ -1,0 +1,21 @@
+{
+ "images": {
+  "c_asal": "CHAR: Young Uzbek woman Asal, 20, two long dark braids, sleek white and orange futuristic spacesuit without helmet, holding a tablet, sheepish hopeful smile, full body.",
+  "c_asal_hayron": "CHAR: Same young woman as in the reference image (Asal, two braids, white-orange spacesuit), shocked wide eyes, hand over mouth, full body.",
+  "c_asal_xafa": "CHAR: Same young woman as in the reference image (Asal, two braids, white-orange spacesuit), sad disappointed face, shoulders down, holding the tablet loosely, full body.",
+  "c_domla": "CHAR: Strict Uzbek woman professor Saodat, 55, short grey bob hair, elegant dark futuristic uniform with a traditional ikat-patterned scarf, arms crossed, raised eyebrow, half body.",
+  "p_robot": "PROP: small friendly floating attendance robot drone, round white body, one glowing blue eye, holographic checklist panel, realistic sci-fi design.",
+  "p_mars": "PROP: realistic planet Mars, rusty red with visible craters and a thin polar ice cap.",
+  "01": "SCENE: Year 2061, corridor of a university on Mars, huge curved windows showing a red rocky desert and a pale sky, a young Uzbek woman (two braids, white-orange spacesuit) running fast with a tablet, motion blur, morning light.",
+  "02": "SCENE: Small cozy dorm capsule on Mars, the young woman with two braids asleep in a bunk, a futuristic alarm clock glowing, red Martian sunrise through a round window.",
+  "02_b": "EDIT 02: Only one small change: the young woman is now sitting bolt upright in bed in panic, eyes wide, hair messy.",
+  "03": "SCENE: Lecture hall under a glass dome on Mars, rows of students in futuristic uniforms, a strict woman professor (55, short grey bob, dark uniform, ikat scarf) standing at the front with arms crossed looking at the door.",
+  "04": "SCENE: Doorway of the Mars lecture hall, the young woman with two braids in a white-orange spacesuit standing breathless with both hands raised apologetically, students turning to look.",
+  "06": "SCENE: The strict professor (grey bob, ikat scarf) smirking and holding a glowing holographic exam sheet, a large holographic clock floating behind her, Mars dome lecture hall.",
+  "07": "SCENE: The young woman with two braids sitting alone at an exam desk in the Mars lecture hall, a small floating white robot with a blue eye hovering beside her, she smiles wryly, red desert through the window.",
+  "08": "SCENE: Wide view of a Mars dome city at sunrise, blue-tinted Martian sunset sky, the young woman with two braids on a balcony setting a futuristic wrist device, calm and determined."
+ },
+ "hero": "Asal (20, talaba, skafandr, ikki o'rim soch) + domla Saodat opa (55, qattiqqo'l, naqshli sharf) + robot-davomat",
+ "opening": "cold open (Marsda yugurish, keyin «40 daqiqa oldin»)",
+ "design": "Mars: zang-qizil va havorang neon, orbitron + rubikmono shrift, to'q jigarrang pufakcha neon-to'q sariq chiziq; 1 sahna protsedurali koinot (fakt), suzuvchi (float) stikerlar"
+}

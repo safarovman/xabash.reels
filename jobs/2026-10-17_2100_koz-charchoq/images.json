@@ -1,0 +1,20 @@
+{
+ "images": {
+  "c_farhod": "CHAR: Young Uzbek programmer Farhod, 26, messy black hair, black t-shirt, hoodie around shoulders, tired red eyes, holding a laptop, grinning stubbornly, half body.",
+  "c_farhod_hayron": "CHAR: Same young man as in the reference image (Farhod, messy black hair, black t-shirt), shocked face, eyes wide, pointing at himself, half body.",
+  "c_farhod_kulgan": "CHAR: Same young man as in the reference image (Farhod, messy black hair, black t-shirt), refreshed happy smile, clear eyes, giving a thumbs up, half body.",
+  "c_dilorom": "CHAR: Uzbek woman ophthalmologist Dilorom, 50, white doctor's coat, stethoscope, reading glasses pulled down to the tip of her nose, kind but strict look, half body.",
+  "c_nilufar": "CHAR: Uzbek young woman Nilufar, 19, ponytail, pastel pajamas, worried face with hands on her cheeks, half body.",
+  "p_taymer": "PROP: a round white kitchen timer, realistic, simple.",
+  "01": "SCENE: Evening home office, young Uzbek programmer (26, messy black hair, black t-shirt) staring at three bright monitors with lines of code, red tired eyes, an empty energy drink can and a cold cup of tea on the desk.",
+  "02": "SCENE: 2 AM, the same young man on a sofa with a laptop on his knees and a phone in his hand at the same time, screen light on his face, blanket, dim lamp.",
+  "02_b": "EDIT 02: Only one small change: his eyes are now very red and one eyelid is twitching, comic exaggeration.",
+  "03": "SCENE: Doorway of the living room, his younger sister (19, ponytail, pastel pajamas) pointing at him in shock, the young man on the sofa with laptop, dim night light.",
+  "04": "SCENE: Bright clean ophthalmologist's office, an eye chart on the wall (abstract shapes, no readable text), a woman doctor of 50 in a white coat lowering her glasses to the tip of her nose looking at the young man sitting in the patient chair.",
+  "07": "SCENE: The young man in the doctor's office looking stunned, the woman doctor holding up a small round kitchen timer, bright clinic light.",
+  "08": "SCENE: Bright day, the young man standing at an open window, looking far away and smiling, on the opposite balcony a fluffy cat sits in the sun among flower pots, city trees."
+ },
+ "hero": "Farhod (26, dasturchi, ko'zoynaksiz, qora futbolka) + singlisi Nilufar (19) + ko'z shifokori Dilorom opa (50)",
+ "opening": "tomoshabinga murojaat",
+ "design": "klinik toza: oq va zangori (teal), sariq ogohlantirish; inter + russo shrift, oq pufakcha zangori chiziq; ko'rish jadvali uslubidagi yozuvlar, 1 sahna blueprint (20-20-20), taymer stikeri"
+}

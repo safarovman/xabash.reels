@@ -594,6 +594,12 @@ def frame_scene(T):
 # ---------------- audio ----------------
 SR = 48000
 def load_mp3(p): return np.frombuffer(subprocess.check_output(["ffmpeg", "-v", "error", "-i", p, "-f", "f32le", "-ac", "1", "-ar", str(SR), "-"]), np.float32).copy()
+VO_LUFS = CFG.get("vo_lufs", -16)
+def load_vo(p):
+    # har bir ovoz bo'lagi bir xil balandlikka keltiriladi (past/tushunarsiz personaj bo'lmasin)
+    af = f"highpass=f=70,acompressor=threshold=-20dB:ratio=2.5:attack=8:release=120:makeup=2,loudnorm=I={VO_LUFS}:TP=-1.5:LRA=9"
+    try: return np.frombuffer(subprocess.check_output(["ffmpeg", "-v", "error", "-i", p, "-af", af, "-f", "f32le", "-ac", "1", "-ar", str(SR), "-"]), np.float32).copy()
+    except Exception: return load_mp3(p)
 def env(n, a_, d_): t = np.arange(n) / SR; return np.minimum(1, t / max(a_, 1e-4)) * np.exp(-t / d_)
 def mk_sfx(kind, rs):
     if kind == "pop":
@@ -619,7 +625,7 @@ def mk_sfx(kind, rs):
 def build_audio(path):
     n = int((TOTAL + 0.5) * SR); vo = np.zeros(n, np.float32)
     for i, sc in enumerate(scenes):
-        c = load_mp3(f"{JOB}/aud/{sc.get('vo', f'vo_{i + 1:02d}.mp3')}"); s0 = int((starts[i] + LEAD) * SR); vo[s0:s0 + len(c)] += c[:max(0, n - s0)]
+        c = load_vo(f"{JOB}/aud/{sc.get('vo', f'vo_{i + 1:02d}.mp3')}"); s0 = int((starts[i] + LEAD) * SR); vo[s0:s0 + len(c)] += c[:max(0, n - s0)]
     plan = dict(total=TOTAL, sections=[dict(start=starts[i], end=starts[i] + scene_len[i], mood=sc.get("mood", "groove")) for i, sc in enumerate(scenes)],
                 hits=sorted(HITS), blips=sorted(BLIPS), final_hit=CFG.get("_final_hit"), seed=CFG.get("music_seed", 1))
     json.dump(plan, open(f"{OUT}/music_plan.json", "w"))

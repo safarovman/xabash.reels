@@ -1,73 +1,132 @@
 {
- "repo": "safarovman/xabash.reels",
- "media_branch": "media",
- "raw_base": "https://raw.githubusercontent.com/safarovman/xabash.reels/media",
- "buffer": {
-  "organizationId": "6acf32171f604a4a9e53f75e",
-  "channelId": "6acf32c0778b240e2f04fcdf",
-  "account": "xabash.jonkam"
- },
- "elevenlabs": {
-  "voice_id": "kGOig3GPePLxobJGHo2M",
-  "voice_name": "Bekzod - Warm, Confident, Deep",
-  "model_id": "eleven_v4"
- },
- "timezone": "Asia/Tashkent",
- "slots": [
-  {
-   "time": "08:00",
-   "category": "o'tmish",
-   "theme": "o'tgan zamon: ota-bobolarimiz hayoti, eski Toshkent, SSSR davri, «bizning vaqtimizda» — hozirgi bilan hazil taqqoslash"
+  "repo": "safarovman/xabash.reels",
+  "media_branch": "media",
+  "raw_base": "https://raw.githubusercontent.com/safarovman/xabash.reels/media",
+  "buffer": {
+    "organizationId": "6acf32171f604a4a9e53f75e",
+    "channelId": "6acf32c0778b240e2f04fcdf",
+    "account": "xabash.jonkam"
   },
-  {
-   "time": "12:30",
-   "category": "hozirgi zamon",
-   "theme": "hozirgi o'zbekchilik: internet, telefon, o'yinlar, ish, pul, tirbandlik — hazil va qiziq faktlar"
+  "elevenlabs": {
+    "voice_id": "kGOig3GPePLxobJGHo2M",
+    "voice_name": "Bekzod - Warm, Confident, Deep (hikoyachi, HAR DOIM)",
+    "model_id": "eleven_v4",
+    "flow_id": "g89LrH9AMPN93hZwIUYS",
+    "generations_count": 1,
+    "cast": {
+      "hikoyachi": {
+        "voice_id": "kGOig3GPePLxobJGHo2M",
+        "name": "Bekzod",
+        "note": "har videoda, o'zgarmaydi"
+      },
+      "yosh_qiz": {
+        "voice_id": "O72h9AUwisM6Zj4He72B",
+        "name": "Dilnoza",
+        "note": "sinovdan o'tdi: aniq, quvnoq; qiz, singil, talaba"
+      },
+      "yosh_qiz_2": {
+        "voice_id": "cyPun3bl9MxcpLBX6pT0",
+        "name": "Zilola",
+        "note": "sinovdan o'tdi: tez, quvnoq; ikkinchi qiz/dugona"
+      },
+      "ona_ayol": {
+        "voice_id": "132QLQIkg1RJGmpicuhR",
+        "name": "Nodira",
+        "note": "sinovdan o'tdi: ishonchli, iliq; ona, opa, o'qituvchi, jahl sahnalari"
+      },
+      "ayol_2": {
+        "voice_id": "eggZu1Ffe4if51TKev2v",
+        "name": "Shahnoza",
+        "note": "ikkinchi katta ayol (qaynona, qo'shni)"
+      },
+      "ota_bobo": {
+        "voice_id": "xDwfBjUEPdIoQekNOXAX",
+        "name": "Jahongir",
+        "note": "sinovdan o'tdi: chuqur, salobatli; ota/bobo — bobo uchun [elderly voice]"
+      },
+      "yigit_oshna": {
+        "voice_id": "UjuEL3hLLUaDED9iW4Yb",
+        "name": "Sardor",
+        "note": "yigit, oshna, aka-uka; birinchi ishlatishda bitta qisqa sinov qatori bilan tekshiring"
+      },
+      "buvi": {
+        "voice_id": "VTN9ql0D5MshokKncKAy",
+        "name": "Malika",
+        "note": "buvi, [elderly voice] [warmly]; zaxira: Gulnora 6Fkh9WgMXOqBcOWxX91f"
+      }
+    },
+    "banned_voices": [
+      "EXAVITQu4vr4xnSDxMaL",
+      "IKne3meq5aSn9XLyUdCD",
+      "pqHfZKP75CvOlQylNhV4",
+      "pFZP5JQG7iQjIQuC4Bku",
+      "r1KmysJdVYZjJCm4mL3b"
+    ],
+    "rules": [
+      "O'zbekcha matn uchun FAQAT o'zbek (native) ovozlar. Ingliz ovozlari (Sarah, Charlie, Bill, Lily, Jessica) taqiqlangan — o'zbekchani past va tushunarsiz o'qiydi.",
+      "Har bir qatorda 1–2 eleven_v4 hissiyot tegi: [excited] [laughs] [chuckles] [sighs] [sad] [angry] [surprised] [whispers] [warmly] [sarcastic] [pause]; bobo/buvi uchun [elderly voice]. Teglar gap mazmuniga mos, ortiqcha emas.",
+      "Tabiiy so'zlashuv: 'Voy', 'Ex', 'Ha-a', 'Qo'ysang-chi', 'Uka', 'Bolam' kabi so'zlar, qisqa pauzalar (...), so'roq va undov ohangi. Rasmiy kitobiy til emas.",
+      "Bitta videoda har personaj boshqa ovozda; hikoyachi doim Bekzod.",
+      "Dvigatel har bir ovoz bo'lagini avtomatik bir xil balandlikka keltiradi (vo_lufs, standart -16 LUFS).",
+      "Yangi ovoz kerak bo'lsa (masalan bola, chet ellik): creative_list_voices dan o'zbekcha ovoz tanlab, bitta qisqa sinov qatori bilan tekshiring, so'ng cast ga yozing."
+    ]
   },
-  {
-   "time": "16:00",
-   "category": "kelajak",
-   "theme": "kelajak: 2050-yil, koinot, sun'iy intellekt, robotlar, Marsdagi o'zbek to'yi — fantastik hazil + haqiqiy ilmiy fakt"
+  "timezone": "Asia/Tashkent",
+  "slots": [
+    {
+      "time": "08:00",
+      "category": "o'tmish",
+      "theme": "o'tgan zamon: ota-bobolarimiz hayoti, eski Toshkent, SSSR davri, «bizning vaqtimizda» — hozirgi bilan hazil taqqoslash"
+    },
+    {
+      "time": "12:30",
+      "category": "hozirgi zamon",
+      "theme": "hozirgi o'zbekchilik: internet, telefon, o'yinlar, ish, pul, tirbandlik — hazil va qiziq faktlar"
+    },
+    {
+      "time": "16:00",
+      "category": "kelajak",
+      "theme": "kelajak: 2050-yil, koinot, sun'iy intellekt, robotlar, Marsdagi o'zbek to'yi — fantastik hazil + haqiqiy ilmiy fakt"
+    },
+    {
+      "time": "18:30",
+      "category": "urf-odat",
+      "theme": "urf-odatlar: to'y, mehmondorchilik, sovchilik, hayit, qo'shnichilik — mehr va hazil bilan, masxarasiz"
+    },
+    {
+      "time": "21:00",
+      "category": "xatolar",
+      "theme": "odamlarda ko'p uchraydigan xatolar: kechiktirish, telefon, pul, sog'liq, o'qish — hazil + foydali xulosa (bugungi videolardek)"
+    }
+  ],
+  "style": {
+    "image_prefix": "Semi-realistic digital painting, natural human proportions and realistic faces (NOT cartoon, NOT chibi, NOT big-eyed anime), detailed expressive features, real Uzbek people and real places, warm cinematic golden lighting, rich but natural colors, soft painterly texture like an editorial magazine illustration, slightly vintage film grain, vertical 9:16 composition, no text, no letters, no logos.",
+    "brand_logo": "brand/logo_99foiz.png",
+    "character_prefix": "Same semi-realistic painted style, realistic proportions and face (not cartoon). Single person only, full or half body, clear expressive emotion, isolated on a plain flat pure white background, no shadow, no scenery, no text.",
+    "prop_prefix": "Same semi-realistic painted style, realistic object. Single object only, isolated on a plain flat pure white background, no shadow, no text.",
+    "style_note": "2026-10-15 dan: multfilm uslubi YO'Q. Tabiiy, yarim-realistik rasm (jurnal illyustratsiyasi): haqiqiy odam proporsiyalari, tabiiy yuzlar, iliq kinematik yorug'lik. Faqat keyingi videolar uchun; eski videolar o'zgartirilmaydi. Haqiqiy siyosatchi/mashhur shaxslar rasmini chizmang."
   },
-  {
-   "time": "18:30",
-   "category": "urf-odat",
-   "theme": "urf-odatlar: to'y, mehmondorchilik, sovchilik, hayit, qo'shnichilik — mehr va hazil bilan, masxarasiz"
+  "brand": "99 FOIZ",
+  "image_fallback": "none — rasm faqat Google Flow (egasi Higgsfield'ni rad etdi). Noutbuk o'chiq bo'lsa to'xtab egasiga xabar ber.",
+  "video_rules": {
+    "duration_s": "75-80 (egasi tasdiqladi: 60 emas, 75-80 soniya yaxshi)",
+    "multi_character": "kamida 2-3 personaj gapiradi (masalan dadasi: «Ex bolam, mening vaqtimda...»), har biri boshqa ElevenLabs ovozida",
+    "vo_chunks": "ovoz bo'laklari uzunroq (1-3 to'liq gap), mayda-mayda emas",
+    "on_screen_text": "ekrandagi yozuvlar to'liq, tugallangan gap",
+    "two_frame": "har videoda faqat 1-2 sahnada 2-kadr (_b.jpg)",
+    "no_cutout": true,
+    "style_ref": "bitta qahramonning kuni: holat ko'rsatkichi (SABR/ENERGIYA %), soat, tez almashadigan sahnalar, oxirida hisob-kitob varag'i; ammo boshqa brend logotiplarini ishlatmang",
+    "look": "yorqin, ochiq rangli dizayn; qorong'i sahnalar faqat syujet talab qilsa",
+    "png_characters": "har videoda 3-6 marta PNG personaj/buyum stikeri (oq konturli) chetdan yoki pastdan chiqib keladi, gapirganda qimirlaydi (`char`/`prop` elementlari). Personajlarni oq fonda alohida generatsiya qiling: img/c_<nom>.jpg",
+    "bubbles": "dialoglarda `bubble` (gapiruvchi nomi + so'zlar ovozga qarab yonadi), muhim so'zlar rangli",
+    "stickers": "stikerlar xilma-xil: pill, label, sticky, clock, card, note, checklist, emoji-buyumlar; katta qizil `stamp`/`big` har videoda ko'pi bilan 1 marta",
+    "no_repeat_motifs": "bir xil raqam/motivni videodan-videoga takrorlamang (masalan '47' endi ishlatilmaydi)",
+    "caption": "caption qisqa: 1 ilmoq jumla + 1 savol + 6-8 heshteg; butun mavzuni yozib tashlamang",
+    "own_design": "Dizaynni har mavzu uchun agentning O'ZI o'ylab topadi. Egasining misollari (koinot, o'yin...) faqat misol, shablon emas. Reference videolarni nusxalamang.",
+    "extra_images": "mavzuga kerakli qo'shimcha rasmlarni (PNG personajlar, o'zga sayyoralik, buyumlar, fonlar) Google Flow'da o'zing yarat",
+    "backgrounds": "Butun videoga bitta umumiy fon (masalan protsedurali `space`/`blueprint`) qo'yib tashlamang. Har sahna fonini mavzuga mos qilib Flow'da yarating; protsedurali fonlar faqat ataylab tanlangan 1-2 sahnada.",
+    "emotions": "Bosh qahramon PNG stiker bo'lib 2-3 sahnada chiqadi va har xil reaksiya qiladi: bir gapda kulib turadi, keyingi gapda kayfiyati tushadi va h.k. Har bir hissiyot uchun alohida Flow rasmi (o'sha personaj namuna qilinadi): c_<nom>_<hissiyot>.jpg; `char` elementida `moods` bilan almashadi.",
+    "theme_each_video": "`theme` (shrift, palitra, pufakcha ranglari, harakat) mavzudan kelib chiqib tanlanadi va videodan-videoga takrorlanmaydi."
   },
-  {
-   "time": "21:00",
-   "category": "xatolar",
-   "theme": "odamlarda ko'p uchraydigan xatolar: kechiktirish, telefon, pul, sog'liq, o'qish — hazil + foydali xulosa (bugungi videolardek)"
-  }
- ],
- "style": {
-  "image_prefix": "Semi-realistic digital painting, natural human proportions and realistic faces (NOT cartoon, NOT chibi, NOT big-eyed anime), detailed expressive features, real Uzbek people and real places, warm cinematic golden lighting, rich but natural colors, soft painterly texture like an editorial magazine illustration, slightly vintage film grain, vertical 9:16 composition, no text, no letters, no logos.",
-  "brand_logo": "brand/logo_99foiz.png",
-  "character_prefix": "Same semi-realistic painted style, realistic proportions and face (not cartoon). Single person only, full or half body, clear expressive emotion, isolated on a plain flat pure white background, no shadow, no scenery, no text.",
-  "prop_prefix": "Same semi-realistic painted style, realistic object. Single object only, isolated on a plain flat pure white background, no shadow, no text.",
-  "style_note": "2026-10-15 dan: multfilm uslubi YO'Q. Tabiiy, yarim-realistik rasm (jurnal illyustratsiyasi): haqiqiy odam proporsiyalari, tabiiy yuzlar, iliq kinematik yorug'lik. Faqat keyingi videolar uchun; eski videolar o'zgartirilmaydi. Haqiqiy siyosatchi/mashhur shaxslar rasmini chizmang."
- },
- "brand": "99 FOIZ",
- "image_fallback": "none — rasm faqat Google Flow (egasi Higgsfield'ni rad etdi). Noutbuk o'chiq bo'lsa to'xtab egasiga xabar ber.",
- "video_rules": {
-  "duration_s": "75-80 (egasi tasdiqladi: 60 emas, 75-80 soniya yaxshi)",
-  "multi_character": "kamida 2-3 personaj gapiradi (masalan dadasi: «Ex bolam, mening vaqtimda...»), har biri boshqa ElevenLabs ovozida",
-  "vo_chunks": "ovoz bo'laklari uzunroq (1-3 to'liq gap), mayda-mayda emas",
-  "on_screen_text": "ekrandagi yozuvlar to'liq, tugallangan gap",
-  "two_frame": "har videoda faqat 1-2 sahnada 2-kadr (_b.jpg)",
-  "no_cutout": true,
-  "style_ref": "bitta qahramonning kuni: holat ko'rsatkichi (SABR/ENERGIYA %), soat, tez almashadigan sahnalar, oxirida hisob-kitob varag'i; ammo boshqa brend logotiplarini ishlatmang",
-  "look": "yorqin, ochiq rangli dizayn; qorong'i sahnalar faqat syujet talab qilsa",
-  "png_characters": "har videoda 3-6 marta PNG personaj/buyum stikeri (oq konturli) chetdan yoki pastdan chiqib keladi, gapirganda qimirlaydi (`char`/`prop` elementlari). Personajlarni oq fonda alohida generatsiya qiling: img/c_<nom>.jpg",
-  "bubbles": "dialoglarda `bubble` (gapiruvchi nomi + so'zlar ovozga qarab yonadi), muhim so'zlar rangli",
-  "stickers": "stikerlar xilma-xil: pill, label, sticky, clock, card, note, checklist, emoji-buyumlar; katta qizil `stamp`/`big` har videoda ko'pi bilan 1 marta",
-  "no_repeat_motifs": "bir xil raqam/motivni videodan-videoga takrorlamang (masalan '47' endi ishlatilmaydi)",
-  "caption": "caption qisqa: 1 ilmoq jumla + 1 savol + 6-8 heshteg; butun mavzuni yozib tashlamang",
-  "own_design": "Dizaynni har mavzu uchun agentning O'ZI o'ylab topadi. Egasining misollari (koinot, o'yin...) faqat misol, shablon emas. Reference videolarni nusxalamang.",
-  "extra_images": "mavzuga kerakli qo'shimcha rasmlarni (PNG personajlar, o'zga sayyoralik, buyumlar, fonlar) Google Flow'da o'zing yarat",
-  "backgrounds": "Butun videoga bitta umumiy fon (masalan protsedurali `space`/`blueprint`) qo'yib tashlamang. Har sahna fonini mavzuga mos qilib Flow'da yarating; protsedurali fonlar faqat ataylab tanlangan 1-2 sahnada.",
-  "emotions": "Bosh qahramon PNG stiker bo'lib 2-3 sahnada chiqadi va har xil reaksiya qiladi: bir gapda kulib turadi, keyingi gapda kayfiyati tushadi va h.k. Har bir hissiyot uchun alohida Flow rasmi (o'sha personaj namuna qilinadi): c_<nom>_<hissiyot>.jpg; `char` elementida `moods` bilan almashadi.",
-  "theme_each_video": "`theme` (shrift, palitra, pufakcha ranglari, harakat) mavzudan kelib chiqib tanlanadi va videodan-videoga takrorlanmaydi."
- },
- "no_trial": "Trial reel QILINMAYDI. Hamma video, 16:00 dagisi ham, oddiy Reels: schedulingType automatic, shouldShareToFeed true (profilda ko'rinadi)."
+  "no_trial": "Trial reel QILINMAYDI. Hamma video, 16:00 dagisi ham, oddiy Reels: schedulingType automatic, shouldShareToFeed true (profilda ko'rinadi)."
 }

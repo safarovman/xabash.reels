@@ -203,7 +203,7 @@
   {
    "speaker": "bekzod",
    "text": "Yetti kun o'tdi. Keyin bir oy. Keyin uch oy.",
-   "tts": "Yetti kun o'tdi. Keyin bir oy. Keyin uch oy.",
+   "tts": "[sighs] Yetti kun o'tdi. Keyin bir oy. Keyin uch oy.",
    "mood": "mystery",
    "img": "03.jpg",
    "elements": [
@@ -460,7 +460,7 @@
   {
    "speaker": "bekzod",
    "text": "Nigora yolg'iz emas. Ikki ming yigirma ikkinchi yilda Amerikada so'rov o'tkazildi: odamlar obunalarga oyiga sakson olti dollar to'layman deb o'ylagan. Hisoblaganda esa — ikki yuz o'n to'qqiz dollar chiqqan!",
-   "tts": "Nigora yolg'iz emas. Ikki ming yigirma ikkinchi yilda Amerikada so'rov o'tkazildi: odamlar obunalarga oyiga sakson olti dollar to'layman deb o'ylagan. Hisoblaganda esa — ikki yuz o'n to'qqiz dollar chiqqan!",
+   "tts": "[surprised] Nigora yolg'iz emas. Ikki ming yigirma ikkinchi yilda Amerikada so'rov o'tkazildi: odamlar obunalarga oyiga sakson olti dollar to'layman deb o'ylagan. Hisoblaganda esa — ikki yuz o'n to'qqiz dollar chiqqan!",
    "mood": "groove",
    "img": "07.jpg",
    "elements": [
@@ -534,7 +534,7 @@
   {
    "speaker": "bekzod",
    "text": "Ya'ni har oy bir yuz o'ttiz uch dollar o'zlari bilmagan holda ketib turgan.",
-   "tts": "Ya'ni har oy bir yuz o'ttiz uch dollar o'zlari bilmagan holda ketib turgan.",
+   "tts": "[sarcastic] Ya'ni har oy bir yuz o'ttiz uch dollar o'zlari bilmagan holda ketib turgan.",
    "mood": "tense",
    "img": "08.jpg",
    "elements": [
@@ -658,7 +658,7 @@
   {
    "speaker": "bekzod",
    "text": "O'sha kecha Nigora obunalar ro'yxatini ochdi va o'n bitta obuna topdi. Ulardan biri — o'zi unutgan «buxgalteriya kursi».",
-   "tts": "O'sha kecha Nigora obunalar ro'yxatini ochdi va o'n bitta obuna topdi. Ulardan biri — o'zi unutgan «buxgalteriya kursi».",
+   "tts": "[whispers] O'sha kecha Nigora obunalar ro'yxatini ochdi va o'n bitta obuna topdi. Ulardan biri — o'zi unutgan «buxgalteriya kursi».",
    "mood": "mystery",
    "img": "10.jpg",
    "elements": [
@@ -735,7 +735,7 @@
   {
    "speaker": "bekzod",
    "text": "Siz oxirgi marta obunalaringizni qachon tekshirgansiz? Hozir oching va izohda yozing: nechta chiqdi?",
-   "tts": "Siz oxirgi marta obunalaringizni qachon tekshirgansiz? Hozir oching va izohda yozing: nechta chiqdi?",
+   "tts": "[warmly] Siz oxirgi marta obunalaringizni qachon tekshirgansiz? Hozir oching va izohda yozing: nechta chiqdi?",
    "mood": "finale",
    "img": "11.jpg",
    "elements": [

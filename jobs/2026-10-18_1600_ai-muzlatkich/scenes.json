@@ -331,7 +331,7 @@
   {
    "speaker": "bekzod",
    "text": "Bu muzlatkich hamma narsani ko'radi: ichidagi kamera har bir mahsulotni taniydi, kaloriyani sanaydi va siz haqingizda xulosa chiqaradi.",
-   "tts": "Bu muzlatkich hamma narsani ko'radi: ichidagi kamera har bir mahsulotni taniydi, kaloriyani sanaydi va siz haqingizda xulosa chiqaradi.",
+   "tts": "[mysterious] Bu muzlatkich hamma narsani ko'radi: ichidagi kamera har bir mahsulotni taniydi, kaloriyani sanaydi va siz haqingizda xulosa chiqaradi.",
    "mood": "mystery",
    "img": "05.jpg",
    "elements": [
@@ -376,7 +376,7 @@
   {
    "speaker": "bekzod",
    "text": "Fantastika deysizmi? Ikki mingyinchi yildayoq LG kompaniyasi internetga ulangan birinchi muzlatkichni chiqargan. Uning ekrani va kamerasi bor edi.",
-   "tts": "Fantastika deysizmi? Ikki mingyinchi yildayoq LG kompaniyasi internetga ulangan birinchi muzlatkichni chiqargan. Uning ekrani va kamerasi bor edi.",
+   "tts": "[chuckles] Fantastika deysizmi? Ikki mingyinchi yildayoq LG kompaniyasi internetga ulangan birinchi muzlatkichni chiqargan. Uning ekrani va kamerasi bor edi.",
    "mood": "warm",
    "img": "06.jpg",
    "elements": [
@@ -439,7 +439,7 @@
   {
    "speaker": "bekzod",
    "text": "Ikki ming yigirma to'rtinchi yilda esa Samsung muzlatkichi o'ttiz uch xil mahsulotni ko'rib taniy olardi. Yigirma yildan keyin u sizni ham taniydi.",
-   "tts": "Ikki ming yigirma to'rtinchi yilda esa Samsung muzlatkichi o'ttiz uch xil mahsulotni ko'rib taniy olardi. Yigirma yildan keyin u sizni ham taniydi.",
+   "tts": "[excited] Ikki ming yigirma to'rtinchi yilda esa Samsung muzlatkichi o'ttiz uch xil mahsulotni ko'rib taniy olardi. Yigirma yildan keyin u sizni ham taniydi.",
    "mood": "groove",
    "img": "07.jpg",
    "elements": [
@@ -728,7 +728,7 @@
   {
    "speaker": "bekzod",
    "text": "Sizga shunday aqlli muzlatkich kerakmi? Bir — kerak, ozaman. Ikki — yo'q, kolbasa meniki! Izohda yozing.",
-   "tts": "Sizga shunday aqlli muzlatkich kerakmi? Bir — kerak, ozaman. Ikki — yo'q, kolbasa meniki! Izohda yozing.",
+   "tts": "[playful] Sizga shunday aqlli muzlatkich kerakmi? Bir — kerak, ozaman. Ikki — yo'q, kolbasa meniki! Izohda yozing.",
    "mood": "finale",
    "img": "12.jpg",
    "elements": [

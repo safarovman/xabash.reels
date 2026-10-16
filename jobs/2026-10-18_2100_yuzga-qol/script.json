@@ -24,7 +24,7 @@
   {
    "n": 2,
    "speaker": "bekzod",
-   "tts": "Bu — Jasur. Bank kassiri. Bir kunda minglab kupyura sanaydi. Va har sanagandan keyin... burnini qashiydi.",
+   "tts": "[chuckles] Bu — Jasur. Bank kassiri. Bir kunda minglab kupyura sanaydi. Va har sanagandan keyin... burnini qashiydi.",
    "text": "Bu — Jasur. Bank kassiri. Bir kunda minglab kupyura sanaydi. Va har sanagandan keyin... burnini qashiydi.",
    "frames": "bank teller window, Jasur counting cash fast; then scratching nose; close-up money-to-nose"
   },
@@ -45,21 +45,21 @@
   {
    "n": 5,
    "speaker": "bekzod",
-   "tts": "Zarina sanay boshladi. Bir soatda — yigirma uch marta.",
+   "tts": "[playful] Zarina sanay boshladi. Bir soatda — yigirma uch marta.",
    "text": "Zarina sanay boshladi. Bir soatda — yigirma uch marta.",
    "frames": "Zarina with notepad drawing tally marks; Jasur touching forehead, ear, nose in sequence"
   },
   {
    "n": 6,
    "speaker": "bekzod",
-   "tts": "Bu faqat Jasurning aybi emas. Ikki ming o'n beshinchi yili Avstraliyada yigirma olti nafar tibbiyot talabasi videoga olingan. Ular yuziga soatiga o'rtacha yigirma uch marta qo'l tekkizgan.",
+   "tts": "[curious] Bu faqat Jasurning aybi emas. Ikki ming o'n beshinchi yili Avstraliyada yigirma olti nafar tibbiyot talabasi videoga olingan. Ular yuziga soatiga o'rtacha yigirma uch marta qo'l tekkizgan.",
    "text": "Bu faqat Jasurning aybi emas. Ikki ming o'n beshinchi yili Avstraliyada yigirma olti nafar tibbiyot talabasi videoga olingan. Ular yuziga soatiga o'rtacha yigirma uch marta qo'l tekkizgan.",
    "frames": "university lecture hall with medical students, video camera recording; students touching faces unaware"
   },
   {
    "n": 7,
    "speaker": "bekzod",
-   "tts": "Eng qizig'i: bu tegishlarning qariyb yarmi og'iz, burun va ko'zga to'g'ri kelgan. Mikroblar uchun eng qulay eshiklar.",
+   "tts": "[surprised] Eng qizig'i: bu tegishlarning qariyb yarmi og'iz, burun va ko'zga to'g'ri kelgan. Mikroblar uchun eng qulay eshiklar.",
    "text": "Eng qizig'i: bu tegishlarning qariyb yarmi og'iz, burun va ko'zga to'g'ri kelgan. Mikroblar uchun eng qulay eshiklar.",
    "frames": "stylized magnified microbes (cute but realistic) marching from fingertip toward nose like tiny travelers; face diagram"
   },
@@ -94,7 +94,7 @@
   {
    "n": 12,
    "speaker": "bekzod",
-   "tts": "Siz-chi? Shu videoni ko'rayotib necha marta yuzingizga tegdingiz? Rostini izohda yozing!",
+   "tts": "[playful] Siz-chi? Shu videoni ko'rayotib necha marta yuzingizga tegdingiz? Rostini izohda yozing!",
    "text": "Siz-chi? Shu videoni ko'rayotib necha marta yuzingizga tegdingiz? Rostini izohda yozing!",
    "frames": "Jasur and Zarina at teller window laughing; final"
   }

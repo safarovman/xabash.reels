@@ -203,7 +203,7 @@
   {
    "speaker": "bekzod",
    "text": "Pultning vazifalari: kanalni almashtirish, ovozni balandlatish, antennani ushlab turish va dadasi uxlab qolsa, televizorni o'chirish.",
-   "tts": "Pultning vazifalari: kanalni almashtirish, ovozni balandlatish, antennani ushlab turish va dadasi uxlab qolsa, televizorni o'chirish.",
+   "tts": "[playful] Pultning vazifalari: kanalni almashtirish, ovozni balandlatish, antennani ushlab turish va dadasi uxlab qolsa, televizorni o'chirish.",
    "mood": "groove",
    "img": "03.jpg",
    "elements": [
@@ -334,8 +334,8 @@
   },
   {
    "speaker": "dilnoza",
-   "text": "Dada, Botir ikki soatdan beri antenna ushlab turibdi! Qo'li uxlab qoldi-ku!",
-   "tts": "[laughs] Dada, Botir ikki soatdan beri antenna ushlab turibdi! Qo'li uxlab qoldi-ku!",
+   "text": "Dadajon, Botir ikki soatdan beri antenna ushlab turibdi-ku! Qo'li uxlab qoldi!",
+   "tts": "[laughs] Dadajon, Botir ikki soatdan beri antenna ushlab turibdi-ku! Qo'li uxlab qoldi!",
    "mood": "sad",
    "img": "05.jpg",
    "elements": [
@@ -411,7 +411,7 @@
   {
    "speaker": "bekzod",
    "text": "Vaholanki, dunyodagi birinchi pultlardan biri ming to'qqiz yuz elliginchi yilda chiqqan. Zenith kompaniyasining «Lazy Bones» pulti — tarjimasi «Dangasa suyaklar». U televizorga sim bilan ulangan edi.",
-   "tts": "Vaholanki, dunyodagi birinchi pultlardan biri ming to'qqiz yuz elliginchi yilda chiqqan. Zenith kompaniyasining «Lazy Bones» pulti — tarjimasi «Dangasa suyaklar». U televizorga sim bilan ulangan edi.",
+   "tts": "[curious] Vaholanki, dunyodagi birinchi pultlardan biri ming to'qqiz yuz elliginchi yilda chiqqan. Zenith kompaniyasining «Lazy Bones» pulti — tarjimasi «Dangasa suyaklar». U televizorga sim bilan ulangan edi.",
    "mood": "mystery",
    "img": "06.jpg",
    "elements": [
@@ -495,7 +495,7 @@
   {
    "speaker": "bekzod",
    "text": "Olti yildan keyin muhandis Robert Adler simsiz pult yasadi. U ultratovush bilan ishlardi va tugma bosilganda «chiq» etib ovoz chiqarardi. Shuning uchun uni «klikker» deb atashgan.",
-   "tts": "Olti yildan keyin muhandis Robert Adler simsiz pult yasadi. U ultratovush bilan ishlardi va tugma bosilganda «chiq» etib ovoz chiqarardi. Shuning uchun uni «klikker» deb atashgan.",
+   "tts": "[excited] Olti yildan keyin muhandis Robert Adler simsiz pult yasadi. U ultratovush bilan ishlardi va tugma bosilganda «chiq» etib ovoz chiqarardi. Shuning uchun uni «klikker» deb atashgan.",
    "mood": "groove",
    "img": "07.jpg",
    "elements": [
@@ -625,7 +625,7 @@
   {
    "speaker": "bekzod",
    "text": "Yillar o'tdi. Botir katta bo'ldi. Endi uning ham o'g'li bor.",
-   "tts": "Yillar o'tdi. Botir katta bo'ldi. Endi uning ham o'g'li bor.",
+   "tts": "[warmly] Yillar o'tdi. Botir katta bo'ldi. Endi uning ham o'g'li bor.",
    "mood": "warm",
    "img": "09.jpg",
    "elements": [
@@ -746,7 +746,7 @@
   {
    "speaker": "bekzod",
    "text": "Siz ham uyingizning pulti bo'lganmisiz? Bir — ha, men edim. Ikki — opam edi. Uch — bizda haqiqiy pult bor edi. Izohda yozing!",
-   "tts": "Siz ham uyingizning pulti bo'lganmisiz? Bir — ha, men edim. Ikki — opam edi. Uch — bizda haqiqiy pult bor edi. Izohda yozing!",
+   "tts": "[excited] Siz ham uyingizning pulti bo'lganmisiz? Bir — ha, men edim. Ikki — opam edi. Uch — bizda haqiqiy pult bor edi. Izohda yozing!",
    "mood": "finale",
    "img": "11.jpg",
    "elements": [

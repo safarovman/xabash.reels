@@ -38,7 +38,7 @@
   {
    "n": 4,
    "speaker": "bekzod",
-   "tts": "Sherzod kulib qo'ydi. Lekin ertasi kuni tongda buvisi uni mahalladagi tandirxonaga olib bordi.",
+   "tts": "[chuckles] Sherzod kulib qo'ydi. Lekin ertasi kuni tongda buvisi uni mahalladagi tandirxonaga olib bordi.",
    "text": "Sherzod kulib qo'ydi. Lekin ertasi kuni tongda buvisi uni mahalladagi tandirxonaga olib bordi.",
    "frames": "dawn street of mahalla, grandma leading sleepy grandson; tandirxona with smoke"
   },
@@ -59,21 +59,21 @@
   {
    "n": 7,
    "speaker": "bekzod",
-   "tts": "Samarqand noni haqida bir rivoyat bor. Buxoro amiri samarqandlik novvoyni saroyiga chaqirtiribdi. Unni ham, suvni ham Samarqanddan olib kelibdi. Lekin non baribir o'shanday chiqmabdi.",
+   "tts": "[warmly] Samarqand noni haqida bir rivoyat bor. Buxoro amiri samarqandlik novvoyni saroyiga chaqirtiribdi. Unni ham, suvni ham Samarqanddan olib kelibdi. Lekin non baribir o'shanday chiqmabdi.",
    "text": "Samarqand noni haqida bir rivoyat bor. Buxoro amiri samarqandlik novvoyni saroyiga chaqirtiribdi. Unni ham, suvni ham Samarqanddan olib kelibdi. Lekin non baribir o'shanday chiqmabdi.",
    "frames": "historic Bukhara palace kitchen, emir in robes tasting bread disappointed; baker bowing; sacks of flour and water jugs on camels"
   },
   {
    "n": 8,
    "speaker": "bekzod",
-   "tts": "Shunda novvoy aytibdi: «Amirim, Samarqandning havosini olib kelolmadim-da».",
+   "tts": "[whispers] Shunda novvoy aytibdi: «Amirim, Samarqandning havosini olib kelolmadim-da».",
    "text": "Shunda novvoy aytibdi: «Amirim, Samarqandning havosini olib kelolmadim-da».",
    "frames": "baker gesturing to the sky over Samarkand domes, golden dusk air"
   },
   {
    "n": 9,
    "speaker": "bekzod",
-   "tts": "Bu — rivoyat. Raqam esa haqiqiy: ikki ming yigirma ikkinchi yilda yurtimizda har kuni o'n besh mingtacha Samarqand noni yopilgan.",
+   "tts": "[warmly] Bu — rivoyat. Raqam esa haqiqiy: ikki ming yigirma ikkinchi yilda yurtimizda har kuni o'n besh mingtacha Samarqand noni yopilgan.",
    "text": "Bu — rivoyat. Raqam esa haqiqiy: ikki ming yigirma ikkinchi yilda yurtimizda har kuni o'n besh mingtacha Samarqand noni yopilgan.",
    "frames": "rows of hundreds of Samarkand breads cooling on racks in bakery; stacks on cart"
   },
@@ -87,14 +87,14 @@
   {
    "n": 11,
    "speaker": "bekzod",
-   "tts": "O'sha kuni Sherzod uyga o'zi yopgan nonni olib keldi. Biroz qiyshiq edi. Lekin dasturxonda to'ppa-to'g'ri turardi.",
+   "tts": "[warmly] O'sha kuni Sherzod uyga o'zi yopgan nonni olib keldi. Biroz qiyshiq edi. Lekin dasturxonda to'ppa-to'g'ri turardi.",
    "text": "O'sha kuni Sherzod uyga o'zi yopgan nonni olib keldi. Biroz qiyshiq edi. Lekin dasturxonda to'ppa-to'g'ri turardi.",
    "frames": "Sherzod proudly placing slightly lopsided bread face up on dasturxon, grandma beaming"
   },
   {
    "n": 12,
    "speaker": "bekzod",
-   "tts": "Sizning uyingizda non bilan bog'liq qanday odat bor? Izohda yozing.",
+   "tts": "[warmly] Sizning uyingizda non bilan bog'liq qanday odat bor? Izohda yozing.",
    "text": "Sizning uyingizda non bilan bog'liq qanday odat bor? Izohda yozing.",
    "frames": "dasturxon with bread, tea, warm evening; final"
   }

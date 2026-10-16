@@ -31,7 +31,7 @@
   {
    "n": 3,
    "speaker": "bekzod",
-   "tts": "Pultning vazifalari: kanalni almashtirish, ovozni balandlatish, antennani ushlab turish va dadasi uxlab qolsa, televizorni o'chirish.",
+   "tts": "[playful] Pultning vazifalari: kanalni almashtirish, ovozni balandlatish, antennani ushlab turish va dadasi uxlab qolsa, televizorni o'chirish.",
    "text": "Pultning vazifalari: kanalni almashtirish, ovozni balandlatish, antennani ushlab turish va dadasi uxlab qolsa, televizorni o'chirish.",
    "frames": "boy turning volume knob; dad asleep snoring on sofa with TV glow; boy tiptoeing to switch off TV"
   },
@@ -45,21 +45,21 @@
   {
    "n": 5,
    "speaker": "dilnoza",
-   "tts": "[laughs] Dada, Botir ikki soatdan beri antenna ushlab turibdi! Qo'li uxlab qoldi-ku!",
-   "text": "Dada, Botir ikki soatdan beri antenna ushlab turibdi! Qo'li uxlab qoldi-ku!",
+   "tts": "[laughs] Dadajon, Botir ikki soatdan beri antenna ushlab turibdi-ku! Qo'li uxlab qoldi!",
+   "text": "Dadajon, Botir ikki soatdan beri antenna ushlab turibdi-ku! Qo'li uxlab qoldi!",
    "frames": "teen sister Maftuna laughing in doorway; boy frozen with numb arm, sweat drop; clock on wall"
   },
   {
    "n": 6,
    "speaker": "bekzod",
-   "tts": "Vaholanki, dunyodagi birinchi pultlardan biri ming to'qqiz yuz elliginchi yilda chiqqan. Zenith kompaniyasining «Lazy Bones» pulti — tarjimasi «Dangasa suyaklar». U televizorga sim bilan ulangan edi.",
+   "tts": "[curious] Vaholanki, dunyodagi birinchi pultlardan biri ming to'qqiz yuz elliginchi yilda chiqqan. Zenith kompaniyasining «Lazy Bones» pulti — tarjimasi «Dangasa suyaklar». U televizorga sim bilan ulangan edi.",
    "text": "Vaholanki, dunyodagi birinchi pultlardan biri ming to'qqiz yuz elliginchi yilda chiqqan. Zenith kompaniyasining «Lazy Bones» pulti — tarjimasi «Dangasa suyaklar». U televizorga sim bilan ulangan edi.",
    "frames": "1950s American living room, man in armchair holding a wired remote with long cable to wooden TV; close-up of cable tangled around feet"
   },
   {
    "n": 7,
    "speaker": "bekzod",
-   "tts": "Olti yildan keyin muhandis Robert Adler simsiz pult yasadi. U ultratovush bilan ishlardi va tugma bosilganda «chiq» etib ovoz chiqarardi. Shuning uchun uni «klikker» deb atashgan.",
+   "tts": "[excited] Olti yildan keyin muhandis Robert Adler simsiz pult yasadi. U ultratovush bilan ishlardi va tugma bosilganda «chiq» etib ovoz chiqarardi. Shuning uchun uni «klikker» deb atashgan.",
    "text": "Olti yildan keyin muhandis Robert Adler simsiz pult yasadi. U ultratovush bilan ishlardi va tugma bosilganda «chiq» etib ovoz chiqarardi. Shuning uchun uni «klikker» deb atashgan.",
    "frames": "1950s engineer workshop with early wireless remote prototype; close-up of finger pressing big button with sound waves; housewife amazed, TV changing channel"
   },
@@ -73,7 +73,7 @@
   {
    "n": 9,
    "speaker": "bekzod",
-   "tts": "Yillar o'tdi. Botir katta bo'ldi. Endi uning ham o'g'li bor.",
+   "tts": "[warmly] Yillar o'tdi. Botir katta bo'ldi. Endi uning ham o'g'li bor.",
    "text": "Yillar o'tdi. Botir katta bo'ldi. Endi uning ham o'g'li bor.",
    "frames": "time transition: same living room modernized, flat TV; adult Botir (42) on sofa, his 10yo son with a smartphone"
   },
@@ -87,7 +87,7 @@
   {
    "n": 11,
    "speaker": "bekzod",
-   "tts": "Siz ham uyingizning pulti bo'lganmisiz? Bir — ha, men edim. Ikki — opam edi. Uch — bizda haqiqiy pult bor edi. Izohda yozing!",
+   "tts": "[excited] Siz ham uyingizning pulti bo'lganmisiz? Bir — ha, men edim. Ikki — opam edi. Uch — bizda haqiqiy pult bor edi. Izohda yozing!",
    "text": "Siz ham uyingizning pulti bo'lganmisiz? Bir — ha, men edim. Ikki — opam edi. Uch — bizda haqiqiy pult bor edi. Izohda yozing!",
    "frames": "old rabbit-ear antenna and chunky knob TV on a shelf, warm light; final"
   }

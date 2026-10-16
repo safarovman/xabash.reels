@@ -121,7 +121,7 @@
   {
    "speaker": "bekzod",
    "text": "Bu — Jasur. Bank kassiri. Bir kunda minglab kupyura sanaydi. Va har sanagandan keyin... burnini qashiydi.",
-   "tts": "Bu — Jasur. Bank kassiri. Bir kunda minglab kupyura sanaydi. Va har sanagandan keyin... burnini qashiydi.",
+   "tts": "[chuckles] Bu — Jasur. Bank kassiri. Bir kunda minglab kupyura sanaydi. Va har sanagandan keyin... burnini qashiydi.",
    "mood": "hero",
    "img": "02.jpg",
    "elements": [
@@ -307,7 +307,7 @@
   {
    "speaker": "bekzod",
    "text": "Zarina sanay boshladi. Bir soatda — yigirma uch marta.",
-   "tts": "Zarina sanay boshladi. Bir soatda — yigirma uch marta.",
+   "tts": "[playful] Zarina sanay boshladi. Bir soatda — yigirma uch marta.",
    "mood": "mystery",
    "img": "05.jpg",
    "elements": [
@@ -391,7 +391,7 @@
   {
    "speaker": "bekzod",
    "text": "Bu faqat Jasurning aybi emas. Ikki ming o'n beshinchi yili Avstraliyada yigirma olti nafar tibbiyot talabasi videoga olingan. Ular yuziga soatiga o'rtacha yigirma uch marta qo'l tekkizgan.",
-   "tts": "Bu faqat Jasurning aybi emas. Ikki ming o'n beshinchi yili Avstraliyada yigirma olti nafar tibbiyot talabasi videoga olingan. Ular yuziga soatiga o'rtacha yigirma uch marta qo'l tekkizgan.",
+   "tts": "[curious] Bu faqat Jasurning aybi emas. Ikki ming o'n beshinchi yili Avstraliyada yigirma olti nafar tibbiyot talabasi videoga olingan. Ular yuziga soatiga o'rtacha yigirma uch marta qo'l tekkizgan.",
    "mood": "groove",
    "img": "06.jpg",
    "elements": [
@@ -452,7 +452,7 @@
   {
    "speaker": "bekzod",
    "text": "Eng qizig'i: bu tegishlarning qariyb yarmi og'iz, burun va ko'zga to'g'ri kelgan. Mikroblar uchun eng qulay eshiklar.",
-   "tts": "Eng qizig'i: bu tegishlarning qariyb yarmi og'iz, burun va ko'zga to'g'ri kelgan. Mikroblar uchun eng qulay eshiklar.",
+   "tts": "[surprised] Eng qizig'i: bu tegishlarning qariyb yarmi og'iz, burun va ko'zga to'g'ri kelgan. Mikroblar uchun eng qulay eshiklar.",
    "mood": "tense",
    "img": "07.jpg",
    "elements": [
@@ -771,7 +771,7 @@
   {
    "speaker": "bekzod",
    "text": "Siz-chi? Shu videoni ko'rayotib necha marta yuzingizga tegdingiz? Rostini izohda yozing!",
-   "tts": "Siz-chi? Shu videoni ko'rayotib necha marta yuzingizga tegdingiz? Rostini izohda yozing!",
+   "tts": "[playful] Siz-chi? Shu videoni ko'rayotib necha marta yuzingizga tegdingiz? Rostini izohda yozing!",
    "mood": "finale",
    "img": "12.jpg",
    "elements": [

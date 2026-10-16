@@ -30,7 +30,7 @@
   {
    "n": 3,
    "speaker": "bekzod",
-   "tts": "Yetti kun o'tdi. Keyin bir oy. Keyin uch oy.",
+   "tts": "[sighs] Yetti kun o'tdi. Keyin bir oy. Keyin uch oy.",
    "text": "Yetti kun o'tdi. Keyin bir oy. Keyin uch oy.",
    "frames": "calendar pages flying; Nigora asleep with phone; bank card in a wallet being charged, coins flying away"
   },
@@ -58,14 +58,14 @@
   {
    "n": 7,
    "speaker": "bekzod",
-   "tts": "Nigora yolg'iz emas. Ikki ming yigirma ikkinchi yilda Amerikada so'rov o'tkazildi: odamlar obunalarga oyiga sakson olti dollar to'layman deb o'ylagan. Hisoblaganda esa — ikki yuz o'n to'qqiz dollar chiqqan!",
+   "tts": "[surprised] Nigora yolg'iz emas. Ikki ming yigirma ikkinchi yilda Amerikada so'rov o'tkazildi: odamlar obunalarga oyiga sakson olti dollar to'layman deb o'ylagan. Hisoblaganda esa — ikki yuz o'n to'qqiz dollar chiqqan!",
    "text": "Nigora yolg'iz emas. Ikki ming yigirma ikkinchi yilda Amerikada so'rov o'tkazildi: odamlar obunalarga oyiga sakson olti dollar to'layman deb o'ylagan. Hisoblaganda esa — ikki yuz o'n to'qqiz dollar chiqqan!",
    "frames": "infographic scene; people with calculators shocked; receipts long like a scroll"
   },
   {
    "n": 8,
    "speaker": "bekzod",
-   "tts": "Ya'ni har oy bir yuz o'ttiz uch dollar o'zlari bilmagan holda ketib turgan.",
+   "tts": "[sarcastic] Ya'ni har oy bir yuz o'ttiz uch dollar o'zlari bilmagan holda ketib turgan.",
    "text": "Ya'ni har oy bir yuz o'ttiz uch dollar o'zlari bilmagan holda ketib turgan.",
    "frames": "money leaking from a phone like a dripping tap; small coins drain"
   },
@@ -79,14 +79,14 @@
   {
    "n": 10,
    "speaker": "bekzod",
-   "tts": "O'sha kecha Nigora obunalar ro'yxatini ochdi va o'n bitta obuna topdi. Ulardan biri — o'zi unutgan «buxgalteriya kursi».",
+   "tts": "[whispers] O'sha kecha Nigora obunalar ro'yxatini ochdi va o'n bitta obuna topdi. Ulardan biri — o'zi unutgan «buxgalteriya kursi».",
    "text": "O'sha kecha Nigora obunalar ro'yxatini ochdi va o'n bitta obuna topdi. Ulardan biri — o'zi unutgan «buxgalteriya kursi».",
    "frames": "Nigora at night scrolling long list on phone, shocked face lit by screen; close-up stunned eyes"
   },
   {
    "n": 11,
    "speaker": "bekzod",
-   "tts": "Siz oxirgi marta obunalaringizni qachon tekshirgansiz? Hozir oching va izohda yozing: nechta chiqdi?",
+   "tts": "[warmly] Siz oxirgi marta obunalaringizni qachon tekshirgansiz? Hozir oching va izohda yozing: nechta chiqdi?",
    "text": "Siz oxirgi marta obunalaringizni qachon tekshirgansiz? Hozir oching va izohda yozing: nechta chiqdi?",
    "frames": "Nigora happily cutting a paper chain of cards with scissors; final"
   }

@@ -270,7 +270,7 @@
   {
    "speaker": "bekzod",
    "text": "Sherzod kulib qo'ydi. Lekin ertasi kuni tongda buvisi uni mahalladagi tandirxonaga olib bordi.",
-   "tts": "Sherzod kulib qo'ydi. Lekin ertasi kuni tongda buvisi uni mahalladagi tandirxonaga olib bordi.",
+   "tts": "[chuckles] Sherzod kulib qo'ydi. Lekin ertasi kuni tongda buvisi uni mahalladagi tandirxonaga olib bordi.",
    "mood": "warm",
    "img": "04.jpg",
    "elements": [
@@ -457,7 +457,7 @@
   {
    "speaker": "bekzod",
    "text": "Samarqand noni haqida bir rivoyat bor. Buxoro amiri samarqandlik novvoyni saroyiga chaqirtiribdi. Unni ham, suvni ham Samarqanddan olib kelibdi. Lekin non baribir o'shanday chiqmabdi.",
-   "tts": "Samarqand noni haqida bir rivoyat bor. Buxoro amiri samarqandlik novvoyni saroyiga chaqirtiribdi. Unni ham, suvni ham Samarqanddan olib kelibdi. Lekin non baribir o'shanday chiqmabdi.",
+   "tts": "[warmly] Samarqand noni haqida bir rivoyat bor. Buxoro amiri samarqandlik novvoyni saroyiga chaqirtiribdi. Unni ham, suvni ham Samarqanddan olib kelibdi. Lekin non baribir o'shanday chiqmabdi.",
    "mood": "mystery",
    "img": "07.jpg",
    "elements": [
@@ -511,7 +511,7 @@
   {
    "speaker": "bekzod",
    "text": "Shunda novvoy aytibdi: «Amirim, Samarqandning havosini olib kelolmadim-da».",
-   "tts": "Shunda novvoy aytibdi: «Amirim, Samarqandning havosini olib kelolmadim-da».",
+   "tts": "[whispers] Shunda novvoy aytibdi: «Amirim, Samarqandning havosini olib kelolmadim-da».",
    "mood": "warm",
    "img": "08.jpg",
    "elements": [
@@ -556,7 +556,7 @@
   {
    "speaker": "bekzod",
    "text": "Bu — rivoyat. Raqam esa haqiqiy: ikki ming yigirma ikkinchi yilda yurtimizda har kuni o'n besh mingtacha Samarqand noni yopilgan.",
-   "tts": "Bu — rivoyat. Raqam esa haqiqiy: ikki ming yigirma ikkinchi yilda yurtimizda har kuni o'n besh mingtacha Samarqand noni yopilgan.",
+   "tts": "[warmly] Bu — rivoyat. Raqam esa haqiqiy: ikki ming yigirma ikkinchi yilda yurtimizda har kuni o'n besh mingtacha Samarqand noni yopilgan.",
    "mood": "groove",
    "img": "09.jpg",
    "elements": [
@@ -675,7 +675,7 @@
   {
    "speaker": "bekzod",
    "text": "O'sha kuni Sherzod uyga o'zi yopgan nonni olib keldi. Biroz qiyshiq edi. Lekin dasturxonda to'ppa-to'g'ri turardi.",
-   "tts": "O'sha kuni Sherzod uyga o'zi yopgan nonni olib keldi. Biroz qiyshiq edi. Lekin dasturxonda to'ppa-to'g'ri turardi.",
+   "tts": "[warmly] O'sha kuni Sherzod uyga o'zi yopgan nonni olib keldi. Biroz qiyshiq edi. Lekin dasturxonda to'ppa-to'g'ri turardi.",
    "mood": "groove",
    "img": "11.jpg",
    "elements": [
@@ -728,7 +728,7 @@
   {
    "speaker": "bekzod",
    "text": "Sizning uyingizda non bilan bog'liq qanday odat bor? Izohda yozing.",
-   "tts": "Sizning uyingizda non bilan bog'liq qanday odat bor? Izohda yozing.",
+   "tts": "[warmly] Sizning uyingizda non bilan bog'liq qanday odat bor? Izohda yozing.",
    "mood": "finale",
    "img": "12.jpg",
    "elements": [

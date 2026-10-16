@@ -15,3 +15,7 @@ caption + video_url + thumbnailOffset bilan automatic qilib qo'ysin; keyin 18-ok
 
 ## 2026-10-15 18:35 — OVOZLAR (keyingi postlardan)
 O'zbekcha matnga ingliz ovozlari (Sarah, Charlie, Bill, Lily, Jessica) ISHLATILMAYDI — past va tushunarsiz. Kasting: config.json → elevenlabs.cast (hikoyachi doim Bekzod). Har qatorda eleven_v4 hissiyot teglari. ElevenLabs flow: qGgjoCYEgz4zhvjl3GCQ (16-okt yangi akkaunt). Dvigatel ovozlarni -16 LUFS ga tenglaydi.
+
+## 2026-10-16 19:00 run
+- 17-okt Buffer: 08:00 6ad22d1c · 12:30 6ad22d21 · 16:00 6ad22d24 · 18:30 6ad22d27 (automatic, shouldShareToFeed). 21:00 koz-charchoq hali QO'YILMAGAN (24 soat oynasi) — 16-okt 21:00 dan keyin yoki 17-okt 19:00 run qo'ysin (jobs/2026-10-17_2100_koz-charchoq/post.json).
+- 18-okt mavzulari egasiga taklif qilindi (19:00): pult · bepul-sinov · ai-muzlatkich · non-odobi · yuzga-qol.

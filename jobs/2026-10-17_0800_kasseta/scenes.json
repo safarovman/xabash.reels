@@ -233,8 +233,8 @@
   },
   {
    "speaker": "bekzod",
-   "text": "Bilasizmi, bu ixcham kassetani Philips kompaniyasi bir ming to'qqiz yuz oltmish uchinchi yilda Berlin radio ko'rgazmasida taqdim etgan. Keyin u butun dunyoning cho'ntagiga sig'adigan musiqaga aylandi.",
-   "tts": "[warmly] Bilasizmi, bu ixcham kassetani Philips kompaniyasi bir ming to'qqiz yuz oltmish uchinchi yilda Berlin radio ko'rgazmasida taqdim etgan. Keyin u butun dunyoning cho'ntagiga sig'adigan musiqaga aylandi.",
+   "text": "Bilasizmi, ixcham kassetani Philips bir ming to'qqiz yuz oltmish uchinchi yili Berlindagi radio ko'rgazmasida ko'rsatgan. Shundan keyin musiqa butun dunyoda cho'ntakka sig'adigan bo'ldi.",
+   "tts": "[warmly] Bilasizmi, ixcham kassetani Philips bir ming to'qqiz yuz oltmish uchinchi yili Berlindagi radio ko'rgazmasida ko'rsatgan. Shundan keyin musiqa butun dunyoda cho'ntakka sig'adigan bo'ldi.",
    "mood": "mystery",
    "img": "06.jpg",
    "elements": [
@@ -255,8 +255,7 @@
     }
    ],
    "vo": "vo_06.mp3",
-   "voice_id": "kGOig3GPePLxobJGHo2M",
-   "silent_vo": true
+   "voice_id": "kGOig3GPePLxobJGHo2M"
   },
   {
    "speaker": "sardor",
@@ -365,8 +364,7 @@
     }
    ],
    "vo": "vo_09.mp3",
-   "voice_id": "kGOig3GPePLxobJGHo2M",
-   "silent_vo": true
+   "voice_id": "kGOig3GPePLxobJGHo2M"
   }
  ]
 }

@@ -111,8 +111,7 @@
    "img2": "02_b.jpg",
    "img2_at": "keyin...",
    "vo": "vo_02.mp3",
-   "voice_id": "UjuEL3hLLUaDED9iW4Yb",
-   "silent_vo": true
+   "voice_id": "UjuEL3hLLUaDED9iW4Yb"
   },
   {
    "speaker": "dilnoza",
@@ -296,8 +295,8 @@
   },
   {
    "speaker": "bekzod",
-   "text": "Bir haftadan keyin Farhod derazadan uzoqqa qaradi va qo'shnisining mushugini birinchi marta ko'rdi. Mushuk u yerda uch yildan beri yasharkan.",
-   "tts": "[chuckles] Bir haftadan keyin Farhod derazadan uzoqqa qaradi va qo'shnisining mushugini birinchi marta ko'rdi. Mushuk u yerda uch yildan beri yasharkan.",
+   "text": "Bir haftadan so'ng Farhod derazadan uzoqqa qaradi va qo'shnining mushugini ilk bor ko'rdi. Ma'lum bo'lishicha, mushuk u yerda uch yildan beri yashar ekan.",
+   "tts": "[chuckles] Bir haftadan so'ng Farhod derazadan uzoqqa qaradi va qo'shnining mushugini ilk bor ko'rdi. Ma'lum bo'lishicha, mushuk u yerda uch yildan beri yashar ekan.",
    "mood": "warm",
    "img": "08.jpg",
    "elements": [
@@ -317,7 +316,7 @@
      "y": 1740,
      "size": 62,
      "rot": -2,
-     "at": "Mushuk"
+     "at": "uch yildan"
     },
     {
      "type": "char",
@@ -326,14 +325,13 @@
      "x": 220,
      "y": 1320,
      "h": 560,
-     "at": "birinchi",
+     "at": "ilk bor",
      "motion": "idle",
      "flip": false
     }
    ],
    "vo": "vo_08.mp3",
-   "voice_id": "kGOig3GPePLxobJGHo2M",
-   "silent_vo": true
+   "voice_id": "kGOig3GPePLxobJGHo2M"
   },
   {
    "speaker": "bekzod",

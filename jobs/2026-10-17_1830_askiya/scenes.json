@@ -118,8 +118,8 @@
   },
   {
    "speaker": "sardor",
-   "text": "Bobojon, kecha osh yeyishda shunaqa tez edingizki, qoshiq ortingizdan yetolmay qoldi!",
-   "tts": "[laughs] Bobojon, kecha osh yeyishda shunaqa tez edingizki, qoshiq ortingizdan yetolmay qoldi!",
+   "text": "Bobojon, kecha oshni shunaqa tez yedingizki, qoshiq ortingizdan yetolmay qoldi!",
+   "tts": "[laughs] Bobojon, kecha oshni shunaqa tez yedingizki, qoshiq ortingizdan yetolmay qoldi!",
    "mood": "groove",
    "img": "03.jpg",
    "elements": [
@@ -156,8 +156,7 @@
     }
    ],
    "vo": "vo_03.mp3",
-   "voice_id": "UjuEL3hLLUaDED9iW4Yb",
-   "silent_vo": true
+   "voice_id": "UjuEL3hLLUaDED9iW4Yb"
   },
   {
    "speaker": "malika",
@@ -345,8 +344,8 @@
   },
   {
    "speaker": "bekzod",
-   "text": "Sizning oilangizda kim eng zo'r askiyachi? Bir — bobom, ikki — buvim, uch — o'zim! Izohda yozing.",
-   "tts": "[excited] Sizning oilangizda kim eng zo'r askiyachi? Bir — bobom, ikki — buvim, uch — o'zim! Izohda yozing.",
+   "text": "Oilangizda eng zo'r askiyachi kim? Bir — bobom, ikki — buvim, uch — o'zim! Izohda yozing.",
+   "tts": "[excited] Oilangizda eng zo'r askiyachi kim? Bir — bobom, ikki — buvim, uch — o'zim! Izohda yozing.",
    "mood": "finale",
    "img": "08.jpg",
    "elements": [
@@ -375,8 +374,7 @@
     }
    ],
    "vo": "vo_09.mp3",
-   "voice_id": "kGOig3GPePLxobJGHo2M",
-   "silent_vo": true
+   "voice_id": "kGOig3GPePLxobJGHo2M"
   }
  ]
 }

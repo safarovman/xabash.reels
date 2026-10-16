@@ -1,6 +1,8 @@
 # xabash.reels — to'liq ish tartibi (skill'lar saqlanmagan bo'lsa ham shu yetarli)
 
 ## 0c. TEZ, RASMLARI KO'P, AGENTLI VIDEO (2026-10-16, egasi — eng ustun)
+- **Egasi tasdiqlagan namuna**: `media/test/tez_sinov_2026-10-16.mp4` ("juda yaxshi chiqibdi, bundan keyin shunday qilsin"). Hamma videolar shu tezlik va uslubda.
+- **Davomiylik**: kamida 70 soniya; aniq uzunlikni mavzuga qarab o'zingiz tanlang. Ma'lumotlar zo'r va qiziqarli: 2-3 ta tekshirilgan fakt, hazil bilan.
 - **ElevenLabs akkaunti almashtirildi**: yangi flow `qGgjoCYEgz4zhvjl3GCQ` (`config.json → elevenlabs.flow_id`). Eski flow'lar ishlatilmaydi. O'zbek ovozlari va kasting o'sha-o'sha.
 - **Agentlar** (`agents/README.md`): mavzu tasdiqlangach har video uchun **Agent tool** bilan uslub (`style_director.md`), musiqa (`music_director.md`), imo-ishora (`gesture_director.md`) agentlarini parallel ishga tushiring; ular `brief_*.json` yozadi; siz (video yig'uvchi) shular asosida `scenes.json` qilasiz.
 - **Rasm uslubi mavzuga qarab o'zgaradi** — hamma Flow promptlarida `brief_style.json` dagi prefikslar (config'dagi `style.*` faqat zaxira). Shrift/palitra ham shu briefdan. `topics_log.md` ga `uslub`, `shrift`, `musiqa` ustunlarini yozing.

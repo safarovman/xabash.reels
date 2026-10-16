@@ -110,7 +110,7 @@
   "brand": "99 FOIZ",
   "image_fallback": "none — rasm faqat Google Flow (egasi Higgsfield'ni rad etdi). Noutbuk o'chiq bo'lsa to'xtab egasiga xabar ber.",
   "video_rules": {
-    "duration_s": "75-80 (egasi tasdiqladi: 60 emas, 75-80 soniya yaxshi)",
+    "duration_s": "kamida 70 soniya, aniq uzunlikni agent mavzuga qarab o'zi tanlaydi (egasi 16-okt: 70 dan ko'p, ma'lumotlar zo'r va qiziqarli bo'lsin)",
     "multi_character": "kamida 2-3 personaj gapiradi (masalan dadasi: «Ex bolam, mening vaqtimda...»), har biri boshqa ElevenLabs ovozida",
     "vo_chunks": "ovoz bo'laklari uzunroq (1-3 to'liq gap), mayda-mayda emas",
     "on_screen_text": "ekrandagi yozuvlar to'liq, tugallangan gap",
@@ -133,7 +133,9 @@
     "more_images": "Rasm ko'p: videoda 20-30 ta Flow rasmi. Har sahnada 2-3 kadr (`imgs` bilan tez almashadi) + personaj/buyum/imo-ishora stikerlari. Sahna ovozi uzun bo'lsa — 2 sahnaga bo'ling.",
     "gestures": "Imo-ishoralar: `mark` (doira, strelka, tagiga chizish, belgi) + Flow'dan p_g_*.jpg ko'rsatgich/eslatma/reaksiya stikerlari; videoda 15-25 ta.",
     "style_per_topic": "Rasm uslubi, shrift va palitra mavzuga qarab, oxirgi 5 videoda takrorlanmaydi (brief_style.json).",
-    "music_per_topic": "Musiqa janri mavzuga qarab, oxirgi 3 videoda takrorlanmaydi (brief_music.json, scenes.json → music)."
+    "music_per_topic": "Musiqa janri mavzuga qarab, oxirgi 3 videoda takrorlanmaydi (brief_music.json, scenes.json → music).",
+    "reference_video": "Egasi 16-okt tasdiqladi: media/test/tez_sinov_2026-10-16.mp4 — 'juda yaxshi, bundan keyin shunday qilsin'. Tezlik, kadrlar soni, belgilar va o'tishlar shu darajada (pace fast).",
+    "facts": "Har videoda 2-3 ta qiziq, WebSearch bilan tekshirilgan ma'lumot (fakt, raqam, tarix) hazil bilan aralash; uydirma raqam yo'q."
   },
   "no_trial": "Trial reel QILINMAYDI. Hamma video, 16:00 dagisi ham, oddiy Reels: schedulingType automatic, shouldShareToFeed true (profilda ko'rinadi)."
 }

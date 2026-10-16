@@ -15,4 +15,4 @@ caption + video_url + thumbnailOffset bilan automatic qilib qo'ysin; keyin 18-ok
   Egasi kredit to'ldirsa — shu qatorlarni yozib (scenes.json → tts), qayta render qilib, media faylini almashtiring.
 
 ## 2026-10-15 18:35 — OVOZLAR (keyingi postlardan)
-O'zbekcha matnga ingliz ovozlari (Sarah, Charlie, Bill, Lily, Jessica) ISHLATILMAYDI — past va tushunarsiz. Kasting: config.json → elevenlabs.cast (hikoyachi doim Bekzod). Har qatorda eleven_v4 hissiyot teglari. ElevenLabs flow: g89LrH9AMPN93hZwIUYS. Dvigatel ovozlarni -16 LUFS ga tenglaydi.
+O'zbekcha matnga ingliz ovozlari (Sarah, Charlie, Bill, Lily, Jessica) ISHLATILMAYDI — past va tushunarsiz. Kasting: config.json → elevenlabs.cast (hikoyachi doim Bekzod). Har qatorda eleven_v4 hissiyot teglari. ElevenLabs flow: qGgjoCYEgz4zhvjl3GCQ (16-okt yangi akkaunt). Dvigatel ovozlarni -16 LUFS ga tenglaydi.

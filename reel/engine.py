@@ -36,6 +36,8 @@ THEME = CFG.get("theme", {})
 FONTS = {"inter": INTER_BLACK, "bangers": f"{HERE}/fonts/Bangers.ttf", "luckiest": f"{HERE}/fonts/LuckiestGuy.ttf", "pixel": f"{HERE}/fonts/PressStart2P.ttf",
          "orbitron": f"{HERE}/fonts/Orbitron.ttf", "lobster": f"{HERE}/fonts/Lobster.ttf", "fredoka": f"{HERE}/fonts/Fredoka.ttf", "russo": f"{HERE}/fonts/RussoOne.ttf",
          "rubikmono": f"{HERE}/fonts/RubikMonoOne.ttf", "marker": MARKER, "caveat": CAVEAT}
+for _fn in os.listdir(f"{HERE}/fonts"):   # every extra font in reel/fonts is usable by its lowercase file stem (e.g. "specialelite")
+    if _fn.lower().endswith((".ttf", ".otf")): FONTS.setdefault(_fn.rsplit(".", 1)[0].lower().replace("-regular", "").replace("-", ""), f"{HERE}/fonts/{_fn}")
 if THEME.get("font") in FONTS: INTER_BLACK = FONTS[THEME["font"]]
 if THEME.get("font2") in FONTS: INTER_XB = FONTS[THEME["font2"]]
 
@@ -50,6 +52,8 @@ def col(c, default=(255, 255, 255)):
 
 # ---------------- timing ----------------
 LEAD, TAIL = 0.15, 0.30
+PACE = CFG.get("pace", "normal"); FAST = PACE == "fast"   # "fast": tight gaps, quick cuts, punchy motion
+if FAST: LEAD, TAIL = 0.06, 0.12
 scenes = CFG["scenes"]; N = len(scenes)
 def dur(p): return float(subprocess.check_output(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", p]).decode())
 def pauses(p):
@@ -221,6 +225,7 @@ def avatar_img(name, size=200, ring=(255, 255, 255)):
 def load_rgba(name):
     """img/<name>: PNG with alpha used as-is; JPG/PNG without alpha -> background removed with rembg (cached as _cut.png)."""
     p = f"{JOB}/img/{name}"
+    if not os.path.exists(p) and os.path.exists(f"{HERE}/../assets/gestures/{name}"): p = f"{HERE}/../assets/gestures/{name}"   # shared imo-ishora library
     im = Image.open(p)
     if im.mode == "RGBA" and np.asarray(im)[..., 3].min() < 250: return im
     cache = p.rsplit(".", 1)[0] + "_cut.png"
@@ -279,6 +284,59 @@ def bubble_frame(L, n_lit, hl):
         if k < n_lit and hl.get(key): ww = text_size(L["f"], wd)[0]; d.line((x, y + top - 60 + L["f"].size * 1.05, x + ww, y + top - 60 + L["f"].size * 1.05), fill=hl[key], width=5)
     return im
 
+def hand_label(txt, color, size=70):
+    f = F(MARKER if os.path.exists(MARKER) else CAVEAT, size); w, hh, b = text_size(f, txt)
+    im = Image.new("RGBA", (w + 60, hh + 60), (0, 0, 0, 0)); d = ImageDraw.Draw(im)
+    d.text((30 - b[0], 30 - b[1]), txt, font=f, fill=tuple(color) + (255,), stroke_width=9, stroke_fill=(255, 255, 255, 255)); return im
+def mark_paths(e):
+    x, y, w, h, sh = e["x"], e["y"], e["w"], e["h"], e["shape"]; rs = np.random.RandomState(e["seed"])
+    if sh == "circle":
+        a0 = rs.uniform(0, 6.28); a = np.linspace(a0, a0 + 2 * math.pi * 1.12, 90); wob = 1 + 0.05 * np.sin(3 * a + e["seed"])
+        return [np.stack([x + w / 2 * wob * np.cos(a), y + h / 2 * wob * np.sin(a) + np.linspace(0, h * 0.08, 90)], 1)]
+    if sh == "box":
+        pts = [(x - w / 2, y - h / 2), (x + w / 2, y - h / 2 - 6), (x + w / 2 + 6, y + h / 2), (x - w / 2 - 4, y + h / 2 + 4), (x - w / 2 + 8, y - h / 2 - 10)]
+        return [np.concatenate([np.linspace(pts[k], pts[k + 1], 20) for k in range(4)])]
+    if sh == "underline":
+        u = np.linspace(0, 1, 50); return [np.stack([x - w / 2 + w * u, y + 10 * np.sin(u * 9) - 18 * u], 1)]
+    if sh == "check":
+        return [np.concatenate([np.linspace((x - w / 2, y), (x - w / 8, y + h / 2), 15), np.linspace((x - w / 8, y + h / 2), (x + w / 2, y - h / 2), 25)])]
+    if sh == "cross":
+        return [np.linspace((x - w / 2, y - h / 2), (x + w / 2, y + h / 2), 20), np.linspace((x + w / 2, y - h / 2), (x - w / 2, y + h / 2), 20)]
+    if sh == "burst":
+        out = []
+        for k in range(9):
+            a = -math.pi / 2 + (k - 4) * 0.36; r0, r1 = w / 2, w / 2 + 70 + 25 * (k % 2)
+            out.append(np.linspace((x + r0 * math.cos(a), y + r0 * math.sin(a)), (x + r1 * math.cos(a), y + r1 * math.sin(a)), 6))
+        return out
+    # arrow from (x, y) to e["to"], slightly curved, with head
+    tx, ty = e["to"] if e.get("to") else (x + 260, y + 160)
+    u = np.linspace(0, 1, 60)[:, None]; dx, dy = tx - x, ty - y; L = math.hypot(dx, dy) + 1e-6; nx, ny = -dy / L, dx / L
+    c = np.array([(x + tx) / 2 + nx * L * 0.22, (y + ty) / 2 + ny * L * 0.22])
+    body = (1 - u) ** 2 * np.array([x, y]) + 2 * (1 - u) * u * c + u ** 2 * np.array([tx, ty])
+    d = body[-1] - body[-6]; ang = math.atan2(d[1], d[0]); hl = min(90, L * 0.3)
+    heads = [np.linspace((tx, ty), (tx - hl * math.cos(ang + s_), ty - hl * math.sin(ang + s_)), 8) for s_ in (0.5, -0.5)]
+    return [body] + heads
+def draw_mark(frame, e, t, al_out):
+    dt = t - e["t0"]; paths = mark_paths(e); lens = [np.hypot(*np.diff(pp, axis=0).T).sum() for pp in paths]; tot = sum(lens)
+    p = ease_out(dt / e["dur"]) * tot; rs = np.random.RandomState(int(t * 8) + e["seed"])   # 8 fps "boil" = hand-drawn feel
+    seg = []
+    for pp, ln in zip(paths, lens):
+        if p <= 0: break
+        if p >= ln: seg.append(pp); p -= ln; continue
+        cum = np.concatenate([[0], np.cumsum(np.hypot(*np.diff(pp, axis=0).T))]); k = int(np.searchsorted(cum, p)); seg.append(pp[:max(2, k)]); p = 0
+    if al_out < 1: ov = frame.copy()
+    tgt = ov if al_out < 1 else frame
+    for pp in seg:
+        q = (pp + rs.normal(0, 1.4, pp.shape)).astype(np.int32).reshape(-1, 1, 2)
+        cv2.polylines(tgt, [q], False, (255, 255, 255), e["width"] + 10, cv2.LINE_AA)
+    for pp in seg:
+        q = (pp + rs.normal(0, 1.4, pp.shape)).astype(np.int32).reshape(-1, 1, 2)
+        cv2.polylines(tgt, [q], False, tuple(float(c) for c in e["color"]), e["width"], cv2.LINE_AA)
+    if al_out < 1: frame[:] = frame * (1 - al_out) + ov * al_out
+    if e["label"] is not None and dt > e["dur"] * 0.8:
+        lx = e["lx"] if e["lx"] is not None else (e["to"][0] if e.get("to") else e["x"]); ly = e["ly"] if e["ly"] is not None else (e["to"][1] + 90 if e.get("to") else e["y"] - e["h"] / 2 - 70)
+        paste(frame, e["label"], lx, ly, ease_out_back((dt - e["dur"] * 0.8) / .22, 2.2), e["lrot"], al_out)
+
 # ---------------- compositing ----------------
 def paste(frame, spr, cx, cy, scale=1.0, rot=0.0, alpha=1.0):
     if alpha <= 0.003 or scale <= 0.01: return
@@ -296,7 +354,7 @@ def paste(frame, spr, cx, cy, scale=1.0, rot=0.0, alpha=1.0):
 # ---------------- backgrounds ----------------
 KB_DEF = [(1.00, 1.12, 0.0, -0.4), (1.02, 1.14, 0.2, 0.2), (1.00, 1.10, -0.3, 0.0), (1.10, 1.00, 0.3, 0.1), (1.00, 1.11, 0.0, 0.2),
           (1.02, 1.10, -0.2, -0.2), (1.00, 1.08, 0.0, 0.0), (1.10, 1.01, -0.2, 0.0), (1.00, 1.13, 0.0, -0.3)]
-bases = []; FG = {}; BGC = {}; BASE2 = {}; SW = {}
+bases = []; FG = {}; BGC = {}; BASE2 = {}; SW = {}; SEGS = {}; SEGT = {}
 ANIM = CFG.get("anim", "static")   # "cutout" is disabled by default (owner: keep pictures whole)
 for i, sc in enumerate(scenes):
     ip = f"{JOB}/img/{sc.get('img', f'{i + 1:02d}.jpg')}"
@@ -308,6 +366,17 @@ for i, sc in enumerate(scenes):
     s = max(W / im.shape[1], H / im.shape[0]) * 1.16
     sz = (int(im.shape[1] * s), int(im.shape[0] * s))
     bases.append(cv2.resize(im, sz, interpolation=cv2.INTER_LANCZOS4).astype(np.float32))
+    # extra pictures inside one scene (quick cuts while the same line is spoken): "imgs": ["03b.jpg", ["03c.jpg", "ibora"], {"img": "03d.jpg", "at": 4.2, "fx": "flash"}]
+    ex = sc.get("imgs", [])
+    if ex:
+        segs = []
+        for k_, it in enumerate(ex):
+            it = {"img": it} if isinstance(it, str) else ({"img": it[0], "at": it[1] if len(it) > 1 else None} if isinstance(it, list) else dict(it))
+            pim = cv2.cvtColor(cv2.imread(f"{JOB}/img/{it['img']}"), cv2.COLOR_BGR2RGB)
+            s2 = max(W / pim.shape[1], H / pim.shape[0]) * 1.16
+            arr = cv2.resize(pim, (int(pim.shape[1] * s2), int(pim.shape[0] * s2)), interpolation=cv2.INTER_LANCZOS4)   # uint8 to save memory
+            segs.append(dict(arr=arr, at=it.get("at"), kb=it.get("kb"), fx=it.get("fx", THEME.get("cut_fx", "punch"))))
+        SEGS[i] = segs
     stem = ip[:-4]
     # 2-frame animation: NN_b.jpg = same picture with a small change (hand moved, eyes, etc.)
     ip2 = f"{JOB}/img/{sc['img2']}" if sc.get("img2") else stem + "_b.jpg"
@@ -321,6 +390,12 @@ for i, sc in enumerate(scenes):
         BGC[i] = cv2.resize(cv2.cvtColor(cv2.imread(stem + "_bg.jpg"), cv2.COLOR_BGR2RGB), sz, interpolation=cv2.INTER_LANCZOS4).astype(np.float32)
         ys, xs = np.where(FG[i][..., 3] > 128)
         FG[i] = (FG[i], float(xs.mean()), float(ys.max()), float(ys.min()))
+for i, segs in SEGS.items():
+    n_ = len(segs); ts_ = []
+    for k_, sg in enumerate(segs):
+        ts_.append(anchor(i, sg["at"]) if sg["at"] is not None else LEAD + vod[i] * (k_ + 1) / (n_ + 1))
+    for k_ in range(1, n_): ts_[k_] = max(ts_[k_], ts_[k_ - 1] + 0.6)
+    SEGT[i] = [0.0] + ts_
 yy, xx = np.mgrid[0:H, 0:W]
 vign = np.clip(1 - 0.38 * (((xx - W / 2) / (W * .75)) ** 2 + ((yy - H / 2) / (H * .72)) ** 2), 0.55, 1)[..., None].astype(np.float32)
 VIGN_SOFT = None
@@ -333,11 +408,43 @@ def bump(i, t):
     for tb in BUMPS.get(i, []):
         d = t - tb
         if 0 <= d < 0.6: z += 0.045 * math.exp(-d * 7) * (1 if d > 0.03 else d / 0.03)
+    for tb, amp in SOFT_BUMPS.get(i, []):
+        d = t - tb
+        if 0 <= d < 0.5: z += amp * math.exp(-d * 9) * (1 if d > 0.03 else d / 0.03)
     return z
+SOFT_BUMPS = {}
+def seg_view(arr, z0, z1, px, py, p, z_extra):
+    bh, bw = arr.shape[:2]; z = z0 + (z1 - z0) * p + z_extra
+    cw = (bw / 1.16) / z; ch = cw * H / W
+    cx = bw / 2 + px * (bw - cw) / 2 * (p - .5) * 2; cy = bh / 2 + py * (bh - ch) / 2 * (p - .5) * 2
+    if FAST: cx += 6 * math.sin(p * 11.0); cy += 5 * math.sin(p * 8.3 + 1)   # light handheld feel
+    x0, y0 = cx - cw / 2, cy - ch / 2
+    M = np.array([[W / cw, 0, -x0 * W / cw], [0, H / ch, -y0 * H / ch]], np.float32)
+    return cv2.warpAffine(arr, M, (W, H), flags=cv2.INTER_LINEAR, borderMode=cv2.BORDER_REFLECT).astype(np.float32)
+def fast_kb(kb):
+    z0, z1, px, py = kb
+    return (z0, z0 + (z1 - z0) * 1.7, px * 1.4, py * 1.4) if FAST else kb
 def bg(i, t):
+    if i in SEGT and t >= SEGT[i][1]:   # inside an extra picture of this scene
+        T_ = SEGT[i]; k = max(j for j in range(len(T_)) if T_[j] <= t); sg = SEGS[i][k - 1]
+        a_, b_ = T_[k], (T_[k + 1] if k + 1 < len(T_) else scene_len[i] + 0.45)
+        kb = fast_kb(sg["kb"] or KB_DEF[(i * 3 + k) % len(KB_DEF)]); q = (t - a_) / max(.3, b_ - a_)
+        p = ease_out(q) * 0.85 + q * 0.15 if FAST else ease_in_out(q)
+        fr = seg_view(sg["arr"], *kb, p, bump(i, t))
+        d = t - a_
+        if sg["fx"] == "flash" and d < 0.12: fr = fr + (255 - fr) * (1 - d / 0.12) * 0.8
+        elif sg["fx"] == "whip" and d < 0.16:
+            prev = bg_main(i, a_ - 0.001) if k == 1 else seg_view(SEGS[i][k - 2]["arr"], *fast_kb(SEGS[i][k - 2]["kb"] or KB_DEF[(i * 3 + k - 1) % len(KB_DEF)]), 1.0, 0)
+            q2 = ease_in_out(d / 0.16); off = int(W * q2)
+            out = np.empty_like(fr); out[:, :W - off] = prev[:, off:]; out[:, W - off:] = fr[:, :off] if off else out[:, W - off:]
+            fr = cv2.blur(out, (int(9 + 70 * math.sin(math.pi * q2)), 1))
+        return fr
+    return bg_main(i, t)
+def bg_main(i, t):
     base = bases[i]; bh, bw = base.shape[:2]
-    z0, z1, px, py = scenes[i].get("kb", KB_DEF[i % len(KB_DEF)])
-    p = ease_in_out(t / scene_len[i])
+    z0, z1, px, py = fast_kb(scenes[i].get("kb", KB_DEF[i % len(KB_DEF)]))
+    span = SEGT[i][1] + 0.45 if i in SEGT else scene_len[i]
+    q = clamp(t / span); p = (ease_out(q) * 0.85 + q * 0.15) if FAST else ease_in_out(q)
     cut = i in FG
     zb = z0 + (z1 - z0) * p * (0.55 if cut else 1.0)   # background moves slower (parallax)
     zb += bump(i, t)
@@ -424,7 +531,7 @@ for i, sc in enumerate(scenes):
             for tr in el.get("talk", []):
                 if tr == "vo": talk.append((LEAD, LEAD + vod[i]))
                 else: talk.append((anchor(i, tr[0]), anchor(i, tr[1])))
-            E[i].append(dict(kind="char", spr=spr, x=x, y=y, t0=t0, rot=rot, side=side, talk=talk, seed=seed % 7, motion=el.get("motion", "idle"), path=el.get("path"), pdur=el.get("dur", 3.0), moods=moods, label=to_np(label_tag(el["label"], col(el.get("label_bg", "green"), (46, 160, 100)))) if el.get("label") else None))
+            E[i].append(dict(kind="char", spr=spr, x=x, y=y, t0=t0, rot=rot, side=side, talk=talk, seed=seed % 7, motion=el.get("motion", "idle"), dir=el.get("dir"), path=el.get("path"), pdur=el.get("dur", 3.0), moods=moods, label=to_np(label_tag(el["label"], col(el.get("label_bg", "green"), (46, 160, 100)))) if el.get("label") else None))
             if el.get("out") is not None: E[i][-1]["t_out"] = anchor(i, el["out"])
             sfx(i, t0, "whoosh" if side in ("left", "right", "bottom") else "pop")
             for ta_, _ in moods: sfx(i, ta_, "pop")
@@ -443,6 +550,17 @@ for i, sc in enumerate(scenes):
             E[i].append(dict(kind="anim", frames=frames, x=x, y=y, t0=t0, dur=el.get("dur", 1.2), rot=rot)); sfx(i, t0, "whoosh")
         elif ty == "avatar":
             E[i].append(dict(kind="pop", spr=to_np(avatar_img(el["img"], el.get("size", 200))), x=x, y=y, t0=t0, rot=rot, dur=.3)); sfx(i, t0, "pop")
+        elif ty == "mark":   # hand-drawn annotation: circle / arrow / underline / check / cross / burst / box
+            mc = col(el.get("color", "red"), RED); lab = None
+            if el.get("label"): lab = to_np(hand_label(el["label"], mc, el.get("label_size", 70)))
+            E[i].append(dict(kind="mark", shape=el.get("shape", "circle"), x=x, y=y, w=el.get("w", 340), h=el.get("h", el.get("w", 340) * 0.7), to=el.get("to"),
+                             color=mc, width=el.get("width", 13), t0=t0, dur=el.get("dur", 0.32 if FAST else 0.45), seed=seed, label=lab,
+                             lx=el.get("label_x"), ly=el.get("label_y"), lrot=el.get("label_rot", -6)))
+            if el.get("out") is not None: E[i][-1]["t_out"] = anchor(i, el["out"])
+            elif i in SEGT:   # a drawn mark belongs to the picture it was drawn on: hide it at the next cut
+                nxt = [ts_ for ts_ in SEGT[i][1:] if ts_ > t0 + 0.2]
+                if nxt: E[i][-1]["t_out"] = nxt[0] - 0.05
+            sfx(i, t0, "marker")
         elif ty == "dark":
             DARK[i].append((t0, t0 + el.get("fade", 0.5), el.get("amount", 0.45)))
         elif ty == "hide_captions":
@@ -456,6 +574,14 @@ for i, sc in enumerate(scenes):
 for i in range(1, N): sfx(i, 0.0, "whoosh")
 for i in range(N):
     BUMPS[i] = sorted(set([round(ts, 3) for ts in SHAKE[i]] + [round(e["t0"], 3) for e in E[i] if e.get("cap") and e is E[i][0]]))
+    sb = []
+    for k_, ts_ in enumerate(SEGT.get(i, [])[1:]):
+        fx_ = SEGS[i][k_]["fx"]; sb.append((ts_, 0.05 if fx_ == "punch" else 0.025)); sfx(i, ts_, "whoosh" if fx_ == "whip" else "pop")
+    if FAST:   # small camera punch on every new sentence -> constant energy
+        last = -9
+        for e_ in vop[i][1]:
+            if e_ - last > 1.2 and 0.4 < e_ < vod[i] - 0.4: sb.append((LEAD + e_, 0.022)); last = e_
+    SOFT_BUMPS[i] = sb
 
 def draw_el(frame, e, t):
     if t < e["t0"]: return
@@ -474,18 +600,25 @@ def draw_el(frame, e, t):
         p = ease_out_back(dt / .45, 1.6); paste(frame, e["spr"], e["x"], e["y"] - 260 * (1 - p), sc, rot, clamp(dt / .1) * al_out)
     elif k == "char":
         side = e["side"]; sd = e["seed"]
-        p = ease_out_back(dt / .5, 1.5)
+        p = ease_out_back(dt / (.32 if FAST else .5), 1.7 if FAST else 1.5)
         ox = oy = 0
         if side == "left": ox = -(W * 0.7) * (1 - p)
         elif side == "right": ox = (W * 0.7) * (1 - p)
         elif side == "bottom": oy = 900 * (1 - p)
         scl = sc * (0.3 + 0.7 * ease_out_back(dt / .3, 2.2)) if side == "pop" else sc
-        bob = 8 * math.sin(t * 2.3 + sd); rr = rot + 1.2 * math.sin(t * 1.7 + sd); mo = e.get("motion", "idle")
-        if mo == "float":   # zero gravity: slow drift + spin
-            ox += 34 * math.sin(t * 0.9 + sd); bob = 46 * math.sin(t * 0.7 + sd * 2); rr = rot + 9 * math.sin(t * 0.55 + sd)
-        elif mo == "bounce": bob = -abs(60 * math.sin(t * 4.2 + sd))
+        sp_ = 1.8 if FAST else 1.0
+        bob = 8 * math.sin(t * 2.3 * sp_ + sd); rr = rot + 1.2 * math.sin(t * 1.7 * sp_ + sd); mo = e.get("motion", "idle")
+        if mo == "float":   # zero gravity drift (fast pace: livelier, no slow lazy spin)
+            ox += 34 * math.sin(t * 0.9 * sp_ + sd); bob = 46 * math.sin(t * 0.7 * sp_ + sd * 2); rr = rot + (6 if FAST else 9) * math.sin(t * 0.55 * sp_ * 1.6 + sd)
+        elif mo == "bounce": bob = -abs(60 * math.sin(t * 4.2 * (1.3 if FAST else 1) + sd))
         elif mo == "shake": ox += 7 * math.sin(t * 38); rr = rot + 2 * math.sin(t * 31)
-        elif mo == "spin": rr = rot + (dt * 120) % 360
+        elif mo == "spin": rr = rot + (dt * (300 if FAST else 120)) % 360
+        elif mo == "point":   # gesture sticker pokes toward its rotation direction
+            a_ = math.radians(-(rot - 90) if e.get("dir") is None else e["dir"]); k_ = 34 * abs(math.sin(t * 7 + sd))
+            ox += k_ * math.cos(a_); bob = -k_ * math.sin(a_); rr = rot
+        elif mo == "pulse": scl *= 1 + 0.08 * math.sin(t * 9 + sd); bob = 0; rr = rot
+        elif mo == "jump": ph_ = (t * 1.6 + sd) % 1; bob = -150 * max(0, math.sin(math.pi * min(1, ph_ / 0.35))); scl *= 1 + (0.08 if ph_ > 0.9 else 0)
+        elif mo == "wag": rr = rot + 14 * math.sin(t * 10 + sd); bob = 0
         elif mo == "fly" and e.get("path"):
             (x0_, y0_) = e["path"]; q = ease_in_out(dt / e["pdur"]); ox += (x0_ - e["x"]) * (1 - q); oy += (y0_ - e["y"]) * (1 - q); rr = rot - 12 * (1 - q) * (1 if x0_ < e["x"] else -1)
         talking = any(a <= t <= b for a, b in e["talk"])
@@ -511,6 +644,7 @@ def draw_el(frame, e, t):
             if p <= 0: continue
             ov = frame.copy(); cv2.line(ov, (int(ax), int(ay)), (int(ax + (bx - ax) * p), int(ay + (by - ay) * p)), (200, 25, 40), 26, cv2.LINE_AA)
             frame[:] = frame * 0.12 + ov * 0.88
+    elif k == "mark": draw_mark(frame, e, t, al_out)
     elif k == "ring":
         if t > e["t1"]: return
         for j in range(3):
@@ -575,7 +709,26 @@ def frame_at(T):
 
 def frame_scene(T):
     i = max(j for j in range(N) if starts[j] <= T + 1e-9); t = T - starts[i]; fr = render_scene(i, t); TR = 0.42
-    if i > 0 and t < TR:
+    trs = scenes[i].get("transition") or (THEME.get("transitions") or (["whip", "zoom", "torn", "flash", "slide"] if FAST else ["torn"]))
+    tr_kind = trs if isinstance(trs, str) else trs[i % len(trs)]
+    if tr_kind != "torn": TR = 0.24
+    if i > 0 and t < TR and tr_kind != "torn":
+        prev = render_scene(i - 1, scene_len[i - 1] + t); p = ease_in_out(t / TR)
+        if tr_kind == "whip":
+            off = int(W * p); out = np.empty_like(fr); out[:, :W - off] = prev[:, off:]
+            if off: out[:, W - off:] = fr[:, :off]
+            fr = cv2.blur(out, (int(9 + 80 * math.sin(math.pi * p)), 1))
+        elif tr_kind == "slide":
+            off = int(H * p); out = np.empty_like(fr); out[:H - off] = prev[off:]
+            if off: out[H - off:] = fr[:off]
+            fr = cv2.blur(out, (1, int(5 + 60 * math.sin(math.pi * p))))
+        elif tr_kind == "zoom":
+            z = 1 + 0.5 * p; Mz = cv2.getRotationMatrix2D((W / 2, H / 2), 0, z); pz = cv2.warpAffine(prev, Mz, (W, H), borderMode=cv2.BORDER_REFLECT)
+            z2 = 1.25 - 0.25 * p; Mz2 = cv2.getRotationMatrix2D((W / 2, H / 2), 0, z2); fz = cv2.warpAffine(fr, Mz2, (W, H), borderMode=cv2.BORDER_REFLECT)
+            fr = pz * (1 - p) + fz * p
+        else:   # flash
+            w_ = math.sin(math.pi * p); fr = (prev if p < .5 else fr) * (1 - w_) + 255 * w_ * 0.9 + (prev if p < .5 else fr) * w_ * 0.1
+    elif i > 0 and t < TR:
         prev = render_scene(i - 1, scene_len[i - 1] + t); p = ease_in_out(t / TR)
         edge = torn_edge(i * 13, W + 80 - (W + 200) * p)[:, None]; X = np.arange(W)[None, :]
         newm = X >= edge; fiber = (X >= edge - 16) & (X < edge)
@@ -627,10 +780,17 @@ def build_audio(path):
     for i, sc in enumerate(scenes):
         c = load_vo(f"{JOB}/aud/{sc.get('vo', f'vo_{i + 1:02d}.mp3')}"); s0 = int((starts[i] + LEAD) * SR); vo[s0:s0 + len(c)] += c[:max(0, n - s0)]
     plan = dict(total=TOTAL, sections=[dict(start=starts[i], end=starts[i] + scene_len[i], mood=sc.get("mood", "groove")) for i, sc in enumerate(scenes)],
-                hits=sorted(HITS), blips=sorted(BLIPS), final_hit=CFG.get("_final_hit"), seed=CFG.get("music_seed", 1))
+                hits=sorted(HITS), blips=sorted(BLIPS), final_hit=CFG.get("_final_hit"), seed=CFG.get("music_seed", 1), music=CFG.get("music"))
     json.dump(plan, open(f"{OUT}/music_plan.json", "w"))
-    subprocess.run([sys.executable, f"{HERE}/music.py", f"{OUT}/music_plan.json", f"{OUT}/music.npy"], check=True)
-    m = np.load(f"{OUT}/music.npy")[:n]
+    mf = (CFG.get("music") or {}).get("file")
+    if mf and os.path.exists(f"{JOB}/aud/{mf}"):   # a ready track (owner-supplied / royalty-free) instead of the synth score
+        raw = np.frombuffer(subprocess.check_output(["ffmpeg", "-v", "error", "-ss", str((CFG.get("music") or {}).get("offset", 0)), "-i", f"{JOB}/aud/{mf}", "-af", "loudnorm=I=-21:TP=-2",
+                                                      "-f", "f32le", "-ac", "2", "-ar", str(SR), "-"]), np.float32).reshape(-1, 2).copy()
+        while len(raw) < n: raw = np.vstack([raw, raw])
+        m = raw[:n]
+    else:
+        subprocess.run([sys.executable, f"{HERE}/music.py", f"{OUT}/music_plan.json", f"{OUT}/music.npy"], check=True)
+        m = np.load(f"{OUT}/music.npy")[:n]
     if len(m) < n: m = np.vstack([m, np.zeros((n - len(m), 2), np.float32)])
     e = np.abs(vo); k = int(.12 * SR); e = np.convolve(e, np.ones(k) / k, mode="same")
     duck = np.convolve(1 - 0.5 * np.clip(e / 0.03, 0, 1), np.ones(k) / k, mode="same"); m = m * duck[:, None]

@@ -11,7 +11,7 @@
     "voice_id": "kGOig3GPePLxobJGHo2M",
     "voice_name": "Bekzod - Warm, Confident, Deep (hikoyachi, HAR DOIM)",
     "model_id": "eleven_v4",
-    "flow_id": "g89LrH9AMPN93hZwIUYS",
+    "flow_id": "qGgjoCYEgz4zhvjl3GCQ",
     "generations_count": 1,
     "cast": {
       "hikoyachi": {
@@ -69,7 +69,8 @@
       "Bitta videoda har personaj boshqa ovozda; hikoyachi doim Bekzod.",
       "Dvigatel har bir ovoz bo'lagini avtomatik bir xil balandlikka keltiradi (vo_lufs, standart -16 LUFS).",
       "Yangi ovoz kerak bo'lsa (masalan bola, chet ellik): creative_list_voices dan o'zbekcha ovoz tanlab, bitta qisqa sinov qatori bilan tekshiring, so'ng cast ga yozing."
-    ]
+    ],
+    "account_note": "2026-10-16: egasi ElevenLabs akkauntini almashtirdi. Yangi workspace flow: qGgjoCYEgz4zhvjl3GCQ (eski g89LrH9AMPN93hZwIUYS va vrOkazhVp30VTw8bn1YR ishlatilmaydi). O'zbek ovozlari yangi akkauntda ham bor (tekshirildi). Flow ochilmasa — creative_create_flow bilan yangisini oching va shu yerga yozing."
   },
   "timezone": "Asia/Tashkent",
   "slots": [
@@ -104,7 +105,7 @@
     "brand_logo": "brand/logo_99foiz.png",
     "character_prefix": "Same semi-realistic painted style, realistic proportions and face (not cartoon). Single person only, full or half body, clear expressive emotion, isolated on a plain flat pure white background, no shadow, no scenery, no text.",
     "prop_prefix": "Same semi-realistic painted style, realistic object. Single object only, isolated on a plain flat pure white background, no shadow, no text.",
-    "style_note": "2026-10-15 dan: multfilm uslubi YO'Q. Tabiiy, yarim-realistik rasm (jurnal illyustratsiyasi): haqiqiy odam proporsiyalari, tabiiy yuzlar, iliq kinematik yorug'lik. Faqat keyingi videolar uchun; eski videolar o'zgartirilmaydi. Haqiqiy siyosatchi/mashhur shaxslar rasmini chizmang."
+    "style_note": "2026-10-16 dan: rasm uslubi HAR VIDEODA mavzuga qarab o'zgaradi — agents/style_director.md (brief_style.json). Pastdagi prefikslar faqat zaxira (agent ishlamasa). Odamlar doim tabiiy proporsiyada, chibi/katta ko'zli multfilm yo'q; haqiqiy siyosatchi/mashhurlar chizilmaydi."
   },
   "brand": "99 FOIZ",
   "image_fallback": "none — rasm faqat Google Flow (egasi Higgsfield'ni rad etdi). Noutbuk o'chiq bo'lsa to'xtab egasiga xabar ber.",
@@ -113,7 +114,7 @@
     "multi_character": "kamida 2-3 personaj gapiradi (masalan dadasi: «Ex bolam, mening vaqtimda...»), har biri boshqa ElevenLabs ovozida",
     "vo_chunks": "ovoz bo'laklari uzunroq (1-3 to'liq gap), mayda-mayda emas",
     "on_screen_text": "ekrandagi yozuvlar to'liq, tugallangan gap",
-    "two_frame": "har videoda faqat 1-2 sahnada 2-kadr (_b.jpg)",
+    "two_frame": "2-kadr (_b.jpg) 1-2 sahnada qolishi mumkin; asosiy jonlilik endi `imgs` kesishlari va stikerlardan",
     "no_cutout": true,
     "style_ref": "bitta qahramonning kuni: holat ko'rsatkichi (SABR/ENERGIYA %), soat, tez almashadigan sahnalar, oxirida hisob-kitob varag'i; ammo boshqa brend logotiplarini ishlatmang",
     "look": "yorqin, ochiq rangli dizayn; qorong'i sahnalar faqat syujet talab qilsa",
@@ -126,7 +127,13 @@
     "extra_images": "mavzuga kerakli qo'shimcha rasmlarni (PNG personajlar, o'zga sayyoralik, buyumlar, fonlar) Google Flow'da o'zing yarat",
     "backgrounds": "Butun videoga bitta umumiy fon (masalan protsedurali `space`/`blueprint`) qo'yib tashlamang. Har sahna fonini mavzuga mos qilib Flow'da yarating; protsedurali fonlar faqat ataylab tanlangan 1-2 sahnada.",
     "emotions": "Bosh qahramon PNG stiker bo'lib 2-3 sahnada chiqadi va har xil reaksiya qiladi: bir gapda kulib turadi, keyingi gapda kayfiyati tushadi va h.k. Har bir hissiyot uchun alohida Flow rasmi (o'sha personaj namuna qilinadi): c_<nom>_<hissiyot>.jpg; `char` elementida `moods` bilan almashadi.",
-    "theme_each_video": "`theme` (shrift, palitra, pufakcha ranglari, harakat) mavzudan kelib chiqib tanlanadi va videodan-videoga takrorlanmaydi."
+    "theme_each_video": "`theme` (shrift, palitra, pufakcha ranglari, harakat) mavzudan kelib chiqib tanlanadi va videodan-videoga takrorlanmaydi.",
+    "agents": "Har video: uslub, musiqa, imo-ishora agentlari (agents/*.md) parallel ishlaydi, video yig'uvchi ularning brieflari asosida yasaydi.",
+    "pace": "scenes.json da \"pace\": \"fast\". Har 1.5-2 soniyada yangi narsa: kesish, stiker, belgi yoki yozuv. Sekin aylanadigan/suzadigan harakat yo'q; point/pulse/jump/wag/bounce.",
+    "more_images": "Rasm ko'p: videoda 20-30 ta Flow rasmi. Har sahnada 2-3 kadr (`imgs` bilan tez almashadi) + personaj/buyum/imo-ishora stikerlari. Sahna ovozi uzun bo'lsa — 2 sahnaga bo'ling.",
+    "gestures": "Imo-ishoralar: `mark` (doira, strelka, tagiga chizish, belgi) + Flow'dan p_g_*.jpg ko'rsatgich/eslatma/reaksiya stikerlari; videoda 15-25 ta.",
+    "style_per_topic": "Rasm uslubi, shrift va palitra mavzuga qarab, oxirgi 5 videoda takrorlanmaydi (brief_style.json).",
+    "music_per_topic": "Musiqa janri mavzuga qarab, oxirgi 3 videoda takrorlanmaydi (brief_music.json, scenes.json → music)."
   },
   "no_trial": "Trial reel QILINMAYDI. Hamma video, 16:00 dagisi ham, oddiy Reels: schedulingType automatic, shouldShareToFeed true (profilda ko'rinadi)."
 }

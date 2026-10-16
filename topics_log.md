@@ -1,5 +1,5 @@
 # Mavzular jurnali (takrorlanmasligi uchun)
-Har yangi videoda qahramon, ochilish turi va dizayn (theme: shrift, palitra, fon, harakat) oxirgi 3 videodagidan farq qilsin. Yangi qatorlarda `dizayn` ni ham yozing.
+Har yangi videoda qahramon, ochilish turi va dizayn (theme: shrift, palitra, fon, harakat) oxirgi 3 videodagidan farq qilsin. Yangi qatorlarda `dizayn` ni ham yozing. 2026-10-16 dan qator oxiriga qo'shing: `uslub: <rasm uslubi> · shrift: <font> · musiqa: <janr>` (uslub oxirgi 5, musiqa va shrift oxirgi 3 videoda takrorlanmasin).
 
 | sana | vaqt | mavzu | qahramon | ochilish turi | holat |
 |---|---|---|---|---|---|

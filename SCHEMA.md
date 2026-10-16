@@ -67,3 +67,14 @@ put stickers/pills on the side or top, captions in the lower third. Max ~3 overl
 - Sahna fonida `"bg": "space"` — protsedurali koinot (yulduzlar, tumanliklar), `"bg_seed"`.
 - `char`/`prop` da `"motion"`: `idle` (default), `float` (vaznsizlik: sekin suzish va aylanish), `fly` (`"path":[x0,y0]` dan `x,y` ga `dur` s ichida uchib keladi), `bounce`, `shake`, `spin`.
 - `char` da `"moods": [["c_bobur_xafa.jpg","ibora"], ["c_bobur_hayron.jpg","ibora2"]]` — personaj hissiyoti gapga qarab almashadi (kulgan → xafa → hayron), almashganda kichik "pop".
+
+## 2026-10-16 qo'shimchalar
+- `"pace": "fast"` (video darajasida) — qisqa pauzalar (LEAD 0.06, TAIL 0.12), kuchliroq Ken Burns, har yangi gapda kichik kamera turtkisi, tez kirish, o'tishlar whip/zoom/flash/slide.
+- `theme.transitions`: `["whip","zoom","flash","slide","torn"]` dan ro'yxat (sahnalar navbat bilan oladi); sahnada `"transition": "zoom"` bilan aniq. `theme.cut_fx`: sahna ichidagi kesish turi (punch | flash | whip).
+- Sahna `imgs`: shu sahnadagi qo'shimcha kadrlar, gap davomida tez almashadi:
+  `"imgs": ["05b.jpg", ["05c.jpg", "ibora"], {"img": "05d.jpg", "at": 3.2, "fx": "flash", "kb": [1.0, 1.15, 0.2, 0]}]` — `at` bo'lmasa teng bo'lib almashadi.
+- Element `mark` — qo'lda chizilgan belgi: `{"type":"mark","shape":"circle|arrow|underline|check|cross|burst|box","x":540,"y":900,"w":380,"h":260,"to":[x,y] (arrow),"color":"red","width":13,"at":"ibora","label":"MANA U!","label_x":..,"label_y":..,"out":"ibora"}`.
+- `char`/`prop` yangi `motion`: `point` (rot/`dir` yo'nalishida turtadi), `pulse`, `jump`, `wag` (+ bounce, shake, fly). `spin` va sekin `float` tavsiya qilinmaydi.
+- Stiker rasmi job `img/` da bo'lmasa `assets/gestures/` dan olinadi.
+- `"music": {"genre": "chiptune|synthwave|space|doira_pop|doira_folk|lapar|lofi|jazz_swing|detective|funk|disco|polka|western|tango|toy|epic", "bpm":.., "key":.., "scale":.., "progression":[0,5,3,4]}` yoki `{"file": "music.mp3", "offset": 0}` (aud/ ichida).
+- `theme.font`/`font2`: reel/fonts dagi istalgan fayl, nomi kichik harfda va "-Regular"siz (specialelite, bungee, audiowide, shrikhand, blackopsone, monoton, rye, chewy, titanone, abrilfatface, alfaslabone, vt323, silkscreen, permanentmarker, patrickhand, pacifico, creepster, righteous, rubikbubbles, rubikglitch, bungeeshade ...).

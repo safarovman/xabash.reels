@@ -1,0 +1,61 @@
+{
+ "flow_prompts": [
+  {"file": "p_g_bugli_non.jpg", "prompt": "<STYLE> a single round golden Uzbek tandir bread (non) with stamped center pattern and sesame seeds, soft warm steam rising from it, isolated on pure white background, no text"},
+  {"file": "p_g_yurakcha.jpg", "prompt": "<STYLE> a small cluster of three warm red hearts of different sizes, soft glow, sticker-like icon, isolated on pure white background, no text"},
+  {"file": "p_g_olov_uchqun.jpg", "prompt": "<STYLE> a bright burst of orange tandir fire sparks and small flickering flames, glowing embers, isolated on pure white background, no text"},
+  {"file": "p_g_un_bulut.jpg", "prompt": "<STYLE> a soft puff cloud of white flour dust with a few drifting flour particles, light and airy, isolated on pure white background, no text"},
+  {"file": "p_g_korsatgich_qol.jpg", "prompt": "<STYLE> a realistic human hand with index finger pointing to the side, light flour dusting on the fingers, isolated on pure white background, no text"},
+  {"file": "p_g_undov.jpg", "prompt": "<STYLE> a single bold red exclamation mark icon with small motion lines around it, isolated on pure white background, no text"},
+  {"file": "p_g_bugdoy_boshoq.jpg", "prompt": "<STYLE> a golden bundle of three ripe wheat ears with long awns, tied with a thin red thread, isolated on pure white background, no text"}
+ ],
+ "elements": {
+  "1": [
+   {"type": "prop", "img": "p_g_bugdoy_boshoq.jpg", "x": 170, "y": 640, "h": 280, "from": "pop", "motion": "pulse", "at": "bitta qoida"},
+   {"type": "mark", "shape": "underline", "x": 540, "y": 1190, "w": 600, "at": "hech qachon teskari", "label": "QOIDA №1!"}
+  ],
+  "2": [
+   {"type": "prop", "img": "p_g_undov.jpg", "x": 890, "y": 620, "h": 240, "from": "pop", "motion": "shake", "at": "non-ku bu"},
+   {"type": "mark", "shape": "cross", "x": 540, "y": 950, "w": 400, "h": 300, "at": "Qanday qo'ysa ham", "label": "YO'Q-YO'Q!"}
+  ],
+  "3": [
+   {"type": "prop", "img": "p_g_korsatgich_qol.jpg", "x": 180, "y": 900, "h": 280, "from": "left", "motion": "point", "dir": "right", "at": "rizqing teskari ketadi"},
+   {"type": "mark", "shape": "check", "x": 780, "y": 1020, "w": 220, "at": "to'g'rilab qo'y", "label": "TO'G'RILA!"},
+   {"type": "mark", "shape": "circle", "x": 540, "y": 1120, "w": 320, "h": 180, "at": "Ushog'ini ham", "label": "USHOG'I HAM!"}
+  ],
+  "4": [
+   {"type": "mark", "shape": "arrow", "x": 220, "y": 620, "to": [460, 860], "at": "ertasi kuni tongda", "label": "TONGDA!"},
+   {"type": "prop", "img": "p_g_bugli_non.jpg", "x": 880, "y": 700, "h": 260, "from": "pop", "motion": "bounce", "at": "tandirxonaga"}
+  ],
+  "5": [
+   {"type": "prop", "img": "p_g_un_bulut.jpg", "x": 190, "y": 700, "h": 260, "from": "pop", "motion": "pulse", "at": "xamir kechasi tindiriladi", "label": "BUTUN TUN!"},
+   {"type": "prop", "img": "p_g_olov_uchqun.jpg", "x": 880, "y": 1020, "h": 280, "from": "pop", "motion": "jump", "at": "tandir qiziydi"}
+  ],
+  "6": [
+   {"type": "mark", "shape": "burst", "x": 540, "y": 760, "w": 380, "at": "Voy, qo'lim!", "label": "ISSIQ!"},
+   {"type": "mark", "shape": "arrow", "x": 860, "y": 880, "to": [600, 1100], "at": "Nonim tushib ketdi!", "label": "VOY!"}
+  ],
+  "7": [
+   {"type": "mark", "shape": "circle", "x": 540, "y": 1080, "w": 420, "h": 220, "at": "Unni ham, suvni ham", "label": "UN + SUV"},
+   {"type": "mark", "shape": "cross", "x": 820, "y": 980, "w": 200, "h": 160, "at": "o'shanday chiqmabdi", "label": "BARIBIR EMAS!"}
+  ],
+  "8": [
+   {"type": "prop", "img": "p_g_korsatgich_qol.jpg", "x": 190, "y": 660, "h": 280, "from": "left", "motion": "point", "dir": "up", "rot": -30, "at": "havosini"},
+   {"type": "mark", "shape": "burst", "x": 850, "y": 580, "w": 260, "at": "olib kelolmadim", "label": "SIR SHU!"}
+  ],
+  "9": [
+   {"type": "mark", "shape": "check", "x": 200, "y": 620, "w": 200, "at": "Raqam esa haqiqiy", "label": "HAQIQIY!"},
+   {"type": "mark", "shape": "box", "x": 540, "y": 900, "w": 760, "h": 480, "at": "o'n besh mingtacha", "label": "15 000 TA!"}
+  ],
+  "10": [
+   {"type": "prop", "img": "p_g_yurakcha.jpg", "x": 880, "y": 600, "h": 240, "from": "pop", "motion": "pulse", "at": "hurmat qilamiz"},
+   {"type": "mark", "shape": "circle", "x": 540, "y": 980, "w": 380, "h": 220, "at": "Ikki qo'llab", "label": "IKKI QO'LLAB!"}
+  ],
+  "11": [
+   {"type": "mark", "shape": "arrow", "x": 220, "y": 700, "to": [450, 950], "at": "Biroz qiyshiq", "label": "QIYSHIQ-U..."},
+   {"type": "mark", "shape": "check", "x": 790, "y": 1020, "w": 220, "at": "to'ppa-to'g'ri turardi", "label": "TO'PPA-TO'G'RI!"}
+  ],
+  "12": [
+   {"type": "prop", "img": "p_g_korsatgich_qol.jpg", "x": 880, "y": 1100, "h": 260, "from": "right", "motion": "point", "dir": "down", "at": "Izohda yozing"}
+  ]
+ }
+}

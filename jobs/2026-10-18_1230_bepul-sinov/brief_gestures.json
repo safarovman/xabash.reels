@@ -1,0 +1,60 @@
+{
+ "flow_prompts": [
+  {"file": "p_g_tangalar.jpg", "prompt": "<STYLE> a burst of shiny gold coins flying away upward with little motion lines, playful cartoon sticker, isolated on pure white background, no text"},
+  {"file": "p_g_karta.jpg", "prompt": "<STYLE> a single blue bank card tilted at an angle with small red warning sparks around it, cartoon sticker, isolated on pure white background, no text"},
+  {"file": "p_g_qongiroq.jpg", "prompt": "<STYLE> a golden notification bell ringing with a small red round badge and vibration lines, cartoon sticker, isolated on pure white background, no text"},
+  {"file": "p_g_ter.jpg", "prompt": "<STYLE> one big glossy light-blue cartoon sweat drop, anime style nervous sweat sticker, isolated on pure white background, no text"},
+  {"file": "p_g_qaychi.jpg", "prompt": "<STYLE> a pair of open red-handled scissors in a cutting pose, cartoon sticker, isolated on pure white background, no text"},
+  {"file": "p_g_lupa.jpg", "prompt": "<STYLE> a magnifying glass with a wooden handle and a shiny lens reflection, tilted, cartoon sticker, isolated on pure white background, no text"},
+  {"file": "p_g_kalendar.jpg", "prompt": "<STYLE> a tear-off calendar sheet flying with its top edge ripped, red header strip, blank page, cartoon sticker, isolated on pure white background, no text"},
+  {"file": "p_g_undov.jpg", "prompt": "<STYLE> a bold red exclamation mark with a small shock burst behind it, cartoon reaction sticker, isolated on pure white background, no text"}
+ ],
+ "elements": {
+  "1": [
+   {"type": "mark", "shape": "circle", "x": 540, "y": 880, "w": 360, "h": 300, "at": "bepul", "label": "BEPUL?"},
+   {"type": "mark", "shape": "burst", "x": 860, "y": 620, "w": 220, "at": "bitta deb", "label": "BITTAMI?!"}
+  ],
+  "2": [
+   {"type": "prop", "img": "p_g_qongiroq.jpg", "x": 860, "y": 580, "h": 240, "from": "pop", "motion": "wag", "at": "Yetti kun bepul"},
+   {"type": "mark", "shape": "underline", "x": 540, "y": 1120, "w": 440, "at": "buxgalterman-ku", "label": "HISOBCHI!"}
+  ],
+  "3": [
+   {"type": "prop", "img": "p_g_kalendar.jpg", "x": 200, "y": 640, "h": 260, "from": "pop", "motion": "shake", "at": "Yetti kun o'tdi", "label": "7 KUN!"},
+   {"type": "mark", "shape": "circle", "x": 540, "y": 820, "w": 380, "h": 300, "at": "Keyin bir oy", "label": "+1 OY"},
+   {"type": "prop", "img": "p_g_tangalar.jpg", "x": 860, "y": 700, "h": 280, "from": "pop", "motion": "jump", "at": "Keyin uch oy", "label": "3 OY!!"}
+  ],
+  "4": [
+   {"type": "prop", "img": "p_g_karta.jpg", "x": 870, "y": 620, "h": 240, "from": "pop", "motion": "shake", "at": "kartadan", "label": "HAR OY!"},
+   {"type": "mark", "shape": "box", "x": 540, "y": 900, "w": 420, "h": 260, "at": "Premium Plyus Gold", "label": "KIM U?!"}
+  ],
+  "5": [
+   {"type": "prop", "img": "p_g_ter.jpg", "x": 760, "y": 560, "h": 200, "from": "pop", "motion": "bounce", "at": "meditatsiya"},
+   {"type": "mark", "shape": "arrow", "x": 900, "y": 1150, "to": [640, 950], "at": "Asabni tinchlantiradi", "label": "YOLG'ON!"}
+  ],
+  "6": [
+   {"type": "prop", "img": "p_g_undov.jpg", "x": 870, "y": 580, "h": 240, "from": "pop", "motion": "pulse", "at": "kartani"},
+   {"type": "mark", "shape": "burst", "x": 540, "y": 640, "w": 300, "at": "asabim chiqyapti", "label": "ASAB!"}
+  ],
+  "7": [
+   {"type": "prop", "img": "p_g_lupa.jpg", "x": 150, "y": 700, "h": 220, "from": "pop", "motion": "point", "dir": "right", "rot": -15, "at": "so'rov o'tkazildi"},
+   {"type": "mark", "shape": "box", "x": 940, "y": 1040, "w": 200, "h": 150, "at": "Hisoblaganda", "label": "SHOK!"}
+  ],
+  "8": [
+   {"type": "prop", "img": "p_g_tangalar.jpg", "x": 870, "y": 640, "h": 260, "from": "pop", "motion": "jump", "at": "har oy"},
+   {"type": "mark", "shape": "underline", "x": 540, "y": 1120, "w": 480, "at": "o'zlari bilmagan", "label": "-$133 / OY"}
+  ],
+  "9": [
+   {"type": "mark", "shape": "check", "x": 860, "y": 620, "w": 200, "at": "bekor qilaman", "label": "DARHOL!"},
+   {"type": "prop", "img": "p_g_qongiroq.jpg", "x": 200, "y": 660, "h": 220, "from": "pop", "motion": "wag", "at": "Ko'p ilovalarda"}
+  ],
+  "10": [
+   {"type": "prop", "img": "p_g_lupa.jpg", "x": 870, "y": 600, "h": 240, "from": "pop", "motion": "point", "dir": "left", "rot": 20, "at": "obunalar ro'yxatini"},
+   {"type": "mark", "shape": "circle", "x": 540, "y": 860, "w": 420, "h": 320, "at": "o'n bitta obuna", "label": "11 TA!"},
+   {"type": "mark", "shape": "arrow", "x": 920, "y": 1160, "to": [650, 960], "at": "buxgalteriya kursi", "label": "UNUTILGAN!"}
+  ],
+  "11": [
+   {"type": "prop", "img": "p_g_qaychi.jpg", "x": 830, "y": 680, "h": 280, "from": "pop", "motion": "shake", "at": "Hozir oching", "label": "KES!"},
+   {"type": "mark", "shape": "arrow", "x": 300, "y": 900, "to": [480, 1180], "at": "izohda yozing", "label": "IZOHGA!"}
+  ]
+ }
+}

@@ -1,0 +1,60 @@
+{
+ "flow_prompts": [
+  {"file": "p_g_chaqmoq.jpg", "prompt": "<STYLE> zigzag yellow lightning bolt with small sparks, like electric interference above a TV antenna, cartoon sticker, isolated on pure white background, no text"},
+  {"file": "p_g_ter.jpg", "prompt": "<STYLE> big single blue cartoon sweat drop with white shine highlight, comic reaction icon, isolated on pure white background, no text"},
+  {"file": "p_g_zzz.jpg", "prompt": "<STYLE> three floating sleepy Z letters of decreasing size, comic snoring symbol, isolated on pure white background, no text"},
+  {"file": "p_g_qol.jpg", "prompt": "<STYLE> cartoon hand with extended index finger pointing to the left, white glove style with bold outline, isolated on pure white background, no text"},
+  {"file": "p_g_undov.jpg", "prompt": "<STYLE> bold red exclamation mark with small impact lines around it, comic alert icon, isolated on pure white background, no text"},
+  {"file": "p_g_pult.jpg", "prompt": "<STYLE> chunky vintage 1950s TV remote control with a few big round buttons and a curly cable, retro cartoon object, isolated on pure white background, no text"},
+  {"file": "p_g_tovush.jpg", "prompt": "<STYLE> curved cartoon sound wave arcs radiating from a small spark point, comic click sound effect symbol, isolated on pure white background, no text"},
+  {"file": "p_g_prujina.jpg", "prompt": "<STYLE> shiny cartoon metal coil spring bouncing with motion lines, comic boing icon, isolated on pure white background, no text"}
+ ],
+ "elements": {
+  "1": [
+   {"type": "mark", "shape": "burst", "x": 540, "y": 720, "w": 440, "at": "Botir!", "label": "CHAQIRUV!", "color": "yellow"},
+   {"type": "prop", "img": "p_g_undov.jpg", "x": 860, "y": 600, "h": 260, "from": "pop", "motion": "shake", "at": "Futbol boshlanyapti!"}
+  ],
+  "2": [
+   {"type": "prop", "img": "p_g_pult.jpg", "x": 210, "y": 620, "h": 240, "from": "pop", "motion": "wag", "at": "Uyda pult yo'q edi."},
+   {"type": "mark", "shape": "arrow", "x": 880, "y": 560, "to": [640, 800], "at": "Uning ismi Botir edi.", "label": "MANA U!", "label_x": 860, "label_y": 500, "color": "red"}
+  ],
+  "3": [
+   {"type": "mark", "shape": "check", "x": 230, "y": 600, "w": 160, "at": "kanalni almashtirish", "label": "VAZIFA BOR!", "label_x": 260, "label_y": 520},
+   {"type": "prop", "img": "p_g_zzz.jpg", "x": 820, "y": 580, "h": 240, "from": "pop", "motion": "pulse", "at": "dadasi uxlab qolsa"}
+  ],
+  "4": [
+   {"type": "prop", "img": "p_g_chaqmoq.jpg", "x": 540, "y": 560, "h": 250, "from": "pop", "motion": "shake", "at": "Endi antennani ushlab tur!"},
+   {"type": "mark", "shape": "arrow", "x": 800, "y": 860, "to": [440, 860], "at": "chaproqqa", "label": "CHAPROQ!", "label_x": 780, "label_y": 960, "color": "yellow"},
+   {"type": "mark", "shape": "box", "x": 540, "y": 820, "w": 460, "h": 560, "at": "Qimirlama!", "label": "QOTIB QOL!", "label_y": 1180}
+  ],
+  "5": [
+   {"type": "prop", "img": "p_g_qol.jpg", "x": 880, "y": 700, "h": 220, "from": "pop", "motion": "point", "dir": "left", "at": "Dada, Botir"},
+   {"type": "mark", "shape": "circle", "x": 540, "y": 640, "w": 300, "h": 240, "at": "ikki soatdan beri", "label": "2 SOAT!", "color": "red"},
+   {"type": "prop", "img": "p_g_ter.jpg", "x": 300, "y": 620, "h": 200, "from": "pop", "motion": "bounce", "at": "Qo'li uxlab qoldi-ku!"}
+  ],
+  "6": [
+   {"type": "mark", "shape": "underline", "x": 540, "y": 560, "w": 420, "at": "ming to'qqiz yuz elliginchi yilda", "label": "1950-YIL!", "label_y": 500},
+   {"type": "mark", "shape": "circle", "x": 600, "y": 900, "w": 360, "h": 220, "at": "«Lazy Bones»", "label": "DANGASA SUYAK!", "label_y": 1060, "color": "yellow"},
+   {"type": "mark", "shape": "arrow", "x": 260, "y": 1150, "to": [480, 1000], "at": "sim bilan ulangan", "label": "SIMLI!", "label_x": 220, "label_y": 1210, "color": "red"}
+  ],
+  "7": [
+   {"type": "mark", "shape": "burst", "x": 540, "y": 800, "w": 400, "at": "simsiz pult yasadi", "label": "SIMSIZ!", "label_y": 560},
+   {"type": "prop", "img": "p_g_tovush.jpg", "x": 800, "y": 700, "h": 240, "from": "pop", "motion": "pulse", "at": "«chiq»"}
+  ],
+  "8": [
+   {"type": "mark", "shape": "cross", "x": 230, "y": 620, "w": 180, "at": "«Botir!» desam", "label": "PULT KERAKMAS!", "label_x": 300, "label_y": 530, "color": "red"},
+   {"type": "prop", "img": "p_g_prujina.jpg", "x": 800, "y": 1000, "h": 260, "from": "bottom", "motion": "jump", "at": "o'rnidan turardi!"}
+  ],
+  "9": [
+   {"type": "mark", "shape": "arrow", "x": 860, "y": 560, "to": [620, 740], "at": "Botir katta bo'ldi.", "label": "42 YOSH!", "label_x": 860, "label_y": 500, "color": "yellow"}
+  ],
+  "10": [
+   {"type": "mark", "shape": "cross", "x": 820, "y": 860, "w": 200, "at": "ovozli yordamchiga ayting", "label": "ESKIRDIK!", "label_x": 820, "label_y": 740},
+   {"type": "prop", "img": "p_g_undov.jpg", "x": 250, "y": 600, "h": 220, "from": "pop", "motion": "jump", "at": "antenna ushlab o'tkazganman!"}
+  ],
+  "11": [
+   {"type": "mark", "shape": "circle", "x": 540, "y": 760, "w": 460, "h": 420, "at": "Bir — ha, men edim.", "label": "MEN EDIM!", "label_y": 1020, "color": "red"},
+   {"type": "prop", "img": "p_g_qol.jpg", "x": 860, "y": 1100, "h": 220, "from": "pop", "motion": "point", "dir": "left", "rot": -20, "at": "Izohda yozing!"}
+  ]
+ }
+}

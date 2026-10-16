@@ -1,0 +1,62 @@
+{
+ "flow_prompts": [
+  {"file": "p_g_mikrob.jpg", "prompt": "<STYLE> cute but slightly gross round green cartoon germ microbe with tiny legs, little spikes and a mischievous grin, sticker style, isolated on pure white background, no text"},
+  {"file": "p_g_lupa.jpg", "prompt": "<STYLE> classic magnifying glass with wooden handle and shiny glass lens with white highlight, tilted, cartoon sticker, isolated on pure white background, no text"},
+  {"file": "p_g_kopik.jpg", "prompt": "<STYLE> fluffy cluster of white soap foam bubbles with a few shiny rainbow-tinted bubbles floating up, cartoon sticker, isolated on pure white background, no text"},
+  {"file": "p_g_stop.jpg", "prompt": "<STYLE> open cartoon hand palm facing forward in a firm stop gesture, fingers together, bold outline, small motion lines, isolated on pure white background, no text"},
+  {"file": "p_g_koz.jpg", "prompt": "<STYLE> pair of big wide-open cartoon eyes looking sideways with suspicious raised brows, comic reaction sticker, isolated on pure white background, no text"},
+  {"file": "p_g_sanoq.jpg", "prompt": "<STYLE> hand-drawn tally marks on a small notepad page, four vertical strokes crossed by a diagonal fifth stroke plus extra strokes, pencil lying beside, cartoon sticker, isolated on pure white background, no text"},
+  {"file": "p_g_ter.jpg", "prompt": "<STYLE> big single blue cartoon sweat drop with white shine highlight and two tiny drops, comic nervous reaction icon, isolated on pure white background, no text"},
+  {"file": "p_g_undov.jpg", "prompt": "<STYLE> bold red exclamation mark with yellow impact burst lines around it, comic alert icon, isolated on pure white background, no text"}
+ ],
+ "elements": {
+  "1": [
+   {"type": "prop", "img": "p_g_stop.jpg", "x": 820, "y": 620, "h": 300, "from": "pop", "motion": "shake", "at": "To'xtang"},
+   {"type": "mark", "shape": "arrow", "x": 880, "y": 1080, "to": [640, 880], "color": "red", "at": "Mana, yana", "label": "YANA!", "label_x": 880, "label_y": 1150}
+  ],
+  "2": [
+   {"type": "prop", "img": "p_g_mikrob.jpg", "x": 240, "y": 1020, "h": 220, "from": "pop", "motion": "bounce", "at": "minglab kupyura"},
+   {"type": "mark", "shape": "arrow", "x": 860, "y": 560, "to": [600, 760], "color": "red", "at": "burnini qashiydi", "label": "BURUN!", "label_x": 880, "label_y": 520}
+  ],
+  "3": [
+   {"type": "prop", "img": "p_g_undov.jpg", "x": 840, "y": 580, "h": 260, "from": "pop", "motion": "jump", "at": "Jasur aka"},
+   {"type": "mark", "shape": "circle", "x": 560, "y": 720, "w": 240, "h": 170, "color": "red", "at": "ko'zingizni", "label": "KO'Z!", "label_x": 300, "label_y": 600}
+  ],
+  "4": [
+   {"type": "mark", "shape": "arrow", "x": 860, "y": 1120, "to": [600, 960], "color": "red", "at": "umuman tegmayman", "label": "HOZIR-CHI?", "label_x": 800, "label_y": 1190}
+  ],
+  "5": [
+   {"type": "mark", "shape": "circle", "x": 540, "y": 600, "w": 300, "h": 140, "color": "red", "at": "sanay", "label": "1 PESHONA!", "label_x": 540, "label_y": 520},
+   {"type": "mark", "shape": "circle", "x": 330, "y": 760, "w": 140, "h": 180, "color": "red", "at": "boshladi", "label": "2 QULOQ!", "label_x": 220, "label_y": 900},
+   {"type": "mark", "shape": "circle", "x": 560, "y": 800, "w": 170, "h": 170, "color": "red", "at": "Bir soatda", "label": "3 BURUN!", "label_x": 820, "label_y": 820},
+   {"type": "prop", "img": "p_g_sanoq.jpg", "x": 820, "y": 1060, "h": 280, "from": "pop", "motion": "pulse", "at": "yigirma uch marta"}
+  ],
+  "6": [
+   {"type": "prop", "img": "p_g_lupa.jpg", "x": 820, "y": 640, "h": 300, "from": "pop", "motion": "point", "rot": -30, "at": "videoga olingan"},
+   {"type": "mark", "shape": "box", "x": 540, "y": 900, "w": 560, "h": 260, "color": "red", "at": "yigirma uch marta", "label": "HAR SOAT!", "label_x": 540, "label_y": 1100}
+  ],
+  "7": [
+   {"type": "mark", "shape": "circle", "x": 540, "y": 800, "w": 340, "h": 420, "color": "red", "at": "og'iz, burun va ko'zga", "label": "ESHIKLAR!", "label_x": 540, "label_y": 540},
+   {"type": "prop", "img": "p_g_mikrob.jpg", "x": 830, "y": 1040, "h": 260, "from": "pop", "motion": "jump", "at": "Mikroblar"}
+  ],
+  "8": [
+   {"type": "prop", "img": "p_g_kopik.jpg", "x": 820, "y": 1020, "h": 300, "from": "pop", "motion": "bounce", "at": "tez-tez yuving"},
+   {"type": "prop", "img": "p_g_stop.jpg", "x": 250, "y": 640, "h": 280, "from": "pop", "motion": "wag", "at": "to'xtang"}
+  ],
+  "9": [
+   {"type": "mark", "shape": "arrow", "x": 880, "y": 1100, "to": [620, 820], "color": "red", "at": "umuman qo'l tekkizmayman", "label": "LEKIN...?", "label_x": 860, "label_y": 1180}
+  ],
+  "10": [
+   {"type": "prop", "img": "p_g_ter.jpg", "x": 800, "y": 580, "h": 220, "from": "pop", "motion": "shake", "at": "o'n ikki soniya"}
+  ],
+  "11": [
+   {"type": "mark", "shape": "circle", "x": 540, "y": 980, "w": 220, "h": 150, "color": "red", "at": "Jasur aka", "label": "22 IYAK!", "label_x": 260, "label_y": 1060},
+   {"type": "mark", "shape": "circle", "x": 470, "y": 720, "w": 200, "h": 140, "color": "red", "at": "Yigirma", "label": "23 KO'Z!", "label_x": 250, "label_y": 620},
+   {"type": "mark", "shape": "arrow", "x": 870, "y": 600, "to": [600, 820], "color": "red", "at": "to'rtinchi", "label": "24 BURUN!", "label_x": 860, "label_y": 530}
+  ],
+  "12": [
+   {"type": "prop", "img": "p_g_koz.jpg", "x": 820, "y": 600, "h": 240, "from": "pop", "motion": "pulse", "at": "Siz-chi"},
+   {"type": "mark", "shape": "arrow", "x": 540, "y": 1000, "to": [540, 1180], "color": "red", "at": "izohda yozing", "label": "IZOH!", "label_x": 760, "label_y": 1060}
+  ]
+ }
+}

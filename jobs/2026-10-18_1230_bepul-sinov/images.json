@@ -1,0 +1,142 @@
+{
+ "c_nigora.jpg": {
+  "prompt": "vertical 9:16, no text, no letters, no logos, pop-art halftone comic illustration of a single adult person, bold thick black ink outlines, Ben-Day dot shading, flat saturated red yellow cyan colors, natural realistic human proportions and realistic face, no chibi, no big anime eyes, full figure centered, isolated on a clean pure white background, no shadow on background. Uzbek woman Nigora, 29, accountant, round glasses, dark red cardigan, hair in a neat bun, confident smile, holding a smartphone, half body.",
+  "ref": null
+ },
+ "c_nigora_hayajon.jpg": {
+  "prompt": "vertical 9:16, no text, no letters, no logos, pop-art halftone comic illustration of a single adult person, bold thick black ink outlines, Ben-Day dot shading, flat saturated red yellow cyan colors, natural realistic human proportions and realistic face, no chibi, no big anime eyes, full figure centered, isolated on a clean pure white background, no shadow on background. Same woman as in the reference image (Uzbek woman Nigora, 29, accountant, round glasses, dark red cardigan, hair in a neat bun), excited, fist pump, half body.",
+  "ref": "c_nigora.jpg"
+ },
+ "c_nigora_xijolat.jpg": {
+  "prompt": "vertical 9:16, no text, no letters, no logos, pop-art halftone comic illustration of a single adult person, bold thick black ink outlines, Ben-Day dot shading, flat saturated red yellow cyan colors, natural realistic human proportions and realistic face, no chibi, no big anime eyes, full figure centered, isolated on a clean pure white background, no shadow on background. Same woman as in the reference image (Uzbek woman Nigora, 29, accountant, round glasses, dark red cardigan, hair in a neat bun), nervous guilty grin, sweat drop, hiding a phone behind her back, half body.",
+  "ref": "c_nigora.jpg"
+ },
+ "c_nigora_hayron.jpg": {
+  "prompt": "vertical 9:16, no text, no letters, no logos, pop-art halftone comic illustration of a single adult person, bold thick black ink outlines, Ben-Day dot shading, flat saturated red yellow cyan colors, natural realistic human proportions and realistic face, no chibi, no big anime eyes, full figure centered, isolated on a clean pure white background, no shadow on background. Same woman as in the reference image (Uzbek woman Nigora, 29, accountant, round glasses, dark red cardigan, hair in a neat bun), shocked, mouth open, hands on cheeks, half body.",
+  "ref": "c_nigora.jpg"
+ },
+ "c_ulugbek.jpg": {
+  "prompt": "vertical 9:16, no text, no letters, no logos, pop-art halftone comic illustration of a single adult person, bold thick black ink outlines, Ben-Day dot shading, flat saturated red yellow cyan colors, natural realistic human proportions and realistic face, no chibi, no big anime eyes, full figure centered, isolated on a clean pure white background, no shadow on background. Uzbek man Ulugbek, 32, short dark beard, navy t-shirt, suspicious raised eyebrow, holding a tablet, half body.",
+  "ref": null
+ },
+ "c_shahzoda.jpg": {
+  "prompt": "vertical 9:16, no text, no letters, no logos, pop-art halftone comic illustration of a single adult person, bold thick black ink outlines, Ben-Day dot shading, flat saturated red yellow cyan colors, natural realistic human proportions and realistic face, no chibi, no big anime eyes, full figure centered, isolated on a clean pure white background, no shadow on background. Uzbek woman Shahzoda, 28, short bob haircut, bright yellow dress, cheerful, one finger raised explaining a clever idea, half body.",
+  "ref": null
+ },
+ "p_karta.jpg": {
+  "prompt": "vertical 9:16, no text, no letters, no logos, pop-art halftone comic illustration of a single object, bold thick black ink outline, Ben-Day dot shading, flat saturated red yellow cyan colors, centered, isolated on a clean pure white background. a bank card with coins flying out of it.",
+  "ref": null
+ },
+ "01.jpg": {
+  "prompt": "vertical 9:16, no text, no letters, no logos, pop-art comic book panel illustration in the style of 1960s Lichtenstein-inspired print, visible Ben-Day halftone dots, bold thick black ink outlines, flat saturated primary colors (hot red, lemon yellow, cyan blue) with white highlights, dramatic comic framing and speed lines, modern Tashkent apartment or cafe setting, adult people with natural realistic human proportions and realistic faces, expressive but anatomically correct, no chibi, no big anime eyes, no speech balloons. Uzbek woman Nigora, 29, accountant, round glasses, dark red cardigan, hair in a neat bun relaxing on a couch in a modern Tashkent apartment holding her phone with a big glowing button on the screen.",
+  "ref": null
+ },
+ "01b.jpg": {
+  "prompt": "vertical 9:16, no text, no letters, no logos, pop-art comic book panel illustration in the style of 1960s Lichtenstein-inspired print, visible Ben-Day halftone dots, bold thick black ink outlines, flat saturated primary colors (hot red, lemon yellow, cyan blue) with white highlights, dramatic comic framing and speed lines, modern Tashkent apartment or cafe setting, adult people with natural realistic human proportions and realistic faces, expressive but anatomically correct, no chibi, no big anime eyes, no speech balloons. close-up of Uzbek woman Nigora, 29, accountant, round glasses, dark red cardigan, hair in a neat bun with a confident smile, phone light reflecting in her glasses.",
+  "ref": null
+ },
+ "02.jpg": {
+  "prompt": "vertical 9:16, no text, no letters, no logos, pop-art comic book panel illustration in the style of 1960s Lichtenstein-inspired print, visible Ben-Day halftone dots, bold thick black ink outlines, flat saturated primary colors (hot red, lemon yellow, cyan blue) with white highlights, dramatic comic framing and speed lines, modern Tashkent apartment or cafe setting, adult people with natural realistic human proportions and realistic faces, expressive but anatomically correct, no chibi, no big anime eyes, no speech balloons. Uzbek woman Nigora, 29, accountant, round glasses, dark red cardigan, hair in a neat bun tapping her phone excitedly, colorful icons of film, music note and books bursting out of the screen.",
+  "ref": null
+ },
+ "02b.jpg": {
+  "prompt": "vertical 9:16, no text, no letters, no logos, pop-art comic book panel illustration in the style of 1960s Lichtenstein-inspired print, visible Ben-Day halftone dots, bold thick black ink outlines, flat saturated primary colors (hot red, lemon yellow, cyan blue) with white highlights, dramatic comic framing and speed lines, modern Tashkent apartment or cafe setting, adult people with natural realistic human proportions and realistic faces, expressive but anatomically correct, no chibi, no big anime eyes, no speech balloons. Uzbek woman Nigora, 29, accountant, round glasses, dark red cardigan, hair in a neat bun winking and pointing at herself proudly, a calculator and ledgers on her desk.",
+  "ref": null
+ },
+ "03.jpg": {
+  "prompt": "vertical 9:16, no text, no letters, no logos, pop-art comic book panel illustration in the style of 1960s Lichtenstein-inspired print, visible Ben-Day halftone dots, bold thick black ink outlines, flat saturated primary colors (hot red, lemon yellow, cyan blue) with white highlights, dramatic comic framing and speed lines, modern Tashkent apartment or cafe setting, adult people with natural realistic human proportions and realistic faces, expressive but anatomically correct, no chibi, no big anime eyes, no speech balloons. calendar pages flying through the air in a whirlwind over a modern apartment.",
+  "ref": null
+ },
+ "03b.jpg": {
+  "prompt": "vertical 9:16, no text, no letters, no logos, pop-art comic book panel illustration in the style of 1960s Lichtenstein-inspired print, visible Ben-Day halftone dots, bold thick black ink outlines, flat saturated primary colors (hot red, lemon yellow, cyan blue) with white highlights, dramatic comic framing and speed lines, modern Tashkent apartment or cafe setting, adult people with natural realistic human proportions and realistic faces, expressive but anatomically correct, no chibi, no big anime eyes, no speech balloons. Uzbek woman Nigora, 29, accountant, round glasses, dark red cardigan, hair in a neat bun asleep on the couch with her phone on her chest at night.",
+  "ref": null
+ },
+ "03c.jpg": {
+  "prompt": "vertical 9:16, no text, no letters, no logos, pop-art comic book panel illustration in the style of 1960s Lichtenstein-inspired print, visible Ben-Day halftone dots, bold thick black ink outlines, flat saturated primary colors (hot red, lemon yellow, cyan blue) with white highlights, dramatic comic framing and speed lines, modern Tashkent apartment or cafe setting, adult people with natural realistic human proportions and realistic faces, expressive but anatomically correct, no chibi, no big anime eyes, no speech balloons. a bank card inside an open wallet with coins flying away from it like birds.",
+  "ref": null
+ },
+ "04.jpg": {
+  "prompt": "vertical 9:16, no text, no letters, no logos, pop-art comic book panel illustration in the style of 1960s Lichtenstein-inspired print, visible Ben-Day halftone dots, bold thick black ink outlines, flat saturated primary colors (hot red, lemon yellow, cyan blue) with white highlights, dramatic comic framing and speed lines, modern Tashkent apartment or cafe setting, adult people with natural realistic human proportions and realistic faces, expressive but anatomically correct, no chibi, no big anime eyes, no speech balloons. Uzbek man Ulugbek, 32, short dark beard, navy t-shirt sitting at a kitchen table holding a tablet showing a bank statement, raising one eyebrow suspiciously.",
+  "ref": null
+ },
+ "04b.jpg": {
+  "prompt": "vertical 9:16, no text, no letters, no logos, pop-art comic book panel illustration in the style of 1960s Lichtenstein-inspired print, visible Ben-Day halftone dots, bold thick black ink outlines, flat saturated primary colors (hot red, lemon yellow, cyan blue) with white highlights, dramatic comic framing and speed lines, modern Tashkent apartment or cafe setting, adult people with natural realistic human proportions and realistic faces, expressive but anatomically correct, no chibi, no big anime eyes, no speech balloons. close-up of a tablet screen showing repeated identical red charges in a list, abstract shapes only.",
+  "ref": null
+ },
+ "05.jpg": {
+  "prompt": "vertical 9:16, no text, no letters, no logos, pop-art comic book panel illustration in the style of 1960s Lichtenstein-inspired print, visible Ben-Day halftone dots, bold thick black ink outlines, flat saturated primary colors (hot red, lemon yellow, cyan blue) with white highlights, dramatic comic framing and speed lines, modern Tashkent apartment or cafe setting, adult people with natural realistic human proportions and realistic faces, expressive but anatomically correct, no chibi, no big anime eyes, no speech balloons. Uzbek woman Nigora, 29, accountant, round glasses, dark red cardigan, hair in a neat bun grinning nervously with a big sweat drop, hiding her phone behind her back in the kitchen.",
+  "ref": null
+ },
+ "06.jpg": {
+  "prompt": "vertical 9:16, no text, no letters, no logos, pop-art comic book panel illustration in the style of 1960s Lichtenstein-inspired print, visible Ben-Day halftone dots, bold thick black ink outlines, flat saturated primary colors (hot red, lemon yellow, cyan blue) with white highlights, dramatic comic framing and speed lines, modern Tashkent apartment or cafe setting, adult people with natural realistic human proportions and realistic faces, expressive but anatomically correct, no chibi, no big anime eyes, no speech balloons. Uzbek man Ulugbek, 32, short dark beard, navy t-shirt doing a facepalm at the kitchen table while Uzbek woman Nigora, 29, accountant, round glasses, dark red cardigan, hair in a neat bun shrinks behind a chair.",
+  "ref": null
+ },
+ "07.jpg": {
+  "prompt": "vertical 9:16, no text, no letters, no logos, pop-art comic book panel illustration in the style of 1960s Lichtenstein-inspired print, visible Ben-Day halftone dots, bold thick black ink outlines, flat saturated primary colors (hot red, lemon yellow, cyan blue) with white highlights, dramatic comic framing and speed lines, modern Tashkent apartment or cafe setting, adult people with natural realistic human proportions and realistic faces, expressive but anatomically correct, no chibi, no big anime eyes, no speech balloons. a group of shocked adults holding calculators and extremely long paper receipts unrolling to the floor like scrolls.",
+  "ref": null
+ },
+ "07b.jpg": {
+  "prompt": "vertical 9:16, no text, no letters, no logos, pop-art comic book panel illustration in the style of 1960s Lichtenstein-inspired print, visible Ben-Day halftone dots, bold thick black ink outlines, flat saturated primary colors (hot red, lemon yellow, cyan blue) with white highlights, dramatic comic framing and speed lines, modern Tashkent apartment or cafe setting, adult people with natural realistic human proportions and realistic faces, expressive but anatomically correct, no chibi, no big anime eyes, no speech balloons. a giant smartphone with coins pouring out of it into a drain.",
+  "ref": null
+ },
+ "08.jpg": {
+  "prompt": "vertical 9:16, no text, no letters, no logos, pop-art comic book panel illustration in the style of 1960s Lichtenstein-inspired print, visible Ben-Day halftone dots, bold thick black ink outlines, flat saturated primary colors (hot red, lemon yellow, cyan blue) with white highlights, dramatic comic framing and speed lines, modern Tashkent apartment or cafe setting, adult people with natural realistic human proportions and realistic faces, expressive but anatomically correct, no chibi, no big anime eyes, no speech balloons. a smartphone mounted like a kitchen water tap, dripping gold coins into a sink.",
+  "ref": null
+ },
+ "08b.jpg": {
+  "prompt": "vertical 9:16, no text, no letters, no logos, pop-art comic book panel illustration in the style of 1960s Lichtenstein-inspired print, visible Ben-Day halftone dots, bold thick black ink outlines, flat saturated primary colors (hot red, lemon yellow, cyan blue) with white highlights, dramatic comic framing and speed lines, modern Tashkent apartment or cafe setting, adult people with natural realistic human proportions and realistic faces, expressive but anatomically correct, no chibi, no big anime eyes, no speech balloons. close-up of a piggy bank looking empty, last coin falling out.",
+  "ref": null
+ },
+ "09.jpg": {
+  "prompt": "vertical 9:16, no text, no letters, no logos, pop-art comic book panel illustration in the style of 1960s Lichtenstein-inspired print, visible Ben-Day halftone dots, bold thick black ink outlines, flat saturated primary colors (hot red, lemon yellow, cyan blue) with white highlights, dramatic comic framing and speed lines, modern Tashkent apartment or cafe setting, adult people with natural realistic human proportions and realistic faces, expressive but anatomically correct, no chibi, no big anime eyes, no speech balloons. Uzbek woman Shahzoda, 28, short bob haircut, bright yellow dress in a bright cafe explaining with one finger raised while Uzbek woman Nigora, 29, accountant, round glasses, dark red cardigan, hair in a neat bun takes notes in a notebook.",
+  "ref": null
+ },
+ "09b.jpg": {
+  "prompt": "vertical 9:16, no text, no letters, no logos, pop-art comic book panel illustration in the style of 1960s Lichtenstein-inspired print, visible Ben-Day halftone dots, bold thick black ink outlines, flat saturated primary colors (hot red, lemon yellow, cyan blue) with white highlights, dramatic comic framing and speed lines, modern Tashkent apartment or cafe setting, adult people with natural realistic human proportions and realistic faces, expressive but anatomically correct, no chibi, no big anime eyes, no speech balloons. close-up of Uzbek woman Shahzoda, 28, short bob haircut, bright yellow dress winking and pressing a cancel button on her phone.",
+  "ref": null
+ },
+ "10.jpg": {
+  "prompt": "vertical 9:16, no text, no letters, no logos, pop-art comic book panel illustration in the style of 1960s Lichtenstein-inspired print, visible Ben-Day halftone dots, bold thick black ink outlines, flat saturated primary colors (hot red, lemon yellow, cyan blue) with white highlights, dramatic comic framing and speed lines, modern Tashkent apartment or cafe setting, adult people with natural realistic human proportions and realistic faces, expressive but anatomically correct, no chibi, no big anime eyes, no speech balloons. Uzbek woman Nigora, 29, accountant, round glasses, dark red cardigan, hair in a neat bun at night in bed scrolling an extremely long list on her phone, face lit blue by the screen, shocked.",
+  "ref": null
+ },
+ "10b.jpg": {
+  "prompt": "vertical 9:16, no text, no letters, no logos, pop-art comic book panel illustration in the style of 1960s Lichtenstein-inspired print, visible Ben-Day halftone dots, bold thick black ink outlines, flat saturated primary colors (hot red, lemon yellow, cyan blue) with white highlights, dramatic comic framing and speed lines, modern Tashkent apartment or cafe setting, adult people with natural realistic human proportions and realistic faces, expressive but anatomically correct, no chibi, no big anime eyes, no speech balloons. extreme close-up of Uzbek woman Nigora, 29, accountant, round glasses, dark red cardigan, hair in a neat bun's stunned eyes behind round glasses reflecting a long list.",
+  "ref": null
+ },
+ "11.jpg": {
+  "prompt": "vertical 9:16, no text, no letters, no logos, pop-art comic book panel illustration in the style of 1960s Lichtenstein-inspired print, visible Ben-Day halftone dots, bold thick black ink outlines, flat saturated primary colors (hot red, lemon yellow, cyan blue) with white highlights, dramatic comic framing and speed lines, modern Tashkent apartment or cafe setting, adult people with natural realistic human proportions and realistic faces, expressive but anatomically correct, no chibi, no big anime eyes, no speech balloons. Uzbek woman Nigora, 29, accountant, round glasses, dark red cardigan, hair in a neat bun happily cutting a long paper chain of bank cards with big scissors, triumphant.",
+  "ref": null
+ },
+ "p_g_tangalar.jpg": {
+  "prompt": "vertical 9:16, no text, no letters, no logos, pop-art halftone comic illustration of a single object, bold thick black ink outline, Ben-Day dot shading, flat saturated red yellow cyan colors, centered, isolated on a clean pure white background. a burst of shiny gold coins flying away upward with little motion lines, playful cartoon sticker, isolated on pure white background, no text",
+  "ref": null
+ },
+ "p_g_karta.jpg": {
+  "prompt": "vertical 9:16, no text, no letters, no logos, pop-art halftone comic illustration of a single object, bold thick black ink outline, Ben-Day dot shading, flat saturated red yellow cyan colors, centered, isolated on a clean pure white background. a single blue bank card tilted at an angle with small red warning sparks around it, cartoon sticker, isolated on pure white background, no text",
+  "ref": null
+ },
+ "p_g_qongiroq.jpg": {
+  "prompt": "vertical 9:16, no text, no letters, no logos, pop-art halftone comic illustration of a single object, bold thick black ink outline, Ben-Day dot shading, flat saturated red yellow cyan colors, centered, isolated on a clean pure white background. a golden notification bell ringing with a small red round badge and vibration lines, cartoon sticker, isolated on pure white background, no text",
+  "ref": null
+ },
+ "p_g_ter.jpg": {
+  "prompt": "vertical 9:16, no text, no letters, no logos, pop-art halftone comic illustration of a single object, bold thick black ink outline, Ben-Day dot shading, flat saturated red yellow cyan colors, centered, isolated on a clean pure white background. one big glossy light-blue cartoon sweat drop, anime style nervous sweat sticker, isolated on pure white background, no text",
+  "ref": null
+ },
+ "p_g_qaychi.jpg": {
+  "prompt": "vertical 9:16, no text, no letters, no logos, pop-art halftone comic illustration of a single object, bold thick black ink outline, Ben-Day dot shading, flat saturated red yellow cyan colors, centered, isolated on a clean pure white background. a pair of open red-handled scissors in a cutting pose, cartoon sticker, isolated on pure white background, no text",
+  "ref": null
+ },
+ "p_g_lupa.jpg": {
+  "prompt": "vertical 9:16, no text, no letters, no logos, pop-art halftone comic illustration of a single object, bold thick black ink outline, Ben-Day dot shading, flat saturated red yellow cyan colors, centered, isolated on a clean pure white background. a magnifying glass with a wooden handle and a shiny lens reflection, tilted, cartoon sticker, isolated on pure white background, no text",
+  "ref": null
+ },
+ "p_g_kalendar.jpg": {
+  "prompt": "vertical 9:16, no text, no letters, no logos, pop-art halftone comic illustration of a single object, bold thick black ink outline, Ben-Day dot shading, flat saturated red yellow cyan colors, centered, isolated on a clean pure white background. a tear-off calendar sheet flying with its top edge ripped, red header strip, blank page, cartoon sticker, isolated on pure white background, no text",
+  "ref": null
+ },
+ "p_g_undov.jpg": {
+  "prompt": "vertical 9:16, no text, no letters, no logos, pop-art halftone comic illustration of a single object, bold thick black ink outline, Ben-Day dot shading, flat saturated red yellow cyan colors, centered, isolated on a clean pure white background. a bold red exclamation mark with a small shock burst behind it, cartoon reaction sticker, isolated on pure white background, no text",
+  "ref": null
+ }
+}

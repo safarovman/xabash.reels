@@ -1,0 +1,19 @@
+{
+ "style_name": "Izometrik tilt-shift miniatyura diorama (yumshoq 3D render, tungi 2045 oshxona)",
+ "image_prefix": "isometric tilt-shift miniature diorama, soft 3D render like a handcrafted scale model, shallow depth of field with strong tilt-shift blur at top and bottom edges, crisp focus band on the subject, matte clay and smooth plastic materials, gentle global illumination, cozy night-time 2045 smart kitchen lit by cool blue fridge glow and a small warm under-cabinet lamp, deep navy shadows, tiny realistic details, realistic miniature people with natural adult body proportions and real human faces, not cartoon, no chibi, no big eyes; every scene including the year-2000 showroom and 2024 fridge interior is shown as the same miniature diorama set; vertical 9:16, no text, no letters, no logos",
+ "character_prefix": "single person, full body, natural realistic adult proportions, real human face, rendered as a highly detailed tilt-shift miniature scale-model figurine, soft 3D render, matte clay and fabric textures, soft studio light with a subtle cool blue rim light, slight shallow depth of field, isolated on a clean plain white background, not cartoon, no chibi, no big eyes; vertical 9:16, no text, no letters, no logos",
+ "prop_prefix": "single object, centered, rendered as a tilt-shift miniature scale-model prop, soft 3D render, matte clay and smooth plastic materials, soft studio light with a subtle cool blue glow, slight shallow depth of field, isolated on a clean plain white background; vertical 9:16, no text, no letters, no logos",
+ "theme": {
+  "font": "audiowide",
+  "font2": "righteous",
+  "accent": [92, 204, 255],
+  "accent2": [176, 232, 108],
+  "bubble_bg": [20, 30, 56],
+  "bubble_line": [92, 204, 255],
+  "bubble_ink": [240, 248, 255],
+  "bubble_dim": [124, 146, 182],
+  "transitions": ["zoom", "slide", "flash"],
+  "cut_fx": "punch"
+ },
+ "why": "AI muzlatkich odamni 'kuzatib turgan' kichkina oshxona dunyosi — izometrik tilt-shift diorama tomoshabinga xuddi kamera ko'zidan pastga qarab turgandek his beradi, yumshoq 3D render esa 2045-yil kelajagini sovuq ko'k nur va o'yinchoqdek qiziq qilib ko'rsatadi."
+}

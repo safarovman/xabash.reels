@@ -1,0 +1,19 @@
+{
+ "style_name": "Iliq moy bo'yoq (tandir olovi va oltin yorug'lik, ko'rinadigan cho'tka izlari)",
+ "image_prefix": "vertical 9:16, no text, no letters, no logos, warm traditional oil painting on canvas, visible thick impasto brushstrokes and canvas texture, glowing tandir fire and golden hour light, rich amber, ochre, burnt sienna and deep warm brown palette with soft crimson accents, chiaroscuro glow like Rembrandt and Orientalist genre painting, tender loving family mood, Uzbek home, mahalla bakery and historic Bukhara palace scenes all painted in the same warm oil style, realistic people with natural body proportions and real faces, not cartoon, no chibi, no big anime eyes, ",
+ "character_prefix": "vertical 9:16, no text, no letters, no logos, warm traditional oil painting of a single person, full figure, natural realistic body proportions and real human face, visible impasto brushstrokes, golden warm firelight on skin, amber and ochre palette, not cartoon, no chibi, no big anime eyes, isolated on a clean plain white background, no background scenery, ",
+ "prop_prefix": "vertical 9:16, no text, no letters, no logos, warm traditional oil painting of a single object, centered, visible impasto brushstrokes, golden warm light, amber and ochre palette, isolated on a clean plain white background, no background scenery, ",
+ "theme": {
+  "font": "shrikhand",
+  "font2": "patrickhand",
+  "accent": [196, 74, 38],
+  "accent2": [242, 184, 76],
+  "bubble_bg": [252, 241, 220],
+  "bubble_line": [140, 78, 40],
+  "bubble_ink": [58, 34, 22],
+  "bubble_dim": [156, 122, 94],
+  "transitions": ["flash", "zoom", "slide"],
+  "cut_fx": "flash"
+ },
+ "why": "Non, tandir olovi va buvi mehri iliq moy bo'yoqda tabiiy jaranglaydi, Buxoro amiri rivoyati ham eski klassik rasmdek ko'rinib video yaxlit qoladi; sovet plyonka, pop-art, diorama va noirdan keskin farq qiladi."
+}

@@ -1,0 +1,138 @@
+{
+ "c_buvi.jpg": {
+  "prompt": "vertical 9:16, no text, no letters, no logos, warm traditional oil painting of a single person, full figure, natural realistic body proportions and real human face, visible impasto brushstrokes, golden warm firelight on skin, amber and ochre palette, not cartoon, no chibi, no big anime eyes, isolated on a clean plain white background, no background scenery. elderly Uzbek grandmother Malika, 72, white headscarf, dark green atlas dress, kind wrinkled face, warm smile, holding a round Uzbek non bread with both hands, half body.",
+  "ref": null
+ },
+ "c_buvi_hayron.jpg": {
+  "prompt": "vertical 9:16, no text, no letters, no logos, warm traditional oil painting of a single person, full figure, natural realistic body proportions and real human face, visible impasto brushstrokes, golden warm firelight on skin, amber and ochre palette, not cartoon, no chibi, no big anime eyes, isolated on a clean plain white background, no background scenery. Same woman as in the reference image (elderly Uzbek grandmother Malika, 72, white headscarf, dark green atlas dress, kind wrinkled face), gasping with one hand on her chest, half body.",
+  "ref": "c_buvi.jpg"
+ },
+ "c_buvi_mamnun.jpg": {
+  "prompt": "vertical 9:16, no text, no letters, no logos, warm traditional oil painting of a single person, full figure, natural realistic body proportions and real human face, visible impasto brushstrokes, golden warm firelight on skin, amber and ochre palette, not cartoon, no chibi, no big anime eyes, isolated on a clean plain white background, no background scenery. Same woman as in the reference image (elderly Uzbek grandmother Malika, 72, white headscarf, dark green atlas dress, kind wrinkled face), beaming proudly with teary happy eyes, half body.",
+  "ref": "c_buvi.jpg"
+ },
+ "c_sherzod.jpg": {
+  "prompt": "vertical 9:16, no text, no letters, no logos, warm traditional oil painting of a single person, full figure, natural realistic body proportions and real human face, visible impasto brushstrokes, golden warm firelight on skin, amber and ochre palette, not cartoon, no chibi, no big anime eyes, isolated on a clean plain white background, no background scenery. Uzbek teenage boy Sherzod, 16, black hoodie, headphones around his neck, casual shrug with a careless smile, half body.",
+  "ref": null
+ },
+ "c_sherzod_vahima.jpg": {
+  "prompt": "vertical 9:16, no text, no letters, no logos, warm traditional oil painting of a single person, full figure, natural realistic body proportions and real human face, visible impasto brushstrokes, golden warm firelight on skin, amber and ochre palette, not cartoon, no chibi, no big anime eyes, isolated on a clean plain white background, no background scenery. Same boy as in the reference image (Uzbek teenage boy Sherzod, 16, black hoodie, headphones around his neck), panicking, shaking his burnt hand, half body.",
+  "ref": "c_sherzod.jpg"
+ },
+ "c_rahmat.jpg": {
+  "prompt": "vertical 9:16, no text, no letters, no logos, warm traditional oil painting of a single person, full figure, natural realistic body proportions and real human face, visible impasto brushstrokes, golden warm firelight on skin, amber and ochre palette, not cartoon, no chibi, no big anime eyes, isolated on a clean plain white background, no background scenery. Uzbek baker Rahmat, 50, white skullcap, white apron, strong forearms dusted with flour, friendly smile, holding a ball of dough, half body.",
+  "ref": null
+ },
+ "p_non.jpg": {
+  "prompt": "vertical 9:16, no text, no letters, no logos, warm traditional oil painting of a single object, centered, visible impasto brushstrokes, golden warm light, amber and ochre palette, isolated on a clean plain white background, no background scenery. a round golden Uzbek tandir non bread with a stamped pattern in the center, face up.",
+  "ref": null
+ },
+ "01.jpg": {
+  "prompt": "vertical 9:16, no text, no letters, no logos, warm traditional oil painting on canvas, visible thick impasto brushstrokes and canvas texture, glowing tandir fire and golden hour light, rich amber, ochre, burnt sienna and deep warm brown palette with soft crimson accents, chiaroscuro glow like Rembrandt and Orientalist genre painting, tender loving family mood, Uzbek home, mahalla bakery and historic Bukhara palace scenes all painted in the same warm oil style, realistic people with natural body proportions and real faces, not cartoon, no chibi, no big anime eyes. golden round Uzbek tandir breads on a dasturxon tablecloth in warm evening light, family hands around the table.",
+  "ref": null
+ },
+ "01b.jpg": {
+  "prompt": "vertical 9:16, no text, no letters, no logos, warm traditional oil painting on canvas, visible thick impasto brushstrokes and canvas texture, glowing tandir fire and golden hour light, rich amber, ochre, burnt sienna and deep warm brown palette with soft crimson accents, chiaroscuro glow like Rembrandt and Orientalist genre painting, tender loving family mood, Uzbek home, mahalla bakery and historic Bukhara palace scenes all painted in the same warm oil style, realistic people with natural body proportions and real faces, not cartoon, no chibi, no big anime eyes. close-up of an elderly woman's hands placing a round non bread face up on the dasturxon.",
+  "ref": null
+ },
+ "02.jpg": {
+  "prompt": "vertical 9:16, no text, no letters, no logos, warm traditional oil painting on canvas, visible thick impasto brushstrokes and canvas texture, glowing tandir fire and golden hour light, rich amber, ochre, burnt sienna and deep warm brown palette with soft crimson accents, chiaroscuro glow like Rembrandt and Orientalist genre painting, tender loving family mood, Uzbek home, mahalla bakery and historic Bukhara palace scenes all painted in the same warm oil style, realistic people with natural body proportions and real faces, not cartoon, no chibi, no big anime eyes. Uzbek teenage boy Sherzod, 16, black hoodie, headphones around his neck carelessly tossing a round bread upside down onto the table.",
+  "ref": null
+ },
+ "02b.jpg": {
+  "prompt": "vertical 9:16, no text, no letters, no logos, warm traditional oil painting on canvas, visible thick impasto brushstrokes and canvas texture, glowing tandir fire and golden hour light, rich amber, ochre, burnt sienna and deep warm brown palette with soft crimson accents, chiaroscuro glow like Rembrandt and Orientalist genre painting, tender loving family mood, Uzbek home, mahalla bakery and historic Bukhara palace scenes all painted in the same warm oil style, realistic people with natural body proportions and real faces, not cartoon, no chibi, no big anime eyes. close-up of a round non bread lying upside down on a tablecloth.",
+  "ref": null
+ },
+ "03.jpg": {
+  "prompt": "vertical 9:16, no text, no letters, no logos, warm traditional oil painting on canvas, visible thick impasto brushstrokes and canvas texture, glowing tandir fire and golden hour light, rich amber, ochre, burnt sienna and deep warm brown palette with soft crimson accents, chiaroscuro glow like Rembrandt and Orientalist genre painting, tender loving family mood, Uzbek home, mahalla bakery and historic Bukhara palace scenes all painted in the same warm oil style, realistic people with natural body proportions and real faces, not cartoon, no chibi, no big anime eyes. elderly Uzbek grandmother Malika, 72, white headscarf, dark green atlas dress, kind wrinkled face gasping with her hand on her chest in a cozy Uzbek home.",
+  "ref": null
+ },
+ "03b.jpg": {
+  "prompt": "vertical 9:16, no text, no letters, no logos, warm traditional oil painting on canvas, visible thick impasto brushstrokes and canvas texture, glowing tandir fire and golden hour light, rich amber, ochre, burnt sienna and deep warm brown palette with soft crimson accents, chiaroscuro glow like Rembrandt and Orientalist genre painting, tender loving family mood, Uzbek home, mahalla bakery and historic Bukhara palace scenes all painted in the same warm oil style, realistic people with natural body proportions and real faces, not cartoon, no chibi, no big anime eyes. close-up of an elderly woman's wrinkled hand gently turning a round bread right side up.",
+  "ref": null
+ },
+ "03c.jpg": {
+  "prompt": "vertical 9:16, no text, no letters, no logos, warm traditional oil painting on canvas, visible thick impasto brushstrokes and canvas texture, glowing tandir fire and golden hour light, rich amber, ochre, burnt sienna and deep warm brown palette with soft crimson accents, chiaroscuro glow like Rembrandt and Orientalist genre painting, tender loving family mood, Uzbek home, mahalla bakery and historic Bukhara palace scenes all painted in the same warm oil style, realistic people with natural body proportions and real faces, not cartoon, no chibi, no big anime eyes. close-up of an elderly woman's palm collecting bread crumbs from a tablecloth.",
+  "ref": null
+ },
+ "04.jpg": {
+  "prompt": "vertical 9:16, no text, no letters, no logos, warm traditional oil painting on canvas, visible thick impasto brushstrokes and canvas texture, glowing tandir fire and golden hour light, rich amber, ochre, burnt sienna and deep warm brown palette with soft crimson accents, chiaroscuro glow like Rembrandt and Orientalist genre painting, tender loving family mood, Uzbek home, mahalla bakery and historic Bukhara palace scenes all painted in the same warm oil style, realistic people with natural body proportions and real faces, not cartoon, no chibi, no big anime eyes. dawn in a mahalla street, elderly Uzbek grandmother Malika, 72, white headscarf, dark green atlas dress, kind wrinkled face leading sleepy Uzbek teenage boy Sherzod, 16, black hoodie, headphones around his neck by the hand toward a bakery with smoke rising.",
+  "ref": null
+ },
+ "05.jpg": {
+  "prompt": "vertical 9:16, no text, no letters, no logos, warm traditional oil painting on canvas, visible thick impasto brushstrokes and canvas texture, glowing tandir fire and golden hour light, rich amber, ochre, burnt sienna and deep warm brown palette with soft crimson accents, chiaroscuro glow like Rembrandt and Orientalist genre painting, tender loving family mood, Uzbek home, mahalla bakery and historic Bukhara palace scenes all painted in the same warm oil style, realistic people with natural body proportions and real faces, not cartoon, no chibi, no big anime eyes. Uzbek baker Rahmat, 50, white skullcap, white apron, strong forearms dusted with flour kneading dough in a traditional tandirxona bakery, glowing tandir oven fire behind.",
+  "ref": null
+ },
+ "05b.jpg": {
+  "prompt": "vertical 9:16, no text, no letters, no logos, warm traditional oil painting on canvas, visible thick impasto brushstrokes and canvas texture, glowing tandir fire and golden hour light, rich amber, ochre, burnt sienna and deep warm brown palette with soft crimson accents, chiaroscuro glow like Rembrandt and Orientalist genre painting, tender loving family mood, Uzbek home, mahalla bakery and historic Bukhara palace scenes all painted in the same warm oil style, realistic people with natural body proportions and real faces, not cartoon, no chibi, no big anime eyes. Uzbek baker Rahmat, 50, white skullcap, white apron, strong forearms dusted with flour handing a round piece of flattened dough to Uzbek teenage boy Sherzod, 16, black hoodie, headphones around his neck.",
+  "ref": null
+ },
+ "06.jpg": {
+  "prompt": "vertical 9:16, no text, no letters, no logos, warm traditional oil painting on canvas, visible thick impasto brushstrokes and canvas texture, glowing tandir fire and golden hour light, rich amber, ochre, burnt sienna and deep warm brown palette with soft crimson accents, chiaroscuro glow like Rembrandt and Orientalist genre painting, tender loving family mood, Uzbek home, mahalla bakery and historic Bukhara palace scenes all painted in the same warm oil style, realistic people with natural body proportions and real faces, not cartoon, no chibi, no big anime eyes. Uzbek teenage boy Sherzod, 16, black hoodie, headphones around his neck jerking his hand back from a glowing tandir oven in comic panic, the baker laughing beside him.",
+  "ref": null
+ },
+ "06b.jpg": {
+  "prompt": "vertical 9:16, no text, no letters, no logos, warm traditional oil painting on canvas, visible thick impasto brushstrokes and canvas texture, glowing tandir fire and golden hour light, rich amber, ochre, burnt sienna and deep warm brown palette with soft crimson accents, chiaroscuro glow like Rembrandt and Orientalist genre painting, tender loving family mood, Uzbek home, mahalla bakery and historic Bukhara palace scenes all painted in the same warm oil style, realistic people with natural body proportions and real faces, not cartoon, no chibi, no big anime eyes. close-up of a round dough slipping off the inside wall of a glowing tandir oven.",
+  "ref": null
+ },
+ "07.jpg": {
+  "prompt": "vertical 9:16, no text, no letters, no logos, warm traditional oil painting on canvas, visible thick impasto brushstrokes and canvas texture, glowing tandir fire and golden hour light, rich amber, ochre, burnt sienna and deep warm brown palette with soft crimson accents, chiaroscuro glow like Rembrandt and Orientalist genre painting, tender loving family mood, Uzbek home, mahalla bakery and historic Bukhara palace scenes all painted in the same warm oil style, realistic people with natural body proportions and real faces, not cartoon, no chibi, no big anime eyes. historic Bukhara palace kitchen, an emir in rich silk robes and turban tasting bread with a disappointed face, a baker bowing.",
+  "ref": null
+ },
+ "07b.jpg": {
+  "prompt": "vertical 9:16, no text, no letters, no logos, warm traditional oil painting on canvas, visible thick impasto brushstrokes and canvas texture, glowing tandir fire and golden hour light, rich amber, ochre, burnt sienna and deep warm brown palette with soft crimson accents, chiaroscuro glow like Rembrandt and Orientalist genre painting, tender loving family mood, Uzbek home, mahalla bakery and historic Bukhara palace scenes all painted in the same warm oil style, realistic people with natural body proportions and real faces, not cartoon, no chibi, no big anime eyes. a camel caravan carrying flour sacks and large water jugs across a desert road toward Bukhara.",
+  "ref": null
+ },
+ "08.jpg": {
+  "prompt": "vertical 9:16, no text, no letters, no logos, warm traditional oil painting on canvas, visible thick impasto brushstrokes and canvas texture, glowing tandir fire and golden hour light, rich amber, ochre, burnt sienna and deep warm brown palette with soft crimson accents, chiaroscuro glow like Rembrandt and Orientalist genre painting, tender loving family mood, Uzbek home, mahalla bakery and historic Bukhara palace scenes all painted in the same warm oil style, realistic people with natural body proportions and real faces, not cartoon, no chibi, no big anime eyes. an old baker gesturing toward the sky over the turquoise domes of Samarkand at golden dusk.",
+  "ref": null
+ },
+ "09.jpg": {
+  "prompt": "vertical 9:16, no text, no letters, no logos, warm traditional oil painting on canvas, visible thick impasto brushstrokes and canvas texture, glowing tandir fire and golden hour light, rich amber, ochre, burnt sienna and deep warm brown palette with soft crimson accents, chiaroscuro glow like Rembrandt and Orientalist genre painting, tender loving family mood, Uzbek home, mahalla bakery and historic Bukhara palace scenes all painted in the same warm oil style, realistic people with natural body proportions and real faces, not cartoon, no chibi, no big anime eyes. hundreds of round Samarkand breads cooling on wooden racks in a busy bakery, warm light.",
+  "ref": null
+ },
+ "09b.jpg": {
+  "prompt": "vertical 9:16, no text, no letters, no logos, warm traditional oil painting on canvas, visible thick impasto brushstrokes and canvas texture, glowing tandir fire and golden hour light, rich amber, ochre, burnt sienna and deep warm brown palette with soft crimson accents, chiaroscuro glow like Rembrandt and Orientalist genre painting, tender loving family mood, Uzbek home, mahalla bakery and historic Bukhara palace scenes all painted in the same warm oil style, realistic people with natural body proportions and real faces, not cartoon, no chibi, no big anime eyes. a wooden cart stacked high with round breads in a bazaar morning.",
+  "ref": null
+ },
+ "10.jpg": {
+  "prompt": "vertical 9:16, no text, no letters, no logos, warm traditional oil painting on canvas, visible thick impasto brushstrokes and canvas texture, glowing tandir fire and golden hour light, rich amber, ochre, burnt sienna and deep warm brown palette with soft crimson accents, chiaroscuro glow like Rembrandt and Orientalist genre painting, tender loving family mood, Uzbek home, mahalla bakery and historic Bukhara palace scenes all painted in the same warm oil style, realistic people with natural body proportions and real faces, not cartoon, no chibi, no big anime eyes. elderly Uzbek grandmother Malika, 72, white headscarf, dark green atlas dress, kind wrinkled face breaking a round bread with both hands and sharing pieces with her family, Uzbek teenage boy Sherzod, 16, black hoodie, headphones around his neck listening thoughtfully.",
+  "ref": null
+ },
+ "11.jpg": {
+  "prompt": "vertical 9:16, no text, no letters, no logos, warm traditional oil painting on canvas, visible thick impasto brushstrokes and canvas texture, glowing tandir fire and golden hour light, rich amber, ochre, burnt sienna and deep warm brown palette with soft crimson accents, chiaroscuro glow like Rembrandt and Orientalist genre painting, tender loving family mood, Uzbek home, mahalla bakery and historic Bukhara palace scenes all painted in the same warm oil style, realistic people with natural body proportions and real faces, not cartoon, no chibi, no big anime eyes. Uzbek teenage boy Sherzod, 16, black hoodie, headphones around his neck proudly placing a slightly lopsided homemade bread face up on the dasturxon, elderly Uzbek grandmother Malika, 72, white headscarf, dark green atlas dress, kind wrinkled face beaming.",
+  "ref": null
+ },
+ "12.jpg": {
+  "prompt": "vertical 9:16, no text, no letters, no logos, warm traditional oil painting on canvas, visible thick impasto brushstrokes and canvas texture, glowing tandir fire and golden hour light, rich amber, ochre, burnt sienna and deep warm brown palette with soft crimson accents, chiaroscuro glow like Rembrandt and Orientalist genre painting, tender loving family mood, Uzbek home, mahalla bakery and historic Bukhara palace scenes all painted in the same warm oil style, realistic people with natural body proportions and real faces, not cartoon, no chibi, no big anime eyes. a dasturxon with round bread, tea pot and bowls in warm evening lamplight, cozy still life.",
+  "ref": null
+ },
+ "p_g_bugli_non.jpg": {
+  "prompt": "vertical 9:16, no text, no letters, no logos, warm traditional oil painting of a single object, centered, visible impasto brushstrokes, golden warm light, amber and ochre palette, isolated on a clean plain white background, no background scenery. a single round golden Uzbek tandir bread (non) with stamped center pattern and sesame seeds, soft warm steam rising from it, isolated on pure white background, no text",
+  "ref": null
+ },
+ "p_g_yurakcha.jpg": {
+  "prompt": "vertical 9:16, no text, no letters, no logos, warm traditional oil painting of a single object, centered, visible impasto brushstrokes, golden warm light, amber and ochre palette, isolated on a clean plain white background, no background scenery. a small cluster of three warm red hearts of different sizes, soft glow, sticker-like icon, isolated on pure white background, no text",
+  "ref": null
+ },
+ "p_g_olov_uchqun.jpg": {
+  "prompt": "vertical 9:16, no text, no letters, no logos, warm traditional oil painting of a single object, centered, visible impasto brushstrokes, golden warm light, amber and ochre palette, isolated on a clean plain white background, no background scenery. a bright burst of orange tandir fire sparks and small flickering flames, glowing embers, isolated on pure white background, no text",
+  "ref": null
+ },
+ "p_g_un_bulut.jpg": {
+  "prompt": "vertical 9:16, no text, no letters, no logos, warm traditional oil painting of a single object, centered, visible impasto brushstrokes, golden warm light, amber and ochre palette, isolated on a clean plain white background, no background scenery. a soft puff cloud of white flour dust with a few drifting flour particles, light and airy, isolated on pure white background, no text",
+  "ref": null
+ },
+ "p_g_korsatgich_qol.jpg": {
+  "prompt": "vertical 9:16, no text, no letters, no logos, warm traditional oil painting of a single object, centered, visible impasto brushstrokes, golden warm light, amber and ochre palette, isolated on a clean plain white background, no background scenery. a realistic human hand with index finger pointing to the side, light flour dusting on the fingers, isolated on pure white background, no text",
+  "ref": null
+ },
+ "p_g_undov.jpg": {
+  "prompt": "vertical 9:16, no text, no letters, no logos, warm traditional oil painting of a single object, centered, visible impasto brushstrokes, golden warm light, amber and ochre palette, isolated on a clean plain white background, no background scenery. a single bold red exclamation mark icon with small motion lines around it, isolated on pure white background, no text",
+  "ref": null
+ },
+ "p_g_bugdoy_boshoq.jpg": {
+  "prompt": "vertical 9:16, no text, no letters, no logos, warm traditional oil painting of a single object, centered, visible impasto brushstrokes, golden warm light, amber and ochre palette, isolated on a clean plain white background, no background scenery. a golden bundle of three ripe wheat ears with long awns, tied with a thin red thread, isolated on pure white background, no text",
+  "ref": null
+ }
+}

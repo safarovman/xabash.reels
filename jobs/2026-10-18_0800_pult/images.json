@@ -1,0 +1,150 @@
+{
+ "c_dada.jpg": {
+  "prompt": "single person, full body, natural realistic proportions, real human face, 1990s amateur family snapshot on Soviet color film, warm faded colors, visible film grain, direct on-camera flash, soft warm skin tones, isolated on a clean plain white background, not cartoon, no chibi; vertical 9:16, no text, no letters, no logos. Uzbek father Erkin, 45, thick black mustache, white sleeveless undershirt and dark sweatpants, lying back on a sofa cushion pose, pointing lazily forward with one finger and shouting, half body.",
+  "ref": null
+ },
+ "c_dada_kulgan.jpg": {
+  "prompt": "single person, full body, natural realistic proportions, real human face, 1990s amateur family snapshot on Soviet color film, warm faded colors, visible film grain, direct on-camera flash, soft warm skin tones, isolated on a clean plain white background, not cartoon, no chibi; vertical 9:16, no text, no letters, no logos. Same man as in the reference image (Uzbek father Erkin, 45, thick black mustache, white sleeveless undershirt and dark sweatpants), laughing loudly, snapping his fingers, half body.",
+  "ref": "c_dada.jpg"
+ },
+ "c_botir.jpg": {
+  "prompt": "single person, full body, natural realistic proportions, real human face, 1990s amateur family snapshot on Soviet color film, warm faded colors, visible film grain, direct on-camera flash, soft warm skin tones, isolated on a clean plain white background, not cartoon, no chibi; vertical 9:16, no text, no letters, no logos. 11-year-old Uzbek boy Botir with a short buzz cut and a faded blue tracksuit, standing at attention like a soldier, proud serious face, full body.",
+  "ref": null
+ },
+ "c_botir_charchagan.jpg": {
+  "prompt": "single person, full body, natural realistic proportions, real human face, 1990s amateur family snapshot on Soviet color film, warm faded colors, visible film grain, direct on-camera flash, soft warm skin tones, isolated on a clean plain white background, not cartoon, no chibi; vertical 9:16, no text, no letters, no logos. Same boy as in the reference image (11-year-old Uzbek boy Botir with a short buzz cut and a faded blue tracksuit), exhausted, one arm raised stiffly holding an old rabbit-ear TV antenna, sweat on forehead, full body.",
+  "ref": "c_botir.jpg"
+ },
+ "c_botir_hayron.jpg": {
+  "prompt": "single person, full body, natural realistic proportions, real human face, 1990s amateur family snapshot on Soviet color film, warm faded colors, visible film grain, direct on-camera flash, soft warm skin tones, isolated on a clean plain white background, not cartoon, no chibi; vertical 9:16, no text, no letters, no logos. Same boy as in the reference image (11-year-old Uzbek boy Botir with a short buzz cut and a faded blue tracksuit), jaw dropped in amazement, hands on cheeks, full body.",
+  "ref": "c_botir.jpg"
+ },
+ "c_maftuna.jpg": {
+  "prompt": "single person, full body, natural realistic proportions, real human face, 1990s amateur family snapshot on Soviet color film, warm faded colors, visible film grain, direct on-camera flash, soft warm skin tones, isolated on a clean plain white background, not cartoon, no chibi; vertical 9:16, no text, no letters, no logos. 16-year-old Uzbek girl Maftuna with two long braids, school uniform with white apron, laughing and pointing, half body.",
+  "ref": null
+ },
+ "c_katta_botir.jpg": {
+  "prompt": "single person, full body, natural realistic proportions, real human face, 1990s amateur family snapshot on Soviet color film, warm faded colors, visible film grain, direct on-camera flash, soft warm skin tones, isolated on a clean plain white background, not cartoon, no chibi; vertical 9:16, no text, no letters, no logos. Uzbek man Botir, 42, short hair with a little grey, grey knitted sweater, sighing with a wry smile, holding an old rabbit-ear antenna, half body.",
+  "ref": null
+ },
+ "p_antenna.jpg": {
+  "prompt": "single object, centered, 1990s amateur snapshot on Soviet color film, warm faded colors, visible film grain, on-camera flash highlight, slightly soft focus, isolated on a clean plain white background; vertical 9:16, no text, no letters, no logos. old 1990s rabbit-ear TV antenna with two long metal rods.",
+  "ref": null
+ },
+ "01.jpg": {
+  "prompt": "1990s amateur family snapshot on Soviet color film (Svema / expired Kodak), warm faded colors, heavy film grain, slight orange-magenta color cast, on-camera flash with soft falloff and warm tungsten lamp light, mild lens vignette, slightly soft focus, candid documentary moment, authentic lived-in interior, realistic people with natural body proportions and real faces, not cartoon, no chibi; the same faded warm home-film look applies to every era, including 1950s American scenes shot as old family snapshots; vertical 9:16, no text, no letters, no logos. 1995 Uzbek apartment living room with a carpet on the wall and a big wooden CRT television, Uzbek father Erkin, 45, thick black mustache, white sleeveless undershirt and dark sweatpants on a sofa shouting toward the boy, 11-year-old Uzbek boy Botir with a short buzz cut and a faded blue tracksuit sitting on the floor carpet turning his head.",
+  "ref": null
+ },
+ "01b.jpg": {
+  "prompt": "1990s amateur family snapshot on Soviet color film (Svema / expired Kodak), warm faded colors, heavy film grain, slight orange-magenta color cast, on-camera flash with soft falloff and warm tungsten lamp light, mild lens vignette, slightly soft focus, candid documentary moment, authentic lived-in interior, realistic people with natural body proportions and real faces, not cartoon, no chibi; the same faded warm home-film look applies to every era, including 1950s American scenes shot as old family snapshots; vertical 9:16, no text, no letters, no logos. close-up of Uzbek father Erkin, 45, thick black mustache, white sleeveless undershirt and dark sweatpants on the sofa shouting with mouth wide open, one finger pointing, TV glow on his face.",
+  "ref": null
+ },
+ "01c.jpg": {
+  "prompt": "1990s amateur family snapshot on Soviet color film (Svema / expired Kodak), warm faded colors, heavy film grain, slight orange-magenta color cast, on-camera flash with soft falloff and warm tungsten lamp light, mild lens vignette, slightly soft focus, candid documentary moment, authentic lived-in interior, realistic people with natural body proportions and real faces, not cartoon, no chibi; the same faded warm home-film look applies to every era, including 1950s American scenes shot as old family snapshots; vertical 9:16, no text, no letters, no logos. 11-year-old Uzbek boy Botir with a short buzz cut and a faded blue tracksuit jumping up from the carpet and running toward the big CRT television, motion blur.",
+  "ref": null
+ },
+ "02.jpg": {
+  "prompt": "1990s amateur family snapshot on Soviet color film (Svema / expired Kodak), warm faded colors, heavy film grain, slight orange-magenta color cast, on-camera flash with soft falloff and warm tungsten lamp light, mild lens vignette, slightly soft focus, candid documentary moment, authentic lived-in interior, realistic people with natural body proportions and real faces, not cartoon, no chibi; the same faded warm home-film look applies to every era, including 1950s American scenes shot as old family snapshots; vertical 9:16, no text, no letters, no logos. 11-year-old Uzbek boy Botir with a short buzz cut and a faded blue tracksuit standing stiffly next to a big 1990s CRT television like a guard, father watching from sofa in background.",
+  "ref": null
+ },
+ "02b.jpg": {
+  "prompt": "1990s amateur family snapshot on Soviet color film (Svema / expired Kodak), warm faded colors, heavy film grain, slight orange-magenta color cast, on-camera flash with soft falloff and warm tungsten lamp light, mild lens vignette, slightly soft focus, candid documentary moment, authentic lived-in interior, realistic people with natural body proportions and real faces, not cartoon, no chibi; the same faded warm home-film look applies to every era, including 1950s American scenes shot as old family snapshots; vertical 9:16, no text, no letters, no logos. close-up of a child's finger turning a chunky round channel selector knob on a 1990s Soviet television, number dial.",
+  "ref": null
+ },
+ "03.jpg": {
+  "prompt": "1990s amateur family snapshot on Soviet color film (Svema / expired Kodak), warm faded colors, heavy film grain, slight orange-magenta color cast, on-camera flash with soft falloff and warm tungsten lamp light, mild lens vignette, slightly soft focus, candid documentary moment, authentic lived-in interior, realistic people with natural body proportions and real faces, not cartoon, no chibi; the same faded warm home-film look applies to every era, including 1950s American scenes shot as old family snapshots; vertical 9:16, no text, no letters, no logos. 11-year-old Uzbek boy Botir with a short buzz cut and a faded blue tracksuit turning the volume knob on the CRT television while the father on the sofa nods approvingly.",
+  "ref": null
+ },
+ "03b.jpg": {
+  "prompt": "1990s amateur family snapshot on Soviet color film (Svema / expired Kodak), warm faded colors, heavy film grain, slight orange-magenta color cast, on-camera flash with soft falloff and warm tungsten lamp light, mild lens vignette, slightly soft focus, candid documentary moment, authentic lived-in interior, realistic people with natural body proportions and real faces, not cartoon, no chibi; the same faded warm home-film look applies to every era, including 1950s American scenes shot as old family snapshots; vertical 9:16, no text, no letters, no logos. Uzbek father Erkin, 45, thick black mustache, white sleeveless undershirt and dark sweatpants asleep and snoring on the sofa, head tilted back, mouth open, television glow in a dark room.",
+  "ref": null
+ },
+ "03c.jpg": {
+  "prompt": "1990s amateur family snapshot on Soviet color film (Svema / expired Kodak), warm faded colors, heavy film grain, slight orange-magenta color cast, on-camera flash with soft falloff and warm tungsten lamp light, mild lens vignette, slightly soft focus, candid documentary moment, authentic lived-in interior, realistic people with natural body proportions and real faces, not cartoon, no chibi; the same faded warm home-film look applies to every era, including 1950s American scenes shot as old family snapshots; vertical 9:16, no text, no letters, no logos. 11-year-old Uzbek boy Botir with a short buzz cut and a faded blue tracksuit tiptoeing in the dark toward the glowing television to switch it off, finger on lips.",
+  "ref": null
+ },
+ "04.jpg": {
+  "prompt": "1990s amateur family snapshot on Soviet color film (Svema / expired Kodak), warm faded colors, heavy film grain, slight orange-magenta color cast, on-camera flash with soft falloff and warm tungsten lamp light, mild lens vignette, slightly soft focus, candid documentary moment, authentic lived-in interior, realistic people with natural body proportions and real faces, not cartoon, no chibi; the same faded warm home-film look applies to every era, including 1950s American scenes shot as old family snapshots; vertical 9:16, no text, no letters, no logos. 11-year-old Uzbek boy Botir with a short buzz cut and a faded blue tracksuit on a chair holding a rabbit-ear TV antenna high above his head in an awkward twisted pose, the CRT screen full of grey static snow.",
+  "ref": null
+ },
+ "04b.jpg": {
+  "prompt": "1990s amateur family snapshot on Soviet color film (Svema / expired Kodak), warm faded colors, heavy film grain, slight orange-magenta color cast, on-camera flash with soft falloff and warm tungsten lamp light, mild lens vignette, slightly soft focus, candid documentary moment, authentic lived-in interior, realistic people with natural body proportions and real faces, not cartoon, no chibi; the same faded warm home-film look applies to every era, including 1950s American scenes shot as old family snapshots; vertical 9:16, no text, no letters, no logos. Uzbek father Erkin, 45, thick black mustache, white sleeveless undershirt and dark sweatpants leaning forward from the sofa, squinting at the television, gesturing 'stop right there' with his palm.",
+  "ref": null
+ },
+ "05.jpg": {
+  "prompt": "1990s amateur family snapshot on Soviet color film (Svema / expired Kodak), warm faded colors, heavy film grain, slight orange-magenta color cast, on-camera flash with soft falloff and warm tungsten lamp light, mild lens vignette, slightly soft focus, candid documentary moment, authentic lived-in interior, realistic people with natural body proportions and real faces, not cartoon, no chibi; the same faded warm home-film look applies to every era, including 1950s American scenes shot as old family snapshots; vertical 9:16, no text, no letters, no logos. 16-year-old Uzbek girl Maftuna with two long braids, school uniform with white apron laughing in the living room doorway, pointing at her little brother.",
+  "ref": null
+ },
+ "05b.jpg": {
+  "prompt": "1990s amateur family snapshot on Soviet color film (Svema / expired Kodak), warm faded colors, heavy film grain, slight orange-magenta color cast, on-camera flash with soft falloff and warm tungsten lamp light, mild lens vignette, slightly soft focus, candid documentary moment, authentic lived-in interior, realistic people with natural body proportions and real faces, not cartoon, no chibi; the same faded warm home-film look applies to every era, including 1950s American scenes shot as old family snapshots; vertical 9:16, no text, no letters, no logos. close-up of 11-year-old Uzbek boy Botir with a short buzz cut and a faded blue tracksuit frozen holding the antenna, his raised arm trembling and numb, sweat drop on his forehead, wall clock behind.",
+  "ref": null
+ },
+ "06.jpg": {
+  "prompt": "1990s amateur family snapshot on Soviet color film (Svema / expired Kodak), warm faded colors, heavy film grain, slight orange-magenta color cast, on-camera flash with soft falloff and warm tungsten lamp light, mild lens vignette, slightly soft focus, candid documentary moment, authentic lived-in interior, realistic people with natural body proportions and real faces, not cartoon, no chibi; the same faded warm home-film look applies to every era, including 1950s American scenes shot as old family snapshots; vertical 9:16, no text, no letters, no logos. 1950s American living room, man in a cardigan in an armchair holding an early wired TV remote with a long cable running to a wooden television set.",
+  "ref": null
+ },
+ "06b.jpg": {
+  "prompt": "1990s amateur family snapshot on Soviet color film (Svema / expired Kodak), warm faded colors, heavy film grain, slight orange-magenta color cast, on-camera flash with soft falloff and warm tungsten lamp light, mild lens vignette, slightly soft focus, candid documentary moment, authentic lived-in interior, realistic people with natural body proportions and real faces, not cartoon, no chibi; the same faded warm home-film look applies to every era, including 1950s American scenes shot as old family snapshots; vertical 9:16, no text, no letters, no logos. close-up of a long tangled remote-control cable wrapped around a man's slippers and a lamp on a 1950s carpet.",
+  "ref": null
+ },
+ "07.jpg": {
+  "prompt": "1990s amateur family snapshot on Soviet color film (Svema / expired Kodak), warm faded colors, heavy film grain, slight orange-magenta color cast, on-camera flash with soft falloff and warm tungsten lamp light, mild lens vignette, slightly soft focus, candid documentary moment, authentic lived-in interior, realistic people with natural body proportions and real faces, not cartoon, no chibi; the same faded warm home-film look applies to every era, including 1950s American scenes shot as old family snapshots; vertical 9:16, no text, no letters, no logos. 1950s engineer in a white shirt and tie at a workshop bench holding an early wireless TV remote prototype with four buttons.",
+  "ref": null
+ },
+ "07b.jpg": {
+  "prompt": "1990s amateur family snapshot on Soviet color film (Svema / expired Kodak), warm faded colors, heavy film grain, slight orange-magenta color cast, on-camera flash with soft falloff and warm tungsten lamp light, mild lens vignette, slightly soft focus, candid documentary moment, authentic lived-in interior, realistic people with natural body proportions and real faces, not cartoon, no chibi; the same faded warm home-film look applies to every era, including 1950s American scenes shot as old family snapshots; vertical 9:16, no text, no letters, no logos. 1950s housewife sitting on a sofa, amazed, pressing a chunky wireless remote toward a wooden television, finger on the big button.",
+  "ref": null
+ },
+ "08.jpg": {
+  "prompt": "1990s amateur family snapshot on Soviet color film (Svema / expired Kodak), warm faded colors, heavy film grain, slight orange-magenta color cast, on-camera flash with soft falloff and warm tungsten lamp light, mild lens vignette, slightly soft focus, candid documentary moment, authentic lived-in interior, realistic people with natural body proportions and real faces, not cartoon, no chibi; the same faded warm home-film look applies to every era, including 1950s American scenes shot as old family snapshots; vertical 9:16, no text, no letters, no logos. Uzbek father Erkin, 45, thick black mustache, white sleeveless undershirt and dark sweatpants laughing on the sofa and snapping his fingers, 11-year-old Uzbek boy Botir with a short buzz cut and a faded blue tracksuit springing up from the floor like a jack-in-the-box.",
+  "ref": null
+ },
+ "09.jpg": {
+  "prompt": "1990s amateur family snapshot on Soviet color film (Svema / expired Kodak), warm faded colors, heavy film grain, slight orange-magenta color cast, on-camera flash with soft falloff and warm tungsten lamp light, mild lens vignette, slightly soft focus, candid documentary moment, authentic lived-in interior, realistic people with natural body proportions and real faces, not cartoon, no chibi; the same faded warm home-film look applies to every era, including 1950s American scenes shot as old family snapshots; vertical 9:16, no text, no letters, no logos. same living room 30 years later, modern flat TV on the wall, Uzbek man Botir, 42, short hair with a little grey, grey knitted sweater sitting on the sofa, his 10-year-old son beside him holding a smartphone.",
+  "ref": null
+ },
+ "10.jpg": {
+  "prompt": "1990s amateur family snapshot on Soviet color film (Svema / expired Kodak), warm faded colors, heavy film grain, slight orange-magenta color cast, on-camera flash with soft falloff and warm tungsten lamp light, mild lens vignette, slightly soft focus, candid documentary moment, authentic lived-in interior, realistic people with natural body proportions and real faces, not cartoon, no chibi; the same faded warm home-film look applies to every era, including 1950s American scenes shot as old family snapshots; vertical 9:16, no text, no letters, no logos. Uzbek man Botir, 42, short hair with a little grey, grey knitted sweater awkwardly talking to a small round smart speaker on the coffee table while his son laughs.",
+  "ref": null
+ },
+ "10b.jpg": {
+  "prompt": "1990s amateur family snapshot on Soviet color film (Svema / expired Kodak), warm faded colors, heavy film grain, slight orange-magenta color cast, on-camera flash with soft falloff and warm tungsten lamp light, mild lens vignette, slightly soft focus, candid documentary moment, authentic lived-in interior, realistic people with natural body proportions and real faces, not cartoon, no chibi; the same faded warm home-film look applies to every era, including 1950s American scenes shot as old family snapshots; vertical 9:16, no text, no letters, no logos. Uzbek man Botir, 42, short hair with a little grey, grey knitted sweater holding an old rabbit-ear antenna nostalgically in front of a modern flat TV, wry smile.",
+  "ref": null
+ },
+ "11.jpg": {
+  "prompt": "1990s amateur family snapshot on Soviet color film (Svema / expired Kodak), warm faded colors, heavy film grain, slight orange-magenta color cast, on-camera flash with soft falloff and warm tungsten lamp light, mild lens vignette, slightly soft focus, candid documentary moment, authentic lived-in interior, realistic people with natural body proportions and real faces, not cartoon, no chibi; the same faded warm home-film look applies to every era, including 1950s American scenes shot as old family snapshots; vertical 9:16, no text, no letters, no logos. an old 1990s CRT television with a rabbit-ear antenna and a chunky channel knob standing on a shelf in warm evening lamp light, nostalgic still life.",
+  "ref": null
+ },
+ "p_g_chaqmoq.jpg": {
+  "prompt": "single object, centered, 1990s amateur snapshot on Soviet color film, warm faded colors, visible film grain, on-camera flash highlight, slightly soft focus, isolated on a clean plain white background; vertical 9:16, no text, no letters, no logos. zigzag yellow lightning bolt with small sparks, like electric interference above a TV antenna, cartoon sticker, isolated on pure white background, no text",
+  "ref": null
+ },
+ "p_g_ter.jpg": {
+  "prompt": "single object, centered, 1990s amateur snapshot on Soviet color film, warm faded colors, visible film grain, on-camera flash highlight, slightly soft focus, isolated on a clean plain white background; vertical 9:16, no text, no letters, no logos. big single blue cartoon sweat drop with white shine highlight, comic reaction icon, isolated on pure white background, no text",
+  "ref": null
+ },
+ "p_g_zzz.jpg": {
+  "prompt": "single object, centered, 1990s amateur snapshot on Soviet color film, warm faded colors, visible film grain, on-camera flash highlight, slightly soft focus, isolated on a clean plain white background; vertical 9:16, no text, no letters, no logos. three floating sleepy Z letters of decreasing size, comic snoring symbol, isolated on pure white background, no text",
+  "ref": null
+ },
+ "p_g_qol.jpg": {
+  "prompt": "single object, centered, 1990s amateur snapshot on Soviet color film, warm faded colors, visible film grain, on-camera flash highlight, slightly soft focus, isolated on a clean plain white background; vertical 9:16, no text, no letters, no logos. cartoon hand with extended index finger pointing to the left, white glove style with bold outline, isolated on pure white background, no text",
+  "ref": null
+ },
+ "p_g_undov.jpg": {
+  "prompt": "single object, centered, 1990s amateur snapshot on Soviet color film, warm faded colors, visible film grain, on-camera flash highlight, slightly soft focus, isolated on a clean plain white background; vertical 9:16, no text, no letters, no logos. bold red exclamation mark with small impact lines around it, comic alert icon, isolated on pure white background, no text",
+  "ref": null
+ },
+ "p_g_pult.jpg": {
+  "prompt": "single object, centered, 1990s amateur snapshot on Soviet color film, warm faded colors, visible film grain, on-camera flash highlight, slightly soft focus, isolated on a clean plain white background; vertical 9:16, no text, no letters, no logos. chunky vintage 1950s TV remote control with a few big round buttons and a curly cable, retro cartoon object, isolated on pure white background, no text",
+  "ref": null
+ },
+ "p_g_tovush.jpg": {
+  "prompt": "single object, centered, 1990s amateur snapshot on Soviet color film, warm faded colors, visible film grain, on-camera flash highlight, slightly soft focus, isolated on a clean plain white background; vertical 9:16, no text, no letters, no logos. curved cartoon sound wave arcs radiating from a small spark point, comic click sound effect symbol, isolated on pure white background, no text",
+  "ref": null
+ },
+ "p_g_prujina.jpg": {
+  "prompt": "single object, centered, 1990s amateur snapshot on Soviet color film, warm faded colors, visible film grain, on-camera flash highlight, slightly soft focus, isolated on a clean plain white background; vertical 9:16, no text, no letters, no logos. shiny cartoon metal coil spring bouncing with motion lines, comic boing icon, isolated on pure white background, no text",
+  "ref": null
+ }
+}

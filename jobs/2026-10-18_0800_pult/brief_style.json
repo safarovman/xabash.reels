@@ -1,0 +1,19 @@
+{
+ "style_name": "80-90-yillar uy plyonka fotosi (sovet/o'zbek oilaviy albom, iliq dona)",
+ "image_prefix": "1990s amateur family snapshot on Soviet color film (Svema / expired Kodak), warm faded colors, heavy film grain, slight orange-magenta color cast, on-camera flash with soft falloff and warm tungsten lamp light, mild lens vignette, slightly soft focus, candid documentary moment, authentic lived-in interior, realistic people with natural body proportions and real faces, not cartoon, no chibi; the same faded warm home-film look applies to every era, including 1950s American scenes shot as old family snapshots; vertical 9:16, no text, no letters, no logos",
+ "character_prefix": "single person, full body, natural realistic proportions, real human face, 1990s amateur family snapshot on Soviet color film, warm faded colors, visible film grain, direct on-camera flash, soft warm skin tones, isolated on a clean plain white background, not cartoon, no chibi; vertical 9:16, no text, no letters, no logos",
+ "prop_prefix": "single object, centered, 1990s amateur snapshot on Soviet color film, warm faded colors, visible film grain, on-camera flash highlight, slightly soft focus, isolated on a clean plain white background; vertical 9:16, no text, no letters, no logos",
+ "theme": {
+  "font": "alfaslabone",
+  "font2": "patrickhand",
+  "accent": [222, 98, 52],
+  "accent2": [246, 196, 92],
+  "bubble_bg": [250, 240, 220],
+  "bubble_line": [150, 92, 58],
+  "bubble_ink": [52, 36, 28],
+  "bubble_dim": [150, 128, 108],
+  "transitions": ["flash", "slide", "zoom"],
+  "cut_fx": "flash"
+ },
+ "why": "Pult o'rnida bo'lgan bolalik — 1995-yilgi oilaviy albom xotirasi, shuning uchun iliq donador uy plyonka fotosi nostalgiyani beradi, 1950-yillar Amerika sahnalari ham xuddi o'sha eski albom suratlaridek ko'rinib video yaxlit qoladi."
+}

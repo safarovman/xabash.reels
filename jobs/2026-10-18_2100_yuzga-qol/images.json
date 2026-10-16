@@ -1,0 +1,138 @@
+{
+ "c_jasur.jpg": {
+  "prompt": "vertical 9:16, no text, no letters, no logos, film noir black-and-white cinematic portrait of a single adult person, full body, natural realistic adult proportions, real human face, dramatic hard side light with deep shadows, fine film grain, monochrome grayscale except faint toxic acid-green glowing fingerprint smudges on the fingertips only, not cartoon, no chibi, no big eyes, isolated on a clean plain white background. Uzbek man Jasur, 31, bank teller, neatly combed hair, white shirt, dark navy tie, name badge, innocently touching his chin while smiling, half body.",
+  "ref": null
+ },
+ "c_jasur_qatiy.jpg": {
+  "prompt": "vertical 9:16, no text, no letters, no logos, film noir black-and-white cinematic portrait of a single adult person, full body, natural realistic adult proportions, real human face, dramatic hard side light with deep shadows, fine film grain, monochrome grayscale except faint toxic acid-green glowing fingerprint smudges on the fingertips only, not cartoon, no chibi, no big eyes, isolated on a clean plain white background. Same man as in the reference image (Uzbek man Jasur, 31, bank teller, neatly combed hair, white shirt, dark navy tie, name badge), saluting with determination, half body.",
+  "ref": "c_jasur.jpg"
+ },
+ "c_jasur_qichish.jpg": {
+  "prompt": "vertical 9:16, no text, no letters, no logos, film noir black-and-white cinematic portrait of a single adult person, full body, natural realistic adult proportions, real human face, dramatic hard side light with deep shadows, fine film grain, monochrome grayscale except faint toxic acid-green glowing fingerprint smudges on the fingertips only, not cartoon, no chibi, no big eyes, isolated on a clean plain white background. Same man as in the reference image (Uzbek man Jasur, 31, bank teller, neatly combed hair, white shirt, dark navy tie, name badge), scratching his nose, caught, embarrassed, half body.",
+  "ref": "c_jasur.jpg"
+ },
+ "c_zarina.jpg": {
+  "prompt": "vertical 9:16, no text, no letters, no logos, film noir black-and-white cinematic portrait of a single adult person, full body, natural realistic adult proportions, real human face, dramatic hard side light with deep shadows, fine film grain, monochrome grayscale except faint toxic acid-green glowing fingerprint smudges on the fingertips only, not cartoon, no chibi, no big eyes, isolated on a clean plain white background. Uzbek woman Zarina, 27, glasses, burgundy headscarf, smart office blouse, disgusted face, pointing, half body.",
+  "ref": null
+ },
+ "c_zarina_kulgi.jpg": {
+  "prompt": "vertical 9:16, no text, no letters, no logos, film noir black-and-white cinematic portrait of a single adult person, full body, natural realistic adult proportions, real human face, dramatic hard side light with deep shadows, fine film grain, monochrome grayscale except faint toxic acid-green glowing fingerprint smudges on the fingertips only, not cartoon, no chibi, no big eyes, isolated on a clean plain white background. Same woman as in the reference image (Uzbek woman Zarina, 27, glasses, burgundy headscarf, smart office blouse), laughing, holding a notepad with tally marks, half body.",
+  "ref": "c_zarina.jpg"
+ },
+ "c_gavhar.jpg": {
+  "prompt": "vertical 9:16, no text, no letters, no logos, film noir black-and-white cinematic portrait of a single adult person, full body, natural realistic adult proportions, real human face, dramatic hard side light with deep shadows, fine film grain, monochrome grayscale except faint toxic acid-green glowing fingerprint smudges on the fingertips only, not cartoon, no chibi, no big eyes, isolated on a clean plain white background. Uzbek female doctor Gavhar, 55, white coat, stethoscope, short silver hair, kind but stern, raising an index finger, half body.",
+  "ref": null
+ },
+ "01.jpg": {
+  "prompt": "vertical 9:16, no text, no letters, no logos, film noir black-and-white cinematic still, high-contrast chiaroscuro lighting, hard key light with deep inky shadows, venetian-blind light stripes, light haze and fine 35mm film grain, low-angle detective-movie framing, modern Tashkent bank and clinic interiors shot like a 1940s crime film, everything in monochrome grayscale EXCEPT a single toxic acid-green glowing accent used only for germs, microbes and fingerprint smudges on hands, face, money and surfaces, realistic people with natural adult body proportions and real human faces, not cartoon, no chibi, no big eyes. extreme close-up of a person in a dark room looking at a phone, their hand touching their chin, glowing green fingerprint smudges on the skin.",
+  "ref": null
+ },
+ "01b.jpg": {
+  "prompt": "vertical 9:16, no text, no letters, no logos, film noir black-and-white cinematic still, high-contrast chiaroscuro lighting, hard key light with deep inky shadows, venetian-blind light stripes, light haze and fine 35mm film grain, low-angle detective-movie framing, modern Tashkent bank and clinic interiors shot like a 1940s crime film, everything in monochrome grayscale EXCEPT a single toxic acid-green glowing accent used only for germs, microbes and fingerprint smudges on hands, face, money and surfaces, realistic people with natural adult body proportions and real human faces, not cartoon, no chibi, no big eyes. close-up of fingertips rubbing an eye, glowing green smudges.",
+  "ref": null
+ },
+ "02.jpg": {
+  "prompt": "vertical 9:16, no text, no letters, no logos, film noir black-and-white cinematic still, high-contrast chiaroscuro lighting, hard key light with deep inky shadows, venetian-blind light stripes, light haze and fine 35mm film grain, low-angle detective-movie framing, modern Tashkent bank and clinic interiors shot like a 1940s crime film, everything in monochrome grayscale EXCEPT a single toxic acid-green glowing accent used only for germs, microbes and fingerprint smudges on hands, face, money and surfaces, realistic people with natural adult body proportions and real human faces, not cartoon, no chibi, no big eyes. bank teller window, Uzbek man Jasur, 31, bank teller, neatly combed hair, white shirt, dark navy tie, name badge counting a thick stack of banknotes at high speed.",
+  "ref": null
+ },
+ "02b.jpg": {
+  "prompt": "vertical 9:16, no text, no letters, no logos, film noir black-and-white cinematic still, high-contrast chiaroscuro lighting, hard key light with deep inky shadows, venetian-blind light stripes, light haze and fine 35mm film grain, low-angle detective-movie framing, modern Tashkent bank and clinic interiors shot like a 1940s crime film, everything in monochrome grayscale EXCEPT a single toxic acid-green glowing accent used only for germs, microbes and fingerprint smudges on hands, face, money and surfaces, realistic people with natural adult body proportions and real human faces, not cartoon, no chibi, no big eyes. Uzbek man Jasur, 31, bank teller, neatly combed hair, white shirt, dark navy tie, name badge scratching his nose with fingers that just counted money, green glowing smudge on his nose.",
+  "ref": null
+ },
+ "03.jpg": {
+  "prompt": "vertical 9:16, no text, no letters, no logos, film noir black-and-white cinematic still, high-contrast chiaroscuro lighting, hard key light with deep inky shadows, venetian-blind light stripes, light haze and fine 35mm film grain, low-angle detective-movie framing, modern Tashkent bank and clinic interiors shot like a 1940s crime film, everything in monochrome grayscale EXCEPT a single toxic acid-green glowing accent used only for germs, microbes and fingerprint smudges on hands, face, money and surfaces, realistic people with natural adult body proportions and real human faces, not cartoon, no chibi, no big eyes. Uzbek woman Zarina, 27, glasses, burgundy headscarf, smart office blouse recoiling in disgust and pointing at her colleague in a bank office.",
+  "ref": null
+ },
+ "03b.jpg": {
+  "prompt": "vertical 9:16, no text, no letters, no logos, film noir black-and-white cinematic still, high-contrast chiaroscuro lighting, hard key light with deep inky shadows, venetian-blind light stripes, light haze and fine 35mm film grain, low-angle detective-movie framing, modern Tashkent bank and clinic interiors shot like a 1940s crime film, everything in monochrome grayscale EXCEPT a single toxic acid-green glowing accent used only for germs, microbes and fingerprint smudges on hands, face, money and surfaces, realistic people with natural adult body proportions and real human faces, not cartoon, no chibi, no big eyes. Uzbek man Jasur, 31, bank teller, neatly combed hair, white shirt, dark navy tie, name badge rubbing his eye with his fist at the teller desk.",
+  "ref": null
+ },
+ "04.jpg": {
+  "prompt": "vertical 9:16, no text, no letters, no logos, film noir black-and-white cinematic still, high-contrast chiaroscuro lighting, hard key light with deep inky shadows, venetian-blind light stripes, light haze and fine 35mm film grain, low-angle detective-movie framing, modern Tashkent bank and clinic interiors shot like a 1940s crime film, everything in monochrome grayscale EXCEPT a single toxic acid-green glowing accent used only for germs, microbes and fingerprint smudges on hands, face, money and surfaces, realistic people with natural adult body proportions and real human faces, not cartoon, no chibi, no big eyes. Uzbek man Jasur, 31, bank teller, neatly combed hair, white shirt, dark navy tie, name badge smiling innocently while touching his chin and cheek at the bank desk.",
+  "ref": null
+ },
+ "05.jpg": {
+  "prompt": "vertical 9:16, no text, no letters, no logos, film noir black-and-white cinematic still, high-contrast chiaroscuro lighting, hard key light with deep inky shadows, venetian-blind light stripes, light haze and fine 35mm film grain, low-angle detective-movie framing, modern Tashkent bank and clinic interiors shot like a 1940s crime film, everything in monochrome grayscale EXCEPT a single toxic acid-green glowing accent used only for germs, microbes and fingerprint smudges on hands, face, money and surfaces, realistic people with natural adult body proportions and real human faces, not cartoon, no chibi, no big eyes. Uzbek woman Zarina, 27, glasses, burgundy headscarf, smart office blouse writing tally marks in a small notepad with a pen, determined detective face.",
+  "ref": null
+ },
+ "05b.jpg": {
+  "prompt": "vertical 9:16, no text, no letters, no logos, film noir black-and-white cinematic still, high-contrast chiaroscuro lighting, hard key light with deep inky shadows, venetian-blind light stripes, light haze and fine 35mm film grain, low-angle detective-movie framing, modern Tashkent bank and clinic interiors shot like a 1940s crime film, everything in monochrome grayscale EXCEPT a single toxic acid-green glowing accent used only for germs, microbes and fingerprint smudges on hands, face, money and surfaces, realistic people with natural adult body proportions and real human faces, not cartoon, no chibi, no big eyes. Uzbek man Jasur, 31, bank teller, neatly combed hair, white shirt, dark navy tie, name badge touching his forehead, then his ear, multiple-exposure motion showing several hands.",
+  "ref": null
+ },
+ "06.jpg": {
+  "prompt": "vertical 9:16, no text, no letters, no logos, film noir black-and-white cinematic still, high-contrast chiaroscuro lighting, hard key light with deep inky shadows, venetian-blind light stripes, light haze and fine 35mm film grain, low-angle detective-movie framing, modern Tashkent bank and clinic interiors shot like a 1940s crime film, everything in monochrome grayscale EXCEPT a single toxic acid-green glowing accent used only for germs, microbes and fingerprint smudges on hands, face, money and surfaces, realistic people with natural adult body proportions and real human faces, not cartoon, no chibi, no big eyes. university lecture hall with medical students in white coats, a video camera on a tripod recording them, several students unconsciously touching their faces.",
+  "ref": null
+ },
+ "06b.jpg": {
+  "prompt": "vertical 9:16, no text, no letters, no logos, film noir black-and-white cinematic still, high-contrast chiaroscuro lighting, hard key light with deep inky shadows, venetian-blind light stripes, light haze and fine 35mm film grain, low-angle detective-movie framing, modern Tashkent bank and clinic interiors shot like a 1940s crime film, everything in monochrome grayscale EXCEPT a single toxic acid-green glowing accent used only for germs, microbes and fingerprint smudges on hands, face, money and surfaces, realistic people with natural adult body proportions and real human faces, not cartoon, no chibi, no big eyes. close-up of a vintage video camera lens on a tripod pointed at students.",
+  "ref": null
+ },
+ "07.jpg": {
+  "prompt": "vertical 9:16, no text, no letters, no logos, film noir black-and-white cinematic still, high-contrast chiaroscuro lighting, hard key light with deep inky shadows, venetian-blind light stripes, light haze and fine 35mm film grain, low-angle detective-movie framing, modern Tashkent bank and clinic interiors shot like a 1940s crime film, everything in monochrome grayscale EXCEPT a single toxic acid-green glowing accent used only for germs, microbes and fingerprint smudges on hands, face, money and surfaces, realistic people with natural adult body proportions and real human faces, not cartoon, no chibi, no big eyes. macro view of tiny glowing green microbes marching from a fingertip toward a nose like tiny travelers.",
+  "ref": null
+ },
+ "07b.jpg": {
+  "prompt": "vertical 9:16, no text, no letters, no logos, film noir black-and-white cinematic still, high-contrast chiaroscuro lighting, hard key light with deep inky shadows, venetian-blind light stripes, light haze and fine 35mm film grain, low-angle detective-movie framing, modern Tashkent bank and clinic interiors shot like a 1940s crime film, everything in monochrome grayscale EXCEPT a single toxic acid-green glowing accent used only for germs, microbes and fingerprint smudges on hands, face, money and surfaces, realistic people with natural adult body proportions and real human faces, not cartoon, no chibi, no big eyes. close-up of a face profile with glowing green trails leading to the mouth, nose and eyes.",
+  "ref": null
+ },
+ "08.jpg": {
+  "prompt": "vertical 9:16, no text, no letters, no logos, film noir black-and-white cinematic still, high-contrast chiaroscuro lighting, hard key light with deep inky shadows, venetian-blind light stripes, light haze and fine 35mm film grain, low-angle detective-movie framing, modern Tashkent bank and clinic interiors shot like a 1940s crime film, everything in monochrome grayscale EXCEPT a single toxic acid-green glowing accent used only for germs, microbes and fingerprint smudges on hands, face, money and surfaces, realistic people with natural adult body proportions and real human faces, not cartoon, no chibi, no big eyes. Uzbek female doctor Gavhar, 55, white coat, stethoscope, short silver hair in a clinic washing her hands thoroughly with soap foam at a sink, looking at the camera.",
+  "ref": null
+ },
+ "08b.jpg": {
+  "prompt": "vertical 9:16, no text, no letters, no logos, film noir black-and-white cinematic still, high-contrast chiaroscuro lighting, hard key light with deep inky shadows, venetian-blind light stripes, light haze and fine 35mm film grain, low-angle detective-movie framing, modern Tashkent bank and clinic interiors shot like a 1940s crime film, everything in monochrome grayscale EXCEPT a single toxic acid-green glowing accent used only for germs, microbes and fingerprint smudges on hands, face, money and surfaces, realistic people with natural adult body proportions and real human faces, not cartoon, no chibi, no big eyes. close-up of hands lathered with soap foam under running water, the green glow washing away.",
+  "ref": null
+ },
+ "09.jpg": {
+  "prompt": "vertical 9:16, no text, no letters, no logos, film noir black-and-white cinematic still, high-contrast chiaroscuro lighting, hard key light with deep inky shadows, venetian-blind light stripes, light haze and fine 35mm film grain, low-angle detective-movie framing, modern Tashkent bank and clinic interiors shot like a 1940s crime film, everything in monochrome grayscale EXCEPT a single toxic acid-green glowing accent used only for germs, microbes and fingerprint smudges on hands, face, money and surfaces, realistic people with natural adult body proportions and real human faces, not cartoon, no chibi, no big eyes. Uzbek man Jasur, 31, bank teller, neatly combed hair, white shirt, dark navy tie, name badge saluting with determination while his other hand scratches his nose.",
+  "ref": null
+ },
+ "10.jpg": {
+  "prompt": "vertical 9:16, no text, no letters, no logos, film noir black-and-white cinematic still, high-contrast chiaroscuro lighting, hard key light with deep inky shadows, venetian-blind light stripes, light haze and fine 35mm film grain, low-angle detective-movie framing, modern Tashkent bank and clinic interiors shot like a 1940s crime film, everything in monochrome grayscale EXCEPT a single toxic acid-green glowing accent used only for germs, microbes and fingerprint smudges on hands, face, money and surfaces, realistic people with natural adult body proportions and real human faces, not cartoon, no chibi, no big eyes. Uzbek man Jasur, 31, bank teller, neatly combed hair, white shirt, dark navy tie, name badge sitting stiff at his desk with both hands pinned under his thighs, face twitching.",
+  "ref": null
+ },
+ "10b.jpg": {
+  "prompt": "vertical 9:16, no text, no letters, no logos, film noir black-and-white cinematic still, high-contrast chiaroscuro lighting, hard key light with deep inky shadows, venetian-blind light stripes, light haze and fine 35mm film grain, low-angle detective-movie framing, modern Tashkent bank and clinic interiors shot like a 1940s crime film, everything in monochrome grayscale EXCEPT a single toxic acid-green glowing accent used only for germs, microbes and fingerprint smudges on hands, face, money and surfaces, realistic people with natural adult body proportions and real human faces, not cartoon, no chibi, no big eyes. extreme close-up of the itching nose of Uzbek man Jasur, 31, bank teller, neatly combed hair, white shirt, dark navy tie, name badge, eyes crossed.",
+  "ref": null
+ },
+ "11.jpg": {
+  "prompt": "vertical 9:16, no text, no letters, no logos, film noir black-and-white cinematic still, high-contrast chiaroscuro lighting, hard key light with deep inky shadows, venetian-blind light stripes, light haze and fine 35mm film grain, low-angle detective-movie framing, modern Tashkent bank and clinic interiors shot like a 1940s crime film, everything in monochrome grayscale EXCEPT a single toxic acid-green glowing accent used only for germs, microbes and fingerprint smudges on hands, face, money and surfaces, realistic people with natural adult body proportions and real human faces, not cartoon, no chibi, no big eyes. Uzbek woman Zarina, 27, glasses, burgundy headscarf, smart office blouse laughing and adding another tally mark while Uzbek man Jasur, 31, bank teller, neatly combed hair, white shirt, dark navy tie, name badge is caught scratching his nose.",
+  "ref": null
+ },
+ "12.jpg": {
+  "prompt": "vertical 9:16, no text, no letters, no logos, film noir black-and-white cinematic still, high-contrast chiaroscuro lighting, hard key light with deep inky shadows, venetian-blind light stripes, light haze and fine 35mm film grain, low-angle detective-movie framing, modern Tashkent bank and clinic interiors shot like a 1940s crime film, everything in monochrome grayscale EXCEPT a single toxic acid-green glowing accent used only for germs, microbes and fingerprint smudges on hands, face, money and surfaces, realistic people with natural adult body proportions and real human faces, not cartoon, no chibi, no big eyes. Uzbek man Jasur, 31, bank teller, neatly combed hair, white shirt, dark navy tie, name badge and Uzbek woman Zarina, 27, glasses, burgundy headscarf, smart office blouse laughing together at the bank teller window.",
+  "ref": null
+ },
+ "p_g_mikrob.jpg": {
+  "prompt": "vertical 9:16, no text, no letters, no logos, film noir black-and-white still of a single object, centered, hard dramatic side light, fine film grain, monochrome grayscale except a toxic acid-green glow marking germs or fingerprint smudges on it, isolated on a clean plain white background. cute but slightly gross round green cartoon germ microbe with tiny legs, little spikes and a mischievous grin, sticker style, isolated on pure white background, no text",
+  "ref": null
+ },
+ "p_g_lupa.jpg": {
+  "prompt": "vertical 9:16, no text, no letters, no logos, film noir black-and-white still of a single object, centered, hard dramatic side light, fine film grain, monochrome grayscale except a toxic acid-green glow marking germs or fingerprint smudges on it, isolated on a clean plain white background. classic magnifying glass with wooden handle and shiny glass lens with white highlight, tilted, cartoon sticker, isolated on pure white background, no text",
+  "ref": null
+ },
+ "p_g_kopik.jpg": {
+  "prompt": "vertical 9:16, no text, no letters, no logos, film noir black-and-white still of a single object, centered, hard dramatic side light, fine film grain, monochrome grayscale except a toxic acid-green glow marking germs or fingerprint smudges on it, isolated on a clean plain white background. fluffy cluster of white soap foam bubbles with a few shiny rainbow-tinted bubbles floating up, cartoon sticker, isolated on pure white background, no text",
+  "ref": null
+ },
+ "p_g_stop.jpg": {
+  "prompt": "vertical 9:16, no text, no letters, no logos, film noir black-and-white still of a single object, centered, hard dramatic side light, fine film grain, monochrome grayscale except a toxic acid-green glow marking germs or fingerprint smudges on it, isolated on a clean plain white background. open cartoon hand palm facing forward in a firm stop gesture, fingers together, bold outline, small motion lines, isolated on pure white background, no text",
+  "ref": null
+ },
+ "p_g_koz.jpg": {
+  "prompt": "vertical 9:16, no text, no letters, no logos, film noir black-and-white still of a single object, centered, hard dramatic side light, fine film grain, monochrome grayscale except a toxic acid-green glow marking germs or fingerprint smudges on it, isolated on a clean plain white background. pair of big wide-open cartoon eyes looking sideways with suspicious raised brows, comic reaction sticker, isolated on pure white background, no text",
+  "ref": null
+ },
+ "p_g_sanoq.jpg": {
+  "prompt": "vertical 9:16, no text, no letters, no logos, film noir black-and-white still of a single object, centered, hard dramatic side light, fine film grain, monochrome grayscale except a toxic acid-green glow marking germs or fingerprint smudges on it, isolated on a clean plain white background. hand-drawn tally marks on a small notepad page, four vertical strokes crossed by a diagonal fifth stroke plus extra strokes, pencil lying beside, cartoon sticker, isolated on pure white background, no text",
+  "ref": null
+ },
+ "p_g_ter.jpg": {
+  "prompt": "vertical 9:16, no text, no letters, no logos, film noir black-and-white still of a single object, centered, hard dramatic side light, fine film grain, monochrome grayscale except a toxic acid-green glow marking germs or fingerprint smudges on it, isolated on a clean plain white background. big single blue cartoon sweat drop with white shine highlight and two tiny drops, comic nervous reaction icon, isolated on pure white background, no text",
+  "ref": null
+ },
+ "p_g_undov.jpg": {
+  "prompt": "vertical 9:16, no text, no letters, no logos, film noir black-and-white still of a single object, centered, hard dramatic side light, fine film grain, monochrome grayscale except a toxic acid-green glow marking germs or fingerprint smudges on it, isolated on a clean plain white background. bold red exclamation mark with yellow impact burst lines around it, comic alert icon, isolated on pure white background, no text",
+  "ref": null
+ }
+}

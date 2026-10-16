@@ -1,0 +1,20 @@
+{
+ "style_name": "Noir oq-qora kinofoto + bitta zaharli-yashil urg'u (detektiv: mikroblar va qo'l izlari)",
+ "image_prefix": "vertical 9:16, no text, no letters, no logos, film noir black-and-white cinematic still, high-contrast chiaroscuro lighting, hard key light with deep inky shadows, venetian-blind light stripes, light haze and fine 35mm film grain, low-angle detective-movie framing, modern Tashkent bank and clinic interiors shot like a 1940s crime film, everything in monochrome grayscale EXCEPT a single toxic acid-green glowing accent used only for germs, microbes and fingerprint smudges on hands, face, money and surfaces, realistic people with natural adult body proportions and real human faces, not cartoon, no chibi, no big eyes, ",
+ "character_prefix": "vertical 9:16, no text, no letters, no logos, film noir black-and-white cinematic portrait of a single adult person, full body, natural realistic adult proportions, real human face, dramatic hard side light with deep shadows, fine film grain, monochrome grayscale except faint toxic acid-green glowing fingerprint smudges on the fingertips only, not cartoon, no chibi, no big eyes, isolated on a clean plain white background, ",
+ "prop_prefix": "vertical 9:16, no text, no letters, no logos, film noir black-and-white still of a single object, centered, hard dramatic side light, fine film grain, monochrome grayscale except a toxic acid-green glow marking germs or fingerprint smudges on it, isolated on a clean plain white background, ",
+ "theme": {
+  "font": "blackopsone",
+  "font2": "specialelite",
+  "accent": [57, 255, 120],
+  "accent2": [235, 235, 228],
+  "bubble_bg": [16, 17, 18],
+  "bubble_line": [57, 255, 120],
+  "bubble_ink": [240, 240, 236],
+  "bubble_dim": [128, 132, 130],
+  "bubble_radius": 14,
+  "transitions": ["flash", "whip", "zoom"],
+  "cut_fx": "punch"
+ },
+ "why": "Zarina Jasurning har bir tegishini \"tergov\" qilib sanaydi — noir detektiv kayfiyati buni jinoyat ishiga aylantiradi, oq-qora kadrda faqat zaharli-yashil yonib turgan mikroblar va qo'l izlari esa ko'rinmas xavfni tomoshabin ko'ziga ko'rsatadi."
+}

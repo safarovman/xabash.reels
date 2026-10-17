@@ -5,7 +5,7 @@
 - **Ilmoq agenti** `agents/hook_director.md` ssenariyni ovozdan OLDIN ko'rib chiqadi: birinchi 1.5 s ilmoq, har 8-12 s re-hook (kamida 3), ochiq halqa oxirida yechiladi, sahna 4-6 s.
 - **Yakuniy savol**: '1 — ha, 2 — yo'q' / '1·2·3' ISHLATILMAYDI. Izohga chorlaydigan ochiq savol (shaxsiy hikoya, davom ettirish, bahs, do'stni belgilash, bilim sinovi...). Caption'dagi savol ham shunday.
 - **Javobni oxiriga** (egasi 17-okt): ilmoqda va'da qilingan javob/asosiy fakt videoning oxirgi 15-20% qismida beriladi, o'rtada emas (`agents/hook_director.md` 1b).
-- **Tekshiruvchi agent** `agents/qa_inspector.md`: render'dan keyin ovozni ElevenLabs bilan transkripsiya qilib matn bilan solishtiradi (moslik < 90% → qayta yozish), `python3 reel/engine.py jobs/<job> --qa` varaqlarida rasm/imo-ishora vaqtlarini tekshiradi; `qa_report.json` pass bo'lmasa Buffer'ga qo'yilmaydi.
+- **Tekshiruvchi agent** `agents/qa_inspector.md`: render'dan keyin ovozni ElevenLabs bilan transkripsiya qilib matn bilan solishtiradi (moslik < 90% → qayta yozish), `python3 reel/engine.py jobs/<job> --qa` varaqlarida rasm/imo-ishora vaqtlarini tekshiradi; xato topsa — videoni tashlamaydi: aniq vaqt, sahna va tuzatish ko'rsatmasini beradi, video yig'uvchi faqat o'sha joyni tuzatib qayta render qiladi (ko'pi bilan 2 marta), keyin video qo'yiladi; faqat jiddiy xato qolsa qo'yilmaydi va egasiga aytiladi.
 - **Grafik xulosalari** (`analytics/retention_2026-10-17.md`): birinchi 3 s da 25% ketyapti, 20-35 s eng katta tushish; ovoz bo'lagi ≤ 6 s, javob oxirida, ~20 s va ~30 s da kuchli qayta ilmoq.
 - Buffer bepul rejasi 10 ta rejalashtirilgan post: 7 ta video + kechki qoldiqlar sig'adi; 24 soat oynasini saqlang.
 

@@ -135,7 +135,8 @@
     "style_per_topic": "Rasm uslubi, shrift va palitra mavzuga qarab, oxirgi 5 videoda takrorlanmaydi (brief_style.json).",
     "music_per_topic": "Musiqa janri mavzuga qarab, oxirgi 3 videoda takrorlanmaydi (brief_music.json, scenes.json → music).",
     "reference_video": "Egasi 16-okt tasdiqladi: media/test/tez_sinov_2026-10-16.mp4 — 'juda yaxshi, bundan keyin shunday qilsin'. Tezlik, kadrlar soni, belgilar va o'tishlar shu darajada (pace fast).",
-    "facts": "Har videoda 2-3 ta qiziq, WebSearch bilan tekshirilgan ma'lumot (fakt, raqam, tarix) hazil bilan aralash; uydirma raqam yo'q."
+    "facts": "Har videoda 2-3 ta qiziq, WebSearch bilan tekshirilgan ma'lumot (fakt, raqam, tarix) hazil bilan aralash; uydirma raqam yo'q.",
+    "cover": "Muqova (profildagi prevyu) HAR VIDEODA boshqacha va mavzuga oid: alohida Flow rasmi img/cover.jpg + scenes.json → cover.layout (hero/split/bubble/polaroid/diagonal/zoom/poster/classic), oxirgi 5 videoda takrorlanmaydi; ranglar va shrift shu video uslubidan (agents/style_director.md, Muqova bo'limi)."
   },
   "no_trial": "Trial reel QILINMAYDI. Hamma video, 16:00 dagisi ham, oddiy Reels: schedulingType automatic, shouldShareToFeed true (profilda ko'rinadi)."
 }

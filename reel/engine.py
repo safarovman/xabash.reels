@@ -102,7 +102,9 @@ def caption_word(txt, color, size=96, stroke=11):
     sh = Image.new("RGBA", im.size, (0, 0, 0, 0))
     ImageDraw.Draw(sh).text((pad - b[0] + 5, pad - b[1] + 9), txt, font=f, fill=(0, 0, 0, 170), stroke_width=stroke, stroke_fill=(0, 0, 0, 170))
     im.alpha_composite(sh.filter(ImageFilter.GaussianBlur(7)))
-    ImageDraw.Draw(im).text((pad - b[0], pad - b[1]), txt, font=f, fill=color, stroke_width=stroke, stroke_fill=(15, 12, 10))
+    d_ = ImageDraw.Draw(im)
+    d_.text((pad - b[0], pad - b[1]), txt, font=f, fill=(15, 12, 10), stroke_width=stroke, stroke_fill=(15, 12, 10))   # outline pass first...
+    d_.text((pad - b[0], pad - b[1]), txt, font=f, fill=color)   # ...then the fill on top, so tight fonts never have letters eaten by the next glyph's outline
     return im
 def torn_paper(w, h, color=PAPER, seed=0, jag=7):
     rnd = random.Random(seed); m = 14; pts = []
@@ -667,34 +669,93 @@ if _lp and CFG.get("logo", True) is not False:
     _li = Image.open(_lp).convert("RGBA")
     LOGO = to_np(_li.resize((150, 150), Image.LANCZOS)); LOGO_BIG = to_np(_li.resize((300, 300), Image.LANCZOS))
 COVER = None
-if COVER_LEN:
-    ci = CFG.get("cover_scene", 0)
-    cb = bases[ci]; bh, bw = cb.shape[:2]; cw = bw / 1.16; ch = cw * H / W
+# ---- cover / profile preview: a different layout every video (scenes.json -> "cover": {...}) ----
+CV = CFG.get("cover") or {}
+CV_LAYOUTS = ["hero", "split", "bubble", "polaroid", "diagonal", "zoom", "poster", "classic"]
+def cv_img(name=None, sharp=True):
+    if name and os.path.exists(f"{JOB}/img/{name}"):
+        im = cv2.cvtColor(cv2.imread(f"{JOB}/img/{name}"), cv2.COLOR_BGR2RGB); s_ = max(W / im.shape[1], H / im.shape[0])
+        im = cv2.resize(im, (int(im.shape[1] * s_) + 1, int(im.shape[0] * s_) + 1), interpolation=cv2.INTER_LANCZOS4)
+        y_ = (im.shape[0] - H) // 2; x_ = (im.shape[1] - W) // 2; return im[y_:y_ + H, x_:x_ + W].astype(np.float32)
+    ci = CFG.get("cover_scene", 0); cb = bases[ci]; bh, bw = cb.shape[:2]; cw = bw / 1.16; ch = cw * H / W
     crop = cb[int((bh - ch) / 2):int((bh - ch) / 2 + ch), int((bw - cw) / 2):int((bw - cw) / 2 + cw)]
-    COVER = cv2.resize(crop, (W, H)).astype(np.float32)
-    COVER = cv2.GaussianBlur(COVER, (0, 0), 6) * 0.55 + COVER * 0.0
-    COVER = COVER * 0.72
-    yy2 = np.linspace(0, 1, H)[:, None, None]; COVER = COVER * (1 - 0.35 * np.abs(yy2 - 0.5) * 2)
-    cov_lines = CFG["cover_title"]
-    COVER_SPR = []
-    for k, ln in enumerate(cov_lines):
-        words = ln.split(); color = (255, 255, 255) if k % 2 == 0 else YEL
-        sprs = [to_np(caption_word(wd, color, 150, 14)) for wd in words]
-        widths = [sp.shape[1] - 2 * 38 for sp in sprs]; total = sum(widths) + 30 * (len(words) - 1); kf = min(1.0, 990 / total)
-        x = W / 2 - total * kf / 2
-        for sp, wd in zip(sprs, widths): COVER_SPR.append((sp, x + wd * kf / 2, 0, kf, k)); x += (wd + 30) * kf
-    n_lines = len(cov_lines); y0 = 960 - (n_lines - 1) * 95 + 60
-    COVER_SPR = [(sp, x, y0 + k * 190, kf, k) for (sp, x, _, kf, k) in COVER_SPR]
-    COVER_SUB = to_np(note_strip(CFG["cover_sub"], 64, 77)) if CFG.get("cover_sub") else None
+    return cv2.resize(crop, (W, H)).astype(np.float32)
+def cv_title(lines, colors, size, maxw, align="center", x0=W / 2, y0=900, gap=1.25, rot=0):
+    out = []; y = y0
+    for k, ln in enumerate(lines):
+        c = colors[k % len(colors)]; words = ln.split(); sprs = [to_np(caption_word(wd, c, size, max(8, size // 11))) for wd in words]
+        pad = max(8, size // 11) + 24; widths = [sp.shape[1] - 2 * pad for sp in sprs]; sp_ = int(size * 0.2); total = sum(widths) + sp_ * (len(words) - 1)
+        kf = min(1.0, maxw / max(1, total)); x = (x0 - total * kf / 2) if align == "center" else x0
+        for sp, wd in zip(sprs, widths): cx_ = x + wd * kf / 2; out.append((sp, cx_, y - (cx_ - x0) * math.tan(math.radians(rot)), kf, rot, 0.06 + k * 0.1)); x += (wd + sp_) * kf
+        y += size * gap * kf
+    return out, y
+def solid(color): return np.ones((H, W, 3), np.float32) * np.array(color, np.float32)
+if COVER_LEN:
+    lay = CV.get("layout") or CV_LAYOUTS[(CFG.get("music_seed", 0) or 0) % len(CV_LAYOUTS)]
+    A1 = tuple(CV.get("accent", RED)); A2 = tuple(CV.get("accent2", YEL)); WH = (255, 255, 255)
+    tl = CFG["cover_title"]; tcol = [tuple(c) for c in CV["title_colors"]] if CV.get("title_colors") else [WH, A2]
+    sz = CV.get("size", 150); L = []   # layers: (sprite, x, y, scale, rot, delay)
+    img = cv_img(CV.get("img")); yy2 = np.linspace(0, 1, H)[:, None, None]
+    char = to_np(sticker_img(CV["char"], CV.get("char_h", 1050), 16, CV.get("flip", False))) if CV.get("char") else None
+    logo_pos = (W - 120, 130, 0.62)
+    if lay == "hero":
+        COVER = img * (1 - 0.55 * np.clip((0.5 - yy2) * 2.2, 0, 1)) * (1 - 0.35 * np.clip((yy2 - 0.7) * 3, 0, 1))
+        t_, _ = cv_title(tl, tcol, sz, 900, "center", W / 2, 300, rot=-4); L += t_
+        if char is not None: L.append((char, W * 0.62, H - char.shape[0] * 0.42, 1.0, 3, 0.25))
+    elif lay == "split":
+        cut = int(H * 0.56); COVER = img.copy(); COVER[cut:] = solid(A1)[cut:]
+        COVER[cut - 10:cut + 10] = np.array(A2, np.float32)
+        t_, _ = cv_title(tl, [WH, A2] if not CV.get("title_colors") else tcol, sz, 960, "center", W / 2, cut + 210); L += t_
+        if char is not None: L.append((char, W * 0.78, cut - 40, 0.62, -4, 0.3))
+        logo_pos = (130, cut, 0.7)
+    elif lay == "bubble":
+        COVER = img * 0.8
+        bw_, bh_ = 960, int(sz * 1.3 * len(tl) + 160); bub = Image.new("RGBA", (bw_ + 40, bh_ + 120), (0, 0, 0, 0)); d = ImageDraw.Draw(bub)
+        d.rounded_rectangle((20, 20, 20 + bw_, 20 + bh_), 60, fill=WH + (255,), outline=(20, 20, 24, 255), width=8)
+        d.polygon([(260, 16 + bh_), (380, 16 + bh_), (230, bh_ + 110)], fill=WH + (255,), outline=(20, 20, 24, 255)); d.line((262, 20 + bh_, 378, 20 + bh_), fill=WH + (255,), width=10)
+        L.append((to_np(bub), W / 2, 150 + bh_ / 2, 1.0, -2, 0.0))
+        t_, _ = cv_title(tl, [tuple(CV.get("ink", (25, 22, 28))), A1], sz, 860, "center", W / 2, 150 + 70 + sz * 0.55, rot=-2); L += t_
+        if char is not None: L.append((char, W * 0.36, H - char.shape[0] * 0.40, 1.0, 2, 0.25))
+    elif lay == "polaroid":
+        COVER = cv2.GaussianBlur(img, (0, 0), 18) * 0.45 + solid(A1) * 0.45
+        ph = cv2.resize(img[200:1500, 60:1020], (800, 1083)); fr_ = np.ones((1083 + 60 + 200, 800 + 120, 3), np.float32) * 248; fr_[60:60 + 1083, 60:860] = ph
+        L.append((np.dstack([fr_, np.ones(fr_.shape[:2], np.float32) * 255]), W / 2, 820, 0.86, CV.get("tilt", -5), 0.0))
+        for k, ln in enumerate(tl): L.append((to_np(note_strip(ln, int(sz * 0.62), 40 + k, A2 if k % 2 else PAPER, INK, INTER_BLACK)), W / 2 + (-30 if k % 2 else 30), 1500 + k * int(sz * 0.95), 1.0, (-3, 2.5)[k % 2], 0.15 + k * 0.12))
+    elif lay == "diagonal":
+        COVER = img * 0.85; band = np.zeros((H, W), np.uint8); cy_ = int(CV.get("band_y", 1180))
+        pts = np.array([[0, cy_ - 150], [W, cy_ - 310], [W, cy_ + 150], [0, cy_ + 310]], np.int32); cv2.fillPoly(band, [pts], 255)
+        bm = band[..., None] / 255.0; COVER = COVER * (1 - bm * 0.92) + solid(A1) * bm * 0.92
+        t_, _ = cv_title(tl, tcol, sz, 900, "center", W / 2, cy_ - sz * 0.55 * (len(tl) - 1) - 10, rot=8.5); L += t_
+        if char is not None: L.append((char, W * 0.70, 520, 0.7, -6, 0.25))
+    elif lay == "zoom":
+        fx_, fy_ = CV.get("focus", [W / 2, H * 0.42]); z_ = CV.get("zoom", 1.7)
+        M = np.float32([[z_, 0, W / 2 - fx_ * z_], [0, z_, H * 0.42 - fy_ * z_]]); COVER = cv2.warpAffine(img, M, (W, H), borderMode=cv2.BORDER_REFLECT) * vign * (1 - 0.6 * np.clip((yy2 - 0.62) * 2.6, 0, 1))
+        t_, _ = cv_title(tl, tcol, int(sz * 1.1), 980, "center", W / 2, 1420); L += t_
+        if CV.get("focus"): COVER_MARK = dict(kind="mark", shape="circle", x=W / 2, y=H * 0.42, w=CV.get("mark_w", 560), h=CV.get("mark_h", 480), to=None, color=A2, width=16, t0=0.05, dur=0.45, seed=5, label=None, lx=None, ly=None, lrot=0)
+    elif lay == "poster":
+        g = cv2.cvtColor(img.astype(np.uint8), cv2.COLOR_RGB2GRAY).astype(np.float32)[..., None] / 255.0
+        dark = np.array(CV.get("duo_dark", (25, 20, 60)), np.float32); COVER = dark * (1 - g) + np.array(A2, np.float32) * g
+        t_, _ = cv_title([w_ for ln in tl for w_ in [ln]], [WH, A1], int(sz * 1.15), 1000, "center", W / 2, 1150, gap=1.1); L += t_
+        if char is not None: L.append((char, W / 2, 620, 0.8, 0, 0.25))
+    else:   # classic
+        COVER = cv2.GaussianBlur(img, (0, 0), 6) * 0.55 * 0.72; COVER = COVER * (1 - 0.35 * np.abs(yy2 - 0.5) * 2)
+        t_, _ = cv_title(tl, tcol, sz, 990, "center", W / 2, 960 - (len(tl) - 1) * 95 + 60); L += t_; logo_pos = (W / 2, 560, 1.0)
+    for k, pr in enumerate(CV.get("props", [])[:3]):   # gesture / prop stickers around the title
+        sp = to_np(sticker_img(pr, 300, 10)); px_, py_ = [(180, 1320), (900, 1650), (170, 760)][k]; L.append((sp, px_, py_, 1.0, (-12, 10, 6)[k], 0.35 + k * 0.08))
+    if CV.get("badge"): L.append((to_np(pill(CV["badge"], A1 if lay != "split" else (20, 20, 24), WH, 64)), W * 0.30, 140, 1.0, -6, 0.3))
+    COVER_LAYERS = L; COVER_LOGO = logo_pos; COVER_MARK = locals().get("COVER_MARK")
+    COVER_SUB = to_np(note_strip(CFG["cover_sub"], 60, 77)) if CFG.get("cover_sub") and lay in ("classic", "hero", "zoom", "diagonal") else None
+    COVER_SUB_Y = {"classic": 1400, "hero": 300 + sz * 1.25 * len(tl) + 40, "zoom": 1380 - 120, "diagonal": 1650}.get(lay, 1400)
 
 def render_cover(t):
     fr = COVER.copy()
-    z = 1.0 + 0.03 * t / max(COVER_LEN, .1)
-    if LOGO is not None: paste(fr, LOGO_BIG, W / 2, 560 - (y0_shift if False else 0), ease_out_back(t / .35, 1.8), 0, clamp(t / .15))
-    for j, (sp, x, y, kf, k) in enumerate(COVER_SPR):
-        tt = t - 0.08 - k * 0.12
-        if tt > 0: paste(fr, sp, x, y, kf * (0.3 + 0.7 * ease_out_back(tt / .25, 2.2)), 0, clamp(tt / .08))
-    if COVER_SUB is not None and t > .4: paste(fr, COVER_SUB, W / 2, 1400, 1.0, -2, clamp((t - .4) / .2))
+    for (sp, x, y, kf, rot, dl) in COVER_LAYERS:
+        tt = t - dl
+        if tt > 0: paste(fr, sp, x, y, kf * (0.3 + 0.7 * ease_out_back(tt / .25, 2.2)), rot, clamp(tt / .08))
+    if COVER_MARK: draw_mark(fr, COVER_MARK, t, 1.0)
+    if COVER_SUB is not None and t > .4: paste(fr, COVER_SUB, W / 2, COVER_SUB_Y, 1.0, -2, clamp((t - .4) / .2))
+    if LOGO is not None:
+        lx, ly, ls = COVER_LOGO; paste(fr, LOGO_BIG, lx, ly, ls * ease_out_back(t / .35, 1.8), 0, clamp(t / .15))
     return fr
 
 def frame_at(T):

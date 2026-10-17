@@ -27,3 +27,16 @@ Job papka, slot (o'tmish/hozir/kelajak/urf-odat/xatolar), mavzu, ssenariy qisqac
  "why": "1 jumla: nega shu uslub mavzuga mos"}
 ```
 Video yig'uvchi `style.image_prefix` o'rniga shu briefdagi prefikslarni ishlatadi va topics_log.md ga `uslub` + `shrift` ni yozadi.
+
+## Muqova (profildagi prevyu) — HAR VIDEODA BOSHQACHA (egasi 17-okt)
+Profil to'rida videolar bir-biriga o'xshamasin. Uslub agenti har video uchun muqovani ham loyihalaydi:
+1. **Alohida Flow rasmi** `img/cover.jpg`: mavzuning eng kulgili/qiziq lahzasi, bosh qahramon yaqin planda kuchli hissiyot bilan (hayron, kulgan, qo'rqqan),
+   mavzuga oid buyumlar, yorqin kontrast ranglar, shu videoning rasm uslubida; rasmda yozuv yo'q; tepa yoki pastda sarlavha uchun bo'sh joy.
+2. **Tuzilish** (`cover.layout`), oxirgi 5 videoda takrorlanmasin: `hero` (katta qahramon stikeri + tepada qiya sarlavha) · `split` (tepa rasm, pastda rangli blok va sarlavha) ·
+   `bubble` (sarlavha katta gap pufagida, qahramon gapiradi) · `polaroid` (qiya foto-ramka + qog'oz yozuvlar) · `diagonal` (qiya rangli lenta ustida sarlavha) ·
+   `zoom` (yuzga yaqin kattalashtirish + qo'lda chizilgan doira, `focus: [x,y]`) · `poster` (ikki rangli duoton plakat) · `classic`.
+3. Sarlavha (`cover_title`, 2 qator, 2-4 so'z) — qisqa, qiziqtiruvchi savol yoki ziddiyat; ranglari (`cover.title_colors`) va `accent/accent2` shu video palitrasidan; shrift — theme.font.
+4. Ixtiyoriy: `cover.char` (qahramon hissiyot stikeri), `cover.props` (1-3 imo-ishora stikeri), `cover.badge` (yil, raqam, "1-QISM" kabi kichik yorliq).
+
+Natijaga qo'shing: `"cover": {"layout": "diagonal", "img": "cover.jpg", "char": "c_asal_hayron.jpg", "props": ["p_g_soat.jpg"], "badge": "2061", "title_colors": [[255,255,255],[255,210,63]], "accent": [..], "accent2": [..], "flow_prompt": "<cover.jpg uchun prompt>"}`.
+Video yig'uvchi buni `scenes.json → cover` ga ko'chiradi, `topics_log.md` ga `muqova: <layout>` yozadi va render'dan keyin `out/cover.jpg` ni ko'rib tekshiradi.

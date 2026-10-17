@@ -1,102 +1,228 @@
 {
  "slot": "21:00 xatolar",
  "title": "Soatiga 23 marta",
- "opening": "tomoshabinga murojaat",
- "hero": "Jasur (31, bank kassiri, tekis taralgan soch, oq ko'ylak, to'q ko'k galstuk, bejik) + hamkasbi Zarina (27, ko'zoynak, bordo ro'mol, chaqqon) + shifokor Gavhar opa (55, oq xalat, stetoskop, qisqa kumushrang soch)",
- "facts": [
-  "Kwok va boshq. 2015 (Am J Infect Control): 26 tibbiyot talabasi yuzga soatiga o'rtacha 23 marta tekkan (UNSW, Avstraliya)",
-  "O'sha tadqiqot: tegishlarning 44% i og'iz, burun yoki ko'zga (shilliq qavat)"
- ],
+ "hook_type": "qiziqish bo'shlig'i: savol + raqamli va'da",
+ "cover_layout": "zoom",
  "cover": [
   "SOATIGA",
-  "23 MARTA"
+  "NECHA MARTA?"
  ],
  "cover_sub": "hozir ham tegdingiz-a?",
- "caption": "Hozir shu yozuvni o'qiyotib yuzingizga qo'l tekkizdingiz. Ha, siz 😅🖐\n\nShu videoda necha marta tegdingiz? 👇\n\n#99foiz #salomatlik #odat #gigiyena #maslahat #ozbekcha #uzbekistan #reels",
+ "caption": "Hozir shu yozuvni o'qiyotib yuzingizga qo'l tekkizdingiz. Ha, siz 😅🖐\n\nSiz qaysi odatingizni hech tashlay olmaysiz? 👇\n\n#99foiz #salomatlik #odat #gigiyena #maslahat #ozbekcha #uzbekistan #reels",
  "scenes": [
   {
    "n": 1,
    "speaker": "bekzod",
-   "tts": "[whispers] To'xtang. Hozir shu videoni ko'rayotib, yuzingizga qo'l tekkizdingiz. Ha, siz. Mana, yana.",
-   "text": "To'xtang. Hozir shu videoni ko'rayotib, yuzingizga qo'l tekkizdingiz. Ha, siz. Mana, yana.",
-   "frames": "extreme close-up of a viewer's hand touching chin while looking at phone in dark room; hand near cheek"
+   "tts": "[curious] Yuzingizga soatiga necha marta tegasiz? Taxmin qiling!",
+   "text": "Yuzingizga soatiga necha marta tegasiz? Taxmin qiling!",
+   "img": "01.jpg",
+   "imgs": [],
+   "reuse": null,
+   "frames": null
   },
   {
    "n": 2,
    "speaker": "bekzod",
-   "tts": "[chuckles] Bu — Jasur. Bank kassiri. Bir kunda minglab kupyura sanaydi. Va har sanagandan keyin... burnini qashiydi.",
-   "text": "Bu — Jasur. Bank kassiri. Bir kunda minglab kupyura sanaydi. Va har sanagandan keyin... burnini qashiydi.",
-   "frames": "bank teller window, Jasur counting cash fast; then scratching nose; close-up money-to-nose"
+   "tts": "[whispers] Javobni oxirida aytaman. [playful] Hozir ham tegdingiz-a?",
+   "text": "Javobni oxirida aytaman. Hozir ham tegdingiz-a?",
+   "img": "01b.jpg",
+   "imgs": [],
+   "reuse": null,
+   "frames": null
   },
   {
    "n": 3,
-   "speaker": "dilnoza",
-   "tts": "[disgusted] Jasur aka! Hozirgina pul sanadingiz-ku, endi ko'zingizni ishqalayapsiz!",
-   "text": "Jasur aka! Hozirgina pul sanadingiz-ku, endi ko'zingizni ishqalayapsiz!",
-   "frames": "colleague Zarina recoiling in disgust pointing; Jasur rubbing eye"
+   "speaker": "bekzod",
+   "tts": "[chuckles] Bu — Jasur. Bank kassiri. Kuniga minglab kupyura sanaydi.",
+   "text": "Bu — Jasur. Bank kassiri. Kuniga minglab kupyura sanaydi.",
+   "img": "02.jpg",
+   "imgs": [],
+   "reuse": null,
+   "frames": null
   },
   {
    "n": 4,
-   "speaker": "sardor",
-   "tts": "[laughs] Zarina, men qachon yuzimga tegdim? Men umuman tegmayman!",
-   "text": "Zarina, men qachon yuzimga tegdim? Men umuman tegmayman!",
-   "frames": "Jasur saying this while touching his chin innocently; hand on cheek"
+   "speaker": "bekzod",
+   "tts": "[chuckles] Va har sanagandan keyin... burnini qashiydi.",
+   "text": "Va har sanagandan keyin... burnini qashiydi.",
+   "img": "02b.jpg",
+   "imgs": [],
+   "reuse": null,
+   "frames": null
   },
   {
    "n": 5,
    "speaker": "bekzod",
-   "tts": "[playful] Zarina sanay boshladi. Bir soatda — yigirma uch marta.",
-   "text": "Zarina sanay boshladi. Bir soatda — yigirma uch marta.",
-   "frames": "Zarina with notepad drawing tally marks; Jasur touching forehead, ear, nose in sequence"
+   "tts": "[mysterious] Lekin Jasur bilmasdi: kimdir har bir tegishini kuzatib turardi...",
+   "text": "Lekin Jasur bilmasdi: kimdir har bir tegishini kuzatib turardi...",
+   "img": "05b.jpg",
+   "imgs": [],
+   "reuse": null,
+   "frames": null
   },
   {
    "n": 6,
-   "speaker": "bekzod",
-   "tts": "[curious] Bu faqat Jasurning aybi emas. Ikki ming o'n beshinchi yili Avstraliyada yigirma olti nafar tibbiyot talabasi videoga olingan. Ular yuziga soatiga o'rtacha yigirma uch marta qo'l tekkizgan.",
-   "text": "Bu faqat Jasurning aybi emas. Ikki ming o'n beshinchi yili Avstraliyada yigirma olti nafar tibbiyot talabasi videoga olingan. Ular yuziga soatiga o'rtacha yigirma uch marta qo'l tekkizgan.",
-   "frames": "university lecture hall with medical students, video camera recording; students touching faces unaware"
+   "speaker": "dilnoza",
+   "tts": "[disgusted] Jasur aka! Hozirgina pul sanadingiz-ku!",
+   "text": "Jasur aka! Hozirgina pul sanadingiz-ku!",
+   "img": "03.jpg",
+   "imgs": [],
+   "reuse": null,
+   "frames": null
   },
   {
    "n": 7,
-   "speaker": "bekzod",
-   "tts": "[surprised] Eng qizig'i: bu tegishlarning qariyb yarmi og'iz, burun va ko'zga to'g'ri kelgan. Mikroblar uchun eng qulay eshiklar.",
-   "text": "Eng qizig'i: bu tegishlarning qariyb yarmi og'iz, burun va ko'zga to'g'ri kelgan. Mikroblar uchun eng qulay eshiklar.",
-   "frames": "stylized magnified microbes (cute but realistic) marching from fingertip toward nose like tiny travelers; face diagram"
+   "speaker": "dilnoza",
+   "tts": "[disgusted] Endi ko'zingizni ishqalayapsiz!",
+   "text": "Endi ko'zingizni ishqalayapsiz!",
+   "img": "03b.jpg",
+   "imgs": [],
+   "reuse": null,
+   "frames": null
   },
   {
    "n": 8,
-   "speaker": "nodira",
-   "tts": "[sighs] Uka, qo'lingizni tez-tez yuving. Qo'l yuzga borsa — to'xtang. Bu shunchaki odat, odatni esa o'zgartirsa bo'ladi.",
-   "text": "Uka, qo'lingizni tez-tez yuving. Qo'l yuzga borsa — to'xtang. Bu shunchaki odat, odatni esa o'zgartirsa bo'ladi.",
-   "frames": "doctor Gavhar opa in clinic, kind but stern, washing hands demonstration; soap foam"
+   "speaker": "sardor",
+   "tts": "[laughs] Zarina, men qachon yuzimga tegdim? Umuman tegmayman!",
+   "text": "Zarina, men qachon yuzimga tegdim? Umuman tegmayman!",
+   "img": "04.jpg",
+   "imgs": [],
+   "reuse": null,
+   "frames": null
   },
   {
    "n": 9,
-   "speaker": "sardor",
-   "tts": "[determined] Tushundim, opa! Bugundan boshlab yuzimga umuman qo'l tekkizmayman!",
-   "text": "Tushundim, opa! Bugundan boshlab yuzimga umuman qo'l tekkizmayman!",
-   "frames": "Jasur saluting determined... while other hand scratches nose"
+   "speaker": "bekzod",
+   "tts": "[mysterious] Zarina daftar ochdi. [whispers] Endi diqqat — buni ko'pchilik bilmaydi.",
+   "text": "Zarina daftar ochdi. Endi diqqat — buni ko'pchilik bilmaydi.",
+   "img": "05.jpg",
+   "imgs": [],
+   "reuse": null,
+   "frames": null
   },
   {
    "n": 10,
    "speaker": "bekzod",
-   "tts": "[chuckles] Jasur bu va'dani roppa-rosa o'n ikki soniya ushladi. Keyin burni qichidi.",
-   "text": "Jasur bu va'dani roppa-rosa o'n ikki soniya ushladi. Keyin burni qichidi.",
-   "frames": "Jasur sitting stiff with hands pinned under thighs, face twitching; close-up itchy nose"
+   "tts": "[surprised] Tegishlarning qirq to'rt foizi — og'iz, burun va ko'zga!",
+   "text": "Tegishlarning qirq to'rt foizi — og'iz, burun va ko'zga!",
+   "img": "07.jpg",
+   "imgs": [],
+   "reuse": null,
+   "frames": null
   },
   {
    "n": 11,
-   "speaker": "dilnoza",
-   "tts": "[laughs] Jasur aka! Yigirma to'rtinchi!",
-   "text": "Jasur aka! Yigirma to'rtinchi!",
-   "frames": "Zarina laughing adding tally mark; Jasur caught scratching"
+   "speaker": "bekzod",
+   "tts": "[mysterious] Mikroblar uchun eng qulay uchta eshik.",
+   "text": "Mikroblar uchun eng qulay uchta eshik.",
+   "img": "07b.jpg",
+   "imgs": [],
+   "reuse": null,
+   "frames": null
   },
   {
    "n": 12,
    "speaker": "bekzod",
-   "tts": "[playful] Siz-chi? Shu videoni ko'rayotib necha marta yuzingizga tegdingiz? Rostini izohda yozing!",
-   "text": "Siz-chi? Shu videoni ko'rayotib necha marta yuzingizga tegdingiz? Rostini izohda yozing!",
-   "frames": "Jasur and Zarina at teller window laughing; final"
+   "tts": "[playful] Bir ishora: daftardagi chiziqlar allaqachon o'ndan oshib ketdi.",
+   "text": "Bir ishora: daftardagi chiziqlar allaqachon o'ndan oshib ketdi.",
+   "img": "02b.jpg",
+   "imgs": [],
+   "reuse": null,
+   "frames": null
+  },
+  {
+   "n": 13,
+   "speaker": "nodira",
+   "tts": "[sighs] Uka, qo'lingizni tez-tez yuving. Qo'l yuzga borsa — to'xtang.",
+   "text": "Uka, qo'lingizni tez-tez yuving. Qo'l yuzga borsa — to'xtang.",
+   "img": "08.jpg",
+   "imgs": [
+    "08b.jpg"
+   ],
+   "reuse": null,
+   "frames": null
+  },
+  {
+   "n": 14,
+   "speaker": "nodira",
+   "tts": "[warmly] Bu shunchaki odat. Odatni esa o'zgartirsa bo'ladi.",
+   "text": "Bu shunchaki odat. Odatni esa o'zgartirsa bo'ladi.",
+   "img": "08b.jpg",
+   "imgs": [],
+   "reuse": null,
+   "frames": null
+  },
+  {
+   "n": 15,
+   "speaker": "sardor",
+   "tts": "[determined] Tushundim, opa! Bugundan boshlab yuzimga qo'l tekkizmayman!",
+   "text": "Tushundim, opa! Bugundan boshlab yuzimga qo'l tekkizmayman!",
+   "img": "09.jpg",
+   "imgs": [],
+   "reuse": null,
+   "frames": null
+  },
+  {
+   "n": 16,
+   "speaker": "bekzod",
+   "tts": "[chuckles] Jasur bu va'dani roppa-rosa o'n ikki soniya ushladi.",
+   "text": "Jasur bu va'dani roppa-rosa o'n ikki soniya ushladi.",
+   "img": "10.jpg",
+   "imgs": [
+    "10b.jpg"
+   ],
+   "reuse": null,
+   "frames": null
+  },
+  {
+   "n": 17,
+   "speaker": "bekzod",
+   "tts": "[curious] Xo'sh, mana eng qizig'i: Zarinaning daftarida bir soatda nechta chiziq?",
+   "text": "Xo'sh, mana eng qizig'i: Zarinaning daftarida bir soatda nechta chiziq?",
+   "img": "05.jpg",
+   "imgs": [],
+   "reuse": null,
+   "frames": null
+  },
+  {
+   "n": 18,
+   "speaker": "bekzod",
+   "tts": "[surprised] Yigirma uchta! Olimlar ham aynan shu raqamni topgan.",
+   "text": "Yigirma uchta! Olimlar ham aynan shu raqamni topgan.",
+   "img": "06.jpg",
+   "imgs": [],
+   "reuse": null,
+   "frames": null
+  },
+  {
+   "n": 19,
+   "speaker": "bekzod",
+   "tts": "[serious] O'n beshinchi yili yigirma olti tibbiyot talabasi videoga olingan. [surprised] O'rtacha — soatiga yigirma uch marta!",
+   "text": "O'n beshinchi yili yigirma olti tibbiyot talabasi videoga olingan. O'rtacha — soatiga yigirma uch marta!",
+   "img": "06b.jpg",
+   "imgs": [],
+   "reuse": null,
+   "frames": null
+  },
+  {
+   "n": 20,
+   "speaker": "dilnoza",
+   "tts": "[laughs] Jasur aka! Yigirma to'rtinchi!",
+   "text": "Jasur aka! Yigirma to'rtinchi!",
+   "img": "11.jpg",
+   "imgs": [],
+   "reuse": null,
+   "frames": null
+  },
+  {
+   "n": 21,
+   "speaker": "bekzod",
+   "tts": "[playful] Siz qaysi odatingizni hech tashlay olmaysiz? Izohda tan oling!",
+   "text": "Siz qaysi odatingizni hech tashlay olmaysiz? Izohda tan oling!",
+   "img": "12.jpg",
+   "imgs": [],
+   "reuse": null,
+   "frames": null
   }
  ]
 }

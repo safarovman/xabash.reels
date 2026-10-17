@@ -1,0 +1,49 @@
+{
+ "hook": "«Bepul» so'zi sizga oyiga qancha turadi? Javob oxirida.",
+ "hook_type": "savol + va'da (qiziqish bo'shlig'i, javob oxirida)",
+ "hook_onscreen": "«BEPUL» = OYIGA $ ?",
+ "timing_assumption": "17 sahna × ~4.5 s ≈ 76.5 s",
+ "rehooks": [
+  {
+   "scene": 5,
+   "t": "~18-22 s",
+   "text": "(ovoz qulflangan: reuse old_05.mp3) — vizual burilish: Nigora telefonni yashiradi + ekranda yozuv",
+   "onscreen": "BU HALI BOSHLANISHI 👀"
+  },
+  {
+   "scene": 7,
+   "t": "~27-31 s",
+   "text": "Lekin bu hali hammasi emas. Eng qizig'i — Nigoraning telefonida.",
+   "onscreen": "ENG QIZIG'I — TELEFONDA 📱"
+  },
+  {
+   "scene": 10,
+   "t": "~40-45 s",
+   "text": "Endi diqqat: buni hatto amerikaliklar ham to'g'ri hisoblay olmagan.",
+   "onscreen": "DIQQAT!"
+  },
+  {
+   "scene": 12,
+   "t": "~50-54 s",
+   "text": "Siz-chi? Raqamni o'ylab qo'ying — oxirida solishtiramiz.",
+   "onscreen": "SIZNING RAQAMINGIZ: $___ ?"
+  },
+  {
+   "scene": 13,
+   "t": "~54-58 s",
+   "text": "O'sha kecha Nigora ham obunalar ro'yxatini ochdi...",
+   "onscreen": null
+  }
+ ],
+ "open_loop": "«Bepul» obunalar oyiga aslida qancha pul oladi? (S1 da so'raladi, S11-S12 da odamlar o'ylagan raqam yashiriladi)",
+ "payoff_scene": 15,
+ "payoff": "S15 (~63-67 s, 82-88%): o'ylagani $86 → aslida $219; S16 (~67-72 s, qulflangan): farq $133/oy. Ekranda: bars [[\"O'ylagan\",86,\"yellow\"],[\"Aslida\",219,\"red\"]] + big «−$133/OY».",
+ "fact_source": "C+R Research, 2022 (AQSH): obunalarga oylik xarajat — taxmin $86, haqiqiy $219",
+ "final_question": "Siz qaysi obunani unutib, keyin topib olgansiz? Izohda yozing!",
+ "question_type": "shaxsiy hikoya",
+ "notes": [
+  "S4 (reuse old_04.mp3) 15 so'z — 12 dan uzun, lekin reuse qulflangan, o'zgartirilmadi.",
+  "post.json caption savoli («Sizda nechta unutilgan obuna bor?») yakuniy savolga mos emas — script.json caption to'g'ri; post.json ni yangilash kerak (bu ishda tegilmadi).",
+  "Yil ovozda qisqa («yigirma ikkinchi yili»), ekranda «2022» tag."
+ ]
+}

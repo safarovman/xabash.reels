@@ -1,0 +1,15 @@
+{
+ "hook": "Yuzingizga soatiga necha marta tegasiz? Taxmin qiling!",
+ "hook_type": "qiziqish bo'shlig'i: savol + raqamli va'da",
+ "rehooks": [
+  {"scene": 2, "text": "Javobni oxirida aytaman. Hozir ham tegdingiz-a?"},
+  {"scene": 5, "text": "Lekin Jasur bilmasdi: kimdir har bir tegishini kuzatib turardi... (~15-20 s, keyin Zarina kadrga kiradi)"},
+  {"scene": 9, "text": "Zarina daftar ochdi. Endi diqqat — buni ko'pchilik bilmaydi. (~27-31 s)"},
+  {"scene": 12, "text": "Bir ishora: daftardagi chiziqlar allaqachon o'ndan oshib ketdi."},
+  {"scene": 17, "text": "Xo'sh, mana eng qizig'i: Zarinaning daftarida bir soatda nechta chiziq?"}
+ ],
+ "open_loop": "Soatiga necha marta yuzga tegamiz? (javob: o'rtacha 23 marta — Kwok va boshq. 2015, 26 tibbiyot talabasi)",
+ "payoff_scene": 18,
+ "final_question": "Siz qaysi odatingizni hech tashlay olmaysiz? Izohda tan oling!",
+ "question_type": "shaxsiy hikoya (tan olish)"
+}

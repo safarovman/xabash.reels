@@ -1,0 +1,31 @@
+{
+ "hook": "Muzlatkichingiz sizga «yo'q» desa-chi? Bu fantastika emas.",
+ "hook_type": "savol + va'da (ziddiyat, javob oxirida)",
+ "rehooks": [
+  {
+   "scene": 6,
+   "text": "Bir soniya... Sovuqjon oddiy muzlatkich emas. Ichida kamera bor. (~22 s, vizual burilish: skaner nurlari)"
+  },
+  {
+   "scene": 7,
+   "text": "Endi diqqat — eng dahshatlisi oldinda. (~30 s, keyin yolvorish va onaga xabar)"
+  },
+  {
+   "scene": 12,
+   "text": "Fantastika deysizmi? Shoshmang — bu hikoya ancha oldin boshlangan."
+  },
+  {
+   "scene": 14,
+   "text": "Va eng qizig'i..."
+  }
+ ],
+ "open_loop": "Gapiradigan, «yo'q» deydigan muzlatkich fantastika emasligi isboti — o'rtada faqat ishora (kamera, kaloriya), isbot (LG 2000 -> Samsung 2024, 33 xil mahsulot) oxirida",
+ "payoff_scene": 14,
+ "payoff_scenes": [
+  13,
+  14,
+  15
+ ],
+ "final_question": "Muzlatkichingiz gapira olsa, sizga birinchi nima derdi? Izohda yozing!",
+ "question_type": "siz bo'lganingizda (tasavvur)"
+}

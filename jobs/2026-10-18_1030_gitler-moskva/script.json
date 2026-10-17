@@ -1,0 +1,220 @@
+{
+ "slot": "10:30 jahon tarixi",
+ "title": "Gitler nega Moskvani ololmadi?",
+ "hook_type": "qiziqish bo'shlig'i (savol + va'da), javob oxirida",
+ "cover_layout": "poster",
+ "cover": [
+  "NEGA MOSKVANI",
+  "OLOLMADI?"
+ ],
+ "cover_sub": "1941-yil qishi",
+ "caption": "U urushni qishgacha tugatmoqchi edi. Qish esa boshqacha hal qildi ❄️\n\nOilangizda urushga ketgan bobongiz bormi? Ismini yozing — xotirasi yashasin 👇\n\n#99foiz #tarix #ikkinchijahonurushi #1941 #xotira #ozbekcha #uzbekistan #reels",
+ "hero": "hikoyachi + o'zbek askar Ergash (19, oddiy askar, xat yozadi) + toshkentlik temirchi oilasi (orqadan/uzoqdan); Gitlerning yuzi va natsist ramzlari CHIZILMAYDI",
+ "facts": [
+  "22.06.1941 Barbarossa: ~4 mln Axis askari, 1800 mil front (Lumen World History)",
+  "5.12.1941 Moskva ostida 500 mingdan ortiq yangi qo'shin bilan qarshi hujum, nemislar 200 mildan ortiq orqaga surildi; nemis armiyasi qishga tayyor emas edi (Lumen)",
+  "O'zbekistondan ~1,5 mln frontga, 420 ming halok; ~0,5 mln evakuatsiya qilinganlar qabul qilindi; Shomahmudovlar 14 bolani asrab oldi (O'zbekiston BMT vakolatxonasi)"
+ ],
+ "scenes": [
+  {
+   "n": 1,
+   "speaker": "bekzod",
+   "tts": "[serious] Gitler Moskvaga yetib keldi. Lekin nega uni ololmadi?",
+   "text": "Gitler Moskvaga yetib keldi. Lekin nega uni ololmadi?",
+   "img": null,
+   "imgs": [],
+   "reuse": null,
+   "frames": "old parchment map of Eastern Europe on a wooden desk, dark arrows stopping just short of a circled Moscow, fast camera push-in, big on-screen question"
+  },
+  {
+   "n": 2,
+   "speaker": "bekzod",
+   "tts": "[serious] Uning rejasi — qish kelmasdan g'alaba. Javobi esa eng oxirida.",
+   "text": "Uning rejasi — qish kelmasdan g'alaba. Javobi esa eng oxirida.",
+   "img": null,
+   "imgs": [],
+   "reuse": null,
+   "frames": "close-up of a ticking pocket watch lying on an old military map with Moscow circled"
+  },
+  {
+   "n": 3,
+   "speaker": "bekzod",
+   "tts": "[calm] Qirq birinchi yil, yigirma ikkinchi iyun. Tong sahar...",
+   "text": "Qirq birinchi yil, yigirma ikkinchi iyun. Tong sahar...",
+   "img": null,
+   "imgs": [],
+   "reuse": null,
+   "frames": "dawn over a quiet border river in summer, birds flying, mist; on-screen date 22.06.1941"
+  },
+  {
+   "n": 4,
+   "speaker": "bekzod",
+   "tts": "[tense] Chegaradan to'rt millionga yaqin askar bostirib kirdi.",
+   "text": "Chegaradan to'rt millionga yaqin askar bostirib kirdi.",
+   "img": null,
+   "imgs": [],
+   "reuse": null,
+   "frames": "endless columns of 1940s tanks and trucks on a dusty road seen from far away, silhouettes only, no insignia or flags; on-screen ~4 000 000"
+  },
+  {
+   "n": 5,
+   "speaker": "bekzod",
+   "tts": "[tense] Reja ishlayotgandek tuyuldi. Lekin unda bitta katta xato bor edi.",
+   "text": "Reja ishlayotgandek tuyuldi. Lekin unda bitta katta xato bor edi.",
+   "img": null,
+   "imgs": [],
+   "reuse": null,
+   "frames": "1940s staff officers seen from behind over a big map table with wooden markers, faces not visible, no insignia; one marker tips over, punch-in"
+  },
+  {
+   "n": 6,
+   "speaker": "bekzod",
+   "tts": "[serious] Har bir shahar, har bir ko'prik uchun qattiq jang bo'ldi.",
+   "text": "Har bir shahar, har bir ko'prik uchun qattiq jang bo'ldi.",
+   "img": null,
+   "imgs": [],
+   "reuse": null,
+   "frames": "Soviet soldiers in 1941 uniforms defending a river bridge behind sandbags, smoke on the horizon"
+  },
+  {
+   "n": 7,
+   "speaker": "bekzod",
+   "tts": "[whispers] Bir soniya... Bu orada uzoq O'zbekistonda nima bo'layotgan edi?",
+   "text": "Bir soniya... Bu orada uzoq O'zbekistonda nima bo'layotgan edi?",
+   "img": null,
+   "imgs": [],
+   "reuse": null,
+   "frames": "hard cut: 1941 Tashkent railway station, steam train arriving, crowds of evacuees with suitcases"
+  },
+  {
+   "n": 8,
+   "speaker": "bekzod",
+   "tts": "[warmly] Yarim millionga yaqin odam evakuatsiya qilinib, O'zbekistonga keldi.",
+   "text": "Yarim millionga yaqin odam evakuatsiya qilinib, O'zbekistonga keldi.",
+   "img": null,
+   "imgs": [],
+   "reuse": null,
+   "frames": "Uzbek women in 1940s clothes giving bread and tea to tired evacuee families at the station; on-screen ~500 000"
+  },
+  {
+   "n": 9,
+   "speaker": "jahongir",
+   "tts": "[warmly] Kelinglar, bolalar. Bizning uy — sizning uyingiz.",
+   "text": "Kelinglar, bolalar. Bizning uy — sizning uyingiz.",
+   "img": null,
+   "imgs": [],
+   "reuse": null,
+   "frames": "warm Tashkent courtyard in the 1940s, a strong blacksmith seen from behind opening his arms to many children of different nationalities"
+  },
+  {
+   "n": 10,
+   "speaker": "bekzod",
+   "tts": "[warmly] Toshkentlik temirchi Shomahmudovlar oilasi o'n to'rt bolani asrab oldi.",
+   "text": "Toshkentlik temirchi Shomahmudovlar oilasi o'n to'rt bolani asrab oldi.",
+   "img": null,
+   "imgs": [],
+   "reuse": null,
+   "frames": "long dastarkhan with fourteen children of different nationalities eating together, warm lamp light; on-screen 14"
+  },
+  {
+   "n": 11,
+   "speaker": "bekzod",
+   "tts": "[serious] O'zbekistondan bir yarim millionga yaqin odam frontga ketdi.",
+   "text": "O'zbekistondan bir yarim millionga yaqin odam frontga ketdi.",
+   "img": null,
+   "imgs": [],
+   "reuse": null,
+   "frames": "young Uzbek men in 1941 greatcoats boarding a train, mothers waving from the platform; on-screen ~1 500 000"
+  },
+  {
+   "n": 12,
+   "speaker": "sardor",
+   "tts": "[warmly] Oyijon, xavotir olmang. Qish kelyapti, lekin biz chidaymiz.",
+   "text": "Oyijon, xavotir olmang. Qish kelyapti, lekin biz chidaymiz.",
+   "img": null,
+   "imgs": [],
+   "reuse": null,
+   "frames": "young Uzbek soldier Ergash, 19, in a 1941 Soviet greatcoat, writing a letter by candlelight in a trench"
+  },
+  {
+   "n": 13,
+   "speaker": "bekzod",
+   "tts": "[sad] Ulardan to'rt yuz yigirma ming kishi uyga qaytmadi.",
+   "text": "Ulardan to'rt yuz yigirma ming kishi uyga qaytmadi.",
+   "img": null,
+   "imgs": [],
+   "reuse": null,
+   "frames": "folded triangle front letters on a table, a candle burning low, quiet and respectful; on-screen 420 000"
+  },
+  {
+   "n": 14,
+   "speaker": "bekzod",
+   "tts": "[serious] Endi diqqat. Frontda kuzgi yomg'ir yo'llarni loyga aylantirdi.",
+   "text": "Endi diqqat. Frontda kuzgi yomg'ir yo'llarni loyga aylantirdi.",
+   "img": null,
+   "imgs": [],
+   "reuse": null,
+   "frames": "1940s military trucks stuck deep in mud on a rural road, soldiers pushing, no insignia or flags"
+  },
+  {
+   "n": 15,
+   "speaker": "bekzod",
+   "tts": "[tense] Dekabrga kelib bosqinchilar Moskva ostiga yetib keldi.",
+   "text": "Dekabrga kelib bosqinchilar Moskva ostiga yetib keldi.",
+   "img": null,
+   "imgs": [],
+   "reuse": null,
+   "frames": "snowy outskirts of Moscow in December 1941, distant city silhouette, anti-tank hedgehogs"
+  },
+  {
+   "n": 16,
+   "speaker": "bekzod",
+   "tts": "[tense] Moskva juda yaqin edi. Lekin ular bir narsani hisobga olmagandi...",
+   "text": "Moskva juda yaqin edi. Lekin ular bir narsani hisobga olmagandi...",
+   "img": null,
+   "imgs": [],
+   "reuse": null,
+   "frames": "close-up of the circled Moscow on the old map, first snowflakes landing on it, slow push-in"
+  },
+  {
+   "n": 17,
+   "speaker": "bekzod",
+   "tts": "[serious] Va mana javob: qish. Ular qishga umuman tayyor emas edi.",
+   "text": "Va mana javob: qish. Ular qishga umuman tayyor emas edi.",
+   "img": null,
+   "imgs": [],
+   "reuse": null,
+   "frames": "frozen rifle covered in frost lying in deep snow, icy wind, blizzard"
+  },
+  {
+   "n": 18,
+   "speaker": "bekzod",
+   "tts": "[serious] Beshinchi dekabr. Moskva ostida yarim milliondan ortiq yangi qo'shin qarshi hujumga o'tdi.",
+   "text": "Beshinchi dekabr. Moskva ostida yarim milliondan ortiq yangi qo'shin qarshi hujumga o'tdi.",
+   "img": null,
+   "imgs": [],
+   "reuse": null,
+   "frames": "Soviet ski troops in white camouflage charging across a snowy field, dramatic winter light; on-screen 5.12.1941 · 500 000+"
+  },
+  {
+   "n": 19,
+   "speaker": "bekzod",
+   "tts": "[serious] Bosqinchilar uch yuz kilometrdan ortiq orqaga surildi. Qisqa urush rejasi barbod bo'ldi.",
+   "text": "Bosqinchilar uch yuz kilometrdan ortiq orqaga surildi. Qisqa urush rejasi barbod bo'ldi.",
+   "img": null,
+   "imgs": [],
+   "reuse": null,
+   "frames": "old winter map with big red arrows pushing back westward from Moscow; on-screen 200+ mil"
+  },
+  {
+   "n": 20,
+   "speaker": "bekzod",
+   "tts": "[warmly] Oilangizda urushga ketgan bobongiz bormi? Ismini yozing — xotirasi yashasin.",
+   "text": "Oilangizda urushga ketgan bobongiz bormi? Ismini yozing — xotirasi yashasin.",
+   "img": null,
+   "imgs": [],
+   "reuse": null,
+   "frames": "old black-and-white family photo of a young soldier on a wooden table next to a folded triangle letter and a candle; question in big text"
+  }
+ ]
+}

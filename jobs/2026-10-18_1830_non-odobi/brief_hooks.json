@@ -1,0 +1,34 @@
+{
+ "hook": "Nega o'zbek uyida non hech qachon teskari qo'yilmaydi?",
+ "hook_type": "savol (qiziqish bo'shlig'i, javob oxirida)",
+ "rehooks": [
+  {
+   "scene": 5,
+   "text": "Lekin buvisi sababini aytmadi... (~20 s)"
+  },
+  {
+   "scene": 7,
+   "text": "Eshik ochildi — va Sherzod nonning sirini ko'rdi. (~30 s, vizual burilish: tandirxona)"
+  },
+  {
+   "scene": 12,
+   "text": "Endi diqqat: Samarqand noni haqida bir rivoyat bor."
+  },
+  {
+   "scene": 15,
+   "text": "Lekin non baribir o'shanday chiqmabdi. Nega?"
+  },
+  {
+   "scene": 16,
+   "text": "Novvoy uzoq jim turibdi. Va mana eng qizig'i..."
+  }
+ ],
+ "open_loop": "Buvi nega nonni teskari qo'yishni man qildi? — sababi aytilmaydi, rivoyat yakuni bilan birga oxirida ochiladi",
+ "payoff_scene": 17,
+ "payoff_scenes": [
+  17,
+  18
+ ],
+ "final_question": "Sizning buvingiz non haqida qanday gap aytardi? Izohda yozing!",
+ "question_type": "shaxsiy hikoya"
+}

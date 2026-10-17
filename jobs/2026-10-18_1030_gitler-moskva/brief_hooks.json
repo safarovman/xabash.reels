@@ -1,0 +1,30 @@
+{
+ "hook": "Gitler Moskvaga yetib keldi. Lekin nega uni ololmadi?",
+ "hook_type": "qiziqish bo'shlig'i (savol + va'da)",
+ "rehooks": [
+  {
+   "scene": 2,
+   "text": "Javobi esa eng oxirida."
+  },
+  {
+   "scene": 5,
+   "text": "Lekin unda bitta katta xato bor edi. (~20 s)"
+  },
+  {
+   "scene": 7,
+   "text": "Bir soniya... Bu orada uzoq O'zbekistonda nima bo'layotgan edi? (~30 s, vizual burilish: front -> Toshkent vokzali)"
+  },
+  {
+   "scene": 14,
+   "text": "Endi diqqat."
+  },
+  {
+   "scene": 16,
+   "text": "Lekin ular bir narsani hisobga olmagandi..."
+  }
+ ],
+ "open_loop": "Gitler nega Moskvani ololmadi? — javob 17-19-sahnalarda (qishga tayyor emaslik + 5-dekabr qarshi hujumi)",
+ "payoff_scene": 17,
+ "final_question": "Oilangizda urushga ketgan bobongiz bormi? Ismini yozing — xotirasi yashasin.",
+ "question_type": "shaxsiy hikoya"
+}

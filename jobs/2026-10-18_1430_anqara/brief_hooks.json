@@ -1,0 +1,35 @@
+{
+ "hook": "Amir Temur sultonni qanday hiyla bilan yengdi?",
+ "hook_type": "qiziqish bo'shlig'i (savol)",
+ "rehooks": [
+  {
+   "scene": 2,
+   "text": "Javob oxirida. Avval — kim bilan kim to'qnashdi?"
+  },
+  {
+   "scene": 5,
+   "text": "Qarshisida — sulton Boyazid. Sakson besh ming askar... va fillar! (~20 s, vizual burilish: fillar; ekranda 85 000 · 32 fil)"
+  },
+  {
+   "scene": 7,
+   "text": "Lekin jangdan oldin Temur bir narsani payqadi... Endi diqqat. (~30 s)"
+  },
+  {
+   "scene": 11,
+   "text": "Jang boshlandi. Va shu yerda tarix burilib ketdi..."
+  },
+  {
+   "scene": 16,
+   "text": "Va mana eng qizig'i... Temurning asl hiylasi nima edi?"
+  }
+ ],
+ "open_loop": "Temur qanday hiyla bilan yengdi — javob 17-sahnada (Chubuq soyini suv omboriga burish), 18-sahnada Boyazid asir olinadi",
+ "payoff_scene": 17,
+ "final_question": "Siz Temur o'rnida qanday hiyla ishlatardingiz? Izohda yozing!",
+ "question_type": "siz bo'lganingizda",
+ "screen_numbers": {
+  "3": "1402",
+  "4": "~140 000",
+  "5": "~85 000 · 32 fil"
+ }
+}

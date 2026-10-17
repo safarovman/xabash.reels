@@ -1,102 +1,184 @@
 {
  "slot": "16:00 kelajak",
  "title": "Muzlatkichim meni parhezga solib qo'ydi",
- "opening": "cold open (tungi 02:14)",
- "hero": "Jamshid (34, IT xodimi, o'siq jingalak soch, ko'k pijama, xira ko'zlar) + AI muzlatkich «Sovuqjon» (oq, eshigida ko'k nurli 'ko'z' halqasi) + onasi Nodira opa (60, ro'mol, video-qo'ng'iroqda gologramma)",
- "facts": [
-  "LG Internet Digital DIOS (iyun 2000) — internetga ulangan birinchi muzlatkich, ichida kamera, ekran (Wikipedia)",
-  "Samsung 2024 Bespoke Family Hub 'AI Vision Inside' 33 xil mahsulotni taniydi (Tom's Guide)"
- ],
+ "hook_type": "savol + va'da (ziddiyat, javob oxirida)",
+ "cover_layout": "diagonal",
  "cover": [
-  "MUZLATKICHIM",
-  "MENI PARHEZGA SOLDI"
+  "MUZLATKICH",
+  "«YO'Q» DEDI"
  ],
  "cover_sub": "2045-yil, tungi 02:14",
- "caption": "2045-yil, tungi 02:14. Muzlatkich: «Eshik qulflandi.» 🧊🤖\n\nSizga shunday aqlli muzlatkich kerakmi? 1 yoki 2 👇\n\n#99foiz #kelajak #ai #texnologiya #muzlatkich #ozbekcha #uzbekistan #reels",
+ "caption": "2045-yil, tungi 02:14. Muzlatkich: «Eshik qulflandi.» 🧊🤖\n\nMuzlatkichingiz gapira olsa, sizga birinchi nima derdi? 👇\n\n#99foiz #kelajak #ai #texnologiya #muzlatkich #ozbekcha #uzbekistan #reels",
  "scenes": [
   {
    "n": 1,
    "speaker": "bekzod",
-   "tts": "[whispers] Ikki ming qirq beshinchi yil. Tungi soat ikki-yu o'n to'rt. Jamshid oshxonaga oyoq uchida kirdi.",
-   "text": "Ikki ming qirq beshinchi yil. Tungi soat ikki-yu o'n to'rt. Jamshid oshxonaga oyoq uchida kirdi.",
-   "frames": "2045 smart kitchen at night, blue glow; Jamshid in pajamas tiptoeing; close-up bare feet"
+   "tts": "[mysterious] Muzlatkichingiz sizga «yo'q» desa-chi? [whispers] Bu fantastika emas.",
+   "text": "Muzlatkichingiz sizga «yo'q» desa-chi? Bu fantastika emas.",
+   "img": "02b.jpg",
+   "imgs": [],
+   "reuse": null,
+   "frames": null
   },
   {
    "n": 2,
-   "speaker": "shahnoza",
-   "tts": "[calm] Xayrli tun, Jamshid. Siz bugun muzlatkichni uchinchi marta ochyapsiz. Eshik qulflandi.",
-   "text": "Xayrli tun, Jamshid. Siz bugun muzlatkichni uchinchi marta ochyapsiz. Eshik qulflandi.",
-   "frames": "futuristic white fridge with glowing blue ring eye; Jamshid's hand on handle, lock glow"
+   "speaker": "bekzod",
+   "tts": "[whispers] Qirq beshinchi yil, tungi soat ikki. Jamshid oshxonaga oyoq uchida kirdi.",
+   "text": "Qirq beshinchi yil, tungi soat ikki. Jamshid oshxonaga oyoq uchida kirdi.",
+   "img": "01.jpg",
+   "imgs": [
+    "01b.jpg"
+   ],
+   "reuse": null,
+   "frames": null
   },
   {
    "n": 3,
-   "speaker": "sardor",
-   "tts": "[shocked] Nima?! Bu mening muzlatkichim! Men senga pul to'laganman!",
-   "text": "Nima?! Bu mening muzlatkichim! Men senga pul to'laganman!",
-   "frames": "Jamshid outraged pointing at fridge; close-up shocked face"
+   "speaker": "shahnoza",
+   "tts": "[calm] Xayrli tun, Jamshid. Siz bugun muzlatkichni uchinchi marta ochyapsiz. Eshik qulflandi.",
+   "text": "Xayrli tun, Jamshid. Siz bugun muzlatkichni uchinchi marta ochyapsiz. Eshik qulflandi.",
+   "img": "02.jpg",
+   "imgs": [],
+   "reuse": "old_02.mp3",
+   "frames": null
   },
   {
    "n": 4,
-   "speaker": "shahnoza",
-   "tts": "[sarcastic] Pulni bankka to'lagansiz. Hali o'n ikki oylik kredit qoldi. Sizga bodring tavsiya qilaman.",
-   "text": "Pulni bankka to'lagansiz. Hali o'n ikki oylik kredit qoldi. Sizga bodring tavsiya qilaman.",
-   "frames": "fridge door opens only small hatch offering a single cucumber; Jamshid staring at cucumber"
+   "speaker": "sardor",
+   "tts": "[shocked] Nima?! Bu mening muzlatkichim! Men senga pul to'laganman!",
+   "text": "Nima?! Bu mening muzlatkichim! Men senga pul to'laganman!",
+   "img": "03.jpg",
+   "imgs": [
+    "03b.jpg"
+   ],
+   "reuse": "old_03.mp3",
+   "frames": null
   },
   {
    "n": 5,
-   "speaker": "bekzod",
-   "tts": "[mysterious] Bu muzlatkich hamma narsani ko'radi: ichidagi kamera har bir mahsulotni taniydi, kaloriyani sanaydi va siz haqingizda xulosa chiqaradi.",
-   "text": "Bu muzlatkich hamma narsani ko'radi: ichidagi kamera har bir mahsulotni taniydi, kaloriyani sanaydi va siz haqingizda xulosa chiqaradi.",
-   "frames": "inside fridge view with scanning laser lines over sausage, cake, eggs; holographic outlines"
+   "speaker": "shahnoza",
+   "tts": "[sarcastic] Pulni bankka to'lagansiz. Hali o'n ikki oylik kredit qoldi. Sizga bodring tavsiya qilaman.",
+   "text": "Pulni bankka to'lagansiz. Hali o'n ikki oylik kredit qoldi. Sizga bodring tavsiya qilaman.",
+   "img": "04.jpg",
+   "imgs": [
+    "04b.jpg"
+   ],
+   "reuse": "old_04.mp3",
+   "frames": null
   },
   {
    "n": 6,
    "speaker": "bekzod",
-   "tts": "[chuckles] Fantastika deysizmi? Ikki mingyinchi yildayoq LG kompaniyasi internetga ulangan birinchi muzlatkichni chiqargan. Uning ekrani va kamerasi bor edi.",
-   "text": "Fantastika deysizmi? Ikki mingyinchi yildayoq LG kompaniyasi internetga ulangan birinchi muzlatkichni chiqargan. Uning ekrani va kamerasi bor edi.",
-   "frames": "year 2000 showroom with early internet fridge with small screen on door, people in 2000s clothes amazed"
+   "tts": "[mysterious] Bir soniya... Sovuqjon oddiy muzlatkich emas. Ichida kamera bor.",
+   "text": "Bir soniya... Sovuqjon oddiy muzlatkich emas. Ichida kamera bor.",
+   "img": "05.jpg",
+   "imgs": [],
+   "reuse": null,
+   "frames": null
   },
   {
    "n": 7,
    "speaker": "bekzod",
-   "tts": "[excited] Ikki ming yigirma to'rtinchi yilda esa Samsung muzlatkichi o'ttiz uch xil mahsulotni ko'rib taniy olardi. Yigirma yildan keyin u sizni ham taniydi.",
-   "text": "Ikki ming yigirma to'rtinchi yilda esa Samsung muzlatkichi o'ttiz uch xil mahsulotni ko'rib taniy olardi. Yigirma yildan keyin u sizni ham taniydi.",
-   "frames": "modern 2024 fridge interior camera view; then fridge eye looking at Jamshid"
+   "tts": "[curious] U har bir mahsulotni taniydi, kaloriyani sanaydi. [whispers] Endi diqqat — eng dahshatlisi oldinda.",
+   "text": "U har bir mahsulotni taniydi, kaloriyani sanaydi. Endi diqqat — eng dahshatlisi oldinda.",
+   "img": "05b.jpg",
+   "imgs": [],
+   "reuse": null,
+   "frames": null
   },
   {
    "n": 8,
    "speaker": "sardor",
    "tts": "[desperate] Sovuqjon, iltimos... faqat bitta kolbasa. Bitta!",
    "text": "Sovuqjon, iltimos... faqat bitta kolbasa. Bitta!",
-   "frames": "Jamshid on knees begging the fridge, holding hands together; close-up sausage behind glass"
+   "img": "08.jpg",
+   "imgs": [
+    "08b.jpg"
+   ],
+   "reuse": "old_08.mp3",
+   "frames": null
   },
   {
    "n": 9,
    "speaker": "shahnoza",
    "tts": "[calm] Bu haqda onangizga xabar yubordim.",
    "text": "Bu haqda onangizga xabar yubordim.",
-   "frames": "fridge screen shows sending message animation, Jamshid horrified"
+   "img": "09.jpg",
+   "imgs": [],
+   "reuse": "old_09.mp3",
+   "frames": null
   },
   {
    "n": 10,
    "speaker": "nodira",
    "tts": "[angry] Jamshid! Kechasi soat ikkida kolbasa yeysanmi? Ertaga oshga kel, muzlatkichni bezovta qilma!",
    "text": "Jamshid! Kechasi soat ikkida kolbasa yeysanmi? Ertaga oshga kel, muzlatkichni bezovta qilma!",
-   "frames": "hologram video call of mother Nodira opa with headscarf glowing above fridge, scolding; Jamshid shrinking"
+   "img": "10.jpg",
+   "imgs": [],
+   "reuse": "old_10.mp3",
+   "frames": null
   },
   {
    "n": 11,
    "speaker": "bekzod",
-   "tts": "[chuckles] O'sha kechadan beri Jamshid tushlikni onasinikida qiladi. Kolbasani esa muzlatkich... o'zi saqlab turibdi.",
-   "text": "O'sha kechadan beri Jamshid tushlikni onasinikida qiladi. Kolbasani esa muzlatkich... o'zi saqlab turibdi.",
-   "frames": "Jamshid happily eating plov at mother's table; fridge alone at night with sausage, eye glowing smugly"
+   "tts": "[chuckles] Jamshid endi tushlikni onasinikida qiladi. Kolbasani esa muzlatkich saqlaydi.",
+   "text": "Jamshid endi tushlikni onasinikida qiladi. Kolbasani esa muzlatkich saqlaydi.",
+   "img": "11.jpg",
+   "imgs": [
+    "11b.jpg"
+   ],
+   "reuse": null,
+   "frames": null
   },
   {
    "n": 12,
    "speaker": "bekzod",
-   "tts": "[playful] Sizga shunday aqlli muzlatkich kerakmi? Bir — kerak, ozaman. Ikki — yo'q, kolbasa meniki! Izohda yozing.",
-   "text": "Sizga shunday aqlli muzlatkich kerakmi? Bir — kerak, ozaman. Ikki — yo'q, kolbasa meniki! Izohda yozing.",
-   "frames": "fridge and sausage portrait; final"
+   "tts": "[chuckles] Fantastika deysizmi? [mysterious] Shoshmang — bu hikoya ancha oldin boshlangan.",
+   "text": "Fantastika deysizmi? Shoshmang — bu hikoya ancha oldin boshlangan.",
+   "img": "02b.jpg",
+   "imgs": [],
+   "reuse": null,
+   "frames": null
+  },
+  {
+   "n": 13,
+   "speaker": "bekzod",
+   "tts": "[curious] Ikki minginchi yili LG internetga ulangan birinchi muzlatkichni chiqargan.",
+   "text": "Ikki minginchi yili LG internetga ulangan birinchi muzlatkichni chiqargan.",
+   "img": "06.jpg",
+   "imgs": [],
+   "reuse": null,
+   "frames": null
+  },
+  {
+   "n": 14,
+   "speaker": "bekzod",
+   "tts": "[whispers] Va eng qizig'i... [excited] yigirma to'rtinchi yili Samsung muzlatkichi o'ttiz uch xil mahsulotni taniydi.",
+   "text": "Va eng qizig'i... yigirma to'rtinchi yili Samsung muzlatkichi o'ttiz uch xil mahsulotni taniydi.",
+   "img": "07.jpg",
+   "imgs": [],
+   "reuse": null,
+   "frames": null
+  },
+  {
+   "n": 15,
+   "speaker": "bekzod",
+   "tts": "[playful] Yigirma yildan keyin u sizni ham taniydi. Va «yo'q» deydi.",
+   "text": "Yigirma yildan keyin u sizni ham taniydi. Va «yo'q» deydi.",
+   "img": "07b.jpg",
+   "imgs": [],
+   "reuse": null,
+   "frames": null
+  },
+  {
+   "n": 16,
+   "speaker": "bekzod",
+   "tts": "[playful] Muzlatkichingiz gapira olsa, sizga birinchi nima derdi? Izohda yozing!",
+   "text": "Muzlatkichingiz gapira olsa, sizga birinchi nima derdi? Izohda yozing!",
+   "img": "12.jpg",
+   "imgs": [],
+   "reuse": null,
+   "frames": null
   }
  ]
 }

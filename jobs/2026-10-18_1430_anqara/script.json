@@ -1,0 +1,220 @@
+{
+ "slot": "14:30 O'zbekiston tarixi",
+ "title": "Amir Temurning Anqara hiylasi",
+ "hook_type": "qiziqish bo'shlig'i, javob oxirida",
+ "cover_layout": "hero",
+ "cover": [
+  "TEMURNING",
+  "HIYLASI"
+ ],
+ "cover_sub": "Anqara, 1402",
+ "caption": "Amir Temur Anqara jangida bitta hiyla ishlatgan — javobi videoning oxirida ⚔️\n\nSiz Temur o'rnida qanday hiyla ishlatardingiz? Izohda yozing! 👇\n\n#99foiz #tarix #amirtemur #temuriylar #anqara #ozbekcha #uzbekistan #reels",
+ "hero": "Amir Temur (66, oq soqol, zirh, salobatli, oqsoqlanadi) + Sulton Boyazid Yildirim (42, qora soqol, oltin dubulg'a, takabbur) + tatar otliqlari",
+ "facts": [
+  "Anqara jangi 28.07.1402, Chubuq tekisligi; Temur ~140 ming, Boyazid ~85 ming + 32 jangovar fil (Wikipedia: Battle of Ankara)",
+  "Temur Chubuq soyini (ikki qo'shinning asosiy suv manbai) suv omboriga burib yuborgan; avval Usmonlilar ortiga o'tib, bo'shagan qarorgohini egallagan (Wikipedia)",
+  "Qora tatarlar va Anadolu beyliklarining sipohiylari Temur tomonga o'tgan; Boyazid asir olingan — Usmonli sultoni shaxsan asir olingan yagona holat; 3 oydan keyin asirlikda vafot etgan (Wikipedia, Britannica)"
+ ],
+ "scenes": [
+  {
+   "n": 1,
+   "speaker": "bekzod",
+   "tts": "[excited] Amir Temur sultonni qanday hiyla bilan yengdi?",
+   "text": "Amir Temur sultonni qanday hiyla bilan yengdi?",
+   "img": null,
+   "imgs": [],
+   "reuse": null,
+   "frames": "Amir Temur on horseback in the foreground, behind him a vast Ottoman army with war elephants, dust and banners, dramatic miniature painting style, motion"
+  },
+  {
+   "n": 2,
+   "speaker": "bekzod",
+   "tts": "[mysterious] Javob oxirida. Avval — kim bilan kim to'qnashdi?",
+   "text": "Javob oxirida. Avval — kim bilan kim to'qnashdi?",
+   "img": null,
+   "imgs": [],
+   "reuse": null,
+   "frames": "close-up of Amir Temur's hand on a sword hilt over a parchment map"
+  },
+  {
+   "n": 3,
+   "speaker": "bekzod",
+   "tts": "[serious] Olti asr oldin. Anqara yonidagi Chubuq tekisligi.",
+   "text": "Olti asr oldin. Anqara yonidagi Chubuq tekisligi.",
+   "img": null,
+   "imgs": [],
+   "reuse": null,
+   "frames": "parchment map of Anatolia with Ankara and the Chubuk plain marked, two army camps drawn"
+  },
+  {
+   "n": 4,
+   "speaker": "bekzod",
+   "tts": "[proud] Bir tomonda — Amir Temur. Yuz qirq mingga yaqin qo'shin.",
+   "text": "Bir tomonda — Amir Temur. Yuz qirq mingga yaqin qo'shin.",
+   "img": null,
+   "imgs": [],
+   "reuse": null,
+   "frames": "Amir Temur, 66, white beard, armor, majestic, on horseback before his troops"
+  },
+  {
+   "n": 5,
+   "speaker": "bekzod",
+   "tts": "[surprised] Qarshisida — sulton Boyazid. Sakson besh ming askar... va fillar!",
+   "text": "Qarshisida — sulton Boyazid. Sakson besh ming askar... va fillar!",
+   "img": null,
+   "imgs": [],
+   "reuse": null,
+   "frames": "sudden reveal: Ottoman army with 32 war elephants and janissaries lined up on a dusty plain"
+  },
+  {
+   "n": 6,
+   "speaker": "sardor",
+   "tts": "[proud] Men Yildirimman! Bu jang meniki bo'ladi!",
+   "text": "Men Yildirimman! Bu jang meniki bo'ladi!",
+   "img": null,
+   "imgs": [],
+   "reuse": null,
+   "frames": "Sultan Bayezid, 42, black beard, golden helmet, confident dignified pose in his tent"
+  },
+  {
+   "n": 7,
+   "speaker": "bekzod",
+   "tts": "[whispers] Lekin jangdan oldin Temur bir narsani payqadi... Endi diqqat.",
+   "text": "Lekin jangdan oldin Temur bir narsani payqadi... Endi diqqat.",
+   "img": null,
+   "imgs": [],
+   "reuse": null,
+   "frames": "Amir Temur studying a map in his tent by lamplight, his finger stopping on a thin blue line"
+  },
+  {
+   "n": 8,
+   "speaker": "jahongir",
+   "tts": "[elderly voice] [calm] Shoshilmang. Avval ularning orqasiga o'tamiz.",
+   "text": "Shoshilmang. Avval ularning orqasiga o'tamiz.",
+   "img": null,
+   "imgs": [],
+   "reuse": null,
+   "frames": "Amir Temur calmly raising his hand, speaking to his commanders"
+  },
+  {
+   "n": 9,
+   "speaker": "bekzod",
+   "tts": "[mysterious] Temur qo'shini Usmonlilar ortiga o'tib, bo'shagan qarorgohini egalladi.",
+   "text": "Temur qo'shini Usmonlilar ortiga o'tib, bo'shagan qarorgohini egalladi.",
+   "img": null,
+   "imgs": [],
+   "reuse": null,
+   "frames": "parchment map with curved arrows showing Timur's army circling behind the Ottomans to their empty camp"
+  },
+  {
+   "n": 10,
+   "speaker": "bekzod",
+   "tts": "[tense] Nega aynan o'sha joy? Bu hiylaning birinchi bo'lagi edi.",
+   "text": "Nega aynan o'sha joy? Bu hiylaning birinchi bo'lagi edi.",
+   "img": null,
+   "imgs": [],
+   "reuse": null,
+   "frames": "Timur's horsemen entering the abandoned Ottoman camp, empty tents, question-mark mood"
+  },
+  {
+   "n": 11,
+   "speaker": "bekzod",
+   "tts": "[tense] Jang boshlandi. Va shu yerda tarix burilib ketdi...",
+   "text": "Jang boshlandi. Va shu yerda tarix burilib ketdi...",
+   "img": null,
+   "imgs": [],
+   "reuse": null,
+   "frames": "massive cavalry clash in dust, arrows in the sky, miniature painting style"
+  },
+  {
+   "n": 12,
+   "speaker": "bekzod",
+   "tts": "[surprised] Boyazid safidagi qora tatarlar... birdan Temur tomonga o'tdi!",
+   "text": "Boyazid safidagi qora tatarlar... birdan Temur tomonga o'tdi!",
+   "img": null,
+   "imgs": [],
+   "reuse": null,
+   "frames": "Tatar horsemen turning around mid-battle and riding toward Timur's banners"
+  },
+  {
+   "n": 13,
+   "speaker": "sardor",
+   "tts": "[shocked] Nima?! O'z otliqlarim menga qarshi?!",
+   "text": "Nima?! O'z otliqlarim menga qarshi?!",
+   "img": null,
+   "imgs": [],
+   "reuse": null,
+   "frames": "Sultan Bayezid shocked on his horse, looking back at his departing cavalry"
+  },
+  {
+   "n": 14,
+   "speaker": "bekzod",
+   "tts": "[serious] Anadolu beyliklarining sipohiylari ham ularga qo'shildi.",
+   "text": "Anadolu beyliklarining sipohiylari ham ularga qo'shildi.",
+   "img": null,
+   "imgs": [],
+   "reuse": null,
+   "frames": "more Anatolian cavalry banners crossing the battlefield to Timur's side"
+  },
+  {
+   "n": 15,
+   "speaker": "bekzod",
+   "tts": "[mysterious] Bir ishora: Temur egallagan joy yonidan Chubuq soyi oqardi.",
+   "text": "Bir ishora: Temur egallagan joy yonidan Chubuq soyi oqardi.",
+   "img": null,
+   "imgs": [],
+   "reuse": null,
+   "frames": "parchment map close-up: a small stream (Chubuk) flowing past the captured camp, circled"
+  },
+  {
+   "n": 16,
+   "speaker": "bekzod",
+   "tts": "[whispers] Va mana eng qizig'i... Temurning asl hiylasi nima edi?",
+   "text": "Va mana eng qizig'i... Temurning asl hiylasi nima edi?",
+   "img": null,
+   "imgs": [],
+   "reuse": null,
+   "frames": "slow push-in on Amir Temur's calm face at the edge of the battlefield"
+  },
+  {
+   "n": 17,
+   "speaker": "bekzod",
+   "tts": "[excited] Temur ikki qo'shinning asosiy suv manbai — Chubuq soyini — suv omboriga burib yuborgan edi!",
+   "text": "Temur ikki qo'shinning asosiy suv manbai — Chubuq soyini — suv omboriga burib yuborgan edi!",
+   "img": null,
+   "imgs": [],
+   "reuse": null,
+   "frames": "Timur's soldiers digging a channel to divert the Chubuk stream into a reservoir, water flowing away from the Ottoman side"
+  },
+  {
+   "n": 18,
+   "speaker": "bekzod",
+   "tts": "[serious] Suvsiz qolgan Usmonli qo'shini yengildi. Sulton Boyazid asir olindi.",
+   "text": "Suvsiz qolgan Usmonli qo'shini yengildi. Sulton Boyazid asir olindi.",
+   "img": null,
+   "imgs": [],
+   "reuse": null,
+   "frames": "Ottoman ranks breaking under the burning sun; Sultan Bayezid captured by Timur's horsemen, dignified"
+  },
+  {
+   "n": 19,
+   "speaker": "bekzod",
+   "tts": "[serious] Bu — Usmonli sultoni shaxsan asir olingan yagona holat.",
+   "text": "Bu — Usmonli sultoni shaxsan asir olingan yagona holat.",
+   "img": null,
+   "imgs": [],
+   "reuse": null,
+   "frames": "Amir Temur seated in a grand tent, captive Sultan Bayezid brought before him, respectful solemn mood"
+  },
+  {
+   "n": 20,
+   "speaker": "bekzod",
+   "tts": "[warmly] Siz Temur o'rnida qanday hiyla ishlatardingiz? Izohda yozing!",
+   "text": "Siz Temur o'rnida qanday hiyla ishlatardingiz? Izohda yozing!",
+   "img": null,
+   "imgs": [],
+   "reuse": null,
+   "frames": "Amir Temur at sunset on a hill looking over the plain, banners waving"
+  }
+ ]
+}

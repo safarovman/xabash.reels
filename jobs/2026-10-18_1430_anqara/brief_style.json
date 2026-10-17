@@ -1,0 +1,36 @@
+{
+ "style_name": "Temuriylar davri o'zbek miniatyurasi (Behzod maktabi): lojuvard, oltin, mayda detallar + pergament xarita",
+ "image_prefix": "vertical 9:16, no text, no letters, no calligraphy, no inscriptions, no logos, 15th-century Timurid Persian miniature painting in the school of Kamoliddin Behzod, opaque gouache and gold leaf on burnished paper, rich deep lapis-lazuli ultramarine skies, shining gold highlights and gilded details, vermilion, malachite green and saffron accents, exquisitely fine detailed brushwork on armor, saddles, banners, tents and horse harnesses, decorative flat perspective with stylized rocky hills and swirling clouds, ornamental gold-illuminated border feel, crowded lively battle and camp compositions, realistic people with natural adult body proportions and expressive individual faces showing clear emotion (not flat stylized faces), not cartoon, no chibi, no big eyes; map scenes painted as an aged illuminated parchment map with ink lines, gold and lapis pigments, small painted armies and tents, ",
+ "character_prefix": "vertical 9:16, no text, no letters, no calligraphy, no logos, Timurid Persian miniature painting in the school of Behzod, opaque gouache with gold leaf details and lapis-lazuli blue accents, fine detailed brushwork on armor and robes, a single adult person, full body, natural realistic adult proportions, expressive individual face with clear emotion, not cartoon, no chibi, no big eyes, isolated on a clean plain white background, ",
+ "prop_prefix": "vertical 9:16, no text, no letters, no calligraphy, no logos, Timurid Persian miniature painting style, opaque gouache with gold leaf and lapis-lazuli blue, fine ornamental detail, a single object centered, isolated on a clean plain white background, ",
+ "theme": {
+  "font": "abrilfatface",
+  "font2": "caveat",
+  "accent": [226, 176, 62],
+  "accent2": [38, 72, 168],
+  "bubble_bg": [244, 232, 204],
+  "bubble_line": [38, 72, 168],
+  "bubble_ink": [46, 30, 18],
+  "bubble_dim": [128, 104, 74],
+  "bubble_radius": 18,
+  "transitions": ["torn", "zoom", "slide"],
+  "cut_fx": "whip"
+ },
+ "why": "1402-yilgi Anqara jangi aynan temuriylar saroyi naqqoshlari chizgan dunyo — lojuvard osmon, oltin bayroqlar va mayda detalli jang miniatyurasi Temur hiylasini o'z davrining tilida ko'rsatadi, xarita sahnalari esa pergamentda hiylaning yo'lini chizadi; bugungi plyonka, pop-art, diorama, moy bo'yoq va noirdan butunlay farqli.",
+ "cover": {
+  "layout": "hero",
+  "img": "cover.jpg",
+  "char": "c_temur_ayyor.jpg",
+  "props": ["p_soy_ariq.jpg", "p_jang_fili.jpg"],
+  "badge": "1402",
+  "title_colors": [[255, 244, 214], [226, 176, 62]],
+  "accent": [226, 176, 62],
+  "accent2": [38, 72, 168],
+  "flow_prompt": "vertical 9:16, no text, no letters, no calligraphy, no logos, 15th-century Timurid Persian miniature painting in the school of Behzod, opaque gouache and gold leaf, rich lapis-lazuli blue sky, close-up hero shot of Amir Temur, 66, white beard, gilded armor and turban-helmet, natural realistic proportions, expressive face with a sly knowing smile and one raised eyebrow, pointing behind him with one hand where his soldiers divert a sparkling blue stream into a dug channel away from the enemy, in the background exhausted Ottoman soldiers with empty water skins and a war elephant on dry cracked earth, Sultan Bayezid in a golden helmet looking shocked in the distance, bright high-contrast gold, vermilion and ultramarine colors, fine detailed brushwork, character in the lower two-thirds, empty calm lapis-blue sky with gold swirling clouds at the top for a title"
+ },
+ "cover_char_prompt": "character_prefix + Amir Temur, 66, white beard, gilded armor, sly knowing smile, one eyebrow raised, finger touching his temple",
+ "cover_props_prompts": {
+  "p_soy_ariq.jpg": "prop_prefix + a small stream of sparkling blue water flowing into a dug earthen channel with a wooden shovel",
+  "p_jang_fili.jpg": "prop_prefix + an armored Ottoman war elephant with a gold-trimmed red saddle cloth"
+ }
+}

@@ -1,0 +1,31 @@
+{
+ "style_name": "Eski harbiy xarita + po'lat gravyura: sovuq prussiya-ko'k va sepiya duoton (1941 qishi rekonstruksiyasi)",
+ "image_prefix": "vertical 9:16, no text, no letters, no numbers, no logos, no labels on maps, historical reconstruction illustrated as a fine 1940s steel engraving and etching, dense cross-hatching and crisp ink linework printed on aged yellowed map paper with folds, foxing stains and faint topographic contour lines, two-tone duotone palette of cold prussian blue ink and warm faded sepia, deep navy shadows, frost-white highlights, occasional single muted brick-red accent only for arrows, fire or carnations, wartime Eastern Front 1941 and wartime Tashkent atmosphere, cinematic composition, realistic people with natural adult proportions and real human faces, not cartoon, no chibi, no big eyes, no swastika, no nazi symbols, no insignia, no flags, no emblems, no real political figures, no portraits of historical leaders, soldiers in plain generic uniforms without badges, ",
+ "character_prefix": "vertical 9:16, no text, no letters, no logos, a single person drawn as a fine 1940s steel engraving with dense cross-hatching, two-tone prussian blue and sepia ink, natural realistic adult proportions, real human face, plain generic period clothing or plain greatcoat without badges, no swastika, no nazi symbols, no insignia, no emblems, no real political figures, not cartoon, no chibi, no big eyes, full body, isolated on a clean plain white background, ",
+ "prop_prefix": "vertical 9:16, no text, no letters, no numbers, no logos, a single object drawn as a fine 1940s steel engraving with cross-hatching, two-tone prussian blue and sepia ink, light frost highlights, no swastika, no nazi symbols, no insignia, no emblems, centered, isolated on a clean plain white background, ",
+ "theme": {
+  "font": "abrilfatface",
+  "font2": "russo",
+  "accent": [178, 58, 44],
+  "accent2": [222, 200, 156],
+  "bubble_bg": [234, 222, 196],
+  "bubble_line": [28, 54, 86],
+  "bubble_ink": [24, 34, 48],
+  "bubble_dim": [112, 104, 88],
+  "bubble_radius": 6,
+  "transitions": ["torn", "slide", "flash"],
+  "cut_fx": "whip"
+ },
+ "cover": {
+  "layout": "poster",
+  "img": "cover.jpg",
+  "char": "c_ergash_sovqotgan.jpg",
+  "props": ["p_muzlagan_soat.jpg", "p_uchburchak_xat.jpg"],
+  "badge": "1941",
+  "title_colors": [[238, 228, 204], [178, 58, 44]],
+  "accent": [28, 54, 86],
+  "accent2": [178, 58, 44],
+  "flow_prompt": "vertical 9:16, no text, no letters, no numbers, no logos, bold two-tone duotone poster in the style of a fine 1940s steel engraving with dense cross-hatching, cold prussian blue ink and warm sepia on aged map paper, close-up of a young Uzbek soldier Ergash, 19, in a plain frost-covered greatcoat and fur ushanka without any badges, eyes wide with shock and cold, breath steaming, snowflakes stuck to eyebrows, holding a frozen pocket watch in his gloved hand, behind him a blizzard over a snowy forest road and a faint distant city silhouette on the horizon, a big brick-red arrow on the old map background bending and breaking in the snow, strong high contrast, large empty plain sky area in the top third for a headline, realistic natural proportions, real human face, not cartoon, no chibi, no swastika, no nazi symbols, no insignia, no flags, no emblems, no real political figures"
+ },
+ "why": "Moskva ostidagi qish va barbod bo'lgan reja haqidagi hikoya eski harbiy xarita ustidagi gravyura sifatida tarix kitobi va shtab xaritasini eslatadi; sovuq ko'k-sepiya duoton ayozni his qildiradi va bugungi noir, sovet plyonkasi va miniatyuradan aniq farq qiladi."
+}

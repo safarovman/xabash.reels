@@ -28,7 +28,7 @@
    {"type": "mark", "shape": "box", "x": 540, "y": 820, "w": 460, "h": 560, "at": "Qimirlama!", "label": "QOTIB QOL!", "label_y": 1180}
   ],
   "5": [
-   {"type": "prop", "img": "p_g_qol.jpg", "x": 880, "y": 700, "h": 220, "from": "pop", "motion": "point", "dir": "left", "at": "Dada, Botir"},
+   {"type": "prop", "img": "p_g_qol.jpg", "x": 880, "y": 700, "h": 220, "from": "pop", "motion": "point", "dir": "left", "at": "Dada, qarang!"},
    {"type": "mark", "shape": "circle", "x": 540, "y": 640, "w": 300, "h": 240, "at": "ikki soatdan beri", "label": "2 SOAT!", "color": "red"},
    {"type": "prop", "img": "p_g_ter.jpg", "x": 300, "y": 620, "h": 200, "from": "pop", "motion": "bounce", "at": "Qo'li uxlab qoldi-ku!"}
   ],

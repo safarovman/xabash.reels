@@ -1,0 +1,30 @@
+{
+ "hook": "Bu bola uyning pulti edi. Laqabini oxirida aytaman!",
+ "hook_type": "qiziqish bo'shlig'i (laqab va'dasi)",
+ "rehooks": [
+  {
+   "scene": 5,
+   "text": "...lekin eng qiyini oldinda edi."
+  },
+  {
+   "scene": 7,
+   "text": "Bir soat o'tdi... Botir qimirlamaydi. Laqabi esa — hali oldinda."
+  },
+  {
+   "scene": 9,
+   "text": "O'ttiz yil o'tdi. Endi Botirning ham o'g'li bor."
+  },
+  {
+   "scene": 11,
+   "text": "Endi diqqat: birinchi pult qanday bo'lganini ko'pchilik bilmaydi."
+  },
+  {
+   "scene": 14,
+   "text": "Va mana eng qizig'i..."
+  }
+ ],
+ "open_loop": "Botirning laqabi nima edi? (javob: «klikker» — 1956-yilgi simsiz pultning nomi)",
+ "payoff_scene": 16,
+ "final_question": "Bolaligingizda uyda qaysi ish faqat sizniki edi? Izohda yozing!",
+ "question_type": "shaxsiy hikoya"
+}

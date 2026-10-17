@@ -1,102 +1,222 @@
 {
  "slot": "18:30 urf-odat",
  "title": "Nonni teskari qo'yma!",
- "opening": "epik ilmoq",
- "hero": "Malika buvi (72, oq ro'mol, to'q yashil atlas ko'ylak, mehribon ajinli yuz) + nevarasi Sherzod (16, qora xudi, quloqchin bo'ynida) + novvoy Rahmat aka (50, oq do'ppi, oq fartuk, kuchli qo'llar, un yuqi)",
- "facts": [
-  "Samarqand noni rivoyati: Buxoro amiri samarqandlik novvoyni olib keldi, un va suv ham keltirildi, lekin non chiqmadi — 'Samarqand havosi yo'q' (Wikipedia: Samarkand non — rivoyat)",
-  "2022-yilda O'zbekistonda kuniga ~15 000 ta Samarqand noni yopilgan (Wikipedia)"
- ],
+ "hook_type": "savol + javob oxirida",
+ "cover_layout": "bubble",
  "cover": [
   "NONNI TESKARI",
   "QO'YMA!"
  ],
  "cover_sub": "buvimning birinchi qoidasi",
- "caption": "Buvim aytardi: «Nonni teskari qo'ysang, rizqing teskari ketadi» 🫓❤️\n\nSizning uyingizda non bilan qanday odat bor? 👇\n\n#99foiz #urfodat #non #tandir #samarqand #ozbekcha #uzbekistan #reels",
+ "caption": "Buvim aytardi: «Nonni teskari qo'yma, bolam» 🫓❤️\n\nSizning buvingiz non haqida qanday gap aytardi? 👇\n\n#99foiz #urfodat #non #tandir #samarqand #ozbekcha #uzbekistan #reels",
  "scenes": [
   {
    "n": 1,
    "speaker": "bekzod",
-   "tts": "[warmly] O'zbek uyida bitta qoida bor. Uni hech kim yozib qo'ymagan, lekin hamma biladi: non hech qachon teskari qo'yilmaydi.",
-   "text": "O'zbek uyida bitta qoida bor. Uni hech kim yozib qo'ymagan, lekin hamma biladi: non hech qachon teskari qo'yilmaydi.",
-   "frames": "epic: golden tandir bread on dasturxon in warm light; hands placing bread face up; family table"
+   "tts": "[curious] Nega o'zbek uyida non hech qachon teskari qo'yilmaydi?",
+   "text": "Nega o'zbek uyida non hech qachon teskari qo'yilmaydi?",
+   "img": "02b.jpg",
+   "imgs": [],
+   "reuse": null,
+   "frames": null
   },
   {
    "n": 2,
    "speaker": "sardor",
    "tts": "[casual] Buvijon, non-ku bu! Qanday qo'ysa ham baribir non-da.",
    "text": "Buvijon, non-ku bu! Qanday qo'ysa ham baribir non-da.",
-   "frames": "Sherzod carelessly tossing bread upside down on table, earbuds; close-up upside-down bread"
+   "img": "02.jpg",
+   "imgs": [],
+   "reuse": null,
+   "frames": null
   },
   {
    "n": 3,
    "speaker": "malika",
-   "tts": "[elderly voice] [gasps] Voy, bolam! Nonni teskari qo'ysang, rizqing teskari ketadi. Ol, to'g'rilab qo'y. Ushog'ini ham terib ol.",
-   "text": "Voy, bolam! Nonni teskari qo'ysang, rizqing teskari ketadi. Ol, to'g'rilab qo'y. Ushog'ini ham terib ol.",
-   "frames": "grandma Malika gasping, hand to chest; her hand gently turning bread right side up; collecting crumbs into palm"
+   "tts": "[elderly voice] [gasps] Voy, bolam! Nonni teskari qo'yma!",
+   "text": "Voy, bolam! Nonni teskari qo'yma!",
+   "img": "03.jpg",
+   "imgs": [],
+   "reuse": null,
+   "frames": null
   },
   {
    "n": 4,
-   "speaker": "bekzod",
-   "tts": "[chuckles] Sherzod kulib qo'ydi. Lekin ertasi kuni tongda buvisi uni mahalladagi tandirxonaga olib bordi.",
-   "text": "Sherzod kulib qo'ydi. Lekin ertasi kuni tongda buvisi uni mahalladagi tandirxonaga olib bordi.",
-   "frames": "dawn street of mahalla, grandma leading sleepy grandson; tandirxona with smoke"
+   "speaker": "malika",
+   "tts": "[elderly voice] [gently] Ol, to'g'rilab qo'y. Ushog'ini ham terib ol.",
+   "text": "Ol, to'g'rilab qo'y. Ushog'ini ham terib ol.",
+   "img": "03b.jpg",
+   "imgs": [
+    "03c.jpg"
+   ],
+   "reuse": null,
+   "frames": null
   },
   {
    "n": 5,
-   "speaker": "jahongir",
-   "tts": "[warmly] Kel, uka. Bitta non uchun xamir kechasi tindiriladi. Tong otmasdan tandir qiziydi. Qani, o'zing yopib ko'r-chi.",
-   "text": "Kel, uka. Bitta non uchun xamir kechasi tindiriladi. Tong otmasdan tandir qiziydi. Qani, o'zing yopib ko'r-chi.",
-   "frames": "baker Rahmat aka kneading dough; glowing tandir fire; handing dough to Sherzod"
+   "speaker": "bekzod",
+   "tts": "[chuckles] Sherzod kulib qo'ydi. [whispers] Lekin buvisi sababini aytmadi...",
+   "text": "Sherzod kulib qo'ydi. Lekin buvisi sababini aytmadi...",
+   "img": "01.jpg",
+   "imgs": [
+    "01b.jpg"
+   ],
+   "reuse": null,
+   "frames": null
   },
   {
    "n": 6,
-   "speaker": "sardor",
-   "tts": "[panicked] [laughs] Voy, qo'lim! Tandir juda issiq ekan-ku! Nonim tushib ketdi!",
-   "text": "Voy, qo'lim! Tandir juda issiq ekan-ku! Nonim tushib ketdi!",
-   "frames": "Sherzod pulling hand back from tandir, comic panic; bread falling into tandir; baker laughing"
+   "speaker": "bekzod",
+   "tts": "[mysteriously] Ertasi kuni tongda u nevarasini bir joyga olib bordi.",
+   "text": "Ertasi kuni tongda u nevarasini bir joyga olib bordi.",
+   "img": "04.jpg",
+   "imgs": [],
+   "reuse": null,
+   "frames": null
   },
   {
    "n": 7,
    "speaker": "bekzod",
-   "tts": "[warmly] Samarqand noni haqida bir rivoyat bor. Buxoro amiri samarqandlik novvoyni saroyiga chaqirtiribdi. Unni ham, suvni ham Samarqanddan olib kelibdi. Lekin non baribir o'shanday chiqmabdi.",
-   "text": "Samarqand noni haqida bir rivoyat bor. Buxoro amiri samarqandlik novvoyni saroyiga chaqirtiribdi. Unni ham, suvni ham Samarqanddan olib kelibdi. Lekin non baribir o'shanday chiqmabdi.",
-   "frames": "historic Bukhara palace kitchen, emir in robes tasting bread disappointed; baker bowing; sacks of flour and water jugs on camels"
+   "tts": "[whispers] Eshik ochildi — va Sherzod nonning sirini ko'rdi.",
+   "text": "Eshik ochildi — va Sherzod nonning sirini ko'rdi.",
+   "img": "05.jpg",
+   "imgs": [],
+   "reuse": null,
+   "frames": null
   },
   {
    "n": 8,
-   "speaker": "bekzod",
-   "tts": "[whispers] Shunda novvoy aytibdi: «Amirim, Samarqandning havosini olib kelolmadim-da».",
-   "text": "Shunda novvoy aytibdi: «Amirim, Samarqandning havosini olib kelolmadim-da».",
-   "frames": "baker gesturing to the sky over Samarkand domes, golden dusk air"
+   "speaker": "jahongir",
+   "tts": "[warmly] Kel, uka. Bitta non uchun xamir kechasi tindiriladi.",
+   "text": "Kel, uka. Bitta non uchun xamir kechasi tindiriladi.",
+   "img": "05.jpg",
+   "imgs": [],
+   "reuse": null,
+   "frames": null
   },
   {
    "n": 9,
-   "speaker": "bekzod",
-   "tts": "[warmly] Bu — rivoyat. Raqam esa haqiqiy: ikki ming yigirma ikkinchi yilda yurtimizda har kuni o'n besh mingtacha Samarqand noni yopilgan.",
-   "text": "Bu — rivoyat. Raqam esa haqiqiy: ikki ming yigirma ikkinchi yilda yurtimizda har kuni o'n besh mingtacha Samarqand noni yopilgan.",
-   "frames": "rows of hundreds of Samarkand breads cooling on racks in bakery; stacks on cart"
+   "speaker": "jahongir",
+   "tts": "[warmly] Tong otmasdan tandir qiziydi. Qani, o'zing yopib ko'r-chi.",
+   "text": "Tong otmasdan tandir qiziydi. Qani, o'zing yopib ko'r-chi.",
+   "img": "05b.jpg",
+   "imgs": [],
+   "reuse": null,
+   "frames": null
   },
   {
    "n": 10,
-   "speaker": "malika",
-   "tts": "[elderly voice] [warmly] Ko'rdingmi, bolam? Non — mehnat. Shuning uchun uni hurmat qilamiz. Ikki qo'llab ushatamiz, hammaga ulashamiz.",
-   "text": "Ko'rdingmi, bolam? Non — mehnat. Shuning uchun uni hurmat qilamiz. Ikki qo'llab ushatamiz, hammaga ulashamiz.",
-   "frames": "grandma breaking bread with both hands and sharing with family; Sherzod listening thoughtfully"
+   "speaker": "sardor",
+   "tts": "[panicked] [laughs] Voy, qo'lim! Tandir juda issiq ekan-ku!",
+   "text": "Voy, qo'lim! Tandir juda issiq ekan-ku!",
+   "img": "06.jpg",
+   "imgs": [
+    "06b.jpg"
+   ],
+   "reuse": null,
+   "frames": null
   },
   {
    "n": 11,
    "speaker": "bekzod",
-   "tts": "[warmly] O'sha kuni Sherzod uyga o'zi yopgan nonni olib keldi. Biroz qiyshiq edi. Lekin dasturxonda to'ppa-to'g'ri turardi.",
-   "text": "O'sha kuni Sherzod uyga o'zi yopgan nonni olib keldi. Biroz qiyshiq edi. Lekin dasturxonda to'ppa-to'g'ri turardi.",
-   "frames": "Sherzod proudly placing slightly lopsided bread face up on dasturxon, grandma beaming"
+   "tts": "[impressed] Yigirma ikkinchi yili kuniga o'n besh mingtacha Samarqand noni yopilgan.",
+   "text": "Yigirma ikkinchi yili kuniga o'n besh mingtacha Samarqand noni yopilgan.",
+   "img": "09.jpg",
+   "imgs": [
+    "09b.jpg"
+   ],
+   "reuse": null,
+   "frames": null
   },
   {
    "n": 12,
    "speaker": "bekzod",
-   "tts": "[warmly] Sizning uyingizda non bilan bog'liq qanday odat bor? Izohda yozing.",
-   "text": "Sizning uyingizda non bilan bog'liq qanday odat bor? Izohda yozing.",
-   "frames": "dasturxon with bread, tea, warm evening; final"
+   "tts": "[warmly] Endi diqqat: Samarqand noni haqida bir rivoyat bor.",
+   "text": "Endi diqqat: Samarqand noni haqida bir rivoyat bor.",
+   "img": "07.jpg",
+   "imgs": [],
+   "reuse": null,
+   "frames": null
+  },
+  {
+   "n": 13,
+   "speaker": "bekzod",
+   "tts": "[storytelling] Buxoro amiri samarqandlik novvoyni saroyiga chaqirtiribdi.",
+   "text": "Buxoro amiri samarqandlik novvoyni saroyiga chaqirtiribdi.",
+   "img": "07.jpg",
+   "imgs": [],
+   "reuse": null,
+   "frames": null
+  },
+  {
+   "n": 14,
+   "speaker": "bekzod",
+   "tts": "[storytelling] Unni ham, suvni ham Samarqanddan olib kelishibdi.",
+   "text": "Unni ham, suvni ham Samarqanddan olib kelishibdi.",
+   "img": "07b.jpg",
+   "imgs": [],
+   "reuse": null,
+   "frames": null
+  },
+  {
+   "n": 15,
+   "speaker": "bekzod",
+   "tts": "[whispers] Lekin non baribir o'shanday chiqmabdi. Nega?",
+   "text": "Lekin non baribir o'shanday chiqmabdi. Nega?",
+   "img": "07.jpg",
+   "imgs": [],
+   "reuse": null,
+   "frames": null
+  },
+  {
+   "n": 16,
+   "speaker": "bekzod",
+   "tts": "[whispers] Novvoy uzoq jim turibdi. Va mana eng qizig'i...",
+   "text": "Novvoy uzoq jim turibdi. Va mana eng qizig'i...",
+   "img": "08.jpg",
+   "imgs": [],
+   "reuse": null,
+   "frames": null
+  },
+  {
+   "n": 17,
+   "speaker": "bekzod",
+   "tts": "[warmly] Novvoy aytibdi: «Amirim, Samarqandning havosini olib kelolmadim-da».",
+   "text": "Novvoy aytibdi: «Amirim, Samarqandning havosini olib kelolmadim-da».",
+   "img": "08.jpg",
+   "imgs": [],
+   "reuse": null,
+   "frames": null
+  },
+  {
+   "n": 18,
+   "speaker": "malika",
+   "tts": "[elderly voice] [warmly] Ko'rdingmi, bolam? Non — mehnat. Mehnatni teskari qo'yib bo'lmaydi.",
+   "text": "Ko'rdingmi, bolam? Non — mehnat. Mehnatni teskari qo'yib bo'lmaydi.",
+   "img": "10.jpg",
+   "imgs": [],
+   "reuse": null,
+   "frames": null
+  },
+  {
+   "n": 19,
+   "speaker": "bekzod",
+   "tts": "[warmly] O'sha kuni Sherzod o'zi yopgan nonni to'ppa-to'g'ri qo'ydi.",
+   "text": "O'sha kuni Sherzod o'zi yopgan nonni to'ppa-to'g'ri qo'ydi.",
+   "img": "11.jpg",
+   "imgs": [],
+   "reuse": null,
+   "frames": null
+  },
+  {
+   "n": 20,
+   "speaker": "bekzod",
+   "tts": "[warmly] Sizning buvingiz non haqida qanday gap aytardi? Izohda yozing!",
+   "text": "Sizning buvingiz non haqida qanday gap aytardi? Izohda yozing!",
+   "img": "12.jpg",
+   "imgs": [],
+   "reuse": null,
+   "frames": null
   }
  ]
 }

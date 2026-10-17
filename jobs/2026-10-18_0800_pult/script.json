@@ -1,95 +1,201 @@
 {
  "slot": "08:00 o'tmish",
  "title": "Men dadamning pulti edim",
- "opening": "dialog bilan",
- "hero": "Botir (1995-da 11 yosh: qirqma soch, ko'k sport kostyum; hozir 42: qisqa soch, kulrang sviter) + dadasi Erkin aka (45, mo'ylov, mayka va trenka, divanda) + opasi Maftuna (16, ikki o'rim soch, maktab formasi)",
- "facts": [
-  "Zenith 'Lazy Bones' (1950) — simli TV pulti (Wikipedia: Remote control)",
-  "Robert Adler, Zenith 'Space Command' (1956) — ultratovushli, tugma bosilganda 'chiq' etardi, 'clicker' laqabi (Wikipedia; Guinness)"
- ],
+ "hook_type": "qiziqish bo'shlig'i (laqab va'dasi)",
+ "cover_layout": "polaroid",
  "cover": [
-  "MEN DADAMNING",
+  "MEN UYIMIZNING",
   "PULTI EDIM"
  ],
- "cover_sub": "«Botir! Kanalni o'zgartir!»",
- "caption": "1995-yil: uyda pult yo'q edi. Pult — men edim 📺😅\n\nSiz ham uyingizning pulti bo'lganmisiz? 1, 2 yoki 3 👇\n\n#99foiz #otmish #nostalgiya #90lar #televizor #ozbekcha #uzbekistan #reels",
+ "cover_sub": "1995-yil, Toshkent",
+ "caption": "11 yoshimda men uyimizning pulti edim 📺😅\n\nBolaligingizda uyda qaysi ish faqat sizniki edi? 👇\n\n#99foiz #otmish #nostalgiya #90lar #televizor #ozbekcha #uzbekistan #reels",
  "scenes": [
   {
    "n": 1,
-   "speaker": "jahongir",
-   "tts": "[shouting] Botir! Bolam, ikkinchi kanalga o'tkazib yubor-chi! Futbol boshlanyapti!",
-   "text": "Botir! Bolam, ikkinchi kanalga o'tkazib yubor-chi! Futbol boshlanyapti!",
-   "frames": "1995, Uzbek living room, dad on sofa shouting, 11yo boy jumps up from carpet; close-up of dad's face; boy running to old TV"
+   "speaker": "bekzod",
+   "tts": "[mischievous] Bu bola uyning pulti edi. Laqabini oxirida aytaman!",
+   "text": "Bu bola uyning pulti edi. Laqabini oxirida aytaman!",
+   "img": "04.jpg",
+   "imgs": [],
+   "reuse": null,
+   "frames": null
   },
   {
    "n": 2,
-   "speaker": "bekzod",
-   "tts": "[chuckles] To'qson beshinchi yil. Uyda pult yo'q edi. Aniqrog'i, pult bor edi. Uning ismi Botir edi.",
-   "text": "To'qson beshinchi yil. Uyda pult yo'q edi. Aniqrog'i, pult bor edi. Uning ismi Botir edi.",
-   "frames": "boy standing next to big CRT TV like a soldier; close-up of boy's finger on chunky channel knob; dad pointing lazily"
+   "speaker": "jahongir",
+   "tts": "[shouting] Botir! Bolam, ikkinchi kanalga o'tkazib yubor-chi! Futbol boshlanyapti!",
+   "text": "Botir! Bolam, ikkinchi kanalga o'tkazib yubor-chi! Futbol boshlanyapti!",
+   "img": "01.jpg",
+   "imgs": [
+    "01b.jpg",
+    "01c.jpg"
+   ],
+   "reuse": "old_01.mp3",
+   "frames": null
   },
   {
    "n": 3,
    "speaker": "bekzod",
-   "tts": "[playful] Pultning vazifalari: kanalni almashtirish, ovozni balandlatish, antennani ushlab turish va dadasi uxlab qolsa, televizorni o'chirish.",
-   "text": "Pultning vazifalari: kanalni almashtirish, ovozni balandlatish, antennani ushlab turish va dadasi uxlab qolsa, televizorni o'chirish.",
-   "frames": "boy turning volume knob; dad asleep snoring on sofa with TV glow; boy tiptoeing to switch off TV"
+   "tts": "[chuckles] To'qson beshinchi yil. Uyda pult yo'q edi.",
+   "text": "To'qson beshinchi yil. Uyda pult yo'q edi.",
+   "img": "02.jpg",
+   "imgs": [],
+   "reuse": null,
+   "frames": null
   },
   {
    "n": 4,
-   "speaker": "jahongir",
-   "tts": "[annoyed] Endi antennani ushlab tur! Yo'q, chaproqqa... Ha, ha, o'sha yerda tur! Qimirlama!",
-   "text": "Endi antennani ushlab tur! Yo'q, chaproqqa... Ha, ha, o'sha yerda tur! Qimirlama!",
-   "frames": "boy holding rabbit-ear antenna up high in odd pose; TV screen full of static snow; dad leaning forward"
+   "speaker": "bekzod",
+   "tts": "[playful] Aniqrog'i, pult bor edi. Uning ismi Botir edi.",
+   "text": "Aniqrog'i, pult bor edi. Uning ismi Botir edi.",
+   "img": "02b.jpg",
+   "imgs": [],
+   "reuse": null,
+   "frames": null
   },
   {
    "n": 5,
-   "speaker": "dilnoza",
-   "tts": "[laughs] Dada, qarang! Botir ikki soatdan beri qimirlamay turibdi. Qo'li uxlab qoldi-ku!",
-   "text": "Dada, qarang! Botir ikki soatdan beri qimirlamay turibdi. Qo'li uxlab qoldi-ku!",
-   "frames": "teen sister Maftuna laughing in doorway; boy frozen with numb arm, sweat drop; clock on wall"
+   "speaker": "bekzod",
+   "tts": "[playful] Kanal almashtirish, ovozni balandlatish... [whispers] lekin eng qiyini oldinda edi.",
+   "text": "Kanal almashtirish, ovozni balandlatish... lekin eng qiyini oldinda edi.",
+   "img": "03.jpg",
+   "imgs": [
+    "03c.jpg"
+   ],
+   "reuse": null,
+   "frames": null
   },
   {
    "n": 6,
-   "speaker": "bekzod",
-   "tts": "[curious] Vaholanki, dunyodagi birinchi pultlardan biri ming to'qqiz yuz elliginchi yilda chiqqan. Zenith kompaniyasining «Lazy Bones» pulti — tarjimasi «Dangasa suyaklar». U televizorga sim bilan ulangan edi.",
-   "text": "Vaholanki, dunyodagi birinchi pultlardan biri ming to'qqiz yuz elliginchi yilda chiqqan. Zenith kompaniyasining «Lazy Bones» pulti — tarjimasi «Dangasa suyaklar». U televizorga sim bilan ulangan edi.",
-   "frames": "1950s American living room, man in armchair holding a wired remote with long cable to wooden TV; close-up of cable tangled around feet"
+   "speaker": "jahongir",
+   "tts": "[annoyed] Endi antennani ushlab tur! Yo'q, chaproqqa... Ha, ha, o'sha yerda tur! Qimirlama!",
+   "text": "Endi antennani ushlab tur! Yo'q, chaproqqa... Ha, ha, o'sha yerda tur! Qimirlama!",
+   "img": "04b.jpg",
+   "imgs": [
+    "04.jpg"
+   ],
+   "reuse": "old_04.mp3",
+   "frames": null
   },
   {
    "n": 7,
    "speaker": "bekzod",
-   "tts": "[excited] Olti yildan keyin muhandis Robert Adler simsiz pult yasadi. U ultratovush bilan ishlardi va tugma bosilganda «chiq» etib ovoz chiqarardi. Shuning uchun uni «klikker» deb atashgan.",
-   "text": "Olti yildan keyin muhandis Robert Adler simsiz pult yasadi. U ultratovush bilan ishlardi va tugma bosilganda «chiq» etib ovoz chiqarardi. Shuning uchun uni «klikker» deb atashgan.",
-   "frames": "1950s engineer workshop with early wireless remote prototype; close-up of finger pressing big button with sound waves; housewife amazed, TV changing channel"
+   "tts": "[whispers] Bir soat o'tdi... Botir qimirlamaydi. Laqabi esa — hali oldinda.",
+   "text": "Bir soat o'tdi... Botir qimirlamaydi. Laqabi esa — hali oldinda.",
+   "img": "05b.jpg",
+   "imgs": [],
+   "reuse": null,
+   "frames": null
   },
   {
    "n": 8,
-   "speaker": "jahongir",
-   "tts": "[laughs] Bizning ham klikkerimiz bor edi! «Botir!» desam — chiq etib o'rnidan turardi!",
-   "text": "Bizning ham klikkerimiz bor edi! «Botir!» desam — chiq etib o'rnidan turardi!",
-   "frames": "dad laughing on sofa snapping fingers; boy springing up like a spring from the carpet"
+   "speaker": "dilnoza",
+   "tts": "[laughs] Dada, qarang! Botir ikki soatdan beri qimirlamay turibdi. Qo'li uxlab qoldi-ku!",
+   "text": "Dada, qarang! Botir ikki soatdan beri qimirlamay turibdi. Qo'li uxlab qoldi-ku!",
+   "img": "05.jpg",
+   "imgs": [],
+   "reuse": "old_05.mp3",
+   "frames": null
   },
   {
    "n": 9,
    "speaker": "bekzod",
-   "tts": "[warmly] Yillar o'tdi. Botir katta bo'ldi. Endi uning ham o'g'li bor.",
-   "text": "Yillar o'tdi. Botir katta bo'ldi. Endi uning ham o'g'li bor.",
-   "frames": "time transition: same living room modernized, flat TV; adult Botir (42) on sofa, his 10yo son with a smartphone"
+   "tts": "[warmly] O'ttiz yil o'tdi. Endi Botirning ham o'g'li bor.",
+   "text": "O'ttiz yil o'tdi. Endi Botirning ham o'g'li bor.",
+   "img": "09.jpg",
+   "imgs": [],
+   "reuse": null,
+   "frames": null
   },
   {
    "n": 10,
    "speaker": "sardor",
-   "tts": "[sighs] O'g'lim, kanalni almashtir desam, «Dada, ovozli yordamchiga ayting» deydi. Men esa butun bolaligimni antenna ushlab o'tkazganman!",
-   "text": "O'g'lim, kanalni almashtir desam, «Dada, ovozli yordamchiga ayting» deydi. Men esa butun bolaligimni antenna ushlab o'tkazganman!",
-   "frames": "adult Botir talking to smart speaker awkwardly; son laughing; Botir holding an old antenna nostalgically"
+   "tts": "[sighs] O'g'lim kanalni ovozli yordamchiga aytib almashtiradi.",
+   "text": "O'g'lim kanalni ovozli yordamchiga aytib almashtiradi.",
+   "img": "10.jpg",
+   "imgs": [],
+   "reuse": null,
+   "frames": null
   },
   {
    "n": 11,
    "speaker": "bekzod",
-   "tts": "[excited] Siz ham uyingizning pulti bo'lganmisiz? Bir — ha, men edim. Ikki — opam edi. Uch — bizda haqiqiy pult bor edi. Izohda yozing!",
-   "text": "Siz ham uyingizning pulti bo'lganmisiz? Bir — ha, men edim. Ikki — opam edi. Uch — bizda haqiqiy pult bor edi. Izohda yozing!",
-   "frames": "old rabbit-ear antenna and chunky knob TV on a shelf, warm light; final"
+   "tts": "[curious] Endi diqqat: birinchi pult qanday bo'lganini ko'pchilik bilmaydi.",
+   "text": "Endi diqqat: birinchi pult qanday bo'lganini ko'pchilik bilmaydi.",
+   "img": "06.jpg",
+   "imgs": [],
+   "reuse": null,
+   "frames": null
+  },
+  {
+   "n": 12,
+   "speaker": "bekzod",
+   "tts": "[curious] Ellikinchi yil. Zenith kompaniyasining «Lazy Bones» pulti.",
+   "text": "Ellikinchi yil. Zenith kompaniyasining «Lazy Bones» pulti.",
+   "img": "06.jpg",
+   "imgs": [],
+   "reuse": null,
+   "frames": null
+  },
+  {
+   "n": 13,
+   "speaker": "bekzod",
+   "tts": "[chuckles] Tarjimasi — «Dangasa suyaklar». U televizorga sim bilan ulangan edi.",
+   "text": "Tarjimasi — «Dangasa suyaklar». U televizorga sim bilan ulangan edi.",
+   "img": "06b.jpg",
+   "imgs": [],
+   "reuse": null,
+   "frames": null
+  },
+  {
+   "n": 14,
+   "speaker": "bekzod",
+   "tts": "[excited] Ellik oltinchi yil. Muhandis Robert Adler simsiz pult yasadi. [whispers] Va mana eng qizig'i...",
+   "text": "Ellik oltinchi yil. Muhandis Robert Adler simsiz pult yasadi. Va mana eng qizig'i...",
+   "img": "07.jpg",
+   "imgs": [],
+   "reuse": null,
+   "frames": null
+  },
+  {
+   "n": 15,
+   "speaker": "bekzod",
+   "tts": "[playful] Tugmasi bosilganda «chiq» etardi. Shuning uchun uni «klikker» deyishgan.",
+   "text": "Tugmasi bosilganda «chiq» etardi. Shuning uchun uni «klikker» deyishgan.",
+   "img": "07b.jpg",
+   "imgs": [],
+   "reuse": null,
+   "frames": null
+  },
+  {
+   "n": 16,
+   "speaker": "jahongir",
+   "tts": "[laughs] Bizning ham klikkerimiz bor edi! «Botir!» desam — chiq etib o'rnidan turardi!",
+   "text": "Bizning ham klikkerimiz bor edi! «Botir!» desam — chiq etib o'rnidan turardi!",
+   "img": "08.jpg",
+   "imgs": [],
+   "reuse": "old_08.mp3",
+   "frames": null
+  },
+  {
+   "n": 17,
+   "speaker": "sardor",
+   "tts": "[laughs] Men esa butun bolaligimni klikker bo'lib o'tkazganman!",
+   "text": "Men esa butun bolaligimni klikker bo'lib o'tkazganman!",
+   "img": "10b.jpg",
+   "imgs": [],
+   "reuse": null,
+   "frames": null
+  },
+  {
+   "n": 18,
+   "speaker": "bekzod",
+   "tts": "[warmly] Bolaligingizda uyda qaysi ish faqat sizniki edi? Izohda yozing!",
+   "text": "Bolaligingizda uyda qaysi ish faqat sizniki edi? Izohda yozing!",
+   "img": "11.jpg",
+   "imgs": [],
+   "reuse": null,
+   "frames": null
   }
  ]
 }

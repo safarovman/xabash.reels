@@ -138,5 +138,9 @@
  "p_g_undov.jpg": {
   "prompt": "vertical 9:16, no text, no letters, no logos, pop-art halftone comic illustration of a single object, bold thick black ink outline, Ben-Day dot shading, flat saturated red yellow cyan colors, centered, isolated on a clean pure white background. a bold red exclamation mark with a small shock burst behind it, cartoon reaction sticker, isolated on pure white background, no text",
   "ref": null
+ },
+ "cover.jpg": {
+  "prompt": "vertical 9:16, no text, no letters, no logos, pop-art comic book panel illustration in the style of 1960s Lichtenstein-inspired print, visible Ben-Day halftone dots, bold thick black ink outlines, flat saturated primary colors (hot red, lemon yellow, cyan blue) with white highlights, dramatic comic framing and speed lines, modern Tashkent apartment or cafe setting, adult people with natural realistic human proportions and realistic faces, expressive but anatomically correct, no chibi, no big anime eyes, no speech balloons. close-up of Uzbek woman Nigora, 29, round glasses, dark red cardigan, shocked with mouth open, holding a smartphone from which gold coins are flying out, explosive comic background, empty space at the bottom, strong high contrast, no text.",
+  "ref": null
  }
 }

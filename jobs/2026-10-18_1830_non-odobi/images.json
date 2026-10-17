@@ -134,5 +134,9 @@
  "p_g_bugdoy_boshoq.jpg": {
   "prompt": "vertical 9:16, no text, no letters, no logos, warm traditional oil painting of a single object, centered, visible impasto brushstrokes, golden warm light, amber and ochre palette, isolated on a clean plain white background, no background scenery. a golden bundle of three ripe wheat ears with long awns, tied with a thin red thread, isolated on pure white background, no text",
   "ref": null
+ },
+ "cover.jpg": {
+  "prompt": "vertical 9:16, no text, no letters, no logos, warm traditional oil painting on canvas, visible thick impasto brushstrokes and canvas texture, glowing tandir fire and golden hour light, rich amber, ochre, burnt sienna and deep warm brown palette with soft crimson accents, chiaroscuro glow like Rembrandt and Orientalist genre painting, tender loving family mood, Uzbek home, mahalla bakery and historic Bukhara palace scenes all painted in the same warm oil style, realistic people with natural body proportions and real faces, not cartoon, no chibi, no big anime eyes. warm close-up of a kind elderly Uzbek grandmother in a white headscarf gently holding a golden round tandir bread with both hands, her teenage grandson in a black hoodie smiling beside her, glowing tandir fire behind, empty space at the top, strong high contrast, no text.",
+  "ref": null
  }
 }

@@ -134,5 +134,9 @@
  "p_g_robot_koz.jpg": {
   "prompt": "single object, centered, rendered as a tilt-shift miniature scale-model prop, soft 3D render, matte clay and smooth plastic materials, soft studio light with a subtle cool blue glow, slight shallow depth of field, isolated on a clean plain white background; vertical 9:16, no text, no letters, no logos. single robot eye, glowing cyan ring iris with a smug half-closed lid, sleek white casing, isolated on pure white background, no text",
   "ref": null
+ },
+ "cover.jpg": {
+  "prompt": "isometric tilt-shift miniature diorama, soft 3D render like a handcrafted scale model, shallow depth of field with strong tilt-shift blur at top and bottom edges, crisp focus band on the subject, matte clay and smooth plastic materials, gentle global illumination, cozy night-time 2045 smart kitchen lit by cool blue fridge glow and a small warm under-cabinet lamp, deep navy shadows, tiny realistic details, realistic miniature people with natural adult body proportions and real human faces, not cartoon, no chibi, no big eyes; every scene including the year-2000 showroom and 2024 fridge interior is shown as the same miniature diorama set; vertical 9:16, no text, no letters, no logos. a futuristic white smart fridge with a glowing blue eye ring refusing to open, a man in blue striped pajamas hugging it and begging for a sausage behind the glass, night kitchen, empty space in the middle band, strong high contrast, no text.",
+  "ref": null
  }
 }

@@ -134,5 +134,9 @@
  "p_g_undov.jpg": {
   "prompt": "vertical 9:16, no text, no letters, no logos, film noir black-and-white still of a single object, centered, hard dramatic side light, fine film grain, monochrome grayscale except a toxic acid-green glow marking germs or fingerprint smudges on it, isolated on a clean plain white background. bold red exclamation mark with yellow impact burst lines around it, comic alert icon, isolated on pure white background, no text",
   "ref": null
+ },
+ "cover.jpg": {
+  "prompt": "vertical 9:16, no text, no letters, no logos, film noir black-and-white cinematic still, high-contrast chiaroscuro lighting, hard key light with deep inky shadows, venetian-blind light stripes, light haze and fine 35mm film grain, low-angle detective-movie framing, modern Tashkent bank and clinic interiors shot like a 1940s crime film, everything in monochrome grayscale EXCEPT a single toxic acid-green glowing accent used only for germs, microbes and fingerprint smudges on hands, face, money and surfaces, realistic people with natural adult body proportions and real human faces, not cartoon, no chibi, no big eyes. extreme close-up of a bank teller's face touching his nose with fingers covered in glowing acid-green germs, magnifying glass reflection, dramatic noir light, face centered, strong high contrast, no text.",
+  "ref": null
  }
 }

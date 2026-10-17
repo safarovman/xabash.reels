@@ -21,7 +21,7 @@
    "speaker": "bekzod",
    "tts": "[excited] Amir Temur sultonni qanday hiyla bilan yengdi?",
    "text": "Amir Temur sultonni qanday hiyla bilan yengdi?",
-   "img": null,
+   "img": "01.jpg",
    "imgs": [],
    "reuse": null,
    "frames": "Amir Temur on horseback in the foreground, behind him a vast Ottoman army with war elephants, dust and banners, dramatic miniature painting style, motion"
@@ -31,7 +31,7 @@
    "speaker": "bekzod",
    "tts": "[mysterious] Javob oxirida. Avval — kim bilan kim to'qnashdi?",
    "text": "Javob oxirida. Avval — kim bilan kim to'qnashdi?",
-   "img": null,
+   "img": "02.jpg",
    "imgs": [],
    "reuse": null,
    "frames": "close-up of Amir Temur's hand on a sword hilt over a parchment map"
@@ -41,7 +41,7 @@
    "speaker": "bekzod",
    "tts": "[serious] Olti asr oldin. Anqara yonidagi Chubuq tekisligi.",
    "text": "Olti asr oldin. Anqara yonidagi Chubuq tekisligi.",
-   "img": null,
+   "img": "03.jpg",
    "imgs": [],
    "reuse": null,
    "frames": "parchment map of Anatolia with Ankara and the Chubuk plain marked, two army camps drawn"
@@ -51,7 +51,7 @@
    "speaker": "bekzod",
    "tts": "[proud] Bir tomonda — Amir Temur. Yuz qirq mingga yaqin qo'shin.",
    "text": "Bir tomonda — Amir Temur. Yuz qirq mingga yaqin qo'shin.",
-   "img": null,
+   "img": "04.jpg",
    "imgs": [],
    "reuse": null,
    "frames": "Amir Temur, 66, white beard, armor, majestic, on horseback before his troops"
@@ -61,8 +61,10 @@
    "speaker": "bekzod",
    "tts": "[surprised] Qarshisida — sulton Boyazid. Sakson besh ming askar... va fillar!",
    "text": "Qarshisida — sulton Boyazid. Sakson besh ming askar... va fillar!",
-   "img": null,
-   "imgs": [],
+   "img": "05.jpg",
+   "imgs": [
+    "05b.jpg"
+   ],
    "reuse": null,
    "frames": "sudden reveal: Ottoman army with 32 war elephants and janissaries lined up on a dusty plain"
   },
@@ -71,7 +73,7 @@
    "speaker": "sardor",
    "tts": "[proud] Men Yildirimman! Bu jang meniki bo'ladi!",
    "text": "Men Yildirimman! Bu jang meniki bo'ladi!",
-   "img": null,
+   "img": "06.jpg",
    "imgs": [],
    "reuse": null,
    "frames": "Sultan Bayezid, 42, black beard, golden helmet, confident dignified pose in his tent"
@@ -81,7 +83,7 @@
    "speaker": "bekzod",
    "tts": "[whispers] Lekin jangdan oldin Temur bir narsani payqadi... Endi diqqat.",
    "text": "Lekin jangdan oldin Temur bir narsani payqadi... Endi diqqat.",
-   "img": null,
+   "img": "07.jpg",
    "imgs": [],
    "reuse": null,
    "frames": "Amir Temur studying a map in his tent by lamplight, his finger stopping on a thin blue line"
@@ -91,7 +93,7 @@
    "speaker": "jahongir",
    "tts": "[elderly voice] [calm] Shoshilmang. Avval ularning orqasiga o'tamiz.",
    "text": "Shoshilmang. Avval ularning orqasiga o'tamiz.",
-   "img": null,
+   "img": "08.jpg",
    "imgs": [],
    "reuse": null,
    "frames": "Amir Temur calmly raising his hand, speaking to his commanders"
@@ -101,7 +103,7 @@
    "speaker": "bekzod",
    "tts": "[mysterious] Temur qo'shini Usmonlilar ortiga o'tib, bo'shagan qarorgohini egalladi.",
    "text": "Temur qo'shini Usmonlilar ortiga o'tib, bo'shagan qarorgohini egalladi.",
-   "img": null,
+   "img": "09.jpg",
    "imgs": [],
    "reuse": null,
    "frames": "parchment map with curved arrows showing Timur's army circling behind the Ottomans to their empty camp"
@@ -111,7 +113,7 @@
    "speaker": "bekzod",
    "tts": "[tense] Nega aynan o'sha joy? Bu hiylaning birinchi bo'lagi edi.",
    "text": "Nega aynan o'sha joy? Bu hiylaning birinchi bo'lagi edi.",
-   "img": null,
+   "img": "10.jpg",
    "imgs": [],
    "reuse": null,
    "frames": "Timur's horsemen entering the abandoned Ottoman camp, empty tents, question-mark mood"
@@ -121,8 +123,10 @@
    "speaker": "bekzod",
    "tts": "[tense] Jang boshlandi. Va shu yerda tarix burilib ketdi...",
    "text": "Jang boshlandi. Va shu yerda tarix burilib ketdi...",
-   "img": null,
-   "imgs": [],
+   "img": "11.jpg",
+   "imgs": [
+    "11b.jpg"
+   ],
    "reuse": null,
    "frames": "massive cavalry clash in dust, arrows in the sky, miniature painting style"
   },
@@ -131,7 +135,7 @@
    "speaker": "bekzod",
    "tts": "[surprised] Boyazid safidagi qora tatarlar... birdan Temur tomonga o'tdi!",
    "text": "Boyazid safidagi qora tatarlar... birdan Temur tomonga o'tdi!",
-   "img": null,
+   "img": "12.jpg",
    "imgs": [],
    "reuse": null,
    "frames": "Tatar horsemen turning around mid-battle and riding toward Timur's banners"
@@ -141,7 +145,7 @@
    "speaker": "sardor",
    "tts": "[shocked] Nima?! O'z otliqlarim menga qarshi?!",
    "text": "Nima?! O'z otliqlarim menga qarshi?!",
-   "img": null,
+   "img": "13.jpg",
    "imgs": [],
    "reuse": null,
    "frames": "Sultan Bayezid shocked on his horse, looking back at his departing cavalry"
@@ -151,7 +155,7 @@
    "speaker": "bekzod",
    "tts": "[serious] Anadolu beyliklarining sipohiylari ham ularga qo'shildi.",
    "text": "Anadolu beyliklarining sipohiylari ham ularga qo'shildi.",
-   "img": null,
+   "img": "14.jpg",
    "imgs": [],
    "reuse": null,
    "frames": "more Anatolian cavalry banners crossing the battlefield to Timur's side"
@@ -161,7 +165,7 @@
    "speaker": "bekzod",
    "tts": "[mysterious] Bir ishora: Temur egallagan joy yonidan Chubuq soyi oqardi.",
    "text": "Bir ishora: Temur egallagan joy yonidan Chubuq soyi oqardi.",
-   "img": null,
+   "img": "15.jpg",
    "imgs": [],
    "reuse": null,
    "frames": "parchment map close-up: a small stream (Chubuk) flowing past the captured camp, circled"
@@ -171,7 +175,7 @@
    "speaker": "bekzod",
    "tts": "[whispers] Va mana eng qizig'i... Temurning asl hiylasi nima edi?",
    "text": "Va mana eng qizig'i... Temurning asl hiylasi nima edi?",
-   "img": null,
+   "img": "16.jpg",
    "imgs": [],
    "reuse": null,
    "frames": "slow push-in on Amir Temur's calm face at the edge of the battlefield"
@@ -181,8 +185,10 @@
    "speaker": "bekzod",
    "tts": "[excited] Temur ikki qo'shinning asosiy suv manbai — Chubuq soyini — suv omboriga burib yuborgan edi!",
    "text": "Temur ikki qo'shinning asosiy suv manbai — Chubuq soyini — suv omboriga burib yuborgan edi!",
-   "img": null,
-   "imgs": [],
+   "img": "17.jpg",
+   "imgs": [
+    "17b.jpg"
+   ],
    "reuse": null,
    "frames": "Timur's soldiers digging a channel to divert the Chubuk stream into a reservoir, water flowing away from the Ottoman side"
   },
@@ -191,8 +197,10 @@
    "speaker": "bekzod",
    "tts": "[serious] Suvsiz qolgan Usmonli qo'shini yengildi. Sulton Boyazid asir olindi.",
    "text": "Suvsiz qolgan Usmonli qo'shini yengildi. Sulton Boyazid asir olindi.",
-   "img": null,
-   "imgs": [],
+   "img": "18.jpg",
+   "imgs": [
+    "18b.jpg"
+   ],
    "reuse": null,
    "frames": "Ottoman ranks breaking under the burning sun; Sultan Bayezid captured by Timur's horsemen, dignified"
   },
@@ -201,7 +209,7 @@
    "speaker": "bekzod",
    "tts": "[serious] Bu — Usmonli sultoni shaxsan asir olingan yagona holat.",
    "text": "Bu — Usmonli sultoni shaxsan asir olingan yagona holat.",
-   "img": null,
+   "img": "19.jpg",
    "imgs": [],
    "reuse": null,
    "frames": "Amir Temur seated in a grand tent, captive Sultan Bayezid brought before him, respectful solemn mood"
@@ -211,7 +219,7 @@
    "speaker": "bekzod",
    "tts": "[warmly] Siz Temur o'rnida qanday hiyla ishlatardingiz? Izohda yozing!",
    "text": "Siz Temur o'rnida qanday hiyla ishlatardingiz? Izohda yozing!",
-   "img": null,
+   "img": "20.jpg",
    "imgs": [],
    "reuse": null,
    "frames": "Amir Temur at sunset on a hill looking over the plain, banners waving"

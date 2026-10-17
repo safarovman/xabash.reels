@@ -146,5 +146,9 @@
  "p_g_prujina.jpg": {
   "prompt": "single object, centered, 1990s amateur snapshot on Soviet color film, warm faded colors, visible film grain, on-camera flash highlight, slightly soft focus, isolated on a clean plain white background; vertical 9:16, no text, no letters, no logos. shiny cartoon metal coil spring bouncing with motion lines, comic boing icon, isolated on pure white background, no text",
   "ref": null
+ },
+ "cover.jpg": {
+  "prompt": "1990s amateur family snapshot on Soviet color film (Svema / expired Kodak), warm faded colors, heavy film grain, slight orange-magenta color cast, on-camera flash with soft falloff and warm tungsten lamp light, mild lens vignette, slightly soft focus, candid documentary moment, authentic lived-in interior, realistic people with natural body proportions and real faces, not cartoon, no chibi; the same faded warm home-film look applies to every era, including 1950s American scenes shot as old family snapshots; vertical 9:16, no text, no letters, no logos. funny close-up of an 11-year-old Uzbek boy in a faded blue tracksuit standing on a chair holding a rabbit-ear TV antenna high above his head with a strained face, his father on the sofa pointing at him, 1995 living room with a carpet on the wall, empty wall space at the top, strong high contrast, no text.",
+  "ref": null
  }
 }

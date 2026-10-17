@@ -13,7 +13,7 @@
   {
    "n": 1,
    "speaker": "bekzod",
-   "tts": "[mysterious] Muzlatkichingiz sizga «yo'q» desa-chi? [whispers] Bu fantastika emas.",
+   "tts": "[mysterious] Muzlatkichingiz sizga «yo'q» desa-chi? Bu fantastika emas.",
    "text": "Muzlatkichingiz sizga «yo'q» desa-chi? Bu fantastika emas.",
    "img": "02b.jpg",
    "imgs": [],
@@ -69,8 +69,8 @@
   {
    "n": 6,
    "speaker": "bekzod",
-   "tts": "[mysterious] Bir soniya... Sovuqjon oddiy muzlatkich emas. Ichida kamera bor.",
-   "text": "Bir soniya... Sovuqjon oddiy muzlatkich emas. Ichida kamera bor.",
+   "tts": "[mysterious] Bir soniya. Sovuqjon oddiy muzlatkich emas, ichida kamera bor.",
+   "text": "Bir soniya. Sovuqjon oddiy muzlatkich emas, ichida kamera bor.",
    "img": "05.jpg",
    "imgs": [],
    "reuse": null,
@@ -153,8 +153,8 @@
   {
    "n": 14,
    "speaker": "bekzod",
-   "tts": "[whispers] Va eng qizig'i... [excited] yigirma to'rtinchi yili Samsung muzlatkichi o'ttiz uch xil mahsulotni taniydi.",
-   "text": "Va eng qizig'i... yigirma to'rtinchi yili Samsung muzlatkichi o'ttiz uch xil mahsulotni taniydi.",
+   "tts": "[excited] Eng qizig'i: yigirma to'rtinchi yili Samsung muzlatkichi o'ttiz uch xil mahsulotni taniydi.",
+   "text": "Eng qizig'i: yigirma to'rtinchi yili Samsung muzlatkichi o'ttiz uch xil mahsulotni taniydi.",
    "img": "07.jpg",
    "imgs": [],
    "reuse": null,
@@ -163,8 +163,8 @@
   {
    "n": 15,
    "speaker": "bekzod",
-   "tts": "[playful] Yigirma yildan keyin u sizni ham taniydi. Va «yo'q» deydi.",
-   "text": "Yigirma yildan keyin u sizni ham taniydi. Va «yo'q» deydi.",
+   "tts": "[playful] Yigirma yildan keyin u sizni ham taniydi va «yo'q» deydi.",
+   "text": "Yigirma yildan keyin u sizni ham taniydi va «yo'q» deydi.",
    "img": "07b.jpg",
    "imgs": [],
    "reuse": null,
@@ -173,8 +173,8 @@
   {
    "n": 16,
    "speaker": "bekzod",
-   "tts": "[playful] Muzlatkichingiz gapira olsa, sizga birinchi nima derdi? Izohda yozing!",
-   "text": "Muzlatkichingiz gapira olsa, sizga birinchi nima derdi? Izohda yozing!",
+   "tts": "[playful] Agar muzlatkichingiz gapirsa, sizga birinchi nima derdi? Izohda yozing!",
+   "text": "Agar muzlatkichingiz gapirsa, sizga birinchi nima derdi? Izohda yozing!",
    "img": "12.jpg",
    "imgs": [],
    "reuse": null,

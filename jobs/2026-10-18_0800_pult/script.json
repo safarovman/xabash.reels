@@ -13,8 +13,8 @@
   {
    "n": 1,
    "speaker": "bekzod",
-   "tts": "[mischievous] Bu bola uyning pulti edi. Laqabini oxirida aytaman!",
-   "text": "Bu bola uyning pulti edi. Laqabini oxirida aytaman!",
+   "tts": "[mischievous] Bu bola uyimizning pulti edi. Laqabini oxirida aytaman!",
+   "text": "Bu bola uyimizning pulti edi. Laqabini oxirida aytaman!",
    "img": "04.jpg",
    "imgs": [],
    "reuse": null,
@@ -36,8 +36,8 @@
   {
    "n": 3,
    "speaker": "bekzod",
-   "tts": "[chuckles] To'qson beshinchi yil. Uyda pult yo'q edi.",
-   "text": "To'qson beshinchi yil. Uyda pult yo'q edi.",
+   "tts": "[chuckles] To'qson beshinchi yil edi. Uyda pult yo'q edi.",
+   "text": "To'qson beshinchi yil edi. Uyda pult yo'q edi.",
    "img": "02.jpg",
    "imgs": [],
    "reuse": null,
@@ -46,8 +46,8 @@
   {
    "n": 4,
    "speaker": "bekzod",
-   "tts": "[playful] Aniqrog'i, pult bor edi. Uning ismi Botir edi.",
-   "text": "Aniqrog'i, pult bor edi. Uning ismi Botir edi.",
+   "tts": "[playful] Aslida pult bor edi. Uning ismi Botir edi.",
+   "text": "Aslida pult bor edi. Uning ismi Botir edi.",
    "img": "02b.jpg",
    "imgs": [],
    "reuse": null,
@@ -56,8 +56,8 @@
   {
    "n": 5,
    "speaker": "bekzod",
-   "tts": "[playful] Kanal almashtirish, ovozni balandlatish... [whispers] lekin eng qiyini oldinda edi.",
-   "text": "Kanal almashtirish, ovozni balandlatish... lekin eng qiyini oldinda edi.",
+   "tts": "[playful] Kanal almashtirish, ovozni balandlatish... [whispers] lekin eng qiyini hali oldinda edi.",
+   "text": "Kanal almashtirish, ovozni balandlatish... lekin eng qiyini hali oldinda edi.",
    "img": "03.jpg",
    "imgs": [
     "03c.jpg"

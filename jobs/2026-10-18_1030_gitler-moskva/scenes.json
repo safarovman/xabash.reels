@@ -1,0 +1,991 @@
+{
+ "title": "Gitler nega Moskvani ololmadi?",
+ "pace": "fast",
+ "music": {
+  "genre": "epic",
+  "bpm": 96,
+  "key": -2,
+  "scale": "minor",
+  "progression": [
+   0,
+   5,
+   3,
+   4
+  ]
+ },
+ "music_seed": 2884,
+ "music_gain": 0.65,
+ "cover_title": [
+  "NEGA MOSKVANI",
+  "OLOLMADI?"
+ ],
+ "cover_sub": "1941-yil qishi",
+ "cover_scene": 0,
+ "cover": {
+  "layout": "poster",
+  "img": "cover.jpg",
+  "char": "c_ergash_sovqotgan.jpg",
+  "props": [
+   "p_muzlagan_soat.jpg",
+   "p_uchburchak_xat.jpg"
+  ],
+  "badge": "1941",
+  "title_colors": [
+   [
+    238,
+    228,
+    204
+   ],
+   [
+    178,
+    58,
+    44
+   ]
+  ],
+  "accent": [
+   28,
+   54,
+   86
+  ],
+  "accent2": [
+   178,
+   58,
+   44
+  ]
+ },
+ "anim": "static",
+ "bright": true,
+ "theme": {
+  "font": "abrilfatface",
+  "font2": "russo",
+  "accent": [
+   178,
+   58,
+   44
+  ],
+  "accent2": [
+   222,
+   200,
+   156
+  ],
+  "bubble_bg": [
+   234,
+   222,
+   196
+  ],
+  "bubble_line": [
+   28,
+   54,
+   86
+  ],
+  "bubble_ink": [
+   24,
+   34,
+   48
+  ],
+  "bubble_dim": [
+   112,
+   104,
+   88
+  ],
+  "bubble_radius": 6,
+  "transitions": [
+   "torn",
+   "slide",
+   "flash"
+  ],
+  "cut_fx": "whip"
+ },
+ "end_hold": 1.2,
+ "scenes": [
+  {
+   "n": 1,
+   "speaker": "bekzod",
+   "text": "Gitler Moskvaga yetib keldi. Lekin nega uni ololmadi?",
+   "tts": "[serious] Gitler Moskvaga yetib keldi. Lekin nega uni ololmadi?",
+   "mood": "hero",
+   "img": "01.jpg",
+   "elements": [
+    {
+     "type": "mark",
+     "shape": "circle",
+     "x": 540,
+     "y": 820,
+     "w": 380,
+     "at": "Moskvaga",
+     "color": [
+      178,
+      58,
+      44
+     ],
+     "h": 300,
+     "label": "MOSKVA",
+     "label_y": 600.0
+    },
+    {
+     "type": "prop",
+     "img": "p_g_undov.jpg",
+     "x": 900,
+     "y": 620,
+     "h": 240,
+     "at": "Lekin",
+     "motion": "shake",
+     "from": "pop",
+     "rot": 0
+    },
+    {
+     "type": "caption",
+     "words": [
+      "NEGA",
+      "OLOLMADI?"
+     ],
+     "color": "white",
+     "y": 1330,
+     "size": 96,
+     "at": "Gitler Moskvaga"
+    }
+   ],
+   "vo": "vo_01.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M",
+   "imgs": [
+    "01b.jpg"
+   ]
+  },
+  {
+   "n": 2,
+   "speaker": "bekzod",
+   "text": "Uning rejasi — qish kelmasdan g'alaba. Javobi esa eng oxirida.",
+   "tts": "[serious] Uning rejasi — qish kelmasdan g'alaba. Javobi esa eng oxirida.",
+   "mood": "mystery",
+   "img": "02.jpg",
+   "elements": [
+    {
+     "type": "prop",
+     "img": "p_muzlagan_soat.jpg",
+     "x": 900,
+     "y": 760,
+     "h": 260,
+     "at": "Uning",
+     "motion": "pulse",
+     "from": "pop",
+     "rot": 0
+    },
+    {
+     "type": "pill",
+     "text": "JAVOB OXIRIDA",
+     "bg": "navy",
+     "fg": "white",
+     "x": 600,
+     "y": 300,
+     "rot": -3,
+     "at": "Javobi"
+    },
+    {
+     "type": "caption",
+     "words": [
+      "JAVOBI",
+      "ENG",
+      "OXIRIDA"
+     ],
+     "color": "yellow",
+     "y": 1330,
+     "size": 96,
+     "at": "Uning rejasi"
+    }
+   ],
+   "vo": "vo_02.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M"
+  },
+  {
+   "n": 3,
+   "speaker": "bekzod",
+   "text": "Qirq birinchi yil, yigirma ikkinchi iyun. Tong sahar...",
+   "tts": "[calm] Qirq birinchi yil, yigirma ikkinchi iyun. Tong sahar...",
+   "mood": "mystery",
+   "img": "03.jpg",
+   "elements": [
+    {
+     "type": "tag",
+     "head": "1941",
+     "text": "22.06",
+     "x": 170,
+     "y": 210,
+     "color": "red",
+     "at": "start"
+    },
+    {
+     "type": "prop",
+     "img": "p_g_kompas.jpg",
+     "x": 900,
+     "y": 760,
+     "h": 240,
+     "at": "Tong",
+     "motion": "wag",
+     "from": "pop",
+     "rot": 0
+    },
+    {
+     "type": "caption",
+     "words": [
+      "22-IYUN,",
+      "1941"
+     ],
+     "color": "white",
+     "y": 1330,
+     "size": 96,
+     "at": "Qirq birinchi"
+    }
+   ],
+   "vo": "vo_03.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M"
+  },
+  {
+   "n": 4,
+   "speaker": "bekzod",
+   "text": "Chegaradan to'rt millionga yaqin askar bostirib kirdi.",
+   "tts": "[tense] Chegaradan to'rt millionga yaqin askar bostirib kirdi.",
+   "mood": "tense",
+   "img": "04.jpg",
+   "elements": [
+    {
+     "type": "pill",
+     "text": "~4 000 000 ASKAR",
+     "bg": "crimson",
+     "fg": "white",
+     "x": 600,
+     "y": 300,
+     "rot": -3,
+     "at": "to'rt"
+    },
+    {
+     "type": "prop",
+     "img": "p_g_strelka.jpg",
+     "x": 180,
+     "y": 780,
+     "h": 260,
+     "at": "bostirib",
+     "motion": "point",
+     "from": "pop",
+     "rot": 0,
+     "dir": 0
+    },
+    {
+     "type": "caption",
+     "words": [
+      "4",
+      "MILLIONGA",
+      "YAQIN",
+      "ASKAR"
+     ],
+     "color": "yellow",
+     "y": 1330,
+     "size": 96,
+     "at": "Chegaradan"
+    }
+   ],
+   "vo": "vo_04.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M",
+   "imgs": [
+    "04b.jpg"
+   ]
+  },
+  {
+   "n": 5,
+   "speaker": "bekzod",
+   "text": "Reja ishlayotgandek tuyuldi. Lekin unda bitta katta xato bor edi.",
+   "tts": "[tense] Reja ishlayotgandek tuyuldi. Lekin unda bitta katta xato bor edi.",
+   "mood": "groove",
+   "img": "05.jpg",
+   "elements": [
+    {
+     "type": "mark",
+     "shape": "cross",
+     "x": 540,
+     "y": 800,
+     "w": 260,
+     "at": "xato",
+     "color": [
+      178,
+      58,
+      44
+     ],
+     "label": "XATO?",
+     "h": 182.0,
+     "label_y": 639.0
+    },
+    {
+     "type": "prop",
+     "img": "p_g_undov.jpg",
+     "x": 900,
+     "y": 640,
+     "h": 230,
+     "at": "katta",
+     "motion": "jump",
+     "from": "pop",
+     "rot": 0
+    },
+    {
+     "type": "caption",
+     "words": [
+      "BITTA",
+      "KATTA",
+      "XATO"
+     ],
+     "color": "white",
+     "y": 1330,
+     "size": 96,
+     "at": "Reja ishlayotgandek"
+    }
+   ],
+   "vo": "vo_05.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M"
+  },
+  {
+   "n": 6,
+   "speaker": "bekzod",
+   "text": "Har bir shahar, har bir ko'prik uchun qattiq jang bo'ldi.",
+   "tts": "[serious] Har bir shahar, har bir ko'prik uchun qattiq jang bo'ldi.",
+   "mood": "tense",
+   "img": "06.jpg",
+   "elements": [
+    {
+     "type": "mark",
+     "shape": "arrow",
+     "x": 220,
+     "y": 1000,
+     "w": 340,
+     "at": "ko'prik",
+     "color": [
+      178,
+      58,
+      44
+     ],
+     "label": "KO'PRIK!",
+     "to": [
+      480,
+      820
+     ],
+     "label_x": 220,
+     "label_y": 1090
+    },
+    {
+     "type": "caption",
+     "words": [
+      "HAR",
+      "BIR",
+      "KO'PRIK",
+      "UCHUN"
+     ],
+     "color": "yellow",
+     "y": 1330,
+     "size": 96,
+     "at": "Har bir shahar"
+    }
+   ],
+   "vo": "vo_06.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M"
+  },
+  {
+   "n": 7,
+   "speaker": "bekzod",
+   "text": "Bir soniya... Bu orada uzoq O'zbekistonda nima bo'layotgan edi?",
+   "tts": "[whispers] Bir soniya... Bu orada uzoq O'zbekistonda nima bo'layotgan edi?",
+   "mood": "tense",
+   "img": "07.jpg",
+   "elements": [
+    {
+     "type": "pill",
+     "text": "TOSHKENT, 1941",
+     "bg": "navy",
+     "fg": "white",
+     "x": 600,
+     "y": 300,
+     "rot": -3,
+     "at": 0.1
+    },
+    {
+     "type": "prop",
+     "img": "p_g_kompas.jpg",
+     "x": 900,
+     "y": 780,
+     "h": 240,
+     "at": "O'zbekistonda",
+     "motion": "pulse",
+     "from": "pop",
+     "rot": 0
+    },
+    {
+     "type": "caption",
+     "words": [
+      "BU",
+      "ORADA",
+      "O'ZBEKISTONDA..."
+     ],
+     "color": "white",
+     "y": 1330,
+     "size": 96,
+     "at": "Bir soniya"
+    }
+   ],
+   "vo": "vo_07.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M"
+  },
+  {
+   "n": 8,
+   "speaker": "bekzod",
+   "text": "Yarim millionga yaqin odam evakuatsiya qilinib, O'zbekistonga keldi.",
+   "tts": "[warmly] Yarim millionga yaqin odam evakuatsiya qilinib, O'zbekistonga keldi.",
+   "mood": "warm",
+   "img": "08.jpg",
+   "elements": [
+    {
+     "type": "mark",
+     "shape": "circle",
+     "x": 540,
+     "y": 800,
+     "w": 420,
+     "at": "evakuatsiya",
+     "color": [
+      178,
+      58,
+      44
+     ],
+     "h": 320,
+     "label": "YARIM MILLION",
+     "label_y": 570.0
+    },
+    {
+     "type": "caption",
+     "words": [
+      "~500",
+      "MING",
+      "KISHI"
+     ],
+     "color": "yellow",
+     "y": 1330,
+     "size": 96,
+     "at": "Yarim millionga"
+    }
+   ],
+   "vo": "vo_08.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M"
+  },
+  {
+   "n": 9,
+   "speaker": "jahongir",
+   "text": "Kelinglar, bolalar. Bizning uy — sizning uyingiz.",
+   "tts": "[warmly] Kelinglar, bolalar. Bizning uy — sizning uyingiz.",
+   "mood": "mystery",
+   "img": "09.jpg",
+   "elements": [
+    {
+     "type": "bubble",
+     "speaker": "TEMIRCHI",
+     "x": 540,
+     "y": 330,
+     "at": "start",
+     "hl": {},
+     "tail": "down",
+     "tail_x": 0.25,
+     "tag": "navy",
+     "w": 880
+    },
+    {
+     "type": "prop",
+     "img": "p_g_chinnigul.jpg",
+     "x": 900,
+     "y": 780,
+     "h": 260,
+     "at": "uyingiz",
+     "motion": "pulse",
+     "from": "pop",
+     "rot": 0
+    }
+   ],
+   "vo": "vo_09.mp3",
+   "voice_id": "xDwfBjUEPdIoQekNOXAX"
+  },
+  {
+   "n": 10,
+   "speaker": "bekzod",
+   "text": "Toshkentlik temirchi Shomahmudovlar oilasi o'n to'rt bolani asrab oldi.",
+   "tts": "[warmly] Toshkentlik temirchi Shomahmudovlar oilasi o'n to'rt bolani asrab oldi.",
+   "mood": "tense",
+   "img": "10.jpg",
+   "elements": [
+    {
+     "type": "note",
+     "text": "Shomahmudovlar oilasi — 14 bola",
+     "y": 1560,
+     "size": 62,
+     "rot": -2,
+     "at": "o'n to'rt"
+    },
+    {
+     "type": "mark",
+     "shape": "burst",
+     "x": 540,
+     "y": 760,
+     "w": 320,
+     "at": "o'n to'rt",
+     "color": [
+      178,
+      58,
+      44
+     ],
+     "label": "14 BOLA!",
+     "label_y": 578.0
+    }
+   ],
+   "vo": "vo_10.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M"
+  },
+  {
+   "n": 11,
+   "speaker": "bekzod",
+   "text": "O'zbekistondan bir yarim millionga yaqin odam frontga ketdi.",
+   "tts": "[serious] O'zbekistondan bir yarim millionga yaqin odam frontga ketdi.",
+   "mood": "tense",
+   "img": "11.jpg",
+   "elements": [
+    {
+     "type": "tag",
+     "head": "FRONTGA",
+     "text": "1,5 MLN",
+     "x": 170,
+     "y": 210,
+     "color": "navy",
+     "at": "start"
+    },
+    {
+     "type": "prop",
+     "img": "p_uchburchak_xat.jpg",
+     "x": 900,
+     "y": 780,
+     "h": 240,
+     "at": "frontga",
+     "motion": "bounce",
+     "from": "pop",
+     "rot": 0
+    },
+    {
+     "type": "caption",
+     "words": [
+      "~1,5",
+      "MILLION",
+      "FRONTGA"
+     ],
+     "color": "white",
+     "y": 1330,
+     "size": 96,
+     "at": "O'zbekistondan bir yarim"
+    }
+   ],
+   "vo": "vo_11.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M"
+  },
+  {
+   "n": 12,
+   "speaker": "sardor",
+   "text": "Oyijon, xavotir olmang. Qish kelyapti, lekin biz chidaymiz.",
+   "tts": "[warmly] Oyijon, xavotir olmang. Qish kelyapti, lekin biz chidaymiz.",
+   "mood": "mystery",
+   "img": "12.jpg",
+   "elements": [
+    {
+     "type": "bubble",
+     "speaker": "ERGASH",
+     "x": 540,
+     "y": 330,
+     "at": "start",
+     "hl": {},
+     "tail": "down",
+     "tail_x": 0.25,
+     "tag": "crimson",
+     "w": 880
+    },
+    {
+     "type": "char",
+     "img": "c_ergash.jpg",
+     "from": "left",
+     "x": 270,
+     "y": 1440,
+     "h": 700,
+     "at": 0.1,
+     "motion": "idle",
+     "flip": false,
+     "talk": [
+      "vo"
+     ],
+     "moods": [
+      [
+       "c_ergash_sovqotgan.jpg",
+       "Qish kelyapti"
+      ]
+     ],
+     "label": "ERGASH, 19",
+     "label_bg": "crimson"
+    },
+    {
+     "type": "prop",
+     "img": "p_uchburchak_xat.jpg",
+     "x": 900,
+     "y": 760,
+     "h": 240,
+     "at": "Oyijon",
+     "motion": "bounce",
+     "from": "pop",
+     "rot": 0
+    }
+   ],
+   "vo": "vo_12.mp3",
+   "voice_id": "UjuEL3hLLUaDED9iW4Yb"
+  },
+  {
+   "n": 13,
+   "speaker": "bekzod",
+   "text": "Ulardan to'rt yuz yigirma ming kishi uyga qaytmadi.",
+   "tts": "[sad] Ulardan to'rt yuz yigirma ming kishi uyga qaytmadi.",
+   "mood": "sad",
+   "img": "13.jpg",
+   "elements": [
+    {
+     "type": "dark",
+     "amount": 0.3,
+     "at": "start"
+    },
+    {
+     "type": "note",
+     "text": "420 000 kishi uyga qaytmadi",
+     "y": 1450,
+     "size": 62,
+     "rot": -2,
+     "at": "to'rt yuz"
+    },
+    {
+     "type": "prop",
+     "img": "p_g_chinnigul.jpg",
+     "x": 900,
+     "y": 820,
+     "h": 260,
+     "at": "qaytmadi",
+     "motion": "pulse",
+     "from": "pop",
+     "rot": 0
+    }
+   ],
+   "vo": "vo_13.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M"
+  },
+  {
+   "n": 14,
+   "speaker": "bekzod",
+   "text": "Endi diqqat. Frontda kuzgi yomg'ir yo'llarni loyga aylantirdi.",
+   "tts": "[serious] Endi diqqat. Frontda kuzgi yomg'ir yo'llarni loyga aylantirdi.",
+   "mood": "warm",
+   "img": "14.jpg",
+   "elements": [
+    {
+     "type": "pill",
+     "text": "DIQQAT!",
+     "bg": "crimson",
+     "fg": "white",
+     "x": 540,
+     "y": 300,
+     "rot": -3,
+     "at": 0.1
+    },
+    {
+     "type": "mark",
+     "shape": "arrow",
+     "x": 860,
+     "y": 1000,
+     "w": 340,
+     "at": "loyga",
+     "color": [
+      178,
+      58,
+      44
+     ],
+     "label": "LOY!",
+     "to": [
+      600,
+      820
+     ],
+     "label_x": 860,
+     "label_y": 1090
+    },
+    {
+     "type": "caption",
+     "words": [
+      "YO'LLAR",
+      "LOYGA",
+      "AYLANDI"
+     ],
+     "color": "yellow",
+     "y": 1330,
+     "size": 96,
+     "at": "Endi diqqat. Frontda"
+    }
+   ],
+   "vo": "vo_14.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M"
+  },
+  {
+   "n": 15,
+   "speaker": "bekzod",
+   "text": "Dekabrga kelib bosqinchilar Moskva ostiga yetib keldi.",
+   "tts": "[tense] Dekabrga kelib bosqinchilar Moskva ostiga yetib keldi.",
+   "mood": "warm",
+   "img": "15.jpg",
+   "elements": [
+    {
+     "type": "tag",
+     "head": "1941",
+     "text": "DEKABR",
+     "x": 170,
+     "y": 210,
+     "color": "navy",
+     "at": "start"
+    },
+    {
+     "type": "mark",
+     "shape": "circle",
+     "x": 540,
+     "y": 780,
+     "w": 400,
+     "at": "Moskva",
+     "color": [
+      178,
+      58,
+      44
+     ],
+     "h": 300,
+     "label": "MOSKVA",
+     "label_y": 560.0
+    },
+    {
+     "type": "caption",
+     "words": [
+      "MOSKVA",
+      "OSTIDA"
+     ],
+     "color": "white",
+     "y": 1330,
+     "size": 96,
+     "at": "Dekabrga kelib"
+    }
+   ],
+   "vo": "vo_15.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M",
+   "imgs": [
+    "15b.jpg"
+   ]
+  },
+  {
+   "n": 16,
+   "speaker": "bekzod",
+   "text": "Moskva juda yaqin edi. Lekin ular bir narsani hisobga olmagandi...",
+   "tts": "[tense] Moskva juda yaqin edi. Lekin ular bir narsani hisobga olmagandi...",
+   "mood": "hero",
+   "img": "16.jpg",
+   "elements": [
+    {
+     "type": "prop",
+     "img": "p_g_qor.jpg",
+     "x": 900,
+     "y": 700,
+     "h": 220,
+     "at": "bir narsani",
+     "motion": "pulse",
+     "from": "pop",
+     "rot": 0
+    },
+    {
+     "type": "caption",
+     "words": [
+      "BIR",
+      "NARSANI",
+      "UNUTISHDI..."
+     ],
+     "color": "yellow",
+     "y": 1330,
+     "size": 96,
+     "at": "Moskva juda yaqin"
+    }
+   ],
+   "vo": "vo_16.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M"
+  },
+  {
+   "n": 17,
+   "speaker": "bekzod",
+   "text": "Va mana javob: qish. Ular qishga umuman tayyor emas edi.",
+   "tts": "[serious] Va mana javob: qish. Ular qishga umuman tayyor emas edi.",
+   "mood": "hero",
+   "img": "17.jpg",
+   "elements": [
+    {
+     "type": "stamp",
+     "text": "QISH!",
+     "y": 1380,
+     "rot": -5,
+     "at": "qish"
+    },
+    {
+     "type": "prop",
+     "img": "p_g_termometr.jpg",
+     "x": 900,
+     "y": 760,
+     "h": 260,
+     "at": "tayyor",
+     "motion": "shake",
+     "from": "pop",
+     "rot": 0
+    }
+   ],
+   "vo": "vo_17.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M",
+   "imgs": [
+    "17b.jpg"
+   ]
+  },
+  {
+   "n": 18,
+   "speaker": "bekzod",
+   "text": "Beshinchi dekabr. Moskva ostida yarim milliondan ortiq yangi qo'shin qarshi hujumga o'tdi.",
+   "tts": "[serious] Beshinchi dekabr. Moskva ostida yarim milliondan ortiq yangi qo'shin qarshi hujumga o'tdi.",
+   "mood": "tense",
+   "img": "18.jpg",
+   "elements": [
+    {
+     "type": "tag",
+     "head": "1941",
+     "text": "5 DEKABR",
+     "x": 170,
+     "y": 210,
+     "color": "red",
+     "at": "start"
+    },
+    {
+     "type": "prop",
+     "img": "p_g_strelka.jpg",
+     "x": 180,
+     "y": 780,
+     "h": 260,
+     "at": "qarshi hujumga",
+     "motion": "point",
+     "from": "pop",
+     "rot": 0,
+     "dir": 180
+    },
+    {
+     "type": "caption",
+     "words": [
+      "500",
+      "MINGDAN",
+      "ORTIQ"
+     ],
+     "color": "yellow",
+     "y": 1330,
+     "size": 96,
+     "at": "Beshinchi dekabr"
+    }
+   ],
+   "vo": "vo_18.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M",
+   "imgs": [
+    "18b.jpg"
+   ]
+  },
+  {
+   "n": 19,
+   "speaker": "bekzod",
+   "text": "Bosqinchilar uch yuz kilometrdan ortiq orqaga surildi. Qisqa urush rejasi barbod bo'ldi.",
+   "tts": "[serious] Bosqinchilar uch yuz kilometrdan ortiq orqaga surildi. Qisqa urush rejasi barbod bo'ldi.",
+   "mood": "sad",
+   "img": "19.jpg",
+   "elements": [
+    {
+     "type": "mark",
+     "shape": "arrow",
+     "x": 760,
+     "y": 760,
+     "w": 340,
+     "at": "orqaga",
+     "color": [
+      178,
+      58,
+      44
+     ],
+     "label": "300+ KM ORQAGA",
+     "to": [
+      300,
+      800
+     ],
+     "label_x": 540,
+     "label_y": 640
+    },
+    {
+     "type": "caption",
+     "words": [
+      "REJA",
+      "BARBOD",
+      "BO'LDI"
+     ],
+     "color": "white",
+     "y": 1330,
+     "size": 96,
+     "at": "Bosqinchilar uch"
+    }
+   ],
+   "vo": "vo_19.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M"
+  },
+  {
+   "n": 20,
+   "speaker": "bekzod",
+   "text": "Oilangizda urushga ketgan bobongiz bormi? Ismini yozing — xotirasi yashasin.",
+   "tts": "[warmly] Oilangizda urushga ketgan bobongiz bormi? Ismini yozing — xotirasi yashasin.",
+   "mood": "finale",
+   "img": "20.jpg",
+   "elements": [
+    {
+     "type": "final",
+     "lines": [
+      "BOBONGIZ",
+      "BORMI?"
+     ],
+     "at": 0.4
+    },
+    {
+     "type": "sticker",
+     "lines": [
+      "Ismini yozing —",
+      "xotirasi yashasin"
+     ],
+     "color": "yellow",
+     "x": 540,
+     "y": 1470,
+     "w": 520,
+     "size": 64,
+     "rot": -3,
+     "at": 1.2
+    },
+    {
+     "type": "prop",
+     "img": "p_g_chinnigul.jpg",
+     "x": 900,
+     "y": 560,
+     "h": 240,
+     "at": 1.0,
+     "motion": "pulse",
+     "from": "pop",
+     "rot": 0
+    }
+   ],
+   "vo": "vo_20.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M"
+  }
+ ]
+}

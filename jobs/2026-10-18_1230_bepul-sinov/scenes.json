@@ -16,11 +16,41 @@
  "music_seed": 5960,
  "music_gain": 0.75,
  "cover_title": [
-  "BEPUL SINOV:",
-  "7 KUN"
+  "«BEPUL»",
+  "QANCHA TURADI?"
  ],
- "cover_sub": "...keyin 3 oy pul to'ladim",
+ "cover_sub": "7 kun bepul... keyin?",
  "cover_scene": 0,
+ "cover": {
+  "layout": "split",
+  "char": "c_nigora_hayron.jpg",
+  "char_h": 600,
+  "props": [],
+  "badge": "7 KUN BEPUL",
+  "title_colors": [
+   [
+    255,
+    255,
+    255
+   ],
+   [
+    255,
+    220,
+    30
+   ]
+  ],
+  "img": "cover.jpg",
+  "accent": [
+   235,
+   40,
+   55
+  ],
+  "accent2": [
+   255,
+   220,
+   30
+  ]
+ },
  "anim": "static",
  "bright": true,
  "theme": {
@@ -65,37 +95,16 @@
   ],
   "cut_fx": "punch"
  },
+ "end_hold": 1.2,
  "scenes": [
   {
+   "n": 1,
    "speaker": "bekzod",
-   "text": "Siz hayotingizda nechta narsaga «bepul» deb obuna bo'lgansiz? Nigora — bitta deb o'ylaydi.",
-   "tts": "[curious] Siz hayotingizda nechta narsaga «bepul» deb obuna bo'lgansiz? Nigora — bitta deb o'ylaydi.",
+   "text": "«Bepul» so'zi sizga oyiga qancha turadi? Javob oxirida.",
+   "tts": "[curious] «Bepul» so'zi sizga oyiga qancha turadi? Javob oxirida.",
    "mood": "hero",
    "img": "01.jpg",
    "elements": [
-    {
-     "type": "pill",
-     "text": "BEPUL!",
-     "bg": "crimson",
-     "fg": "white",
-     "x": 780,
-     "y": 300,
-     "rot": -3,
-     "at": "«bepul»"
-    },
-    {
-     "type": "char",
-     "img": "c_nigora.jpg",
-     "from": "right",
-     "x": 800,
-     "y": 1440,
-     "h": 760,
-     "at": "Nigora",
-     "motion": "idle",
-     "flip": false,
-     "label": "NIGORA",
-     "label_bg": "crimson"
-    },
     {
      "type": "mark",
      "shape": "circle",
@@ -109,21 +118,32 @@
       235,
       40,
       55
-     ]
+     ],
+     "label_y": 660.0
     },
     {
-     "type": "mark",
-     "shape": "burst",
-     "x": 860,
-     "y": 620,
-     "w": 220,
-     "at": "bitta deb",
-     "label": "BITTAMI?!",
-     "color": [
-      235,
-      40,
-      55
-     ]
+     "type": "pill",
+     "text": "JAVOB OXIRIDA",
+     "bg": "navy",
+     "fg": "white",
+     "x": 640,
+     "y": 300,
+     "rot": -3,
+     "at": "Javob"
+    },
+    {
+     "type": "caption",
+     "words": [
+      "«BEPUL»",
+      "=",
+      "OYIGA",
+      "$",
+      "?"
+     ],
+     "color": "white",
+     "y": 1330,
+     "size": 96,
+     "at": "«Bepul» so'zi"
     }
    ],
    "vo": "vo_01.mp3",
@@ -133,9 +153,10 @@
    ]
   },
   {
+   "n": 2,
    "speaker": "zilola",
-   "text": "Yetti kun bepul! Kino, musiqa, kitoblar... Bekor qilishni unutmayman, men buxgalterman-ku!",
-   "tts": "[excited] Yetti kun bepul! Kino, musiqa, kitoblar... Bekor qilishni unutmayman, men buxgalterman-ku!",
+   "text": "Yetti kun bepul! Bekor qilishni unutmayman — men buxgalterman-ku!",
+   "tts": "[excited] Yetti kun bepul! Bekor qilishni unutmayman — men buxgalterman-ku!",
    "mood": "groove",
    "img": "02.jpg",
    "elements": [
@@ -146,12 +167,11 @@
      "y": 330,
      "at": "start",
      "hl": {
-      "Yetti": "red",
       "bepul!": "red",
       "buxgalterman-ku!": "red"
      },
      "tail": "down",
-     "tail_x": 0.3,
+     "tail_x": 0.25,
      "tag": "crimson",
      "w": 880
     },
@@ -167,23 +187,15 @@
      "flip": false,
      "talk": [
       "vo"
-     ]
-    },
-    {
-     "type": "prop",
-     "img": "p_g_qongiroq.jpg",
-     "x": 860,
-     "y": 580,
-     "h": 240,
-     "from": "pop",
-     "motion": "wag",
-     "at": "Yetti kun bepul"
+     ],
+     "label": "NIGORA, BUXGALTER",
+     "label_bg": "crimson"
     },
     {
      "type": "mark",
      "shape": "underline",
      "x": 540,
-     "y": 1120,
+     "y": 1060,
      "w": 440,
      "at": "buxgalterman-ku",
      "label": "HISOBCHI!",
@@ -191,7 +203,18 @@
       235,
       40,
       55
-     ]
+     ],
+     "label_y": 836.0
+    },
+    {
+     "type": "prop",
+     "img": "p_g_qongiroq.jpg",
+     "x": 900,
+     "y": 660,
+     "h": 240,
+     "from": "pop",
+     "motion": "wag",
+     "at": "Yetti kun bepul"
     }
    ],
    "vo": "vo_02.mp3",
@@ -201,41 +224,13 @@
    ]
   },
   {
+   "n": 3,
    "speaker": "bekzod",
    "text": "Yetti kun o'tdi. Keyin bir oy. Keyin uch oy.",
    "tts": "[sighs] Yetti kun o'tdi. Keyin bir oy. Keyin uch oy.",
-   "mood": "mystery",
+   "mood": "groove",
    "img": "03.jpg",
    "elements": [
-    {
-     "type": "tag",
-     "head": "KUN",
-     "text": "7",
-     "x": 170,
-     "y": 210,
-     "color": "red",
-     "at": "Yetti"
-    },
-    {
-     "type": "tag",
-     "head": "OY",
-     "text": "3",
-     "x": 910,
-     "y": 210,
-     "color": "navy",
-     "at": "uch"
-    },
-    {
-     "type": "prop",
-     "img": "p_g_kalendar.jpg",
-     "x": 200,
-     "y": 640,
-     "h": 260,
-     "from": "pop",
-     "motion": "shake",
-     "at": "Yetti kun o'tdi",
-     "label": "7 KUN!"
-    },
     {
      "type": "mark",
      "shape": "circle",
@@ -249,21 +244,43 @@
       235,
       40,
       55
-     ]
+     ],
+     "label_y": 600.0
     },
     {
      "type": "prop",
-     "img": "p_g_tangalar.jpg",
-     "x": 860,
-     "y": 700,
-     "h": 280,
+     "img": "p_g_kalendar.jpg",
+     "x": 180,
+     "y": 640,
+     "h": 260,
      "from": "pop",
-     "motion": "jump",
-     "at": "Keyin uch oy",
-     "label": "3 OY!!"
+     "motion": "shake",
+     "at": "Yetti kun o'tdi",
+     "label": "7 KUN!"
+    },
+    {
+     "type": "tag",
+     "head": "O'TDI",
+     "text": "7 KUN",
+     "x": 170,
+     "y": 210,
+     "color": "red",
+     "at": "Yetti"
+    },
+    {
+     "type": "caption",
+     "words": [
+      "YETTI",
+      "KUN",
+      "O'TDI."
+     ],
+     "color": "white",
+     "y": 1330,
+     "size": 96,
+     "at": "Yetti kun"
     }
    ],
-   "vo": "vo_03.mp3",
+   "vo": "old_03.mp3",
    "voice_id": "kGOig3GPePLxobJGHo2M",
    "imgs": [
     "03b.jpg",
@@ -271,10 +288,11 @@
    ]
   },
   {
+   "n": 4,
    "speaker": "sardor",
    "text": "Nigora, kartadan har oy bir xil kunda pul yechilyapti. Bu «Premium Plyus Gold» kim o'zi?",
    "tts": "[confused] Nigora, kartadan har oy bir xil kunda pul yechilyapti. Bu «Premium Plyus Gold» kim o'zi?",
-   "mood": "tense",
+   "mood": "mystery",
    "img": "04.jpg",
    "elements": [
     {
@@ -283,13 +301,9 @@
      "x": 540,
      "y": 330,
      "at": "start",
-     "hl": {
-      "Premium": "red",
-      "Plyus": "red",
-      "Gold»": "red"
-     },
+     "hl": {},
      "tail": "down",
-     "tail_x": 0.3,
+     "tail_x": 0.75,
      "tag": "royal",
      "w": 880
     },
@@ -299,7 +313,7 @@
      "from": "right",
      "x": 810,
      "y": 1440,
-     "h": 740,
+     "h": 700,
      "at": 0.1,
      "motion": "idle",
      "flip": false,
@@ -311,14 +325,13 @@
     },
     {
      "type": "prop",
-     "img": "p_g_karta.jpg",
-     "x": 870,
-     "y": 620,
-     "h": 240,
+     "img": "p_g_tangalar.jpg",
+     "x": 900,
+     "y": 660,
+     "h": 260,
      "from": "pop",
-     "motion": "shake",
-     "at": "kartadan",
-     "label": "HAR OY!"
+     "motion": "jump",
+     "at": "har oy"
     },
     {
      "type": "mark",
@@ -333,20 +346,33 @@
       235,
       40,
       55
-     ]
+     ],
+     "label_y": 700.0
+    },
+    {
+     "type": "prop",
+     "img": "p_g_karta.jpg",
+     "x": 900,
+     "y": 920,
+     "h": 240,
+     "from": "pop",
+     "motion": "shake",
+     "at": "kartadan",
+     "label": "HAR OY!"
     }
    ],
-   "vo": "vo_04.mp3",
+   "vo": "old_04.mp3",
    "voice_id": "UjuEL3hLLUaDED9iW4Yb",
    "imgs": [
     "04b.jpg"
    ]
   },
   {
+   "n": 5,
    "speaker": "zilola",
    "text": "U... meditatsiya ilovasi. Asabni tinchlantiradi.",
    "tts": "[nervous] [laughs] U... meditatsiya ilovasi. Asabni tinchlantiradi.",
-   "mood": "sad",
+   "mood": "mystery",
    "img": "05.jpg",
    "elements": [
     {
@@ -355,43 +381,37 @@
      "x": 540,
      "y": 330,
      "at": "start",
-     "hl": {
-      "meditatsiya": "red"
-     },
+     "hl": {},
      "tail": "down",
-     "tail_x": 0.3,
+     "tail_x": 0.25,
      "tag": "crimson",
      "w": 880
     },
     {
      "type": "char",
-     "img": "c_nigora_xijolat.jpg",
+     "img": "c_nigora.jpg",
      "from": "left",
      "x": 270,
      "y": 1440,
-     "h": 720,
+     "h": 700,
      "at": 0.1,
      "motion": "idle",
      "flip": false,
      "talk": [
       "vo"
+     ],
+     "moods": [
+      [
+       "c_nigora_xijolat.jpg",
+       "meditatsiya"
+      ]
      ]
-    },
-    {
-     "type": "prop",
-     "img": "p_g_ter.jpg",
-     "x": 760,
-     "y": 560,
-     "h": 200,
-     "from": "pop",
-     "motion": "bounce",
-     "at": "meditatsiya"
     },
     {
      "type": "mark",
      "shape": "arrow",
      "x": 900,
-     "y": 1150,
+     "y": 1020,
      "to": [
       640,
       950
@@ -403,16 +423,27 @@
       40,
       55
      ]
+    },
+    {
+     "type": "prop",
+     "img": "p_g_ter.jpg",
+     "x": 900,
+     "y": 660,
+     "h": 200,
+     "from": "pop",
+     "motion": "bounce",
+     "at": "meditatsiya"
     }
    ],
-   "vo": "vo_05.mp3",
+   "vo": "old_05.mp3",
    "voice_id": "cyPun3bl9MxcpLBX6pT0"
   },
   {
+   "n": 6,
    "speaker": "sardor",
    "text": "Har oy kartani ko'rganimda asabim chiqyapti-ku!",
    "tts": "[sarcastic] Har oy kartani ko'rganimda asabim chiqyapti-ku!",
-   "mood": "groove",
+   "mood": "tense",
    "img": "06.jpg",
    "elements": [
     {
@@ -422,28 +453,32 @@
      "y": 330,
      "at": "start",
      "hl": {
-      "asabim": "red"
+      "chiqyapti-ku!": "red"
      },
      "tail": "down",
-     "tail_x": 0.3,
+     "tail_x": 0.75,
      "tag": "royal",
      "w": 880
     },
     {
-     "type": "prop",
-     "img": "p_g_undov.jpg",
-     "x": 870,
-     "y": 580,
-     "h": 240,
-     "from": "pop",
-     "motion": "pulse",
-     "at": "kartani"
+     "type": "char",
+     "img": "c_ulugbek.jpg",
+     "from": "right",
+     "x": 810,
+     "y": 1440,
+     "h": 700,
+     "at": 0.1,
+     "motion": "idle",
+     "flip": false,
+     "talk": [
+      "vo"
+     ]
     },
     {
      "type": "mark",
      "shape": "burst",
      "x": 540,
-     "y": 640,
+     "y": 810.0,
      "w": 300,
      "at": "asabim chiqyapti",
      "label": "ASAB!",
@@ -451,18 +486,445 @@
       235,
       40,
       55
-     ]
+     ],
+     "label_y": 635.0
+    },
+    {
+     "type": "prop",
+     "img": "p_g_undov.jpg",
+     "x": 900,
+     "y": 660,
+     "h": 240,
+     "from": "pop",
+     "motion": "pulse",
+     "at": "kartani"
     }
    ],
-   "vo": "vo_06.mp3",
+   "vo": "old_06.mp3",
    "voice_id": "UjuEL3hLLUaDED9iW4Yb"
   },
   {
+   "n": 7,
    "speaker": "bekzod",
-   "text": "Nigora yolg'iz emas. Ikki ming yigirma ikkinchi yilda Amerikada so'rov o'tkazildi: odamlar obunalarga oyiga sakson olti dollar to'layman deb o'ylagan. Hisoblaganda esa — ikki yuz o'n to'qqiz dollar chiqqan!",
-   "tts": "[surprised] Nigora yolg'iz emas. Ikki ming yigirma ikkinchi yilda Amerikada so'rov o'tkazildi: odamlar obunalarga oyiga sakson olti dollar to'layman deb o'ylagan. Hisoblaganda esa — ikki yuz o'n to'qqiz dollar chiqqan!",
+   "text": "Lekin bu hali hammasi emas. Eng qizig'i — Nigoraning telefonida.",
+   "tts": "[whispers] Lekin bu hali hammasi emas. Eng qizig'i Nigoraning telefonida.",
+   "mood": "sad",
+   "img": "03b.jpg",
+   "elements": [
+    {
+     "type": "pill",
+     "text": "ENG QIZIG'I — TELEFONDA",
+     "bg": "crimson",
+     "fg": "white",
+     "x": 540,
+     "y": 300,
+     "rot": -3,
+     "at": "Eng"
+    },
+    {
+     "type": "char",
+     "img": "c_nigora_xijolat.jpg",
+     "from": "right",
+     "x": 820,
+     "y": 1570,
+     "h": 640,
+     "at": 0.2,
+     "motion": "idle",
+     "flip": false
+    },
+    {
+     "type": "prop",
+     "img": "p_g_lupa.jpg",
+     "x": 180,
+     "y": 820,
+     "h": 230,
+     "at": "telefonida",
+     "motion": "point",
+     "from": "pop",
+     "rot": -15,
+     "dir": 0
+    },
+    {
+     "type": "caption",
+     "words": [
+      "LEKIN",
+      "BU",
+      "HALI",
+      "HAMMASI..."
+     ],
+     "color": "white",
+     "y": 1200,
+     "size": 84,
+     "at": "Lekin bu"
+    }
+   ],
+   "vo": "vo_07.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M"
+  },
+  {
+   "n": 8,
+   "speaker": "dilnoza",
+   "text": "Nigora, mening usulim bor: obuna bo'lgan kuniyoq bekor qilaman!",
+   "tts": "[laughs] Nigora, mening usulim bor: obuna bo'lgan kuniyoq bekor qilaman!",
+   "mood": "sad",
+   "img": "09.jpg",
+   "elements": [
+    {
+     "type": "bubble",
+     "speaker": "SHAHZODA",
+     "x": 540,
+     "y": 330,
+     "at": "start",
+     "hl": {
+      "qilaman!": "red"
+     },
+     "tail": "down",
+     "tail_x": 0.75,
+     "tag": "orange",
+     "w": 880
+    },
+    {
+     "type": "char",
+     "img": "c_shahzoda.jpg",
+     "from": "right",
+     "x": 810,
+     "y": 1440,
+     "h": 700,
+     "at": 0.1,
+     "motion": "idle",
+     "flip": false,
+     "talk": [
+      "vo"
+     ],
+     "label": "SHAHZODA",
+     "label_bg": "orange"
+    },
+    {
+     "type": "mark",
+     "shape": "check",
+     "x": 860,
+     "y": 670.0,
+     "w": 200,
+     "at": "bekor qilaman",
+     "label": "DARHOL!",
+     "color": [
+      235,
+      40,
+      55
+     ],
+     "h": 140.0,
+     "label_y": 800.0
+    }
+   ],
+   "vo": "vo_08.mp3",
+   "voice_id": "O72h9AUwisM6Zj4He72B"
+  },
+  {
+   "n": 9,
+   "speaker": "dilnoza",
+   "text": "Ko'p ilovalarda yetti kun baribir ishlayveradi!",
+   "tts": "[playful] Ko'p ilovalarda yetti kun baribir ishlayveradi!",
+   "mood": "groove",
+   "img": "09b.jpg",
+   "elements": [
+    {
+     "type": "bubble",
+     "speaker": "SHAHZODA",
+     "x": 540,
+     "y": 330,
+     "at": "start",
+     "hl": {
+      "ishlayveradi!": "red"
+     },
+     "tail": "down",
+     "tail_x": 0.75,
+     "tag": "orange",
+     "w": 880
+    },
+    {
+     "type": "char",
+     "img": "c_shahzoda.jpg",
+     "from": "right",
+     "x": 810,
+     "y": 1440,
+     "h": 700,
+     "at": 0.1,
+     "motion": "idle",
+     "flip": false,
+     "talk": [
+      "vo"
+     ]
+    },
+    {
+     "type": "prop",
+     "img": "p_g_qongiroq.jpg",
+     "x": 180,
+     "y": 660,
+     "h": 220,
+     "from": "pop",
+     "motion": "wag",
+     "at": "Ko'p ilovalarda"
+    }
+   ],
+   "vo": "vo_09.mp3",
+   "voice_id": "O72h9AUwisM6Zj4He72B"
+  },
+  {
+   "n": 10,
+   "speaker": "bekzod",
+   "text": "Endi diqqat: buni hatto amerikaliklar ham to'g'ri hisoblay olmagan.",
+   "tts": "[curious] Endi diqqat: buni hatto amerikaliklar ham to'g'ri hisoblay olmagan.",
    "mood": "groove",
    "img": "07.jpg",
+   "elements": [
+    {
+     "type": "pill",
+     "text": "DIQQAT!",
+     "bg": "crimson",
+     "fg": "white",
+     "x": 540,
+     "y": 300,
+     "rot": -3,
+     "at": 0.1
+    },
+    {
+     "type": "prop",
+     "img": "p_g_undov.jpg",
+     "x": 900,
+     "y": 760,
+     "h": 250,
+     "at": "amerikaliklar",
+     "motion": "shake",
+     "from": "pop",
+     "rot": 0
+    },
+    {
+     "type": "caption",
+     "words": [
+      "HATTO",
+      "AMERIKALIKLAR",
+      "HAM!"
+     ],
+     "color": "yellow",
+     "y": 1330,
+     "size": 96,
+     "at": "Endi diqqat"
+    }
+   ],
+   "vo": "vo_10.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M"
+  },
+  {
+   "n": 11,
+   "speaker": "bekzod",
+   "text": "Yigirma ikkinchi yili tadqiqotchilar so'rashdi: obunalarga oyiga qancha to'laysiz?",
+   "tts": "[curious] Yigirma ikkinchi yili tadqiqotchilar so'rashdi: obunalarga oyiga qancha to'laysiz?",
+   "mood": "groove",
+   "img": "07b.jpg",
+   "elements": [
+    {
+     "type": "tag",
+     "head": "YIL",
+     "text": "2022",
+     "x": 170,
+     "y": 210,
+     "color": "navy",
+     "at": "start"
+    },
+    {
+     "type": "card",
+     "kicker": "C+R RESEARCH, 2022",
+     "title": [
+      "OYIGA QANCHA?"
+     ],
+     "sub": "Obunalarga oylik sarf so'raldi",
+     "at": "obunalarga",
+     "y": 1330
+    },
+    {
+     "type": "prop",
+     "img": "p_g_lupa.jpg",
+     "x": 900,
+     "y": 760,
+     "h": 240,
+     "at": "tadqiqotchilar",
+     "motion": "point",
+     "from": "pop",
+     "rot": 20,
+     "dir": 180
+    }
+   ],
+   "vo": "vo_11.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M"
+  },
+  {
+   "n": 12,
+   "speaker": "bekzod",
+   "text": "Siz-chi? Raqamni o'ylab qo'ying — oxirida solishtiramiz.",
+   "tts": "[playful] Siz-chi? Raqamni o'ylab qo'ying — oxirida solishtiramiz.",
+   "mood": "tense",
+   "img": "03c.jpg",
+   "elements": [
+    {
+     "type": "sticker",
+     "lines": [
+      "SIZNING RAQAMINGIZ:",
+      "$ ___ ?"
+     ],
+     "color": "blue",
+     "x": 760,
+     "y": 440,
+     "w": 440,
+     "size": 62,
+     "rot": 4,
+     "at": 0.3
+    },
+    {
+     "type": "prop",
+     "img": "p_g_tangalar.jpg",
+     "x": 180,
+     "y": 820,
+     "h": 260,
+     "at": "Raqamni",
+     "motion": "jump",
+     "from": "pop",
+     "rot": 0
+    },
+    {
+     "type": "caption",
+     "words": [
+      "RAQAMNI",
+      "O'YLANG!"
+     ],
+     "color": "yellow",
+     "y": 1330,
+     "size": 96,
+     "at": "Siz-chi?"
+    }
+   ],
+   "vo": "vo_12.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M"
+  },
+  {
+   "n": 13,
+   "speaker": "bekzod",
+   "text": "Shu kuni Nigora ham telefonidagi obunalarni sanab chiqdi.",
+   "tts": "[curious] Shu kuni Nigora ham telefonidagi obunalarni sanab chiqdi.",
+   "mood": "tense",
+   "img": "10.jpg",
+   "elements": [
+    {
+     "type": "char",
+     "img": "c_nigora.jpg",
+     "from": "right",
+     "x": 820,
+     "y": 1570,
+     "h": 640,
+     "at": 0.2,
+     "motion": "idle",
+     "flip": false
+    },
+    {
+     "type": "prop",
+     "img": "p_g_lupa.jpg",
+     "x": 180,
+     "y": 820,
+     "h": 230,
+     "at": "sanab",
+     "motion": "pulse",
+     "from": "pop",
+     "rot": 0
+    },
+    {
+     "type": "caption",
+     "words": [
+      "OBUNALARNI",
+      "SANADI..."
+     ],
+     "color": "white",
+     "y": 1200,
+     "size": 84,
+     "at": "Shu kuni Nigora"
+    }
+   ],
+   "vo": "vo_13.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M"
+  },
+  {
+   "n": 14,
+   "speaker": "bekzod",
+   "text": "O'n bitta obuna! Biri — o'zi unutgan «buxgalteriya kursi».",
+   "tts": "[surprised] O'n bitta obuna! Bittasi — o'zi unutgan buxgalteriya kursi.",
+   "mood": "warm",
+   "img": "10b.jpg",
+   "elements": [
+    {
+     "type": "mark",
+     "shape": "arrow",
+     "x": 920,
+     "y": 1040,
+     "to": [
+      650,
+      960
+     ],
+     "at": "buxgalteriya kursi",
+     "label": "UNUTILGAN!",
+     "color": [
+      235,
+      40,
+      55
+     ]
+    },
+    {
+     "type": "mark",
+     "shape": "circle",
+     "x": 540,
+     "y": 860,
+     "w": 420,
+     "h": 320,
+     "at": "o'n bitta obuna",
+     "label": "11 TA!",
+     "color": [
+      235,
+      40,
+      55
+     ],
+     "label_y": 630.0
+    },
+    {
+     "type": "char",
+     "img": "c_nigora_hayron.jpg",
+     "from": "right",
+     "x": 820,
+     "y": 1570,
+     "h": 640,
+     "at": "O'n bitta",
+     "motion": "idle",
+     "flip": false
+    },
+    {
+     "type": "caption",
+     "words": [
+      "O'N",
+      "BITTA",
+      "OBUNA!"
+     ],
+     "color": "yellow",
+     "y": 1200,
+     "size": 84,
+     "at": "O'n bitta obuna"
+    }
+   ],
+   "vo": "vo_14.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M"
+  },
+  {
+   "n": 15,
+   "speaker": "bekzod",
+   "text": "Amerikaliklar o'ylagani — sakson olti dollar. Aslida esa — ikki yuz o'n to'qqiz dollar!",
+   "tts": "[curious] Amerikaliklar o'ylagani — sakson olti dollar. [surprised] Aslida esa — ikki yuz o'n to'qqiz dollar!",
+   "mood": "hero",
+   "img": "08.jpg",
    "elements": [
     {
      "type": "dark",
@@ -484,87 +946,43 @@
       ]
      ],
      "x": 540,
-     "y": 880,
+     "y": 820,
      "at": "sakson"
-    },
-    {
-     "type": "card",
-     "kicker": "C+R RESEARCH, 2022",
-     "title": [
-      "$86 → $219"
-     ],
-     "sub": "Odamlar obunaga sarfini qariyb 2,5 baravar kam deb o'ylagan.",
-     "at": "Hisoblaganda",
-     "y": 1330
-    },
-    {
-     "type": "prop",
-     "img": "p_g_lupa.jpg",
-     "x": 150,
-     "y": 700,
-     "h": 220,
-     "from": "pop",
-     "motion": "point",
-     "dir": "right",
-     "rot": -15,
-     "at": "so'rov o'tkazildi"
-    },
-    {
-     "type": "mark",
-     "shape": "box",
-     "x": 940,
-     "y": 1040,
-     "w": 200,
-     "h": 150,
-     "at": "Hisoblaganda",
-     "label": "SHOK!",
-     "color": [
-      235,
-      40,
-      55
-     ]
-    }
-   ],
-   "vo": "vo_07.mp3",
-   "voice_id": "kGOig3GPePLxobJGHo2M",
-   "imgs": [
-    "07b.jpg"
-   ]
-  },
-  {
-   "speaker": "bekzod",
-   "text": "Ya'ni har oy bir yuz o'ttiz uch dollar o'zlari bilmagan holda ketib turgan.",
-   "tts": "[sarcastic] Ya'ni har oy bir yuz o'ttiz uch dollar o'zlari bilmagan holda ketib turgan.",
-   "mood": "tense",
-   "img": "08.jpg",
-   "elements": [
-    {
-     "type": "stamp",
-     "text": "-$133 / OY",
-     "y": 1450,
-     "rot": -6,
-     "at": "bir yuz"
-    },
-    {
-     "type": "prop",
-     "img": "p_karta.jpg",
-     "x": 800,
-     "y": 1050,
-     "h": 360,
-     "at": 0.2,
-     "motion": "shake",
-     "from": "pop"
     },
     {
      "type": "prop",
      "img": "p_g_tangalar.jpg",
-     "x": 870,
-     "y": 640,
-     "h": 260,
-     "from": "pop",
+     "x": 900,
+     "y": 580,
+     "h": 220,
+     "at": "ikki yuz",
      "motion": "jump",
-     "at": "har oy"
+     "from": "pop",
+     "rot": 0
     },
+    {
+     "type": "caption",
+     "words": [
+      "ASLIDA",
+      "$219!"
+     ],
+     "color": "white",
+     "y": 1330,
+     "size": 96,
+     "at": "Amerikaliklar o'ylagani"
+    }
+   ],
+   "vo": "vo_15.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M"
+  },
+  {
+   "n": 16,
+   "speaker": "bekzod",
+   "text": "Ya'ni har oy bir yuz o'ttiz uch dollar o'zlari bilmagan holda ketib turgan.",
+   "tts": "[sarcastic] Ya'ni har oy bir yuz o'ttiz uch dollar o'zlari bilmagan holda ketib turgan.",
+   "mood": "mystery",
+   "img": "08b.jpg",
+   "elements": [
     {
      "type": "mark",
      "shape": "underline",
@@ -572,214 +990,52 @@
      "y": 1120,
      "w": 480,
      "at": "o'zlari bilmagan",
-     "label": "-$133 / OY",
+     "label": "BILMASDAN!",
      "color": [
       235,
       40,
       55
-     ]
-    }
-   ],
-   "vo": "vo_08.mp3",
-   "voice_id": "kGOig3GPePLxobJGHo2M",
-   "imgs": [
-    "08b.jpg"
-   ]
-  },
-  {
-   "speaker": "dilnoza",
-   "text": "Nigora, mening usulim bor: bepul sinovga yozilgan kunning o'zidayoq bekor qilaman. Ko'p ilovalarda yetti kun baribir ishlab turaveradi!",
-   "tts": "[laughs] Nigora, mening usulim bor: bepul sinovga yozilgan kunning o'zidayoq bekor qilaman. Ko'p ilovalarda yetti kun baribir ishlab turaveradi!",
-   "mood": "warm",
-   "img": "09.jpg",
-   "elements": [
-    {
-     "type": "bubble",
-     "speaker": "SHAHZODA",
-     "x": 540,
-     "y": 330,
-     "at": "start",
-     "hl": {
-      "o'zidayoq": "red",
-      "bekor": "red"
-     },
-     "tail": "down",
-     "tail_x": 0.3,
-     "tag": "orange",
-     "w": 880
-    },
-    {
-     "type": "char",
-     "img": "c_shahzoda.jpg",
-     "from": "right",
-     "x": 800,
-     "y": 1440,
-     "h": 740,
-     "at": 0.1,
-     "motion": "idle",
-     "flip": false,
-     "talk": [
-      "vo"
      ],
-     "label": "SHAHZODA",
-     "label_bg": "orange"
+     "label_y": 882.0
     },
     {
-     "type": "mark",
-     "shape": "check",
-     "x": 860,
-     "y": 620,
-     "w": 200,
-     "at": "bekor qilaman",
-     "label": "DARHOL!",
-     "color": [
-      235,
-      40,
-      55
-     ]
+     "type": "stamp",
+     "text": "-$133 / OY",
+     "y": 1450,
+     "rot": -5,
+     "at": "bir yuz"
     },
     {
      "type": "prop",
-     "img": "p_g_qongiroq.jpg",
-     "x": 200,
-     "y": 660,
-     "h": 220,
+     "img": "p_karta.jpg",
+     "x": 900,
+     "y": 760,
+     "h": 260,
+     "at": 0.3,
+     "motion": "shake",
      "from": "pop",
-     "motion": "wag",
-     "at": "Ko'p ilovalarda"
+     "rot": 0
     }
    ],
-   "vo": "vo_09.mp3",
-   "voice_id": "O72h9AUwisM6Zj4He72B",
-   "imgs": [
-    "09b.jpg"
-   ]
+   "vo": "old_08.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M"
   },
   {
+   "n": 17,
    "speaker": "bekzod",
-   "text": "O'sha kecha Nigora obunalar ro'yxatini ochdi va o'n bitta obuna topdi. Ulardan biri — o'zi unutgan «buxgalteriya kursi».",
-   "tts": "[whispers] O'sha kecha Nigora obunalar ro'yxatini ochdi va o'n bitta obuna topdi. Ulardan biri — o'zi unutgan «buxgalteriya kursi».",
-   "mood": "mystery",
-   "img": "10.jpg",
-   "elements": [
-    {
-     "type": "char",
-     "img": "c_nigora_hayron.jpg",
-     "from": "left",
-     "x": 270,
-     "y": 1440,
-     "h": 700,
-     "at": "o'n",
-     "motion": "idle",
-     "flip": false
-    },
-    {
-     "type": "note",
-     "text": "11 ta obuna. Biri — buxgalteriya kursi.",
-     "y": 1560,
-     "size": 66,
-     "rot": -2,
-     "at": "Ulardan"
-    },
-    {
-     "type": "prop",
-     "img": "p_g_lupa.jpg",
-     "x": 870,
-     "y": 600,
-     "h": 240,
-     "from": "pop",
-     "motion": "point",
-     "dir": "left",
-     "rot": 20,
-     "at": "obunalar ro'yxatini"
-    },
-    {
-     "type": "mark",
-     "shape": "circle",
-     "x": 540,
-     "y": 860,
-     "w": 420,
-     "h": 320,
-     "at": "o'n bitta obuna",
-     "label": "11 TA!",
-     "color": [
-      235,
-      40,
-      55
-     ]
-    },
-    {
-     "type": "mark",
-     "shape": "arrow",
-     "x": 920,
-     "y": 1160,
-     "to": [
-      650,
-      960
-     ],
-     "at": "buxgalteriya kursi",
-     "label": "UNUTILGAN!",
-     "color": [
-      235,
-      40,
-      55
-     ]
-    }
-   ],
-   "vo": "vo_10.mp3",
-   "voice_id": "kGOig3GPePLxobJGHo2M",
-   "imgs": [
-    "10b.jpg"
-   ]
-  },
-  {
-   "speaker": "bekzod",
-   "text": "Siz oxirgi marta obunalaringizni qachon tekshirgansiz? Hozir oching va izohda yozing: nechta chiqdi?",
-   "tts": "[warmly] Siz oxirgi marta obunalaringizni qachon tekshirgansiz? Hozir oching va izohda yozing: nechta chiqdi?",
+   "text": "Siz qaysi obunani unutib, keyin topib olgansiz? Izohda yozing!",
+   "tts": "[warmly] Siz qaysi obunani unutib, keyin topib olgansiz? Izohda yozing!",
    "mood": "finale",
    "img": "11.jpg",
    "elements": [
     {
-     "type": "final",
-     "lines": [
-      "OBUNALARINGIZNI",
-      "TEKSHIRING!"
-     ],
-     "at": 0.4
-    },
-    {
-     "type": "sticker",
-     "lines": [
-      "Izohda yozing:",
-      "nechta chiqdi?"
-     ],
-     "color": "blue",
-     "x": 540,
-     "y": 1450,
-     "w": 560,
-     "size": 50,
-     "rot": -3,
-     "at": 1.2
-    },
-    {
-     "type": "prop",
-     "img": "p_g_qaychi.jpg",
-     "x": 830,
-     "y": 680,
-     "h": 280,
-     "from": "pop",
-     "motion": "shake",
-     "at": "Hozir oching",
-     "label": "KES!"
-    },
-    {
      "type": "mark",
      "shape": "arrow",
      "x": 300,
-     "y": 900,
+     "y": 740,
      "to": [
       480,
-      1180
+      740
      ],
      "at": "izohda yozing",
      "label": "IZOHGA!",
@@ -787,10 +1043,33 @@
       235,
       40,
       55
-     ]
+     ],
+     "label_y": 670
+    },
+    {
+     "type": "final",
+     "lines": [
+      "QAYSI OBUNANI",
+      "UNUTGANSIZ?"
+     ],
+     "at": 0.4
+    },
+    {
+     "type": "sticker",
+     "lines": [
+      "Izohda",
+      "yozing!"
+     ],
+     "color": "blue",
+     "x": 540,
+     "y": 1470,
+     "w": 440,
+     "size": 78,
+     "rot": -3,
+     "at": 1.2
     }
    ],
-   "vo": "vo_11.mp3",
+   "vo": "vo_17.mp3",
    "voice_id": "kGOig3GPePLxobJGHo2M"
   }
  ]

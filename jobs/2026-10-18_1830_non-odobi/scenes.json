@@ -21,6 +21,26 @@
  ],
  "cover_sub": "buvimning birinchi qoidasi",
  "cover_scene": 0,
+ "cover": {
+  "layout": "bubble",
+  "char": "c_buvi_hayron.jpg",
+  "ink": [
+   58,
+   34,
+   22
+  ],
+  "img": "cover.jpg",
+  "accent": [
+   196,
+   74,
+   38
+  ],
+  "accent2": [
+   242,
+   184,
+   76
+  ]
+ },
  "anim": "static",
  "bright": true,
  "theme": {
@@ -63,14 +83,31 @@
   ],
   "cut_fx": "flash"
  },
+ "end_hold": 1.2,
  "scenes": [
   {
+   "n": 1,
    "speaker": "bekzod",
-   "text": "O'zbek uyida bitta qoida bor. Uni hech kim yozib qo'ymagan, lekin hamma biladi: non hech qachon teskari qo'yilmaydi.",
-   "tts": "[warmly] O'zbek uyida bitta qoida bor. Uni hech kim yozib qo'ymagan, lekin hamma biladi: non hech qachon teskari qo'yilmaydi.",
+   "text": "Nega o'zbek uyida non hech qachon teskari qo'yilmaydi?",
+   "tts": "[curious] Nega o'zbek uyida non hech qachon teskari qo'yilmaydi?",
    "mood": "hero",
-   "img": "01.jpg",
+   "img": "02b.jpg",
    "elements": [
+    {
+     "type": "mark",
+     "shape": "underline",
+     "x": 540,
+     "y": 1120,
+     "w": 600,
+     "at": "hech qachon teskari",
+     "label": "QOIDA #1!",
+     "color": [
+      196,
+      74,
+      38
+     ],
+     "label_y": 840.0
+    },
     {
      "type": "pill",
      "text": "UYIMIZ QOIDASI",
@@ -82,37 +119,23 @@
      "at": 0.3
     },
     {
-     "type": "prop",
-     "img": "p_g_bugdoy_boshoq.jpg",
-     "x": 170,
-     "y": 640,
-     "h": 280,
-     "from": "pop",
-     "motion": "pulse",
-     "at": "bitta qoida"
-    },
-    {
-     "type": "mark",
-     "shape": "underline",
-     "x": 540,
-     "y": 1190,
-     "w": 600,
-     "at": "hech qachon teskari",
-     "label": "QOIDA №1!",
-     "color": [
-      196,
-      74,
-      38
-     ]
+     "type": "caption",
+     "words": [
+      "NEGA",
+      "TESKARI",
+      "EMAS?"
+     ],
+     "color": "white",
+     "y": 1330,
+     "size": 96,
+     "at": "Nega o'zbek"
     }
    ],
    "vo": "vo_01.mp3",
-   "voice_id": "kGOig3GPePLxobJGHo2M",
-   "imgs": [
-    "01b.jpg"
-   ]
+   "voice_id": "kGOig3GPePLxobJGHo2M"
   },
   {
+   "n": 2,
    "speaker": "sardor",
    "text": "Buvijon, non-ku bu! Qanday qo'ysa ham baribir non-da.",
    "tts": "[casual] Buvijon, non-ku bu! Qanday qo'ysa ham baribir non-da.",
@@ -125,11 +148,9 @@
      "x": 540,
      "y": 330,
      "at": "start",
-     "hl": {
-      "baribir": "red"
-     },
+     "hl": {},
      "tail": "down",
-     "tail_x": 0.3,
+     "tail_x": 0.75,
      "tag": "royal",
      "w": 880
     },
@@ -137,33 +158,23 @@
      "type": "char",
      "img": "c_sherzod.jpg",
      "from": "right",
-     "x": 800,
+     "x": 810,
      "y": 1440,
-     "h": 740,
+     "h": 700,
      "at": 0.1,
      "motion": "idle",
      "flip": false,
      "talk": [
       "vo"
      ],
-     "label": "SHERZOD",
+     "label": "SHERZOD, 16",
      "label_bg": "royal"
-    },
-    {
-     "type": "prop",
-     "img": "p_g_undov.jpg",
-     "x": 890,
-     "y": 620,
-     "h": 240,
-     "from": "pop",
-     "motion": "shake",
-     "at": "non-ku bu"
     },
     {
      "type": "mark",
      "shape": "cross",
      "x": 540,
-     "y": 950,
+     "y": 910.0,
      "w": 400,
      "h": 300,
      "at": "Qanday qo'ysa ham",
@@ -172,20 +183,29 @@
       196,
       74,
       38
-     ]
+     ],
+     "label_y": 690.0
+    },
+    {
+     "type": "prop",
+     "img": "p_g_undov.jpg",
+     "x": 900,
+     "y": 660,
+     "h": 240,
+     "from": "pop",
+     "motion": "shake",
+     "at": "non-ku bu"
     }
    ],
    "vo": "vo_02.mp3",
-   "voice_id": "UjuEL3hLLUaDED9iW4Yb",
-   "imgs": [
-    "02b.jpg"
-   ]
+   "voice_id": "UjuEL3hLLUaDED9iW4Yb"
   },
   {
+   "n": 3,
    "speaker": "malika",
-   "text": "Voy, bolam! Nonni teskari qo'ysang, rizqing teskari ketadi. Ol, to'g'rilab qo'y. Ushog'ini ham terib ol.",
-   "tts": "[elderly voice] [gasps] Voy, bolam! Nonni teskari qo'ysang, rizqing teskari ketadi. Ol, to'g'rilab qo'y. Ushog'ini ham terib ol.",
-   "mood": "tense",
+   "text": "Voy, bolam! Nonni teskari qo'yma!",
+   "tts": "[elderly voice] [gasps] Voy, bolam! Nonni teskari qo'yma!",
+   "mood": "groove",
    "img": "03.jpg",
    "elements": [
     {
@@ -195,11 +215,11 @@
      "y": 330,
      "at": "start",
      "hl": {
-      "teskari": "red",
-      "rizqing": "red"
+      "bolam!": "red",
+      "qo'yma!": "red"
      },
      "tail": "down",
-     "tail_x": 0.3,
+     "tail_x": 0.25,
      "tag": "crimson",
      "w": 880
     },
@@ -209,7 +229,7 @@
      "from": "left",
      "x": 270,
      "y": 1440,
-     "h": 720,
+     "h": 700,
      "at": 0.1,
      "motion": "idle",
      "flip": false,
@@ -222,33 +242,57 @@
     {
      "type": "prop",
      "img": "p_g_korsatgich_qol.jpg",
-     "x": 180,
-     "y": 900,
-     "h": 280,
-     "from": "left",
-     "motion": "point",
-     "dir": "right",
-     "at": "rizqing teskari ketadi"
+     "x": 900,
+     "y": 760,
+     "h": 230,
+     "at": "end",
+     "motion": "wag",
+     "from": "pop",
+     "rot": 0
+    }
+   ],
+   "vo": "vo_03.mp3",
+   "voice_id": "VTN9ql0D5MshokKncKAy"
+  },
+  {
+   "n": 4,
+   "speaker": "malika",
+   "text": "Ol, to'g'rilab qo'y. Ushog'ini ham terib ol.",
+   "tts": "[elderly voice] [gently] Ol, to'g'rilab qo'y. Ushog'ini ham terib ol.",
+   "mood": "tense",
+   "img": "03b.jpg",
+   "elements": [
+    {
+     "type": "bubble",
+     "speaker": "BUVI",
+     "x": 540,
+     "y": 330,
+     "at": "start",
+     "hl": {},
+     "tail": "down",
+     "tail_x": 0.25,
+     "tag": "crimson",
+     "w": 880
     },
     {
-     "type": "mark",
-     "shape": "check",
-     "x": 780,
-     "y": 1020,
-     "w": 220,
-     "at": "to'g'rilab qo'y",
-     "label": "TO'G'RILA!",
-     "color": [
-      196,
-      74,
-      38
+     "type": "char",
+     "img": "c_buvi.jpg",
+     "from": "left",
+     "x": 270,
+     "y": 1440,
+     "h": 700,
+     "at": 0.1,
+     "motion": "idle",
+     "flip": false,
+     "talk": [
+      "vo"
      ]
     },
     {
      "type": "mark",
      "shape": "circle",
      "x": 540,
-     "y": 1120,
+     "y": 970.0,
      "w": 320,
      "h": 180,
      "at": "Ushog'ini ham",
@@ -257,33 +301,88 @@
       196,
       74,
       38
-     ]
+     ],
+     "label_y": 810.0
+    },
+    {
+     "type": "mark",
+     "shape": "check",
+     "x": 780,
+     "y": 983.0,
+     "w": 220,
+     "at": "to'g'rilab qo'y",
+     "label": "TO'G'RILA!",
+     "color": [
+      196,
+      74,
+      38
+     ],
+     "h": 154.0,
+     "label_y": 836.0
     }
    ],
-   "vo": "vo_03.mp3",
+   "vo": "vo_04.mp3",
    "voice_id": "VTN9ql0D5MshokKncKAy",
    "imgs": [
-    "03b.jpg",
     "03c.jpg"
    ]
   },
   {
+   "n": 5,
    "speaker": "bekzod",
-   "text": "Sherzod kulib qo'ydi. Lekin ertasi kuni tongda buvisi uni mahalladagi tandirxonaga olib bordi.",
-   "tts": "[chuckles] Sherzod kulib qo'ydi. Lekin ertasi kuni tongda buvisi uni mahalladagi tandirxonaga olib bordi.",
+   "text": "Sherzod kulib qo'ydi. Lekin buvisi sababini aytmadi...",
+   "tts": "[chuckles] Sherzod kulib qo'ydi. [whispers] Lekin buvisi sababini aytmadi...",
+   "mood": "tense",
+   "img": "01.jpg",
+   "elements": [
+    {
+     "type": "char",
+     "img": "c_sherzod.jpg",
+     "from": "right",
+     "x": 820,
+     "y": 1570,
+     "h": 640,
+     "at": 0.2,
+     "motion": "idle",
+     "flip": false
+    },
+    {
+     "type": "prop",
+     "img": "p_g_undov.jpg",
+     "x": 180,
+     "y": 780,
+     "h": 240,
+     "at": "aytmadi",
+     "motion": "shake",
+     "from": "pop",
+     "rot": 0
+    },
+    {
+     "type": "caption",
+     "words": [
+      "SABABINI",
+      "AYTMADI..."
+     ],
+     "color": "white",
+     "y": 1200,
+     "size": 84,
+     "at": "Sherzod kulib"
+    }
+   ],
+   "vo": "vo_05.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M",
+   "imgs": [
+    "01b.jpg"
+   ]
+  },
+  {
+   "n": 6,
+   "speaker": "bekzod",
+   "text": "Ertasi kuni tongda u nevarasini bir joyga olib bordi.",
+   "tts": "[mysteriously] Ertasi kuni tongda u nevarasini bir joyga olib bordi.",
    "mood": "warm",
    "img": "04.jpg",
    "elements": [
-    {
-     "type": "pill",
-     "text": "TONG, 05:30",
-     "bg": "navy",
-     "fg": "white",
-     "x": 600,
-     "y": 300,
-     "rot": -3,
-     "at": "tongda"
-    },
     {
      "type": "mark",
      "shape": "arrow",
@@ -302,23 +401,70 @@
      ]
     },
     {
-     "type": "prop",
-     "img": "p_g_bugli_non.jpg",
-     "x": 880,
-     "y": 700,
-     "h": 260,
-     "from": "pop",
-     "motion": "bounce",
-     "at": "tandirxonaga"
+     "type": "pill",
+     "text": "TONG, 05:30",
+     "bg": "navy",
+     "fg": "white",
+     "x": 600,
+     "y": 300,
+     "rot": -3,
+     "at": "tongda"
+    },
+    {
+     "type": "caption",
+     "words": [
+      "ERTASI",
+      "KUNI",
+      "TONGDA..."
+     ],
+     "color": "yellow",
+     "y": 1330,
+     "size": 96,
+     "at": "Ertasi kuni"
     }
    ],
-   "vo": "vo_04.mp3",
+   "vo": "vo_06.mp3",
    "voice_id": "kGOig3GPePLxobJGHo2M"
   },
   {
+   "n": 7,
+   "speaker": "bekzod",
+   "text": "Eshik ochildi — va Sherzod nonning sirini ko'rdi.",
+   "tts": "[whispers] Eshik ochildi — va Sherzod nonning sirini ko'rdi.",
+   "mood": "warm",
+   "img": "05.jpg",
+   "elements": [
+    {
+     "type": "prop",
+     "img": "p_g_bugli_non.jpg",
+     "x": 900,
+     "y": 780,
+     "h": 260,
+     "at": "sirini",
+     "motion": "bounce",
+     "from": "pop",
+     "rot": 0
+    },
+    {
+     "type": "caption",
+     "words": [
+      "NONNING",
+      "SIRI..."
+     ],
+     "color": "white",
+     "y": 1330,
+     "size": 96,
+     "at": "Eshik ochildi"
+    }
+   ],
+   "vo": "vo_07.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M"
+  },
+  {
+   "n": 8,
    "speaker": "jahongir",
-   "text": "Kel, uka. Bitta non uchun xamir kechasi tindiriladi. Tong otmasdan tandir qiziydi. Qani, o'zing yopib ko'r-chi.",
-   "tts": "[warmly] Kel, uka. Bitta non uchun xamir kechasi tindiriladi. Tong otmasdan tandir qiziydi. Qani, o'zing yopib ko'r-chi.",
+   "text": "Kel, uka. Bitta non uchun xamir kechasi tindiriladi.",
+   "tts": "[warmly] Kel, uka. Bitta non uchun xamir kechasi tindiriladi.",
    "mood": "groove",
    "img": "05.jpg",
    "elements": [
@@ -328,12 +474,9 @@
      "x": 540,
      "y": 330,
      "at": "start",
-     "hl": {
-      "kechasi": "red",
-      "tandir": "red"
-     },
+     "hl": {},
      "tail": "down",
-     "tail_x": 0.3,
+     "tail_x": 0.75,
      "tag": "green",
      "w": 880
     },
@@ -343,7 +486,7 @@
      "from": "right",
      "x": 810,
      "y": 1440,
-     "h": 740,
+     "h": 700,
      "at": 0.1,
      "motion": "idle",
      "flip": false,
@@ -356,35 +499,71 @@
     {
      "type": "prop",
      "img": "p_g_un_bulut.jpg",
-     "x": 190,
+     "x": 180,
      "y": 700,
      "h": 260,
      "from": "pop",
      "motion": "pulse",
      "at": "xamir kechasi tindiriladi",
      "label": "BUTUN TUN!"
+    }
+   ],
+   "vo": "vo_08.mp3",
+   "voice_id": "xDwfBjUEPdIoQekNOXAX"
+  },
+  {
+   "n": 9,
+   "speaker": "jahongir",
+   "text": "Tong otmasdan tandir qiziydi. Qani, o'zing yopib ko'r-chi.",
+   "tts": "[warmly] Tong otmasdan tandir qiziydi. Qani, o'zing yopib ko'r-chi.",
+   "mood": "groove",
+   "img": "05b.jpg",
+   "elements": [
+    {
+     "type": "bubble",
+     "speaker": "RAHMAT AKA",
+     "x": 540,
+     "y": 330,
+     "at": "start",
+     "hl": {},
+     "tail": "down",
+     "tail_x": 0.75,
+     "tag": "green",
+     "w": 880
+    },
+    {
+     "type": "char",
+     "img": "c_rahmat.jpg",
+     "from": "right",
+     "x": 810,
+     "y": 1440,
+     "h": 700,
+     "at": 0.1,
+     "motion": "idle",
+     "flip": false,
+     "talk": [
+      "vo"
+     ]
     },
     {
      "type": "prop",
      "img": "p_g_olov_uchqun.jpg",
-     "x": 880,
-     "y": 1020,
-     "h": 280,
+     "x": 900,
+     "y": 1000,
+     "h": 260,
      "from": "pop",
      "motion": "jump",
      "at": "tandir qiziydi"
     }
    ],
-   "vo": "vo_05.mp3",
-   "voice_id": "xDwfBjUEPdIoQekNOXAX",
-   "imgs": [
-    "05b.jpg"
-   ]
+   "vo": "vo_09.mp3",
+   "voice_id": "xDwfBjUEPdIoQekNOXAX"
   },
   {
+   "n": 10,
    "speaker": "sardor",
-   "text": "Voy, qo'lim! Tandir juda issiq ekan-ku! Nonim tushib ketdi!",
-   "tts": "[panicked] [laughs] Voy, qo'lim! Tandir juda issiq ekan-ku! Nonim tushib ketdi!",
+   "text": "Voy, qo'lim! Tandir juda issiq ekan-ku!",
+   "tts": "[panicked] [laughs] Voy, qo'lim! Tandir juda issiq ekan-ku!",
    "mood": "sad",
    "img": "06.jpg",
    "elements": [
@@ -395,10 +574,11 @@
      "y": 330,
      "at": "start",
      "hl": {
-      "issiq": "red"
+      "qo'lim!": "red",
+      "ekan-ku!": "red"
      },
      "tail": "down",
-     "tail_x": 0.3,
+     "tail_x": 0.25,
      "tag": "royal",
      "w": 880
     },
@@ -420,7 +600,7 @@
      "type": "mark",
      "shape": "burst",
      "x": 540,
-     "y": 760,
+     "y": 850.0,
      "w": 380,
      "at": "Voy, qo'lim!",
      "label": "ISSIQ!",
@@ -428,54 +608,161 @@
       196,
       74,
       38
-     ]
-    },
-    {
-     "type": "mark",
-     "shape": "arrow",
-     "x": 860,
-     "y": 880,
-     "to": [
-      600,
-      1100
      ],
-     "at": "Nonim tushib ketdi!",
-     "label": "VOY!",
-     "color": [
-      196,
-      74,
-      38
-     ]
+     "label_y": 647.0
     }
    ],
-   "vo": "vo_06.mp3",
+   "vo": "vo_10.mp3",
    "voice_id": "UjuEL3hLLUaDED9iW4Yb",
    "imgs": [
     "06b.jpg"
    ]
   },
   {
+   "n": 11,
    "speaker": "bekzod",
-   "text": "Samarqand noni haqida bir rivoyat bor. Buxoro amiri samarqandlik novvoyni saroyiga chaqirtiribdi. Unni ham, suvni ham Samarqanddan olib kelibdi. Lekin non baribir o'shanday chiqmabdi.",
-   "tts": "[warmly] Samarqand noni haqida bir rivoyat bor. Buxoro amiri samarqandlik novvoyni saroyiga chaqirtiribdi. Unni ham, suvni ham Samarqanddan olib kelibdi. Lekin non baribir o'shanday chiqmabdi.",
+   "text": "Yigirma ikkinchi yili kuniga o'n besh mingtacha Samarqand noni yopilgan.",
+   "tts": "[impressed] Yigirma ikkinchi yili kuniga o'n besh mingtacha Samarqand noni yopilgan.",
+   "mood": "mystery",
+   "img": "09.jpg",
+   "elements": [
+    {
+     "type": "mark",
+     "shape": "box",
+     "x": 540,
+     "y": 880.0,
+     "w": 760,
+     "h": 480,
+     "at": "o'n besh mingtacha",
+     "label": "15 000 TA!",
+     "color": [
+      196,
+      74,
+      38
+     ],
+     "label_y": 570.0
+    },
+    {
+     "type": "tag",
+     "head": "YIL",
+     "text": "2022",
+     "x": 170,
+     "y": 210,
+     "color": "navy",
+     "at": "start"
+    },
+    {
+     "type": "card",
+     "kicker": "2022-YIL",
+     "title": [
+      "KUNIGA ~15 000 TA",
+      "SAMARQAND NONI"
+     ],
+     "sub": "",
+     "at": "o'n besh",
+     "y": 1330
+    }
+   ],
+   "vo": "vo_11.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M",
+   "imgs": [
+    "09b.jpg"
+   ]
+  },
+  {
+   "n": 12,
+   "speaker": "bekzod",
+   "text": "Endi diqqat: Samarqand noni haqida bir rivoyat bor.",
+   "tts": "[warmly] Endi diqqat: Samarqand noni haqida bir rivoyat bor.",
    "mood": "mystery",
    "img": "07.jpg",
    "elements": [
     {
-     "type": "card",
-     "kicker": "RIVOYAT",
-     "title": [
-      "SAMARQAND NONI"
-     ],
-     "sub": "Buxoro amiri un va suvni ham Samarqanddan keltirtiribdi.",
-     "at": "Unni",
-     "y": 1330
+     "type": "pill",
+     "text": "RIVOYAT",
+     "bg": "crimson",
+     "fg": "white",
+     "x": 600,
+     "y": 300,
+     "rot": -3,
+     "at": "rivoyat"
     },
+    {
+     "type": "prop",
+     "img": "p_g_bugdoy_boshoq.jpg",
+     "x": 900,
+     "y": 780,
+     "h": 260,
+     "at": "Samarqand",
+     "motion": "pulse",
+     "from": "pop",
+     "rot": 0
+    },
+    {
+     "type": "caption",
+     "words": [
+      "BIR",
+      "RIVOYAT",
+      "BOR"
+     ],
+     "color": "yellow",
+     "y": 1330,
+     "size": 96,
+     "at": "Endi diqqat"
+    }
+   ],
+   "vo": "vo_12.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M"
+  },
+  {
+   "n": 13,
+   "speaker": "bekzod",
+   "text": "Buxoro amiri samarqandlik novvoyni saroyiga chaqirtiribdi.",
+   "tts": "[storytelling] Buxoro amiri samarqandlik novvoyni saroyiga chaqirtiribdi.",
+   "mood": "warm",
+   "img": "07.jpg",
+   "elements": [
+    {
+     "type": "prop",
+     "img": "p_g_korsatgich_qol.jpg",
+     "x": 180,
+     "y": 800,
+     "h": 240,
+     "at": "chaqirtiribdi",
+     "motion": "point",
+     "from": "pop",
+     "rot": 0,
+     "dir": 0
+    },
+    {
+     "type": "caption",
+     "words": [
+      "BUXORO",
+      "AMIRI",
+      "CHAQIRTIRIBDI"
+     ],
+     "color": "white",
+     "y": 1330,
+     "size": 96,
+     "at": "Buxoro amiri"
+    }
+   ],
+   "vo": "vo_13.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M"
+  },
+  {
+   "n": 14,
+   "speaker": "bekzod",
+   "text": "Unni ham, suvni ham Samarqanddan olib kelishibdi.",
+   "tts": "[storytelling] Unni ham, suvni ham Samarqanddan olib kelishibdi.",
+   "mood": "warm",
+   "img": "07b.jpg",
+   "elements": [
     {
      "type": "mark",
      "shape": "circle",
      "x": 540,
-     "y": 1080,
+     "y": 1010.0,
      "w": 420,
      "h": 220,
      "at": "Unni ham, suvni ham",
@@ -484,8 +771,34 @@
       196,
       74,
       38
-     ]
+     ],
+     "label_y": 830.0
     },
+    {
+     "type": "caption",
+     "words": [
+      "UN",
+      "HAM,",
+      "SUV",
+      "HAM!"
+     ],
+     "color": "yellow",
+     "y": 1330,
+     "size": 96,
+     "at": "Unni ham"
+    }
+   ],
+   "vo": "vo_14.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M"
+  },
+  {
+   "n": 15,
+   "speaker": "bekzod",
+   "text": "Lekin non baribir o'shanday chiqmabdi. Nega?",
+   "tts": "[whispers] Lekin non baribir o'shanday chiqmabdi. Nega?",
+   "mood": "groove",
+   "img": "07.jpg",
+   "elements": [
     {
      "type": "mark",
      "shape": "cross",
@@ -499,47 +812,73 @@
       196,
       74,
       38
-     ]
+     ],
+     "label_y": 830.0
+    },
+    {
+     "type": "caption",
+     "words": [
+      "LEKIN",
+      "NON",
+      "BARIBIR",
+      "O'SHANDAY..."
+     ],
+     "color": "white",
+     "y": 1330,
+     "size": 96,
+     "at": "Lekin non"
     }
    ],
-   "vo": "vo_07.mp3",
-   "voice_id": "kGOig3GPePLxobJGHo2M",
-   "imgs": [
-    "07b.jpg"
-   ]
+   "vo": "vo_15.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M"
   },
   {
+   "n": 16,
    "speaker": "bekzod",
-   "text": "Shunda novvoy aytibdi: «Amirim, Samarqandning havosini olib kelolmadim-da».",
-   "tts": "[whispers] Shunda novvoy aytibdi: «Amirim, Samarqandning havosini olib kelolmadim-da».",
-   "mood": "warm",
+   "text": "Novvoy uzoq jim turibdi. Va mana eng qizig'i...",
+   "tts": "[whispers] Novvoy uzoq jim turibdi. Va mana eng qizig'i...",
+   "mood": "groove",
    "img": "08.jpg",
    "elements": [
     {
-     "type": "note",
-     "text": "«Samarqandning havosini olib kelolmadim».",
-     "y": 1560,
-     "size": 62,
-     "rot": -2,
-     "at": "Amirim"
+     "type": "prop",
+     "img": "p_g_un_bulut.jpg",
+     "x": 900,
+     "y": 760,
+     "h": 260,
+     "at": "jim",
+     "motion": "pulse",
+     "from": "pop",
+     "rot": 0
     },
     {
-     "type": "prop",
-     "img": "p_g_korsatgich_qol.jpg",
-     "x": 190,
-     "y": 660,
-     "h": 280,
-     "from": "left",
-     "motion": "point",
-     "dir": "up",
-     "rot": -30,
-     "at": "havosini"
-    },
+     "type": "caption",
+     "words": [
+      "ENG",
+      "QIZIG'I..."
+     ],
+     "color": "yellow",
+     "y": 1330,
+     "size": 96,
+     "at": "Novvoy uzoq"
+    }
+   ],
+   "vo": "vo_16.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M"
+  },
+  {
+   "n": 17,
+   "speaker": "bekzod",
+   "text": "Novvoy aytibdi: «Amirim, Samarqandning havosini olib kelolmadim-da».",
+   "tts": "[warmly] Novvoy aytibdi: «Amirim, Samarqandning havosini olib kelolmadim-da».",
+   "mood": "hero",
+   "img": "08.jpg",
+   "elements": [
     {
      "type": "mark",
      "shape": "burst",
      "x": 850,
-     "y": 580,
+     "y": 710.0,
      "w": 260,
      "at": "olib kelolmadim",
      "label": "SIR SHU!",
@@ -547,70 +886,37 @@
       196,
       74,
       38
-     ]
+     ],
+     "label_y": 549.0
+    },
+    {
+     "type": "prop",
+     "img": "p_g_korsatgich_qol.jpg",
+     "x": 180,
+     "y": 660,
+     "h": 260,
+     "from": "left",
+     "motion": "point",
+     "dir": 90,
+     "rot": -30,
+     "at": "havosini"
+    },
+    {
+     "type": "stamp",
+     "text": "SAMARQAND HAVOSI!",
+     "y": 1420,
+     "rot": -5,
+     "at": "havosini"
     }
    ],
-   "vo": "vo_08.mp3",
+   "vo": "vo_17.mp3",
    "voice_id": "kGOig3GPePLxobJGHo2M"
   },
   {
-   "speaker": "bekzod",
-   "text": "Bu — rivoyat. Raqam esa haqiqiy: ikki ming yigirma ikkinchi yilda yurtimizda har kuni o'n besh mingtacha Samarqand noni yopilgan.",
-   "tts": "[warmly] Bu — rivoyat. Raqam esa haqiqiy: ikki ming yigirma ikkinchi yilda yurtimizda har kuni o'n besh mingtacha Samarqand noni yopilgan.",
-   "mood": "groove",
-   "img": "09.jpg",
-   "elements": [
-    {
-     "type": "card",
-     "kicker": "2022-YIL",
-     "title": [
-      "KUNIGA ~15 000 TA",
-      "SAMARQAND NONI"
-     ],
-     "sub": "Rivoyat — rivoyat, raqam esa haqiqiy.",
-     "at": "o'n besh",
-     "y": 1330
-    },
-    {
-     "type": "mark",
-     "shape": "check",
-     "x": 200,
-     "y": 620,
-     "w": 200,
-     "at": "Raqam esa haqiqiy",
-     "label": "HAQIQIY!",
-     "color": [
-      196,
-      74,
-      38
-     ]
-    },
-    {
-     "type": "mark",
-     "shape": "box",
-     "x": 540,
-     "y": 900,
-     "w": 760,
-     "h": 480,
-     "at": "o'n besh mingtacha",
-     "label": "15 000 TA!",
-     "color": [
-      196,
-      74,
-      38
-     ]
-    }
-   ],
-   "vo": "vo_09.mp3",
-   "voice_id": "kGOig3GPePLxobJGHo2M",
-   "imgs": [
-    "09b.jpg"
-   ]
-  },
-  {
+   "n": 18,
    "speaker": "malika",
-   "text": "Ko'rdingmi, bolam? Non — mehnat. Shuning uchun uni hurmat qilamiz. Ikki qo'llab ushatamiz, hammaga ulashamiz.",
-   "tts": "[elderly voice] [warmly] Ko'rdingmi, bolam? Non — mehnat. Shuning uchun uni hurmat qilamiz. Ikki qo'llab ushatamiz, hammaga ulashamiz.",
+   "text": "Ko'rdingmi, bolam? Non — mehnat. Mehnatni teskari qo'yib bo'lmaydi.",
+   "tts": "[elderly voice] [warmly] Ko'rdingmi, bolam? Non — mehnat. Mehnatni teskari qo'yib bo'lmaydi.",
    "mood": "warm",
    "img": "10.jpg",
    "elements": [
@@ -621,21 +927,20 @@
      "y": 330,
      "at": "start",
      "hl": {
-      "mehnat.": "red",
-      "hurmat": "red"
+      "bolam?": "red"
      },
      "tail": "down",
-     "tail_x": 0.3,
+     "tail_x": 0.25,
      "tag": "crimson",
      "w": 880
     },
     {
      "type": "char",
-     "img": "c_buvi.jpg",
+     "img": "c_buvi_mamnun.jpg",
      "from": "left",
      "x": 270,
      "y": 1440,
-     "h": 720,
+     "h": 700,
      "at": 0.1,
      "motion": "idle",
      "flip": false,
@@ -645,124 +950,111 @@
     },
     {
      "type": "prop",
-     "img": "p_g_yurakcha.jpg",
-     "x": 880,
-     "y": 600,
-     "h": 240,
+     "img": "p_g_olov_uchqun.jpg",
+     "x": 900,
+     "y": 760,
+     "h": 230,
+     "at": 1.2,
+     "motion": "jump",
      "from": "pop",
-     "motion": "pulse",
-     "at": "hurmat qilamiz"
-    },
-    {
-     "type": "mark",
-     "shape": "circle",
-     "x": 540,
-     "y": 980,
-     "w": 380,
-     "h": 220,
-     "at": "Ikki qo'llab",
-     "label": "IKKI QO'LLAB!",
-     "color": [
-      196,
-      74,
-      38
-     ]
+     "rot": 0
     }
    ],
-   "vo": "vo_10.mp3",
+   "vo": "vo_18.mp3",
    "voice_id": "VTN9ql0D5MshokKncKAy"
   },
   {
+   "n": 19,
    "speaker": "bekzod",
-   "text": "O'sha kuni Sherzod uyga o'zi yopgan nonni olib keldi. Biroz qiyshiq edi. Lekin dasturxonda to'ppa-to'g'ri turardi.",
-   "tts": "[warmly] O'sha kuni Sherzod uyga o'zi yopgan nonni olib keldi. Biroz qiyshiq edi. Lekin dasturxonda to'ppa-to'g'ri turardi.",
+   "text": "O'sha kuni Sherzod o'zi yopgan nonni to'ppa-to'g'ri qo'ydi.",
+   "tts": "[warmly] O'sha kuni Sherzod o'zi yopgan nonni to'ppa-to'g'ri qo'ydi.",
    "mood": "groove",
    "img": "11.jpg",
    "elements": [
     {
      "type": "char",
-     "img": "c_buvi_mamnun.jpg",
+     "img": "c_sherzod.jpg",
      "from": "right",
-     "x": 810,
-     "y": 1440,
-     "h": 700,
-     "at": "to'ppa-to'g'ri",
+     "x": 820,
+     "y": 1570,
+     "h": 640,
+     "at": 0.2,
      "motion": "idle",
      "flip": false
     },
     {
      "type": "mark",
-     "shape": "arrow",
-     "x": 220,
-     "y": 700,
-     "to": [
-      450,
-      950
-     ],
-     "at": "Biroz qiyshiq",
-     "label": "QIYSHIQ-U...",
+     "shape": "check",
+     "x": 260,
+     "y": 800,
+     "w": 220,
+     "at": "to'ppa",
      "color": [
       196,
       74,
       38
-     ]
+     ],
+     "label": "TO'G'RI!",
+     "h": 154.0,
+     "label_y": 653.0
     },
     {
-     "type": "mark",
-     "shape": "check",
-     "x": 790,
-     "y": 1020,
-     "w": 220,
-     "at": "to'ppa-to'g'ri turardi",
-     "label": "TO'PPA-TO'G'RI!",
-     "color": [
-      196,
-      74,
-      38
-     ]
+     "type": "caption",
+     "words": [
+      "TO'PPA-TO'G'RI!"
+     ],
+     "color": "white",
+     "y": 1200,
+     "size": 84,
+     "at": "O'sha kuni Sherzod"
     }
    ],
-   "vo": "vo_11.mp3",
+   "vo": "vo_19.mp3",
    "voice_id": "kGOig3GPePLxobJGHo2M"
   },
   {
+   "n": 20,
    "speaker": "bekzod",
-   "text": "Sizning uyingizda non bilan bog'liq qanday odat bor? Izohda yozing.",
-   "tts": "[warmly] Sizning uyingizda non bilan bog'liq qanday odat bor? Izohda yozing.",
+   "text": "Sizning buvingiz non haqida qanday gap aytardi? Izohda yozing!",
+   "tts": "[warmly] Sizning buvingiz non haqida qanday gap aytardi? Izohda yozing!",
    "mood": "finale",
    "img": "12.jpg",
    "elements": [
     {
+     "type": "prop",
+     "img": "p_g_korsatgich_qol.jpg",
+     "x": 900,
+     "y": 720,
+     "h": 260,
+     "from": "right",
+     "motion": "point",
+     "dir": 270,
+     "at": "Izohda yozing"
+    },
+    {
      "type": "final",
      "lines": [
-      "SIZNING UYINGIZDA",
-      "QANDAY ODAT BOR?"
+      "BUVINGIZ NON",
+      "HAQIDA NIMA DERDI?"
      ],
      "at": 0.4
     },
     {
-     "type": "prop",
-     "img": "p_non.jpg",
+     "type": "sticker",
+     "lines": [
+      "Izohda",
+      "yozing!"
+     ],
+     "color": "yellow",
      "x": 540,
-     "y": 1450,
-     "h": 360,
-     "at": 1.2,
-     "motion": "pulse",
-     "from": "pop"
-    },
-    {
-     "type": "prop",
-     "img": "p_g_korsatgich_qol.jpg",
-     "x": 880,
-     "y": 1100,
-     "h": 260,
-     "from": "right",
-     "motion": "point",
-     "dir": "down",
-     "at": "Izohda yozing"
+     "y": 1470,
+     "w": 440,
+     "size": 78,
+     "rot": -3,
+     "at": 1.2
     }
    ],
-   "vo": "vo_12.mp3",
+   "vo": "vo_20.mp3",
    "voice_id": "kGOig3GPePLxobJGHo2M"
   }
  ]

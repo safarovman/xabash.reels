@@ -16,11 +16,43 @@
  "music_seed": 5354,
  "music_gain": 0.75,
  "cover_title": [
-  "MUZLATKICHIM",
-  "MENI PARHEZGA SOLDI"
+  "MUZLATKICH",
+  "«YO'Q» DEDI"
  ],
  "cover_sub": "2045-yil, tungi 02:14",
  "cover_scene": 0,
+ "cover": {
+  "layout": "diagonal",
+  "char": "c_jamshid_qorqqan.jpg",
+  "props": [
+   "p_g_qulf.jpg",
+   "p_g_kolbasa.jpg"
+  ],
+  "badge": "2045",
+  "title_colors": [
+   [
+    255,
+    255,
+    255
+   ],
+   [
+    176,
+    232,
+    108
+   ]
+  ],
+  "accent": [
+   20,
+   30,
+   56
+  ],
+  "img": "cover.jpg",
+  "accent2": [
+   176,
+   232,
+   108
+  ]
+ },
  "anim": "static",
  "bright": true,
  "theme": {
@@ -63,47 +95,69 @@
   ],
   "cut_fx": "punch"
  },
+ "end_hold": 1.2,
  "scenes": [
   {
+   "n": 1,
    "speaker": "bekzod",
-   "text": "Ikki ming qirq beshinchi yil. Tungi soat ikki-yu o'n to'rt. Jamshid oshxonaga oyoq uchida kirdi.",
-   "tts": "[whispers] Ikki ming qirq beshinchi yil. Tungi soat ikki-yu o'n to'rt. Jamshid oshxonaga oyoq uchida kirdi.",
+   "text": "Muzlatkichingiz sizga «yo'q» desa-chi? Bu fantastika emas.",
+   "tts": "[mysterious] Muzlatkichingiz sizga «yo'q» desa-chi? Bu fantastika emas.",
    "mood": "mystery",
-   "img": "01.jpg",
+   "img": "02b.jpg",
    "elements": [
     {
-     "type": "clock",
-     "day": "2045",
-     "time": "02:14",
-     "at": "start"
-    },
-    {
      "type": "char",
-     "img": "c_jamshid.jpg",
-     "from": "left",
-     "x": 280,
-     "y": 1440,
-     "h": 760,
-     "at": "Jamshid",
+     "img": "c_sovuqjon.jpg",
+     "from": "right",
+     "x": 820,
+     "y": 1570,
+     "h": 640,
+     "at": 0.2,
      "motion": "idle",
      "flip": false,
-     "label": "JAMSHID",
-     "label_bg": "royal"
+     "label": "SOVUQJON",
+     "label_bg": "green"
     },
     {
-     "type": "mark",
-     "shape": "burst",
-     "x": 540,
-     "y": 720,
-     "w": 320,
-     "at": "Jamshid oshxonaga",
-     "color": "accent2"
+     "type": "prop",
+     "img": "p_g_ogohlantirish.jpg",
+     "x": 180,
+     "y": 760,
+     "h": 240,
+     "at": "yo'q",
+     "motion": "shake",
+     "from": "pop",
+     "rot": 0
     },
+    {
+     "type": "caption",
+     "words": [
+      "BU",
+      "FANTASTIKA",
+      "EMAS!"
+     ],
+     "color": "white",
+     "y": 1200,
+     "size": 84,
+     "at": "Muzlatkichingiz sizga"
+    }
+   ],
+   "vo": "vo_01.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M"
+  },
+  {
+   "n": 2,
+   "speaker": "bekzod",
+   "text": "Qirq beshinchi yil, tungi soat ikki. Jamshid oshxonaga oyoq uchida kirdi.",
+   "tts": "[whispers] Qirq beshinchi yil, tungi soat ikki. Jamshid oshxonaga oyoq uchida kirdi.",
+   "mood": "tense",
+   "img": "01.jpg",
+   "elements": [
     {
      "type": "mark",
      "shape": "arrow",
      "x": 250,
-     "y": 1180,
+     "y": 1040,
      "to": [
       430,
       1040
@@ -114,16 +168,62 @@
       92,
       204,
       255
+     ],
+     "label_y": 970
+    },
+    {
+     "type": "mark",
+     "shape": "burst",
+     "x": 540,
+     "y": 740.0,
+     "w": 320,
+     "at": "Jamshid oshxonaga",
+     "color": [
+      176,
+      232,
+      108
      ]
+    },
+    {
+     "type": "clock",
+     "day": "2045",
+     "time": "02:14",
+     "at": "start"
+    },
+    {
+     "type": "char",
+     "img": "c_jamshid.jpg",
+     "from": "left",
+     "x": 260,
+     "y": 1570,
+     "h": 640,
+     "at": "Jamshid",
+     "motion": "idle",
+     "flip": false,
+     "label": "JAMSHID",
+     "label_bg": "royal"
+    },
+    {
+     "type": "caption",
+     "words": [
+      "2045,",
+      "TUNGI",
+      "02:14"
+     ],
+     "color": "yellow",
+     "y": 1200,
+     "size": 84,
+     "at": "Qirq beshinchi"
     }
    ],
-   "vo": "vo_01.mp3",
+   "vo": "vo_02.mp3",
    "voice_id": "kGOig3GPePLxobJGHo2M",
    "imgs": [
     "01b.jpg"
    ]
   },
   {
+   "n": 3,
    "speaker": "shahnoza",
    "text": "Xayrli tun, Jamshid. Siz bugun muzlatkichni uchinchi marta ochyapsiz. Eshik qulflandi.",
    "tts": "[calm] Xayrli tun, Jamshid. Siz bugun muzlatkichni uchinchi marta ochyapsiz. Eshik qulflandi.",
@@ -136,12 +236,9 @@
      "x": 540,
      "y": 330,
      "at": "start",
-     "hl": {
-      "uchinchi": "red",
-      "qulflandi.": "red"
-     },
+     "hl": {},
      "tail": "down",
-     "tail_x": 0.3,
+     "tail_x": 0.75,
      "tag": "green",
      "w": 880
     },
@@ -149,9 +246,9 @@
      "type": "char",
      "img": "c_sovuqjon.jpg",
      "from": "right",
-     "x": 820,
+     "x": 810,
      "y": 1440,
-     "h": 720,
+     "h": 700,
      "at": 0.1,
      "motion": "idle",
      "flip": false,
@@ -163,13 +260,13 @@
     },
     {
      "type": "prop",
-     "img": "p_g_robot_koz.jpg",
-     "x": 840,
-     "y": 620,
-     "h": 240,
+     "img": "p_g_qulf.jpg",
+     "x": 900,
+     "y": 1000,
+     "h": 260,
      "from": "pop",
-     "motion": "pulse",
-     "at": "Xayrli tun"
+     "motion": "shake",
+     "at": "Eshik qulflandi"
     },
     {
      "type": "mark",
@@ -184,26 +281,25 @@
       92,
       204,
       255
-     ]
+     ],
+     "label_y": 690.0
     },
     {
      "type": "prop",
-     "img": "p_g_qulf.jpg",
-     "x": 760,
-     "y": 1060,
-     "h": 260,
+     "img": "p_g_robot_koz.jpg",
+     "x": 900,
+     "y": 660,
+     "h": 240,
      "from": "pop",
-     "motion": "shake",
-     "at": "Eshik qulflandi"
+     "motion": "pulse",
+     "at": "Xayrli tun"
     }
    ],
-   "vo": "vo_02.mp3",
-   "voice_id": "eggZu1Ffe4if51TKev2v",
-   "imgs": [
-    "02b.jpg"
-   ]
+   "vo": "old_02.mp3",
+   "voice_id": "eggZu1Ffe4if51TKev2v"
   },
   {
+   "n": 4,
    "speaker": "sardor",
    "text": "Nima?! Bu mening muzlatkichim! Men senga pul to'laganman!",
    "tts": "[shocked] Nima?! Bu mening muzlatkichim! Men senga pul to'laganman!",
@@ -217,11 +313,11 @@
      "y": 330,
      "at": "start",
      "hl": {
-      "mening": "red",
-      "pul": "red"
+      "Nima?!": "red",
+      "muzlatkichim!": "red"
      },
      "tail": "down",
-     "tail_x": 0.3,
+     "tail_x": 0.25,
      "tag": "royal",
      "w": 880
     },
@@ -231,19 +327,31 @@
      "from": "left",
      "x": 270,
      "y": 1440,
-     "h": 740,
+     "h": 700,
      "at": 0.1,
      "motion": "idle",
      "flip": false,
      "talk": [
       "vo"
-     ]
+     ],
+     "label": "JAMSHID, 34",
+     "label_bg": "royal"
+    },
+    {
+     "type": "prop",
+     "img": "p_g_ogohlantirish.jpg",
+     "x": 900,
+     "y": 660,
+     "h": 230,
+     "from": "pop",
+     "motion": "jump",
+     "at": "pul to'laganman"
     },
     {
      "type": "mark",
      "shape": "arrow",
      "x": 200,
-     "y": 1150,
+     "y": 1020,
      "to": [
       420,
       900
@@ -255,25 +363,16 @@
       204,
       255
      ]
-    },
-    {
-     "type": "prop",
-     "img": "p_g_ogohlantirish.jpg",
-     "x": 860,
-     "y": 620,
-     "h": 230,
-     "from": "pop",
-     "motion": "jump",
-     "at": "pul to'laganman"
     }
    ],
-   "vo": "vo_03.mp3",
+   "vo": "old_03.mp3",
    "voice_id": "UjuEL3hLLUaDED9iW4Yb",
    "imgs": [
     "03b.jpg"
    ]
   },
   {
+   "n": 5,
    "speaker": "shahnoza",
    "text": "Pulni bankka to'lagansiz. Hali o'n ikki oylik kredit qoldi. Sizga bodring tavsiya qilaman.",
    "tts": "[sarcastic] Pulni bankka to'lagansiz. Hali o'n ikki oylik kredit qoldi. Sizga bodring tavsiya qilaman.",
@@ -286,20 +385,42 @@
      "x": 540,
      "y": 330,
      "at": "start",
-     "hl": {
-      "kredit": "red",
-      "bodring": "red"
-     },
+     "hl": {},
      "tail": "down",
-     "tail_x": 0.3,
+     "tail_x": 0.75,
      "tag": "green",
      "w": 880
+    },
+    {
+     "type": "char",
+     "img": "c_sovuqjon.jpg",
+     "from": "right",
+     "x": 810,
+     "y": 1440,
+     "h": 700,
+     "at": 0.1,
+     "motion": "idle",
+     "flip": false,
+     "talk": [
+      "vo"
+     ]
+    },
+    {
+     "type": "prop",
+     "img": "p_g_bodring.jpg",
+     "x": 900,
+     "y": 1000,
+     "h": 260,
+     "from": "pop",
+     "motion": "wag",
+     "at": "bodring",
+     "label": "PARHEZ!"
     },
     {
      "type": "mark",
      "shape": "box",
      "x": 540,
-     "y": 680,
+     "y": 700.0,
      "w": 420,
      "h": 200,
      "at": "o'n ikki oylik kredit",
@@ -308,30 +429,21 @@
       92,
       204,
       255
-     ]
-    },
-    {
-     "type": "prop",
-     "img": "p_g_bodring.jpg",
-     "x": 820,
-     "y": 1020,
-     "h": 300,
-     "from": "pop",
-     "motion": "wag",
-     "at": "bodring",
-     "label": "PARHEZ!"
+     ],
+     "label_y": 860.0
     }
    ],
-   "vo": "vo_04.mp3",
+   "vo": "old_04.mp3",
    "voice_id": "eggZu1Ffe4if51TKev2v",
    "imgs": [
     "04b.jpg"
    ]
   },
   {
+   "n": 6,
    "speaker": "bekzod",
-   "text": "Bu muzlatkich hamma narsani ko'radi: ichidagi kamera har bir mahsulotni taniydi, kaloriyani sanaydi va siz haqingizda xulosa chiqaradi.",
-   "tts": "[mysterious] Bu muzlatkich hamma narsani ko'radi: ichidagi kamera har bir mahsulotni taniydi, kaloriyani sanaydi va siz haqingizda xulosa chiqaradi.",
+   "text": "Bir soniya. Sovuqjon oddiy muzlatkich emas, ichida kamera bor.",
+   "tts": "[mysterious] Bir soniya. Sovuqjon oddiy muzlatkich emas, ichida kamera bor.",
    "mood": "mystery",
    "img": "05.jpg",
    "elements": [
@@ -348,163 +460,71 @@
     {
      "type": "prop",
      "img": "p_g_skaner.jpg",
-     "x": 540,
-     "y": 800,
-     "h": 380,
-     "from": "pop",
-     "motion": "pulse",
-     "at": "ichidagi kamera"
-    },
-    {
-     "type": "prop",
-     "img": "p_g_tarozi.jpg",
-     "x": 800,
-     "y": 1080,
+     "x": 900,
+     "y": 780,
      "h": 260,
+     "at": "kamera",
+     "motion": "pulse",
      "from": "pop",
-     "motion": "bounce",
-     "at": "kaloriyani sanaydi",
-     "label": "KALORIYA!"
-    }
-   ],
-   "vo": "vo_05.mp3",
-   "voice_id": "kGOig3GPePLxobJGHo2M",
-   "imgs": [
-    "05b.jpg"
-   ]
-  },
-  {
-   "speaker": "bekzod",
-   "text": "Fantastika deysizmi? Ikki mingyinchi yildayoq LG kompaniyasi internetga ulangan birinchi muzlatkichni chiqargan. Uning ekrani va kamerasi bor edi.",
-   "tts": "[chuckles] Fantastika deysizmi? Ikki mingyinchi yildayoq LG kompaniyasi internetga ulangan birinchi muzlatkichni chiqargan. Uning ekrani va kamerasi bor edi.",
-   "mood": "warm",
-   "img": "06.jpg",
-   "elements": [
-    {
-     "type": "tag",
-     "head": "YIL",
-     "text": "2000",
-     "x": 170,
-     "y": 210,
-     "color": "navy",
-     "at": "start"
+     "rot": 0
     },
     {
-     "type": "card",
-     "kicker": "LG, IYUN 2000",
-     "title": [
-      "INTERNETGA ULANGAN",
-      "BIRINCHI MUZLATKICH"
+     "type": "caption",
+     "words": [
+      "ICHIDA",
+      "KAMERA",
+      "BOR!"
      ],
-     "sub": "Eshigida ekran, ichida kamera bor edi.",
-     "at": "LG",
-     "y": 1330
-    },
-    {
-     "type": "mark",
-     "shape": "circle",
-     "x": 560,
-     "y": 760,
-     "w": 340,
-     "h": 300,
-     "at": "Ikki mingyinchi yildayoq",
-     "label": "2000-YIL!",
-     "color": [
-      92,
-      204,
-      255
-     ]
-    },
-    {
-     "type": "mark",
-     "shape": "arrow",
-     "x": 220,
-     "y": 1120,
-     "to": [
-      440,
-      830
-     ],
-     "at": "ekrani va kamerasi",
-     "label": "EKRAN!",
-     "color": [
-      92,
-      204,
-      255
-     ]
+     "color": "yellow",
+     "y": 1330,
+     "size": 96,
+     "at": "Bir soniya"
     }
    ],
    "vo": "vo_06.mp3",
    "voice_id": "kGOig3GPePLxobJGHo2M"
   },
   {
+   "n": 7,
    "speaker": "bekzod",
-   "text": "Ikki ming yigirma to'rtinchi yilda esa Samsung muzlatkichi o'ttiz uch xil mahsulotni ko'rib taniy olardi. Yigirma yildan keyin u sizni ham taniydi.",
-   "tts": "[excited] Ikki ming yigirma to'rtinchi yilda esa Samsung muzlatkichi o'ttiz uch xil mahsulotni ko'rib taniy olardi. Yigirma yildan keyin u sizni ham taniydi.",
-   "mood": "groove",
-   "img": "07.jpg",
+   "text": "U har bir mahsulotni taniydi, kaloriyani sanaydi. Endi diqqat — eng dahshatlisi oldinda.",
+   "tts": "[curious] U har bir mahsulotni taniydi, kaloriyani sanaydi. [whispers] Endi diqqat — eng dahshatlisi oldinda.",
+   "mood": "mystery",
+   "img": "05b.jpg",
    "elements": [
     {
-     "type": "tag",
-     "head": "YIL",
-     "text": "2024",
-     "x": 170,
-     "y": 210,
-     "color": "navy",
-     "at": "start"
+     "type": "prop",
+     "img": "p_g_tarozi.jpg",
+     "x": 900,
+     "y": 1060,
+     "h": 260,
+     "from": "pop",
+     "motion": "bounce",
+     "at": "kaloriyani sanaydi",
+     "label": "KALORIYA!"
     },
     {
-     "type": "card",
-     "kicker": "SAMSUNG «AI VISION INSIDE»",
-     "title": [
-      "33 XIL MAHSULOT"
+     "type": "caption",
+     "words": [
+      "ENG",
+      "DAHSHATLISI",
+      "OLDINDA!"
      ],
-     "sub": "Ichki kamera mahsulotlarni ko'rib taniydi.",
-     "at": "o'ttiz",
-     "y": 1330
-    },
-    {
-     "type": "mark",
-     "shape": "underline",
-     "x": 540,
-     "y": 1040,
-     "w": 440,
-     "at": "o'ttiz uch xil",
-     "label": "33 XIL!",
-     "color": [
-      92,
-      204,
-      255
-     ]
-    },
-    {
-     "type": "mark",
-     "shape": "arrow",
-     "x": 880,
-     "y": 1160,
-     "to": [
-      650,
-      860
-     ],
-     "at": "sizni ham taniydi",
-     "label": "SIZNI HAM!",
-     "color": [
-      92,
-      204,
-      255
-     ]
+     "color": "white",
+     "y": 1330,
+     "size": 96,
+     "at": "U har bir"
     }
    ],
    "vo": "vo_07.mp3",
-   "voice_id": "kGOig3GPePLxobJGHo2M",
-   "imgs": [
-    "07b.jpg"
-   ]
+   "voice_id": "kGOig3GPePLxobJGHo2M"
   },
   {
+   "n": 8,
    "speaker": "sardor",
    "text": "Sovuqjon, iltimos... faqat bitta kolbasa. Bitta!",
    "tts": "[desperate] Sovuqjon, iltimos... faqat bitta kolbasa. Bitta!",
-   "mood": "sad",
+   "mood": "warm",
    "img": "08.jpg",
    "elements": [
     {
@@ -514,11 +534,10 @@
      "y": 330,
      "at": "start",
      "hl": {
-      "bitta": "red",
-      "kolbasa.": "red"
+      "Bitta!": "red"
      },
      "tail": "down",
-     "tail_x": 0.3,
+     "tail_x": 0.25,
      "tag": "royal",
      "w": 880
     },
@@ -526,7 +545,7 @@
      "type": "char",
      "img": "c_jamshid_yolvorish.jpg",
      "from": "left",
-     "x": 280,
+     "x": 270,
      "y": 1440,
      "h": 700,
      "at": 0.1,
@@ -537,20 +556,10 @@
      ]
     },
     {
-     "type": "prop",
-     "img": "p_g_kolbasa.jpg",
-     "x": 800,
-     "y": 960,
-     "h": 300,
-     "from": "pop",
-     "motion": "jump",
-     "at": "bitta kolbasa"
-    },
-    {
      "type": "mark",
      "shape": "circle",
      "x": 800,
-     "y": 960,
+     "y": 930.0,
      "w": 360,
      "h": 260,
      "at": "Bitta!",
@@ -559,20 +568,32 @@
       92,
       204,
       255
-     ]
+     ],
+     "label_y": 730.0
+    },
+    {
+     "type": "prop",
+     "img": "p_g_kolbasa.jpg",
+     "x": 900,
+     "y": 960,
+     "h": 260,
+     "from": "pop",
+     "motion": "jump",
+     "at": "bitta kolbasa"
     }
    ],
-   "vo": "vo_08.mp3",
+   "vo": "old_08.mp3",
    "voice_id": "UjuEL3hLLUaDED9iW4Yb",
    "imgs": [
     "08b.jpg"
    ]
   },
   {
+   "n": 9,
    "speaker": "shahnoza",
    "text": "Bu haqda onangizga xabar yubordim.",
    "tts": "[calm] Bu haqda onangizga xabar yubordim.",
-   "mood": "tense",
+   "mood": "groove",
    "img": "09.jpg",
    "elements": [
     {
@@ -581,25 +602,25 @@
      "x": 540,
      "y": 330,
      "at": "start",
-     "hl": {
-      "onangizga": "red"
-     },
+     "hl": {},
      "tail": "down",
-     "tail_x": 0.3,
+     "tail_x": 0.75,
      "tag": "green",
      "w": 880
     },
     {
-     "type": "prop",
-     "img": "p_g_konvert.jpg",
-     "x": 790,
-     "y": 700,
-     "h": 260,
-     "from": "pop",
-     "motion": "point",
-     "dir": "right",
-     "rot": -10,
-     "at": "xabar yubordim"
+     "type": "char",
+     "img": "c_sovuqjon.jpg",
+     "from": "right",
+     "x": 810,
+     "y": 1440,
+     "h": 700,
+     "at": 0.1,
+     "motion": "idle",
+     "flip": false,
+     "talk": [
+      "vo"
+     ]
     },
     {
      "type": "mark",
@@ -613,17 +634,43 @@
       92,
       204,
       255
-     ]
+     ],
+     "label_y": 785.0
+    },
+    {
+     "type": "prop",
+     "img": "p_g_konvert.jpg",
+     "x": 900,
+     "y": 700,
+     "h": 260,
+     "from": "pop",
+     "motion": "point",
+     "dir": 0,
+     "rot": -10,
+     "at": "xabar yubordim"
+    },
+    {
+     "type": "prop",
+     "img": "p_g_konvert.jpg",
+     "x": 180,
+     "y": 760,
+     "h": 240,
+     "at": "xabar",
+     "motion": "point",
+     "from": "pop",
+     "rot": -10,
+     "dir": 180
     }
    ],
-   "vo": "vo_09.mp3",
+   "vo": "old_09.mp3",
    "voice_id": "eggZu1Ffe4if51TKev2v"
   },
   {
+   "n": 10,
    "speaker": "nodira",
    "text": "Jamshid! Kechasi soat ikkida kolbasa yeysanmi? Ertaga oshga kel, muzlatkichni bezovta qilma!",
    "tts": "[angry] Jamshid! Kechasi soat ikkida kolbasa yeysanmi? Ertaga oshga kel, muzlatkichni bezovta qilma!",
-   "mood": "hero",
+   "mood": "groove",
    "img": "10.jpg",
    "elements": [
     {
@@ -633,38 +680,35 @@
      "y": 330,
      "at": "start",
      "hl": {
-      "ikkida": "red",
-      "oshga": "red"
+      "Jamshid!": "red",
+      "yeysanmi?": "red"
      },
      "tail": "down",
-     "tail_x": 0.3,
+     "tail_x": 0.75,
      "tag": "purple",
      "w": 880
     },
     {
-     "type": "avatar",
-     "img": "c_ona.jpg",
-     "x": 880,
-     "y": 640,
-     "size": 240,
-     "at": 0.1
-    },
-    {
      "type": "char",
-     "img": "c_jamshid_qorqqan.jpg",
-     "from": "left",
-     "x": 270,
+     "img": "c_ona.jpg",
+     "from": "right",
+     "x": 810,
      "y": 1440,
      "h": 700,
-     "at": 0.2,
+     "at": 0.1,
      "motion": "idle",
-     "flip": false
+     "flip": false,
+     "talk": [
+      "vo"
+     ],
+     "label": "ONASI",
+     "label_bg": "purple"
     },
     {
      "type": "mark",
      "shape": "cross",
      "x": 790,
-     "y": 1000,
+     "y": 962.0,
      "w": 280,
      "at": "kolbasa yeysanmi",
      "label": "MUMKINMAS!",
@@ -672,27 +716,22 @@
       92,
       204,
       255
-     ]
+     ],
+     "h": 196.0,
+     "label_y": 794.0
     }
    ],
-   "vo": "vo_10.mp3",
+   "vo": "old_10.mp3",
    "voice_id": "132QLQIkg1RJGmpicuhR"
   },
   {
+   "n": 11,
    "speaker": "bekzod",
-   "text": "O'sha kechadan beri Jamshid tushlikni onasinikida qiladi. Kolbasani esa muzlatkich... o'zi saqlab turibdi.",
-   "tts": "[chuckles] O'sha kechadan beri Jamshid tushlikni onasinikida qiladi. Kolbasani esa muzlatkich... o'zi saqlab turibdi.",
-   "mood": "warm",
+   "text": "Jamshid endi tushlikni onasinikida qiladi. Kolbasani esa muzlatkich saqlaydi.",
+   "tts": "[chuckles] Jamshid endi tushlikni onasinikida qiladi. Kolbasani esa muzlatkich saqlaydi.",
+   "mood": "sad",
    "img": "11.jpg",
    "elements": [
-    {
-     "type": "note",
-     "text": "Kolbasani muzlatkich o'zi saqlaydi.",
-     "y": 1560,
-     "size": 66,
-     "rot": -2,
-     "at": "Kolbasani"
-    },
     {
      "type": "mark",
      "shape": "check",
@@ -705,18 +744,42 @@
       92,
       204,
       255
-     ]
+     ],
+     "h": 154.0,
+     "label_y": 753.0
+    },
+    {
+     "type": "char",
+     "img": "c_jamshid_qorqqan.jpg",
+     "from": "left",
+     "x": 260,
+     "y": 1570,
+     "h": 640,
+     "at": 0.2,
+     "motion": "idle",
+     "flip": false
     },
     {
      "type": "prop",
-     "img": "p_g_qulf.jpg",
-     "x": 800,
-     "y": 1020,
-     "h": 230,
+     "img": "p_g_kolbasa.jpg",
+     "x": 900,
+     "y": 760,
+     "h": 260,
+     "at": "Kolbasani",
+     "motion": "wag",
      "from": "pop",
-     "motion": "bounce",
-     "at": "o'zi saqlab",
-     "label": "QULF!"
+     "rot": 0
+    },
+    {
+     "type": "caption",
+     "words": [
+      "KOLBASA",
+      "MUZLATKICHNIKI"
+     ],
+     "color": "white",
+     "y": 1200,
+     "size": 84,
+     "at": "Jamshid endi"
     }
    ],
    "vo": "vo_11.mp3",
@@ -726,46 +789,255 @@
    ]
   },
   {
+   "n": 12,
    "speaker": "bekzod",
-   "text": "Sizga shunday aqlli muzlatkich kerakmi? Bir — kerak, ozaman. Ikki — yo'q, kolbasa meniki! Izohda yozing.",
-   "tts": "[playful] Sizga shunday aqlli muzlatkich kerakmi? Bir — kerak, ozaman. Ikki — yo'q, kolbasa meniki! Izohda yozing.",
+   "text": "Fantastika deysizmi? Shoshmang — bu hikoya ancha oldin boshlangan.",
+   "tts": "[chuckles] Fantastika deysizmi? [mysterious] Shoshmang — bu hikoya ancha oldin boshlangan.",
+   "mood": "tense",
+   "img": "02b.jpg",
+   "elements": [
+    {
+     "type": "pill",
+     "text": "SHOSHMANG!",
+     "bg": "crimson",
+     "fg": "white",
+     "x": 600,
+     "y": 300,
+     "rot": -3,
+     "at": "Shoshmang"
+    },
+    {
+     "type": "prop",
+     "img": "p_g_robot_koz.jpg",
+     "x": 900,
+     "y": 760,
+     "h": 240,
+     "at": 0.3,
+     "motion": "pulse",
+     "from": "pop",
+     "rot": 0
+    },
+    {
+     "type": "caption",
+     "words": [
+      "FANTASTIKA",
+      "DEYSIZMI?"
+     ],
+     "color": "yellow",
+     "y": 1330,
+     "size": 96,
+     "at": "Fantastika deysizmi"
+    }
+   ],
+   "vo": "vo_12.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M"
+  },
+  {
+   "n": 13,
+   "speaker": "bekzod",
+   "text": "Ikki minginchi yili LG internetga ulangan birinchi muzlatkichni chiqargan.",
+   "tts": "[curious] Ikki minginchi yili LG internetga ulangan birinchi muzlatkichni chiqargan.",
+   "mood": "hero",
+   "img": "06.jpg",
+   "elements": [
+    {
+     "type": "tag",
+     "head": "YIL",
+     "text": "2000",
+     "x": 170,
+     "y": 210,
+     "color": "navy",
+     "at": "start"
+    },
+    {
+     "type": "card",
+     "kicker": "LG, 2000",
+     "title": [
+      "INTERNETGA ULANGAN",
+      "BIRINCHI MUZLATKICH"
+     ],
+     "sub": "",
+     "at": "LG",
+     "y": 1330
+    },
+    {
+     "type": "mark",
+     "shape": "circle",
+     "x": 540,
+     "y": 780,
+     "w": 420,
+     "at": "birinchi",
+     "color": [
+      92,
+      204,
+      255
+     ],
+     "h": 320,
+     "label": "BIRINCHI!",
+     "label_y": 550.0
+    }
+   ],
+   "vo": "vo_13.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M"
+  },
+  {
+   "n": 14,
+   "speaker": "bekzod",
+   "text": "Eng qizig'i: yigirma to'rtinchi yili Samsung muzlatkichi o'ttiz uch xil mahsulotni taniydi.",
+   "tts": "[excited] Eng qizig'i: yigirma to'rtinchi yili Samsung muzlatkichi o'ttiz uch xil mahsulotni taniydi.",
+   "mood": "hero",
+   "img": "07.jpg",
+   "elements": [
+    {
+     "type": "mark",
+     "shape": "underline",
+     "x": 540,
+     "y": 1040,
+     "w": 440,
+     "at": "o'ttiz uch xil",
+     "label": "33 XIL!",
+     "color": [
+      92,
+      204,
+      255
+     ],
+     "label_y": 816.0
+    },
+    {
+     "type": "tag",
+     "head": "YIL",
+     "text": "2024",
+     "x": 170,
+     "y": 210,
+     "color": "navy",
+     "at": "start"
+    },
+    {
+     "type": "pill",
+     "text": "SAMSUNG «AI VISION»",
+     "bg": "navy",
+     "fg": "white",
+     "x": 640,
+     "y": 330,
+     "rot": -3,
+     "at": "Samsung"
+    },
+    {
+     "type": "stamp",
+     "text": "33 XIL!",
+     "y": 1420,
+     "rot": -5,
+     "at": "o'ttiz uch"
+    }
+   ],
+   "vo": "vo_14.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M"
+  },
+  {
+   "n": 15,
+   "speaker": "bekzod",
+   "text": "Yigirma yildan keyin u sizni ham taniydi va «yo'q» deydi.",
+   "tts": "[playful] Yigirma yildan keyin u sizni ham taniydi va «yo'q» deydi.",
+   "mood": "warm",
+   "img": "07b.jpg",
+   "elements": [
+    {
+     "type": "mark",
+     "shape": "arrow",
+     "x": 880,
+     "y": 1040,
+     "to": [
+      650,
+      860
+     ],
+     "at": "sizni ham taniydi",
+     "label": "SIZNI HAM!",
+     "color": [
+      92,
+      204,
+      255
+     ]
+    },
+    {
+     "type": "tag",
+     "head": "YIL",
+     "text": "2045",
+     "x": 170,
+     "y": 210,
+     "color": "green",
+     "at": "start"
+    },
+    {
+     "type": "char",
+     "img": "c_sovuqjon.jpg",
+     "from": "right",
+     "x": 820,
+     "y": 1570,
+     "h": 640,
+     "at": 0.2,
+     "motion": "idle",
+     "flip": false
+    },
+    {
+     "type": "caption",
+     "words": [
+      "U",
+      "SIZNI",
+      "HAM",
+      "TANIYDI"
+     ],
+     "color": "white",
+     "y": 1200,
+     "size": 84,
+     "at": "Yigirma yildan"
+    }
+   ],
+   "vo": "vo_15.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M"
+  },
+  {
+   "n": 16,
+   "speaker": "bekzod",
+   "text": "Agar muzlatkichingiz gapirsa, sizga birinchi nima derdi? Izohda yozing!",
+   "tts": "[playful] Agar muzlatkichingiz gapirsa, sizga birinchi nima derdi? Izohda yozing!",
    "mood": "finale",
    "img": "12.jpg",
    "elements": [
     {
      "type": "final",
      "lines": [
-      "KOLBASA",
-      "KIMNIKI?"
+      "MUZLATKICHINGIZ",
+      "NIMA DERDI?"
      ],
      "at": 0.4
     },
     {
      "type": "sticker",
      "lines": [
-      "1 — kerak, ozaman",
-      "2 — kolbasa meniki!"
+      "Izohda",
+      "yozing!"
      ],
      "color": "green",
      "x": 540,
-     "y": 1450,
-     "w": 620,
-     "size": 52,
-     "rot": -2,
+     "y": 1470,
+     "w": 440,
+     "size": 78,
+     "rot": -3,
      "at": 1.2
     },
     {
      "type": "prop",
-     "img": "p_g_kolbasa.jpg",
-     "x": 820,
-     "y": 1000,
-     "h": 260,
+     "img": "p_g_tarozi.jpg",
+     "x": 880,
+     "y": 560,
+     "h": 230,
+     "at": 1.0,
+     "motion": "pulse",
      "from": "pop",
-     "motion": "wag",
-     "at": "kolbasa meniki"
+     "rot": 0
     }
    ],
-   "vo": "vo_12.mp3",
+   "vo": "vo_16.mp3",
    "voice_id": "kGOig3GPePLxobJGHo2M"
   }
  ]

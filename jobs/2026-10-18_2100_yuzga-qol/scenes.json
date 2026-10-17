@@ -17,10 +17,45 @@
  "music_gain": 0.75,
  "cover_title": [
   "SOATIGA",
-  "23 MARTA"
+  "NECHA MARTA?"
  ],
  "cover_sub": "hozir ham tegdingiz-a?",
  "cover_scene": 0,
+ "cover": {
+  "layout": "zoom",
+  "focus": [
+   540,
+   760
+  ],
+  "zoom": 1.35,
+  "props": [
+   "p_g_mikrob.jpg",
+   "p_g_koz.jpg"
+  ],
+  "title_colors": [
+   [
+    235,
+    235,
+    228
+   ],
+   [
+    57,
+    255,
+    120
+   ]
+  ],
+  "img": "cover.jpg",
+  "accent": [
+   57,
+   255,
+   120
+  ],
+  "accent2": [
+   235,
+   235,
+   228
+  ]
+ },
  "anim": "static",
  "bright": true,
  "theme": {
@@ -64,74 +99,120 @@
   ],
   "cut_fx": "punch"
  },
+ "end_hold": 1.2,
  "scenes": [
   {
+   "n": 1,
    "speaker": "bekzod",
-   "text": "To'xtang. Hozir shu videoni ko'rayotib, yuzingizga qo'l tekkizdingiz. Ha, siz. Mana, yana.",
-   "tts": "[whispers] To'xtang. Hozir shu videoni ko'rayotib, yuzingizga qo'l tekkizdingiz. Ha, siz. Mana, yana.",
+   "text": "Yuzingizga soatiga necha marta tegasiz? Taxmin qiling!",
+   "tts": "[curious] Yuzingizga soatiga necha marta tegasiz? Taxmin qiling!",
    "mood": "mystery",
    "img": "01.jpg",
    "elements": [
     {
      "type": "pill",
-     "text": "SIZ, HOZIR",
+     "text": "TAXMIN QILING!",
      "bg": "crimson",
      "fg": "white",
      "x": 600,
      "y": 300,
      "rot": -3,
-     "at": "To'xtang."
+     "at": "Taxmin"
     },
     {
      "type": "prop",
-     "img": "p_g_stop.jpg",
-     "x": 820,
-     "y": 620,
-     "h": 300,
+     "img": "p_g_koz.jpg",
+     "x": 900,
+     "y": 760,
+     "h": 240,
+     "at": 0.3,
+     "motion": "pulse",
      "from": "pop",
-     "motion": "shake",
-     "at": "To'xtang"
+     "rot": 0
     },
+    {
+     "type": "caption",
+     "words": [
+      "SOATIGA",
+      "NECHA",
+      "MARTA?"
+     ],
+     "color": "white",
+     "y": 1330,
+     "size": 96,
+     "at": "Yuzingizga soatiga"
+    }
+   ],
+   "vo": "vo_01.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M"
+  },
+  {
+   "n": 2,
+   "speaker": "bekzod",
+   "text": "Javobni oxirida aytaman. Hozir ham tegdingiz-a?",
+   "tts": "[whispers] Javobni oxirida aytaman. [playful] Hozir ham tegdingiz-a?",
+   "mood": "hero",
+   "img": "01b.jpg",
+   "elements": [
     {
      "type": "mark",
      "shape": "arrow",
-     "x": 880,
-     "y": 1080,
-     "to": [
-      640,
-      880
-     ],
+     "x": 860,
+     "y": 1000,
+     "w": 340,
+     "at": "Hozir",
      "color": [
       57,
       255,
       120
      ],
-     "at": "Mana, yana",
-     "label": "YANA!",
-     "label_x": 880,
-     "label_y": 1150
+     "label": "SIZ!",
+     "to": [
+      600,
+      780
+     ]
+    },
+    {
+     "type": "caption",
+     "words": [
+      "HOZIR",
+      "HAM",
+      "TEGDINGIZ-A?"
+     ],
+     "color": "yellow",
+     "y": 1330,
+     "size": 96,
+     "at": "Javobni oxirida"
     }
    ],
-   "vo": "vo_01.mp3",
-   "voice_id": "kGOig3GPePLxobJGHo2M",
-   "imgs": [
-    "01b.jpg"
-   ]
+   "vo": "vo_02.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M"
   },
   {
+   "n": 3,
    "speaker": "bekzod",
-   "text": "Bu — Jasur. Bank kassiri. Bir kunda minglab kupyura sanaydi. Va har sanagandan keyin... burnini qashiydi.",
-   "tts": "[chuckles] Bu — Jasur. Bank kassiri. Bir kunda minglab kupyura sanaydi. Va har sanagandan keyin... burnini qashiydi.",
+   "text": "Bu — Jasur. Bank kassiri. Kuniga minglab kupyura sanaydi.",
+   "tts": "[chuckles] Bu — Jasur. Bank kassiri. Kuniga minglab kupyura sanaydi.",
    "mood": "hero",
    "img": "02.jpg",
    "elements": [
     {
+     "type": "prop",
+     "img": "p_g_mikrob.jpg",
+     "x": 180,
+     "y": 1020,
+     "h": 220,
+     "from": "pop",
+     "motion": "bounce",
+     "at": "minglab kupyura"
+    },
+    {
      "type": "char",
      "img": "c_jasur.jpg",
      "from": "right",
-     "x": 810,
-     "y": 1440,
-     "h": 760,
+     "x": 820,
+     "y": 1570,
+     "h": 640,
      "at": "Jasur",
      "motion": "idle",
      "flip": false,
@@ -139,15 +220,28 @@
      "label_bg": "royal"
     },
     {
-     "type": "prop",
-     "img": "p_g_mikrob.jpg",
-     "x": 240,
-     "y": 1020,
-     "h": 220,
-     "from": "pop",
-     "motion": "bounce",
-     "at": "minglab kupyura"
-    },
+     "type": "caption",
+     "words": [
+      "BANK",
+      "KASSIRI."
+     ],
+     "color": "white",
+     "y": 1200,
+     "size": 84,
+     "at": "Bank kassiri."
+    }
+   ],
+   "vo": "vo_03.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M"
+  },
+  {
+   "n": 4,
+   "speaker": "bekzod",
+   "text": "Va har sanagandan keyin... burnini qashiydi.",
+   "tts": "[chuckles] Va har sanagandan keyin... burnini qashiydi.",
+   "mood": "tense",
+   "img": "02b.jpg",
+   "elements": [
     {
      "type": "mark",
      "shape": "arrow",
@@ -166,19 +260,73 @@
      "label": "BURUN!",
      "label_x": 880,
      "label_y": 520
+    },
+    {
+     "type": "char",
+     "img": "c_jasur_qichish.jpg",
+     "from": "right",
+     "x": 820,
+     "y": 1570,
+     "h": 640,
+     "at": "burnini",
+     "motion": "idle",
+     "flip": false
+    },
+    {
+     "type": "caption",
+     "words": [
+      "BURNINI",
+      "QASHIYDI!"
+     ],
+     "color": "yellow",
+     "y": 1200,
+     "size": 84,
+     "at": "Va har sanagandan"
     }
    ],
-   "vo": "vo_02.mp3",
-   "voice_id": "kGOig3GPePLxobJGHo2M",
-   "imgs": [
-    "02b.jpg"
-   ]
+   "vo": "vo_04.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M"
   },
   {
-   "speaker": "dilnoza",
-   "text": "Jasur aka! Hozirgina pul sanadingiz-ku, endi ko'zingizni ishqalayapsiz!",
-   "tts": "[disgusted] Jasur aka! Hozirgina pul sanadingiz-ku, endi ko'zingizni ishqalayapsiz!",
+   "n": 5,
+   "speaker": "bekzod",
+   "text": "Lekin Jasur bilmasdi: kimdir har bir tegishini kuzatib turardi...",
+   "tts": "[mysterious] Lekin Jasur bilmasdi: kimdir har bir tegishini kuzatib turardi...",
    "mood": "tense",
+   "img": "05b.jpg",
+   "elements": [
+    {
+     "type": "prop",
+     "img": "p_g_koz.jpg",
+     "x": 180,
+     "y": 780,
+     "h": 240,
+     "at": "kuzatib",
+     "motion": "pulse",
+     "from": "pop",
+     "rot": 0
+    },
+    {
+     "type": "caption",
+     "words": [
+      "KIMDIR",
+      "KUZATARDI..."
+     ],
+     "color": "white",
+     "y": 1330,
+     "size": 96,
+     "at": "Lekin Jasur"
+    }
+   ],
+   "vo": "vo_05.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M"
+  },
+  {
+   "n": 6,
+   "speaker": "dilnoza",
+   "text": "Jasur aka! Hozirgina pul sanadingiz-ku!",
+   "tts": "[disgusted] Jasur aka! Hozirgina pul sanadingiz-ku!",
+   "mood": "groove",
    "img": "03.jpg",
    "elements": [
     {
@@ -188,11 +336,10 @@
      "y": 330,
      "at": "start",
      "hl": {
-      "pul": "red",
-      "ko'zingizni": "red"
+      "sanadingiz-ku!": "red"
      },
      "tail": "down",
-     "tail_x": 0.3,
+     "tail_x": 0.25,
      "tag": "purple",
      "w": 880
     },
@@ -202,7 +349,7 @@
      "from": "left",
      "x": 270,
      "y": 1440,
-     "h": 720,
+     "h": 700,
      "at": 0.1,
      "motion": "idle",
      "flip": false,
@@ -215,12 +362,52 @@
     {
      "type": "prop",
      "img": "p_g_undov.jpg",
-     "x": 840,
-     "y": 580,
+     "x": 900,
+     "y": 660,
      "h": 260,
      "from": "pop",
      "motion": "jump",
      "at": "Jasur aka"
+    }
+   ],
+   "vo": "vo_06.mp3",
+   "voice_id": "O72h9AUwisM6Zj4He72B"
+  },
+  {
+   "n": 7,
+   "speaker": "dilnoza",
+   "text": "Endi ko'zingizni ishqalayapsiz!",
+   "tts": "[disgusted] Endi ko'zingizni ishqalayapsiz!",
+   "mood": "groove",
+   "img": "03b.jpg",
+   "elements": [
+    {
+     "type": "bubble",
+     "speaker": "ZARINA",
+     "x": 540,
+     "y": 330,
+     "at": "start",
+     "hl": {
+      "ishqalayapsiz!": "red"
+     },
+     "tail": "down",
+     "tail_x": 0.25,
+     "tag": "purple",
+     "w": 880
+    },
+    {
+     "type": "char",
+     "img": "c_zarina.jpg",
+     "from": "left",
+     "x": 270,
+     "y": 1440,
+     "h": 700,
+     "at": 0.1,
+     "motion": "idle",
+     "flip": false,
+     "talk": [
+      "vo"
+     ]
     },
     {
      "type": "mark",
@@ -240,17 +427,15 @@
      "label_y": 600
     }
    ],
-   "vo": "vo_03.mp3",
-   "voice_id": "O72h9AUwisM6Zj4He72B",
-   "imgs": [
-    "03b.jpg"
-   ]
+   "vo": "vo_07.mp3",
+   "voice_id": "O72h9AUwisM6Zj4He72B"
   },
   {
+   "n": 8,
    "speaker": "sardor",
-   "text": "Zarina, men qachon yuzimga tegdim? Men umuman tegmayman!",
-   "tts": "[laughs] Zarina, men qachon yuzimga tegdim? Men umuman tegmayman!",
-   "mood": "groove",
+   "text": "Zarina, men qachon yuzimga tegdim? Umuman tegmayman!",
+   "tts": "[laughs] Zarina, men qachon yuzimga tegdim? Umuman tegmayman!",
+   "mood": "mystery",
    "img": "04.jpg",
    "elements": [
     {
@@ -260,10 +445,11 @@
      "y": 330,
      "at": "start",
      "hl": {
-      "umuman": "red"
+      "tegdim?": "red",
+      "tegmayman!": "red"
      },
      "tail": "down",
-     "tail_x": 0.3,
+     "tail_x": 0.75,
      "tag": "royal",
      "w": 880
     },
@@ -273,7 +459,7 @@
      "from": "right",
      "x": 810,
      "y": 1440,
-     "h": 740,
+     "h": 700,
      "at": 0.1,
      "motion": "idle",
      "flip": false,
@@ -285,7 +471,7 @@
      "type": "mark",
      "shape": "arrow",
      "x": 860,
-     "y": 1120,
+     "y": 1020,
      "to": [
       600,
       960
@@ -298,62 +484,427 @@
      "at": "umuman tegmayman",
      "label": "HOZIR-CHI?",
      "label_x": 800,
-     "label_y": 1190
+     "label_y": 1080
     }
    ],
-   "vo": "vo_04.mp3",
+   "vo": "vo_08.mp3",
    "voice_id": "UjuEL3hLLUaDED9iW4Yb"
   },
   {
+   "n": 9,
    "speaker": "bekzod",
-   "text": "Zarina sanay boshladi. Bir soatda — yigirma uch marta.",
-   "tts": "[playful] Zarina sanay boshladi. Bir soatda — yigirma uch marta.",
+   "text": "Zarina daftar ochdi. Endi diqqat — buni ko'pchilik bilmaydi.",
+   "tts": "[mysterious] Zarina daftar ochdi. [whispers] Endi diqqat — buni ko'pchilik bilmaydi.",
    "mood": "mystery",
    "img": "05.jpg",
    "elements": [
     {
-     "type": "tag",
-     "head": "SANOQ",
-     "text": "1 SOAT",
-     "x": 170,
-     "y": 210,
-     "color": "red",
-     "at": "Zarina"
+     "type": "pill",
+     "text": "DIQQAT!",
+     "bg": "crimson",
+     "fg": "white",
+     "x": 600,
+     "y": 300,
+     "rot": -3,
+     "at": "diqqat"
     },
+    {
+     "type": "char",
+     "img": "c_zarina_kulgi.jpg",
+     "from": "left",
+     "x": 260,
+     "y": 1570,
+     "h": 640,
+     "at": "daftar",
+     "motion": "idle",
+     "flip": false,
+     "label": "ZARINA",
+     "label_bg": "purple"
+    },
+    {
+     "type": "caption",
+     "words": [
+      "BUNI",
+      "KO'PCHILIK",
+      "BILMAYDI"
+     ],
+     "color": "white",
+     "y": 1200,
+     "size": 84,
+     "at": "Zarina daftar"
+    },
+    {
+     "type": "mark",
+     "shape": "underline",
+     "x": 540,
+     "y": 1280,
+     "w": 480,
+     "at": 1.0,
+     "color": [
+      57,
+      255,
+      120
+     ]
+    }
+   ],
+   "vo": "vo_09.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M"
+  },
+  {
+   "n": 10,
+   "speaker": "bekzod",
+   "text": "Tegishlarning qirq to'rt foizi — og'iz, burun va ko'zga!",
+   "tts": "[surprised] Tegishlarning qirq to'rt foizi — og'iz, burun va ko'zga!",
+   "mood": "groove",
+   "img": "07.jpg",
+   "elements": [
     {
      "type": "mark",
      "shape": "circle",
      "x": 540,
-     "y": 600,
-     "w": 300,
-     "h": 140,
+     "y": 800,
+     "w": 340,
+     "h": 420,
      "color": [
       57,
       255,
       120
      ],
-     "at": "sanay",
-     "label": "1 PESHONA!",
+     "at": "og'iz, burun va ko'zga",
+     "label": "ESHIKLAR!",
      "label_x": 540,
-     "label_y": 520
+     "label_y": 540
     },
     {
-     "type": "mark",
-     "shape": "circle",
-     "x": 330,
-     "y": 760,
-     "w": 140,
-     "h": 180,
-     "color": [
-      57,
-      255,
-      120
-     ],
-     "at": "boshladi",
-     "label": "2 QULOQ!",
-     "label_x": 220,
-     "label_y": 900
+     "type": "pill",
+     "text": "44%",
+     "bg": "crimson",
+     "fg": "white",
+     "x": 540,
+     "y": 300,
+     "rot": -3,
+     "at": "qirq"
     },
+    {
+     "type": "caption",
+     "words": [
+      "OG'IZ,",
+      "BURUN,",
+      "KO'Z!"
+     ],
+     "color": "yellow",
+     "y": 1330,
+     "size": 96,
+     "at": "Tegishlarning"
+    }
+   ],
+   "vo": "vo_10.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M"
+  },
+  {
+   "n": 11,
+   "speaker": "bekzod",
+   "text": "Mikroblar uchun eng qulay uchta eshik.",
+   "tts": "[mysterious] Mikroblar uchun eng qulay uchta eshik.",
+   "mood": "groove",
+   "img": "07b.jpg",
+   "elements": [
+    {
+     "type": "prop",
+     "img": "p_g_mikrob.jpg",
+     "x": 900,
+     "y": 1040,
+     "h": 260,
+     "from": "pop",
+     "motion": "jump",
+     "at": "Mikroblar"
+    },
+    {
+     "type": "caption",
+     "words": [
+      "UCHTA",
+      "ESHIK!"
+     ],
+     "color": "white",
+     "y": 1330,
+     "size": 96,
+     "at": "Mikroblar uchun"
+    }
+   ],
+   "vo": "vo_11.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M"
+  },
+  {
+   "n": 12,
+   "speaker": "bekzod",
+   "text": "Bir ishora: daftardagi chiziqlar allaqachon o'ndan oshib ketdi.",
+   "tts": "[playful] Bir ishora: daftardagi chiziqlar allaqachon o'ndan oshib ketdi.",
+   "mood": "tense",
+   "img": "02b.jpg",
+   "elements": [
+    {
+     "type": "tag",
+     "head": "SANOQ",
+     "text": "10+",
+     "x": 170,
+     "y": 210,
+     "color": "red",
+     "at": "start"
+    },
+    {
+     "type": "prop",
+     "img": "p_g_sanoq.jpg",
+     "x": 900,
+     "y": 780,
+     "h": 260,
+     "at": "chiziqlar",
+     "motion": "pulse",
+     "from": "pop",
+     "rot": 0
+    },
+    {
+     "type": "caption",
+     "words": [
+      "O'NDAN",
+      "OSHDI!"
+     ],
+     "color": "yellow",
+     "y": 1330,
+     "size": 96,
+     "at": "Bir ishora"
+    }
+   ],
+   "vo": "vo_12.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M"
+  },
+  {
+   "n": 13,
+   "speaker": "nodira",
+   "text": "Uka, qo'lingizni tez-tez yuving. Qo'l yuzga borsa — to'xtang.",
+   "tts": "[sighs] Uka, qo'lingizni tez-tez yuving. Qo'l yuzga borsa — to'xtang.",
+   "mood": "tense",
+   "img": "08.jpg",
+   "elements": [
+    {
+     "type": "bubble",
+     "speaker": "GAVHAR OPA",
+     "x": 540,
+     "y": 330,
+     "at": "start",
+     "hl": {},
+     "tail": "down",
+     "tail_x": 0.75,
+     "tag": "green",
+     "w": 880
+    },
+    {
+     "type": "char",
+     "img": "c_gavhar.jpg",
+     "from": "right",
+     "x": 810,
+     "y": 1440,
+     "h": 700,
+     "at": 0.1,
+     "motion": "idle",
+     "flip": false,
+     "talk": [
+      "vo"
+     ],
+     "label": "SHIFOKOR",
+     "label_bg": "green"
+    },
+    {
+     "type": "prop",
+     "img": "p_g_kopik.jpg",
+     "x": 900,
+     "y": 1000,
+     "h": 260,
+     "from": "pop",
+     "motion": "bounce",
+     "at": "tez-tez yuving"
+    },
+    {
+     "type": "prop",
+     "img": "p_g_stop.jpg",
+     "x": 900,
+     "y": 660,
+     "h": 260,
+     "from": "pop",
+     "motion": "shake",
+     "at": "To'xtang"
+    }
+   ],
+   "vo": "vo_13.mp3",
+   "voice_id": "132QLQIkg1RJGmpicuhR",
+   "imgs": [
+    "08b.jpg"
+   ]
+  },
+  {
+   "n": 14,
+   "speaker": "nodira",
+   "text": "Bu shunchaki odat. Odatni esa o'zgartirsa bo'ladi.",
+   "tts": "[warmly] Bu shunchaki odat. Odatni esa o'zgartirsa bo'ladi.",
+   "mood": "warm",
+   "img": "08b.jpg",
+   "elements": [
+    {
+     "type": "bubble",
+     "speaker": "GAVHAR OPA",
+     "x": 540,
+     "y": 330,
+     "at": "start",
+     "hl": {},
+     "tail": "down",
+     "tail_x": 0.75,
+     "tag": "green",
+     "w": 880
+    },
+    {
+     "type": "char",
+     "img": "c_gavhar.jpg",
+     "from": "right",
+     "x": 810,
+     "y": 1440,
+     "h": 700,
+     "at": 0.1,
+     "motion": "idle",
+     "flip": false,
+     "talk": [
+      "vo"
+     ]
+    },
+    {
+     "type": "prop",
+     "img": "p_g_stop.jpg",
+     "x": 180,
+     "y": 760,
+     "h": 230,
+     "at": 1.2,
+     "motion": "jump",
+     "from": "pop",
+     "rot": 0
+    }
+   ],
+   "vo": "vo_14.mp3",
+   "voice_id": "132QLQIkg1RJGmpicuhR"
+  },
+  {
+   "n": 15,
+   "speaker": "sardor",
+   "text": "Tushundim, opa! Bugundan boshlab yuzimga qo'l tekkizmayman!",
+   "tts": "[determined] Tushundim, opa! Bugundan boshlab yuzimga qo'l tekkizmayman!",
+   "mood": "warm",
+   "img": "09.jpg",
+   "elements": [
+    {
+     "type": "bubble",
+     "speaker": "JASUR",
+     "x": 540,
+     "y": 330,
+     "at": "start",
+     "hl": {
+      "tekkizmayman!": "red"
+     },
+     "tail": "down",
+     "tail_x": 0.25,
+     "tag": "royal",
+     "w": 880
+    },
+    {
+     "type": "char",
+     "img": "c_jasur_qatiy.jpg",
+     "from": "left",
+     "x": 270,
+     "y": 1440,
+     "h": 700,
+     "at": 0.1,
+     "motion": "idle",
+     "flip": false,
+     "talk": [
+      "vo"
+     ]
+    },
+    {
+     "type": "prop",
+     "img": "p_g_ter.jpg",
+     "x": 900,
+     "y": 760,
+     "h": 230,
+     "at": 1.2,
+     "motion": "wag",
+     "from": "pop",
+     "rot": 0
+    }
+   ],
+   "vo": "vo_15.mp3",
+   "voice_id": "UjuEL3hLLUaDED9iW4Yb"
+  },
+  {
+   "n": 16,
+   "speaker": "bekzod",
+   "text": "Jasur bu va'dani roppa-rosa o'n ikki soniya ushladi.",
+   "tts": "[chuckles] Jasur bu va'dani roppa-rosa o'n ikki soniya ushladi.",
+   "mood": "groove",
+   "img": "10.jpg",
+   "elements": [
+    {
+     "type": "prop",
+     "img": "p_g_ter.jpg",
+     "x": 900,
+     "y": 580,
+     "h": 220,
+     "from": "pop",
+     "motion": "shake",
+     "at": "o'n ikki soniya"
+    },
+    {
+     "type": "pill",
+     "text": "VA'DA: 12 SONIYA",
+     "bg": "crimson",
+     "fg": "white",
+     "x": 600,
+     "y": 300,
+     "rot": -3,
+     "at": "va'dani"
+    },
+    {
+     "type": "char",
+     "img": "c_jasur_qichish.jpg",
+     "from": "right",
+     "x": 820,
+     "y": 1570,
+     "h": 640,
+     "at": "o'n ikki",
+     "motion": "idle",
+     "flip": false
+    },
+    {
+     "type": "caption",
+     "words": [
+      "12",
+      "SONIYA!"
+     ],
+     "color": "yellow",
+     "y": 1200,
+     "size": 84,
+     "at": "roppa-rosa"
+    }
+   ],
+   "vo": "vo_16.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M",
+   "imgs": [
+    "10b.jpg"
+   ]
+  },
+  {
+   "n": 17,
+   "speaker": "bekzod",
+   "text": "Xo'sh, mana eng qizig'i: Zarinaning daftarida bir soatda nechta chiziq?",
+   "tts": "[curious] Xo'sh, mana eng qizig'i: Zarinaning daftarida bir soatda nechta chiziq?",
+   "mood": "groove",
+   "img": "05.jpg",
+   "elements": [
     {
      "type": "mark",
      "shape": "circle",
@@ -373,361 +924,39 @@
     },
     {
      "type": "prop",
-     "img": "p_g_sanoq.jpg",
-     "x": 820,
-     "y": 1060,
-     "h": 280,
+     "img": "p_g_lupa.jpg",
+     "x": 900,
+     "y": 780,
+     "h": 240,
+     "at": "daftarida",
+     "motion": "point",
      "from": "pop",
-     "motion": "pulse",
-     "at": "yigirma uch marta"
+     "rot": 20,
+     "dir": 180
+    },
+    {
+     "type": "caption",
+     "words": [
+      "NECHTA",
+      "CHIZIQ?"
+     ],
+     "color": "white",
+     "y": 1330,
+     "size": 96,
+     "at": "Xo'sh, mana"
     }
    ],
-   "vo": "vo_05.mp3",
-   "voice_id": "kGOig3GPePLxobJGHo2M",
-   "imgs": [
-    "05b.jpg"
-   ]
+   "vo": "vo_17.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M"
   },
   {
+   "n": 18,
    "speaker": "bekzod",
-   "text": "Bu faqat Jasurning aybi emas. Ikki ming o'n beshinchi yili Avstraliyada yigirma olti nafar tibbiyot talabasi videoga olingan. Ular yuziga soatiga o'rtacha yigirma uch marta qo'l tekkizgan.",
-   "tts": "[curious] Bu faqat Jasurning aybi emas. Ikki ming o'n beshinchi yili Avstraliyada yigirma olti nafar tibbiyot talabasi videoga olingan. Ular yuziga soatiga o'rtacha yigirma uch marta qo'l tekkizgan.",
-   "mood": "groove",
+   "text": "Yigirma uchta! Olimlar ham aynan shu raqamni topgan.",
+   "tts": "[surprised] Yigirma uchta! Olimlar ham aynan shu raqamni topgan.",
+   "mood": "hero",
    "img": "06.jpg",
    "elements": [
-    {
-     "type": "tag",
-     "head": "YIL",
-     "text": "2015",
-     "x": 170,
-     "y": 210,
-     "color": "navy",
-     "at": "start"
-    },
-    {
-     "type": "card",
-     "kicker": "KWOK VA BOSHQ., 2015",
-     "title": [
-      "SOATIGA 23 MARTA"
-     ],
-     "sub": "26 tibbiyot talabasi videoga olingan.",
-     "at": "yigirma uch",
-     "y": 1330
-    },
-    {
-     "type": "prop",
-     "img": "p_g_lupa.jpg",
-     "x": 820,
-     "y": 640,
-     "h": 300,
-     "from": "pop",
-     "motion": "point",
-     "rot": -30,
-     "at": "videoga olingan"
-    },
-    {
-     "type": "mark",
-     "shape": "box",
-     "x": 540,
-     "y": 900,
-     "w": 560,
-     "h": 260,
-     "color": [
-      57,
-      255,
-      120
-     ],
-     "at": "yigirma uch marta",
-     "label": "HAR SOAT!",
-     "label_x": 540,
-     "label_y": 1100
-    }
-   ],
-   "vo": "vo_06.mp3",
-   "voice_id": "kGOig3GPePLxobJGHo2M",
-   "imgs": [
-    "06b.jpg"
-   ]
-  },
-  {
-   "speaker": "bekzod",
-   "text": "Eng qizig'i: bu tegishlarning qariyb yarmi og'iz, burun va ko'zga to'g'ri kelgan. Mikroblar uchun eng qulay eshiklar.",
-   "tts": "[surprised] Eng qizig'i: bu tegishlarning qariyb yarmi og'iz, burun va ko'zga to'g'ri kelgan. Mikroblar uchun eng qulay eshiklar.",
-   "mood": "tense",
-   "img": "07.jpg",
-   "elements": [
-    {
-     "type": "bars",
-     "rows": [
-      [
-       "Og'iz",
-       36,
-       "red"
-      ],
-      [
-       "Burun",
-       31,
-       "yellow"
-      ],
-      [
-       "Ko'z",
-       27,
-       "green"
-      ]
-     ],
-     "x": 540,
-     "y": 880,
-     "at": "og'iz"
-    },
-    {
-     "type": "note",
-     "text": "Tegishlarning 44 foizi — og'iz, burun, ko'z.",
-     "y": 1560,
-     "size": 66,
-     "rot": -2,
-     "at": "Mikroblar"
-    },
-    {
-     "type": "mark",
-     "shape": "circle",
-     "x": 540,
-     "y": 800,
-     "w": 340,
-     "h": 420,
-     "color": [
-      57,
-      255,
-      120
-     ],
-     "at": "og'iz, burun va ko'zga",
-     "label": "ESHIKLAR!",
-     "label_x": 540,
-     "label_y": 540
-    },
-    {
-     "type": "prop",
-     "img": "p_g_mikrob.jpg",
-     "x": 830,
-     "y": 1040,
-     "h": 260,
-     "from": "pop",
-     "motion": "jump",
-     "at": "Mikroblar"
-    }
-   ],
-   "vo": "vo_07.mp3",
-   "voice_id": "kGOig3GPePLxobJGHo2M",
-   "imgs": [
-    "07b.jpg"
-   ]
-  },
-  {
-   "speaker": "nodira",
-   "text": "Uka, qo'lingizni tez-tez yuving. Qo'l yuzga borsa — to'xtang. Bu shunchaki odat, odatni esa o'zgartirsa bo'ladi.",
-   "tts": "[sighs] Uka, qo'lingizni tez-tez yuving. Qo'l yuzga borsa — to'xtang. Bu shunchaki odat, odatni esa o'zgartirsa bo'ladi.",
-   "mood": "warm",
-   "img": "08.jpg",
-   "elements": [
-    {
-     "type": "bubble",
-     "speaker": "GAVHAR OPA",
-     "x": 540,
-     "y": 330,
-     "at": "start",
-     "hl": {
-      "yuving.": "red",
-      "to'xtang.": "red"
-     },
-     "tail": "down",
-     "tail_x": 0.3,
-     "tag": "green",
-     "w": 880
-    },
-    {
-     "type": "char",
-     "img": "c_gavhar.jpg",
-     "from": "right",
-     "x": 810,
-     "y": 1440,
-     "h": 740,
-     "at": 0.1,
-     "motion": "idle",
-     "flip": false,
-     "talk": [
-      "vo"
-     ],
-     "label": "SHIFOKOR",
-     "label_bg": "green"
-    },
-    {
-     "type": "prop",
-     "img": "p_g_kopik.jpg",
-     "x": 820,
-     "y": 1020,
-     "h": 300,
-     "from": "pop",
-     "motion": "bounce",
-     "at": "tez-tez yuving"
-    },
-    {
-     "type": "prop",
-     "img": "p_g_stop.jpg",
-     "x": 250,
-     "y": 640,
-     "h": 280,
-     "from": "pop",
-     "motion": "wag",
-     "at": "to'xtang"
-    }
-   ],
-   "vo": "vo_08.mp3",
-   "voice_id": "132QLQIkg1RJGmpicuhR",
-   "imgs": [
-    "08b.jpg"
-   ]
-  },
-  {
-   "speaker": "sardor",
-   "text": "Tushundim, opa! Bugundan boshlab yuzimga umuman qo'l tekkizmayman!",
-   "tts": "[determined] Tushundim, opa! Bugundan boshlab yuzimga umuman qo'l tekkizmayman!",
-   "mood": "groove",
-   "img": "09.jpg",
-   "elements": [
-    {
-     "type": "bubble",
-     "speaker": "JASUR",
-     "x": 540,
-     "y": 330,
-     "at": "start",
-     "hl": {
-      "umuman": "red"
-     },
-     "tail": "down",
-     "tail_x": 0.3,
-     "tag": "royal",
-     "w": 880
-    },
-    {
-     "type": "char",
-     "img": "c_jasur_qatiy.jpg",
-     "from": "left",
-     "x": 270,
-     "y": 1440,
-     "h": 720,
-     "at": 0.1,
-     "motion": "idle",
-     "flip": false,
-     "talk": [
-      "vo"
-     ]
-    },
-    {
-     "type": "mark",
-     "shape": "arrow",
-     "x": 880,
-     "y": 1100,
-     "to": [
-      620,
-      820
-     ],
-     "color": [
-      57,
-      255,
-      120
-     ],
-     "at": "umuman qo'l tekkizmayman",
-     "label": "LEKIN...?",
-     "label_x": 860,
-     "label_y": 1180
-    }
-   ],
-   "vo": "vo_09.mp3",
-   "voice_id": "UjuEL3hLLUaDED9iW4Yb"
-  },
-  {
-   "speaker": "bekzod",
-   "text": "Jasur bu va'dani roppa-rosa o'n ikki soniya ushladi. Keyin burni qichidi.",
-   "tts": "[chuckles] Jasur bu va'dani roppa-rosa o'n ikki soniya ushladi. Keyin burni qichidi.",
-   "mood": "sad",
-   "img": "10.jpg",
-   "elements": [
-    {
-     "type": "pill",
-     "text": "VA'DA: 12 SONIYA",
-     "bg": "crimson",
-     "fg": "white",
-     "x": 600,
-     "y": 300,
-     "rot": -3,
-     "at": "o'n ikki"
-    },
-    {
-     "type": "prop",
-     "img": "p_g_ter.jpg",
-     "x": 800,
-     "y": 580,
-     "h": 220,
-     "from": "pop",
-     "motion": "shake",
-     "at": "o'n ikki soniya"
-    }
-   ],
-   "vo": "vo_10.mp3",
-   "voice_id": "kGOig3GPePLxobJGHo2M",
-   "imgs": [
-    "10b.jpg"
-   ]
-  },
-  {
-   "speaker": "dilnoza",
-   "text": "Jasur aka! Yigirma to'rtinchi!",
-   "tts": "[laughs] Jasur aka! Yigirma to'rtinchi!",
-   "mood": "hero",
-   "img": "11.jpg",
-   "elements": [
-    {
-     "type": "bubble",
-     "speaker": "ZARINA",
-     "x": 540,
-     "y": 330,
-     "at": "start",
-     "hl": {
-      "Yigirma": "red",
-      "to'rtinchi!": "red"
-     },
-     "tail": "down",
-     "tail_x": 0.3,
-     "tag": "purple",
-     "w": 880
-    },
-    {
-     "type": "char",
-     "img": "c_jasur_qichish.jpg",
-     "from": "right",
-     "x": 810,
-     "y": 1440,
-     "h": 700,
-     "at": 0.1,
-     "motion": "idle",
-     "flip": false
-    },
-    {
-     "type": "mark",
-     "shape": "circle",
-     "x": 540,
-     "y": 980,
-     "w": 220,
-     "h": 150,
-     "color": [
-      57,
-      255,
-      120
-     ],
-     "at": "Jasur aka",
-     "label": "22 IYAK!",
-     "label_x": 260,
-     "label_y": 1060
-    },
     {
      "type": "mark",
      "shape": "circle",
@@ -746,10 +975,109 @@
      "label_y": 620
     },
     {
+     "type": "stamp",
+     "text": "23 MARTA!",
+     "y": 1400,
+     "rot": -5,
+     "at": 0.15
+    }
+   ],
+   "vo": "vo_18.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M"
+  },
+  {
+   "n": 19,
+   "speaker": "bekzod",
+   "text": "O'n beshinchi yili yigirma olti tibbiyot talabasi videoga olingan. O'rtacha — soatiga yigirma uch marta!",
+   "tts": "[serious] O'n beshinchi yili yigirma olti tibbiyot talabasi videoga olingan. [surprised] O'rtacha — soatiga yigirma uch marta!",
+   "mood": "sad",
+   "img": "06b.jpg",
+   "elements": [
+    {
+     "type": "prop",
+     "img": "p_g_lupa.jpg",
+     "x": 900,
+     "y": 640,
+     "h": 260,
+     "from": "pop",
+     "motion": "point",
+     "rot": -30,
+     "at": "videoga olingan"
+    },
+    {
+     "type": "prop",
+     "img": "p_g_sanoq.jpg",
+     "x": 900,
+     "y": 1060,
+     "h": 260,
+     "from": "pop",
+     "motion": "pulse",
+     "at": "yigirma uch marta"
+    },
+    {
+     "type": "tag",
+     "head": "YIL",
+     "text": "2015",
+     "x": 170,
+     "y": 210,
+     "color": "navy",
+     "at": "start"
+    },
+    {
+     "type": "card",
+     "kicker": "KWOK VA BOSHQ., 2015",
+     "title": [
+      "SOATIGA 23 MARTA"
+     ],
+     "sub": "26 tibbiyot talabasi videoga olingan",
+     "at": "O'rtacha",
+     "y": 1330
+    }
+   ],
+   "vo": "vo_19.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M"
+  },
+  {
+   "n": 20,
+   "speaker": "dilnoza",
+   "text": "Jasur aka! Yigirma to'rtinchi!",
+   "tts": "[laughs] Jasur aka! Yigirma to'rtinchi!",
+   "mood": "hero",
+   "img": "11.jpg",
+   "elements": [
+    {
+     "type": "bubble",
+     "speaker": "ZARINA",
+     "x": 540,
+     "y": 330,
+     "at": "start",
+     "hl": {
+      "to'rtinchi!": "red"
+     },
+     "tail": "down",
+     "tail_x": 0.25,
+     "tag": "purple",
+     "w": 880
+    },
+    {
+     "type": "char",
+     "img": "c_zarina_kulgi.jpg",
+     "from": "left",
+     "x": 270,
+     "y": 1440,
+     "h": 700,
+     "at": 0.1,
+     "motion": "idle",
+     "flip": false,
+     "talk": [
+      "vo"
+     ]
+    },
+    {
      "type": "mark",
      "shape": "arrow",
      "x": 870,
-     "y": 600,
+     "y": 640,
      "to": [
       600,
       820
@@ -762,72 +1090,72 @@
      "at": "to'rtinchi",
      "label": "24 BURUN!",
      "label_x": 860,
-     "label_y": 530
+     "label_y": 600
+    },
+    {
+     "type": "mark",
+     "shape": "circle",
+     "x": 540,
+     "y": 980,
+     "w": 220,
+     "h": 150,
+     "color": [
+      57,
+      255,
+      120
+     ],
+     "at": "Jasur aka",
+     "label": "22 IYAK!",
+     "label_x": 260,
+     "label_y": 1060
     }
    ],
-   "vo": "vo_11.mp3",
+   "vo": "vo_20.mp3",
    "voice_id": "O72h9AUwisM6Zj4He72B"
   },
   {
+   "n": 21,
    "speaker": "bekzod",
-   "text": "Siz-chi? Shu videoni ko'rayotib necha marta yuzingizga tegdingiz? Rostini izohda yozing!",
-   "tts": "[playful] Siz-chi? Shu videoni ko'rayotib necha marta yuzingizga tegdingiz? Rostini izohda yozing!",
+   "text": "Siz qaysi odatingizni hech tashlay olmaysiz? Izohda tan oling!",
+   "tts": "[playful] Siz qaysi odatingizni hech tashlay olmaysiz? Izohda tan oling!",
    "mood": "finale",
    "img": "12.jpg",
    "elements": [
     {
      "type": "final",
      "lines": [
-      "NECHA MARTA",
-      "TEGDINGIZ?"
+      "QAYSI ODATNI",
+      "TASHLAY OLMAYSIZ?"
      ],
      "at": 0.4
     },
     {
      "type": "sticker",
      "lines": [
-      "Rostini",
-      "izohda yozing!"
+      "Izohda",
+      "tan oling!"
      ],
      "color": "green",
      "x": 540,
-     "y": 1450,
-     "w": 520,
-     "size": 50,
+     "y": 1470,
+     "w": 460,
+     "size": 78,
      "rot": -3,
      "at": 1.2
     },
     {
      "type": "prop",
-     "img": "p_g_koz.jpg",
-     "x": 820,
-     "y": 600,
-     "h": 240,
-     "from": "pop",
+     "img": "p_g_sanoq.jpg",
+     "x": 880,
+     "y": 560,
+     "h": 230,
+     "at": 1.0,
      "motion": "pulse",
-     "at": "Siz-chi"
-    },
-    {
-     "type": "mark",
-     "shape": "arrow",
-     "x": 540,
-     "y": 1000,
-     "to": [
-      540,
-      1180
-     ],
-     "color": [
-      57,
-      255,
-      120
-     ],
-     "at": "izohda yozing",
-     "label": "IZOH!",
-     "label_x": 760,
-     "label_y": 1060
+     "from": "pop",
+     "rot": 0
     }
    ],
-   "vo": "vo_12.mp3",
+   "vo": "vo_21.mp3",
    "voice_id": "kGOig3GPePLxobJGHo2M"
   }
  ]

@@ -16,11 +16,30 @@
  "music_seed": 4048,
  "music_gain": 0.75,
  "cover_title": [
-  "MEN DADAMNING",
+  "MEN UYIMIZNING",
   "PULTI EDIM"
  ],
- "cover_sub": "«Botir! Kanalni o'zgartir!»",
+ "cover_sub": "1995-yil, Toshkent",
  "cover_scene": 0,
+ "cover": {
+  "layout": "polaroid",
+  "props": [
+   "p_g_pult.jpg"
+  ],
+  "badge": "1995",
+  "tilt": -5,
+  "img": "cover.jpg",
+  "accent": [
+   222,
+   98,
+   52
+  ],
+  "accent2": [
+   246,
+   196,
+   92
+  ]
+ },
  "anim": "static",
  "bright": true,
  "theme": {
@@ -63,14 +82,147 @@
   ],
   "cut_fx": "flash"
  },
+ "end_hold": 1.2,
  "scenes": [
   {
+   "n": 1,
+   "speaker": "bekzod",
+   "text": "Bu bola uyimizning pulti edi. Laqabini oxirida aytaman!",
+   "tts": "[mischievous] Bu bola uyimizning pulti edi. Laqabini oxirida aytaman!",
+   "mood": "hero",
+   "img": "04.jpg",
+   "elements": [
+    {
+     "type": "pill",
+     "text": "LAQABI: ???",
+     "bg": "crimson",
+     "fg": "white",
+     "x": 640,
+     "y": 300,
+     "rot": -3,
+     "at": 0.3
+    },
+    {
+     "type": "char",
+     "img": "c_botir.jpg",
+     "from": "right",
+     "x": 820,
+     "y": 1570,
+     "h": 640,
+     "at": 0.15,
+     "motion": "idle",
+     "flip": false,
+     "label": "BOTIR, 11",
+     "label_bg": "orange"
+    },
+    {
+     "type": "caption",
+     "words": [
+      "LAQABI",
+      "OXIRIDA!"
+     ],
+     "color": "white",
+     "y": 1200,
+     "size": 84,
+     "at": "Bu bola"
+    },
+    {
+     "type": "mark",
+     "shape": "underline",
+     "x": 540,
+     "y": 1280,
+     "w": 480,
+     "at": 1.0,
+     "color": [
+      222,
+      98,
+      52
+     ]
+    }
+   ],
+   "vo": "vo_01.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M"
+  },
+  {
+   "n": 2,
    "speaker": "jahongir",
    "text": "Botir! Bolam, ikkinchi kanalga o'tkazib yubor-chi! Futbol boshlanyapti!",
    "tts": "[shouting] Botir! Bolam, ikkinchi kanalga o'tkazib yubor-chi! Futbol boshlanyapti!",
-   "mood": "hero",
+   "mood": "groove",
    "img": "01.jpg",
    "elements": [
+    {
+     "type": "bubble",
+     "speaker": "DADA",
+     "x": 540,
+     "y": 330,
+     "at": "start",
+     "hl": {
+      "Botir!": "red",
+      "yubor-chi!": "red"
+     },
+     "tail": "down",
+     "tail_x": 0.25,
+     "tag": "crimson",
+     "w": 880
+    },
+    {
+     "type": "char",
+     "img": "c_dada.jpg",
+     "from": "left",
+     "x": 270,
+     "y": 1440,
+     "h": 700,
+     "at": 0.1,
+     "motion": "idle",
+     "flip": false,
+     "talk": [
+      "vo"
+     ],
+     "label": "ERKIN AKA",
+     "label_bg": "crimson"
+    },
+    {
+     "type": "mark",
+     "shape": "burst",
+     "x": 540,
+     "y": 880.0,
+     "w": 420,
+     "at": "Botir!",
+     "label": "CHAQIRUV!",
+     "color": [
+      246,
+      196,
+      92
+     ],
+     "label_y": 663.0
+    }
+   ],
+   "vo": "old_01.mp3",
+   "voice_id": "xDwfBjUEPdIoQekNOXAX",
+   "imgs": [
+    "01b.jpg",
+    "01c.jpg"
+   ]
+  },
+  {
+   "n": 3,
+   "speaker": "bekzod",
+   "text": "To'qson beshinchi yil edi. Uyda pult yo'q edi.",
+   "tts": "[chuckles] To'qson beshinchi yil edi. Uyda pult yo'q edi.",
+   "mood": "groove",
+   "img": "02.jpg",
+   "elements": [
+    {
+     "type": "prop",
+     "img": "p_g_pult.jpg",
+     "x": 180,
+     "y": 620,
+     "h": 240,
+     "from": "pop",
+     "motion": "wag",
+     "at": "Uyda pult yo'q edi."
+    },
     {
      "type": "tag",
      "head": "YIL",
@@ -81,99 +233,30 @@
      "at": "start"
     },
     {
-     "type": "bubble",
-     "speaker": "DADA",
-     "x": 540,
-     "y": 420,
-     "at": "start",
-     "hl": {
-      "Botir!": "red",
-      "Futbol": "red"
-     },
-     "tail": "down",
-     "tail_x": 0.3,
-     "tag": "crimson",
-     "w": 880
-    },
-    {
-     "type": "char",
-     "img": "c_dada.jpg",
-     "from": "left",
-     "x": 280,
-     "y": 1440,
-     "h": 700,
-     "at": 0.1,
-     "motion": "idle",
-     "flip": false,
-     "talk": [
-      "vo"
+     "type": "caption",
+     "words": [
+      "TO'QSON",
+      "BESHINCHI",
+      "YIL",
+      "EDI."
      ],
-     "label": "ERKIN AKA",
-     "label_bg": "crimson",
-     "out": "Futbol"
-    },
-    {
-     "type": "mark",
-     "shape": "burst",
-     "x": 540,
-     "y": 720,
-     "w": 440,
-     "at": "Botir!",
-     "label": "CHAQIRUV!",
-     "color": [
-      246,
-      196,
-      92
-     ]
-    },
-    {
-     "type": "prop",
-     "img": "p_g_undov.jpg",
-     "x": 860,
-     "y": 600,
-     "h": 260,
-     "from": "pop",
-     "motion": "shake",
-     "at": "Futbol boshlanyapti!"
+     "color": "white",
+     "y": 1330,
+     "size": 96,
+     "at": "To'qson beshinchi"
     }
    ],
-   "vo": "vo_01.mp3",
-   "voice_id": "xDwfBjUEPdIoQekNOXAX",
-   "imgs": [
-    "01b.jpg",
-    "01c.jpg"
-   ]
+   "vo": "vo_03.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M"
   },
   {
+   "n": 4,
    "speaker": "bekzod",
-   "text": "To'qson beshinchi yil. Uyda pult yo'q edi. Aniqrog'i, pult bor edi. Uning ismi Botir edi.",
-   "tts": "[chuckles] To'qson beshinchi yil. Uyda pult yo'q edi. Aniqrog'i, pult bor edi. Uning ismi Botir edi.",
+   "text": "Aslida pult bor edi. Uning ismi Botir edi.",
+   "tts": "[playful] Aslida pult bor edi. Uning ismi Botir edi.",
    "mood": "groove",
-   "img": "02.jpg",
+   "img": "02b.jpg",
    "elements": [
-    {
-     "type": "char",
-     "img": "c_botir.jpg",
-     "from": "right",
-     "x": 800,
-     "y": 1440,
-     "h": 820,
-     "at": "pult bor edi",
-     "motion": "idle",
-     "flip": false,
-     "label": "PULT",
-     "label_bg": "orange"
-    },
-    {
-     "type": "prop",
-     "img": "p_g_pult.jpg",
-     "x": 210,
-     "y": 620,
-     "h": 240,
-     "from": "pop",
-     "motion": "wag",
-     "at": "Uyda pult yo'q edi."
-    },
     {
      "type": "mark",
      "shape": "arrow",
@@ -186,24 +269,48 @@
      "at": "Uning ismi Botir edi.",
      "label": "MANA U!",
      "label_x": 860,
-     "label_y": 500,
+     "label_y": 520,
      "color": [
       222,
       98,
       52
      ]
+    },
+    {
+     "type": "char",
+     "img": "c_botir.jpg",
+     "from": "right",
+     "x": 820,
+     "y": 1570,
+     "h": 640,
+     "at": "Uning ismi",
+     "motion": "idle",
+     "flip": false,
+     "label": "PULT",
+     "label_bg": "orange"
+    },
+    {
+     "type": "caption",
+     "words": [
+      "ASLIDA",
+      "PULT",
+      "BOR",
+      "EDI."
+     ],
+     "color": "yellow",
+     "y": 1200,
+     "size": 84,
+     "at": "Aslida pult"
     }
    ],
-   "vo": "vo_02.mp3",
-   "voice_id": "kGOig3GPePLxobJGHo2M",
-   "imgs": [
-    "02b.jpg"
-   ]
+   "vo": "vo_04.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M"
   },
   {
+   "n": 5,
    "speaker": "bekzod",
-   "text": "Pultning vazifalari: kanalni almashtirish, ovozni balandlatish, antennani ushlab turish va dadasi uxlab qolsa, televizorni o'chirish.",
-   "tts": "[playful] Pultning vazifalari: kanalni almashtirish, ovozni balandlatish, antennani ushlab turish va dadasi uxlab qolsa, televizorni o'chirish.",
+   "text": "Kanal almashtirish, ovozni balandlatish... lekin eng qiyini hali oldinda edi.",
+   "tts": "[playful] Kanal almashtirish, ovozni balandlatish... [whispers] lekin eng qiyini hali oldinda edi.",
    "mood": "groove",
    "img": "03.jpg",
    "elements": [
@@ -213,57 +320,53 @@
       "PULT VAZIFALARI:",
       "kanal",
       "ovoz",
-      "antenna",
-      "o'chirish"
+      "antenna"
      ],
      "color": "yellow",
      "x": 780,
      "y": 430,
      "w": 440,
-     "size": 50,
+     "size": 68,
      "rot": 4,
      "at": 0.2
     },
     {
-     "type": "mark",
-     "shape": "check",
-     "x": 230,
-     "y": 600,
-     "w": 160,
-     "at": "kanalni almashtirish",
-     "label": "VAZIFA BOR!",
-     "label_x": 260,
-     "label_y": 520,
-     "color": [
-      222,
-      98,
-      52
-     ]
+     "type": "prop",
+     "img": "p_g_tovush.jpg",
+     "x": 180,
+     "y": 760,
+     "h": 230,
+     "at": "ovozni",
+     "motion": "pulse",
+     "from": "pop",
+     "rot": 0
     },
     {
-     "type": "prop",
-     "img": "p_g_zzz.jpg",
-     "x": 820,
-     "y": 580,
-     "h": 240,
-     "from": "pop",
-     "motion": "pulse",
-     "at": "dadasi uxlab qolsa"
+     "type": "caption",
+     "words": [
+      "ENG",
+      "QIYINI",
+      "OLDINDA!"
+     ],
+     "color": "white",
+     "y": 1330,
+     "size": 96,
+     "at": "Kanal almashtirish"
     }
    ],
-   "vo": "vo_03.mp3",
+   "vo": "vo_05.mp3",
    "voice_id": "kGOig3GPePLxobJGHo2M",
    "imgs": [
-    "03b.jpg",
     "03c.jpg"
    ]
   },
   {
+   "n": 6,
    "speaker": "jahongir",
    "text": "Endi antennani ushlab tur! Yo'q, chaproqqa... Ha, ha, o'sha yerda tur! Qimirlama!",
    "tts": "[annoyed] Endi antennani ushlab tur! Yo'q, chaproqqa... Ha, ha, o'sha yerda tur! Qimirlama!",
    "mood": "tense",
-   "img": "04.jpg",
+   "img": "04b.jpg",
    "elements": [
     {
      "type": "bubble",
@@ -272,67 +375,100 @@
      "y": 330,
      "at": "start",
      "hl": {
-      "antennani": "red",
       "Qimirlama!": "red"
      },
      "tail": "down",
-     "tail_x": 0.3,
+     "tail_x": 0.25,
      "tag": "crimson",
      "w": 880
     },
     {
+     "type": "char",
+     "img": "c_dada.jpg",
+     "from": "left",
+     "x": 270,
+     "y": 1440,
+     "h": 700,
+     "at": 0.1,
+     "motion": "idle",
+     "flip": false,
+     "talk": [
+      "vo"
+     ]
+    },
+    {
      "type": "prop",
      "img": "p_g_chaqmoq.jpg",
-     "x": 540,
-     "y": 560,
+     "x": 900,
+     "y": 660,
      "h": 250,
      "from": "pop",
      "motion": "shake",
      "at": "Endi antennani ushlab tur!"
-    },
-    {
-     "type": "mark",
-     "shape": "arrow",
-     "x": 800,
-     "y": 860,
-     "to": [
-      440,
-      860
-     ],
-     "at": "chaproqqa",
-     "label": "CHAPROQ!",
-     "label_x": 780,
-     "label_y": 960,
-     "color": [
-      246,
-      196,
-      92
-     ]
-    },
-    {
-     "type": "mark",
-     "shape": "box",
-     "x": 540,
-     "y": 820,
-     "w": 460,
-     "h": 560,
-     "at": "Qimirlama!",
-     "label": "QOTIB QOL!",
-     "label_y": 1180,
-     "color": [
-      222,
-      98,
-      52
-     ]
     }
    ],
-   "vo": "vo_04.mp3",
+   "vo": "old_04.mp3",
    "voice_id": "xDwfBjUEPdIoQekNOXAX",
    "imgs": [
-    "04b.jpg"
+    "04.jpg"
    ]
   },
   {
+   "n": 7,
+   "speaker": "bekzod",
+   "text": "Bir soat o'tdi... Botir qimirlamaydi. Laqabi esa — hali oldinda.",
+   "tts": "[whispers] Bir soat o'tdi... Botir qimirlamaydi. Laqabi esa — hali oldinda.",
+   "mood": "tense",
+   "img": "05b.jpg",
+   "elements": [
+    {
+     "type": "tag",
+     "head": "O'TDI",
+     "text": "1 SOAT",
+     "x": 170,
+     "y": 210,
+     "color": "navy",
+     "at": "start"
+    },
+    {
+     "type": "char",
+     "img": "c_botir_charchagan.jpg",
+     "from": "right",
+     "x": 820,
+     "y": 1570,
+     "h": 640,
+     "at": 0.2,
+     "motion": "idle",
+     "flip": false
+    },
+    {
+     "type": "prop",
+     "img": "p_g_ter.jpg",
+     "x": 180,
+     "y": 820,
+     "h": 200,
+     "at": "qimirlamaydi",
+     "motion": "bounce",
+     "from": "pop",
+     "rot": 0
+    },
+    {
+     "type": "caption",
+     "words": [
+      "BOTIR",
+      "QIMIRLAMAYDI!"
+     ],
+     "color": "white",
+     "y": 1200,
+     "size": 84,
+     "at": "Bir soat"
+    }
+   ],
+   "vo": "vo_07.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M"
+  },
+  {
+   "n": 8,
    "speaker": "dilnoza",
    "text": "Dada, qarang! Botir ikki soatdan beri qimirlamay turibdi. Qo'li uxlab qoldi-ku!",
    "tts": "[laughs] Dada, qarang! Botir ikki soatdan beri qimirlamay turibdi. Qo'li uxlab qoldi-ku!",
@@ -346,41 +482,35 @@
      "y": 330,
      "at": "start",
      "hl": {
-      "ikki": "red",
-      "soatdan": "red"
+      "qarang!": "red",
+      "qoldi-ku!": "red"
      },
      "tail": "down",
-     "tail_x": 0.3,
+     "tail_x": 0.75,
      "tag": "purple",
      "w": 880
     },
     {
      "type": "char",
-     "img": "c_botir_charchagan.jpg",
+     "img": "c_maftuna.jpg",
      "from": "right",
-     "x": 800,
+     "x": 810,
      "y": 1440,
-     "h": 760,
-     "at": "Qo'li",
+     "h": 700,
+     "at": 0.1,
      "motion": "idle",
-     "flip": false
-    },
-    {
-     "type": "prop",
-     "img": "p_g_qol.jpg",
-     "x": 880,
-     "y": 700,
-     "h": 220,
-     "from": "pop",
-     "motion": "point",
-     "dir": "left",
-     "at": "Dada, qarang!"
+     "flip": false,
+     "talk": [
+      "vo"
+     ],
+     "label": "MAFTUNA, OPASI",
+     "label_bg": "purple"
     },
     {
      "type": "mark",
      "shape": "circle",
      "x": 540,
-     "y": 640,
+     "y": 720.0,
      "w": 300,
      "h": 240,
      "at": "ikki soatdan beri",
@@ -389,244 +519,30 @@
       222,
       98,
       52
-     ]
+     ],
+     "label_y": 900.0
     },
     {
      "type": "prop",
-     "img": "p_g_ter.jpg",
-     "x": 300,
-     "y": 620,
-     "h": 200,
-     "from": "pop",
-     "motion": "bounce",
-     "at": "Qo'li uxlab qoldi-ku!"
-    }
-   ],
-   "vo": "vo_05.mp3",
-   "voice_id": "O72h9AUwisM6Zj4He72B",
-   "imgs": [
-    "05b.jpg"
-   ]
-  },
-  {
-   "speaker": "bekzod",
-   "text": "Vaholanki, dunyodagi birinchi pultlardan biri ming to'qqiz yuz elliginchi yilda chiqqan. Zenith kompaniyasining «Lazy Bones» pulti — tarjimasi «Dangasa suyaklar». U televizorga sim bilan ulangan edi.",
-   "tts": "[curious] Vaholanki, dunyodagi birinchi pultlardan biri ming to'qqiz yuz elliginchi yilda chiqqan. Zenith kompaniyasining «Lazy Bones» pulti — tarjimasi «Dangasa suyaklar». U televizorga sim bilan ulangan edi.",
-   "mood": "mystery",
-   "img": "06.jpg",
-   "elements": [
-    {
-     "type": "card",
-     "kicker": "ZENITH, 1950",
-     "title": [
-      "«LAZY BONES»",
-      "SIMLI PULT"
-     ],
-     "sub": "Birinchi pultlardan biri televizorga sim bilan ulangan edi.",
-     "at": "Zenith",
-     "y": 1320
-    },
-    {
-     "type": "tag",
-     "head": "YIL",
-     "text": "1950",
-     "x": 170,
-     "y": 210,
-     "color": "navy",
-     "at": "start"
-    },
-    {
-     "type": "mark",
-     "shape": "underline",
-     "x": 540,
-     "y": 560,
-     "w": 420,
-     "at": "ming to'qqiz yuz elliginchi yilda",
-     "label": "1950-YIL!",
-     "label_y": 500,
-     "color": [
-      222,
-      98,
-      52
-     ]
-    },
-    {
-     "type": "mark",
-     "shape": "circle",
-     "x": 600,
-     "y": 900,
-     "w": 360,
-     "h": 220,
-     "at": "«Lazy Bones»",
-     "label": "DANGASA SUYAK!",
-     "label_y": 1060,
-     "color": [
-      246,
-      196,
-      92
-     ]
-    },
-    {
-     "type": "mark",
-     "shape": "arrow",
-     "x": 260,
-     "y": 1150,
-     "to": [
-      480,
-      1000
-     ],
-     "at": "sim bilan ulangan",
-     "label": "SIMLI!",
-     "label_x": 220,
-     "label_y": 1210,
-     "color": [
-      222,
-      98,
-      52
-     ]
-    }
-   ],
-   "vo": "vo_06.mp3",
-   "voice_id": "kGOig3GPePLxobJGHo2M",
-   "imgs": [
-    "06b.jpg"
-   ]
-  },
-  {
-   "speaker": "bekzod",
-   "text": "Olti yildan keyin muhandis Robert Adler simsiz pult yasadi. U ultratovush bilan ishlardi va tugma bosilganda «chiq» etib ovoz chiqarardi. Shuning uchun uni «klikker» deb atashgan.",
-   "tts": "[excited] Olti yildan keyin muhandis Robert Adler simsiz pult yasadi. U ultratovush bilan ishlardi va tugma bosilganda «chiq» etib ovoz chiqarardi. Shuning uchun uni «klikker» deb atashgan.",
-   "mood": "groove",
-   "img": "07.jpg",
-   "elements": [
-    {
-     "type": "tag",
-     "head": "YIL",
-     "text": "1956",
-     "x": 170,
-     "y": 210,
-     "color": "navy",
-     "at": "start"
-    },
-    {
-     "type": "card",
-     "kicker": "ROBERT ADLER, ZENITH",
-     "title": [
-      "SIMSIZ «KLIKKER»"
-     ],
-     "sub": "Ultratovushli pult: tugma bosilganda «chiq» etardi.",
-     "at": "klikker",
-     "y": 1330
-    },
-    {
-     "type": "mark",
-     "shape": "burst",
-     "x": 540,
-     "y": 800,
-     "w": 400,
-     "at": "simsiz pult yasadi",
-     "label": "SIMSIZ!",
-     "label_y": 560,
-     "color": [
-      222,
-      98,
-      52
-     ]
-    },
-    {
-     "type": "prop",
-     "img": "p_g_tovush.jpg",
-     "x": 800,
+     "img": "p_g_qol.jpg",
+     "x": 900,
      "y": 700,
-     "h": 240,
+     "h": 220,
      "from": "pop",
-     "motion": "pulse",
-     "at": "«chiq»"
+     "motion": "point",
+     "dir": 180,
+     "at": "Dada, qarang!"
     }
    ],
-   "vo": "vo_07.mp3",
-   "voice_id": "kGOig3GPePLxobJGHo2M",
-   "imgs": [
-    "07b.jpg"
-   ]
+   "vo": "old_05.mp3",
+   "voice_id": "O72h9AUwisM6Zj4He72B"
   },
   {
-   "speaker": "jahongir",
-   "text": "Bizning ham klikkerimiz bor edi! «Botir!» desam — chiq etib o'rnidan turardi!",
-   "tts": "[laughs] Bizning ham klikkerimiz bor edi! «Botir!» desam — chiq etib o'rnidan turardi!",
-   "mood": "groove",
-   "img": "08.jpg",
-   "elements": [
-    {
-     "type": "bubble",
-     "speaker": "DADA",
-     "x": 540,
-     "y": 330,
-     "at": "start",
-     "hl": {
-      "klikkerimiz": "red",
-      "chiq": "red"
-     },
-     "tail": "down",
-     "tail_x": 0.3,
-     "tag": "crimson",
-     "w": 880
-    },
-    {
-     "type": "char",
-     "img": "c_dada.jpg",
-     "from": "left",
-     "x": 270,
-     "y": 1440,
-     "h": 680,
-     "at": 0.1,
-     "motion": "idle",
-     "flip": false,
-     "talk": [
-      "vo"
-     ],
-     "moods": [
-      [
-       "c_dada_kulgan.jpg",
-       "Botir!"
-      ]
-     ]
-    },
-    {
-     "type": "mark",
-     "shape": "cross",
-     "x": 230,
-     "y": 620,
-     "w": 180,
-     "at": "«Botir!» desam",
-     "label": "PULT KERAKMAS!",
-     "label_x": 300,
-     "label_y": 530,
-     "color": [
-      222,
-      98,
-      52
-     ]
-    },
-    {
-     "type": "prop",
-     "img": "p_g_prujina.jpg",
-     "x": 800,
-     "y": 1000,
-     "h": 260,
-     "from": "bottom",
-     "motion": "jump",
-     "at": "o'rnidan turardi!"
-    }
-   ],
-   "vo": "vo_08.mp3",
-   "voice_id": "xDwfBjUEPdIoQekNOXAX"
-  },
-  {
+   "n": 9,
    "speaker": "bekzod",
-   "text": "Yillar o'tdi. Botir katta bo'ldi. Endi uning ham o'g'li bor.",
-   "tts": "[warmly] Yillar o'tdi. Botir katta bo'ldi. Endi uning ham o'g'li bor.",
-   "mood": "warm",
+   "text": "O'ttiz yil o'tdi. Endi Botirning ham o'g'li bor.",
+   "tts": "[warmly] O'ttiz yil o'tdi. Endi Botirning ham o'g'li bor.",
+   "mood": "sad",
    "img": "09.jpg",
    "elements": [
     {
@@ -642,43 +558,48 @@
      "type": "char",
      "img": "c_katta_botir.jpg",
      "from": "right",
-     "x": 800,
-     "y": 1440,
-     "h": 760,
-     "at": "Endi",
+     "x": 820,
+     "y": 1570,
+     "h": 640,
+     "at": "O'ttiz",
      "motion": "idle",
      "flip": false,
      "label": "BOTIR, 42",
      "label_bg": "royal"
     },
     {
-     "type": "mark",
-     "shape": "arrow",
-     "x": 860,
-     "y": 560,
-     "to": [
-      620,
-      740
+     "type": "prop",
+     "img": "p_antenna.jpg",
+     "x": 180,
+     "y": 800,
+     "h": 260,
+     "at": "o'g'li",
+     "motion": "wag",
+     "from": "pop",
+     "rot": 0
+    },
+    {
+     "type": "caption",
+     "words": [
+      "O'TTIZ",
+      "YIL",
+      "O'TDI."
      ],
-     "at": "Botir katta bo'ldi.",
-     "label": "42 YOSH!",
-     "label_x": 860,
-     "label_y": 500,
-     "color": [
-      246,
-      196,
-      92
-     ]
+     "color": "white",
+     "y": 1200,
+     "size": 84,
+     "at": "O'ttiz yil"
     }
    ],
    "vo": "vo_09.mp3",
    "voice_id": "kGOig3GPePLxobJGHo2M"
   },
   {
+   "n": 10,
    "speaker": "sardor",
-   "text": "O'g'lim, kanalni almashtir desam, «Dada, ovozli yordamchiga ayting» deydi. Men esa butun bolaligimni antenna ushlab o'tkazganman!",
-   "tts": "[sighs] O'g'lim, kanalni almashtir desam, «Dada, ovozli yordamchiga ayting» deydi. Men esa butun bolaligimni antenna ushlab o'tkazganman!",
-   "mood": "warm",
+   "text": "O'g'lim kanalni ovozli yordamchiga aytib almashtiradi.",
+   "tts": "[sighs] O'g'lim kanalni ovozli yordamchiga aytib almashtiradi.",
+   "mood": "mystery",
    "img": "10.jpg",
    "elements": [
     {
@@ -687,12 +608,9 @@
      "x": 540,
      "y": 330,
      "at": "start",
-     "hl": {
-      "ovozli": "red",
-      "antenna": "red"
-     },
+     "hl": {},
      "tail": "down",
-     "tail_x": 0.3,
+     "tail_x": 0.25,
      "tag": "royal",
      "w": 880
     },
@@ -711,15 +629,161 @@
      ]
     },
     {
+     "type": "prop",
+     "img": "p_g_tovush.jpg",
+     "x": 900,
+     "y": 760,
+     "h": 240,
+     "at": "ovozli",
+     "motion": "pulse",
+     "from": "pop",
+     "rot": 0
+    },
+    {
      "type": "mark",
      "shape": "cross",
-     "x": 820,
-     "y": 860,
+     "x": 220,
+     "y": 820,
      "w": 200,
-     "at": "ovozli yordamchiga ayting",
-     "label": "ESKIRDIK!",
-     "label_x": 820,
-     "label_y": 740,
+     "at": "almashtiradi",
+     "color": [
+      222,
+      98,
+      52
+     ],
+     "label": "ANTENNA YO'Q!",
+     "h": 140.0,
+     "label_y": 680.0
+    }
+   ],
+   "vo": "vo_10.mp3",
+   "voice_id": "UjuEL3hLLUaDED9iW4Yb"
+  },
+  {
+   "n": 11,
+   "speaker": "bekzod",
+   "text": "Endi diqqat: birinchi pult qanday bo'lganini ko'pchilik bilmaydi.",
+   "tts": "[curious] Endi diqqat: birinchi pult qanday bo'lganini ko'pchilik bilmaydi.",
+   "mood": "groove",
+   "img": "06.jpg",
+   "elements": [
+    {
+     "type": "pill",
+     "text": "DIQQAT!",
+     "bg": "crimson",
+     "fg": "white",
+     "x": 540,
+     "y": 300,
+     "rot": -3,
+     "at": 0.1
+    },
+    {
+     "type": "prop",
+     "img": "p_g_undov.jpg",
+     "x": 900,
+     "y": 760,
+     "h": 260,
+     "at": "ko'pchilik",
+     "motion": "shake",
+     "from": "pop",
+     "rot": 0
+    },
+    {
+     "type": "caption",
+     "words": [
+      "BIRINCHI",
+      "PULT",
+      "QANDAY",
+      "EDI?"
+     ],
+     "color": "white",
+     "y": 1330,
+     "size": 96,
+     "at": "Endi diqqat"
+    }
+   ],
+   "vo": "vo_11.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M"
+  },
+  {
+   "n": 12,
+   "speaker": "bekzod",
+   "text": "Ellikinchi yil. Zenith kompaniyasining «Lazy Bones» pulti.",
+   "tts": "[curious] Ellikinchi yil. Zenith kompaniyasining «Lazy Bones» pulti.",
+   "mood": "groove",
+   "img": "06.jpg",
+   "elements": [
+    {
+     "type": "mark",
+     "shape": "circle",
+     "x": 600,
+     "y": 900,
+     "w": 360,
+     "h": 220,
+     "at": "«Lazy Bones»",
+     "label": "DANGASA SUYAK!",
+     "label_y": 1060,
+     "color": [
+      246,
+      196,
+      92
+     ]
+    },
+    {
+     "type": "tag",
+     "head": "YIL",
+     "text": "1950",
+     "x": 170,
+     "y": 210,
+     "color": "navy",
+     "at": "start"
+    },
+    {
+     "type": "card",
+     "kicker": "ZENITH, 1950",
+     "title": [
+      "«LAZY BONES»"
+     ],
+     "sub": "Birinchi pultlardan biri",
+     "at": "Zenith",
+     "y": 1330
+    },
+    {
+     "type": "prop",
+     "img": "p_g_pult.jpg",
+     "x": 180,
+     "y": 760,
+     "h": 240,
+     "at": "pulti",
+     "motion": "wag",
+     "from": "pop",
+     "rot": 0
+    }
+   ],
+   "vo": "vo_12.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M"
+  },
+  {
+   "n": 13,
+   "speaker": "bekzod",
+   "text": "Tarjimasi — «Dangasa suyaklar». U televizorga sim bilan ulangan edi.",
+   "tts": "[chuckles] Tarjimasi — «Dangasa suyaklar». U televizorga sim bilan ulangan edi.",
+   "mood": "groove",
+   "img": "06b.jpg",
+   "elements": [
+    {
+     "type": "mark",
+     "shape": "arrow",
+     "x": 260,
+     "y": 1080,
+     "to": [
+      480,
+      1000
+     ],
+     "at": "sim bilan ulangan",
+     "label": "SIMLI!",
+     "label_x": 220,
+     "label_y": 1140,
      "color": [
       222,
       98,
@@ -728,81 +792,314 @@
     },
     {
      "type": "prop",
-     "img": "p_g_undov.jpg",
-     "x": 250,
-     "y": 600,
+     "img": "p_g_zzz.jpg",
+     "x": 900,
+     "y": 700,
      "h": 220,
+     "at": "Dangasa",
+     "motion": "pulse",
      "from": "pop",
-     "motion": "jump",
-     "at": "antenna ushlab o'tkazganman!"
+     "rot": 0
+    },
+    {
+     "type": "caption",
+     "words": [
+      "«DANGASA",
+      "SUYAKLAR»"
+     ],
+     "color": "white",
+     "y": 1330,
+     "size": 96,
+     "at": "Tarjimasi"
     }
    ],
-   "vo": "vo_10.mp3",
-   "voice_id": "UjuEL3hLLUaDED9iW4Yb",
-   "imgs": [
-    "10b.jpg"
-   ]
+   "vo": "vo_13.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M"
   },
   {
+   "n": 14,
    "speaker": "bekzod",
-   "text": "Siz ham uyingizning pulti bo'lganmisiz? Bir — ha, men edim. Ikki — opam edi. Uch — bizda haqiqiy pult bor edi. Izohda yozing!",
-   "tts": "[excited] Siz ham uyingizning pulti bo'lganmisiz? Bir — ha, men edim. Ikki — opam edi. Uch — bizda haqiqiy pult bor edi. Izohda yozing!",
+   "text": "Ellik oltinchi yil. Muhandis Robert Adler simsiz pult yasadi. Va mana eng qizig'i...",
+   "tts": "[excited] Ellik oltinchi yil. Muhandis Robert Adler simsiz pult yasadi. [whispers] Va mana eng qizig'i...",
+   "mood": "groove",
+   "img": "07.jpg",
+   "elements": [
+    {
+     "type": "mark",
+     "shape": "burst",
+     "x": 540,
+     "y": 800,
+     "w": 400,
+     "at": "simsiz pult yasadi",
+     "label": "SIMSIZ!",
+     "label_y": 560,
+     "color": [
+      222,
+      98,
+      52
+     ]
+    },
+    {
+     "type": "tag",
+     "head": "YIL",
+     "text": "1956",
+     "x": 170,
+     "y": 210,
+     "color": "navy",
+     "at": "start"
+    },
+    {
+     "type": "pill",
+     "text": "ROBERT ADLER",
+     "bg": "navy",
+     "fg": "white",
+     "x": 640,
+     "y": 330,
+     "rot": -3,
+     "at": "Robert"
+    },
+    {
+     "type": "caption",
+     "words": [
+      "VA",
+      "MANA",
+      "ENG",
+      "QIZIG'I..."
+     ],
+     "color": "yellow",
+     "y": 1330,
+     "size": 96,
+     "at": "Ellik oltinchi"
+    }
+   ],
+   "vo": "vo_14.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M"
+  },
+  {
+   "n": 15,
+   "speaker": "bekzod",
+   "text": "Tugmasi bosilganda «chiq» etardi. Shuning uchun uni «klikker» deyishgan.",
+   "tts": "[playful] Tugmasi bosilganda «chiq» etardi. Shuning uchun uni «klikker» deyishgan.",
+   "mood": "hero",
+   "img": "07b.jpg",
+   "elements": [
+    {
+     "type": "prop",
+     "img": "p_g_tovush.jpg",
+     "x": 900,
+     "y": 700,
+     "h": 240,
+     "from": "pop",
+     "motion": "pulse",
+     "at": "«chiq»"
+    },
+    {
+     "type": "stamp",
+     "text": "KLIKKER!",
+     "y": 1400,
+     "rot": -5,
+     "at": "klikker"
+    },
+    {
+     "type": "mark",
+     "shape": "burst",
+     "x": 540,
+     "y": 780,
+     "w": 360,
+     "at": "klikker",
+     "color": [
+      222,
+      98,
+      52
+     ]
+    }
+   ],
+   "vo": "vo_15.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M"
+  },
+  {
+   "n": 16,
+   "speaker": "jahongir",
+   "text": "Bizning ham klikkerimiz bor edi! «Botir!» desam — chiq etib o'rnidan turardi!",
+   "tts": "[laughs] Bizning ham klikkerimiz bor edi! «Botir!» desam — chiq etib o'rnidan turardi!",
+   "mood": "warm",
+   "img": "08.jpg",
+   "elements": [
+    {
+     "type": "bubble",
+     "speaker": "DADA",
+     "x": 540,
+     "y": 330,
+     "at": "start",
+     "hl": {
+      "turardi!": "red"
+     },
+     "tail": "down",
+     "tail_x": 0.25,
+     "tag": "crimson",
+     "w": 880
+    },
+    {
+     "type": "char",
+     "img": "c_dada.jpg",
+     "from": "left",
+     "x": 270,
+     "y": 1440,
+     "h": 700,
+     "at": 0.1,
+     "motion": "idle",
+     "flip": false,
+     "talk": [
+      "vo"
+     ],
+     "moods": [
+      [
+       "c_dada_kulgan.jpg",
+       "Botir!"
+      ]
+     ]
+    },
+    {
+     "type": "prop",
+     "img": "p_g_prujina.jpg",
+     "x": 900,
+     "y": 1000,
+     "h": 260,
+     "from": "bottom",
+     "motion": "jump",
+     "at": "o'rnidan turardi!"
+    },
+    {
+     "type": "mark",
+     "shape": "cross",
+     "x": 230,
+     "y": 663.0,
+     "w": 180,
+     "at": "«Botir!» desam",
+     "label": "PULT KERAKMAS!",
+     "label_x": 300,
+     "label_y": 786.0,
+     "color": [
+      222,
+      98,
+      52
+     ],
+     "h": 125.99999999999999
+    }
+   ],
+   "vo": "old_08.mp3",
+   "voice_id": "xDwfBjUEPdIoQekNOXAX"
+  },
+  {
+   "n": 17,
+   "speaker": "sardor",
+   "text": "Men esa butun bolaligimni klikker bo'lib o'tkazganman!",
+   "tts": "[laughs] Men esa butun bolaligimni klikker bo'lib o'tkazganman!",
+   "mood": "warm",
+   "img": "10b.jpg",
+   "elements": [
+    {
+     "type": "bubble",
+     "speaker": "BOTIR",
+     "x": 540,
+     "y": 330,
+     "at": "start",
+     "hl": {
+      "o'tkazganman!": "red"
+     },
+     "tail": "down",
+     "tail_x": 0.75,
+     "tag": "royal",
+     "w": 880
+    },
+    {
+     "type": "char",
+     "img": "c_katta_botir.jpg",
+     "from": "right",
+     "x": 810,
+     "y": 1440,
+     "h": 700,
+     "at": 0.1,
+     "motion": "idle",
+     "flip": false,
+     "talk": [
+      "vo"
+     ]
+    },
+    {
+     "type": "mark",
+     "shape": "burst",
+     "x": 540,
+     "y": 820.0,
+     "w": 320,
+     "at": "klikker",
+     "color": [
+      222,
+      98,
+      52
+     ],
+     "label": "KLIKKER BOTIR!",
+     "label_y": 638.0
+    },
+    {
+     "type": "prop",
+     "img": "p_g_prujina.jpg",
+     "x": 900,
+     "y": 820,
+     "h": 240,
+     "at": "bo'lib",
+     "motion": "jump",
+     "from": "pop",
+     "rot": 0
+    }
+   ],
+   "vo": "vo_17.mp3",
+   "voice_id": "UjuEL3hLLUaDED9iW4Yb"
+  },
+  {
+   "n": 18,
+   "speaker": "bekzod",
+   "text": "Bolaligingizda uyda qaysi ish faqat sizniki edi? Izohda yozing!",
+   "tts": "[warmly] Bolaligingizda uyda qaysi ish faqat sizniki edi? Izohda yozing!",
    "mood": "finale",
    "img": "11.jpg",
    "elements": [
     {
+     "type": "prop",
+     "img": "p_g_qol.jpg",
+     "x": 900,
+     "y": 720,
+     "h": 220,
+     "from": "pop",
+     "motion": "point",
+     "dir": 180,
+     "rot": -20,
+     "at": "Izohda yozing!"
+    },
+    {
      "type": "final",
      "lines": [
-      "SIZ PULT",
-      "BO'LGANMISIZ?"
+      "SIZNIKI QAYSI",
+      "ISH EDI?"
      ],
      "at": 0.4
     },
     {
      "type": "sticker",
      "lines": [
-      "1 — ha, men edim",
-      "2 — opam edi",
-      "3 — pult bor edi"
+      "Izohda",
+      "yozing!"
      ],
      "color": "pink",
      "x": 540,
-     "y": 1450,
-     "w": 640,
-     "size": 52,
-     "rot": -2,
-     "at": 1.2
-    },
-    {
-     "type": "mark",
-     "shape": "circle",
-     "x": 540,
-     "y": 760,
+     "y": 1470,
      "w": 460,
-     "h": 420,
-     "at": "Bir — ha, men edim.",
-     "label": "MEN EDIM!",
-     "label_y": 1020,
-     "color": [
-      222,
-      98,
-      52
-     ]
-    },
-    {
-     "type": "prop",
-     "img": "p_g_qol.jpg",
-     "x": 860,
-     "y": 1100,
-     "h": 220,
-     "from": "pop",
-     "motion": "point",
-     "dir": "left",
-     "rot": -20,
-     "at": "Izohda yozing!"
+     "size": 78,
+     "rot": -3,
+     "at": 1.2
     }
    ],
-   "vo": "vo_11.mp3",
+   "vo": "vo_18.mp3",
    "voice_id": "kGOig3GPePLxobJGHo2M"
   }
  ]

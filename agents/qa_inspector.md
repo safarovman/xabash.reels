@@ -26,6 +26,9 @@ Natija `jobs/<job>/qa_report.json`; **"pass": false bo'lsa video Buffer'ga QO'YI
 - Davomiylik ≥ 70 s; har 8-12 s da qayta ilmoq bor; yakuniy savol ochiq (1-2-3 ovoz berish yo'q); faktlar `card` da manbasi bilan.
 - Caption: 1 ilmoq + 1 ochiq savol + 6-8 heshteg.
 
+## 4. Tezlik nazorati (grafiklardan)
+- Har `aud/vo_NN.mp3` ≤ 6.5 s (fakt ≤ 7.5 s) — uzunini ikkiga bo'lib qayta yozdiring. Birinchi sahna ≤ 4 s va savol/va'da bilan boshlanadi. ~20 s va ~30 s atrofida qayta ilmoq borligini tekshiring.
+
 ## Natija: `jobs/<job>/qa_report.json`
 ```json
 {"pass": true, "audio": [{"scene": 4, "match": 0.97, "issues": []}], "visual": [{"t": 18.4, "issue": "stiker yuzni yopyapti", "fixed": true}],

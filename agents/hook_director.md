@@ -22,6 +22,13 @@ Egasi kuzatdi: ilmoqdagi va'da qilingan ma'lumot o'rtada berilsa, tomoshabin uni
 - Tarix videolarida: jang/voqea natijasi oxirida ochiladi ("Xo'sh, kim yutdi?"), o'rtada esa tayyorgarlik, hiyla va burilish.
 - Misol (xato): "100% zaryad" videosida javob (batareya tez qariydi, optimal zaryadlash) 4-5-sahnada aytilgan, keyin 4 sahna yangi narsa yo'q edi — tomoshabin ketadi. To'g'risi: javob 8-sahnada.
 
+## 1c. HAQIQIY GRAFIKLARDAN QOIDALAR (analytics/retention_2026-10-17.md)
+- Birinchi 3 soniyada 25% ketyapti → birinchi kadr eng g'alati/kulgili tasvir, birinchi gap savol yoki va'da (6-9 so'z) + ekranda katta yozuv. Oddiy dialog ("Dada, qarang!") yoki sekin "Tasavvur qiling..." bilan BOSHLAMANG.
+- Bitta ovoz bo'lagi ≤ 6 soniya (fakt sahnasi ≤ 7 s). Sekin ovozli personajlar (bobo, buvi) faqat qisqa gaplar bilan.
+- 20-35 soniya — eng katta tushish zonasi: ~20 s va ~30 s da albatta kuchli qayta ilmoq + vizual burilish.
+- Yil va katta raqamlarni ovozda qisqa ayting ("oltmish uchinchi yili"), to'liq raqam ekranda.
+- Har yangi video grafiklari kelsa, analytics/ ga yozib, shu qoidalarni yangilang.
+
 ## 2. Har 8-12 soniyada qayta ilmoq (re-hook)
 Videoda kamida 3 ta. Tomoshabinni keyingi qismga "bog'laydigan" iboralar:
 "Lekin eng qizig'i hali oldinda..." · "Shu yerda hamma xato qiladi..." · "Endi diqqat — bu qismni ko'pchilik bilmaydi." · "Uchinchisi esa umuman kutilmagan." ·

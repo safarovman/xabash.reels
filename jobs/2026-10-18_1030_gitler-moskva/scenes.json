@@ -101,8 +101,8 @@
   {
    "n": 1,
    "speaker": "bekzod",
-   "text": "Gitler Moskvaga yetib keldi. Lekin nega uni ololmadi?",
-   "tts": "[serious] Gitler Moskvaga yetib keldi. Lekin nega uni ololmadi?",
+   "text": "Gitler Moskvaga yetib kelgan edi. Lekin nega uni ololmadi?",
+   "tts": "[serious] Gitler Moskvaga yetib kelgan edi. Lekin nega uni ololmadi?",
    "mood": "hero",
    "img": "01.jpg",
    "elements": [
@@ -343,8 +343,8 @@
   {
    "n": 6,
    "speaker": "bekzod",
-   "text": "Har bir shahar, har bir ko'prik uchun qattiq jang bo'ldi.",
-   "tts": "[serious] Har bir shahar, har bir ko'prik uchun qattiq jang bo'ldi.",
+   "text": "Har bir shahar, har bir ko'prik uchun og'ir kurash ketdi.",
+   "tts": "[serious] Har bir shahar, har bir ko'prik uchun og'ir kurash ketdi.",
    "mood": "tense",
    "img": "06.jpg",
    "elements": [

@@ -151,22 +151,5 @@
     "retention": "Stop-time: birinchi 1.5 s da to'xtatuvchi ilmoq, har 8-12 s da qayta ilmoq (kamida 3 ta), boshidagi va'da oxirida yechiladi, sahna 4-6 s dan oshmaydi (agents/hook_director.md)."
   },
   "no_trial": "Trial reel QILINMAYDI. Hamma video, 16:00 dagisi ham, oddiy Reels: schedulingType automatic, shouldShareToFeed true (profilda ko'rinadi).",
-  "videos_per_day": 7,
-  "economy_mode": {
-    "enabled": true,
-    "since": "2026-10-17",
-    "reason": "egasining Claude limiti tez tugayapti, katta tarifga pul yo'q",
-    "active_slots": [
-      "14:30",
-      "18:30",
-      "21:00"
-    ],
-    "rules": [
-      "Kuniga 3 ta video: 14:30 O'zbekiston tarixi, 18:30 urf-odat, 21:00 xatolar (qolgan slotlar to'xtatilgan; egasi aytsa qayta yoqiladi).",
-      "Agent tool bilan subagent ishga tushirilmaydi: uslub, musiqa, imo-ishora, ilmoq qoidalarini (agents/*.md) asosiy sessiyaning o'zi bitta o'tishda bajaradi, brief fayllari shart emas — to'g'ridan-to'g'ri scenes.json.",
-      "Rasmlar: videoga 12-15 ta Flow rasmi (sahna kadrlari + 2-3 stiker + muqova); imo-ishoralar asosan dvigatelning `mark` belgilari bilan, Flow imo-ishora stikerlari 0-2 ta (assets/gestures dan qayta ishlatish mumkin).",
-      "QA: bitta transkripsiya + bitta --qa varaq ko'rish; tuzatish ko'pi bilan 1 marta.",
-      "Fayllarni keraksiz qayta o'qimang, uzun natijalarni chiqarmang (head/tail), tez va tejamkor ishlang."
-    ]
-  }
+  "videos_per_day": 7
 }

@@ -1,5 +1,11 @@
 # xabash.reels — to'liq ish tartibi (skill'lar saqlanmagan bo'lsa ham shu yetarli)
 
+## 0d. KUNIGA 7 TA VIDEO, STOP-TIME, YANGI YAKUNIY SAVOL (2026-10-17, egasi — eng ustun)
+- **7 slot**: 08:00 o'tmish · **10:30 jahon tarixi** · 12:30 hozir · **14:30 O'zbekiston tarixi** · 16:00 kelajak · 18:30 urf-odat · 21:00 xatolar (`config.json → slots`). Tarix videolari: `agents/history_scout.md` (yurish va voqealar xarita + strelkalar va 2-3 kadrli sahnalar bilan, faktlar ishonchli manbadan, afsona alohida aytiladi).
+- **Ilmoq agenti** `agents/hook_director.md` ssenariyni ovozdan OLDIN ko'rib chiqadi: birinchi 1.5 s ilmoq, har 8-12 s re-hook (kamida 3), ochiq halqa oxirida yechiladi, sahna 4-6 s.
+- **Yakuniy savol**: '1 — ha, 2 — yo'q' / '1·2·3' ISHLATILMAYDI. Izohga chorlaydigan ochiq savol (shaxsiy hikoya, davom ettirish, bahs, do'stni belgilash, bilim sinovi...). Caption'dagi savol ham shunday.
+- Buffer bepul rejasi 10 ta rejalashtirilgan post: 7 ta video + kechki qoldiqlar sig'adi; 24 soat oynasini saqlang.
+
 ## 0c. TEZ, RASMLARI KO'P, AGENTLI VIDEO (2026-10-16, egasi — eng ustun)
 - **Egasi tasdiqlagan namuna**: `media/test/tez_sinov_2026-10-16.mp4` ("juda yaxshi chiqibdi, bundan keyin shunday qilsin"). Hamma videolar shu tezlik va uslubda.
 - **Muqova (profil prevyusi) har videoda boshqacha** (17-okt): alohida Flow rasmi `img/cover.jpg` + `cover.layout` (hero/split/bubble/polaroid/diagonal/zoom/poster/classic, oxirgi 5 videoda takrorlanmasin), ranglar/shrift shu video uslubidan; render'dan keyin `out/cover.jpg` ni ko'ring. Batafsil: `agents/style_director.md` → Muqova.
@@ -31,11 +37,11 @@
 - **Rasm uslubi: tabiiy, yarim-realistik** (jurnal illyustratsiyasi) — haqiqiy odam proporsiyalari va yuzlari, iliq kinematik yorug'lik, tabiiy ranglar. **Multfilm/chibi/katta ko'zli uslub YO'Q** (`style.image_prefix`, `character_prefix`). Qorong'i sahna faqat syujet talab qilsa. Haqiqiy siyosatchi va mashhurlarni chizmang.
 - **PNG stikerlar ko'p**: har videoda 3–6 marta personaj yoki buyum oq konturli stiker bo'lib chetdan/pastdan chiqadi va gapirganda qimirlaydi (`char`, `prop`). Personajlar Flow'da alohida, oq fonda (`style.character_prefix`) → `img/c_<nom>.jpg`; buyumlar `style.prop_prefix` → `img/p_<nom>.jpg`. Fon rasmlari personajsiz ham bo'lishi mumkin.
 - **Dialog**: `bubble` — gapiruvchi nomi (DADA, OYI, BOBUR...) va so'zlar ovozga qarab yonadi, kalit so'zlar rangli.
-- **Stikerlar xilma-xil**: pill, yorliq, sticky, soat, checklist/daftar varag'i, karta, emoji-buyumlar, ovoz berish (1-2-3). Katta qizil `stamp`/`big` — videoda ko'pi bilan 1 marta.
+- **Stikerlar xilma-xil**: pill, yorliq, sticky, soat, checklist/daftar varag'i, karta, emoji-buyumlar. Katta qizil `stamp`/`big` — videoda ko'pi bilan 1 marta.
 - Bir xil raqam/motivni takrorlamang ("47" endi yo'q).
 - **Caption qisqa**: 1 ilmoq jumla + 1 savol + 6–8 heshteg. Mavzuni to'liq yozib tashlamang.
 - Infografika sahnalari: `bg: blueprint` fon + `tag` (YIL 1995 → 2005 → 2025), `bars` (taqqoslash), `avatar` (qo'ng'iroq qilayotgan odam). Bir personaj yillar davomida o'zgarishi mumkin (yosh → keksa) — har yosh uchun alohida stiker rasmi.
-- Yakunda tomoshabinni faollashtiruvchi savol/ovoz berish ("Siz nechanchi farzandsiz? 1·2·3 — izohda yozing").
+- Yakunda izohga chorlaydigan OCHIQ savol (1-2-3 ovoz berish YO'Q) — agents/hook_director.md.
 
 ## 1. Mavzular (xabash-topics)
 - `topics_log.md` dagi so'nggi 30 kun mavzularini takrorlamang.

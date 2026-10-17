@@ -80,9 +80,19 @@
       "theme": "o'tgan zamon: ota-bobolarimiz hayoti, eski Toshkent, SSSR davri, «bizning vaqtimizda» — hozirgi bilan hazil taqqoslash"
     },
     {
+      "time": "10:30",
+      "category": "jahon tarixi",
+      "theme": "jahon tarixi: buyuk imperiyalar, janglar, kashfiyotlar, ixtirolar, g'alati tarixiy voqealar — tushuntirib, 3-4 qiziq tekshirilgan fakt bilan (agents/history_scout.md)"
+    },
+    {
       "time": "12:30",
       "category": "hozirgi zamon",
       "theme": "hozirgi o'zbekchilik: internet, telefon, o'yinlar, ish, pul, tirbandlik — hazil va qiziq faktlar"
+    },
+    {
+      "time": "14:30",
+      "category": "O'zbekiston tarixi",
+      "theme": "O'zbekiston tarixi: Amir Temur va temuriylar, Somoniylar, Xorazmshohlar, Jaloliddin, Ulug'bek, Bobur, xonliklar, jadidlar, buyuk olimlar — yurish va voqealarni xarita va rasmlar bilan tasvirlab, qiziq faktlar bilan (agents/history_scout.md)"
     },
     {
       "time": "16:00",
@@ -136,7 +146,10 @@
     "music_per_topic": "Musiqa janri mavzuga qarab, oxirgi 3 videoda takrorlanmaydi (brief_music.json, scenes.json → music).",
     "reference_video": "Egasi 16-okt tasdiqladi: media/test/tez_sinov_2026-10-16.mp4 — 'juda yaxshi, bundan keyin shunday qilsin'. Tezlik, kadrlar soni, belgilar va o'tishlar shu darajada (pace fast).",
     "facts": "Har videoda 2-3 ta qiziq, WebSearch bilan tekshirilgan ma'lumot (fakt, raqam, tarix) hazil bilan aralash; uydirma raqam yo'q.",
-    "cover": "Muqova (profildagi prevyu) HAR VIDEODA boshqacha va mavzuga oid: alohida Flow rasmi img/cover.jpg + scenes.json → cover.layout (hero/split/bubble/polaroid/diagonal/zoom/poster/classic), oxirgi 5 videoda takrorlanmaydi; ranglar va shrift shu video uslubidan (agents/style_director.md, Muqova bo'limi)."
+    "cover": "Muqova (profildagi prevyu) HAR VIDEODA boshqacha va mavzuga oid: alohida Flow rasmi img/cover.jpg + scenes.json → cover.layout (hero/split/bubble/polaroid/diagonal/zoom/poster/classic), oxirgi 5 videoda takrorlanmaydi; ranglar va shrift shu video uslubidan (agents/style_director.md, Muqova bo'limi).",
+    "final_question": "Oxirida '1 — ha, 2 — yo'q' / '1·2·3' kabi ovoz berish YO'Q. Izohga chorlaydigan ochiq savol: shaxsiy hikoya, gapni davom ettirish, bahs, do'stni belgilash, 'siz bo'lganingizda', keyingi qism, bilim sinovi (agents/hook_director.md); oxirgi 5 videoda takrorlanmasin.",
+    "retention": "Stop-time: birinchi 1.5 s da to'xtatuvchi ilmoq, har 8-12 s da qayta ilmoq (kamida 3 ta), boshidagi va'da oxirida yechiladi, sahna 4-6 s dan oshmaydi (agents/hook_director.md)."
   },
-  "no_trial": "Trial reel QILINMAYDI. Hamma video, 16:00 dagisi ham, oddiy Reels: schedulingType automatic, shouldShareToFeed true (profilda ko'rinadi)."
+  "no_trial": "Trial reel QILINMAYDI. Hamma video, 16:00 dagisi ham, oddiy Reels: schedulingType automatic, shouldShareToFeed true (profilda ko'rinadi).",
+  "videos_per_day": 7
 }

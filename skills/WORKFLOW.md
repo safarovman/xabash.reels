@@ -1,5 +1,13 @@
 # xabash.reels — to'liq ish tartibi (skill'lar saqlanmagan bo'lsa ham shu yetarli)
 
+## 0e. TEJAMKOR REJIM (2026-10-17, egasi — ENG USTUN, config.json → economy_mode)
+Egasining Claude limiti tez tugayapti. `economy_mode.enabled = true` ekan:
+- **Kuniga 3 ta video**: 14:30 O'zbekiston tarixi · 18:30 urf-odat · 21:00 xatolar. Boshqa slotlarga video yasalmaydi va mavzu taklif qilinmaydi.
+- **Subagent yo'q**: agents/*.md qoidalarini (ilmoq, uslub, musiqa, imo-ishora, muqova, QA) o'zing bitta o'tishda bajarasan; brief_*.json yozish shart emas.
+- **12-15 ta Flow rasmi** videoga; imo-ishoralar asosan `mark`; Flow stiker kam.
+- **QA bir marta**, tuzatish ko'pi bilan 1 marta. Sifat qoidalari (tezlik, ilmoq, javob oxirida, ochiq savol, muqova, ovozlar) o'zgarmaydi.
+- Keraksiz fayl o'qish, uzun chiqishlar va qayta-qayta tekshiruvlardan saqlan.
+
 ## 0d. KUNIGA 7 TA VIDEO, STOP-TIME, YANGI YAKUNIY SAVOL (2026-10-17, egasi — eng ustun)
 - **7 slot**: 08:00 o'tmish · **10:30 jahon tarixi** · 12:30 hozir · **14:30 O'zbekiston tarixi** · 16:00 kelajak · 18:30 urf-odat · 21:00 xatolar (`config.json → slots`). Tarix videolari: `agents/history_scout.md` (yurish va voqealar xarita + strelkalar va 2-3 kadrli sahnalar bilan, faktlar ishonchli manbadan, afsona alohida aytiladi).
 - **Ilmoq agenti** `agents/hook_director.md` ssenariyni ovozdan OLDIN ko'rib chiqadi: birinchi 1.5 s ilmoq, har 8-12 s re-hook (kamida 3), ochiq halqa oxirida yechiladi, sahna 4-6 s.

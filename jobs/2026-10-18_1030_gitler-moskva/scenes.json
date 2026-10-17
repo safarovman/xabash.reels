@@ -945,43 +945,35 @@
   {
    "n": 20,
    "speaker": "bekzod",
-   "text": "Oilangizda urushga ketgan bobongiz bormi? Ismini yozing — xotirasi yashasin.",
-   "tts": "[warmly] Oilangizda urushga ketgan bobongiz bormi? Ismini yozing — xotirasi yashasin.",
+   "text": "Sizning oilangizda frontga ketgan bobo bormi? Ismini izohda yozing.",
+   "tts": "[warmly] Sizning oilangizda frontga ketgan bobo bormi? Ismini izohda yozing.",
    "mood": "finale",
    "img": "20.jpg",
    "elements": [
     {
-     "type": "final",
-     "lines": [
-      "BOBONGIZ",
-      "BORMI?"
-     ],
-     "at": 0.4
-    },
-    {
-     "type": "sticker",
-     "lines": [
-      "Ismini yozing —",
-      "xotirasi yashasin"
+     "type": "caption",
+     "words": [
+      "ISMINI",
+      "IZOHDA",
+      "YOZING."
      ],
      "color": "yellow",
-     "x": 540,
-     "y": 1470,
-     "w": 520,
-     "size": 64,
-     "rot": -3,
-     "at": 1.2
+     "y": 1330,
+     "size": 96,
+     "at": "Ismini izohda"
     },
     {
-     "type": "prop",
-     "img": "p_g_chinnigul.jpg",
-     "x": 900,
-     "y": 560,
-     "h": 240,
+     "type": "mark",
+     "shape": "underline",
+     "x": 540,
+     "y": 1410,
+     "w": 480,
      "at": 1.0,
-     "motion": "pulse",
-     "from": "pop",
-     "rot": 0
+     "color": [
+      178,
+      58,
+      44
+     ]
     }
    ],
    "vo": "vo_20.mp3",

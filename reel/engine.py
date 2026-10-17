@@ -866,6 +866,27 @@ def build_audio(path):
 
 timing = dict(starts=starts, scene_len=scene_len, total=TOTAL, hits=sorted(HITS))
 json.dump(timing, open(f"{OUT}/timing.json", "w"), indent=1)
+if "--qa" in sys.argv:   # QA agent: one labelled frame shortly after every element appears + every picture cut
+    os.makedirs(f"{OUT}/qa", exist_ok=True); items = []
+    for i in range(N):
+        items.append((starts[i] + 0.35, f"S{i + 1} boshi", scenes[i].get("text", "")[:60]))
+        for ts_ in SEGT.get(i, [])[1:]: items.append((starts[i] + ts_ + 0.3, f"S{i + 1} kadr", ""))
+        for e in E[i]:
+            if e.get("cap") and e is not E[i][0]: continue
+            lab = e["kind"] + (f" {e['shape']}" if e["kind"] == "mark" else "")
+            items.append((starts[i] + e["t0"] + 0.45, f"S{i + 1} {lab}", ""))
+    if COVER is not None: items.append((SCENES_END + 1.0, "MUQOVA", ""))
+    items = sorted(set((round(t, 2), a, b) for t, a, b in items if t < TOTAL))
+    info = []; per = 15; fnt = F(INTER_BLACK, 22)
+    for pg in range(0, len(items), per):
+        chunk = items[pg:pg + per]; sheet = Image.new("RGB", (270 * 5, 520 * math.ceil(len(chunk) / 5)), (20, 20, 20))
+        for k, (T, lab, txt_) in enumerate(chunk):
+            im = Image.fromarray(frame_at(T)).resize((270, 480)); d = ImageDraw.Draw(sheet); x, y = (k % 5) * 270, (k // 5) * 520
+            sheet.paste(im, (x, y)); d.text((x + 6, y + 484), f"{T:.1f}s {lab}"[:28], font=fnt, fill=(255, 230, 120))
+            info.append(dict(t=T, label=lab, text=txt_, sheet=pg // per + 1))
+        sheet.save(f"{OUT}/qa/sheet_{pg // per + 1:02d}.jpg", quality=82)
+    json.dump(dict(items=info, starts=starts, scene_len=scene_len, total=TOTAL), open(f"{OUT}/qa/elements.json", "w"), ensure_ascii=False, indent=1)
+    print("qa", f"{OUT}/qa", len(info), "frames"); sys.exit()
 if ONLY:
     os.makedirs(f"{OUT}/preview", exist_ok=True)
     ims = []

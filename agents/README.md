@@ -12,6 +12,7 @@ keyin asosiy sessiya (video yig'uvchi) shular asosida `scenes.json`, Flow prompt
 | Ilmoq (stop-time) | hook_director.md | ssenariyga ilmoq, re-hook, izohga chorlovchi yakuniy savol (ovozdan oldin) | jobs/<job>/brief_hooks.json |
 | Tarix | history_scout.md | 10:30 jahon va 14:30 O'zbekiston tarixi mavzulari, faktlar, xarita bilan tasvirlash | mavzu + ssenariy qoidalari |
 | Imo-ishora | gesture_director.md | ko'rsatgich, strelka, doira, eslatma, reaksiya belgilari | jobs/<job>/brief_gestures.json |
+| Tekshiruvchi (QA) | qa_inspector.md | render'dan keyin: ovozni transkripsiya qilib matn bilan solishtiradi, rasm/imo-ishora vaqtlari (engine --qa), tuzilish | jobs/<job>/qa_report.json (pass bo'lmasa Buffer'ga qo'yilmaydi) |
 | Video yig'uvchi | (asosiy sessiya, xabash-reel-maker) | ssenariy + 3 brief → scenes.json, Flow, ovoz, render | out/video.mp4 |
 
 Agentlar ham bir-biridan va oxirgi videolardan farq qilishi uchun `topics_log.md` dagi `uslub`, `musiqa`, `shrift` ustunlarini o'qiydi.

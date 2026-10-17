@@ -14,6 +14,14 @@ Birinchi gap 6-9 so'zdan oshmasin va kadr birinchi soniyadayoq harakatda bo'lsin
 - **Tanish holat**: "Onangiz 'bir daqiqaga kelib ket' desa — bu hech qachon bir daqiqa emas."
 - **Ovozsiz vizual zarba**: kutilmagan birinchi kadr (masalan Marsda o'zbek to'yi) + qisqa yozuv.
 
+## 1b. JAVOBNI OXIRIGA — eng muhim qoida (egasi 17-okt)
+Egasi kuzatdi: ilmoqdagi va'da qilingan ma'lumot o'rtada berilsa, tomoshabin uni olib, videoni o'tkazib yuboradi.
+- Ilmoqdagi savolning javobi / asosiy fakt / kulgili yechim videoning **oxirgi 15-20% qismida** (yakuniy savoldan oldingi 1-2 sahnada) beriladi. O'rtada — faqat bo'lak-bo'lak ishoralar, kuchayib boradigan ziddiyat va kichik faktlar.
+- Tuzilish: ilmoq (savol/va'da) → muammo kuchayadi → 1-ishora → kulgili to'siq → 2-ishora (javobga yaqinlashadi, lekin aytilmaydi) → "va mana eng qizig'i..." → **JAVOB** → yakuniy ochiq savol. Javobdan keyin uzun "dum" yo'q: ko'pi bilan 1 ta xulosa jumlasi + savol.
+- Ro'yxatli mavzularda (3 ta sabab, 5 ta fakt) eng zo'ri ENG OXIRIDA, boshida esa "uchinchisi sizni hayron qoldiradi" deb va'da qilinadi.
+- Tarix videolarida: jang/voqea natijasi oxirida ochiladi ("Xo'sh, kim yutdi?"), o'rtada esa tayyorgarlik, hiyla va burilish.
+- Misol (xato): "100% zaryad" videosida javob (batareya tez qariydi, optimal zaryadlash) 4-5-sahnada aytilgan, keyin 4 sahna yangi narsa yo'q edi — tomoshabin ketadi. To'g'risi: javob 8-sahnada.
+
 ## 2. Har 8-12 soniyada qayta ilmoq (re-hook)
 Videoda kamida 3 ta. Tomoshabinni keyingi qismga "bog'laydigan" iboralar:
 "Lekin eng qizig'i hali oldinda..." · "Shu yerda hamma xato qiladi..." · "Endi diqqat — bu qismni ko'pchilik bilmaydi." · "Uchinchisi esa umuman kutilmagan." ·

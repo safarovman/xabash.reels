@@ -3,3 +3,4 @@ jobs/*/img/
 jobs/*/aud/
 __pycache__/
 reel/_*_frozen.py
+jobs/*/render.log

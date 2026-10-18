@@ -1,0 +1,28 @@
+{
+ "pass": false,
+ "fixes": [
+  {
+   "t": 8.0,
+   "scene": 3,
+   "issue": "ElevenLabs 'Olti asr' o'rniga 'O'n to'rt asr' dedi (fakt xatosi)",
+   "fix": "vo_03 qayta yozildi: 'Olti yuz yil oldin...', caption at yangilandi",
+   "done": true
+  },
+  {
+   "scene": "cover",
+   "issue": "Temur stikeri fondagi Temur yuzini qisman yopadi",
+   "fix": "kosmetik, qoldirildi"
+  }
+ ],
+ "audio_minor": [
+  "Anadolu beyliklari -> transkriptda 'Panodolu bayliklar'",
+  "asl -> 'asr'",
+  "Shoshilmang -> 'Shoshilming' (transkript)"
+ ],
+ "structure": {
+  "duration": 96.2,
+  "payoff_at": 0.8,
+  "max_vo": 5.9
+ },
+ "rerenders": 1
+}

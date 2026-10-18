@@ -193,8 +193,8 @@
   {
    "n": 3,
    "speaker": "bekzod",
-   "text": "Olti asr oldin. Anqara yonidagi Chubuq tekisligi.",
-   "tts": "[serious] Olti asr oldin. Anqara yonidagi Chubuq tekisligi.",
+   "text": "Olti yuz yil oldin. Anqara yonidagi Chubuq tekisligi.",
+   "tts": "[serious] Olti yuz yil oldin. Anqara yonidagi Chubuq tekisligi.",
    "mood": "groove",
    "img": "03.jpg",
    "elements": [
@@ -232,7 +232,7 @@
      "color": "white",
      "y": 1330,
      "size": 96,
-     "at": "Olti asr"
+     "at": "Olti yuz yil"
     }
    ],
    "vo": "vo_03.mp3",

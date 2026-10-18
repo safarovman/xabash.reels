@@ -1,0 +1,19 @@
+{
+ "pass": false,
+ "fixes": [
+  {
+   "scene": "3-9",
+   "issue": "c_sovuqjon stikerida begona ayol figurasi bor",
+   "fix": "stiker faqat muzlatkichni qoldirib qirqildi, qayta render",
+   "done": true
+  }
+ ],
+ "audio": "transkript mos (Sovuqjon -> So'g'ijon transkript xatosi)",
+ "minor": [
+  "5 ta ovoz bo'lagi 6.5-7.0 s"
+ ],
+ "structure": {
+  "duration": 93.3
+ },
+ "rerenders": 1
+}

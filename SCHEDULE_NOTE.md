@@ -19,3 +19,9 @@ O'zbekcha matnga ingliz ovozlari (Sarah, Charlie, Bill, Lily, Jessica) ISHLATILM
 ## 2026-10-16 19:00 run
 - 17-okt Buffer: 08:00 6ad22d1c · 12:30 6ad22d21 · 16:00 6ad22d24 · 18:30 6ad22d27 (automatic, shouldShareToFeed). 21:00 koz-charchoq hali QO'YILMAGAN (24 soat oynasi) — 16-okt 21:00 dan keyin yoki 17-okt 19:00 run qo'ysin (jobs/2026-10-17_2100_koz-charchoq/post.json).
 - 18-okt mavzulari egasiga taklif qilindi (19:00): pult · bepul-sinov · ai-muzlatkich · non-odobi · yuzga-qol.
+
+## 2026-10-18 22:20 — egasi: "bugun qo'yilmagan videolarni ertangi shu vaqtlarga qo'y"
+18-okt 08:00 pult, 10:30 gitler, 12:30 bepul — Buffer'da JOYLANDI (sent).
+14:30 anqara, 16:00 muzlatkich, 18:30 non-odobi, 21:00 yuzga-qol yasalib ulgurmadi → 19-okt 14:30/16:00/18:30/21:00 ga ko'chirildi (post.json dueAt).
+Bloklar: (1) egasining kompyuteri ulanmagan — Google Flow rasmlari va ElevenLabs mp3 yuklab olish imkonsiz; (2) ElevenLabs kreditlari 18-okt tunda tugagan (anqara 7/10 qator, muz qisman).
+Avvalgi konteynerdagi rasm/ovoz fayllari yo'qolgan (repo'da yo'q) — kompyuter ulanganda Flow'dan qayta yig'ish kerak. 19-okt 08:00/10:30/12:30 uchun video yo'q.

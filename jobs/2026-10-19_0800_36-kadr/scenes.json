@@ -1,0 +1,873 @@
+{
+ "title": "36 ta kadr",
+ "pace": "fast",
+ "music": {
+  "genre": "jazz_swing",
+  "bpm": 126,
+  "key": 3,
+  "scale": "major",
+  "progression": [
+   0,
+   5,
+   1,
+   4
+  ]
+ },
+ "music_seed": 3619,
+ "music_gain": 0.75,
+ "cover_title": [
+  "36 TA KADR —",
+  "BUTUN YOZGA"
+ ],
+ "cover_sub": "Kodak buni yashirgan edi",
+ "cover_scene": 0,
+ "cover": {
+  "layout": "polaroid",
+  "img": "cover.jpg",
+  "accent": [
+   214,
+   92,
+   48
+  ],
+  "accent2": [
+   250,
+   196,
+   70
+  ],
+  "ink": [
+   50,
+   32,
+   20
+  ]
+ },
+ "anim": "static",
+ "bright": true,
+ "theme": {
+  "font": "alfaslabone",
+  "font2": "caveat",
+  "accent": [
+   214,
+   92,
+   48
+  ],
+  "accent2": [
+   250,
+   196,
+   70
+  ],
+  "bubble_bg": [
+   250,
+   243,
+   228
+  ],
+  "bubble_line": [
+   150,
+   90,
+   40
+  ],
+  "bubble_ink": [
+   50,
+   32,
+   20
+  ],
+  "bubble_dim": [
+   150,
+   120,
+   95
+  ],
+  "transitions": [
+   "flash",
+   "slide",
+   "zoom"
+  ],
+  "cut_fx": "flash"
+ },
+ "end_hold": 1.2,
+ "scenes": [
+  {
+   "n": 1,
+   "speaker": "bekzod",
+   "text": "Bu kamerani ixtiro qilgan kompaniya... uni o'zi yashirgan. Nega?",
+   "tts": "[mysterious] Bu kamerani ixtiro qilgan kompaniya... uni o'zi yashirgan. Nega?",
+   "mood": "tension",
+   "img": "01.jpg",
+   "elements": [
+    {
+     "type": "caption",
+     "words": [
+      "NEGA",
+      "YASHIRISHDI?"
+     ],
+     "color": "white",
+     "y": 1330,
+     "size": 92,
+     "at": "Nega"
+    },
+    {
+     "type": "pill",
+     "text": "1975-YIL SIRI",
+     "bg": "red",
+     "fg": "white",
+     "x": 560,
+     "y": 300,
+     "rot": -3,
+     "at": 0.3
+    },
+    {
+     "type": "prop",
+     "img": "p_g_qulf.jpg",
+     "x": 880,
+     "y": 760,
+     "h": 240,
+     "from": "pop",
+     "motion": "pulse",
+     "at": "yashirgan"
+    }
+   ],
+   "vo": "vo_01.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M"
+  },
+  {
+   "n": 2,
+   "speaker": "bekzod",
+   "text": "Javob oxirida. Avval — Madinaning telefoniga qarang.",
+   "tts": "[playful] Javob oxirida. Avval — Madinaning telefoniga qarang.",
+   "mood": "groove",
+   "img": "02.jpg",
+   "elements": [
+    {
+     "type": "caption",
+     "words": [
+      "JAVOB",
+      "OXIRIDA!"
+     ],
+     "color": "white",
+     "y": 1330,
+     "size": 92,
+     "at": "Javob"
+    },
+    {
+     "type": "mark",
+     "shape": "arrow",
+     "x": 540,
+     "y": 900,
+     "w": 300,
+     "at": "telefoniga",
+     "label": "QARANG!",
+     "color": [
+      214,
+      92,
+      48
+     ]
+    }
+   ],
+   "vo": "vo_02.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M",
+   "imgs": [
+    [
+     "02b.jpg",
+     "telefoniga"
+    ]
+   ]
+  },
+  {
+   "n": 3,
+   "speaker": "zilola",
+   "text": "Oyi, bugun 400 ta selfi tushdim! Bittasi ham yoqmadi!",
+   "tts": "[excited] Oyi, bugun to'rt yuzta selfi tushdim! Bittasi ham yoqmadi!",
+   "mood": "groove",
+   "img": "03.jpg",
+   "elements": [
+    {
+     "type": "bubble",
+     "speaker": "MADINA",
+     "x": 540,
+     "y": 330,
+     "at": "start",
+     "hl": {
+      "400": "red"
+     },
+     "tail": "down",
+     "tail_x": 0.75,
+     "tag": "pink",
+     "w": 880
+    },
+    {
+     "type": "char",
+     "img": "c_madina.jpg",
+     "from": "right",
+     "x": 810,
+     "y": 1440,
+     "h": 680,
+     "at": 0.1,
+     "motion": "bounce",
+     "talk": [
+      "vo"
+     ],
+     "label": "MADINA, 15",
+     "label_bg": "pink"
+    },
+    {
+     "type": "prop",
+     "img": "p_g_chaqmoq.jpg",
+     "x": 200,
+     "y": 760,
+     "h": 240,
+     "from": "pop",
+     "motion": "pulse",
+     "at": "selfi"
+    }
+   ],
+   "vo": "vo_03.mp3",
+   "voice_id": "cyPun3bl9MxcpLBX6pT0"
+  },
+  {
+   "n": 4,
+   "speaker": "shahnoza",
+   "text": "400 ta?! Bizning zamonda butun yozga 36 ta kadr bo'lardi!",
+   "tts": "[laughs] To'rt yuzta?! Bizning zamonda butun yozga o'ttiz oltita kadr bo'lardi!",
+   "mood": "groove",
+   "img": "04.jpg",
+   "elements": [
+    {
+     "type": "bubble",
+     "speaker": "FERUZA OPA",
+     "x": 540,
+     "y": 330,
+     "at": "start",
+     "hl": {
+      "36": "red"
+     },
+     "tail": "down",
+     "tail_x": 0.25,
+     "tag": "orange",
+     "w": 880
+    },
+    {
+     "type": "char",
+     "img": "c_feruza.jpg",
+     "from": "left",
+     "x": 270,
+     "y": 1440,
+     "h": 680,
+     "at": 0.1,
+     "motion": "bounce",
+     "talk": [
+      "vo"
+     ],
+     "label": "FERUZA OPA",
+     "label_bg": "orange"
+    },
+    {
+     "type": "mark",
+     "shape": "circle",
+     "x": 540,
+     "y": 1000,
+     "w": 420,
+     "at": "o'ttiz oltita",
+     "label": "36 TA!",
+     "color": [
+      214,
+      92,
+      48
+     ]
+    }
+   ],
+   "vo": "vo_04.mp3",
+   "voice_id": "eggZu1Ffe4if51TKev2v"
+  },
+  {
+   "n": 5,
+   "speaker": "bekzod",
+   "text": "1996-yil. 14 yoshli Feruza dadasining fotoapparatini oldi.",
+   "tts": "[warmly] To'qson oltinchi yil. O'n to'rt yoshli Feruza dadasining fotoapparatini oldi.",
+   "mood": "nostalgia",
+   "img": "05.jpg",
+   "elements": [
+    {
+     "type": "tag",
+     "head": "YIL",
+     "text": "1996",
+     "x": 170,
+     "y": 210,
+     "color": "orange",
+     "at": "start"
+    },
+    {
+     "type": "prop",
+     "img": "p_zenit.jpg",
+     "x": 820,
+     "y": 1250,
+     "h": 300,
+     "from": "pop",
+     "motion": "bounce",
+     "at": "fotoapparatini"
+    }
+   ],
+   "vo": "vo_05.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M",
+   "imgs": [
+    [
+     "05b.jpg",
+     "fotoapparatini"
+    ]
+   ]
+  },
+  {
+   "n": 6,
+   "speaker": "jahongir",
+   "text": "Ehtiyot bo'l, qizim! Plyonkada 36 ta kadr bor, xolos. Mushukni tushirma!",
+   "tts": "[serious] Ehtiyot bo'l, qizim! Plyonkada o'ttiz oltita kadr bor, xolos. Mushukni tushirma!",
+   "mood": "nostalgia",
+   "img": "06.jpg",
+   "elements": [
+    {
+     "type": "bubble",
+     "speaker": "DADASI",
+     "x": 540,
+     "y": 330,
+     "at": "start",
+     "hl": {
+      "36": "red",
+      "Mushukni": "red"
+     },
+     "tail": "down",
+     "tail_x": 0.25,
+     "tag": "navy",
+     "w": 880
+    },
+    {
+     "type": "char",
+     "img": "c_hamid.jpg",
+     "from": "left",
+     "x": 270,
+     "y": 1440,
+     "h": 680,
+     "at": 0.1,
+     "motion": "wag",
+     "talk": [
+      "vo"
+     ],
+     "label": "HAMID AKA",
+     "label_bg": "navy"
+    },
+    {
+     "type": "prop",
+     "img": "p_plyonka.jpg",
+     "x": 860,
+     "y": 760,
+     "h": 240,
+     "from": "pop",
+     "motion": "pulse",
+     "at": "Plyonkada"
+    }
+   ],
+   "vo": "vo_06.mp3",
+   "voice_id": "xDwfBjUEPdIoQekNOXAX",
+   "imgs": [
+    [
+     "06b.jpg",
+     "o'ttiz oltita"
+    ]
+   ]
+  },
+  {
+   "n": 7,
+   "speaker": "bekzod",
+   "text": "Feruza mushukni tushirdi. Uch marta.",
+   "tts": "[chuckles] Feruza mushukni tushirdi. Uch marta.",
+   "mood": "groove",
+   "img": "07.jpg",
+   "elements": [
+    {
+     "type": "caption",
+     "words": [
+      "UCH",
+      "MARTA!"
+     ],
+     "color": "yellow",
+     "y": 1330,
+     "size": 92,
+     "at": "Uch"
+    },
+    {
+     "type": "prop",
+     "img": "p_g_mushuk.jpg",
+     "x": 860,
+     "y": 700,
+     "h": 260,
+     "from": "pop",
+     "motion": "shake",
+     "at": "mushukni"
+    },
+    {
+     "type": "tag",
+     "head": "KADR",
+     "text": "3/36",
+     "x": 170,
+     "y": 210,
+     "color": "red",
+     "at": "Uch"
+    }
+   ],
+   "vo": "vo_07.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M",
+   "imgs": [
+    [
+     "07b.jpg",
+     "Uch marta"
+    ]
+   ]
+  },
+  {
+   "n": 8,
+   "speaker": "bekzod",
+   "text": "Eng qizig'i — rasmni darrov ko'rib bo'lmasdi. Bir hafta kutardingiz.",
+   "tts": "[mysterious] Eng qizig'i — rasmni darrov ko'rib bo'lmasdi. Bir hafta kutardingiz.",
+   "mood": "tension",
+   "img": "08.jpg",
+   "elements": [
+    {
+     "type": "caption",
+     "words": [
+      "BIR HAFTA",
+      "KUTISH!"
+     ],
+     "color": "white",
+     "y": 1330,
+     "size": 92,
+     "at": "Bir hafta"
+    },
+    {
+     "type": "prop",
+     "img": "p_g_soat.jpg",
+     "x": 860,
+     "y": 700,
+     "h": 240,
+     "from": "pop",
+     "motion": "shake",
+     "at": "kutardingiz"
+    }
+   ],
+   "vo": "vo_08.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M",
+   "imgs": [
+    [
+     "08b.jpg",
+     "Bir hafta"
+    ]
+   ]
+  },
+  {
+   "n": 9,
+   "speaker": "shahnoza",
+   "text": "Bir haftadan keyin qarasam — yarmida ko'zim yumuq, yarmida dadamning barmog'i!",
+   "tts": "[sighs] Bir haftadan keyin qarasam — yarmida ko'zim yumuq, yarmida dadamning barmog'i!",
+   "mood": "groove",
+   "img": "09.jpg",
+   "elements": [
+    {
+     "type": "bubble",
+     "speaker": "FERUZA OPA",
+     "x": 540,
+     "y": 330,
+     "at": "start",
+     "hl": {
+      "barmog'i!": "red"
+     },
+     "tail": "down",
+     "tail_x": 0.25,
+     "tag": "orange",
+     "w": 880
+    },
+    {
+     "type": "char",
+     "img": "c_feruza_xotira.jpg",
+     "from": "left",
+     "x": 270,
+     "y": 1440,
+     "h": 680,
+     "at": 0.1,
+     "motion": "bounce",
+     "talk": [
+      "vo"
+     ],
+     "label": "FERUZA OPA",
+     "label_bg": "orange"
+    },
+    {
+     "type": "prop",
+     "img": "p_g_kulgi.jpg",
+     "x": 880,
+     "y": 760,
+     "h": 240,
+     "from": "pop",
+     "motion": "pulse",
+     "at": "barmog'i"
+    }
+   ],
+   "vo": "vo_09.mp3",
+   "voice_id": "eggZu1Ffe4if51TKev2v",
+   "imgs": [
+    [
+     "09b.jpg",
+     "barmog'i"
+    ]
+   ]
+  },
+  {
+   "n": 10,
+   "speaker": "bekzod",
+   "text": "Endi diqqat — buni ko'pchilik bilmaydi.",
+   "tts": "[whispers] Endi diqqat — buni ko'pchilik bilmaydi.",
+   "mood": "tension",
+   "img": "10.jpg",
+   "elements": [
+    {
+     "type": "caption",
+     "words": [
+      "BUNI KO'PCHILIK",
+      "BILMAYDI"
+     ],
+     "color": "white",
+     "y": 1330,
+     "size": 92,
+     "at": "diqqat"
+    },
+    {
+     "type": "prop",
+     "img": "p_g_undov.jpg",
+     "x": 860,
+     "y": 700,
+     "h": 260,
+     "from": "pop",
+     "motion": "shake",
+     "at": "diqqat"
+    }
+   ],
+   "vo": "vo_10.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M"
+  },
+  {
+   "n": 11,
+   "speaker": "bekzod",
+   "text": "1975-yili Kodak muhandisi Stiven Sasson birinchi raqamli fotoapparatni yasadi.",
+   "tts": "[curious] Ming to'qqiz yuz yetmish beshinchi yili Kodak muhandisi Stiven Sasson birinchi raqamli fotoapparatni yasadi.",
+   "mood": "tension",
+   "img": "10.jpg",
+   "elements": [
+    {
+     "type": "tag",
+     "head": "YIL",
+     "text": "1975",
+     "x": 170,
+     "y": 210,
+     "color": "navy",
+     "at": "start"
+    },
+    {
+     "type": "card",
+     "kicker": "KODAK · S. SASSON, 1975",
+     "title": [
+      "BIRINCHI RAQAMLI",
+      "FOTOAPPARAT"
+     ],
+     "sub": "IEEE Milestone: Handheld Digital Camera",
+     "at": "raqamli",
+     "y": 1330
+    }
+   ],
+   "vo": "vo_11.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M",
+   "imgs": [
+    [
+     "p_kodak_cam.jpg",
+     "raqamli"
+    ]
+   ]
+  },
+  {
+   "n": 12,
+   "speaker": "bekzod",
+   "text": "U 3,6 kilo kelardi. Bitta rasmni kassetaga yozishga 23 soniya ketardi.",
+   "tts": "[chuckles] U uch yarim kilo kelardi. Bitta rasmni kassetaga yozishga yigirma uch soniya ketardi.",
+   "mood": "groove",
+   "img": "10b.jpg",
+   "elements": [
+    {
+     "type": "mark",
+     "shape": "circle",
+     "x": 540,
+     "y": 900,
+     "w": 420,
+     "at": "uch yarim kilo",
+     "label": "3,6 KG!",
+     "color": [
+      214,
+      92,
+      48
+     ]
+    },
+    {
+     "type": "tag",
+     "head": "1 RASM",
+     "text": "23 SONIYA",
+     "x": 200,
+     "y": 210,
+     "color": "red",
+     "at": "yigirma uch"
+    }
+   ],
+   "vo": "vo_12.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M",
+   "imgs": [
+    [
+     "11.jpg",
+     "yigirma uch"
+    ]
+   ]
+  },
+  {
+   "n": 13,
+   "speaker": "zilola",
+   "text": "23 soniya?! Men shu vaqtda 10 ta selfi tushaman!",
+   "tts": "[laughs] Yigirma uch soniya?! Men shu vaqtda o'nta selfi tushaman!",
+   "mood": "groove",
+   "img": "12.jpg",
+   "elements": [
+    {
+     "type": "bubble",
+     "speaker": "MADINA",
+     "x": 540,
+     "y": 330,
+     "at": "start",
+     "hl": {
+      "23": "red"
+     },
+     "tail": "down",
+     "tail_x": 0.75,
+     "tag": "pink",
+     "w": 880
+    },
+    {
+     "type": "char",
+     "img": "c_madina_kulgi.jpg",
+     "from": "right",
+     "x": 810,
+     "y": 1440,
+     "h": 680,
+     "at": 0.1,
+     "motion": "jump",
+     "talk": [
+      "vo"
+     ],
+     "label": "MADINA",
+     "label_bg": "pink"
+    },
+    {
+     "type": "prop",
+     "img": "p_g_chaqmoq.jpg",
+     "x": 200,
+     "y": 760,
+     "h": 240,
+     "from": "pop",
+     "motion": "pulse",
+     "at": "selfi"
+    }
+   ],
+   "vo": "vo_13.mp3",
+   "voice_id": "cyPun3bl9MxcpLBX6pT0"
+  },
+  {
+   "n": 14,
+   "speaker": "bekzod",
+   "text": "Xo'sh, Kodak bu ixtiro bilan nima qildi? Mana eng qizig'i...",
+   "tts": "[mysterious] Xo'sh, Kodak bu ixtiro bilan nima qildi? Mana eng qizig'i...",
+   "mood": "tension",
+   "img": "13.jpg",
+   "elements": [
+    {
+     "type": "caption",
+     "words": [
+      "NIMA",
+      "QILISHDI?"
+     ],
+     "color": "white",
+     "y": 1330,
+     "size": 92,
+     "at": "nima qildi"
+    },
+    {
+     "type": "mark",
+     "shape": "arrow",
+     "x": 540,
+     "y": 900,
+     "w": 300,
+     "at": "eng qizig'i",
+     "label": "DIQQAT!",
+     "color": [
+      214,
+      92,
+      48
+     ]
+    }
+   ],
+   "vo": "vo_14.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M"
+  },
+  {
+   "n": 15,
+   "speaker": "bekzod",
+   "text": "Rahbarlar: «Yaxshi ekan... lekin hech kimga aytma», deyishgan. Chunki ular plyonka sotib pul topardi.",
+   "tts": "[serious] Rahbarlar: «Yaxshi ekan... lekin hech kimga aytma», deyishgan. Chunki ular plyonka sotib pul topardi.",
+   "mood": "tension",
+   "img": "13b.jpg",
+   "elements": [
+    {
+     "type": "caption",
+     "words": [
+      "HECH KIMGA",
+      "AYTMA!"
+     ],
+     "color": "white",
+     "y": 1330,
+     "size": 92,
+     "at": "hech kimga"
+    },
+    {
+     "type": "prop",
+     "img": "p_g_qulf.jpg",
+     "x": 860,
+     "y": 700,
+     "h": 260,
+     "from": "pop",
+     "motion": "shake",
+     "at": "aytma"
+    },
+    {
+     "type": "prop",
+     "img": "p_plyonka.jpg",
+     "x": 220,
+     "y": 760,
+     "h": 220,
+     "from": "pop",
+     "motion": "pulse",
+     "at": "plyonka"
+    }
+   ],
+   "vo": "vo_15.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M",
+   "imgs": [
+    [
+     "13.jpg",
+     "plyonka"
+    ]
+   ]
+  },
+  {
+   "n": 16,
+   "speaker": "bekzod",
+   "text": "2012-yili esa Kodak bankrot bo'ldi. Uni o'zi yashirgan ixtiro yengdi.",
+   "tts": "[surprised] Ikki ming o'n ikkinchi yili esa Kodak bankrot bo'ldi. Uni o'zi yashirgan ixtiro yengdi.",
+   "mood": "tension",
+   "img": "14.jpg",
+   "elements": [
+    {
+     "type": "tag",
+     "head": "YIL",
+     "text": "2012",
+     "x": 170,
+     "y": 210,
+     "color": "red",
+     "at": "start"
+    },
+    {
+     "type": "stamp",
+     "text": "BANKROT!",
+     "y": 1350,
+     "rot": -6,
+     "at": "bankrot"
+    }
+   ],
+   "vo": "vo_16.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M"
+  },
+  {
+   "n": 17,
+   "speaker": "shahnoza",
+   "text": "Madina, o'sha 36 ta kadrni haliyam saqlayman. Mushuk ham bor.",
+   "tts": "[warmly] Madina, o'sha o'ttiz oltita kadrni haliyam saqlayman. Mushuk ham bor.",
+   "mood": "nostalgia",
+   "img": "15.jpg",
+   "elements": [
+    {
+     "type": "bubble",
+     "speaker": "FERUZA OPA",
+     "x": 540,
+     "y": 330,
+     "at": "start",
+     "hl": {
+      "36": "red"
+     },
+     "tail": "down",
+     "tail_x": 0.25,
+     "tag": "orange",
+     "w": 880
+    },
+    {
+     "type": "char",
+     "img": "c_feruza_xotira.jpg",
+     "from": "left",
+     "x": 270,
+     "y": 1440,
+     "h": 680,
+     "at": 0.1,
+     "motion": "bounce",
+     "talk": [
+      "vo"
+     ],
+     "label": "FERUZA OPA",
+     "label_bg": "orange"
+    },
+    {
+     "type": "prop",
+     "img": "p_g_mushuk.jpg",
+     "x": 860,
+     "y": 760,
+     "h": 240,
+     "from": "pop",
+     "motion": "pulse",
+     "at": "Mushuk"
+    }
+   ],
+   "vo": "vo_17.mp3",
+   "voice_id": "eggZu1Ffe4if51TKev2v",
+   "imgs": [
+    [
+     "16.jpg",
+     "saqlayman"
+    ]
+   ]
+  },
+  {
+   "n": 18,
+   "speaker": "bekzod",
+   "text": "Sizning uyingizdagi eng eski surat kimniki? Izohda yozing!",
+   "tts": "[playful] Sizning uyingizdagi eng eski surat kimniki? Izohda yozing!",
+   "mood": "nostalgia",
+   "img": "16.jpg",
+   "elements": [
+    {
+     "type": "final",
+     "lines": [
+      "ENG ESKI SURATINGIZ",
+      "KIMNIKI?"
+     ],
+     "at": 0.4
+    }
+   ],
+   "vo": "vo_18.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M"
+  }
+ ]
+}

@@ -1,0 +1,162 @@
+{
+ "c_madina.jpg": {
+  "prompt": "vertical 9:16, no text, no letters, no logos, nostalgic 35mm film photograph portrait of a single person, half body, realistic natural proportions, warm faded Kodachrome colors, soft film grain, isolated on a clean plain white background, no background scenery. Uzbek teenage girl Madina, 15, long ponytail, pink hoodie, holding up a smartphone taking a selfie with a big duck-face pout",
+  "ref": null
+ },
+ "c_madina_kulgi.jpg": {
+  "prompt": "vertical 9:16, no text, no letters, no logos, nostalgic 35mm film photograph portrait of a single person, half body, realistic natural proportions, warm faded Kodachrome colors, soft film grain, isolated on a clean plain white background, no background scenery. Same girl as in the reference image (Uzbek teenage girl Madina, 15, long ponytail, pink hoodie), laughing loudly, hand on belly",
+  "ref": "c_madina.jpg"
+ },
+ "c_feruza.jpg": {
+  "prompt": "vertical 9:16, no text, no letters, no logos, nostalgic 35mm film photograph portrait of a single person, half body, realistic natural proportions, warm faded Kodachrome colors, soft film grain, isolated on a clean plain white background, no background scenery. Uzbek woman Feruza, 44, shoulder-length dark hair, mustard-yellow cardigan, kind lively eyes, warm amused smile, arms crossed",
+  "ref": null
+ },
+ "c_feruza_xotira.jpg": {
+  "prompt": "vertical 9:16, no text, no letters, no logos, nostalgic 35mm film photograph portrait of a single person, half body, realistic natural proportions, warm faded Kodachrome colors, soft film grain, isolated on a clean plain white background, no background scenery. Same woman as in the reference image (Uzbek woman Feruza, 44, shoulder-length dark hair, mustard-yellow cardigan, kind lively eyes), holding an old printed photo with both hands, nostalgic teary smile",
+  "ref": "c_feruza.jpg"
+ },
+ "c_feruza_kid.jpg": {
+  "prompt": "vertical 9:16, no text, no letters, no logos, nostalgic 35mm film photograph portrait of a single person, half body, realistic natural proportions, warm faded Kodachrome colors, soft film grain, isolated on a clean plain white background, no background scenery. Uzbek girl Feruza, 14, two braids, red school pinafore dress with white blouse, 1996, holding a heavy old black Soviet film camera with both hands, excited",
+  "ref": null
+ },
+ "c_hamid.jpg": {
+  "prompt": "vertical 9:16, no text, no letters, no logos, nostalgic 35mm film photograph portrait of a single person, half body, realistic natural proportions, warm faded Kodachrome colors, soft film grain, isolated on a clean plain white background, no background scenery. Uzbek father Hamid, 48, thick mustache, grey sweater vest over checked shirt, 1996, raising a strict warning finger, serious face",
+  "ref": null
+ },
+ "p_zenit.jpg": {
+  "prompt": "vertical 9:16, no text, no letters, no logos, single object, centered, realistic photo, warm faded colors, soft grain, isolated on a clean plain white background. an old black Soviet single-lens reflex film camera with silver top and leather case",
+  "ref": null
+ },
+ "p_plyonka.jpg": {
+  "prompt": "vertical 9:16, no text, no letters, no logos, single object, centered, realistic photo, warm faded colors, soft grain, isolated on a clean plain white background. a yellow and black 35mm film roll canister with film strip pulled out",
+  "ref": null
+ },
+ "p_kodak_cam.jpg": {
+  "prompt": "vertical 9:16, no text, no letters, no logos, single object, centered, realistic photo, warm faded colors, soft grain, isolated on a clean plain white background. a 1975 prototype digital camera: big boxy toaster-sized metal device with lens on front and a cassette tape deck on its side, exposed circuit boards",
+  "ref": null
+ },
+ "01.jpg": {
+  "prompt": "vertical 9:16, no text, no letters, no logos, nostalgic 35mm film photograph, realistic people with natural proportions, warm faded Kodachrome colors, soft film grain, slight light leaks, cinematic composition. mysterious dark 1970s corporate lab, a strange boxy toaster-sized camera prototype with a cassette deck sitting under a single spotlight, a man in a suit hiding it under a cloth",
+  "ref": null
+ },
+ "02.jpg": {
+  "prompt": "vertical 9:16, no text, no letters, no logos, nostalgic 35mm film photograph, realistic people with natural proportions, warm faded Kodachrome colors, soft film grain, slight light leaks, cinematic composition. modern Uzbek apartment living room, Uzbek teenage girl Madina, 15, long ponytail, pink hoodie on sofa scrolling a phone gallery full of hundreds of nearly identical selfies, phone screen glow on her face",
+  "ref": null
+ },
+ "02b.jpg": {
+  "prompt": "vertical 9:16, no text, no letters, no logos, nostalgic 35mm film photograph, realistic people with natural proportions, warm faded Kodachrome colors, soft film grain, slight light leaks, cinematic composition. close-up of a smartphone screen showing a huge grid of tiny selfie thumbnails, a teen thumb scrolling fast, motion blur",
+  "ref": null
+ },
+ "03.jpg": {
+  "prompt": "vertical 9:16, no text, no letters, no logos, nostalgic 35mm film photograph, realistic people with natural proportions, warm faded Kodachrome colors, soft film grain, slight light leaks, cinematic composition. Uzbek teenage girl Madina, 15, long ponytail, pink hoodie sitting on sofa showing phone to her mother Uzbek woman Feruza, 44, shoulder-length dark hair, mustard-yellow cardigan, kind lively eyes who stands laughing with a tea cup, cozy modern Tashkent apartment",
+  "ref": null
+ },
+ "04.jpg": {
+  "prompt": "vertical 9:16, no text, no letters, no logos, nostalgic 35mm film photograph, realistic people with natural proportions, warm faded Kodachrome colors, soft film grain, slight light leaks, cinematic composition. Uzbek woman Feruza, 44, shoulder-length dark hair, mustard-yellow cardigan, kind lively eyes laughing and holding up three fingers then six, her daughter Uzbek teenage girl Madina, 15, long ponytail, pink hoodie shocked, modern kitchen",
+  "ref": null
+ },
+ "05.jpg": {
+  "prompt": "vertical 9:16, no text, no letters, no logos, nostalgic 35mm film photograph, realistic people with natural proportions, warm faded Kodachrome colors, soft film grain, slight light leaks, cinematic composition. 1996 Uzbek apartment with carpet on wall and old wooden furniture, Uzbek girl Feruza, 14, two braids, red school pinafore dress with white blouse, 1996 lifting a heavy black Soviet film camera from a sideboard shelf, sunlight through lace curtains",
+  "ref": null
+ },
+ "05b.jpg": {
+  "prompt": "vertical 9:16, no text, no letters, no logos, nostalgic 35mm film photograph, realistic people with natural proportions, warm faded Kodachrome colors, soft film grain, slight light leaks, cinematic composition. close-up of a girl's small hands holding a heavy old black Soviet film camera, film advance lever, 1996, warm sunlight",
+  "ref": null
+ },
+ "06.jpg": {
+  "prompt": "vertical 9:16, no text, no letters, no logos, nostalgic 35mm film photograph, realistic people with natural proportions, warm faded Kodachrome colors, soft film grain, slight light leaks, cinematic composition. 1996 Uzbek apartment, Uzbek father Hamid, 48, thick mustache, grey sweater vest over checked shirt, 1996 raising a strict warning finger at his daughter Uzbek girl Feruza, 14, two braids, red school pinafore dress with white blouse, 1996 who holds a film camera, carpet on wall",
+  "ref": null
+ },
+ "06b.jpg": {
+  "prompt": "vertical 9:16, no text, no letters, no logos, nostalgic 35mm film photograph, realistic people with natural proportions, warm faded Kodachrome colors, soft film grain, slight light leaks, cinematic composition. close-up of an old camera frame counter window showing a small number, film camera top plate, 1996, shallow depth of field",
+  "ref": null
+ },
+ "07.jpg": {
+  "prompt": "vertical 9:16, no text, no letters, no logos, nostalgic 35mm film photograph, realistic people with natural proportions, warm faded Kodachrome colors, soft film grain, slight light leaks, cinematic composition. 1996 courtyard of Uzbek mahalla, Uzbek girl Feruza, 14, two braids, red school pinafore dress with white blouse, 1996 crouching and photographing a fluffy ginger cat sleeping on a sunny wall, grapevine above",
+  "ref": null
+ },
+ "07b.jpg": {
+  "prompt": "vertical 9:16, no text, no letters, no logos, nostalgic 35mm film photograph, realistic people with natural proportions, warm faded Kodachrome colors, soft film grain, slight light leaks, cinematic composition. the same fluffy ginger cat yawning widely on a sunny mahalla wall, the girl with a camera behind it, 1996",
+  "ref": null
+ },
+ "08.jpg": {
+  "prompt": "vertical 9:16, no text, no letters, no logos, nostalgic 35mm film photograph, realistic people with natural proportions, warm faded Kodachrome colors, soft film grain, slight light leaks, cinematic composition. 1990s small Soviet-era photo studio counter in Tashkent, Uzbek girl Feruza, 14, two braids, red school pinafore dress with white blouse, 1996 handing a film roll canister to an elderly photographer with glasses, wall of framed portraits",
+  "ref": null
+ },
+ "08b.jpg": {
+  "prompt": "vertical 9:16, no text, no letters, no logos, nostalgic 35mm film photograph, realistic people with natural proportions, warm faded Kodachrome colors, soft film grain, slight light leaks, cinematic composition. wall calendar from 1996 with days being crossed out one by one, a girl waiting impatiently by a window, chin on hands",
+  "ref": null
+ },
+ "09.jpg": {
+  "prompt": "vertical 9:16, no text, no letters, no logos, nostalgic 35mm film photograph, realistic people with natural proportions, warm faded Kodachrome colors, soft film grain, slight light leaks, cinematic composition. a pile of printed 1990s 10x15 photos on a table: blurry shots, closed eyes, a big finger covering the lens, a cat's tail; a teen girl's hands spreading them",
+  "ref": null
+ },
+ "09b.jpg": {
+  "prompt": "vertical 9:16, no text, no letters, no logos, nostalgic 35mm film photograph, realistic people with natural proportions, warm faded Kodachrome colors, soft film grain, slight light leaks, cinematic composition. close-up of an old printed family photo where a big blurry thumb covers half of the frame, 1996, faded colors",
+  "ref": null
+ },
+ "10.jpg": {
+  "prompt": "vertical 9:16, no text, no letters, no logos, nostalgic 35mm film photograph, realistic people with natural proportions, warm faded Kodachrome colors, soft film grain, slight light leaks, cinematic composition. 1975 Rochester New York engineering lab, young engineer with glasses and 1970s sideburns assembling a boxy prototype digital camera with circuit boards and a cassette deck, wires everywhere",
+  "ref": null
+ },
+ "10b.jpg": {
+  "prompt": "vertical 9:16, no text, no letters, no logos, nostalgic 35mm film photograph, realistic people with natural proportions, warm faded Kodachrome colors, soft film grain, slight light leaks, cinematic composition. 1975 lab, the same young engineer carrying the heavy boxy prototype camera with both arms, straining, colleagues watching",
+  "ref": null
+ },
+ "11.jpg": {
+  "prompt": "vertical 9:16, no text, no letters, no logos, nostalgic 35mm film photograph, realistic people with natural proportions, warm faded Kodachrome colors, soft film grain, slight light leaks, cinematic composition. 1975 lab, a small old TV monitor displaying a very blurry black-and-white low-resolution picture of a woman, the engineer and a colleague staring at it, clock on wall",
+  "ref": null
+ },
+ "12.jpg": {
+  "prompt": "vertical 9:16, no text, no letters, no logos, nostalgic 35mm film photograph, realistic people with natural proportions, warm faded Kodachrome colors, soft film grain, slight light leaks, cinematic composition. Uzbek teenage girl Madina, 15, long ponytail, pink hoodie laughing on sofa, rapidly taking selfies with a phone, multiple flash bursts, modern apartment",
+  "ref": null
+ },
+ "13.jpg": {
+  "prompt": "vertical 9:16, no text, no letters, no logos, nostalgic 35mm film photograph, realistic people with natural proportions, warm faded Kodachrome colors, soft film grain, slight light leaks, cinematic composition. 1976 corporate boardroom, serious executives in suits around a long table looking at a boxy prototype camera, one executive raising a hand saying stop, film rolls stacked on table",
+  "ref": null
+ },
+ "13b.jpg": {
+  "prompt": "vertical 9:16, no text, no letters, no logos, nostalgic 35mm film photograph, realistic people with natural proportions, warm faded Kodachrome colors, soft film grain, slight light leaks, cinematic composition. a desk drawer being closed on the boxy prototype digital camera, a hand locking it with a small key, dark office",
+  "ref": null
+ },
+ "14.jpg": {
+  "prompt": "vertical 9:16, no text, no letters, no logos, nostalgic 35mm film photograph, realistic people with natural proportions, warm faded Kodachrome colors, soft film grain, slight light leaks, cinematic composition. an abandoned empty old film camera store with dusty shelves of yellow film boxes, closed sign on door, gray winter light, 2012",
+  "ref": null
+ },
+ "15.jpg": {
+  "prompt": "vertical 9:16, no text, no letters, no logos, nostalgic 35mm film photograph, realistic people with natural proportions, warm faded Kodachrome colors, soft film grain, slight light leaks, cinematic composition. Uzbek woman Feruza, 44, shoulder-length dark hair, mustard-yellow cardigan, kind lively eyes and Uzbek teenage girl Madina, 15, long ponytail, pink hoodie sitting together on sofa looking through an old photo album, the daughter laughing at a photo of a ginger cat, warm lamp light",
+  "ref": null
+ },
+ "16.jpg": {
+  "prompt": "vertical 9:16, no text, no letters, no logos, nostalgic 35mm film photograph, realistic people with natural proportions, warm faded Kodachrome colors, soft film grain, slight light leaks, cinematic composition. an old open family photo album with faded 1990s photos on a table next to a modern smartphone, warm evening light, nostalgic still life",
+  "ref": null
+ },
+ "p_g_kulgi.jpg": {
+  "prompt": "vertical 9:16, no text, no letters, flat bold comic sticker icon with thick black outline, bright colors, isolated on pure white background. laughing face emoji with tears of joy",
+  "ref": null
+ },
+ "p_g_soat.jpg": {
+  "prompt": "vertical 9:16, no text, no letters, flat bold comic sticker icon with thick black outline, bright colors, isolated on pure white background. round alarm clock with motion lines",
+  "ref": null
+ },
+ "p_g_qulf.jpg": {
+  "prompt": "vertical 9:16, no text, no letters, flat bold comic sticker icon with thick black outline, bright colors, isolated on pure white background. golden padlock, closed",
+  "ref": null
+ },
+ "p_g_mushuk.jpg": {
+  "prompt": "vertical 9:16, no text, no letters, flat bold comic sticker icon with thick black outline, bright colors, isolated on pure white background. cute ginger cat head with surprised face",
+  "ref": null
+ },
+ "p_g_chaqmoq.jpg": {
+  "prompt": "vertical 9:16, no text, no letters, flat bold comic sticker icon with thick black outline, bright colors, isolated on pure white background. camera flash burst star, yellow",
+  "ref": null
+ },
+ "p_g_undov.jpg": {
+  "prompt": "vertical 9:16, no text, no letters, flat bold comic sticker icon with thick black outline, bright colors, isolated on pure white background. big red exclamation mark",
+  "ref": null
+ },
+ "cover.jpg": {
+  "prompt": "vertical 9:16, no text, no letters, no logos, nostalgic 35mm film photograph, realistic people with natural proportions, warm faded Kodachrome colors, soft film grain, slight light leaks, cinematic composition. Uzbek woman Feruza, 44, shoulder-length dark hair, mustard-yellow cardigan, kind lively eyes holding an old Soviet film camera next to Uzbek teenage girl Madina, 15, long ponytail, pink hoodie holding a smartphone, both laughing, half old 1996 faded photo look, half modern, split composition",
+  "ref": null
+ }
+}

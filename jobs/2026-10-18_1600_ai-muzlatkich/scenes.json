@@ -522,8 +522,8 @@
   {
    "n": 8,
    "speaker": "sardor",
-   "text": "Sovuqjon, iltimos... faqat bitta kolbasa. Bitta!",
-   "tts": "[desperate] Sovuqjon, iltimos... faqat bitta kolbasa. Bitta!",
+   "text": "Sovuqjon, iltimos... bitta kolbasa, xolos. Faqat bitta!",
+   "tts": "[desperate] Sovuqjon, iltimos... bitta kolbasa, xolos. Faqat bitta!",
    "mood": "warm",
    "img": "08.jpg",
    "elements": [

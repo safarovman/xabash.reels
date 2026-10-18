@@ -765,8 +765,8 @@
   {
    "n": 15,
    "speaker": "bekzod",
-   "text": "Bir ishora: Temur egallagan joy yonidan Chubuq soyi oqardi.",
-   "tts": "[mysterious] Bir ishora: Temur egallagan joy yonidan Chubuq soyi oqardi.",
+   "text": "Bir ishora: Temur turgan joyning yonidan Chubuq soyi oqib o'tardi.",
+   "tts": "[mysterious] Bir ishora: Temur turgan joyning yonidan Chubuq soyi oqib o'tardi.",
    "mood": "tense",
    "img": "15.jpg",
    "elements": [
@@ -787,7 +787,7 @@
      "x": 540,
      "y": 860,
      "w": 380,
-     "at": "oqardi",
+     "at": "oqib o'tardi",
      "color": [
       226,
       176,
@@ -930,8 +930,8 @@
   {
    "n": 19,
    "speaker": "bekzod",
-   "text": "Bu — Usmonli sultoni shaxsan asir olingan yagona holat.",
-   "tts": "[serious] Bu — Usmonli sultoni shaxsan asir olingan yagona holat.",
+   "text": "Tarixda Usmonli sultoni shaxsan asir olingan yagona holat — aynan shu.",
+   "tts": "[serious] Tarixda Usmonli sultoni shaxsan asir olingan yagona holat — aynan shu.",
    "mood": "warm",
    "img": "19.jpg",
    "elements": [

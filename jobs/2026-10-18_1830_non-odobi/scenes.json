@@ -514,8 +514,8 @@
   {
    "n": 9,
    "speaker": "jahongir",
-   "text": "Tong otmasdan tandir qiziydi. Qani, o'zing yopib ko'r-chi.",
-   "tts": "[warmly] Tong otmasdan tandir qiziydi. Qani, o'zing yopib ko'r-chi.",
+   "text": "Tandir tong otmasdan qiziydi. Qani, o'zing bir yopib ko'r-chi.",
+   "tts": "[warmly] Tandir tong otmasdan qiziydi. Qani, o'zing bir yopib ko'r-chi.",
    "mood": "groove",
    "img": "05b.jpg",
    "elements": [
@@ -553,7 +553,7 @@
      "h": 260,
      "from": "pop",
      "motion": "jump",
-     "at": "tandir qiziydi"
+     "at": "qiziydi"
     }
    ],
    "vo": "vo_09.mp3",
@@ -835,8 +835,8 @@
   {
    "n": 16,
    "speaker": "bekzod",
-   "text": "Novvoy uzoq jim turibdi. Va mana eng qizig'i...",
-   "tts": "[whispers] Novvoy uzoq jim turibdi. Va mana eng qizig'i...",
+   "text": "Novvoy bir muddat sukut saqlabdi. Endi eng qiziq joyi...",
+   "tts": "[mysterious] Novvoy bir muddat sukut saqlabdi. Endi eng qiziq joyi...",
    "mood": "groove",
    "img": "08.jpg",
    "elements": [
@@ -846,7 +846,7 @@
      "x": 900,
      "y": 760,
      "h": 260,
-     "at": "jim",
+     "at": "sukut",
      "motion": "pulse",
      "from": "pop",
      "rot": 0
@@ -860,7 +860,7 @@
      "color": "yellow",
      "y": 1330,
      "size": 96,
-     "at": "Novvoy uzoq"
+     "at": "Novvoy bir muddat"
     }
    ],
    "vo": "vo_16.mp3",

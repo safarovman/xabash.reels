@@ -25,3 +25,8 @@ O'zbekcha matnga ingliz ovozlari (Sarah, Charlie, Bill, Lily, Jessica) ISHLATILM
 14:30 anqara, 16:00 muzlatkich, 18:30 non-odobi, 21:00 yuzga-qol yasalib ulgurmadi → 19-okt 14:30/16:00/18:30/21:00 ga ko'chirildi (post.json dueAt).
 Bloklar: (1) egasining kompyuteri ulanmagan — Google Flow rasmlari va ElevenLabs mp3 yuklab olish imkonsiz; (2) ElevenLabs kreditlari 18-okt tunda tugagan (anqara 7/10 qator, muz qisman).
 Avvalgi konteynerdagi rasm/ovoz fayllari yo'qolgan (repo'da yo'q) — kompyuter ulanganda Flow'dan qayta yig'ish kerak. 19-okt 08:00/10:30/12:30 uchun video yo'q.
+
+## 19-okt (03:05 holati)
+- Buffer'da: 14:30 anqara (6ad54213), 16:00 ai-muzlatkich (6ad54216), 18:30 non-odobi (6ad52a45), 21:00 yuzga-qol (6ad54219) — hammasi automatic, reel.
+- Egasi so'rovi: 08:00 (o'tmish), 10:30 (jahon tarixi), 12:30 (hozirgi zamon) — ketma-ket yasalyapti.
+- ElevenLabs kredit ~520 qoldi — yangi ovozlar uchun boshqa akkaunt kerak.

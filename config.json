@@ -77,37 +77,38 @@
     {
       "time": "08:00",
       "category": "o'tmish",
-      "theme": "o'tgan zamon: ota-bobolarimiz hayoti, eski Toshkent, SSSR davri, «bizning vaqtimizda» — hozirgi bilan hazil taqqoslash"
+      "theme": "o'tgan zamon: ota-bobolarimiz hayoti, eski Toshkent, SSSR davri, «bizning vaqtimizda» — hozirgi bilan hazil taqqoslash",
+      "account": "B"
     },
     {
       "time": "10:30",
       "category": "jahon tarixi",
-      "theme": "jahon tarixi: buyuk imperiyalar, janglar, kashfiyotlar, ixtirolar, g'alati tarixiy voqealar — tushuntirib, 3-4 qiziq tekshirilgan fakt bilan (agents/history_scout.md)"
+      "theme": "jahon tarixi: buyuk imperiyalar, janglar, kashfiyotlar, ixtirolar, g'alati tarixiy voqealar — tushuntirib, 3-4 qiziq tekshirilgan fakt bilan (agents/history_scout.md)",
+      "account": "B"
     },
     {
       "time": "12:30",
       "category": "hozirgi zamon",
-      "theme": "hozirgi o'zbekchilik: internet, telefon, o'yinlar, ish, pul, tirbandlik — hazil va qiziq faktlar"
+      "theme": "hozirgi o'zbekchilik: internet, telefon, o'yinlar, ish, pul, tirbandlik — hazil va qiziq faktlar",
+      "account": "B"
     },
     {
       "time": "14:30",
       "category": "O'zbekiston tarixi",
-      "theme": "O'zbekiston tarixi: Amir Temur va temuriylar, Somoniylar, Xorazmshohlar, Jaloliddin, Ulug'bek, Bobur, xonliklar, jadidlar, buyuk olimlar — yurish va voqealarni xarita va rasmlar bilan tasvirlab, qiziq faktlar bilan (agents/history_scout.md)"
-    },
-    {
-      "time": "16:00",
-      "category": "kelajak",
-      "theme": "kelajak: 2050-yil, koinot, sun'iy intellekt, robotlar, Marsdagi o'zbek to'yi — fantastik hazil + haqiqiy ilmiy fakt"
+      "theme": "O'zbekiston tarixi: Amir Temur va temuriylar, Somoniylar, Xorazmshohlar, Jaloliddin, Ulug'bek, Bobur, xonliklar, jadidlar, buyuk olimlar — yurish va voqealarni xarita va rasmlar bilan tasvirlab, qiziq faktlar bilan (agents/history_scout.md)",
+      "account": "A"
     },
     {
       "time": "18:30",
       "category": "urf-odat",
-      "theme": "urf-odatlar: to'y, mehmondorchilik, sovchilik, hayit, qo'shnichilik — mehr va hazil bilan, masxarasiz"
+      "theme": "urf-odatlar: to'y, mehmondorchilik, sovchilik, hayit, qo'shnichilik — mehr va hazil bilan, masxarasiz",
+      "account": "A"
     },
     {
       "time": "21:00",
       "category": "xatolar",
-      "theme": "odamlarda ko'p uchraydigan xatolar: kechiktirish, telefon, pul, sog'liq, o'qish — hazil + foydali xulosa (bugungi videolardek)"
+      "theme": "odamlarda ko'p uchraydigan xatolar: kechiktirish, telefon, pul, sog'liq, o'qish — hazil + foydali xulosa (bugungi videolardek)",
+      "account": "A"
     }
   ],
   "style": {
@@ -151,5 +152,26 @@
     "retention": "Stop-time: birinchi 1.5 s da to'xtatuvchi ilmoq, har 8-12 s da qayta ilmoq (kamida 3 ta), boshidagi va'da oxirida yechiladi, sahna 4-6 s dan oshmaydi (agents/hook_director.md)."
   },
   "no_trial": "Trial reel QILINMAYDI. Hamma video, 16:00 dagisi ham, oddiy Reels: schedulingType automatic, shouldShareToFeed true (profilda ko'rinadi).",
-  "videos_per_day": 7
+  "videos_per_day": 6,
+  "accounts": {
+    "A": {
+      "desc": "asosiy Claude akkaunt (rejalashtirilgan vazifa trig_01QZiexBLk2FjYwpYcsi5xVu)",
+      "run_local": "18:54",
+      "slots": [
+        "14:30",
+        "18:30",
+        "21:00"
+      ]
+    },
+    "B": {
+      "desc": "ikkinchi Claude Pro akkaunt (o'z rejalashtirilgan vazifasi)",
+      "run_local": "12:54",
+      "slots": [
+        "08:00",
+        "10:30",
+        "12:30"
+      ]
+    },
+    "note": "2026-10-18: egasi limitni tejash uchun 2 ta Claude Pro akkaunt ishlatadi. Har akkaunt faqat o'z slotlari uchun mavzu taklif qiladi, video yasaydi va Buffer'ga qo'yadi. Kelajak (16:00) slot olib tashlandi."
+  }
 }

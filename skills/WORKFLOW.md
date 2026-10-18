@@ -1,5 +1,15 @@
 # xabash.reels — to'liq ish tartibi (skill'lar saqlanmagan bo'lsa ham shu yetarli)
 
+## 0f. IKKI AKKAUNT, KUNIGA 6 TA VIDEO (2026-10-18, egasi — eng ustun)
+- **Kelajak (16:00) videolari endi yo'q.** 6 slot: 08:00 o'tmish · 10:30 jahon tarixi · 12:30 hozirgi zamon · 14:30 O'zbekiston tarixi · 18:30 urf-odat · 21:00 xatolar.
+- **Akkaunt B** (ikkinchi Claude, har kuni 12:54 da): ertangi **08:00, 10:30, 12:30** — mavzu taklifi (~13:00), video, QA, Buffer.
+- **Akkaunt A** (asosiy, har kuni 18:54 da): ertangi **14:30, 18:30, 21:00** — mavzu taklifi (~19:00), video, QA, Buffer.
+- Har akkaunt FAQAT o'z slotlariga tegadi. Boshqa akkauntning `jobs/` papkalari, Buffer postlari va media fayllarini o'zgartirmaydi. Ish boshida va har push'dan oldin `git pull --rebase`; konflikt bo'lsa faqat o'z fayllarini saqlab qayta urinadi.
+- Mavzular takrorlanmasin: taklif qilishdan oldin `topics_log.md` ni yangilab o'qing (ikkinchi akkaunt bugun yozgan qatorlar ham).
+- Ikkalasi bitta kompyuter brauzerida Google Flow bilan ishlaydi — vaqtlari ataylab ajratilgan (B kunduzi, A kechqurun). Flow'da o'z tabida ishlang; boshqa akkaunt hali ishlayotganini (oxirgi commit 30 daqiqa ichida, `SCHEDULE_NOTE.md` dagi "ishlayapti" belgisi) ko'rsangiz, Flow qadamini kutib turing.
+- `SCHEDULE_NOTE.md` ga boshlaganda "A/B ishlayapti <vaqt>" va tugaganda "A/B tugadi" deb yozing.
+- **Buffer**: "faqat 24 soat" qoidasi o'rniga — bepul rejadagi 10 ta rejalashtirilgan post limitidan oshmasa, tayyor videoni darhol o'z vaqtiga qo'ying (6 ta/kun sig'adi).
+
 ## 0d. KUNIGA 7 TA VIDEO, STOP-TIME, YANGI YAKUNIY SAVOL (2026-10-17, egasi — eng ustun)
 - **7 slot**: 08:00 o'tmish · **10:30 jahon tarixi** · 12:30 hozir · **14:30 O'zbekiston tarixi** · 16:00 kelajak · 18:30 urf-odat · 21:00 xatolar (`config.json → slots`). Tarix videolari: `agents/history_scout.md` (yurish va voqealar xarita + strelkalar va 2-3 kadrli sahnalar bilan, faktlar ishonchli manbadan, afsona alohida aytiladi).
 - **Ilmoq agenti** `agents/hook_director.md` ssenariyni ovozdan OLDIN ko'rib chiqadi: birinchi 1.5 s ilmoq, har 8-12 s re-hook (kamida 3), ochiq halqa oxirida yechiladi, sahna 4-6 s.

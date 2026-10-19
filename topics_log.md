@@ -28,3 +28,4 @@ Har yangi videoda qahramon, ochilish turi va dizayn (theme: shrift, palitra, fon
 | 2026-10-19 | 21:00 | Soatiga 23 marta yuzga qo'l (2015, 26 tibbiyot talabasi; 44% shilliq qavatga) | kassir Jasur + Zarina | tomoshabinga murojaat, noir uslub | rejalashtirildi (Buffer 6ad54219, automatic) |
 | 2026-10-19 | 13:20 | Yiliga 36 kun (DataReportal 2024: kuniga 2 soat 23 daqiqa ijtimoiy tarmoqda) | kuryer Otabek + onasi Dilbar opa | savol + raqamli va'da | rejalashtirildi (Buffer 6ad5d13a, automatic) |
 | 2026-10-20 | 08:00 | 36 ta kadr (Kodak, S. Sasson 1975: birinchi raqamli fotoapparat; Kodak bankrot 2012) | Feruza opa (44) + qizi Madina (15) + 1996-da Hamid aka | qiziqish bo'shlig'i | rejalashtirildi (Buffer 6ad5e94a, automatic) |
+| 2026-10-20 | 10:30 | Napoleon pakana emasdi (Gillray karikaturalari; 5 fr. fut 2 dyuym = ~169 sm) | o'quvchi Kamola (17) + ustoz Baxtiyor aka | afsonani buzish | rejalashtirildi (Buffer 6ad5edf3, automatic) |

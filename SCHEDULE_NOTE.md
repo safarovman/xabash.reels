@@ -30,3 +30,8 @@ Avvalgi konteynerdagi rasm/ovoz fayllari yo'qolgan (repo'da yo'q) — kompyuter 
 - Buffer'da: 14:30 anqara (6ad54213), 16:00 ai-muzlatkich (6ad54216), 18:30 non-odobi (6ad52a45), 21:00 yuzga-qol (6ad54219) — hammasi automatic, reel.
 - Egasi so'rovi: 08:00 (o'tmish), 10:30 (jahon tarixi), 12:30 (hozirgi zamon) — ketma-ket yasalyapti.
 - ElevenLabs kredit ~520 qoldi — yangi ovozlar uchun boshqa akkaunt kerak.
+
+## 19-okt kunduzi
+- 13:20 «Yiliga 36 kun» (Buffer 6ad5d13a). Egasi bugungi 5 ta video uchun yangi hook'li nusxalarni o'zi sinov (trial) rejimida joylaydi — jobs/*_hook; Buffer'dagilar o'zgarmadi.
+- 20-okt: 08:00 «36 ta kadr» (6ad5e94a), 10:30 «Napoleon pakana emasdi» (6ad5edf3).
+- ElevenLabs: yangi akkaunt, flow O1Xu6Si8vMxJc7g9SnrC.

@@ -151,7 +151,7 @@
     "final_question": "Oxirida '1 — ha, 2 — yo'q' / '1·2·3' kabi ovoz berish YO'Q. Izohga chorlaydigan ochiq savol: shaxsiy hikoya, gapni davom ettirish, bahs, do'stni belgilash, 'siz bo'lganingizda', keyingi qism, bilim sinovi (agents/hook_director.md); oxirgi 5 videoda takrorlanmasin.",
     "retention": "Stop-time: birinchi 1.5 s da to'xtatuvchi ilmoq, har 8-12 s da qayta ilmoq (kamida 3 ta), boshidagi va'da oxirida yechiladi, sahna 4-6 s dan oshmaydi (agents/hook_director.md)."
   },
-  "no_trial": "Trial reel QILINMAYDI. Hamma video, 16:00 dagisi ham, oddiy Reels: schedulingType automatic, shouldShareToFeed true (profilda ko'rinadi).",
+  "no_trial": "Trial reel QILINMAYDI. Hamma video oddiy Reels: schedulingType automatic, shouldShareToFeed true (profilda ko'rinadi).",
   "videos_per_day": 6,
   "accounts": {
     "A": {

@@ -1,7 +1,7 @@
 # xabash.reels — to'liq ish tartibi (skill'lar saqlanmagan bo'lsa ham shu yetarli)
 
 ## 0f. IKKI AKKAUNT, KUNIGA 6 TA VIDEO (2026-10-18, egasi — eng ustun)
-- **Kelajak (16:00) videolari endi yo'q.** 6 slot: 08:00 o'tmish · 10:30 jahon tarixi · 12:30 hozirgi zamon · 14:30 O'zbekiston tarixi · 18:30 urf-odat · 21:00 xatolar.
+- **Kelajak (16:00) videolari endi yo'q (egasi 20-okt 00:16 yana tasdiqladi — hech qachon qilinmaydi).** 6 slot: 08:00 o'tmish · 10:30 jahon tarixi · 12:30 hozirgi zamon · 14:30 O'zbekiston tarixi · 18:30 urf-odat · 21:00 xatolar.
 - **Akkaunt B** (ikkinchi Claude, har kuni 12:54 da): ertangi **08:00, 10:30, 12:30** — mavzu taklifi (~13:00), video, QA, Buffer.
 - **Akkaunt A** (asosiy, har kuni 18:54 da): ertangi **14:30, 18:30, 21:00** — mavzu taklifi (~19:00), video, QA, Buffer.
 - Har akkaunt FAQAT o'z slotlariga tegadi. Boshqa akkauntning `jobs/` papkalari, Buffer postlari va media fayllarini o'zgartirmaydi. Ish boshida va har push'dan oldin `git pull --rebase`; konflikt bo'lsa faqat o'z fayllarini saqlab qayta urinadi.
@@ -11,7 +11,7 @@
 - **Buffer**: "faqat 24 soat" qoidasi o'rniga — bepul rejadagi 10 ta rejalashtirilgan post limitidan oshmasa, tayyor videoni darhol o'z vaqtiga qo'ying (6 ta/kun sig'adi).
 
 ## 0d. KUNIGA 7 TA VIDEO, STOP-TIME, YANGI YAKUNIY SAVOL (2026-10-17, egasi — eng ustun)
-- **7 slot**: 08:00 o'tmish · **10:30 jahon tarixi** · 12:30 hozir · **14:30 O'zbekiston tarixi** · 16:00 kelajak · 18:30 urf-odat · 21:00 xatolar (`config.json → slots`). Tarix videolari: `agents/history_scout.md` (yurish va voqealar xarita + strelkalar va 2-3 kadrli sahnalar bilan, faktlar ishonchli manbadan, afsona alohida aytiladi).
+- **6 slot**: 08:00 o'tmish · **10:30 jahon tarixi** · 12:30 hozir · **14:30 O'zbekiston tarixi** · 18:30 urf-odat · 21:00 xatolar (`config.json → slots`). Tarix videolari: `agents/history_scout.md` (yurish va voqealar xarita + strelkalar va 2-3 kadrli sahnalar bilan, faktlar ishonchli manbadan, afsona alohida aytiladi).
 - **Ilmoq agenti** `agents/hook_director.md` ssenariyni ovozdan OLDIN ko'rib chiqadi: birinchi 1.5 s ilmoq, har 8-12 s re-hook (kamida 3), ochiq halqa oxirida yechiladi, sahna 4-6 s.
 - **Yakuniy savol**: '1 — ha, 2 — yo'q' / '1·2·3' ISHLATILMAYDI. Izohga chorlaydigan ochiq savol (shaxsiy hikoya, davom ettirish, bahs, do'stni belgilash, bilim sinovi...). Caption'dagi savol ham shunday.
 - **Javobni oxiriga** (egasi 17-okt): ilmoqda va'da qilingan javob/asosiy fakt videoning oxirgi 15-20% qismida beriladi, o'rtada emas (`agents/hook_director.md` 1b).
@@ -32,10 +32,10 @@
 - **Musiqa mavzuga qarab**: `scenes.json → "music": {"genre": ..., "bpm": ..., "key": ..., "scale": ...}` (janrlar `reel/music.py` GENRES), oxirgi 3 videoda takrorlanmaydi; har videoda yangi `music_seed`. Egasi bergan trek: `"music": {"file": "music.mp3"}`.
 
 ## 0a. TRIAL REEL YO'Q (2026-10-15)
-- Trial reel qilinmaydi. Hamma video, 16:00 dagisi ham, oddiy Reels: `schedulingType: automatic`, `shouldShareToFeed: true` — profilda ko'rinadi. `notification` ishlatilmaydi.
+- Trial reel qilinmaydi. Hamma video oddiy Reels: `schedulingType: automatic`, `shouldShareToFeed: true` — profilda ko'rinadi. `notification` ishlatilmaydi.
 
 ## 0. YANGI QOIDALAR (2026-10-14, egasi aytgan — eng ustun)
-- Kuniga 5 ta video (Asia/Tashkent): **08:00 o'tmish** (ota-bobolar zamoni vs hozir) · **12:30 hozirgi zamon** (internet, o'yinlar, ish, pul) · **16:00 kelajak** (koinot, AI, 2050 — oddiy Reels, avtomatik) · **18:30 urf-odatlar** · **21:00 odamlardagi ko'p xatolar**. Hammasi hazil-mutoyibali + tekshirilgan qiziq fakt. `config.json` → `slots`, `video_rules`.
+- Kuniga 5 ta video (Asia/Tashkent): **08:00 o'tmish** (ota-bobolar zamoni vs hozir) · **12:30 hozirgi zamon** (internet, o'yinlar, ish, pul) · **18:30 urf-odatlar** · **21:00 odamlardagi ko'p xatolar**. Hammasi hazil-mutoyibali + tekshirilgan qiziq fakt. `config.json` → `slots`, `video_rules`.
 - Davomiylik ~60 s. 2–3 personaj gapiradi (masalan dadasi: «Ex bolam, mening vaqtimda...»), har biri boshqa ElevenLabs ovozida. Ovoz bo'laklari uzunroq (1–3 to'liq gap). Ekrandagi yozuvlar — to'liq, tugallangan gap.
 - Uslub namunasi: bitta qahramonning kuni, holat ko'rsatkichi (SABR/ENERGIYA %), soat, tez almashuvchi sahnalar, oxirida hisob-kitob varag'i. Boshqa sahifalarning logotip/brendini ishlatmang.
 - Qahramonni kesib qimirlatish YO'Q (`anim` default `static`). Har videoda faqat **1–2 sahnaga 2-kadr**: `img/NN_b.jpg` — Flow'da asl rasm tile menyusi → "Добавить в запрос" → "Edit the reference image: keep exactly the same ... Only one small change: ..." → yuborish (558,575). Dvigatel gap o'rtasida (yoki `img2_at` iborasida) 1-kadrdan 2-kadrga o'tadi.

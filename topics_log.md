@@ -26,3 +26,4 @@ Har yangi videoda qahramon, ochilish turi va dizayn (theme: shrift, palitra, fon
 | 2026-10-19 | 16:00 | Muzlatkichim meni parhezga solib qo'ydi (2045, AI muzlatkich Sovuqjon) | Jamshid (pijamada) + Sovuqjon (AI muzlatkich) | cold open | rejalashtirildi (Buffer 6ad54216, automatic) |
 | 2026-10-19 | 18:30 | Nonni teskari qo'yma (Samarqand noni rivoyati; 2022: kuniga ~15 000 non) | Sherzod (16) + Malika buvi + novvoy Rahmat aka | savol-ilmoq | rejalashtirildi (Buffer 6ad52a45, automatic) |
 | 2026-10-19 | 21:00 | Soatiga 23 marta yuzga qo'l (2015, 26 tibbiyot talabasi; 44% shilliq qavatga) | kassir Jasur + Zarina | tomoshabinga murojaat, noir uslub | rejalashtirildi (Buffer 6ad54219, automatic) |
+| 2026-10-19 | 13:20 | Yiliga 36 kun (DataReportal 2024: kuniga 2 soat 23 daqiqa ijtimoiy tarmoqda) | kuryer Otabek + onasi Dilbar opa | savol + raqamli va'da | rejalashtirildi (Buffer 6ad5d13a, automatic) |

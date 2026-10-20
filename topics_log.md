@@ -31,3 +31,4 @@ Har yangi videoda qahramon, ochilish turi va dizayn (theme: shrift, palitra, fon
 | 2026-10-20 | 10:30 | Napoleon pakana emasdi (Gillray karikaturalari; 5 fr. fut 2 dyuym = ~169 sm) | o'quvchi Kamola (17) + ustoz Baxtiyor aka | afsonani buzish | rejalashtirildi (Buffer 6ad5edf3, automatic) |
 | 2026-10-20 | 12:30 | 10 000 qadam afsonasi (Manpo-kei 1965; Lancet 2022 meta-tahlil) | Zuhra opa, Davron, Akmal aka · gouache · funk | rejalashtirildi (Buffer 6ad67fbb, automatic) |
 | 2026-10-20 | 14:30 | Jaloliddin Sind daryosidan qanday o'tdi? (1221, Juvayniy) | Jaloliddin, Chingizxon · matte painting · epic | rejalashtirildi (Buffer 6ad68832, automatic) |
+| 2026-10-21 | 05:00 | Chegirma tuzog'i (Anderson & Simester 2003: 39$ > 34$; JCPenney 2012 sotuv −25%) | Sevara, Botir aka, sotuvchi · pop-art · funk | rejalashtirildi (Buffer 6ad7a2b0, automatic) |

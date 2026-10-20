@@ -101,8 +101,8 @@
     {
      "type": "prop",
      "img": "p_g_savol.jpg",
-     "x": 860,
-     "y": 700,
+     "x": 200,
+     "y": 760,
      "h": 260,
      "from": "pop",
      "motion": "shake",

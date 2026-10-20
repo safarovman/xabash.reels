@@ -54,3 +54,6 @@ Savol ovozda ham, ekranda ham (`final` yoki katta yozuv) beriladi; caption'dagi 
 ## Natija
 Ssenariyni tahrirlab qaytaring + `jobs/<job>/brief_hooks.json`: `{"hook": "...", "hook_type": "...", "rehooks": [{"scene": 3, "text": "..."}], "open_loop": "...", "payoff_scene": 9, "final_question": "...", "question_type": "..."}`.
 Video yig'uvchi `topics_log.md` ga `ilmoq: <hook_type> · savol: <question_type>` yozadi.
+
+## Egasining talabi (2026-10-20)
+Ilmoq va o'tish iboralari har videoda **har xil** bo'lsin. «Javobni oxirida aytaman», «Endi diqqat — ...», «Mana eng qizig'i...», «Xo'sh, ...» kabi iboralarni har videoda takrorlama — oxirgi 5 videoda ishlatilgan ochilish va o'tish iboralarini `topics_log.md` / `jobs/*/scenes.json` dan tekshirib, yangisini o'yla (masalan: «Bu savolga javob sizni hayron qoldiradi», «Bir raqam hammasini o'zgartirdi», «Qolgani — hujjatlarda», «Lekin hikoya shu yerda burilib ketadi»).

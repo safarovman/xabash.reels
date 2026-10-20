@@ -32,3 +32,4 @@ Har yangi videoda qahramon, ochilish turi va dizayn (theme: shrift, palitra, fon
 | 2026-10-20 | 12:30 | 10 000 qadam afsonasi (Manpo-kei 1965; Lancet 2022 meta-tahlil) | Zuhra opa, Davron, Akmal aka · gouache · funk | rejalashtirildi (Buffer 6ad67fbb, automatic) |
 | 2026-10-20 | 14:30 | Jaloliddin Sind daryosidan qanday o'tdi? (1221, Juvayniy) | Jaloliddin, Chingizxon · matte painting · epic | rejalashtirildi (Buffer 6ad68832, automatic) |
 | 2026-10-21 | 05:00 | Chegirma tuzog'i (Anderson & Simester 2003: 39$ > 34$; JCPenney 2012 sotuv −25%) | Sevara, Botir aka, sotuvchi · pop-art · funk | rejalashtirildi (Buffer 6ad7a2b0, automatic) |
+| 2026-10-21 | 08:00 | Tesla minorasining siri (Wardenclyffe: Morgan 150 000$ 1901; 1906 to'xtadi; 1917 qarz uchun buzildi, 1 750$) | Aziz, fizika domlasi · sepia+ko'k · swing | rejalashtirildi (Buffer 6ad7a6ed, automatic) |

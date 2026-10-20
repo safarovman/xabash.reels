@@ -1,0 +1,625 @@
+{
+ "title": "Tesla minorasining siri",
+ "pace": "fast",
+ "music": {
+  "genre": "swing",
+  "bpm": 118,
+  "key": 1,
+  "scale": "minor",
+  "progression": [
+   0,
+   5,
+   3,
+   4
+  ]
+ },
+ "music_seed": 1917,
+ "music_gain": 0.75,
+ "cover_title": [
+  "TESLA MINORASI",
+  "NEGA PORTLATILDI?"
+ ],
+ "cover_sub": "Cheksiz tok: afsona va haqiqat",
+ "cover_scene": 0,
+ "cover": {
+  "layout": "hero",
+  "img": "cover.jpg",
+  "char": "c_domla.jpg",
+  "props": [
+   "p_g_chaqmoq.jpg"
+  ],
+  "badge": "1917",
+  "title_colors": [
+   [
+    245,
+    235,
+    210
+   ],
+   [
+    90,
+    190,
+    255
+   ]
+  ],
+  "accent": [
+   90,
+   190,
+   255
+  ],
+  "accent2": [
+   230,
+   170,
+   70
+  ]
+ },
+ "anim": "static",
+ "bright": true,
+ "theme": {
+  "font": "rye",
+  "font2": "specialelite",
+  "accent": [
+   90,
+   190,
+   255
+  ],
+  "accent2": [
+   230,
+   170,
+   70
+  ],
+  "bubble_bg": [
+   245,
+   236,
+   214
+  ],
+  "bubble_line": [
+   60,
+   90,
+   140
+  ],
+  "bubble_ink": [
+   40,
+   30,
+   20
+  ],
+  "bubble_dim": [
+   90,
+   120,
+   160
+  ],
+  "bubble_radius": 14,
+  "transitions": [
+   "flash",
+   "zoom",
+   "slide"
+  ],
+  "cut_fx": "flash"
+ },
+ "end_hold": 1.2,
+ "scenes": [
+  {
+   "n": 1,
+   "speaker": "b",
+   "text": "Nikola Tesla dunyoni simsiz tok bilan ta'minlamoqchi bo'lgan minora qurdi. Keyin uni portlatib yuborishdi. Nega?",
+   "tts": "[mysterious] Nikola Tesla dunyoni simsiz tok bilan ta'minlamoqchi bo'lgan minora qurdi. Keyin uni portlatib yuborishdi. Nega?",
+   "mood": "mystery",
+   "img": "01.jpg",
+   "elements": [
+    {
+     "type": "caption",
+     "words": [
+      "NEGA",
+      "PORTLATISHDI?"
+     ],
+     "color": "yellow",
+     "y": 1330,
+     "size": 92,
+     "at": "portlatib"
+    },
+    {
+     "type": "prop",
+     "img": "p_g_chaqmoq.jpg",
+     "x": 880,
+     "y": 640,
+     "h": 250,
+     "from": "pop",
+     "motion": "shake",
+     "at": "minora"
+    }
+   ],
+   "vo": "vo_01.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M"
+  },
+  {
+   "n": 2,
+   "speaker": "b",
+   "text": "Aziz javobni internetdan topdim deydi. Haqiqatni oxirida aytaman.",
+   "tts": "[playful] Aziz javobni internetdan topdim deydi. Haqiqatni oxirida aytaman.",
+   "mood": "groove",
+   "img": "01.jpg",
+   "elements": [
+    {
+     "type": "caption",
+     "words": [
+      "HAQIQAT",
+      "OXIRIDA!"
+     ],
+     "color": "white",
+     "y": 1330,
+     "size": 92,
+     "at": "Haqiqatni"
+    }
+   ],
+   "vo": "vo_02.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M"
+  },
+  {
+   "n": 3,
+   "speaker": "a",
+   "text": "Domla, Tesla cheksiz tok topgan, shuning uchun boylar uning minorasini buzdirgan!",
+   "tts": "[excited] Domla, Tesla cheksiz tok topgan, shuning uchun boylar uning minorasini buzdirgan!",
+   "mood": "groove",
+   "img": "02.jpg",
+   "elements": [
+    {
+     "type": "bubble",
+     "speaker": "AZIZ",
+     "x": 540,
+     "y": 330,
+     "at": "start",
+     "hl": {
+      "cheksiz": "red"
+     },
+     "tail": "down",
+     "tail_x": 0.75,
+     "tag": "blue",
+     "w": 880
+    },
+    {
+     "type": "char",
+     "img": "c_aziz.jpg",
+     "from": "right",
+     "x": 810,
+     "y": 1440,
+     "h": 680,
+     "at": 0.1,
+     "motion": "jump",
+     "talk": [
+      "vo"
+     ],
+     "label": "AZIZ, 16",
+     "label_bg": "blue"
+    }
+   ],
+   "vo": "vo_03.mp3",
+   "voice_id": "UjuEL3hLLUaDED9iW4Yb"
+  },
+  {
+   "n": 4,
+   "speaker": "d",
+   "text": "Shoshma, Aziz. Avval hujjatlarga qaraylik.",
+   "tts": "[chuckles] Shoshma, Aziz. Avval hujjatlarga qaraylik.",
+   "mood": "warm",
+   "img": "02.jpg",
+   "elements": [
+    {
+     "type": "bubble",
+     "speaker": "DOMLA",
+     "x": 540,
+     "y": 330,
+     "at": "start",
+     "hl": {
+      "hujjatlarga": "red"
+     },
+     "tail": "down",
+     "tail_x": 0.25,
+     "tag": "navy",
+     "w": 880
+    },
+    {
+     "type": "char",
+     "img": "c_domla.jpg",
+     "from": "left",
+     "x": 270,
+     "y": 1440,
+     "h": 680,
+     "at": 0.1,
+     "motion": "wag",
+     "talk": [
+      "vo"
+     ],
+     "label": "FIZIKA DOMLASI",
+     "label_bg": "navy"
+    }
+   ],
+   "vo": "vo_04.mp3",
+   "voice_id": "xDwfBjUEPdIoQekNOXAX"
+  },
+  {
+   "n": 5,
+   "speaker": "b",
+   "text": "1901-yil. Bankir Jon Pirpont Morgan Teslaga 150 ming dollar beradi.",
+   "tts": "[curious] Ming to'qqiz yuz birinchi yil. Bankir Jon Pirpont Morgan Teslaga bir yuz ellik ming dollar beradi.",
+   "mood": "groove",
+   "img": "03.jpg",
+   "elements": [
+    {
+     "type": "tag",
+     "head": "YIL",
+     "text": "1901",
+     "x": 540,
+     "y": 210,
+     "color": "royal",
+     "at": "start"
+    },
+    {
+     "type": "caption",
+     "words": [
+      "150 000",
+      "DOLLAR"
+     ],
+     "color": "yellow",
+     "y": 1330,
+     "size": 92,
+     "at": "150"
+    }
+   ],
+   "vo": "vo_05.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M"
+  },
+  {
+   "n": 6,
+   "speaker": "b",
+   "text": "Nyu-Yorkdagi Long-Aylendda 57 metrlik minora quriladi. Maqsad — okean orqali simsiz xabar yuborish.",
+   "tts": "[serious] Nyu-Yorkdagi Long-Aylendda ellik yetti metrlik minora quriladi. Maqsad — okean orqali simsiz xabar yuborish.",
+   "mood": "hero",
+   "img": "04.jpg",
+   "elements": [
+    {
+     "type": "caption",
+     "words": [
+      "57 METRLIK",
+      "MINORA"
+     ],
+     "color": "white",
+     "y": 1330,
+     "size": 92,
+     "at": "57"
+    },
+    {
+     "type": "prop",
+     "img": "p_g_konvert.jpg",
+     "x": 860,
+     "y": 700,
+     "h": 250,
+     "from": "pop",
+     "motion": "pulse",
+     "at": "xabar"
+    }
+   ],
+   "vo": "vo_06.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M"
+  },
+  {
+   "n": 7,
+   "speaker": "b",
+   "text": "Endi diqqat — o'sha yili kutilmagan voqea bo'ladi.",
+   "tts": "[whispers] Endi diqqat — o'sha yili kutilmagan voqea bo'ladi.",
+   "mood": "tension",
+   "img": "04.jpg",
+   "elements": [
+    {
+     "type": "caption",
+     "words": [
+      "KUTILMAGAN",
+      "VOQEA"
+     ],
+     "color": "white",
+     "y": 1330,
+     "size": 92,
+     "at": "kutilmagan"
+    },
+    {
+     "type": "prop",
+     "img": "p_g_undov.jpg",
+     "x": 860,
+     "y": 700,
+     "h": 250,
+     "from": "pop",
+     "motion": "shake",
+     "at": "diqqat"
+    }
+   ],
+   "vo": "vo_07.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M"
+  },
+  {
+   "n": 8,
+   "speaker": "b",
+   "text": "Italiyalik Markoni Atlantika okeani orqali birinchi radio signalni yuboradi. Ancha arzon uskunalar bilan.",
+   "tts": "[surprised] Italiyalik Markoni Atlantika okeani orqali birinchi radio signalni yuboradi. Ancha arzon uskunalar bilan.",
+   "mood": "tension",
+   "img": "05.jpg",
+   "elements": [
+    {
+     "type": "card",
+     "kicker": "1901, ATLANTIKA",
+     "title": [
+      "MARKONI"
+     ],
+     "sub": "birinchi transatlantik radio signal",
+     "at": "Markoni",
+     "y": 1330
+    }
+   ],
+   "vo": "vo_08.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M"
+  },
+  {
+   "n": 9,
+   "speaker": "b",
+   "text": "Tesla loyihani kattalashtirib, yana pul so'raydi. Morgan rad etadi. 1906-yilda ish butunlay to'xtaydi.",
+   "tts": "[serious] Tesla loyihani kattalashtirib, yana pul so'raydi. Morgan rad etadi. Ming to'qqiz yuz oltinchi yilda ish butunlay to'xtaydi.",
+   "mood": "tension",
+   "img": "06.jpg",
+   "elements": [
+    {
+     "type": "tag",
+     "head": "YIL",
+     "text": "1906",
+     "x": 540,
+     "y": 210,
+     "color": "royal",
+     "at": "start"
+    },
+    {
+     "type": "caption",
+     "words": [
+      "PUL",
+      "TUGADI"
+     ],
+     "color": "yellow",
+     "y": 1330,
+     "size": 92,
+     "at": "rad"
+    }
+   ],
+   "vo": "vo_09.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M"
+  },
+  {
+   "n": 10,
+   "speaker": "a",
+   "text": "Demak, minorani dushmanlar emas, pul yo'qligi to'xtatgan ekan-da?",
+   "tts": "[confused] Demak, minorani dushmanlar emas, pul yo'qligi to'xtatgan ekan-da?",
+   "mood": "groove",
+   "img": "07.jpg",
+   "elements": [
+    {
+     "type": "bubble",
+     "speaker": "AZIZ",
+     "x": 540,
+     "y": 330,
+     "at": "start",
+     "hl": {
+      "pul": "red"
+     },
+     "tail": "down",
+     "tail_x": 0.75,
+     "tag": "blue",
+     "w": 880
+    },
+    {
+     "type": "char",
+     "img": "c_aziz.jpg",
+     "from": "right",
+     "x": 810,
+     "y": 1440,
+     "h": 680,
+     "at": 0.1,
+     "motion": "wag",
+     "talk": [
+      "vo"
+     ],
+     "label": "AZIZ, 16",
+     "label_bg": "blue"
+    }
+   ],
+   "vo": "vo_10.mp3",
+   "voice_id": "UjuEL3hLLUaDED9iW4Yb"
+  },
+  {
+   "n": 11,
+   "speaker": "b",
+   "text": "Xo'sh, minora nega portlatildi? Mana eng qizig'i...",
+   "tts": "[mysterious] Xo'sh, minora nega portlatildi? Mana eng qizig'i...",
+   "mood": "mystery",
+   "img": "07.jpg",
+   "elements": [
+    {
+     "type": "caption",
+     "words": [
+      "NEGA",
+      "PORTLATILDI?"
+     ],
+     "color": "white",
+     "y": 1330,
+     "size": 92,
+     "at": "portlatildi"
+    },
+    {
+     "type": "prop",
+     "img": "p_g_savol.jpg",
+     "x": 860,
+     "y": 700,
+     "h": 250,
+     "from": "pop",
+     "motion": "shake",
+     "at": "qizig'i"
+    }
+   ],
+   "vo": "vo_11.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M"
+  },
+  {
+   "n": 12,
+   "speaker": "b",
+   "text": "Tesla «Valdorf-Astoriya» mehmonxonasiga 20 ming dollar qarz bo'lib qolgan edi. Minora shu qarz uchun garovda edi.",
+   "tts": "[serious] Tesla «Valdorf-Astoriya» mehmonxonasiga yigirma ming dollar qarz bo'lib qolgan edi. Minora shu qarz uchun garovda edi.",
+   "mood": "tension",
+   "img": "08.jpg",
+   "elements": [
+    {
+     "type": "card",
+     "kicker": "WALDORF-ASTORIA",
+     "title": [
+      "QARZ: 20 000 $"
+     ],
+     "sub": "minora garovda edi",
+     "at": "qarz",
+     "y": 1330
+    }
+   ],
+   "vo": "vo_12.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M"
+  },
+  {
+   "n": 13,
+   "speaker": "b",
+   "text": "1917-yilda minora portlatilib, temir-tersak sifatida 1 750 dollarga sotildi.",
+   "tts": "[sighs] Ming to'qqiz yuz o'n yettinchi yilda minora portlatilib, temir-tersak sifatida bir ming yetti yuz ellik dollarga sotildi.",
+   "mood": "epic",
+   "img": "09.jpg",
+   "elements": [
+    {
+     "type": "tag",
+     "head": "YIL",
+     "text": "1917",
+     "x": 540,
+     "y": 210,
+     "color": "crimson",
+     "at": "start"
+    },
+    {
+     "type": "stamp",
+     "text": "1 750 $",
+     "y": 1350,
+     "rot": -6,
+     "at": "temir"
+    }
+   ],
+   "vo": "vo_13.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M",
+   "imgs": [
+    [
+     "10.jpg",
+     "sotildi"
+    ]
+   ]
+  },
+  {
+   "n": 14,
+   "speaker": "d",
+   "text": "Cheksiz tok esa afsona, Aziz. Tesla bu g'oyani hech qachon isbotlamagan. Minora bir kun ham ishlamagan.",
+   "tts": "[warmly] Cheksiz tok esa afsona, Aziz. Tesla bu g'oyani hech qachon isbotlamagan. Minora bir kun ham ishlamagan.",
+   "mood": "warm",
+   "img": "11.jpg",
+   "elements": [
+    {
+     "type": "bubble",
+     "speaker": "DOMLA",
+     "x": 540,
+     "y": 330,
+     "at": "start",
+     "hl": {
+      "afsona": "red"
+     },
+     "tail": "down",
+     "tail_x": 0.25,
+     "tag": "navy",
+     "w": 880
+    },
+    {
+     "type": "char",
+     "img": "c_domla.jpg",
+     "from": "left",
+     "x": 270,
+     "y": 1440,
+     "h": 680,
+     "at": 0.1,
+     "motion": "bounce",
+     "talk": [
+      "vo"
+     ],
+     "label": "FIZIKA DOMLASI",
+     "label_bg": "navy"
+    },
+    {
+     "type": "prop",
+     "img": "p_g_lupa.jpg",
+     "x": 860,
+     "y": 700,
+     "h": 250,
+     "from": "pop",
+     "motion": "pulse",
+     "at": "isbotlamagan"
+    }
+   ],
+   "vo": "vo_14.mp3",
+   "voice_id": "xDwfBjUEPdIoQekNOXAX"
+  },
+  {
+   "n": 15,
+   "speaker": "b",
+   "text": "Lekin Tesla rivojlantirgan o'zgaruvchan tok bugun har bir uyimizda yonib turibdi. Uning haqiqiy merosi shu.",
+   "tts": "[warmly] Lekin Tesla rivojlantirgan o'zgaruvchan tok bugun har bir uyimizda yonib turibdi. Uning haqiqiy merosi shu.",
+   "mood": "hero",
+   "img": "12.jpg",
+   "elements": [
+    {
+     "type": "caption",
+     "words": [
+      "HAQIQIY",
+      "MEROS"
+     ],
+     "color": "yellow",
+     "y": 1330,
+     "size": 92,
+     "at": "merosi"
+    },
+    {
+     "type": "prop",
+     "img": "p_g_chaqmoq.jpg",
+     "x": 860,
+     "y": 700,
+     "h": 250,
+     "from": "pop",
+     "motion": "pulse",
+     "at": "o'zgaruvchan"
+    }
+   ],
+   "vo": "vo_15.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M"
+  },
+  {
+   "n": 16,
+   "speaker": "b",
+   "text": "Siz Teslaning qaysi ixtirosini eng zo'r deb bilasiz? Izohda yozing!",
+   "tts": "[playful] Siz Teslaning qaysi ixtirosini eng zo'r deb bilasiz? Izohda yozing!",
+   "mood": "warm",
+   "img": "13.jpg",
+   "elements": [
+    {
+     "type": "final",
+     "lines": [
+      "ENG ZO'R IXTIROSI",
+      "QAYSI?"
+     ],
+     "at": 0.4
+    }
+   ],
+   "vo": "vo_16.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M"
+  }
+ ]
+}

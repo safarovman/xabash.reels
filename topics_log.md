@@ -34,3 +34,4 @@ Har yangi videoda qahramon, ochilish turi va dizayn (theme: shrift, palitra, fon
 | 2026-10-21 | 05:00 | Chegirma tuzog'i (Anderson & Simester 2003: 39$ > 34$; JCPenney 2012 sotuv −25%) | Sevara, Botir aka, sotuvchi · pop-art · funk | rejalashtirildi (Buffer 6ad7a2b0, automatic) |
 | 2026-10-21 | 08:00 | Tesla minorasining siri (Wardenclyffe: Morgan 150 000$ 1901; 1906 to'xtadi; 1917 qarz uchun buzildi, 1 750$) | Aziz, fizika domlasi · sepia+ko'k · swing | rejalashtirildi (Buffer 6ad7a6ed, automatic) |
 | 2026-10-21 | 10:30 | Agar Gitler yutganida (Generalplan Ost 1941: 30 mln+ surgun; Ochlik rejasi 1941) | Jasur, bobo · somber painting · epic | rejalashtirildi (Buffer 6ad7ab9e, automatic) |
+| 2026-10-21 | 12:30 | Temur mo'g'ulmi? (barlos urug'i, Ko'ragon unvoni, Ulug'bek 1409, Go'ri Amir qora toshi — Alanqo'a) | Lola, muzey gidi · miniatyura · doira | rejalashtirildi (Buffer 6ad80850, automatic) |

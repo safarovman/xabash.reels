@@ -1,0 +1,591 @@
+{
+ "title": "Samarqanddagi Koreya elchilari",
+ "pace": "fast",
+ "music": {
+  "genre": "doira",
+  "bpm": 90,
+  "key": 2,
+  "scale": "hijaz",
+  "progression": [
+   0,
+   5,
+   3,
+   4
+  ]
+ },
+ "music_seed": 648,
+ "music_gain": 0.72,
+ "cover_title": [
+  "KOREYA",
+  "ELCHILARI"
+ ],
+ "cover_sub": "Samarqand devoridagi sir",
+ "cover_scene": 0,
+ "cover": {
+  "layout": "polaroid",
+  "img": "cover.jpg",
+  "char": "c_opa.jpg",
+  "props": [
+   "p_g_lupa.jpg"
+  ],
+  "badge": "VII ASR",
+  "title_colors": [
+   [
+    250,
+    240,
+    215
+   ],
+   [
+    210,
+    150,
+    60
+   ]
+  ],
+  "accent": [
+   40,
+   80,
+   170
+  ],
+  "accent2": [
+   210,
+   150,
+   60
+  ]
+ },
+ "anim": "static",
+ "bright": true,
+ "theme": {
+  "font": "titanone",
+  "font2": "patrickhand",
+  "accent": [
+   40,
+   80,
+   170
+  ],
+  "accent2": [
+   210,
+   150,
+   60
+  ],
+  "bubble_bg": [
+   248,
+   242,
+   230
+  ],
+  "bubble_line": [
+   30,
+   60,
+   130
+  ],
+  "bubble_ink": [
+   25,
+   25,
+   40
+  ],
+  "bubble_dim": [
+   40,
+   80,
+   170
+  ],
+  "bubble_radius": 18,
+  "transitions": [
+   "zoom",
+   "slide",
+   "torn"
+  ],
+  "cut_fx": "flash"
+ },
+ "end_hold": 1.2,
+ "scenes": [
+  {
+   "n": 1,
+   "speaker": "b",
+   "text": "Samarqanddagi 1300 yillik devorda uzoq Koreyadan kelgan elchilar chizilgan.",
+   "tts": "[mysterious] Samarqanddagi bir ming uch yuz yillik devorda uzoq Koreyadan kelgan elchilar chizilgan.",
+   "mood": "mystery",
+   "img": "01.jpg",
+   "elements": [
+    {
+     "type": "caption",
+     "words": [
+      "1300 YILLIK",
+      "DEVOR"
+     ],
+     "color": "yellow",
+     "y": 1330,
+     "size": 92,
+     "at": "devorda"
+    },
+    {
+     "type": "prop",
+     "img": "p_g_lupa.jpg",
+     "x": 880,
+     "y": 640,
+     "h": 250,
+     "from": "pop",
+     "motion": "shake",
+     "at": "Koreyadan"
+    }
+   ],
+   "vo": "vo_01.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M"
+  },
+  {
+   "n": 2,
+   "speaker": "b",
+   "text": "1965-yili Afrosiyob tepaligida yo'l qurayotgan ishchilar yer ostidan qadimiy devor topib olishdi.",
+   "tts": "[serious] Ming to'qqiz yuz oltmish beshinchi yili Afrosiyob tepaligida yo'l qurayotgan ishchilar yer ostidan qadimiy devor topib olishdi.",
+   "mood": "warm",
+   "img": "02.jpg",
+   "elements": [
+    {
+     "type": "tag",
+     "head": "YIL",
+     "text": "1965",
+     "x": 540,
+     "y": 210,
+     "color": "royal",
+     "at": "start"
+    },
+    {
+     "type": "caption",
+     "words": [
+      "AFROSIYOB",
+      "TEPALIGI"
+     ],
+     "color": "white",
+     "y": 1330,
+     "size": 92,
+     "at": "Afrosiyob"
+    }
+   ],
+   "vo": "vo_02.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M"
+  },
+  {
+   "n": 3,
+   "speaker": "b",
+   "text": "Devor bo'yalgan edi. Unda fillar, tuyalar, otlar va turli kiyimdagi odamlar tasvirlangan.",
+   "tts": "[surprised] Devor bo'yalgan edi. Unda fillar, tuyalar, otlar va turli kiyimdagi odamlar tasvirlangan.",
+   "mood": "groove",
+   "img": "03.jpg",
+   "elements": [
+    {
+     "type": "caption",
+     "words": [
+      "FIL, TUYA,",
+      "OTLAR"
+     ],
+     "color": "yellow",
+     "y": 1330,
+     "size": 92,
+     "at": "fillar"
+    }
+   ],
+   "vo": "vo_03.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M"
+  },
+  {
+   "n": 4,
+   "speaker": "m",
+   "text": "Opa, bu suratlarni kim chizdirgan?",
+   "tts": "[curious] Opa, bu suratlarni kim chizdirgan?",
+   "mood": "groove",
+   "img": "12.jpg",
+   "elements": [
+    {
+     "type": "bubble",
+     "speaker": "MADINA",
+     "x": 540,
+     "y": 330,
+     "at": "start",
+     "hl": {
+      "kim": "red"
+     },
+     "tail": "down",
+     "tail_x": 0.75,
+     "tag": "pink",
+     "w": 880
+    },
+    {
+     "type": "char",
+     "img": "c_madina.jpg",
+     "from": "right",
+     "x": 810,
+     "y": 1440,
+     "h": 680,
+     "at": 0.1,
+     "motion": "jump",
+     "talk": [
+      "vo"
+     ],
+     "label": "MADINA, 16",
+     "label_bg": "pink"
+    }
+   ],
+   "vo": "vo_04.mp3",
+   "voice_id": "O72h9AUwisM6Zj4He72B"
+  },
+  {
+   "n": 5,
+   "speaker": "o",
+   "text": "Samarqand hukmdori Varxuman, singlim. VII asr o'rtalarida, so'g'dlar davrida.",
+   "tts": "[warmly] Samarqand hukmdori Varxuman, singlim. Yettinchi asr o'rtalarida, so'g'dlar davrida.",
+   "mood": "warm",
+   "img": "12.jpg",
+   "elements": [
+    {
+     "type": "bubble",
+     "speaker": "RESTAVRATOR",
+     "x": 540,
+     "y": 330,
+     "at": "start",
+     "hl": {
+      "Varxuman": "red"
+     },
+     "tail": "down",
+     "tail_x": 0.25,
+     "tag": "royal",
+     "w": 880
+    },
+    {
+     "type": "char",
+     "img": "c_opa.jpg",
+     "from": "left",
+     "x": 270,
+     "y": 1440,
+     "h": 680,
+     "at": 0.1,
+     "motion": "wag",
+     "talk": [
+      "vo"
+     ],
+     "label": "RESTAVRATOR OPA",
+     "label_bg": "royal"
+    }
+   ],
+   "vo": "vo_05.mp3",
+   "voice_id": "eggZu1Ffe4if51TKev2v"
+  },
+  {
+   "n": 6,
+   "speaker": "b",
+   "text": "Bu saroy zali bo'lgan. To'rt devorning har birida boshqa bir dunyo.",
+   "tts": "[curious] Bu saroy zali bo'lgan. To'rt devorning har birida boshqa bir dunyo.",
+   "mood": "warm",
+   "img": "04.jpg",
+   "elements": [
+    {
+     "type": "card",
+     "kicker": "SAROY ZALI",
+     "title": [
+      "4 DEVOR"
+     ],
+     "sub": "4 xil dunyo",
+     "at": "devorning",
+     "y": 1330
+    }
+   ],
+   "vo": "vo_06.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M"
+  },
+  {
+   "n": 7,
+   "speaker": "b",
+   "text": "Shimoliy devorda Xitoy: qayiqdagi malika va ov qilayotgan imperator.",
+   "tts": "[serious] Shimoliy devorda Xitoy: qayiqdagi malika va ov qilayotgan imperator.",
+   "mood": "groove",
+   "img": "05.jpg",
+   "elements": [
+    {
+     "type": "tag",
+     "head": "SHIMOL",
+     "text": "XITOY",
+     "x": 540,
+     "y": 210,
+     "color": "crimson",
+     "at": "start"
+    },
+    {
+     "type": "caption",
+     "words": [
+      "QAYIQDAGI",
+      "MALIKA"
+     ],
+     "color": "yellow",
+     "y": 1330,
+     "size": 92,
+     "at": "malika"
+    }
+   ],
+   "vo": "vo_07.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M"
+  },
+  {
+   "n": 8,
+   "speaker": "b",
+   "text": "Janubiy devorda Samarqanddagi bayram yurishi, sharqiy devorda esa Hindiston.",
+   "tts": "[serious] Janubiy devorda Samarqanddagi bayram yurishi, sharqiy devorda esa Hindiston.",
+   "mood": "groove",
+   "img": "06.jpg",
+   "elements": [
+    {
+     "type": "tag",
+     "head": "JANUB",
+     "text": "SAMARQAND",
+     "x": 540,
+     "y": 210,
+     "color": "orange",
+     "at": "start"
+    },
+    {
+     "type": "caption",
+     "words": [
+      "SHARQDA —",
+      "HINDISTON"
+     ],
+     "color": "white",
+     "y": 1330,
+     "size": 92,
+     "at": "Hindiston"
+    }
+   ],
+   "vo": "vo_08.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M"
+  },
+  {
+   "n": 9,
+   "speaker": "b",
+   "text": "G'arbiy devor esa butunlay boshqa hikoya so'zlaydi.",
+   "tts": "[whispers] G'arbiy devor esa butunlay boshqa hikoya so'zlaydi.",
+   "mood": "mystery",
+   "img": "07.jpg",
+   "elements": [
+    {
+     "type": "caption",
+     "words": [
+      "G'ARBIY",
+      "DEVOR"
+     ],
+     "color": "yellow",
+     "y": 1330,
+     "size": 92,
+     "at": "G'arbiy"
+    },
+    {
+     "type": "prop",
+     "img": "p_g_undov.jpg",
+     "x": 880,
+     "y": 640,
+     "h": 250,
+     "from": "pop",
+     "motion": "shake",
+     "at": "boshqa"
+    }
+   ],
+   "vo": "vo_09.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M"
+  },
+  {
+   "n": 10,
+   "speaker": "b",
+   "text": "Bu yerda turli yurtlardan kelgan elchilar sovg'a ko'tarib turibdi. Bittasining kiyimiga so'g'dcha yozuv bitilgan: u Chag'oniyondan, ya'ni hozirgi Surxondaryo tomondan kelgan.",
+   "tts": "[mysterious] Bu yerda turli yurtlardan kelgan elchilar sovg'a ko'tarib turibdi. Bittasining kiyimiga so'g'dcha yozuv bitilgan: u Chag'oniyondan, ya'ni hozirgi Surxondaryo tomondan kelgan.",
+   "mood": "mystery",
+   "img": "08.jpg",
+   "elements": [
+    {
+     "type": "card",
+     "kicker": "SO'G'DCHA YOZUV",
+     "title": [
+      "CHAG'ONIYON"
+     ],
+     "sub": "hozirgi Surxondaryo",
+     "at": "Chag'oniyondan",
+     "y": 1330
+    }
+   ],
+   "vo": "vo_10.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M"
+  },
+  {
+   "n": 11,
+   "speaker": "b",
+   "text": "Chekkada esa boshiga ikkita pat qadalgan qalpoq kiygan ikki kishi turibdi.",
+   "tts": "[surprised] Chekkada esa boshiga ikkita pat qadalgan qalpoq kiygan ikki kishi turibdi.",
+   "mood": "tension",
+   "img": "09.jpg",
+   "elements": [
+    {
+     "type": "caption",
+     "words": [
+      "IKKITA",
+      "PAT"
+     ],
+     "color": "yellow",
+     "y": 1330,
+     "size": 92,
+     "at": "pat"
+    },
+    {
+     "type": "prop",
+     "img": "p_g_lupa.jpg",
+     "x": 880,
+     "y": 640,
+     "h": 250,
+     "from": "pop",
+     "motion": "shake",
+     "at": "qalpoq"
+    }
+   ],
+   "vo": "vo_11.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M"
+  },
+  {
+   "n": 12,
+   "speaker": "o",
+   "text": "Olimlarning ko'pchiligi ularni Koreyadagi Koguryo davlatidan kelgan elchilar deb hisoblaydi. Bunday qalpoq Koreyadagi qadimiy qabr suratlarida ham bor.",
+   "tts": "[serious] Olimlarning ko'pchiligi ularni Koreyadagi Koguryo davlatidan kelgan elchilar deb hisoblaydi. Bunday qalpoq Koreyadagi qadimiy qabr suratlarida ham bor.",
+   "mood": "warm",
+   "img": "10.jpg",
+   "elements": [
+    {
+     "type": "bubble",
+     "speaker": "RESTAVRATOR",
+     "x": 540,
+     "y": 330,
+     "at": "start",
+     "hl": {
+      "Koguryo": "red"
+     },
+     "tail": "down",
+     "tail_x": 0.25,
+     "tag": "royal",
+     "w": 880
+    },
+    {
+     "type": "char",
+     "img": "c_opa.jpg",
+     "from": "left",
+     "x": 270,
+     "y": 1440,
+     "h": 680,
+     "at": 0.1,
+     "motion": "wag",
+     "talk": [
+      "vo"
+     ],
+     "label": "RESTAVRATOR OPA",
+     "label_bg": "royal"
+    }
+   ],
+   "vo": "vo_12.mp3",
+   "voice_id": "eggZu1Ffe4if51TKev2v"
+  },
+  {
+   "n": 13,
+   "speaker": "m",
+   "text": "Koreyadan Samarqandgacha?! U paytda samolyot ham yo'q edi-ku!",
+   "tts": "[shocked] Koreyadan Samarqandgacha?! U paytda samolyot ham yo'q edi-ku!",
+   "mood": "groove",
+   "img": "11.jpg",
+   "elements": [
+    {
+     "type": "bubble",
+     "speaker": "MADINA",
+     "x": 540,
+     "y": 330,
+     "at": "start",
+     "hl": {
+      "Samarqandgacha": "red"
+     },
+     "tail": "down",
+     "tail_x": 0.75,
+     "tag": "pink",
+     "w": 880
+    },
+    {
+     "type": "char",
+     "img": "c_madina.jpg",
+     "from": "right",
+     "x": 810,
+     "y": 1440,
+     "h": 680,
+     "at": 0.1,
+     "motion": "jump",
+     "talk": [
+      "vo"
+     ],
+     "label": "MADINA, 16",
+     "label_bg": "pink"
+    }
+   ],
+   "vo": "vo_13.mp3",
+   "voice_id": "O72h9AUwisM6Zj4He72B"
+  },
+  {
+   "n": 14,
+   "speaker": "b",
+   "text": "Ha, bu yo'l oylab davom etgan. Surat Samarqand o'sha davrda dunyoning chorrahasi bo'lganini ko'rsatadi.",
+   "tts": "[warmly] Ha, bu yo'l oylab davom etgan. Surat Samarqand o'sha davrda dunyoning chorrahasi bo'lganini ko'rsatadi.",
+   "mood": "warm",
+   "img": "11.jpg",
+   "elements": [
+    {
+     "type": "caption",
+     "words": [
+      "DUNYO",
+      "CHORRAHASI"
+     ],
+     "color": "yellow",
+     "y": 1330,
+     "size": 92,
+     "at": "chorrahasi"
+    }
+   ],
+   "vo": "vo_14.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M"
+  },
+  {
+   "n": 15,
+   "speaker": "b",
+   "text": "Bugun bu suratlarni Samarqanddagi Afrosiyob muzeyida o'z ko'zingiz bilan ko'rishingiz mumkin.",
+   "tts": "[serious] Bugun bu suratlarni Samarqanddagi Afrosiyob muzeyida o'z ko'zingiz bilan ko'rishingiz mumkin.",
+   "mood": "warm",
+   "img": "12.jpg",
+   "elements": [
+    {
+     "type": "tag",
+     "head": "BUGUN",
+     "text": "AFROSIYOB MUZEYI",
+     "x": 540,
+     "y": 210,
+     "color": "royal",
+     "at": "start"
+    }
+   ],
+   "vo": "vo_15.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M"
+  },
+  {
+   "n": 16,
+   "speaker": "b",
+   "text": "Sizningcha, o'sha elchilar Samarqandga qanday sovg'a olib kelgan? Izohda yozing.",
+   "tts": "[playful] Sizningcha, o'sha elchilar Samarqandga qanday sovg'a olib kelgan? Izohda yozing.",
+   "mood": "finale",
+   "img": "12.jpg",
+   "elements": [
+    {
+     "type": "final",
+     "lines": [
+      "QANDAY",
+      "SOVG'A?"
+     ],
+     "at": 0.4
+    }
+   ],
+   "vo": "vo_16.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M"
+  }
+ ]
+}

@@ -1,0 +1,604 @@
+{
+ "title": "Farg'ona otlari",
+ "pace": "fast",
+ "music": {
+  "genre": "epic",
+  "bpm": 96,
+  "key": -3,
+  "scale": "minor",
+  "progression": [
+   0,
+   5,
+   3,
+   4
+  ]
+ },
+ "music_seed": 104,
+ "music_gain": 0.7,
+ "cover_title": [
+  "FARG'ONA",
+  "OTLARI"
+ ],
+ "cover_sub": "Xitoy nega urush qildi?",
+ "cover_scene": 0,
+ "cover": {
+  "layout": "hero",
+  "img": "cover.jpg",
+  "char": "c_amaki.jpg",
+  "props": [
+   "p_g_savol.jpg"
+  ],
+  "badge": "MIL. AVV. 104",
+  "title_colors": [
+   [
+    250,
+    230,
+    190
+   ],
+   [
+    230,
+    180,
+    60
+   ]
+  ],
+  "accent": [
+   200,
+   50,
+   40
+  ],
+  "accent2": [
+   230,
+   180,
+   60
+  ]
+ },
+ "anim": "static",
+ "bright": true,
+ "theme": {
+  "font": "abrilfatface",
+  "font2": "caveat",
+  "accent": [
+   200,
+   50,
+   40
+  ],
+  "accent2": [
+   230,
+   180,
+   60
+  ],
+  "bubble_bg": [
+   250,
+   242,
+   226
+  ],
+  "bubble_line": [
+   140,
+   40,
+   30
+  ],
+  "bubble_ink": [
+   30,
+   25,
+   25
+  ],
+  "bubble_dim": [
+   200,
+   50,
+   40
+  ],
+  "bubble_radius": 14,
+  "transitions": [
+   "slide",
+   "zoom",
+   "torn"
+  ],
+  "cut_fx": "whip"
+ },
+ "end_hold": 1.2,
+ "scenes": [
+  {
+   "n": 1,
+   "speaker": "b",
+   "text": "Xitoy imperatori nega Farg'onaning otlarini xohlagan edi?",
+   "tts": "[mysterious] Xitoy imperatori nega Farg'onaning otlarini xohlagan edi?",
+   "mood": "mystery",
+   "img": "01.jpg",
+   "elements": [
+    {
+     "type": "caption",
+     "words": [
+      "NEGA AYNAN",
+      "FARG'ONA?"
+     ],
+     "color": "yellow",
+     "y": 1330,
+     "size": 92,
+     "at": "Farg'onaning"
+    },
+    {
+     "type": "prop",
+     "img": "p_g_savol.jpg",
+     "x": 880,
+     "y": 640,
+     "h": 250,
+     "from": "pop",
+     "motion": "shake",
+     "at": "nega"
+    }
+   ],
+   "vo": "vo_01.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M"
+  },
+  {
+   "n": 2,
+   "speaker": "b",
+   "text": "2000 yildan ham ko'proq avval Xitoyni Xan sulolasidan imperator U-di boshqargan.",
+   "tts": "[serious] Ikki ming yildan ham ko'proq avval Xitoyni Xan sulolasidan imperator U-di boshqargan.",
+   "mood": "epic",
+   "img": "02.jpg",
+   "elements": [
+    {
+     "type": "tag",
+     "head": "XAN SULOLASI",
+     "text": "IMPERATOR U-DI",
+     "x": 540,
+     "y": 210,
+     "color": "crimson",
+     "at": "start"
+    },
+    {
+     "type": "caption",
+     "words": [
+      "2000 YIL",
+      "OLDIN"
+     ],
+     "color": "white",
+     "y": 1330,
+     "size": 92,
+     "at": "2000"
+    }
+   ],
+   "vo": "vo_02.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M"
+  },
+  {
+   "n": 3,
+   "speaker": "b",
+   "text": "Uning eng katta dushmani shimoldagi ko'chmanchi xunnlar edi. Ularning otliq qo'shini juda tez edi.",
+   "tts": "[tense] Uning eng katta dushmani shimoldagi ko'chmanchi xunnlar edi. Ularning otliq qo'shini juda tez edi.",
+   "mood": "tense",
+   "img": "03.jpg",
+   "elements": [
+    {
+     "type": "caption",
+     "words": [
+      "XUNNLAR"
+     ],
+     "color": "yellow",
+     "y": 1330,
+     "size": 92,
+     "at": "xunnlar"
+    },
+    {
+     "type": "prop",
+     "img": "p_g_qilich.jpg",
+     "x": 880,
+     "y": 640,
+     "h": 250,
+     "from": "pop",
+     "motion": "shake",
+     "at": "tez"
+    }
+   ],
+   "vo": "vo_03.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M"
+  },
+  {
+   "n": 4,
+   "speaker": "b",
+   "text": "Elchi Chjan Szyan uzoq g'arbdan xabar olib keldi: Dayuanda, ya'ni Farg'ona vodiysida ajoyib otlar bor.",
+   "tts": "[curious] Elchi Chjan Szyan uzoq g'arbdan xabar olib keldi: Dayuanda, ya'ni Farg'ona vodiysida ajoyib otlar bor.",
+   "mood": "warm",
+   "img": "04.jpg",
+   "elements": [
+    {
+     "type": "card",
+     "kicker": "ELCHI",
+     "title": [
+      "CHJAN SZYAN"
+     ],
+     "sub": "g'arbdan xabar",
+     "at": "Chjan",
+     "y": 1330
+    }
+   ],
+   "vo": "vo_04.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M"
+  },
+  {
+   "n": 5,
+   "speaker": "s",
+   "text": "Amaki, Farg'ona otlarining nimasi shunchalik zo'r edi?",
+   "tts": "[curious] Amaki, Farg'ona otlarining nimasi shunchalik zo'r edi?",
+   "mood": "groove",
+   "img": "05.jpg",
+   "elements": [
+    {
+     "type": "bubble",
+     "speaker": "SARDOR",
+     "x": 540,
+     "y": 330,
+     "at": "start",
+     "hl": {
+      "zo'r": "red"
+     },
+     "tail": "down",
+     "tail_x": 0.75,
+     "tag": "orange",
+     "w": 880
+    },
+    {
+     "type": "char",
+     "img": "c_sardor.jpg",
+     "from": "right",
+     "x": 810,
+     "y": 1440,
+     "h": 680,
+     "at": 0.1,
+     "motion": "jump",
+     "talk": [
+      "vo"
+     ],
+     "label": "SARDOR, 12",
+     "label_bg": "orange"
+    }
+   ],
+   "vo": "vo_05.mp3",
+   "voice_id": "UjuEL3hLLUaDED9iW4Yb"
+  },
+  {
+   "n": 6,
+   "speaker": "a",
+   "text": "Baland, chidamli va chaqqon edi, bolam. Xitoyliklar ularni «samoviy otlar» deb atashgan.",
+   "tts": "[proudly] Baland, chidamli va chaqqon edi, bolam. Xitoyliklar ularni «samoviy otlar» deb atashgan.",
+   "mood": "warm",
+   "img": "05.jpg",
+   "elements": [
+    {
+     "type": "bubble",
+     "speaker": "AMAKI",
+     "x": 540,
+     "y": 330,
+     "at": "start",
+     "hl": {
+      "samoviy otlar": "red"
+     },
+     "tail": "down",
+     "tail_x": 0.25,
+     "tag": "green",
+     "w": 880
+    },
+    {
+     "type": "char",
+     "img": "c_amaki.jpg",
+     "from": "left",
+     "x": 270,
+     "y": 1440,
+     "h": 680,
+     "at": 0.1,
+     "motion": "wag",
+     "talk": [
+      "vo"
+     ],
+     "label": "OTBOQAR AMAKI",
+     "label_bg": "green"
+    }
+   ],
+   "vo": "vo_06.mp3",
+   "voice_id": "xDwfBjUEPdIoQekNOXAX"
+  },
+  {
+   "n": 7,
+   "speaker": "b",
+   "text": "Imperator 1000 bo'lak oltin va oltindan yasalgan ot bilan elchi yubordi. Lekin farg'onaliklar otlarini sotmadi.",
+   "tts": "[serious] Imperator ming bo'lak oltin va oltindan yasalgan ot bilan elchi yubordi. Lekin farg'onaliklar otlarini sotmadi.",
+   "mood": "tension",
+   "img": "06.jpg",
+   "elements": [
+    {
+     "type": "tag",
+     "head": "SOVG'A",
+     "text": "1000 BO'LAK OLTIN",
+     "x": 540,
+     "y": 210,
+     "color": "orange",
+     "at": "start"
+    },
+    {
+     "type": "caption",
+     "words": [
+      "SOTMADI!"
+     ],
+     "color": "yellow",
+     "y": 1330,
+     "size": 92,
+     "at": "sotmadi"
+    }
+   ],
+   "vo": "vo_07.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M"
+  },
+  {
+   "n": 8,
+   "speaker": "b",
+   "text": "Jahli chiqqan elchilar oltin otni sindirib tashladi. Qaytishda esa ularga hujum qilib, mollarini tortib olishdi.",
+   "tts": "[tense] Jahli chiqqan elchilar oltin otni sindirib tashladi. Qaytishda esa ularga hujum qilib, mollarini tortib olishdi.",
+   "mood": "tense",
+   "img": "07.jpg",
+   "elements": [
+    {
+     "type": "stamp",
+     "text": "OLTIN OT SINDI",
+     "y": 1350,
+     "rot": -6,
+     "at": "sindirib"
+    }
+   ],
+   "vo": "vo_08.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M"
+  },
+  {
+   "n": 9,
+   "speaker": "b",
+   "text": "Imperator buni kechirmadi.",
+   "tts": "[whispers] Imperator buni kechirmadi.",
+   "mood": "tension",
+   "img": "07.jpg",
+   "elements": [
+    {
+     "type": "caption",
+     "words": [
+      "KECHIRMADI"
+     ],
+     "color": "white",
+     "y": 1330,
+     "size": 92,
+     "at": "kechirmadi"
+    },
+    {
+     "type": "prop",
+     "img": "p_g_chaqmoq.jpg",
+     "x": 880,
+     "y": 640,
+     "h": 250,
+     "from": "pop",
+     "motion": "shake",
+     "at": "kechirmadi"
+    }
+   ],
+   "vo": "vo_09.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M"
+  },
+  {
+   "n": 10,
+   "speaker": "b",
+   "text": "Miloddan avvalgi 104-yili sarkarda Li Guanli Farg'onaga yo'l oldi. Lekin yo'lda och qolgan qo'shin yengilib, ortga qaytdi.",
+   "tts": "[serious] Miloddan avvalgi bir yuz to'rtinchi yili sarkarda Li Guanli Farg'onaga yo'l oldi. Lekin yo'lda och qolgan qo'shin yengilib, ortga qaytdi.",
+   "mood": "sad",
+   "img": "08.jpg",
+   "elements": [
+    {
+     "type": "tag",
+     "head": "MIL. AVV.",
+     "text": "104-YIL",
+     "x": 540,
+     "y": 210,
+     "color": "royal",
+     "at": "start"
+    },
+    {
+     "type": "caption",
+     "words": [
+      "1-YURISH:",
+      "MAG'LUBIYAT"
+     ],
+     "color": "white",
+     "y": 1330,
+     "size": 92,
+     "at": "yengilib"
+    }
+   ],
+   "vo": "vo_10.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M"
+  },
+  {
+   "n": 11,
+   "speaker": "b",
+   "text": "Ikki yildan so'ng u yana keldi. Bu safar 60 ming askar va 30 ming ot bilan.",
+   "tts": "[tense] Ikki yildan so'ng u yana keldi. Bu safar oltmish ming askar va o'ttiz ming ot bilan.",
+   "mood": "epic",
+   "img": "09.jpg",
+   "elements": [
+    {
+     "type": "tag",
+     "head": "2-YURISH",
+     "text": "60 000 ASKAR",
+     "x": 540,
+     "y": 210,
+     "color": "crimson",
+     "at": "start"
+    },
+    {
+     "type": "caption",
+     "words": [
+      "30 MING",
+      "OT"
+     ],
+     "color": "yellow",
+     "y": 1330,
+     "size": 92,
+     "at": "30"
+    }
+   ],
+   "vo": "vo_11.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M"
+  },
+  {
+   "n": 12,
+   "speaker": "b",
+   "text": "Xitoyliklar daryoning yo'nalishini burib, Ershi shahrini qamal qildi. 40 kundan keyin tashqi devor yiqildi.",
+   "tts": "[serious] Xitoyliklar daryoning yo'nalishini burib, Ershi shahrini qamal qildi. Qirq kundan keyin tashqi devor yiqildi.",
+   "mood": "epic",
+   "img": "10.jpg",
+   "elements": [
+    {
+     "type": "caption",
+     "words": [
+      "40 KUNLIK",
+      "QAMAL"
+     ],
+     "color": "yellow",
+     "y": 1330,
+     "size": 92,
+     "at": "40"
+    },
+    {
+     "type": "prop",
+     "img": "p_g_soat.jpg",
+     "x": 880,
+     "y": 640,
+     "h": 250,
+     "from": "pop",
+     "motion": "shake",
+     "at": "kundan"
+    }
+   ],
+   "vo": "vo_12.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M"
+  },
+  {
+   "n": 13,
+   "speaker": "s",
+   "text": "Hammasi bir nechta ot uchunmi?!",
+   "tts": "[shocked] Hammasi bir nechta ot uchunmi?!",
+   "mood": "groove",
+   "img": "10.jpg",
+   "elements": [
+    {
+     "type": "bubble",
+     "speaker": "SARDOR",
+     "x": 540,
+     "y": 330,
+     "at": "start",
+     "hl": {
+      "ot": "red"
+     },
+     "tail": "down",
+     "tail_x": 0.75,
+     "tag": "orange",
+     "w": 880
+    },
+    {
+     "type": "char",
+     "img": "c_sardor.jpg",
+     "from": "right",
+     "x": 810,
+     "y": 1440,
+     "h": 680,
+     "at": 0.1,
+     "motion": "jump",
+     "talk": [
+      "vo"
+     ],
+     "label": "SARDOR, 12",
+     "label_bg": "orange"
+    }
+   ],
+   "vo": "vo_13.mp3",
+   "voice_id": "UjuEL3hLLUaDED9iW4Yb"
+  },
+  {
+   "n": 14,
+   "speaker": "b",
+   "text": "Farg'ona zodagonlari o'z hukmdorini o'ldirib, sulh tuzdi. Xitoyliklar 3000 ga yaqin ot olib ketdi.",
+   "tts": "[serious] Farg'ona zodagonlari o'z hukmdorini o'ldirib, sulh tuzdi. Xitoyliklar uch mingga yaqin ot olib ketdi.",
+   "mood": "warm",
+   "img": "11.jpg",
+   "elements": [
+    {
+     "type": "card",
+     "kicker": "SULH",
+     "title": [
+      "~3000 OT"
+     ],
+     "sub": "Xitoyga olib ketildi",
+     "at": "3000",
+     "y": 1330
+    }
+   ],
+   "vo": "vo_14.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M"
+  },
+  {
+   "n": 15,
+   "speaker": "a",
+   "text": "Shundan keyin Xitoyning g'arbga yo'li mustahkamlandi, bolam. Keyinchalik bu yo'l Buyuk ipak yo'lining bir qismiga aylandi.",
+   "tts": "[warmly] Shundan keyin Xitoyning g'arbga yo'li mustahkamlandi, bolam. Keyinchalik bu yo'l Buyuk ipak yo'lining bir qismiga aylandi.",
+   "mood": "warm",
+   "img": "12.jpg",
+   "elements": [
+    {
+     "type": "bubble",
+     "speaker": "AMAKI",
+     "x": 540,
+     "y": 330,
+     "at": "start",
+     "hl": {
+      "Buyuk ipak yo'lining": "red"
+     },
+     "tail": "down",
+     "tail_x": 0.25,
+     "tag": "green",
+     "w": 880
+    },
+    {
+     "type": "char",
+     "img": "c_amaki.jpg",
+     "from": "left",
+     "x": 270,
+     "y": 1440,
+     "h": 680,
+     "at": 0.1,
+     "motion": "wag",
+     "talk": [
+      "vo"
+     ],
+     "label": "OTBOQAR AMAKI",
+     "label_bg": "green"
+    }
+   ],
+   "vo": "vo_15.mp3",
+   "voice_id": "xDwfBjUEPdIoQekNOXAX"
+  },
+  {
+   "n": 16,
+   "speaker": "b",
+   "text": "Sizningcha, otlar uchun shuncha qurbon berishga arzirmidi? Izohda yozing.",
+   "tts": "[warmly] Sizningcha, otlar uchun shuncha qurbon berishga arzirmidi? Izohda yozing.",
+   "mood": "finale",
+   "img": "12.jpg",
+   "elements": [
+    {
+     "type": "final",
+     "lines": [
+      "ARZIRMIDI?"
+     ],
+     "at": 0.4
+    }
+   ],
+   "vo": "vo_16.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M"
+  }
+ ]
+}

@@ -35,3 +35,4 @@ Har yangi videoda qahramon, ochilish turi va dizayn (theme: shrift, palitra, fon
 | 2026-10-21 | 08:00 | Tesla minorasining siri (Wardenclyffe: Morgan 150 000$ 1901; 1906 to'xtadi; 1917 qarz uchun buzildi, 1 750$) | Aziz, fizika domlasi · sepia+ko'k · swing | rejalashtirildi (Buffer 6ad7a6ed, automatic) |
 | 2026-10-21 | 10:30 | Agar Gitler yutganida (Generalplan Ost 1941: 30 mln+ surgun; Ochlik rejasi 1941) | Jasur, bobo · somber painting · epic | rejalashtirildi (Buffer 6ad7ab9e, automatic) |
 | 2026-10-21 | 12:30 | Temur mo'g'ulmi? (barlos urug'i, Ko'ragon unvoni, Ulug'bek 1409, Go'ri Amir qora toshi — Alanqo'a) | Lola, muzey gidi · miniatyura · doira | rejalashtirildi (Buffer 6ad80850, automatic) |
+| 2026-10-21 | 14:30 | Gitler 2-qism: nega urush boshladi (Versal 1919, 1929 inqirozi, «Lebensraum», Mein Kampf; Hossbach 1937) va yutganida siyosat qanday bo'lardi | Jasur, bobo · somber painting · sparse | rejalashtirildi (Buffer 6ad80d73, automatic) |

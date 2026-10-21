@@ -132,21 +132,21 @@
   {
    "n": 2,
    "speaker": "b",
-   "text": "Malika buni bilmaydi. Javobni oxirida aytaman.",
-   "tts": "[playful] Malika buni bilmaydi. Javobni oxirida aytaman.",
+   "text": "Malika bunga ishonmadi. Uni Marg'ilonga olib borgan buvisi esa jilmayib qo'ydi.",
+   "tts": "[playful] Malika bunga ishonmadi. Uni Marg'ilonga olib borgan buvisi esa jilmayib qo'ydi.",
    "mood": "groove",
    "img": "01.jpg",
    "elements": [
     {
      "type": "caption",
      "words": [
-      "JAVOB",
-      "OXIRIDA!"
+      "MALIKA",
+      "ISHONMADI"
      ],
      "color": "white",
      "y": 1330,
      "size": 92,
-     "at": "Javobni"
+     "at": "ishonmadi"
     }
    ],
    "vo": "vo_02.mp3",
@@ -325,21 +325,21 @@
   {
    "n": 8,
    "speaker": "b",
-   "text": "Endi diqqat — eng qiziq joyi shu yerda.",
-   "tts": "[whispers] Endi diqqat — eng qiziq joyi shu yerda.",
+   "text": "Naqshning siri aynan shu bosqichda yashiringan.",
+   "tts": "[whispers] Naqshning siri aynan shu bosqichda yashiringan.",
    "mood": "tension",
    "img": "06.jpg",
    "elements": [
     {
      "type": "caption",
      "words": [
-      "ENG QIZIQ",
-      "JOYI"
+      "NAQSHNING",
+      "SIRI"
      ],
      "color": "white",
      "y": 1330,
      "size": 92,
-     "at": "diqqat"
+     "at": "siri"
     },
     {
      "type": "prop",
@@ -349,7 +349,7 @@
      "h": 250,
      "from": "pop",
      "motion": "shake",
-     "at": "diqqat"
+     "at": "siri"
     }
    ],
    "vo": "vo_08.mp3",
@@ -473,8 +473,8 @@
   {
    "n": 12,
    "speaker": "b",
-   "text": "Xo'sh, nega bu usul «abr» deyiladi? Mana eng qizig'i...",
-   "tts": "[mysterious] Xo'sh, nega bu usul «abr» deyiladi? Mana eng qizig'i...",
+   "text": "Bu usulning nomi ham bejiz emas. U «abr» deyiladi.",
+   "tts": "[mysterious] Bu usulning nomi ham bejiz emas. U «abr» deyiladi.",
    "mood": "mystery",
    "img": "10.jpg",
    "elements": [
@@ -497,7 +497,7 @@
      "h": 250,
      "from": "pop",
      "motion": "shake",
-     "at": "qizig'i"
+     "at": "nomi"
     }
    ],
    "vo": "vo_12.mp3",

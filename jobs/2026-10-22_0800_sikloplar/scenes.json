@@ -26,7 +26,7 @@
   "img": "cover.jpg",
   "char": "c_ustoz.jpg",
   "props": [
-   "p_g_koz.jpg"
+   "p_g_undov.jpg"
   ],
   "badge": "1914",
   "title_colors": [
@@ -127,7 +127,7 @@
     },
     {
      "type": "prop",
-     "img": "p_g_koz.jpg",
+     "img": "p_g_undov.jpg",
      "x": 880,
      "y": 640,
      "h": 250,

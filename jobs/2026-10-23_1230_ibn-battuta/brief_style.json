@@ -1,0 +1,91 @@
+{
+ "style_name": "Sayyoh kundaligi akvareli + pergament xarita (yo'nalish strelkalari)",
+ "image_prefix": "vertical 9:16, no text, no letters, no logos, loose travel-journal watercolor sketch style on aged parchment paper, visible ink pen linework, soft color washes bleeding at the edges, sepia ink route arrows and dotted travel lines like an old hand-drawn map, coffee stains and paper texture, natural human proportions with real faces, palette of warm sand, faded indigo and sea green, sunlit 14th-century atmosphere,",
+ "character_prefix": "travel-journal watercolor and ink sketch style, soft washes, visible pen lines, warm sand and indigo palette, realistic natural human proportions, real face (no chibi, no big eyes), single person, half body, isolated on clean plain white background, no text, no letters, no logos,",
+ "prop_prefix": "single object sticker, travel-journal watercolor and ink sketch, soft washes with pen outline, centered, isolated on plain white background, no text, no letters, no logos,",
+ "theme": {
+  "font": "permanentmarker",
+  "font2": "lobster",
+  "accent": [
+   30,
+   120,
+   115
+  ],
+  "accent2": [
+   200,
+   75,
+   50
+  ],
+  "bubble_bg": [
+   247,
+   238,
+   214
+  ],
+  "bubble_line": [
+   90,
+   60,
+   35
+  ],
+  "bubble_ink": [
+   45,
+   30,
+   20
+  ],
+  "bubble_dim": [
+   175,
+   150,
+   115
+  ],
+  "bubble_radius": 20,
+  "transitions": [
+   "slide",
+   "torn",
+   "whip"
+  ],
+  "cut_fx": "punch"
+ },
+ "cover": {
+  "layout": "bubble",
+  "img": "cover.jpg",
+  "char": "c_ibnbattuta_kulgan.jpg",
+  "props": [
+   "p_kompas.jpg"
+  ],
+  "badge": "117 000 KM",
+  "title_colors": [
+   [
+    45,
+    30,
+    20
+   ],
+   [
+    30,
+    120,
+    115
+   ]
+  ],
+  "ink": [
+   45,
+   30,
+   20
+  ],
+  "accent": [
+   30,
+   120,
+   115
+  ],
+  "accent2": [
+   200,
+   75,
+   50
+  ],
+  "cover_prompt": "vertical 9:16, no text, no letters, no logos, travel-journal watercolor and ink sketch on aged parchment, a young Moroccan traveller (21, natural proportions, real face, white turban and travel cloak) laughing in amazement, holding a huge unfolded hand-drawn parchment map whose dotted sepia route arrows loop from Morocco to Samarkand, Delhi and China, a camel caravan and a small sailing ship sketched in the background, warm sand, indigo and sea-green washes, upper 45% of the frame soft and plain for a speech bubble title, figure in the lower half",
+  "flow_prompt": "vertical 9:16, no text, no letters, no logos, travel-journal watercolor and ink sketch on aged parchment, a young Moroccan traveller (21, natural proportions, real face, white turban and travel cloak) laughing in amazement, holding a huge unfolded hand-drawn parchment map whose dotted sepia route arrows loop from Morocco to Samarkand, Delhi and China, a camel caravan and a small sailing ship sketched in the background, warm sand, indigo and sea-green washes, upper 45% of the frame soft and plain for a speech bubble title, figure in the lower half"
+ },
+ "cover_title": [
+  "117 000 KM",
+  "PIYODA?!"
+ ],
+ "cover_sub": "Ibn Battuta yo'llari",
+ "why": "Ibn Battuta o'zi sayohatnoma («Rihla») muallifi — kundalik akvareli va yo'nalishli pergament xarita 29 yillik yo'lni ko'rsatishga eng mos."
+}

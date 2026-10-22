@@ -1,0 +1,300 @@
+{
+ "props_to_generate": [
+  {
+   "file": "p_g_usturlob.jpg",
+   "prompt": "Hand-drawn bold cartoon sticker, thick dark outline, flat vivid colors, slight paper texture, white sticker border, antique brass astrolabe with engraved star map and pointer, single object centered, isolated on plain pure white background, no text"
+  },
+  {
+   "file": "p_g_yulduz.jpg",
+   "prompt": "Hand-drawn bold cartoon sticker, thick dark outline, flat vivid colors, slight paper texture, white sticker border, cluster of three bright golden stars with sparkle lines, single object centered, isolated on plain pure white background, no text"
+  },
+  {
+   "file": "p_g_qumsoat.jpg",
+   "prompt": "Hand-drawn bold cartoon sticker, thick dark outline, flat vivid colors, slight paper texture, white sticker border, wooden hourglass with flowing golden sand, single object centered, isolated on plain pure white background, no text"
+  },
+  {
+   "file": "p_g_qoshiq_qalam.jpg",
+   "prompt": "Hand-drawn bold cartoon sticker, thick dark outline, flat vivid colors, slight paper texture, white sticker border, reed pen dipped in ink beside an open old manuscript page with star table grid, single object centered, isolated on plain pure white background, no text"
+  },
+  {
+   "file": "p_g_quyosh.jpg",
+   "prompt": "Hand-drawn bold cartoon sticker, thick dark outline, flat vivid colors, slight paper texture, white sticker border, smiling cartoon sun with bold rays, single object centered, isolated on plain pure white background, no text"
+  }
+ ],
+ "gestures": [
+  {
+   "line": 1,
+   "at": "Teleskop",
+   "type": "mark",
+   "shape": "cross",
+   "x": 300,
+   "y": 1080,
+   "label": "YO'Q",
+   "w": 260,
+   "h": 220
+  },
+  {
+   "line": 1,
+   "at": "Soat",
+   "type": "mark",
+   "shape": "cross",
+   "x": 780,
+   "y": 1080,
+   "label": "YO'Q",
+   "w": 260,
+   "h": 220
+  },
+  {
+   "line": 2,
+   "at": "600",
+   "type": "prop",
+   "img": "p_g_qumsoat.jpg",
+   "x": 880,
+   "y": 700,
+   "h": 250,
+   "from": "pop",
+   "motion": "shake",
+   "label": "600 YIL"
+  },
+  {
+   "line": 3,
+   "at": "tepalikda",
+   "type": "mark",
+   "shape": "arrow",
+   "x": 820,
+   "y": 1180,
+   "label": "SHU YER!",
+   "to": [
+    600,
+    1000
+   ]
+  },
+  {
+   "line": 4,
+   "at": "XV",
+   "type": "mark",
+   "shape": "circle",
+   "x": 540,
+   "y": 1100,
+   "label": "XV ASR",
+   "w": 340,
+   "h": 200
+  },
+  {
+   "line": 4,
+   "at": "Ulug'bek",
+   "type": "mark",
+   "shape": "underline",
+   "x": 540,
+   "y": 1180,
+   "w": 420
+  },
+  {
+   "line": 5,
+   "at": "Yulduzlarni",
+   "type": "prop",
+   "img": "p_g_yulduz.jpg",
+   "x": 880,
+   "y": 700,
+   "h": 250,
+   "from": "pop",
+   "motion": "pulse"
+  },
+  {
+   "line": 6,
+   "at": "rasadxona",
+   "type": "mark",
+   "shape": "box",
+   "x": 540,
+   "y": 1020,
+   "label": "RASADXONA",
+   "w": 620,
+   "h": 360
+  },
+  {
+   "line": 6,
+   "at": "1428-yillarda",
+   "type": "prop",
+   "img": "p_g_usturlob.jpg",
+   "x": 180,
+   "y": 740,
+   "h": 250,
+   "from": "pop",
+   "motion": "wag"
+  },
+  {
+   "line": 7,
+   "at": "Qushchi",
+   "type": "mark",
+   "shape": "check",
+   "x": 840,
+   "y": 1080,
+   "label": "SHOGIRD"
+  },
+  {
+   "line": 8,
+   "at": "jadvalga",
+   "type": "prop",
+   "img": "p_g_qoshiq_qalam.jpg",
+   "x": 880,
+   "y": 720,
+   "h": 250,
+   "from": "pop",
+   "motion": "jump"
+  },
+  {
+   "line": 9,
+   "at": "1018",
+   "type": "mark",
+   "shape": "burst",
+   "x": 540,
+   "y": 1050,
+   "label": "1018 TA!",
+   "w": 440
+  },
+  {
+   "line": 10,
+   "at": "burilib",
+   "type": "mark",
+   "shape": "arrow",
+   "x": 250,
+   "y": 1150,
+   "label": "BURILISH!",
+   "to": [
+    700,
+    950
+   ]
+  },
+  {
+   "line": 11,
+   "at": "1449-yili",
+   "type": "mark",
+   "shape": "circle",
+   "x": 540,
+   "y": 1100,
+   "label": "1449",
+   "w": 340,
+   "h": 200
+  },
+  {
+   "line": 12,
+   "at": "vayron",
+   "type": "mark",
+   "shape": "cross",
+   "x": 540,
+   "y": 1020,
+   "label": "VAYRON",
+   "w": 420,
+   "h": 320
+  },
+  {
+   "line": 12,
+   "at": "asarlarini",
+   "type": "prop",
+   "img": "p_g_qoshiq_qalam.jpg",
+   "x": 180,
+   "y": 740,
+   "h": 250,
+   "from": "pop",
+   "motion": "bounce"
+  },
+  {
+   "line": 13,
+   "at": "yo'qolib",
+   "type": "prop",
+   "img": "p_g_qumsoat.jpg",
+   "x": 880,
+   "y": 640,
+   "h": 250,
+   "from": "pop",
+   "motion": "shake"
+  },
+  {
+   "line": 14,
+   "at": "450",
+   "type": "mark",
+   "shape": "underline",
+   "x": 540,
+   "y": 1160,
+   "label": "~500 YIL!",
+   "w": 420
+  },
+  {
+   "line": 15,
+   "at": "yoy",
+   "type": "mark",
+   "shape": "burst",
+   "x": 540,
+   "y": 1000,
+   "label": "TOPILDI!",
+   "w": 460
+  },
+  {
+   "line": 16,
+   "at": "~36",
+   "type": "mark",
+   "shape": "circle",
+   "x": 540,
+   "y": 1100,
+   "label": "36 METR!",
+   "w": 380,
+   "h": 220
+  },
+  {
+   "line": 17,
+   "at": "quyosh",
+   "type": "prop",
+   "img": "p_g_quyosh.jpg",
+   "x": 880,
+   "y": 640,
+   "h": 250,
+   "from": "pop",
+   "motion": "pulse"
+  },
+  {
+   "line": 17,
+   "at": "Sir",
+   "type": "mark",
+   "shape": "check",
+   "x": 200,
+   "y": 1100,
+   "label": "SIR SHU"
+  },
+  {
+   "line": 18,
+   "at": "365",
+   "type": "mark",
+   "shape": "box",
+   "x": 540,
+   "y": 1100,
+   "label": "365 k 6 s 10 d 8 s",
+   "w": 820,
+   "h": 220
+  },
+  {
+   "line": 19,
+   "at": "58",
+   "type": "prop",
+   "img": "p_g_usturlob.jpg",
+   "x": 880,
+   "y": 640,
+   "h": 250,
+   "from": "pop",
+   "motion": "jump",
+   "label": "58 SONIYA!"
+  },
+  {
+   "line": 20,
+   "at": "Izohda",
+   "type": "mark",
+   "shape": "arrow",
+   "x": 250,
+   "y": 1180,
+   "label": "YOZING!",
+   "to": [
+    520,
+    1300
+   ]
+  }
+ ]
+}

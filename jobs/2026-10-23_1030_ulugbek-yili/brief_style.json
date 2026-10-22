@@ -1,0 +1,85 @@
+{
+ "style_name": "Temuriy miniatyura + tungi yulduz xaritasi / usturlob chizmasi (lojuvard va oltin)",
+ "image_prefix": "vertical 9:16, no text, no letters, no logos, 15th-century Timurid Persian miniature painting style, deep lapis lazuli night sky with gold-leaf stars, fine gold astrolabe rings and celestial star-chart line diagrams overlaid (constellation lines, degree arcs, meridian circles), turquoise tilework, delicate brushwork, flat perspective, natural human proportions with real faces, rich lapis blue, gold and turquoise palette, glowing night atmosphere,",
+ "character_prefix": "Timurid Persian miniature painting style with gold leaf details and fine brush lines, deep lapis and gold palette, realistic natural human proportions, real face (no chibi, no big eyes), single person, half body, isolated on clean plain white background, no text, no letters, no logos,",
+ "prop_prefix": "single object sticker, Timurid miniature style with gold leaf and lapis blue, fine brass astronomical instrument linework, centered, isolated on plain white background, no text, no letters, no logos,",
+ "theme": {
+  "font": "shrikhand",
+  "font2": "fredoka",
+  "accent": [
+   30,
+   55,
+   140
+  ],
+  "accent2": [
+   225,
+   180,
+   70
+  ],
+  "bubble_bg": [
+   245,
+   238,
+   220
+  ],
+  "bubble_line": [
+   25,
+   45,
+   120
+  ],
+  "bubble_ink": [
+   20,
+   22,
+   45
+  ],
+  "bubble_dim": [
+   120,
+   140,
+   190
+  ],
+  "bubble_radius": 28,
+  "transitions": [
+   "zoom",
+   "slide",
+   "flash"
+  ],
+  "cut_fx": "flash"
+ },
+ "cover": {
+  "layout": "classic",
+  "img": "cover.jpg",
+  "props": [
+   "p_usturlob.jpg"
+  ],
+  "badge": "1420-YILLAR",
+  "title_colors": [
+   [
+    245,
+    238,
+    220
+   ],
+   [
+    225,
+    180,
+    70
+   ]
+  ],
+  "accent": [
+   30,
+   55,
+   140
+  ],
+  "accent2": [
+   225,
+   180,
+   70
+  ],
+  "cover_prompt": "vertical 9:16, no text, no letters, no logos, Timurid miniature painting style, deep lapis lazuli night sky full of gold-leaf stars and fine golden star-chart rings, the Timurid prince astronomer (about 35, natural proportions, real face, turban, beard) standing on the curved marble rail of the giant Fakhri sextant in Samarkand, eyes wide in wonder, pointing up at a bright star, glowing gold astrolabe beside him, strong lapis and gold contrast, central band of the frame kept calm and dark for a centered title",
+  "flow_prompt": "vertical 9:16, no text, no letters, no logos, Timurid miniature painting style, deep lapis lazuli night sky full of gold-leaf stars and fine golden star-chart rings, the Timurid prince astronomer (about 35, natural proportions, real face, turban, beard) standing on the curved marble rail of the giant Fakhri sextant in Samarkand, eyes wide in wonder, pointing up at a bright star, glowing gold astrolabe beside him, strong lapis and gold contrast, central band of the frame kept calm and dark for a centered title"
+ },
+ "cover_title": [
+  "58 SONIYA",
+  "XATO!"
+ ],
+ "cover_sub": "Ulug'bekning yili",
+ "why": "Ulug'bek Temuriy saroy davri va yulduzlar odami — miniatyura davrni, lojuvard-oltin yulduz chizmalari esa 1018 yulduz va sekstant hisobini ko'rsatadi."
+}

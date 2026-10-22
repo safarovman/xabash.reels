@@ -1,0 +1,39 @@
+{
+ "music": {
+  "genre": "synthwave",
+  "bpm": 104,
+  "key": -1,
+  "scale": "phrygian",
+  "progression": [
+   0,
+   1,
+   0,
+   6
+  ]
+ },
+ "music_seed": 1180,
+ "music_gain": 0.7,
+ "moods": [
+  "mystery",
+  "hero",
+  "groove",
+  "groove",
+  "warm",
+  "hero",
+  "mystery",
+  "hero",
+  "groove",
+  "sad",
+  "mystery",
+  "tense",
+  "tense",
+  "mystery",
+  "hero",
+  "groove",
+  "tense",
+  "mystery",
+  "tense",
+  "finale"
+ ],
+ "why": "Afsona vs arxeologiya sirli tergov — phrygian ladli qorong'i synthwave O'rta yer dengizi/yunon tusini beradi; Shliman xazinasi 'voy' lahzasida sad, yong'in qatlami va dalil yo'qligida tense, oxirgi savolda finale."
+}

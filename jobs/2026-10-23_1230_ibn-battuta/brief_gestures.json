@@ -1,0 +1,309 @@
+{
+ "props_to_generate": [
+  {
+   "file": "p_g_kompas.jpg",
+   "prompt": "Hand-drawn bold cartoon sticker, thick dark outline, flat vivid colors, slight paper texture, white sticker border, antique brass compass with red needle, single object centered, isolated on plain pure white background, no text"
+  },
+  {
+   "file": "p_g_xarita_oram.jpg",
+   "prompt": "Hand-drawn bold cartoon sticker, thick dark outline, flat vivid colors, slight paper texture, white sticker border, rolled parchment map scroll partly unrolled with dotted route line, single object centered, isolated on plain pure white background, no text"
+  },
+  {
+   "file": "p_g_kema.jpg",
+   "prompt": "Hand-drawn bold cartoon sticker, thick dark outline, flat vivid colors, slight paper texture, white sticker border, small medieval wooden sailing dhow ship with triangular sail, single object centered, isolated on plain pure white background, no text"
+  },
+  {
+   "file": "p_g_tuya.jpg",
+   "prompt": "Hand-drawn bold cartoon sticker, thick dark outline, flat vivid colors, slight paper texture, white sticker border, friendly cartoon camel with saddle bags, single object centered, isolated on plain pure white background, no text"
+  },
+  {
+   "file": "p_g_choynak.jpg",
+   "prompt": "Hand-drawn bold cartoon sticker, thick dark outline, flat vivid colors, slight paper texture, white sticker border, traditional Uzbek blue and white porcelain teapot with a piala cup, single object centered, isolated on plain pure white background, no text"
+  }
+ ],
+ "gestures": [
+  {
+   "line": 1,
+   "at": "Marko",
+   "type": "mark",
+   "shape": "box",
+   "x": 540,
+   "y": 1080,
+   "label": "x4 KO'P!",
+   "w": 520,
+   "h": 240
+  },
+  {
+   "line": 1,
+   "at": "yo'l",
+   "type": "prop",
+   "img": "p_g_kompas.jpg",
+   "x": 180,
+   "y": 720,
+   "h": 250,
+   "from": "pop",
+   "motion": "wag"
+  },
+  {
+   "line": 2,
+   "at": "Samarqand",
+   "type": "mark",
+   "shape": "underline",
+   "x": 540,
+   "y": 1160,
+   "label": "BIR JUMLA",
+   "w": 420
+  },
+  {
+   "line": 3,
+   "at": "Tanja",
+   "type": "mark",
+   "shape": "circle",
+   "x": 160,
+   "y": 980,
+   "label": "TANJA",
+   "w": 200,
+   "h": 160
+  },
+  {
+   "line": 3,
+   "at": "21",
+   "type": "mark",
+   "shape": "burst",
+   "x": 820,
+   "y": 1050,
+   "label": "21 YOSH!"
+  },
+  {
+   "line": 4,
+   "at": "Makkaga",
+   "type": "prop",
+   "img": "p_g_tuya.jpg",
+   "x": 880,
+   "y": 720,
+   "h": 250,
+   "from": "pop",
+   "motion": "bounce"
+  },
+  {
+   "line": 5,
+   "at": "24",
+   "type": "mark",
+   "shape": "circle",
+   "x": 540,
+   "y": 1080,
+   "label": "24 YIL!!",
+   "w": 360,
+   "h": 220
+  },
+  {
+   "line": 6,
+   "at": "Misr",
+   "type": "mark",
+   "shape": "arrow",
+   "x": 160,
+   "y": 980,
+   "label": "TANJA→MISR",
+   "to": [
+    420,
+    1000
+   ]
+  },
+  {
+   "line": 6,
+   "at": "Arabiston",
+   "type": "mark",
+   "shape": "arrow",
+   "x": 420,
+   "y": 1000,
+   "to": [
+    520,
+    1100
+   ]
+  },
+  {
+   "line": 6,
+   "at": "Oltin",
+   "type": "mark",
+   "shape": "arrow",
+   "x": 520,
+   "y": 1100,
+   "label": "OLTIN O'RDA",
+   "to": [
+    560,
+    800
+   ]
+  },
+  {
+   "line": 6,
+   "at": "dashtlari",
+   "type": "prop",
+   "img": "p_g_xarita_oram.jpg",
+   "x": 880,
+   "y": 640,
+   "h": 250,
+   "from": "pop",
+   "motion": "pulse"
+  },
+  {
+   "line": 7,
+   "at": "yurtimizga",
+   "type": "mark",
+   "shape": "arrow",
+   "x": 560,
+   "y": 800,
+   "label": "BUXORO",
+   "to": [
+    700,
+    880
+   ]
+  },
+  {
+   "line": 8,
+   "at": "xaroba",
+   "type": "mark",
+   "shape": "cross",
+   "x": 540,
+   "y": 1050,
+   "label": "XAROBA",
+   "w": 400,
+   "h": 300
+  },
+  {
+   "line": 9,
+   "at": "choy",
+   "type": "prop",
+   "img": "p_g_choynak.jpg",
+   "x": 880,
+   "y": 720,
+   "h": 250,
+   "from": "pop",
+   "motion": "jump"
+  },
+  {
+   "line": 10,
+   "at": "devorlarini",
+   "type": "mark",
+   "shape": "circle",
+   "x": 540,
+   "y": 1050,
+   "label": "KIM?",
+   "w": 420,
+   "h": 260
+  },
+  {
+   "line": 11,
+   "at": "Chingizxon",
+   "type": "mark",
+   "shape": "underline",
+   "x": 540,
+   "y": 1160,
+   "label": "100+ YIL",
+   "w": 420
+  },
+  {
+   "line": 12,
+   "at": "Hindistonga",
+   "type": "mark",
+   "shape": "arrow",
+   "x": 760,
+   "y": 880,
+   "label": "SAMARQAND→HIND",
+   "to": [
+    780,
+    1080
+   ]
+  },
+  {
+   "line": 13,
+   "at": "kemasi",
+   "type": "prop",
+   "img": "p_g_kema.jpg",
+   "x": 880,
+   "y": 720,
+   "h": 250,
+   "from": "pop",
+   "motion": "shake"
+  },
+  {
+   "line": 14,
+   "at": "Alhamdulillah...",
+   "type": "mark",
+   "shape": "burst",
+   "x": 540,
+   "y": 1050,
+   "label": "OMAD!"
+  },
+  {
+   "line": 15,
+   "at": "Xitoy",
+   "type": "mark",
+   "shape": "arrow",
+   "x": 780,
+   "y": 1080,
+   "label": "XITOY",
+   "to": [
+    940,
+    940
+   ]
+  },
+  {
+   "line": 15,
+   "at": "Mali",
+   "type": "mark",
+   "shape": "arrow",
+   "x": 940,
+   "y": 940,
+   "label": "MALI",
+   "to": [
+    200,
+    1150
+   ]
+  },
+  {
+   "line": 16,
+   "at": "117",
+   "type": "mark",
+   "shape": "box",
+   "x": 540,
+   "y": 1080,
+   "label": "117 000 vs 24 000",
+   "w": 780,
+   "h": 220
+  },
+  {
+   "line": 17,
+   "at": "«Rihla»",
+   "type": "prop",
+   "img": "p_g_xarita_oram.jpg",
+   "x": 180,
+   "y": 720,
+   "h": 250,
+   "from": "pop",
+   "motion": "bounce"
+  },
+  {
+   "line": 19,
+   "at": "go'zal",
+   "type": "mark",
+   "shape": "burst",
+   "x": 540,
+   "y": 1050,
+   "label": "ENG GO'ZAL!",
+   "w": 440
+  },
+  {
+   "line": 20,
+   "at": "jumla",
+   "type": "prop",
+   "img": "p_g_kompas.jpg",
+   "x": 880,
+   "y": 720,
+   "h": 250,
+   "from": "pop",
+   "motion": "point",
+   "label": "IZOHGA!",
+   "dir": "left"
+  }
+ ]
+}

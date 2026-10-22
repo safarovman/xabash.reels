@@ -1,0 +1,22 @@
+{
+ "hook": "Bu odam Marko Polodan to'rt baravar ko'p yo'l yurgan.",
+ "hook_type": "raqamli va'da",
+ "rehooks": [
+  {
+   "scene": 5,
+   "text": "U uyiga 24 yildan keyin qaytdi."
+  },
+  {
+   "scene": 7,
+   "text": "bizning yurtimizga kirib keldi"
+  },
+  {
+   "scene": 13,
+   "text": "kemasi bo'ronda cho'kib ketdi"
+  }
+ ],
+ "open_loop": "Samarqand haqidagi jumla",
+ "payoff_scene": 19,
+ "final_question": "Siz sayohatchi bo'lganingizda, o'z shahringiz haqida qanday bir jumla yozardingiz? Izohda yozing.",
+ "question_type": "siz bo'lganingizda"
+}

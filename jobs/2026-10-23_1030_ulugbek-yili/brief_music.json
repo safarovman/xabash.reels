@@ -1,0 +1,39 @@
+{
+ "music": {
+  "genre": "doira_folk",
+  "bpm": 100,
+  "key": 2,
+  "scale": "hijaz",
+  "progression": [
+   0,
+   6,
+   5,
+   4
+  ]
+ },
+ "music_seed": 1449,
+ "music_gain": 0.72,
+ "moods": [
+  "mystery",
+  "mystery",
+  "warm",
+  "hero",
+  "warm",
+  "hero",
+  "groove",
+  "groove",
+  "hero",
+  "tense",
+  "sad",
+  "tense",
+  "mystery",
+  "mystery",
+  "hero",
+  "groove",
+  "warm",
+  "tense",
+  "hero",
+  "finale"
+ ],
+ "why": "Samarqand rasadxonasi — nay va doira bilan doira_folk hijaz lad: hayrat (hero/groove), 1449 fojiasi (sad/tense), 500 yil unutilish (mystery), Vyatkin topilmasi va 58 soniya raqamida hero -> finale."
+}

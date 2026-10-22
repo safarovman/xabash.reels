@@ -1,0 +1,300 @@
+{
+ "props_to_generate": [
+  {
+   "file": "p_g_dubulgha.jpg",
+   "prompt": "Hand-drawn bold cartoon sticker, thick dark outline, flat vivid colors, slight paper texture, white sticker border, ancient Greek bronze Corinthian hoplite helmet with red horsehair crest, single object centered, isolated on plain pure white background, no text"
+  },
+  {
+   "file": "p_g_lupa.jpg",
+   "prompt": "Hand-drawn bold cartoon sticker, thick dark outline, flat vivid colors, slight paper texture, white sticker border, vintage brass magnifying glass tilted diagonally, single object centered, isolated on plain pure white background, no text"
+  },
+  {
+   "file": "p_g_belkurak.jpg",
+   "prompt": "Hand-drawn bold cartoon sticker, thick dark outline, flat vivid colors, slight paper texture, white sticker border, archaeologist's small digging shovel and trowel crossed, single object centered, isolated on plain pure white background, no text"
+  },
+  {
+   "file": "p_g_yogoch_ot.jpg",
+   "prompt": "Hand-drawn bold cartoon sticker, thick dark outline, flat vivid colors, slight paper texture, white sticker border, small wooden Trojan horse toy on wheels with a big red question mark beside it, single object centered, isolated on plain pure white background, no text"
+  },
+  {
+   "file": "p_g_qolok.jpg",
+   "prompt": "Hand-drawn bold cartoon sticker, thick dark outline, flat vivid colors, slight paper texture, white sticker border, cartoon hand with index finger pointing to the left, white glove style, single object centered, isolated on plain pure white background, no text"
+  }
+ ],
+ "gestures": [
+  {
+   "line": 1,
+   "at": "Troya",
+   "type": "mark",
+   "shape": "cross",
+   "x": 540,
+   "y": 1050,
+   "label": "YO'Q!",
+   "w": 360,
+   "h": 300
+  },
+  {
+   "line": 1,
+   "at": "Iliada",
+   "type": "prop",
+   "img": "p_g_dubulgha.jpg",
+   "x": 180,
+   "y": 700,
+   "h": 250,
+   "from": "pop",
+   "motion": "wag"
+  },
+  {
+   "line": 2,
+   "at": "kinoda-ku",
+   "type": "prop",
+   "img": "p_g_yogoch_ot.jpg",
+   "x": 880,
+   "y": 640,
+   "h": 250,
+   "from": "pop",
+   "motion": "shake"
+  },
+  {
+   "line": 3,
+   "at": "dafn",
+   "type": "mark",
+   "shape": "underline",
+   "x": 540,
+   "y": 1150,
+   "label": "OXIRI SHU",
+   "w": 420
+  },
+  {
+   "line": 3,
+   "at": "qulamagan",
+   "type": "mark",
+   "shape": "check",
+   "x": 860,
+   "y": 1000,
+   "label": "HALI TIK"
+  },
+  {
+   "line": 4,
+   "at": "to'qima",
+   "type": "prop",
+   "img": "p_g_yogoch_ot.jpg",
+   "x": 880,
+   "y": 640,
+   "h": 250,
+   "from": "pop",
+   "motion": "jump"
+  },
+  {
+   "line": 5,
+   "at": "Troyaning",
+   "type": "prop",
+   "img": "p_g_qolok.jpg",
+   "x": 900,
+   "y": 900,
+   "h": 250,
+   "from": "pop",
+   "motion": "point",
+   "dir": "left"
+  },
+  {
+   "line": 6,
+   "at": "1871-yili",
+   "type": "mark",
+   "shape": "circle",
+   "x": 540,
+   "y": 1100,
+   "label": "1871!",
+   "w": 380,
+   "h": 200
+  },
+  {
+   "line": 6,
+   "at": "qazishni",
+   "type": "prop",
+   "img": "p_g_belkurak.jpg",
+   "x": 190,
+   "y": 760,
+   "h": 250,
+   "from": "pop",
+   "motion": "bounce"
+  },
+  {
+   "line": 7,
+   "at": "Hisarlik",
+   "type": "mark",
+   "shape": "arrow",
+   "x": 820,
+   "y": 1180,
+   "label": "MANA U!",
+   "to": [
+    600,
+    980
+   ]
+  },
+  {
+   "line": 8,
+   "at": "oltin",
+   "type": "mark",
+   "shape": "burst",
+   "x": 540,
+   "y": 1000,
+   "label": "OLTIN!",
+   "w": 420
+  },
+  {
+   "line": 8,
+   "at": "Priam",
+   "type": "prop",
+   "img": "p_g_lupa.jpg",
+   "x": 880,
+   "y": 720,
+   "h": 250,
+   "from": "pop",
+   "motion": "pulse"
+  },
+  {
+   "line": 9,
+   "at": "Topibdi-ku!",
+   "type": "mark",
+   "shape": "check",
+   "x": 840,
+   "y": 1050,
+   "label": "TOPDIK?"
+  },
+  {
+   "line": 10,
+   "at": "muammo",
+   "type": "mark",
+   "shape": "cross",
+   "x": 540,
+   "y": 1050,
+   "label": "1000 YIL ESKI!",
+   "w": 380,
+   "h": 300
+  },
+  {
+   "line": 11,
+   "at": "9",
+   "type": "mark",
+   "shape": "box",
+   "x": 540,
+   "y": 1000,
+   "label": "9 QAVAT!",
+   "w": 620,
+   "h": 360
+  },
+  {
+   "line": 11,
+   "at": "qatlami",
+   "type": "prop",
+   "img": "p_g_lupa.jpg",
+   "x": 180,
+   "y": 720,
+   "h": 250,
+   "from": "pop",
+   "motion": "point",
+   "dir": "right"
+  },
+  {
+   "line": 12,
+   "at": "1180-yillarda",
+   "type": "mark",
+   "shape": "underline",
+   "x": 540,
+   "y": 1160,
+   "label": "YONGIN!",
+   "w": 460
+  },
+  {
+   "line": 13,
+   "at": "urush",
+   "type": "prop",
+   "img": "p_g_dubulgha.jpg",
+   "x": 880,
+   "y": 640,
+   "h": 250,
+   "from": "pop",
+   "motion": "shake"
+  },
+  {
+   "line": 14,
+   "at": "Vilusa",
+   "type": "mark",
+   "shape": "circle",
+   "x": 540,
+   "y": 1050,
+   "label": "VILUSA = ILION?",
+   "w": 400,
+   "h": 220
+  },
+  {
+   "line": 15,
+   "at": "Alaksandu",
+   "type": "mark",
+   "shape": "arrow",
+   "x": 250,
+   "y": 1180,
+   "label": "PARIS!",
+   "to": [
+    480,
+    1000
+   ]
+  },
+  {
+   "line": 16,
+   "at": "Mana!",
+   "type": "mark",
+   "shape": "burst",
+   "x": 540,
+   "y": 1050,
+   "label": "OT HAM?!"
+  },
+  {
+   "line": 17,
+   "at": "dalil",
+   "type": "mark",
+   "shape": "cross",
+   "x": 540,
+   "y": 1050,
+   "label": "DALIL YO'Q",
+   "w": 380,
+   "h": 300
+  },
+  {
+   "line": 18,
+   "at": "Eneida",
+   "type": "prop",
+   "img": "p_g_yogoch_ot.jpg",
+   "x": 880,
+   "y": 720,
+   "h": 250,
+   "from": "pop",
+   "motion": "bounce"
+  },
+  {
+   "line": 19,
+   "at": "zilzila",
+   "type": "prop",
+   "img": "p_g_lupa.jpg",
+   "x": 180,
+   "y": 720,
+   "h": 250,
+   "from": "pop",
+   "motion": "wag"
+  },
+  {
+   "line": 20,
+   "at": "izohda",
+   "type": "prop",
+   "img": "p_g_qolok.jpg",
+   "x": 900,
+   "y": 1050,
+   "h": 250,
+   "from": "pop",
+   "motion": "point",
+   "label": "IZOHGA!",
+   "dir": "left"
+  }
+ ]
+}

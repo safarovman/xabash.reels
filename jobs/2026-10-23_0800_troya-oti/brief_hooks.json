@@ -1,0 +1,22 @@
+{
+ "hook": "Gomerning «Iliada» dostonida Troya oti umuman yo'q.",
+ "hook_type": "afsonani buzish",
+ "rehooks": [
+  {
+   "scene": 5,
+   "text": "Avval Troyaning o'zi bo'lganmi — shuni bilaylik."
+  },
+  {
+   "scene": 10,
+   "text": "Bitta muammo bor: xazina urushdan ming yildan ham eski chiqdi."
+  },
+  {
+   "scene": 15,
+   "text": "Parisning yunoncha ismi Aleksandros-ku!"
+  }
+ ],
+ "open_loop": "Ot hikoyasi qayerdan chiqqan?",
+ "payoff_scene": 18,
+ "final_question": "Sizningcha, yog'och ot aslida nima bo'lgan? Fikringizni izohda yozing.",
+ "question_type": "bahs"
+}

@@ -1,0 +1,39 @@
+{
+ "music": {
+  "genre": "western",
+  "bpm": 124,
+  "key": 3,
+  "scale": "dorian",
+  "progression": [
+   0,
+   4,
+   5,
+   3
+  ]
+ },
+ "music_seed": 1325,
+ "music_gain": 0.7,
+ "moods": [
+  "mystery",
+  "mystery",
+  "hero",
+  "groove",
+  "groove",
+  "groove",
+  "tense",
+  "sad",
+  "warm",
+  "warm",
+  "mystery",
+  "hero",
+  "tense",
+  "warm",
+  "groove",
+  "hero",
+  "warm",
+  "mystery",
+  "warm",
+  "finale"
+ ],
+ "why": "117 000 km sarguzasht — 'train' barabanli western karvon yurishini beradi, dorian lad sayohat ruhini; Buxoro xarobalarida sad, bo'ronda tense, Samarqand jumlasida warm, oxirida finale."
+}

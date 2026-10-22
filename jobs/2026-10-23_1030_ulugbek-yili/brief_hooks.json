@@ -1,0 +1,22 @@
+{
+ "hook": "Teleskop yo'q. Soat yo'q. Lekin yil uzunligi deyarli aniq topilgan.",
+ "hook_type": "qiziqish bo'shlig'i",
+ "rehooks": [
+  {
+   "scene": 10,
+   "text": "Lekin hikoya shu yerda burilib ketadi."
+  },
+  {
+   "scene": 14,
+   "text": "Rasadxonaning joyi 450 yildan ko'proq unutildi."
+  },
+  {
+   "scene": 16,
+   "text": "Bu — Faxriy sekstanti."
+  }
+ ],
+ "open_loop": "Teleskopsiz qanday qilishgan?",
+ "payoff_scene": 17,
+ "final_question": "Maktabda sizga Ulug'bek haqida nima aytib berishgan? Izohda yozing.",
+ "question_type": "shaxsiy hikoya"
+}

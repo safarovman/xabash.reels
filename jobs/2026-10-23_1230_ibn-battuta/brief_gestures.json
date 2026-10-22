@@ -303,7 +303,7 @@
    "from": "pop",
    "motion": "point",
    "label": "IZOHGA!",
-   "dir": "left"
+   "dir": 180
   }
  ]
 }

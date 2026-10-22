@@ -12,9 +12,9 @@
    40
   ],
   "accent2": [
-   35,
-   30,
-   28
+   245,
+   200,
+   110
   ],
   "bubble_bg": [
    244,
@@ -59,9 +59,9 @@
     196
    ],
    [
-    35,
-    30,
-    28
+    245,
+    200,
+    110
    ]
   ],
   "accent": [
@@ -70,9 +70,9 @@
    40
   ],
   "accent2": [
-   35,
-   30,
-   28
+   245,
+   200,
+   110
   ],
   "cover_prompt": "vertical 9:16, no text, no letters, no logos, ancient Greek red-figure vase painting style on terracotta with black slip, a young woman archaeology student (20, natural proportions, real face) kneeling in a dusty excavation trench at Hisarlik, jaw dropped in disbelief, holding a brush, looking up at a huge empty wooden horse silhouette drawn as a faint dotted outline, broken amphora shards and a trowel around her, bold terracotta orange and black contrast, strong composition in the upper 55% of the frame, lower part simple and plain for title space",
   "flow_prompt": "vertical 9:16, no text, no letters, no logos, ancient Greek red-figure vase painting style on terracotta with black slip, a young woman archaeology student (20, natural proportions, real face) kneeling in a dusty excavation trench at Hisarlik, jaw dropped in disbelief, holding a brush, looking up at a huge empty wooden horse silhouette drawn as a faint dotted outline, broken amphora shards and a trowel around her, bold terracotta orange and black contrast, strong composition in the upper 55% of the frame, lower part simple and plain for title space"

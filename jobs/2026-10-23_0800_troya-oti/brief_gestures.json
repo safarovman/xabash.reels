@@ -95,7 +95,7 @@
    "h": 250,
    "from": "pop",
    "motion": "point",
-   "dir": "left"
+   "dir": 180
   },
   {
    "line": 6,
@@ -194,7 +194,7 @@
    "h": 250,
    "from": "pop",
    "motion": "point",
-   "dir": "right"
+   "dir": 0
   },
   {
    "line": 12,
@@ -294,7 +294,7 @@
    "from": "pop",
    "motion": "point",
    "label": "IZOHGA!",
-   "dir": "left"
+   "dir": 180
   }
  ]
 }

@@ -76,39 +76,39 @@
   "slots": [
     {
       "time": "08:00",
-      "category": "jahon tarixi",
-      "theme": "jahon tarixi: buyuk janglar, imperiyalar, sarkardalar — bitta aniq voqea yoki savol atrofida (agents/history_scout.md: 3-4 ishonchli manba, afsona «rivoyat qilishlaricha» deb ajratiladi, xarita+strelka, uydirma raqam yo'q)",
-      "account": "B"
+      "account": "A",
+      "category": "tarix — afsona/sir",
+      "theme": "afsonalar ortidagi haqiqat, tarix sirlari, qiziq kashfiyotlar (agents/history_scout.md: 2-3 ishonchli manba, rivoyat/taxmin ajratiladi, uydirma raqam yo'q)"
     },
     {
       "time": "10:30",
-      "category": "O'zbekiston tarixi",
-      "theme": "O'zbekiston tarixi: Amir Temur va temuriylar, Jaloliddin, Xorazmshohlar, Somoniylar, Bobur, xonliklar, jadidlar, buyuk olimlar (agents/history_scout.md: 3-4 ishonchli manba, afsona «rivoyat qilishlaricha» deb ajratiladi, xarita+strelka, uydirma raqam yo'q)",
-      "account": "A"
+      "account": "A",
+      "category": "O'zbekiston/Markaziy Osiyo tarixi",
+      "theme": "Farg'ona, Samarqand, Buxoro, Xorazm, temuriylar, olimlar, sayohat va tajribalar (agents/history_scout.md: 2-3 ishonchli manba, rivoyat/taxmin ajratiladi, uydirma raqam yo'q)"
     },
     {
       "time": "12:30",
-      "category": "XX asr tarixi",
-      "theme": "XX asr: Ikkinchi jahon urushi, SSSR, sovuq urush, o'zbek askarlari va xalq taqdiri — 'nega shunday bo'ldi?' savoli bilan (agents/history_scout.md: 3-4 ishonchli manba, afsona «rivoyat qilishlaricha» deb ajratiladi, xarita+strelka, uydirma raqam yo'q)",
-      "account": "B"
+      "account": "A",
+      "category": "tarix — sayohat/tajriba",
+      "theme": "tarixiy sayohatlar, elchilar, ixtirolar va tajribalar (agents/history_scout.md: 2-3 ishonchli manba, rivoyat/taxmin ajratiladi, uydirma raqam yo'q)"
     },
     {
       "time": "14:30",
-      "category": "tarix sirlari",
-      "theme": "tarixdagi sirlar va ixtirolar: Tesla, yo'qolgan shaharlar, xazinalar, tushuntirilmagan voqealar — fakt va rivoyatni ajratib (agents/history_scout.md: 3-4 ishonchli manba, afsona «rivoyat qilishlaricha» deb ajratiladi, xarita+strelka, uydirma raqam yo'q)",
-      "account": "A"
+      "account": "B",
+      "category": "jahon tarixi",
+      "theme": "janglar, imperiyalar, sarkardalar (agents/history_scout.md: 2-3 ishonchli manba, rivoyat/taxmin ajratiladi, uydirma raqam yo'q)"
+    },
+    {
+      "time": "16:30",
+      "account": "B",
+      "category": "XX asr tarixi",
+      "theme": "Ikkinchi jahon urushi, SSSR, «nega shunday bo'ldi?» (agents/history_scout.md: 2-3 ishonchli manba, rivoyat/taxmin ajratiladi, uydirma raqam yo'q)"
     },
     {
       "time": "18:30",
-      "category": "O'zbekiston tarixi",
-      "theme": "Turkiston va Movarounnahr: Ulug'bek, Beruniy, Ibn Sino, Navoiy, Buyuk ipak yo'li, qadimiy shaharlar (Samarqand, Buxoro, Xiva) (agents/history_scout.md: 3-4 ishonchli manba, afsona «rivoyat qilishlaricha» deb ajratiladi, xarita+strelka, uydirma raqam yo'q)",
-      "account": "A"
-    },
-    {
-      "time": "21:00",
-      "category": "agar bo'lganida",
-      "theme": "tarixiy 'agar...' va 2-qismlar: muhim voqea boshqacha tugaganida nima bo'lardi — faqat hujjatlarga tayangan holda (agents/history_scout.md: 3-4 ishonchli manba, afsona «rivoyat qilishlaricha» deb ajratiladi, xarita+strelka, uydirma raqam yo'q)",
-      "account": "B"
+      "account": "B",
+      "category": "tarix — «agar…» / 2-qismlar",
+      "theme": "muhim voqea boshqacha tugaganida nima bo'lardi, hujjatlarga tayangan holda (agents/history_scout.md: 2-3 ishonchli manba, rivoyat/taxmin ajratiladi, uydirma raqam yo'q)"
     }
   ],
   "style": {
@@ -174,5 +174,5 @@
     },
     "note": "2026-10-18: egasi limitni tejash uchun 2 ta Claude Pro akkaunt ishlatadi. Har akkaunt faqat o'z slotlari uchun mavzu taklif qiladi, video yasaydi va Buffer'ga qo'yadi. Kelajak (16:00) slot olib tashlandi."
   },
-  "content_policy_note": "2026-10-21 egasi: faqat tarix videolari (boshqa turlari tavsiyaga chiqmayapti)."
+  "content_policy_note": "2026-10-22 egasi: faqat tarix. A akkaunt 08:00/10:30/12:30, B akkaunt 14:30/16:30/18:30 (agents/SPLIT.md)."
 }

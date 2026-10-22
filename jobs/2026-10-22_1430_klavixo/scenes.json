@@ -1,0 +1,540 @@
+{
+ "title": "Klavixo: Temurga elchi",
+ "pace": "fast",
+ "music": {
+  "genre": "tango",
+  "bpm": 112,
+  "key": -2,
+  "scale": "minor",
+  "progression": [
+   0,
+   5,
+   3,
+   4
+  ]
+ },
+ "music_seed": 1430,
+ "music_gain": 0.7,
+ "cover_title": [
+  "16 OY YO'L",
+  "TEMURGA"
+ ],
+ "cover_sub": "Ispan elchisining kundaligi",
+ "cover_scene": 8,
+ "cover": {
+  "layout": "polaroid",
+  "img": "cover.jpg",
+  "tilt": -5,
+  "accent": [
+   30,
+   60,
+   140
+  ],
+  "accent2": [
+   220,
+   170,
+   60
+  ]
+ },
+ "anim": "static",
+ "bright": true,
+ "theme": {
+  "font": "specialelite",
+  "font2": "caveat",
+  "accent": [
+   180,
+   40,
+   40
+  ],
+  "accent2": [
+   220,
+   170,
+   60
+  ],
+  "bubble_bg": [
+   246,
+   236,
+   214
+  ],
+  "bubble_line": [
+   30,
+   60,
+   140
+  ],
+  "bubble_ink": [
+   30,
+   25,
+   25
+  ],
+  "bubble_dim": [
+   160,
+   140,
+   120
+  ],
+  "bubble_radius": 10,
+  "transitions": [
+   "slide",
+   "flash",
+   "whip"
+  ],
+  "cut_fx": "punch"
+ },
+ "end_hold": 1.2,
+ "scenes": [
+  {
+   "text": "Temurning oldiga ispan elchisi bir yildan ko'proq yo'l yurib borganini bilarmidingiz?",
+   "tts": "[intrigued] Temurning oldiga ispan elchisi bir yildan ko'proq yo'l yurib borganini bilarmidingiz?",
+   "mood": "mystery",
+   "img": "01.jpg",
+   "elements": [
+    {
+     "type": "caption",
+     "words": [
+      "BIR YILDAN",
+      "KO'P YO'L"
+     ],
+     "color": "yellow",
+     "y": 1330,
+     "size": 92,
+     "at": "bir yildan"
+    },
+    {
+     "type": "mark",
+     "shape": "circle",
+     "x": 540,
+     "y": 820,
+     "w": 420,
+     "h": 300,
+     "at": "elchisi",
+     "label": "ISPAN ELCHI"
+    }
+   ],
+   "n": 1,
+   "vo": "vo_01.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M"
+  },
+  {
+   "text": "Uning ismi Rui Gonsales de Klavixo edi.",
+   "tts": "[warmly] Uning ismi Rui Gonsales de Klavixo edi.",
+   "mood": "mystery",
+   "img": "02.jpg",
+   "elements": [
+    {
+     "type": "char",
+     "img": "c_klavixo.jpg",
+     "from": "right",
+     "x": 790,
+     "y": 1420,
+     "h": 700,
+     "at": 0.1,
+     "motion": "bounce",
+     "label": "KLAVIXO",
+     "label_bg": "royal"
+    },
+    {
+     "type": "caption",
+     "words": [
+      "RUI GONSALES",
+      "DE KLAVIXO"
+     ],
+     "color": "white",
+     "y": 1330,
+     "size": 92,
+     "at": "Klavixo"
+    }
+   ],
+   "n": 2,
+   "vo": "vo_02.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M"
+  },
+  {
+   "text": "Uni Kastiliya qiroli Enrike Uchinchi Samarqandga yuborgan.",
+   "tts": "Uni Kastiliya qiroli Enrike Uchinchi Samarqandga yuborgan.",
+   "mood": "hero",
+   "img": "03.jpg",
+   "elements": [
+    {
+     "type": "tag",
+     "head": "KASTILIYA",
+     "text": "QIROL ENRIKE III",
+     "x": 540,
+     "y": 210,
+     "color": "royal",
+     "at": "start"
+    },
+    {
+     "type": "caption",
+     "words": [
+      "SAMARQANDGA!"
+     ],
+     "color": "yellow",
+     "y": 1330,
+     "size": 92,
+     "at": "Samarqandga"
+    }
+   ],
+   "n": 3,
+   "vo": "vo_03.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M"
+  },
+  {
+   "text": "Bir ming to'rt yuz uchinchi yil, may. Kemalar Kadis portidan yo'lga chiqdi.",
+   "tts": "[excited] Bir ming to'rt yuz uchinchi yil, may oyi. Kemalar Kadis portidan yo'lga chiqdi.",
+   "mood": "hero",
+   "img": "04.jpg",
+   "elements": [
+    {
+     "type": "tag",
+     "head": "YO'LGA CHIQDI",
+     "text": "1403-YIL MAY",
+     "x": 540,
+     "y": 210,
+     "color": "crimson",
+     "at": "start"
+    },
+    {
+     "type": "mark",
+     "shape": "arrow",
+     "x": 250,
+     "y": 1050,
+     "to": [
+      820,
+      760
+     ],
+     "at": "Kadis",
+     "label": "KADIS",
+     "color": "yellow"
+    }
+   ],
+   "n": 4,
+   "vo": "vo_04.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M"
+  },
+  {
+   "text": "Rodos, Konstantinopol, keyin Qora dengizdagi Trabzon.",
+   "tts": "Rodos, Konstantinopol, keyin Qora dengizdagi Trabzon.",
+   "mood": "groove",
+   "img": "05.jpg",
+   "imgs": [
+    [
+     "05b.jpg",
+     "Trabzon"
+    ]
+   ],
+   "elements": [
+    {
+     "type": "mark",
+     "shape": "arrow",
+     "x": 200,
+     "y": 900,
+     "to": [
+      860,
+      560
+     ],
+     "at": "Rodos",
+     "color": "yellow"
+    },
+    {
+     "type": "caption",
+     "words": [
+      "TRABZON"
+     ],
+     "color": "yellow",
+     "y": 1330,
+     "size": 92,
+     "at": "Trabzon"
+    }
+   ],
+   "n": 5,
+   "vo": "vo_05.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M"
+  },
+  {
+   "text": "Shu dengiz yo'lining o'ziga qariyb bir yil ketdi.",
+   "tts": "[sighs] Shu dengiz yo'lining o'ziga qariyb bir yil ketdi.",
+   "mood": "sad",
+   "img": "06.jpg",
+   "elements": [
+    {
+     "type": "caption",
+     "words": [
+      "QARIYB",
+      "1 YIL!"
+     ],
+     "color": "yellow",
+     "y": 1330,
+     "size": 92,
+     "at": "bir yil"
+    }
+   ],
+   "n": 6,
+   "vo": "vo_06.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M"
+  },
+  {
+   "text": "Lekin eng qiyini oldinda edi. Endi Temurning o'zini topish kerak edi.",
+   "tts": "[tense] Lekin eng qiyini oldinda edi. Endi Temurning o'zini topish kerak edi.",
+   "mood": "tense",
+   "img": "07.jpg",
+   "elements": [
+    {
+     "type": "mark",
+     "shape": "burst",
+     "x": 540,
+     "y": 700,
+     "w": 300,
+     "at": "qiyini"
+    },
+    {
+     "type": "caption",
+     "words": [
+      "TEMUR",
+      "QAYERDA?"
+     ],
+     "color": "white",
+     "y": 1330,
+     "size": 92,
+     "at": "topish"
+    }
+   ],
+   "n": 7,
+   "vo": "vo_07.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M"
+  },
+  {
+   "text": "Temur bir joyda turmasdi. Elchilar uning izidan Tabriz, Mashhad, Balx va Termiz orqali yurdi.",
+   "tts": "Temur bir joyda turmasdi. Elchilar uning izidan Tabriz, Mashhad, Balx va Termiz orqali yurdi.",
+   "mood": "groove",
+   "img": "08.jpg",
+   "elements": [
+    {
+     "type": "mark",
+     "shape": "arrow",
+     "x": 160,
+     "y": 1100,
+     "to": [
+      900,
+      700
+     ],
+     "at": "Tabriz",
+     "color": "yellow",
+     "label": "TERMIZ"
+    }
+   ],
+   "n": 8,
+   "vo": "vo_08.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M"
+  },
+  {
+   "text": "Va nihoyat, bir ming to'rt yuz to'rtinchi yil sentabrda ufqda Samarqand ko'rindi.",
+   "tts": "[amazed] Va nihoyat, bir ming to'rt yuz to'rtinchi yil sentabrda ufqda Samarqand ko'rindi.",
+   "mood": "hero",
+   "img": "09.jpg",
+   "elements": [
+    {
+     "type": "tag",
+     "head": "SAMARQAND",
+     "text": "1404-YIL SENTABR",
+     "x": 540,
+     "y": 210,
+     "color": "green",
+     "at": "start"
+    },
+    {
+     "type": "caption",
+     "words": [
+      "16 OY",
+      "YO'LDA!"
+     ],
+     "color": "yellow",
+     "y": 1330,
+     "size": 92,
+     "at": "Samarqand"
+    }
+   ],
+   "n": 9,
+   "vo": "vo_09.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M"
+  },
+  {
+   "text": "Kundaligida yozishicha, Temur ularni katta bog' ichidagi saroyda qabul qilgan.",
+   "tts": "[warmly] Kundaligida yozishicha, Temur ularni katta bog' ichidagi saroyda qabul qilgan.",
+   "mood": "warm",
+   "img": "10.jpg",
+   "imgs": [
+    [
+     "10b.jpg",
+     "saroyda"
+    ]
+   ],
+   "elements": [
+    {
+     "type": "caption",
+     "words": [
+      "BOG' ICHIDA",
+      "SAROY"
+     ],
+     "color": "yellow",
+     "y": 1330,
+     "size": 92,
+     "at": "bog'"
+    }
+   ],
+   "n": 10,
+   "vo": "vo_10.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M"
+  },
+  {
+   "text": "Bo'yalgan fillar, marvarid qadalgan ipak chodirlar. Klavixo hammasini yozib bordi.",
+   "tts": "[amazed] Bo'yalgan fillar, marvarid qadalgan ipak chodirlar. Klavixo hammasini yozib bordi.",
+   "mood": "groove",
+   "img": "11.jpg",
+   "imgs": [
+    [
+     "11b.jpg",
+     "chodirlar"
+    ]
+   ],
+   "elements": [
+    {
+     "type": "mark",
+     "shape": "circle",
+     "x": 540,
+     "y": 900,
+     "w": 520,
+     "h": 380,
+     "at": "fillar",
+     "label": "FILLAR!"
+    }
+   ],
+   "n": 11,
+   "vo": "vo_11.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M"
+  },
+  {
+   "text": "Samarqandda Anqara g'alabasi sharafiga bayramlar haftalab davom etardi.",
+   "tts": "[excited] Samarqandda Anqara g'alabasi sharafiga bayramlar haftalab davom etardi.",
+   "mood": "hero",
+   "img": "12.jpg",
+   "elements": [
+    {
+     "type": "caption",
+     "words": [
+      "HAFTALAB",
+      "BAYRAM"
+     ],
+     "color": "yellow",
+     "y": 1330,
+     "size": 92,
+     "at": "bayramlar"
+    }
+   ],
+   "n": 12,
+   "vo": "vo_12.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M"
+  },
+  {
+   "text": "Lekin Klavixo Samarqandda ko'rgan eng muhim narsani o'zi ham bilmagan edi.",
+   "tts": "[whispers] Lekin Klavixo Samarqandda ko'rgan eng muhim narsani o'zi ham bilmagan edi.",
+   "mood": "mystery",
+   "img": "13.jpg",
+   "elements": [
+    {
+     "type": "caption",
+     "words": [
+      "NIMANI?"
+     ],
+     "color": "white",
+     "y": 1330,
+     "size": 92,
+     "at": "bilmagan"
+    }
+   ],
+   "n": 13,
+   "vo": "vo_13.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M"
+  },
+  {
+   "text": "Noyabrda elchilar ortga qaytdi. Yo'lda ularga bir xabar yetib keldi.",
+   "tts": "[tense] Noyabrda elchilar ortga qaytdi. Yo'lda ularga bir xabar yetib keldi.",
+   "mood": "tense",
+   "img": "14.jpg",
+   "elements": [
+    {
+     "type": "prop",
+     "img": "p_g_maktub.jpg",
+     "x": 820,
+     "y": 620,
+     "h": 280,
+     "from": "pop",
+     "motion": "shake",
+     "at": "xabar"
+    }
+   ],
+   "n": 14,
+   "vo": "vo_14.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M"
+  },
+  {
+   "text": "Bir necha oy o'tib, Temur Xitoyga yurish paytida vafot etgan edi. Klavixo uni tirik ko'rgan kam sonli yevropaliklardan biri bo'ldi.",
+   "tts": "[sad] Bir necha oy o'tib, Temur Xitoyga yurish paytida vafot etgan edi. [pause] Klavixo uni tirik ko'rgan kam sonli yevropaliklardan biri bo'ldi.",
+   "mood": "sad",
+   "img": "15.jpg",
+   "elements": [
+    {
+     "type": "tag",
+     "head": "1405-YIL",
+     "text": "FEVRAL",
+     "x": 540,
+     "y": 210,
+     "color": "crimson",
+     "at": "start"
+    },
+    {
+     "type": "caption",
+     "words": [
+      "TIRIK KO'RGAN",
+      "YEVROPALIK"
+     ],
+     "color": "white",
+     "y": 1330,
+     "size": 92,
+     "at": "yevropaliklardan"
+    }
+   ],
+   "n": 15,
+   "vo": "vo_15.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M"
+  },
+  {
+   "text": "Uning kundaligi bugun ham saqlanib qolgan. Siz Temur saroyiga elchi bo'lib borganingizda, kundaligingizga birinchi nimani yozardingiz?",
+   "tts": "[warmly] Uning kundaligi bugun ham saqlanib qolgan. [excited] Siz Temur saroyiga elchi bo'lib borganingizda, kundaligingizga birinchi nimani yozardingiz?",
+   "mood": "finale",
+   "img": "16.jpg",
+   "elements": [
+    {
+     "type": "card",
+     "kicker": "KUNDALIK",
+     "title": [
+      "TEMUR SAROYIGA",
+      "ELCHILIK"
+     ],
+     "sub": "Klavixo, 1403-1406",
+     "at": "saqlanib",
+     "y": 1330
+    },
+    {
+     "type": "final",
+     "lines": [
+      "SIZ NIMA",
+      "YOZARDINGIZ?"
+     ],
+     "at": "Siz Temur"
+    }
+   ],
+   "n": 16,
+   "vo": "vo_16.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M"
+  }
+ ]
+}

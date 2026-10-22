@@ -1,0 +1,474 @@
+{
+ "title": "Afsonalar qayerdan kelgan",
+ "pace": "fast",
+ "music": {
+  "genre": "detective",
+  "bpm": 104,
+  "key": 2,
+  "scale": "blues",
+  "progression": [
+   0,
+   3,
+   5,
+   4
+  ]
+ },
+ "music_seed": 1630,
+ "music_gain": 0.7,
+ "cover_title": [
+  "SUV PARISI",
+  "EMAS EDI!"
+ ],
+ "cover_sub": "Kolumb kundaligi, 1493",
+ "cover_scene": 14,
+ "cover": {
+  "layout": "zoom",
+  "img": "cover.jpg",
+  "focus": [
+   560,
+   900
+  ],
+  "zoom": 1.3,
+  "accent": [
+   0,
+   110,
+   120
+  ],
+  "accent2": [
+   230,
+   150,
+   60
+  ],
+  "mark_w": 620,
+  "mark_h": 420
+ },
+ "anim": "static",
+ "bright": true,
+ "theme": {
+  "font": "bungee",
+  "font2": "caveat",
+  "accent": [
+   190,
+   70,
+   40
+  ],
+  "accent2": [
+   90,
+   200,
+   200
+  ],
+  "bubble_bg": [
+   240,
+   232,
+   214
+  ],
+  "bubble_line": [
+   0,
+   90,
+   100
+  ],
+  "bubble_ink": [
+   25,
+   30,
+   35
+  ],
+  "bubble_dim": [
+   150,
+   140,
+   120
+  ],
+  "bubble_radius": 24,
+  "transitions": [
+   "zoom",
+   "whip",
+   "flash"
+  ],
+  "cut_fx": "flash"
+ },
+ "end_hold": 1.2,
+ "scenes": [
+  {
+   "text": "Ajdarholar, grifonlar va suv parilari: afsonalar qayerdan kelgan?",
+   "tts": "[mysterious] Ajdarholar, grifonlar va suv parilari: afsonalar qayerdan kelgan?",
+   "mood": "mystery",
+   "img": "01.jpg",
+   "imgs": [
+    [
+     "01b.jpg",
+     "grifonlar"
+    ],
+    [
+     "01c.jpg",
+     "suv"
+    ]
+   ],
+   "elements": [
+    {
+     "type": "caption",
+     "words": [
+      "QAYERDAN",
+      "KELGAN?"
+     ],
+     "color": "yellow",
+     "y": 1330,
+     "size": 92,
+     "at": "afsonalar"
+    }
+   ],
+   "n": 1,
+   "vo": "vo_01.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M"
+  },
+  {
+   "text": "Javobni ertaklardan emas, yer ostidan qidiramiz.",
+   "tts": "[intrigued] Javobni ertaklardan emas, yer ostidan qidiramiz.",
+   "mood": "mystery",
+   "img": "02.jpg",
+   "elements": [
+    {
+     "type": "caption",
+     "words": [
+      "YER OSTIDAN"
+     ],
+     "color": "yellow",
+     "y": 1330,
+     "size": 92,
+     "at": "yer"
+    }
+   ],
+   "n": 2,
+   "vo": "vo_02.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M"
+  },
+  {
+   "text": "Suv parisini esa ko'rgan odamning o'zi yozib qoldirgan. U haqida oxirida aytaman.",
+   "tts": "[whispers] Suv parisini esa ko'rgan odamning o'zi yozib qoldirgan. U haqida oxirida aytaman.",
+   "mood": "mystery",
+   "img": "03.jpg",
+   "elements": [
+    {
+     "type": "prop",
+     "img": "p_g_savol.jpg",
+     "x": 830,
+     "y": 620,
+     "h": 260,
+     "from": "pop",
+     "motion": "pulse",
+     "at": "oxirida"
+    }
+   ],
+   "n": 3,
+   "vo": "vo_03.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M"
+  },
+  {
+   "text": "Avval grifon. Sher tanasi, burgut boshi va qanotlari bor.",
+   "tts": "[excited] Avval grifon. Sher tanasi, burgut boshi va qanotlari bor.",
+   "mood": "hero",
+   "img": "04.jpg",
+   "elements": [
+    {
+     "type": "mark",
+     "shape": "circle",
+     "x": 540,
+     "y": 760,
+     "w": 420,
+     "h": 340,
+     "at": "burgut",
+     "label": "BURGUT BOSHI"
+    }
+   ],
+   "n": 4,
+   "vo": "vo_04.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M"
+  },
+  {
+   "text": "Qadimgi yunonlar u Osiyo cho'llarida oltin qo'riqlaydi deb yozishgan.",
+   "tts": "Qadimgi yunonlar u Osiyo cho'llarida oltin qo'riqlaydi deb yozishgan.",
+   "mood": "groove",
+   "img": "05.jpg",
+   "elements": [
+    {
+     "type": "caption",
+     "words": [
+      "OLTIN",
+      "QO'RIQLAYDI"
+     ],
+     "color": "yellow",
+     "y": 1330,
+     "size": 92,
+     "at": "oltin"
+    }
+   ],
+   "n": 5,
+   "vo": "vo_05.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M"
+  },
+  {
+   "text": "Tarixchi Adrienne Meyor bir taxminni aytgan.",
+   "tts": "[intrigued] Tarixchi Adrienne Meyor bir taxminni aytgan.",
+   "mood": "mystery",
+   "img": "06.jpg",
+   "elements": [
+    {
+     "type": "tag",
+     "head": "TAXMIN",
+     "text": "ADRIENNE MEYOR",
+     "x": 540,
+     "y": 210,
+     "color": "royal",
+     "at": "start"
+    }
+   ],
+   "n": 6,
+   "vo": "vo_06.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M"
+  },
+  {
+   "text": "Gobi cho'lida qadimgi kaltakesak, protoseratopsning suyaklari ochiq yotadi.",
+   "tts": "Gobi cho'lida qadimgi kaltakesak, protoseratopsning suyaklari ochiq yotadi.",
+   "mood": "mystery",
+   "img": "07.jpg",
+   "elements": [
+    {
+     "type": "mark",
+     "shape": "arrow",
+     "x": 180,
+     "y": 620,
+     "to": [
+      520,
+      900
+     ],
+     "at": "protoseratopsning",
+     "label": "TUMSHUQ",
+     "color": "yellow"
+    }
+   ],
+   "n": 7,
+   "vo": "vo_07.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M"
+  },
+  {
+   "text": "Tumshug'i qushnikiga o'xshaydi, to'rtta oyog'i bor. Ko'chmanchilar uni grifon deb o'ylagan bo'lishi mumkin.",
+   "tts": "Tumshug'i qushnikiga o'xshaydi, to'rtta oyog'i bor. [pause] Ko'chmanchilar uni grifon deb o'ylagan bo'lishi mumkin.",
+   "mood": "groove",
+   "img": "08.jpg",
+   "imgs": [
+    [
+     "08b.jpg",
+     "Ko'chmanchilar"
+    ]
+   ],
+   "elements": [
+    {
+     "type": "caption",
+     "words": [
+      "GRIFON?"
+     ],
+     "color": "yellow",
+     "y": 1330,
+     "size": 92,
+     "at": "grifon"
+    }
+   ],
+   "n": 8,
+   "vo": "vo_08.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M"
+  },
+  {
+   "text": "Lekin bu faqat taxmin. Ko'p olimlar bunga qo'shilmaydi.",
+   "tts": "[serious] Lekin bu faqat taxmin. Ko'p olimlar bunga qo'shilmaydi.",
+   "mood": "tense",
+   "img": "08.jpg",
+   "elements": [
+    {
+     "type": "stamp",
+     "text": "BAHSLI TAXMIN",
+     "y": 1300,
+     "rot": -6,
+     "at": "taxmin"
+    }
+   ],
+   "n": 9,
+   "vo": "vo_09.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M"
+  },
+  {
+   "text": "Ajdarholarda iz yanada qiziq. Xitoyda yerdan chiqqan katta suyaklarni ajdar suyagi deb atashgan.",
+   "tts": "[intrigued] Ajdarholarda iz yanada qiziq. Xitoyda yerdan chiqqan katta suyaklarni ajdar suyagi deb atashgan.",
+   "mood": "mystery",
+   "img": "09.jpg",
+   "elements": [
+    {
+     "type": "caption",
+     "words": [
+      "AJDAR",
+      "SUYAGI"
+     ],
+     "color": "yellow",
+     "y": 1330,
+     "size": 92,
+     "at": "ajdar"
+    }
+   ],
+   "n": 10,
+   "vo": "vo_10.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M"
+  },
+  {
+   "text": "Ularni hatto dori uchun maydalab sotishgan.",
+   "tts": "[laughs] Ularni hatto dori uchun maydalab sotishgan.",
+   "mood": "groove",
+   "img": "10.jpg",
+   "elements": [
+    {
+     "type": "prop",
+     "img": "p_g_savol.jpg",
+     "x": 830,
+     "y": 620,
+     "h": 240,
+     "from": "pop",
+     "motion": "wag",
+     "at": "dori"
+    }
+   ],
+   "n": 11,
+   "vo": "vo_11.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M"
+  },
+  {
+   "text": "Aslida bular qadimgi hayvonlarning toshga aylangan suyaklari edi. Ajdarho afsonasi shulardan boshlangan bo'lishi mumkin. Bu ham taxmin.",
+   "tts": "Aslida bular qadimgi hayvonlarning toshga aylangan suyaklari edi. [pause] Ajdarho afsonasi shulardan boshlangan bo'lishi mumkin. Bu ham taxmin.",
+   "mood": "mystery",
+   "img": "11.jpg",
+   "elements": [
+    {
+     "type": "caption",
+     "words": [
+      "TOSHGA AYLANGAN",
+      "SUYAK"
+     ],
+     "color": "white",
+     "y": 1330,
+     "size": 92,
+     "at": "toshga"
+    }
+   ],
+   "n": 12,
+   "vo": "vo_12.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M"
+  },
+  {
+   "text": "Endi va'da qilingan eng qiziq qismi. Suv parisini ko'rganman degan dengizchi.",
+   "tts": "[excited] Endi va'da qilingan eng qiziq qismi. Suv parisini ko'rganman degan dengizchi.",
+   "mood": "hero",
+   "img": "12.jpg",
+   "elements": [
+    {
+     "type": "mark",
+     "shape": "burst",
+     "x": 540,
+     "y": 700,
+     "w": 300,
+     "at": "eng qiziq"
+    }
+   ],
+   "n": 13,
+   "vo": "vo_13.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M"
+  },
+  {
+   "text": "Bir ming to'rt yuz to'qson uchinchi yil, to'qqizinchi yanvar. Kristofor Kolumb kundaligiga yozadi.",
+   "tts": "Bir ming to'rt yuz to'qson uchinchi yil, to'qqizinchi yanvar. Kristofor Kolumb kundaligiga yozadi.",
+   "mood": "mystery",
+   "img": "13.jpg",
+   "elements": [
+    {
+     "type": "tag",
+     "head": "KOLUMB",
+     "text": "1493-YIL 9-YANVAR",
+     "x": 540,
+     "y": 210,
+     "color": "royal",
+     "at": "start"
+    }
+   ],
+   "n": 14,
+   "vo": "vo_14.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M"
+  },
+  {
+   "text": "Dengizda uchta suv parisini ko'rdim. Ular suratlarda chizilganidek chiroyli emas ekan.",
+   "tts": "[disappointed] Dengizda uchta suv parisini ko'rdim. [sighs] Ular suratlarda chizilganidek chiroyli emas ekan.",
+   "mood": "sad",
+   "img": "14.jpg",
+   "voice_id": "xDwfBjUEPdIoQekNOXAX",
+   "elements": [
+    {
+     "type": "bubble",
+     "speaker": "KOLUMB",
+     "x": 540,
+     "y": 330,
+     "at": "start",
+     "tail": "down",
+     "tail_x": 0.3,
+     "tag": "navy",
+     "w": 880
+    }
+   ],
+   "n": 15,
+   "vo": "vo_15.mp3"
+  },
+  {
+   "text": "Chunki ular dengiz sigirlari, ya'ni manatlar edi.",
+   "tts": "[laughs] Chunki ular dengiz sigirlari, ya'ni manatlar edi.",
+   "mood": "groove",
+   "img": "15.jpg",
+   "elements": [
+    {
+     "type": "mark",
+     "shape": "circle",
+     "x": 540,
+     "y": 900,
+     "w": 560,
+     "h": 380,
+     "at": "manatlar",
+     "label": "MANAT!"
+    },
+    {
+     "type": "caption",
+     "words": [
+      "DENGIZ",
+      "SIGIRI"
+     ],
+     "color": "yellow",
+     "y": 1330,
+     "size": 92,
+     "at": "dengiz sigirlari"
+    }
+   ],
+   "n": 16,
+   "vo": "vo_16.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M"
+  },
+  {
+   "text": "Sizningcha, yana qaysi afsonaning ortida haqiqiy hayvon yashiringan? Fikringizni yozing.",
+   "tts": "[warmly] Sizningcha, yana qaysi afsonaning ortida haqiqiy hayvon yashiringan? Fikringizni yozing.",
+   "mood": "finale",
+   "img": "16.jpg",
+   "elements": [
+    {
+     "type": "final",
+     "lines": [
+      "QAYSI",
+      "AFSONA?"
+     ],
+     "at": "Fikringizni"
+    }
+   ],
+   "n": 17,
+   "vo": "vo_17.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M"
+  }
+ ]
+}

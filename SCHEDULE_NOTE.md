@@ -35,3 +35,7 @@ Avvalgi konteynerdagi rasm/ovoz fayllari yo'qolgan (repo'da yo'q) — kompyuter 
 - 13:20 «Yiliga 36 kun» (Buffer 6ad5d13a). Egasi bugungi 5 ta video uchun yangi hook'li nusxalarni o'zi sinov (trial) rejimida joylaydi — jobs/*_hook; Buffer'dagilar o'zgarmadi.
 - 20-okt: 08:00 «36 ta kadr» (6ad5e94a), 10:30 «Napoleon pakana emasdi» (6ad5edf3).
 - ElevenLabs: yangi akkaunt, flow O1Xu6Si8vMxJc7g9SnrC.
+
+## 22-okt 14:08 — A ishlayapti
+- 22-okt 12:30 Afrosiyob (6ad92480) Buffer'da 'unknown error' bo'lgan — 22-okt 21:00 ga qayta rejalashtirildi.
+- 23-okt A mavzulari egasiga taklif qilindi (plan_2026-10-23.md).

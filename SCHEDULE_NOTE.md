@@ -39,3 +39,4 @@ Avvalgi konteynerdagi rasm/ovoz fayllari yo'qolgan (repo'da yo'q) — kompyuter 
 ## 22-okt 14:08 — A ishlayapti
 - 22-okt 12:30 Afrosiyob (6ad92480) Buffer'da 'unknown error' bo'lgan — 22-okt 21:00 ga qayta rejalashtirildi.
 - 23-okt A mavzulari egasiga taklif qilindi (plan_2026-10-23.md).
+- 22-okt 21:05: Afrosiyob sent. 23-okt A: kompyuter 14:58 dan beri ulanmagan (Flow rasmlari kutilmoqda); ElevenLabs kredit tugagan (Ibn Battuta 8 qator).

@@ -40,3 +40,4 @@ Avvalgi konteynerdagi rasm/ovoz fayllari yo'qolgan (repo'da yo'q) — kompyuter 
 - 22-okt 12:30 Afrosiyob (6ad92480) Buffer'da 'unknown error' bo'lgan — 22-okt 21:00 ga qayta rejalashtirildi.
 - 23-okt A mavzulari egasiga taklif qilindi (plan_2026-10-23.md).
 - 22-okt 21:05: Afrosiyob sent. 23-okt A: kompyuter 14:58 dan beri ulanmagan (Flow rasmlari kutilmoqda); ElevenLabs kredit tugagan (Ibn Battuta 8 qator).
+- 23-okt 07:03: kompyuter hali ulanmagan → 23-okt A slotlari (08:00/10:30/12:30) bo'sh. Troya va Ulug'bek: ovoz+scenes tayyor (aud zaxira media 2026-10-23/assets_aud_a.tar), faqat Flow rasmlari kerak. Ibn Battuta: 8 qator ovoz kerak (ElevenLabs kredit). Kompyuter ulanganda keyingi bo'sh vaqtlarga qo'yilsin.

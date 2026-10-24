@@ -1,0 +1,644 @@
+{
+ "title": "Temurning Xitoy yurishi",
+ "pace": "fast",
+ "music": {
+  "genre": "epic",
+  "bpm": 92,
+  "key": -2,
+  "scale": "minor",
+  "progression": [
+   0,
+   5,
+   3,
+   4
+  ]
+ },
+ "music_seed": 1405,
+ "music_gain": 0.7,
+ "cover_title": [
+  "TEMUR NEGA",
+  "XITOYGA YETMADI?"
+ ],
+ "cover_sub": "1404–1405, qishki yurish",
+ "cover_scene": 0,
+ "cover": {
+  "layout": "hero",
+  "img": "cover.jpg",
+  "char": "c_ustoz.jpg",
+  "props": [
+   "p_g_savol.jpg"
+  ],
+  "badge": "1405",
+  "title_colors": [
+   [
+    250,
+    240,
+    215
+   ],
+   [
+    230,
+    180,
+    60
+   ]
+  ],
+  "accent": [
+   40,
+   70,
+   160
+  ],
+  "accent2": [
+   230,
+   180,
+   60
+  ]
+ },
+ "anim": "static",
+ "bright": true,
+ "theme": {
+  "font": "blackopsone",
+  "font2": "caveat",
+  "accent": [
+   40,
+   70,
+   160
+  ],
+  "accent2": [
+   230,
+   180,
+   60
+  ],
+  "bubble_bg": [
+   248,
+   244,
+   232
+  ],
+  "bubble_line": [
+   30,
+   50,
+   120
+  ],
+  "bubble_ink": [
+   25,
+   25,
+   40
+  ],
+  "bubble_dim": [
+   40,
+   70,
+   160
+  ],
+  "bubble_radius": 14,
+  "transitions": [
+   "slide",
+   "zoom",
+   "torn"
+  ],
+  "cut_fx": "whip"
+ },
+ "end_hold": 1.2,
+ "scenes": [
+  {
+   "n": 1,
+   "speaker": "b",
+   "text": "Amir Temur yarim dunyoni zabt etdi. Lekin Xitoyga yurishni oxiriga yetkaza olmadi. Nega?",
+   "tts": "[mysterious] Amir Temur yarim dunyoni zabt etdi. Lekin Xitoyga yurishni oxiriga yetkaza olmadi. Nega?",
+   "mood": "mystery",
+   "img": "01.jpg",
+   "elements": [
+    {
+     "type": "tag",
+     "head": "1404–1405",
+     "text": "XITOY YURISHI",
+     "x": 540,
+     "y": 210,
+     "color": "crimson",
+     "at": "start"
+    },
+    {
+     "type": "caption",
+     "words": [
+      "NEGA",
+      "YETOLMADI?"
+     ],
+     "color": "yellow",
+     "y": 1330,
+     "size": 92,
+     "at": "Nega"
+    },
+    {
+     "type": "prop",
+     "img": "p_g_savol.jpg",
+     "x": 880,
+     "y": 640,
+     "h": 250,
+     "from": "pop",
+     "motion": "shake",
+     "at": "Xitoyga"
+    }
+   ],
+   "vo": "vo_01.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M"
+  },
+  {
+   "n": 2,
+   "speaker": "b",
+   "text": "O'sha paytda Xitoyni Min sulolasi boshqarardi. Min imperatorlari boshqa hukmdorlardan o'zlariga tobe bo'lib, sovg'a-tortiq yuborishni kutardi.",
+   "tts": "[serious] O'sha paytda Xitoyni Min sulolasi boshqarardi. Min imperatorlari boshqa hukmdorlardan o'zlariga tobe bo'lib, sovg'a-tortiq yuborishni kutardi.",
+   "mood": "epic",
+   "img": "02.jpg",
+   "elements": [
+    {
+     "type": "card",
+     "kicker": "MIN SULOLASI",
+     "title": [
+      "XITOY"
+     ],
+     "sub": "tobelik va sovg'a-tortiq kutardi",
+     "at": "Min",
+     "y": 1330
+    }
+   ],
+   "vo": "vo_02.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M"
+  },
+  {
+   "n": 3,
+   "speaker": "j",
+   "text": "Ustoz, Temur bobomiz ham tobe bo'lganmi?",
+   "tts": "[curious] Ustoz, Temur bobomiz ham tobe bo'lganmi?",
+   "mood": "groove",
+   "img": "03.jpg",
+   "elements": [
+    {
+     "type": "bubble",
+     "speaker": "JAVLON",
+     "x": 540,
+     "y": 330,
+     "at": "start",
+     "hl": {
+      "tobe": "red"
+     },
+     "tail": "down",
+     "tail_x": 0.75,
+     "tag": "orange",
+     "w": 880
+    },
+    {
+     "type": "char",
+     "img": "c_javlon.jpg",
+     "from": "right",
+     "x": 810,
+     "y": 1440,
+     "h": 680,
+     "at": 0.1,
+     "motion": "jump",
+     "talk": [
+      "vo"
+     ],
+     "label": "JAVLON, 12",
+     "label_bg": "orange"
+    }
+   ],
+   "vo": "vo_03.mp3",
+   "voice_id": "UjuEL3hLLUaDED9iW4Yb"
+  },
+  {
+   "n": 4,
+   "speaker": "u",
+   "text": "Aksincha, Javlon. Bunday maktubni o'qigan Temur g'azablangan.",
+   "tts": "[chuckles] Aksincha, Javlon. Bunday maktubni o'qigan Temur g'azablangan.",
+   "mood": "tension",
+   "img": "03.jpg",
+   "elements": [
+    {
+     "type": "bubble",
+     "speaker": "USTOZ",
+     "x": 540,
+     "y": 330,
+     "at": "start",
+     "hl": {
+      "g'azablangan": "red"
+     },
+     "tail": "down",
+     "tail_x": 0.25,
+     "tag": "green",
+     "w": 880
+    },
+    {
+     "type": "char",
+     "img": "c_ustoz.jpg",
+     "from": "left",
+     "x": 270,
+     "y": 1440,
+     "h": 680,
+     "at": 0.1,
+     "motion": "wag",
+     "talk": [
+      "vo"
+     ],
+     "label": "TARIX USTOZI",
+     "label_bg": "green"
+    }
+   ],
+   "vo": "vo_04.mp3",
+   "voice_id": "132QLQIkg1RJGmpicuhR"
+  },
+  {
+   "n": 5,
+   "speaker": "b",
+   "text": "1395-yili Xitoydan elchi Fu An keldi. Temur uni ortga qaytarmadi — saroyda ushlab qoldi.",
+   "tts": "[tense] Ming uch yuz to'qson beshinchi yili Xitoydan elchi Fu An keldi. Temur uni ortga qaytarmadi — saroyda ushlab qoldi.",
+   "mood": "tense",
+   "img": "04.jpg",
+   "elements": [
+    {
+     "type": "tag",
+     "head": "YIL",
+     "text": "1395",
+     "x": 540,
+     "y": 210,
+     "color": "royal",
+     "at": "start"
+    },
+    {
+     "type": "caption",
+     "words": [
+      "ELCHI",
+      "USHLANDI"
+     ],
+     "color": "yellow",
+     "y": 1330,
+     "size": 92,
+     "at": "ushlab"
+    }
+   ],
+   "vo": "vo_05.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M"
+  },
+  {
+   "n": 6,
+   "speaker": "b",
+   "text": "1404-yilning kuzida Temur Samarqandda katta qurultoy o'tkazdi va Xitoyga yurishni e'lon qildi.",
+   "tts": "[serious] Ming to'rt yuz to'rtinchi yilning kuzida Temur Samarqandda katta qurultoy o'tkazdi va Xitoyga yurishni e'lon qildi.",
+   "mood": "epic",
+   "img": "05.jpg",
+   "elements": [
+    {
+     "type": "tag",
+     "head": "1404",
+     "text": "QURULTOY",
+     "x": 540,
+     "y": 210,
+     "color": "crimson",
+     "at": "start"
+    },
+    {
+     "type": "caption",
+     "words": [
+      "XITOYGA",
+      "YURISH!"
+     ],
+     "color": "white",
+     "y": 1330,
+     "size": 92,
+     "at": "Xitoyga"
+    }
+   ],
+   "vo": "vo_06.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M"
+  },
+  {
+   "n": 7,
+   "speaker": "b",
+   "text": "Manbalarga ko'ra, qo'shin 200 ming kishiga yaqin edi. Yo'lga qishda chiqildi.",
+   "tts": "[epic] Manbalarga ko'ra, qo'shin ikki yuz ming kishiga yaqin edi. Yo'lga qishda chiqildi.",
+   "mood": "epic",
+   "img": "06.jpg",
+   "elements": [
+    {
+     "type": "caption",
+     "words": [
+      "~200 MING",
+      "ASKAR"
+     ],
+     "color": "yellow",
+     "y": 1330,
+     "size": 92,
+     "at": "200"
+    },
+    {
+     "type": "prop",
+     "img": "p_g_qilich.jpg",
+     "x": 880,
+     "y": 640,
+     "h": 250,
+     "from": "pop",
+     "motion": "shake",
+     "at": "qishda"
+    }
+   ],
+   "vo": "vo_07.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M"
+  },
+  {
+   "n": 8,
+   "speaker": "j",
+   "text": "Qishda?! Nega bahorni kutmagan?",
+   "tts": "[surprised] Qishda?! Nega bahorni kutmagan?",
+   "mood": "groove",
+   "img": "07.jpg",
+   "elements": [
+    {
+     "type": "bubble",
+     "speaker": "JAVLON",
+     "x": 540,
+     "y": 330,
+     "at": "start",
+     "hl": {
+      "Qishda": "red"
+     },
+     "tail": "down",
+     "tail_x": 0.75,
+     "tag": "orange",
+     "w": 880
+    },
+    {
+     "type": "char",
+     "img": "c_javlon.jpg",
+     "from": "right",
+     "x": 810,
+     "y": 1440,
+     "h": 680,
+     "at": 0.1,
+     "motion": "jump",
+     "talk": [
+      "vo"
+     ],
+     "label": "JAVLON, 12",
+     "label_bg": "orange"
+    }
+   ],
+   "vo": "vo_08.mp3",
+   "voice_id": "UjuEL3hLLUaDED9iW4Yb"
+  },
+  {
+   "n": 9,
+   "speaker": "u",
+   "text": "Temur kutishni yoqtirmasdi. Lekin o'sha qish juda qattiq keldi. Daryolar muzlab, yo'llarni qor bosdi.",
+   "tts": "[serious] Temur kutishni yoqtirmasdi. Lekin o'sha qish juda qattiq keldi. Daryolar muzlab, yo'llarni qor bosdi.",
+   "mood": "tense",
+   "img": "07.jpg",
+   "elements": [
+    {
+     "type": "bubble",
+     "speaker": "USTOZ",
+     "x": 540,
+     "y": 330,
+     "at": "start",
+     "hl": {
+      "qattiq": "red"
+     },
+     "tail": "down",
+     "tail_x": 0.25,
+     "tag": "green",
+     "w": 880
+    },
+    {
+     "type": "char",
+     "img": "c_ustoz.jpg",
+     "from": "left",
+     "x": 270,
+     "y": 1440,
+     "h": 680,
+     "at": 0.1,
+     "motion": "wag",
+     "talk": [
+      "vo"
+     ],
+     "label": "TARIX USTOZI",
+     "label_bg": "green"
+    }
+   ],
+   "vo": "vo_09.mp3",
+   "voice_id": "132QLQIkg1RJGmpicuhR"
+  },
+  {
+   "n": 10,
+   "speaker": "b",
+   "text": "Qo'shin O'trar shahriga yetganda, kutilmagan narsa yuz berdi.",
+   "tts": "[whispers] Qo'shin O'trar shahriga yetganda, kutilmagan narsa yuz berdi.",
+   "mood": "mystery",
+   "img": "08.jpg",
+   "elements": [
+    {
+     "type": "caption",
+     "words": [
+      "O'TRAR"
+     ],
+     "color": "yellow",
+     "y": 1330,
+     "size": 92,
+     "at": "O'trar"
+    },
+    {
+     "type": "prop",
+     "img": "p_g_undov.jpg",
+     "x": 880,
+     "y": 640,
+     "h": 250,
+     "from": "pop",
+     "motion": "shake",
+     "at": "kutilmagan"
+    }
+   ],
+   "vo": "vo_10.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M"
+  },
+  {
+   "n": 11,
+   "speaker": "b",
+   "text": "Temur qattiq kasal bo'lib qoldi. 1405-yilning fevralida, 68 yoshida u O'trarda vafot etdi.",
+   "tts": "[sad] Temur qattiq kasal bo'lib qoldi. Ming to'rt yuz beshinchi yilning fevralida, oltmish sakkiz yoshida u O'trarda vafot etdi.",
+   "mood": "sad",
+   "img": "09.jpg",
+   "elements": [
+    {
+     "type": "tag",
+     "head": "1405-YIL",
+     "text": "FEVRAL",
+     "x": 540,
+     "y": 210,
+     "color": "royal",
+     "at": "start"
+    },
+    {
+     "type": "caption",
+     "words": [
+      "68 YOSHIDA",
+      "VAFOT ETDI"
+     ],
+     "color": "white",
+     "y": 1330,
+     "size": 92,
+     "at": "vafot"
+    }
+   ],
+   "vo": "vo_11.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M"
+  },
+  {
+   "n": 12,
+   "speaker": "b",
+   "text": "Uning vorislari taxt uchun bir-biri bilan kurashib ketdi. Xitoy yurishi esa butunlay to'xtatildi.",
+   "tts": "[serious] Uning vorislari taxt uchun bir-biri bilan kurashib ketdi. Xitoy yurishi esa butunlay to'xtatildi.",
+   "mood": "tense",
+   "img": "10.jpg",
+   "elements": [
+    {
+     "type": "stamp",
+     "text": "YURISH TO'XTADI",
+     "y": 1350,
+     "rot": -6,
+     "at": "to'xtatildi"
+    }
+   ],
+   "vo": "vo_12.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M"
+  },
+  {
+   "n": 13,
+   "speaker": "j",
+   "text": "Elchi Fu An-chi? U nima bo'ldi?",
+   "tts": "[curious] Elchi Fu An-chi? U nima bo'ldi?",
+   "mood": "groove",
+   "img": "11.jpg",
+   "elements": [
+    {
+     "type": "bubble",
+     "speaker": "JAVLON",
+     "x": 540,
+     "y": 330,
+     "at": "start",
+     "hl": {
+      "Fu An": "red"
+     },
+     "tail": "down",
+     "tail_x": 0.75,
+     "tag": "orange",
+     "w": 880
+    },
+    {
+     "type": "char",
+     "img": "c_javlon.jpg",
+     "from": "right",
+     "x": 810,
+     "y": 1440,
+     "h": 680,
+     "at": 0.1,
+     "motion": "jump",
+     "talk": [
+      "vo"
+     ],
+     "label": "JAVLON, 12",
+     "label_bg": "orange"
+    }
+   ],
+   "vo": "vo_13.mp3",
+   "voice_id": "UjuEL3hLLUaDED9iW4Yb"
+  },
+  {
+   "n": 14,
+   "speaker": "u",
+   "text": "U 12 yil deganda, 1407-yili uyiga qaytdi. 1500 kishilik karvonidan atigi 17 kishi tirik qolgan edi.",
+   "tts": "[warmly] U o'n ikki yil deganda, ming to'rt yuz yettinchi yili uyiga qaytdi. Ming besh yuz kishilik karvonidan atigi o'n yetti kishi tirik qolgan edi.",
+   "mood": "warm",
+   "img": "11.jpg",
+   "elements": [
+    {
+     "type": "bubble",
+     "speaker": "USTOZ",
+     "x": 540,
+     "y": 330,
+     "at": "start",
+     "hl": {
+      "17 kishi": "red"
+     },
+     "tail": "down",
+     "tail_x": 0.25,
+     "tag": "green",
+     "w": 880
+    },
+    {
+     "type": "char",
+     "img": "c_ustoz.jpg",
+     "from": "left",
+     "x": 270,
+     "y": 1440,
+     "h": 680,
+     "at": 0.1,
+     "motion": "wag",
+     "talk": [
+      "vo"
+     ],
+     "label": "TARIX USTOZI",
+     "label_bg": "green"
+    },
+    {
+     "type": "prop",
+     "img": "p_g_soat.jpg",
+     "x": 880,
+     "y": 560,
+     "h": 250,
+     "from": "pop",
+     "motion": "float",
+     "at": "12"
+    }
+   ],
+   "vo": "vo_14.mp3",
+   "voice_id": "132QLQIkg1RJGmpicuhR"
+  },
+  {
+   "n": 15,
+   "speaker": "b",
+   "text": "Agar o'sha qish yumshoq kelganida, tarix butunlay boshqacha bo'larmidi?",
+   "tts": "[mysterious] Agar o'sha qish yumshoq kelganida, tarix butunlay boshqacha bo'larmidi?",
+   "mood": "mystery",
+   "img": "12.jpg",
+   "elements": [
+    {
+     "type": "caption",
+     "words": [
+      "AGAR QISH",
+      "YUMSHOQ BO'LSA?"
+     ],
+     "color": "yellow",
+     "y": 1330,
+     "size": 92,
+     "at": "qish"
+    }
+   ],
+   "vo": "vo_15.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M"
+  },
+  {
+   "n": 16,
+   "speaker": "b",
+   "text": "Sizningcha, Temur Xitoyga yetib borganida nima bo'lardi? Izohda yozing.",
+   "tts": "[warmly] Sizningcha, Temur Xitoyga yetib borganida nima bo'lardi? Izohda yozing.",
+   "mood": "finale",
+   "img": "01.jpg",
+   "elements": [
+    {
+     "type": "final",
+     "lines": [
+      "NIMA",
+      "BO'LARDI?"
+     ],
+     "at": 0.4
+    }
+   ],
+   "vo": "vo_16.mp3",
+   "voice_id": "kGOig3GPePLxobJGHo2M"
+  }
+ ]
+}

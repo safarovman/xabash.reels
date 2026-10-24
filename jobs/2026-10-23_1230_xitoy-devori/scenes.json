@@ -24,7 +24,7 @@
  "cover": {
   "layout": "diagonal",
   "img": "cover.jpg",
-  "char": "c_gid.jpg",
+  "char": "c_mohira.jpg",
   "props": [
    "p_g_savol.jpg"
   ],
@@ -128,7 +128,7 @@
     }
    ],
    "vo": "vo_01.mp3",
-   "voice_id": "kGOig3GPePLxobJGHo2M"
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0"
   },
   {
    "n": 2,
@@ -160,13 +160,13 @@
     }
    ],
    "vo": "vo_02.mp3",
-   "voice_id": "kGOig3GPePLxobJGHo2M"
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0"
   },
   {
    "n": 3,
    "speaker": "l",
-   "text": "Opa, shuncha uzun devorni kim yorib o'ta olardi?",
-   "tts": "[curious] Opa, shuncha uzun devorni kim yorib o'ta olardi?",
+   "text": "Bobo, shuncha uzun devorni kim yorib o'ta olardi?",
+   "tts": "[curious] Bobo, shuncha uzun devorni kim yorib o'ta olardi?",
    "mood": "groove",
    "img": "03.jpg",
    "elements": [
@@ -196,24 +196,24 @@
      "talk": [
       "vo"
      ],
-     "label": "MOHIRA, 15",
+     "label": "MOHIRA",
      "label_bg": "pink"
     }
    ],
    "vo": "vo_03.mp3",
-   "voice_id": "cyPun3bl9MxcpLBX6pT0"
+   "voice_id": "rgK9zQmSATbqc0STi5u4"
   },
   {
    "n": 4,
    "speaker": "g",
-   "text": "Ko'p odam, singlim. Devor qanchalik uzun bo'lsa, uni qo'riqlash shunchalik qiyin.",
-   "tts": "[chuckles] Ko'p odam, singlim. Devor qanchalik uzun bo'lsa, uni qo'riqlash shunchalik qiyin.",
+   "text": "Ko'p odam, qizim. Devor qanchalik uzun bo'lsa, uni qo'riqlash shunchalik qiyin.",
+   "tts": "[chuckles] Ko'p odam, qizim. Devor qanchalik uzun bo'lsa, uni qo'riqlash shunchalik qiyin.",
    "mood": "warm",
    "img": "03.jpg",
    "elements": [
     {
      "type": "bubble",
-     "speaker": "GID",
+     "speaker": "GID BOBO",
      "x": 540,
      "y": 330,
      "at": "start",
@@ -227,7 +227,7 @@
     },
     {
      "type": "char",
-     "img": "c_gid.jpg",
+     "img": "c_gidbobo.jpg",
      "from": "left",
      "x": 270,
      "y": 1440,
@@ -237,12 +237,12 @@
      "talk": [
       "vo"
      ],
-     "label": "SAYOHAT GIDI",
+     "label": "GID BOBO",
      "label_bg": "navy"
     }
    ],
    "vo": "vo_04.mp3",
-   "voice_id": "eggZu1Ffe4if51TKev2v"
+   "voice_id": "eD0k57hUAx0oDuThLFT9"
   },
   {
    "n": 5,
@@ -273,7 +273,7 @@
     }
    ],
    "vo": "vo_05.mp3",
-   "voice_id": "kGOig3GPePLxobJGHo2M"
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0"
   },
   {
    "n": 6,
@@ -292,7 +292,7 @@
     }
    ],
    "vo": "vo_06.mp3",
-   "voice_id": "kGOig3GPePLxobJGHo2M"
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0"
   },
   {
    "n": 7,
@@ -314,7 +314,7 @@
     }
    ],
    "vo": "vo_07.mp3",
-   "voice_id": "kGOig3GPePLxobJGHo2M"
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0"
   },
   {
    "n": 8,
@@ -346,7 +346,7 @@
     }
    ],
    "vo": "vo_08.mp3",
-   "voice_id": "kGOig3GPePLxobJGHo2M"
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0"
   },
   {
    "n": 9,
@@ -378,7 +378,7 @@
     }
    ],
    "vo": "vo_09.mp3",
-   "voice_id": "kGOig3GPePLxobJGHo2M"
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0"
   },
   {
    "n": 10,
@@ -401,7 +401,7 @@
     }
    ],
    "vo": "vo_10.mp3",
-   "voice_id": "kGOig3GPePLxobJGHo2M"
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0"
   },
   {
    "n": 11,
@@ -437,12 +437,12 @@
      "talk": [
       "vo"
      ],
-     "label": "MOHIRA, 15",
+     "label": "MOHIRA",
      "label_bg": "pink"
     }
    ],
    "vo": "vo_11.mp3",
-   "voice_id": "cyPun3bl9MxcpLBX6pT0"
+   "voice_id": "rgK9zQmSATbqc0STi5u4"
   },
   {
    "n": 12,
@@ -473,19 +473,19 @@
     }
    ],
    "vo": "vo_12.mp3",
-   "voice_id": "kGOig3GPePLxobJGHo2M"
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0"
   },
   {
    "n": 13,
    "speaker": "g",
-   "text": "Ko'rdingmi, singlim: devor tosh, xolos. Uni odamlar qo'riqlaydi. Odamlar xato qilsa, eng baland devor ham yordam bermaydi.",
-   "tts": "[warmly] Ko'rdingmi, singlim: devor tosh, xolos. Uni odamlar qo'riqlaydi. Odamlar xato qilsa, eng baland devor ham yordam bermaydi.",
+   "text": "Ko'rdingmi, qizim: devor tosh, xolos. Uni odamlar qo'riqlaydi. Odamlar xato qilsa, eng baland devor ham yordam bermaydi.",
+   "tts": "[warmly] Ko'rdingmi, qizim: devor tosh, xolos. Uni odamlar qo'riqlaydi. Odamlar xato qilsa, eng baland devor ham yordam bermaydi.",
    "mood": "warm",
    "img": "12.jpg",
    "elements": [
     {
      "type": "bubble",
-     "speaker": "GID",
+     "speaker": "GID BOBO",
      "x": 540,
      "y": 330,
      "at": "start",
@@ -499,7 +499,7 @@
     },
     {
      "type": "char",
-     "img": "c_gid.jpg",
+     "img": "c_gidbobo.jpg",
      "from": "left",
      "x": 270,
      "y": 1440,
@@ -509,12 +509,12 @@
      "talk": [
       "vo"
      ],
-     "label": "SAYOHAT GIDI",
+     "label": "GID BOBO",
      "label_bg": "navy"
     }
    ],
    "vo": "vo_13.mp3",
-   "voice_id": "eggZu1Ffe4if51TKev2v"
+   "voice_id": "eD0k57hUAx0oDuThLFT9"
   },
   {
    "n": 14,
@@ -544,7 +544,7 @@
     }
    ],
    "vo": "vo_14.mp3",
-   "voice_id": "kGOig3GPePLxobJGHo2M"
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0"
   },
   {
    "n": 15,
@@ -564,7 +564,7 @@
     }
    ],
    "vo": "vo_15.mp3",
-   "voice_id": "kGOig3GPePLxobJGHo2M"
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0"
   }
  ]
 }

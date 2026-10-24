@@ -128,13 +128,13 @@
     }
    ],
    "vo": "vo_01.mp3",
-   "voice_id": "kGOig3GPePLxobJGHo2M"
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0"
   },
   {
    "n": 2,
    "speaker": "b",
-   "text": "U — shayboniy Abdullaxon II. 1533-yili Zarafshon bo'yidagi Ofarinkentda tug'ilgan.",
-   "tts": "[serious] U — shayboniy Abdullaxon ikkinchi. Ming besh yuz o'ttiz uchinchi yili Zarafshon bo'yidagi Ofarinkentda tug'ilgan.",
+   "text": "Bu shayboniy Abdullaxon II edi. 1533-yili Zarafshon bo'yidagi Ofarinkentda tug'ilgan.",
+   "tts": "[serious] Bu shayboniy Abdullaxon ikkinchi edi. Ming besh yuz o'ttiz uchinchi yili Zarafshon bo'yidagi Ofarinkentda tug'ilgan.",
    "mood": "warm",
    "img": "02.jpg",
    "elements": [
@@ -150,7 +150,7 @@
     }
    ],
    "vo": "vo_02.mp3",
-   "voice_id": "kGOig3GPePLxobJGHo2M"
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0"
   },
   {
    "n": 3,
@@ -186,18 +186,18 @@
      "talk": [
       "vo"
      ],
-     "label": "NILUFAR, 14",
+     "label": "NILUFAR",
      "label_bg": "pink"
     }
    ],
    "vo": "vo_03.mp3",
-   "voice_id": "O72h9AUwisM6Zj4He72B"
+   "voice_id": "rgK9zQmSATbqc0STi5u4"
   },
   {
    "n": 4,
    "speaker": "g",
-   "text": "Ha, qizim. Buxoro, Samarqand, Toshkent, Balx — har birida o'z sultoni bor edi.",
-   "tts": "[sighs] Ha, qizim. Buxoro, Samarqand, Toshkent, Balx — har birida o'z sultoni bor edi.",
+   "text": "Ha, qizim. Buxoro, Samarqand, Toshkent, Balx, har birida o'z sultoni bor edi.",
+   "tts": "[sighs] Ha, qizim. Buxoro, Samarqand, Toshkent, Balx, har birida o'z sultoni bor edi.",
    "mood": "warm",
    "img": "03.jpg",
    "elements": [
@@ -232,7 +232,7 @@
     }
    ],
    "vo": "vo_04.mp3",
-   "voice_id": "xDwfBjUEPdIoQekNOXAX"
+   "voice_id": "eD0k57hUAx0oDuThLFT9"
   },
   {
    "n": 5,
@@ -264,7 +264,7 @@
     }
    ],
    "vo": "vo_05.mp3",
-   "voice_id": "kGOig3GPePLxobJGHo2M"
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0"
   },
   {
    "n": 6,
@@ -296,7 +296,7 @@
     }
    ],
    "vo": "vo_06.mp3",
-   "voice_id": "kGOig3GPePLxobJGHo2M"
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0"
   },
   {
    "n": 7,
@@ -329,7 +329,7 @@
     }
    ],
    "vo": "vo_07.mp3",
-   "voice_id": "kGOig3GPePLxobJGHo2M"
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0"
   },
   {
    "n": 8,
@@ -351,7 +351,7 @@
     }
    ],
    "vo": "vo_08.mp3",
-   "voice_id": "kGOig3GPePLxobJGHo2M"
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0"
   },
   {
    "n": 9,
@@ -373,7 +373,7 @@
     }
    ],
    "vo": "vo_09.mp3",
-   "voice_id": "kGOig3GPePLxobJGHo2M"
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0"
   },
   {
    "n": 10,
@@ -409,12 +409,12 @@
      "talk": [
       "vo"
      ],
-     "label": "NILUFAR, 14",
+     "label": "NILUFAR",
      "label_bg": "pink"
     }
    ],
    "vo": "vo_10.mp3",
-   "voice_id": "O72h9AUwisM6Zj4He72B"
+   "voice_id": "rgK9zQmSATbqc0STi5u4"
   },
   {
    "n": 11,
@@ -455,7 +455,7 @@
     }
    ],
    "vo": "vo_11.mp3",
-   "voice_id": "xDwfBjUEPdIoQekNOXAX"
+   "voice_id": "eD0k57hUAx0oDuThLFT9"
   },
   {
    "n": 12,
@@ -485,7 +485,7 @@
     }
    ],
    "vo": "vo_12.mp3",
-   "voice_id": "kGOig3GPePLxobJGHo2M"
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0"
   },
   {
    "n": 13,
@@ -508,7 +508,7 @@
     }
    ],
    "vo": "vo_13.mp3",
-   "voice_id": "kGOig3GPePLxobJGHo2M"
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0"
   },
   {
    "n": 14,
@@ -529,7 +529,7 @@
     }
    ],
    "vo": "vo_14.mp3",
-   "voice_id": "kGOig3GPePLxobJGHo2M"
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0"
   },
   {
    "n": 15,
@@ -570,7 +570,7 @@
     }
    ],
    "vo": "vo_15.mp3",
-   "voice_id": "xDwfBjUEPdIoQekNOXAX"
+   "voice_id": "eD0k57hUAx0oDuThLFT9"
   },
   {
    "n": 16,
@@ -590,7 +590,7 @@
     }
    ],
    "vo": "vo_16.mp3",
-   "voice_id": "kGOig3GPePLxobJGHo2M"
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0"
   }
  ]
 }

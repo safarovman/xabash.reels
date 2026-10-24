@@ -137,7 +137,7 @@
     }
    ],
    "vo": "vo_01.mp3",
-   "voice_id": "kGOig3GPePLxobJGHo2M"
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0"
   },
   {
    "n": 2,
@@ -159,7 +159,7 @@
     }
    ],
    "vo": "vo_02.mp3",
-   "voice_id": "kGOig3GPePLxobJGHo2M"
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0"
   },
   {
    "n": 3,
@@ -171,7 +171,7 @@
    "elements": [
     {
      "type": "bubble",
-     "speaker": "JAVLON",
+     "speaker": "OTAXON",
      "x": 540,
      "y": 330,
      "at": "start",
@@ -185,7 +185,7 @@
     },
     {
      "type": "char",
-     "img": "c_javlon.jpg",
+     "img": "c_otaxon.jpg",
      "from": "right",
      "x": 810,
      "y": 1440,
@@ -195,18 +195,18 @@
      "talk": [
       "vo"
      ],
-     "label": "JAVLON, 12",
+     "label": "OTAXON",
      "label_bg": "orange"
     }
    ],
    "vo": "vo_03.mp3",
-   "voice_id": "UjuEL3hLLUaDED9iW4Yb"
+   "voice_id": "eD0k57hUAx0oDuThLFT9"
   },
   {
    "n": 4,
    "speaker": "u",
-   "text": "Aksincha, Javlon. Bunday maktubni o'qigan Temur g'azablangan.",
-   "tts": "[chuckles] Aksincha, Javlon. Bunday maktubni o'qigan Temur g'azablangan.",
+   "text": "Aksincha, otaxon. Bunday maktubni o'qigan Temur g'azablangan.",
+   "tts": "[chuckles] Aksincha, otaxon. Bunday maktubni o'qigan Temur g'azablangan.",
    "mood": "tension",
    "img": "03.jpg",
    "elements": [
@@ -241,13 +241,13 @@
     }
    ],
    "vo": "vo_04.mp3",
-   "voice_id": "132QLQIkg1RJGmpicuhR"
+   "voice_id": "rgK9zQmSATbqc0STi5u4"
   },
   {
    "n": 5,
    "speaker": "b",
-   "text": "1395-yili Xitoydan elchi Fu An keldi. Temur uni ortga qaytarmadi — saroyda ushlab qoldi.",
-   "tts": "[tense] Ming uch yuz to'qson beshinchi yili Xitoydan elchi Fu An keldi. Temur uni ortga qaytarmadi — saroyda ushlab qoldi.",
+   "text": "1395-yili Xitoydan elchi Fu An keldi. Temur uni ortga qaytarmadi, saroyda ushlab qoldi.",
+   "tts": "[tense] Ming uch yuz to'qson beshinchi yili Xitoydan elchi Fu An keldi. Temur uni ortga qaytarmadi, saroyda ushlab qoldi.",
    "mood": "tense",
    "img": "04.jpg",
    "elements": [
@@ -273,7 +273,7 @@
     }
    ],
    "vo": "vo_05.mp3",
-   "voice_id": "kGOig3GPePLxobJGHo2M"
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0"
   },
   {
    "n": 6,
@@ -305,7 +305,7 @@
     }
    ],
    "vo": "vo_06.mp3",
-   "voice_id": "kGOig3GPePLxobJGHo2M"
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0"
   },
   {
    "n": 7,
@@ -338,19 +338,19 @@
     }
    ],
    "vo": "vo_07.mp3",
-   "voice_id": "kGOig3GPePLxobJGHo2M"
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0"
   },
   {
    "n": 8,
    "speaker": "j",
-   "text": "Qishda?! Nega bahorni kutmagan?",
-   "tts": "[surprised] Qishda?! Nega bahorni kutmagan?",
+   "text": "Qish paytidami?! Nega bahorni kutmagan?",
+   "tts": "[surprised] Qish paytidami?! Nega bahorni kutmagan?",
    "mood": "groove",
    "img": "07.jpg",
    "elements": [
     {
      "type": "bubble",
-     "speaker": "JAVLON",
+     "speaker": "OTAXON",
      "x": 540,
      "y": 330,
      "at": "start",
@@ -364,7 +364,7 @@
     },
     {
      "type": "char",
-     "img": "c_javlon.jpg",
+     "img": "c_otaxon.jpg",
      "from": "right",
      "x": 810,
      "y": 1440,
@@ -374,12 +374,12 @@
      "talk": [
       "vo"
      ],
-     "label": "JAVLON, 12",
+     "label": "OTAXON",
      "label_bg": "orange"
     }
    ],
    "vo": "vo_08.mp3",
-   "voice_id": "UjuEL3hLLUaDED9iW4Yb"
+   "voice_id": "eD0k57hUAx0oDuThLFT9"
   },
   {
    "n": 9,
@@ -420,7 +420,7 @@
     }
    ],
    "vo": "vo_09.mp3",
-   "voice_id": "132QLQIkg1RJGmpicuhR"
+   "voice_id": "rgK9zQmSATbqc0STi5u4"
   },
   {
    "n": 10,
@@ -452,13 +452,13 @@
     }
    ],
    "vo": "vo_10.mp3",
-   "voice_id": "kGOig3GPePLxobJGHo2M"
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0"
   },
   {
    "n": 11,
    "speaker": "b",
-   "text": "Temur qattiq kasal bo'lib qoldi. 1405-yilning fevralida, 68 yoshida u O'trarda vafot etdi.",
-   "tts": "[sad] Temur qattiq kasal bo'lib qoldi. Ming to'rt yuz beshinchi yilning fevralida, oltmish sakkiz yoshida u O'trarda vafot etdi.",
+   "text": "Temur og'ir kasal bo'lib qoldi. 1405-yilning fevralida, 68 yoshida u O'trarda vafot etdi.",
+   "tts": "[sad] Temur og'ir kasal bo'lib qoldi. Ming to'rt yuz beshinchi yilning fevralida, oltmish sakkiz yoshida u O'trarda vafot etdi.",
    "mood": "sad",
    "img": "09.jpg",
    "elements": [
@@ -484,13 +484,13 @@
     }
    ],
    "vo": "vo_11.mp3",
-   "voice_id": "kGOig3GPePLxobJGHo2M"
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0"
   },
   {
    "n": 12,
    "speaker": "b",
-   "text": "Uning vorislari taxt uchun bir-biri bilan kurashib ketdi. Xitoy yurishi esa butunlay to'xtatildi.",
-   "tts": "[serious] Uning vorislari taxt uchun bir-biri bilan kurashib ketdi. Xitoy yurishi esa butunlay to'xtatildi.",
+   "text": "Uning vorislari taxt uchun bir-biri bilan kurasha boshladi. Xitoy yurishi esa butunlay to'xtatildi.",
+   "tts": "[serious] Uning vorislari taxt uchun bir-biri bilan kurasha boshladi. Xitoy yurishi esa butunlay to'xtatildi.",
    "mood": "tense",
    "img": "10.jpg",
    "elements": [
@@ -503,7 +503,7 @@
     }
    ],
    "vo": "vo_12.mp3",
-   "voice_id": "kGOig3GPePLxobJGHo2M"
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0"
   },
   {
    "n": 13,
@@ -515,7 +515,7 @@
    "elements": [
     {
      "type": "bubble",
-     "speaker": "JAVLON",
+     "speaker": "OTAXON",
      "x": 540,
      "y": 330,
      "at": "start",
@@ -529,7 +529,7 @@
     },
     {
      "type": "char",
-     "img": "c_javlon.jpg",
+     "img": "c_otaxon.jpg",
      "from": "right",
      "x": 810,
      "y": 1440,
@@ -539,18 +539,18 @@
      "talk": [
       "vo"
      ],
-     "label": "JAVLON, 12",
+     "label": "OTAXON",
      "label_bg": "orange"
     }
    ],
    "vo": "vo_13.mp3",
-   "voice_id": "UjuEL3hLLUaDED9iW4Yb"
+   "voice_id": "eD0k57hUAx0oDuThLFT9"
   },
   {
    "n": 14,
    "speaker": "u",
-   "text": "U 12 yil deganda, 1407-yili uyiga qaytdi. 1500 kishilik karvonidan atigi 17 kishi tirik qolgan edi.",
-   "tts": "[warmly] U o'n ikki yil deganda, ming to'rt yuz yettinchi yili uyiga qaytdi. Ming besh yuz kishilik karvonidan atigi o'n yetti kishi tirik qolgan edi.",
+   "text": "U 12 yil o'tib, 1407-yili uyiga qaytdi. 1500 kishilik karvonidan atigi 17 kishi tirik qolgan edi.",
+   "tts": "[warmly] U o'n ikki yil o'tib, ming to'rt yuz yettinchi yili uyiga qaytdi. Ming besh yuz kishilik karvonidan atigi o'n yetti kishi tirik qolgan edi.",
    "mood": "warm",
    "img": "11.jpg",
    "elements": [
@@ -595,7 +595,7 @@
     }
    ],
    "vo": "vo_14.mp3",
-   "voice_id": "132QLQIkg1RJGmpicuhR"
+   "voice_id": "rgK9zQmSATbqc0STi5u4"
   },
   {
    "n": 15,
@@ -618,7 +618,7 @@
     }
    ],
    "vo": "vo_15.mp3",
-   "voice_id": "kGOig3GPePLxobJGHo2M"
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0"
   },
   {
    "n": 16,
@@ -638,7 +638,7 @@
     }
    ],
    "vo": "vo_16.mp3",
-   "voice_id": "kGOig3GPePLxobJGHo2M"
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0"
   }
  ]
 }

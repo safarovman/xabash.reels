@@ -41,3 +41,7 @@ Avvalgi konteynerdagi rasm/ovoz fayllari yo'qolgan (repo'da yo'q) — kompyuter 
 - 23-okt A mavzulari egasiga taklif qilindi (plan_2026-10-23.md).
 - 22-okt 21:05: Afrosiyob sent. 23-okt A: kompyuter 14:58 dan beri ulanmagan (Flow rasmlari kutilmoqda); ElevenLabs kredit tugagan (Ibn Battuta 8 qator).
 - 23-okt 07:03: kompyuter hali ulanmagan → 23-okt A slotlari (08:00/10:30/12:30) bo'sh. Troya va Ulug'bek: ovoz+scenes tayyor (aud zaxira media 2026-10-23/assets_aud_a.tar), faqat Flow rasmlari kerak. Ibn Battuta: 8 qator ovoz kerak (ElevenLabs kredit). Kompyuter ulanganda keyingi bo'sh vaqtlarga qo'yilsin.
+
+## 25-okt 14:45 (Toshkent) — kechikkan routine run (trig_01QZiexB…)
+- 26-okt 08:00/10:30/12:30 (Tutanxamon/Muqanna/Syuan Szan) — A sessiyasida egasi tasdiqlagan, ishlab chiqarish 25-okt 23:00. Bu run ularga tegmadi (dublikat yo'q).
+- Buffer: 26-okt uchun hali post yo'q. 14:30/18:30/21:00 uchun mavzu/job yo'q (B 22-okt dan beri faol emas) — egasidan so'raldi.

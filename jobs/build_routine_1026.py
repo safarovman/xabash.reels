@@ -91,4 +91,4 @@ O=[("01.jpg",[["01b.jpg","saltanat"]],[],False),
 ("19.jpg",[],[],False),
 ("20.jpg",[],[],False),
 ("21.jpg",[],[{"type":"final","lines":["HOKIMMI","YOKI SHOHMI?"],"at":"kim"}],False)]
-build('2026-10-26_1830_otrar',O,head('2026-10-26_1830_otrar',"O'trar fojiasi",{}))
+build('2026-10-26_1830_otrar',O,head('2026-10-26_1830_otrar',"O'trar fojiasi",{'props':[],'title_colors':[[236,228,212],[28,26,28]]}))

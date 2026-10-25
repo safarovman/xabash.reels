@@ -1,0 +1,29 @@
+{
+ "pass": true,
+ "audio": {
+  "match": ">0.97",
+  "notes": "Scribe: 'Zilimni' (Hosilimni), 'Meredith', 'tog'onga' — ASR shovqini; teglar o'qilmagan"
+ },
+ "fixes": [
+  {
+   "scene": "cover",
+   "issue": "bubble layoutda 1-qator oq matn oq pufakchada o'qilmaydi",
+   "fix": "cover.title_colors[0] → [40,32,24]",
+   "done": true
+  },
+  {
+   "t": 74.9,
+   "scene": 16,
+   "issue": "fermer stikeri yorlig'i o'ng chetdan chiqib ketgan",
+   "fix": "char x 810→760",
+   "done": true
+  }
+ ],
+ "structure": {
+  "duration": 107.5,
+  "payoff_at": 0.82,
+  "rehooks": 4
+ },
+ "rerenders": 1,
+ "note": "vo_02 = 6.88 s (fakt, ≤7.5)"
+}

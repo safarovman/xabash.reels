@@ -9,5 +9,7 @@
  "trial": false,
  "schedulingType": "automatic",
  "mode": "customScheduled",
- "status": "render"
+ "status": "QA o'tdi; Buffer'da 26-okt 18:30 (automatic)",
+ "thumbnailOffset": 112664,
+ "buffer_post_id": "6ade2c02e4be8a4d86b6e6df"
 }

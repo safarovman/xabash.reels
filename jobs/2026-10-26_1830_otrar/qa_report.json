@@ -1,0 +1,29 @@
+{
+ "pass": true,
+ "audio": {
+  "match": ">0.97",
+  "notes": "'Turt', 'qaming', 'Darvozlarni', 'hokimi' — ASR shovqini"
+ },
+ "fixes": [
+  {
+   "scene": "cover",
+   "issue": "split muqovada stiker va sandiq sarlavhani yopgan; 2-qator qizil fonda qizil",
+   "fix": "cover char/props olib tashlandi, title_colors → suyak + ko'mir",
+   "done": true
+  },
+  {
+   "t": 93,
+   "scene": 19,
+   "issue": "xaritadagi MO'G'ULISTON yorlig'i o'ng chetdan chiqqan",
+   "fix": "label_x 860→740, arrow x 1000→960",
+   "done": true
+  }
+ ],
+ "structure": {
+  "duration": 113.4,
+  "payoff_at": 0.86,
+  "rehooks": 4
+ },
+ "rerenders": 1,
+ "note": "vo_06, vo_21 = 6.72 s"
+}

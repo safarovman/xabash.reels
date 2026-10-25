@@ -24,10 +24,7 @@
  "cover": {
   "layout": "split",
   "img": "cover.jpg",
-  "char": "c_goyirxon_gazab.jpg",
-  "props": [
-   "p_oltin_sandiq.jpg"
-  ],
+  "props": [],
   "badge": "1218",
   "title_colors": [
    [
@@ -36,9 +33,9 @@
     212
    ],
    [
-    178,
     28,
-    36
+    26,
+    28
    ]
   ],
   "accent": [
@@ -614,7 +611,7 @@
     {
      "type": "mark",
      "shape": "arrow",
-     "x": 1000,
+     "x": 960,
      "y": 520,
      "w": 320,
      "at": "O'trardan",
@@ -623,7 +620,7 @@
       720,
       740
      ],
-     "label_x": 860,
+     "label_x": 740,
      "label_y": 470
     },
     {

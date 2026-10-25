@@ -52,3 +52,9 @@ Avvalgi konteynerdagi rasm/ovoz fayllari yo'qolgan (repo'da yo'q) — kompyuter 
 - Flow: ichki brauzer (Claude_Browser) — eval Trusted Types bilan bloklangan, fast_flow.js funksiyalarini to'g'ridan javascript_tool ga yozish kerak; grid virtual — tile pozitsiyasi (3 ustun, qator 293.5px) bo'yicha kalit topiladi. Media push: blob:none fetch + commit-tree (/tmp/push_media.sh usuli).
 
 ## 25-okt 19:00 — routine ishlayapti: 26-okt 16:30 Emu urushi, 18:30 O'trar fojiasi egasiga taklif qilindi (plan_2026-10-26.md, B bo'limi).
+
+## 25-okt 21:20 — routine tugadi
+- Egasi 30 daqiqada javob bermadi → 26-okt 16:30 Emu urushi (Buffer 6ade2abc) va 18:30 O'trar fojiasi (Buffer 6ade2c02) yasaldi, QA o'tdi (Scribe moslik >97%, 1 tadan qayta render: muqova ranglari, chetdan chiqqan yorliqlar). automatic, reel, shouldShareToFeed.
+- Ovozlar (joriy ElevenLabs workspace, flow Qt8Q6Y4AoqOLxuz9B0h4): Hikoyachi UZ; Davronbek agoC45V78njTIxYzwmSb; mirzaev RaNVfTYq3HYeFPLng6XN; Mirzabek2; Shohjahon u20lT5dpbOWoIKz6PpYb; Asilbek fytsqG6MLzC2aCSw7MLa.
+- Flow (ichki brauzer): fillN() JS + Return tugmasi (computer key) ishlaydi, JS click ishlamaydi. Grid virtual: tile pozitsiyasi 4 ustun, qator 325px (collP) bo'yicha kalit topiladi. Konteynerga rembg + pyfluidsynth o'rnatish kerak bo'ldi.
+- 26-okt: 08:00/10:30/12:30 — A (23:00), 14:30 Bobur, 16:30 Emu, 18:30 O'trar.

@@ -1,0 +1,247 @@
+{
+ "flow_prompts": [],
+ "note": "Yangi Flow rasmlari yo'q — faqat images.json dagi p_g_* (kitob, oltin, kalit, olov, dori, savol2) + dvigatel mark/tag/final. Hammasi y 600-1100 oralig'ida: dialog qatorlarida tepadagi pufakcha (y<600) va pastki personaj stikerlari (y>1100) bilan to'qnashmaydi. 'at' — har qatorning ekran matnidagi so'zlar.",
+ "elements": {
+  "1": [
+   {
+    "type": "mark",
+    "shape": "circle",
+    "x": 430,
+    "y": 1250,
+    "w": 440,
+    "at": "o'lim",
+    "label": "OG'IR!"
+   }
+  ],
+  "2": [
+   {
+    "type": "mark",
+    "shape": "cross",
+    "x": 540,
+    "y": 760,
+    "w": 300,
+    "at": "ojiz"
+   },
+   {
+    "type": "tag",
+    "head": "YOSHI",
+    "text": "17",
+    "x": 800,
+    "y": 660,
+    "at": "17 yoshli"
+   }
+  ],
+  "3": [
+   {
+    "type": "prop",
+    "img": "p_g_oltin.jpg",
+    "x": 880,
+    "y": 900,
+    "h": 300,
+    "from": "pop",
+    "motion": "jump",
+    "at": "Xazinamdan"
+   }
+  ],
+  "4": [
+   {
+    "type": "prop",
+    "img": "p_g_oltin.jpg",
+    "x": 360,
+    "y": 820,
+    "h": 280,
+    "from": "pop",
+    "motion": "shake",
+    "at": "oltin"
+   },
+   {
+    "type": "prop",
+    "img": "p_g_savol2.jpg",
+    "x": 760,
+    "y": 780,
+    "h": 300,
+    "from": "pop",
+    "motion": "wag",
+    "at": "nima so'radi"
+   }
+  ],
+  "5": [
+   {
+    "type": "tag",
+    "head": "YIL",
+    "text": "980",
+    "x": 300,
+    "y": 660,
+    "at": "980"
+   }
+  ],
+  "6": [
+   {
+    "type": "prop",
+    "img": "p_g_kitob.jpg",
+    "x": 780,
+    "y": 820,
+    "h": 300,
+    "from": "pop",
+    "motion": "bounce",
+    "at": "Tib"
+   }
+  ],
+  "7": [
+   {
+    "type": "mark",
+    "shape": "burst",
+    "x": 540,
+    "y": 800,
+    "w": 360,
+    "at": "dars"
+   }
+  ],
+  "8": [
+   {
+    "type": "mark",
+    "shape": "circle",
+    "x": 500,
+    "y": 1180,
+    "w": 460,
+    "at": "Nuh ibn Mansur",
+    "label": "AMIR"
+   }
+  ],
+  "9": [
+   {
+    "type": "prop",
+    "img": "p_g_dori.jpg",
+    "x": 760,
+    "y": 860,
+    "h": 300,
+    "from": "pop",
+    "motion": "pulse",
+    "at": "chaqirishdi"
+   }
+  ],
+  "10": [
+   {
+    "type": "mark",
+    "shape": "check",
+    "x": 540,
+    "y": 800,
+    "w": 320,
+    "at": "oyoqqa",
+    "label": "SOG'AYDI!"
+   }
+  ],
+  "11": [
+   {
+    "type": "prop",
+    "img": "p_g_savol2.jpg",
+    "x": 780,
+    "y": 800,
+    "h": 260,
+    "from": "pop",
+    "motion": "wag",
+    "at": "otmi"
+   }
+  ],
+  "12": [
+   {
+    "type": "prop",
+    "img": "p_g_kalit.jpg",
+    "x": 540,
+    "y": 820,
+    "h": 320,
+    "from": "pop",
+    "motion": "pulse",
+    "at": "bitta bino"
+   }
+  ],
+  "13": [
+   {
+    "type": "mark",
+    "shape": "box",
+    "x": 540,
+    "y": 800,
+    "w": 600,
+    "at": "Har bir xonada",
+    "h": 380,
+    "label": "1 XONA = 1 FAN"
+   }
+  ],
+  "14": [
+   {
+    "type": "prop",
+    "img": "p_g_kitob.jpg",
+    "x": 540,
+    "y": 840,
+    "h": 320,
+    "from": "pop",
+    "motion": "bounce",
+    "at": "kitoblarni"
+   }
+  ],
+  "15": [
+   {
+    "type": "mark",
+    "shape": "underline",
+    "x": 540,
+    "y": 1250,
+    "w": 560,
+    "at": "Eng mashhuri",
+    "label": "«TIB QONUNLARI»"
+   }
+  ],
+  "16": [
+   {
+    "type": "tag",
+    "head": "ASR",
+    "text": "XII",
+    "x": 300,
+    "y": 660,
+    "at": "XII asrda"
+   }
+  ],
+  "18": [
+   {
+    "type": "mark",
+    "shape": "cross",
+    "x": 300,
+    "y": 820,
+    "w": 280,
+    "at": "oltin emas"
+   },
+   {
+    "type": "prop",
+    "img": "p_g_kalit.jpg",
+    "x": 860,
+    "y": 700,
+    "h": 340,
+    "from": "pop",
+    "motion": "pulse",
+    "at": "kutubxonasiga",
+    "label": "KUTUBXONA!"
+   }
+  ],
+  "19": [
+   {
+    "type": "prop",
+    "img": "p_g_olov.jpg",
+    "x": 540,
+    "y": 840,
+    "h": 380,
+    "from": "pop",
+    "motion": "shake",
+    "at": "yonib ketdi"
+   }
+  ],
+  "20": [
+   {
+    "type": "final",
+    "lines": [
+     "QAYSI ALLOMA",
+     "HAQIDA?"
+    ],
+    "at": "Keyingi videoda"
+   }
+  ]
+ }
+}

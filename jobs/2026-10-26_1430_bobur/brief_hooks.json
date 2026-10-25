@@ -1,0 +1,47 @@
+{
+ "hook": "Samarqandni 3 marta olib, 3 marta yo'qotgan shoh kimligini bilarmidingiz?",
+ "hook_type": "qiziqish bo'shlig'i + raqamli va'da (egasining ilmog'i, so'zma-so'z)",
+ "rehooks": [
+  {
+   "scene": 5,
+   "text": "1497-yil. 7 oylik qamaldan so'ng Samarqand uniki! (ekranda «1-MARTA»)",
+   "t_est": 23
+  },
+  {
+   "scene": 6,
+   "text": "Ammo atigi 100 kun ushlab turdi. (burilish)",
+   "t_est": 29
+  },
+  {
+   "scene": 8,
+   "text": "1500-yil. Kichik otryad bilan, tunda — Samarqand yana uniki! («2-MARTA»)",
+   "t_est": 40
+  },
+  {
+   "scene": 12,
+   "text": "Lekin u taslim bo'lmadi. Kobulni egallab, yangi kuch to'pladi.",
+   "t_est": 60
+  },
+  {
+   "scene": 15,
+   "text": "Bir eshik yopilsa, boshqasi ochiladi, shahzodam.",
+   "t_est": 76
+  }
+ ],
+ "open_loop": "Samarqandni 3 marta olib, 3 marta yo'qotgan bu shoh kim? Ism oxirigacha aytilmaydi; ekranda 1-, 2-, 3-MARTA hisobi yuradi.",
+ "payoff_scene": 19,
+ "payoff_note": "Panipat g'alabasi 18-qatorda (~81%), ism — 19-qatorda (~87%); 20 — bitta xulosa («Boburnoma»), 21 — savol. 'Bobur' so'zi 19-qatordan oldin hech qayerda yo'q.",
+ "final_question": "«Boburnoma» qaysi tilda yozilgan? Izohda yozing — javob keyingi videoda.",
+ "question_type": "bilim sinovi",
+ "est_duration_s": 114,
+ "changes": [
+  "1: o'zgarmadi (egasining ilmog'i)",
+  "2: ', halok bo'lgan edi' -> 'halok bo'lgandi' (qisqaroq)",
+  "6: 'Andijon ham qo'ldan ketdi' -> 'Andijon ham ketdi' (≤6 s)",
+  "8: 'U Samarqandni yana oldi — kichik bir otryad bilan, tunda!' -> 'Kichik otryad bilan, tunda — Samarqand yana uniki!' (13 -> 12 so'z TTS, 5-qator bilan ohangdosh)",
+  "13: 14 -> 12 so'z TTS: 'Eron shohi yordamida Samarqand — uchinchi marta!'",
+  "18: 'U to'plar va otliqlar bilan g'alaba qildi' -> 'To'plar va otliqlar g'alaba keltirdi'",
+  "19: takroriy 'Xo'sh, u kim edi?' olib tashlandi -> 'Bu shohning ismi — Zahiriddin Muhammad Bobur!'",
+  "21: 'Bilasizmi, ...? Javobni izohda yozing.' -> '...? Izohda yozing — javob keyingi videoda.' (bilim sinovi; oxirgi 5 videoda va Ibn Sino jobida yo'q)"
+ ]
+}

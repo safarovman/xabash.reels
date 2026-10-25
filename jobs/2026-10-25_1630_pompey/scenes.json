@@ -1,0 +1,937 @@
+{
+ "title": "Pompeyda odamlar nega qochmagan",
+ "pace": "fast",
+ "music": {
+  "genre": "detective",
+  "bpm": 102,
+  "key": -2,
+  "scale": "minor",
+  "progression": [
+   0,
+   5,
+   3,
+   4
+  ]
+ },
+ "music_seed": 7906,
+ "music_gain": 0.7,
+ "cover_title": [
+  "NEGA",
+  "QOCHMADI?"
+ ],
+ "cover_sub": "Lava emas, unda nima?",
+ "cover_scene": 0,
+ "cover": {
+  "layout": "poster",
+  "img": "cover.jpg",
+  "duo_dark": [
+   40,
+   22,
+   18
+  ],
+  "accent": [
+   176,
+   58,
+   38
+  ],
+  "accent2": [
+   240,
+   140,
+   40
+  ],
+  "title_colors": [
+   [
+    255,
+    255,
+    255
+   ],
+   [
+    240,
+    140,
+    40
+   ]
+  ],
+  "badge": "MILODIY 79",
+  "char": "c_laylo.jpg",
+  "props": []
+ },
+ "anim": "static",
+ "bright": true,
+ "theme": {
+  "font": "abrilfatface",
+  "font2": "patrickhand",
+  "accent": [
+   176,
+   58,
+   38
+  ],
+  "accent2": [
+   240,
+   140,
+   40
+  ],
+  "bubble_bg": [
+   244,
+   232,
+   210
+  ],
+  "bubble_line": [
+   150,
+   48,
+   32
+  ],
+  "bubble_ink": [
+   42,
+   30,
+   24
+  ],
+  "bubble_dim": [
+   140,
+   120,
+   105
+  ],
+  "transitions": [
+   "flash",
+   "whip",
+   "slide"
+  ],
+  "cut_fx": "punch",
+  "bubble_radius": 14
+ },
+ "end_hold": 1.2,
+ "scenes": [
+  {
+   "n": 1,
+   "speaker": "b",
+   "text": "Pompeyda odamlar nega qochib ulgurmagan?",
+   "tts": "[mysterious] Pompeyda odamlar nega qochib ulgurmagan?",
+   "mood": "mystery",
+   "img": "01.jpg",
+   "elements": [
+    {
+     "type": "caption",
+     "words": [
+      "NEGA",
+      "QOCHMADI?"
+     ],
+     "color": "yellow",
+     "y": 1330,
+     "size": 92,
+     "at": "ulgurmagan"
+    },
+    {
+     "type": "prop",
+     "img": "p_g_savol.jpg",
+     "x": 860,
+     "y": 420,
+     "h": 300,
+     "from": "pop",
+     "motion": "wag",
+     "at": "nega"
+    }
+   ],
+   "vo": "vo_01.mp3",
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0",
+   "imgs": [
+    [
+     "01b.jpg",
+     "qochib"
+    ]
+   ]
+  },
+  {
+   "n": 2,
+   "speaker": "b",
+   "text": "Ular 2000 yildan beri qotib yotibdi. Lekin lava ularga tegmagan.",
+   "tts": "[tense] Ular ikki ming yildan beri qotib yotibdi. Lekin lava ularga tegmagan.",
+   "mood": "tense",
+   "img": "01b.jpg",
+   "elements": [
+    {
+     "type": "mark",
+     "shape": "cross",
+     "x": 540,
+     "y": 900,
+     "w": 300,
+     "at": "lava",
+     "label": "LAVA EMAS!"
+    }
+   ],
+   "vo": "vo_02.mp3",
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0",
+   "imgs": [
+    [
+     "11.jpg",
+     "Lekin"
+    ]
+   ]
+  },
+  {
+   "n": 3,
+   "speaker": "l",
+   "text": "Lava bo'lmasa, ularni nima o'ldirgan?",
+   "tts": "[curious] Lava bo'lmasa, ularni nima o'ldirgan?",
+   "mood": "mystery",
+   "img": "02.jpg",
+   "elements": [
+    {
+     "type": "bubble",
+     "speaker": "LAYLO",
+     "x": 540,
+     "y": 330,
+     "at": "start",
+     "hl": {
+      "nima o'ldirgan": "red"
+     },
+     "tail": "down",
+     "tail_x": 0.75,
+     "tag": "orange",
+     "w": 880
+    },
+    {
+     "type": "char",
+     "img": "c_laylo.jpg",
+     "from": "right",
+     "x": 810,
+     "y": 1440,
+     "h": 680,
+     "at": 0.1,
+     "motion": "jump",
+     "talk": [
+      "vo"
+     ],
+     "label": "ARXEOLOG LAYLO",
+     "label_bg": "orange"
+    },
+    {
+     "type": "prop",
+     "img": "p_g_savol.jpg",
+     "x": 300,
+     "y": 760,
+     "h": 280,
+     "from": "pop",
+     "motion": "pulse",
+     "at": "nima o'ldirgan"
+    }
+   ],
+   "vo": "vo_03.mp3",
+   "voice_id": "rgK9zQmSATbqc0STi5u4"
+  },
+  {
+   "n": 4,
+   "speaker": "b",
+   "text": "Milodiy 79-yil. Pompey — 20 ming kishilik Rim shahri.",
+   "tts": "[serious] Milodiy yetmish to'qqizinchi yil. Pompey — yigirma ming kishilik Rim shahri.",
+   "mood": "warm",
+   "img": "03.jpg",
+   "elements": [
+    {
+     "type": "tag",
+     "head": "MILODIY",
+     "text": "79",
+     "y": 220,
+     "at": "Milodiy"
+    },
+    {
+     "type": "mark",
+     "shape": "box",
+     "x": 540,
+     "y": 1000,
+     "w": 640,
+     "h": 200,
+     "at": "20 ming",
+     "label": "20 000 KISHI"
+    }
+   ],
+   "vo": "vo_04.mp3",
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0",
+   "imgs": [
+    [
+     "03b.jpg",
+     "Rim"
+    ]
+   ]
+  },
+  {
+   "n": 5,
+   "speaker": "b",
+   "text": "Tushdan keyin tog' uyg'ondi. Va bitta soat hammasini o'zgartirdi.",
+   "tts": "[tense] Tushdan keyin tog' uyg'ondi. Va bitta soat hammasini o'zgartirdi.",
+   "mood": "tense",
+   "img": "cover.jpg",
+   "elements": [
+    {
+     "type": "prop",
+     "img": "p_g_soat.jpg",
+     "x": 820,
+     "y": 560,
+     "h": 360,
+     "from": "pop",
+     "motion": "shake",
+     "at": "bitta soat"
+    }
+   ],
+   "vo": "vo_05.mp3",
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0",
+   "imgs": [
+    [
+     "04b.jpg",
+     "bitta soat"
+    ]
+   ]
+  },
+  {
+   "n": 6,
+   "speaker": "b",
+   "text": "Vezuviy portladi. Bir soatda tutun 14 kilometrga ko'tarildi.",
+   "tts": "[excited] Vezuviy portladi. Bir soatda tutun o'n to'rt kilometrga ko'tarildi.",
+   "mood": "hero",
+   "img": "04.jpg",
+   "elements": [
+    {
+     "type": "caption",
+     "words": [
+      "14 KM",
+      "TUTUN"
+     ],
+     "color": "white",
+     "y": 1330,
+     "size": 92,
+     "at": "Bir soatda"
+    },
+    {
+     "type": "mark",
+     "shape": "arrow",
+     "x": 300,
+     "y": 1300,
+     "to": [
+      540,
+      420
+     ],
+     "at": "tutun",
+     "color": [
+      240,
+      140,
+      40
+     ],
+     "label": "14 KM!"
+    }
+   ],
+   "vo": "vo_06.mp3",
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0"
+  },
+  {
+   "n": 7,
+   "speaker": "p",
+   "text": "Osmonda qarag'ayga o'xshagan ulkan bulut turibdi!",
+   "tts": "[shocked] Osmonda qarag'ayga o'xshagan ulkan bulut turibdi!",
+   "mood": "tense",
+   "img": "05.jpg",
+   "elements": [
+    {
+     "type": "bubble",
+     "speaker": "PLINIY",
+     "x": 540,
+     "y": 330,
+     "at": "start",
+     "hl": {
+      "ulkan bulut": "red"
+     },
+     "tail": "down",
+     "tail_x": 0.25,
+     "tag": "crimson",
+     "w": 880
+    },
+    {
+     "type": "char",
+     "img": "c_pliniy.jpg",
+     "from": "left",
+     "x": 270,
+     "y": 1440,
+     "h": 680,
+     "at": 0.1,
+     "motion": "wag",
+     "talk": [
+      "vo"
+     ],
+     "label": "KICHIK PLINIY, 17",
+     "label_bg": "crimson"
+    },
+    {
+     "type": "prop",
+     "img": "p_g_undov.jpg",
+     "x": 800,
+     "y": 760,
+     "h": 300,
+     "from": "pop",
+     "motion": "jump",
+     "at": "ulkan bulut"
+    }
+   ],
+   "vo": "vo_07.mp3",
+   "voice_id": "GcnlXfqDudh5dSQpZVll"
+  },
+  {
+   "n": 8,
+   "speaker": "b",
+   "text": "Bu — 17 yoshli Kichik Pliniy. Qolgani — tarixchi Tatsitga yozgan xatida.",
+   "tts": "[mysterious] Bu — o'n yetti yoshli Kichik Pliniy. Qolgani — tarixchi Tatsitga yozgan xatida.",
+   "mood": "mystery",
+   "img": "05b.jpg",
+   "elements": [
+    {
+     "type": "prop",
+     "img": "p_g_xat.jpg",
+     "x": 800,
+     "y": 620,
+     "h": 360,
+     "from": "pop",
+     "motion": "point",
+     "rot": -15,
+     "at": "Tatsitga"
+    }
+   ],
+   "vo": "vo_08.mp3",
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0"
+  },
+  {
+   "n": 9,
+   "speaker": "b",
+   "text": "Kunduzi tun bo'ldi. Shaharga pemza toshlari va kul yog'a boshladi.",
+   "tts": "[tense] Kunduzi tun bo'ldi. Shaharga pemza toshlari va kul yog'a boshladi.",
+   "mood": "tense",
+   "img": "06.jpg",
+   "elements": [
+    {
+     "type": "caption",
+     "words": [
+      "KUNDUZI",
+      "TUN"
+     ],
+     "color": "yellow",
+     "y": 1330,
+     "size": 92,
+     "at": "tun"
+    },
+    {
+     "type": "mark",
+     "shape": "arrow",
+     "x": 860,
+     "y": 300,
+     "to": [
+      600,
+      800
+     ],
+     "at": "pemza",
+     "label": "TOSH YOG'ADI"
+    }
+   ],
+   "vo": "vo_09.mp3",
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0",
+   "imgs": [
+    [
+     "06b.jpg",
+     "kul"
+    ]
+   ]
+  },
+  {
+   "n": 10,
+   "speaker": "p",
+   "text": "Odamlar toshdan saqlanish uchun boshiga yostiq bog'lab olishdi!",
+   "tts": "[anxious] Odamlar toshdan saqlanish uchun boshiga yostiq bog'lab olishdi!",
+   "mood": "tense",
+   "img": "06.jpg",
+   "elements": [
+    {
+     "type": "bubble",
+     "speaker": "PLINIY",
+     "x": 540,
+     "y": 330,
+     "at": "start",
+     "hl": {
+      "yostiq": "red"
+     },
+     "tail": "down",
+     "tail_x": 0.25,
+     "tag": "crimson",
+     "w": 880
+    },
+    {
+     "type": "char",
+     "img": "c_pliniy_anx.jpg",
+     "from": "left",
+     "x": 270,
+     "y": 1440,
+     "h": 680,
+     "at": 0.1,
+     "motion": "wag",
+     "talk": [
+      "vo"
+     ],
+     "label": "KICHIK PLINIY, 17",
+     "label_bg": "crimson"
+    },
+    {
+     "type": "mark",
+     "shape": "circle",
+     "x": 540,
+     "y": 900,
+     "w": 460,
+     "h": 320,
+     "at": "yostiq",
+     "label": "YOSTIQ!"
+    }
+   ],
+   "vo": "vo_10.mp3",
+   "voice_id": "GcnlXfqDudh5dSQpZVll"
+  },
+  {
+   "n": 11,
+   "speaker": "l",
+   "text": "Kul yog'sa, qochish kerak-ku! Nega hamma qochmagan?",
+   "tts": "[surprised] Kul yog'sa, qochish kerak-ku! Nega hamma qochmagan?",
+   "mood": "groove",
+   "img": "02.jpg",
+   "elements": [
+    {
+     "type": "bubble",
+     "speaker": "LAYLO",
+     "x": 540,
+     "y": 330,
+     "at": "start",
+     "hl": {
+      "Nega hamma": "red"
+     },
+     "tail": "down",
+     "tail_x": 0.75,
+     "tag": "orange",
+     "w": 880
+    },
+    {
+     "type": "char",
+     "img": "c_laylo_surprised.jpg",
+     "from": "right",
+     "x": 810,
+     "y": 1440,
+     "h": 680,
+     "at": 0.1,
+     "motion": "jump",
+     "talk": [
+      "vo"
+     ],
+     "label": "ARXEOLOG LAYLO",
+     "label_bg": "orange"
+    },
+    {
+     "type": "prop",
+     "img": "p_g_savol.jpg",
+     "x": 300,
+     "y": 760,
+     "h": 300,
+     "from": "pop",
+     "motion": "wag",
+     "at": "Nega hamma"
+    }
+   ],
+   "vo": "vo_11.mp3",
+   "voice_id": "rgK9zQmSATbqc0STi5u4"
+  },
+  {
+   "n": 12,
+   "speaker": "b",
+   "text": "Hikoya teskari aylanadi: ko'pchilik qochgan. Ammo 2000 ga yaqin odam qolgan.",
+   "tts": "[mysterious] Hikoya teskari aylanadi: ko'pchilik qochgan. Ammo ikki mingga yaqin odam qolgan.",
+   "mood": "mystery",
+   "img": "06b.jpg",
+   "elements": [
+    {
+     "type": "caption",
+     "words": [
+      "KO'PCHILIK",
+      "QOCHGAN"
+     ],
+     "color": "white",
+     "y": 1330,
+     "size": 92,
+     "at": "ko'pchilik"
+    },
+    {
+     "type": "mark",
+     "shape": "box",
+     "x": 540,
+     "y": 1000,
+     "w": 600,
+     "h": 200,
+     "at": "2000",
+     "label": "~2000 QOLDI"
+    }
+   ],
+   "vo": "vo_12.mp3",
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0",
+   "imgs": [
+    [
+     "07.jpg",
+     "Ammo"
+    ]
+   ]
+  },
+  {
+   "n": 13,
+   "speaker": "b",
+   "text": "Ba'zilar uyida yashirindi. Boshqalar oltin va buyumlarini olgani qaytdi.",
+   "tts": "[whispers] Ba'zilar uyida yashirindi. Boshqalar oltin va buyumlarini olgani qaytdi.",
+   "mood": "groove",
+   "img": "07.jpg",
+   "elements": [
+    {
+     "type": "prop",
+     "img": "p_g_tanga.jpg",
+     "x": 780,
+     "y": 760,
+     "h": 380,
+     "from": "pop",
+     "motion": "bounce",
+     "at": "oltin"
+    }
+   ],
+   "vo": "vo_13.mp3",
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0",
+   "imgs": [
+    [
+     "07b.jpg",
+     "Boshqalar"
+    ]
+   ]
+  },
+  {
+   "n": 14,
+   "speaker": "p",
+   "text": "Tomlar kulning og'irligidan qulay boshladi!",
+   "tts": "[anxious] Tomlar kulning og'irligidan qulay boshladi!",
+   "mood": "tense",
+   "img": "08.jpg",
+   "elements": [
+    {
+     "type": "bubble",
+     "speaker": "PLINIY",
+     "x": 540,
+     "y": 330,
+     "at": "start",
+     "hl": {
+      "qulay": "red"
+     },
+     "tail": "down",
+     "tail_x": 0.25,
+     "tag": "crimson",
+     "w": 880
+    },
+    {
+     "type": "char",
+     "img": "c_pliniy_anx.jpg",
+     "from": "left",
+     "x": 270,
+     "y": 1440,
+     "h": 680,
+     "at": 0.1,
+     "motion": "wag",
+     "talk": [
+      "vo"
+     ],
+     "label": "KICHIK PLINIY, 17",
+     "label_bg": "crimson"
+    },
+    {
+     "type": "mark",
+     "shape": "burst",
+     "x": 540,
+     "y": 900,
+     "w": 560,
+     "at": "qulay"
+    }
+   ],
+   "vo": "vo_14.mp3",
+   "voice_id": "GcnlXfqDudh5dSQpZVll"
+  },
+  {
+   "n": 15,
+   "speaker": "b",
+   "text": "1860-yillarda arxeolog Fiorelli kuldagi bo'shliqlarga gips quydi.",
+   "tts": "[serious] O'n sakkiz yuz oltmishinchi yillarda arxeolog Fiorelli kuldagi bo'shliqlarga gips quydi.",
+   "mood": "mystery",
+   "img": "09.jpg",
+   "elements": [
+    {
+     "type": "tag",
+     "head": "YIL",
+     "text": "1860",
+     "y": 220,
+     "at": "1860"
+    },
+    {
+     "type": "mark",
+     "shape": "circle",
+     "x": 540,
+     "y": 860,
+     "w": 520,
+     "h": 360,
+     "at": "gips",
+     "label": "GIPS"
+    }
+   ],
+   "vo": "vo_15.mp3",
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0",
+   "imgs": [
+    [
+     "09b.jpg",
+     "bo'shliqlarga"
+    ]
+   ]
+  },
+  {
+   "n": 16,
+   "speaker": "l",
+   "text": "Bo'shliqlar odamlarning shakli ekan! Lekin ularni baribir nima o'ldirgan?",
+   "tts": "[amazed] Bo'shliqlar odamlarning shakli ekan! Lekin ularni baribir nima o'ldirgan?",
+   "mood": "hero",
+   "img": "01.jpg",
+   "elements": [
+    {
+     "type": "bubble",
+     "speaker": "LAYLO",
+     "x": 540,
+     "y": 330,
+     "at": "start",
+     "hl": {
+      "shakli": "red"
+     },
+     "tail": "down",
+     "tail_x": 0.75,
+     "tag": "orange",
+     "w": 880
+    },
+    {
+     "type": "char",
+     "img": "c_laylo_surprised.jpg",
+     "from": "right",
+     "x": 810,
+     "y": 1440,
+     "h": 680,
+     "at": 0.1,
+     "motion": "jump",
+     "talk": [
+      "vo"
+     ],
+     "label": "ARXEOLOG LAYLO",
+     "label_bg": "orange",
+     "moods": [
+      [
+       "c_laylo_amazed.jpg",
+       "Lekin"
+      ]
+     ]
+    },
+    {
+     "type": "prop",
+     "img": "p_g_savol.jpg",
+     "x": 300,
+     "y": 760,
+     "h": 300,
+     "from": "pop",
+     "motion": "jump",
+     "at": "baribir"
+    }
+   ],
+   "vo": "vo_16.mp3",
+   "voice_id": "rgK9zQmSATbqc0STi5u4"
+  },
+  {
+   "n": 17,
+   "speaker": "b",
+   "text": "Zarba ertasi tong keldi: tog'dan issiq gaz va kul buluti otildi.",
+   "tts": "[tense] Zarba ertasi tong keldi: tog'dan issiq gaz va kul buluti otildi.",
+   "mood": "tense",
+   "img": "10.jpg",
+   "elements": [
+    {
+     "type": "caption",
+     "words": [
+      "ERTASI",
+      "TONG"
+     ],
+     "color": "yellow",
+     "y": 1330,
+     "size": 92,
+     "at": "ertasi"
+    },
+    {
+     "type": "mark",
+     "shape": "arrow",
+     "x": 820,
+     "y": 300,
+     "to": [
+      420,
+      1000
+     ],
+     "at": "kul buluti",
+     "color": [
+      240,
+      140,
+      40
+     ],
+     "label": "TONG!"
+    }
+   ],
+   "vo": "vo_17.mp3",
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0"
+  },
+  {
+   "n": 18,
+   "speaker": "b",
+   "text": "U bo'rondan tez yugurardi va qaynoq suvdan 5 barobar issiq edi.",
+   "tts": "[shocked] U bo'rondan tez yugurardi va qaynoq suvdan besh barobar issiq edi.",
+   "mood": "hero",
+   "img": "10b.jpg",
+   "elements": [
+    {
+     "type": "prop",
+     "img": "p_g_termometr.jpg",
+     "x": 820,
+     "y": 640,
+     "h": 420,
+     "from": "pop",
+     "motion": "shake",
+     "at": "qaynoq suvdan"
+    },
+    {
+     "type": "mark",
+     "shape": "box",
+     "x": 540,
+     "y": 1000,
+     "w": 520,
+     "h": 200,
+     "at": "5 barobar",
+     "label": "5x ISSIQ"
+    }
+   ],
+   "vo": "vo_18.mp3",
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0"
+  },
+  {
+   "n": 19,
+   "speaker": "b",
+   "text": "Qolganlar xavf o'tdi deb o'ylagan. Ularni lava emas, shu bulut o'ldirgan.",
+   "tts": "[sad] Qolganlar xavf o'tdi deb o'ylagan. Ularni lava emas, shu bulut o'ldirgan.",
+   "mood": "sad",
+   "img": "11.jpg",
+   "elements": [
+    {
+     "type": "caption",
+     "words": [
+      "LAVA",
+      "EMAS!"
+     ],
+     "color": "white",
+     "y": 1330,
+     "size": 92,
+     "at": "lava"
+    },
+    {
+     "type": "mark",
+     "shape": "cross",
+     "x": 360,
+     "y": 820,
+     "w": 280,
+     "at": "lava emas"
+    },
+    {
+     "type": "mark",
+     "shape": "circle",
+     "x": 560,
+     "y": 560,
+     "w": 600,
+     "h": 420,
+     "at": "shu bulut",
+     "label": "MANA U"
+    }
+   ],
+   "vo": "vo_19.mp3",
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0",
+   "imgs": [
+    [
+     "01b.jpg",
+     "shu bulut"
+    ]
+   ]
+  },
+  {
+   "n": 20,
+   "speaker": "l",
+   "text": "Demak, eng xavfli payt — «o'tib ketdi» deb o'ylagan payt ekan.",
+   "tts": "[thoughtful] Demak, eng xavfli payt — «o'tib ketdi» deb o'ylagan payt ekan.",
+   "mood": "warm",
+   "img": "12.jpg",
+   "elements": [
+    {
+     "type": "bubble",
+     "speaker": "LAYLO",
+     "x": 540,
+     "y": 330,
+     "at": "start",
+     "hl": {
+      "o'tib ketdi": "red"
+     },
+     "tail": "down",
+     "tail_x": 0.75,
+     "tag": "orange",
+     "w": 880
+    },
+    {
+     "type": "char",
+     "img": "c_laylo.jpg",
+     "from": "right",
+     "x": 810,
+     "y": 1440,
+     "h": 680,
+     "at": 0.1,
+     "motion": "jump",
+     "talk": [
+      "vo"
+     ],
+     "label": "ARXEOLOG LAYLO",
+     "label_bg": "orange"
+    },
+    {
+     "type": "mark",
+     "shape": "underline",
+     "x": 540,
+     "y": 1180,
+     "w": 620,
+     "at": "o'tib ketdi"
+    }
+   ],
+   "vo": "vo_20.mp3",
+   "voice_id": "rgK9zQmSATbqc0STi5u4"
+  },
+  {
+   "n": 21,
+   "speaker": "b",
+   "text": "Sizda ham «hali vaqt bor» deydigan do'st bormi? Uni izohda belgilang.",
+   "tts": "[warmly] Sizda ham «hali vaqt bor» deydigan do'st bormi? Uni izohda belgilang.",
+   "mood": "finale",
+   "img": "12.jpg",
+   "elements": [
+    {
+     "type": "final",
+     "lines": [
+      "«HALI VAQT",
+      "BOR»MI?"
+     ],
+     "at": "Sizda ham"
+    }
+   ],
+   "vo": "vo_21.mp3",
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0"
+  }
+ ]
+}

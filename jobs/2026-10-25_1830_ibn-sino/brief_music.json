@@ -1,0 +1,39 @@
+{
+ "music": {
+  "genre": "doira_pop",
+  "bpm": 108,
+  "key": 1,
+  "scale": "hijaz",
+  "progression": [
+   0,
+   3,
+   4,
+   0
+  ]
+ },
+ "music_seed": 5183,
+ "music_gain": 0.7,
+ "moods": [
+  "tense",
+  "mystery",
+  "hero",
+  "mystery",
+  "warm",
+  "groove",
+  "groove",
+  "tense",
+  "mystery",
+  "hero",
+  "groove",
+  "mystery",
+  "warm",
+  "mystery",
+  "groove",
+  "hero",
+  "warm",
+  "hero",
+  "sad",
+  "finale"
+ ],
+ "why": "X asr Buxoro saroyi — hijaz ladidagi doira_pop sharqona sir va saroy shukuhini beradi; oxirgi 3 videoda (western, epic/sparse, detective) yo'q va Bobur jobidagi tangodan farqli; davolash va javob lahzalarida hero, kutubxona yonganida bitta sad."
+}

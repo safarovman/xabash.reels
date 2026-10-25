@@ -1,0 +1,262 @@
+{
+ "flow_prompts": [],
+ "note": "Yangi Flow rasmlari yo'q — faqat images.json dagi p_g_* (toj, qilich, xarita, fil, top, savol3) + dvigatel mark/tag/final. 1-, 2-, 3-MARTA belgilari ilmoqdagi hisobni ekranda yuritadi. Hammasi y 600-1100 oralig'ida: dialog qatorlarida (3, 7, 9, 15) tepadagi pufakcha (y<600) va pastki personaj stikerlari (y>1100) bilan to'qnashmaydi.",
+ "elements": {
+  "1": [
+   {
+    "type": "prop",
+    "img": "p_g_savol3.jpg",
+    "x": 800,
+    "y": 760,
+    "h": 300,
+    "from": "pop",
+    "motion": "wag",
+    "at": "kimligini"
+   }
+  ],
+  "2": [
+   {
+    "type": "tag",
+    "head": "YIL",
+    "text": "1494",
+    "x": 300,
+    "y": 660,
+    "at": "taxtga"
+   },
+   {
+    "type": "prop",
+    "img": "p_g_toj.jpg",
+    "x": 760,
+    "y": 840,
+    "h": 300,
+    "from": "pop",
+    "motion": "jump",
+    "at": "taxtga"
+   }
+  ],
+  "3": [
+   {
+    "type": "prop",
+    "img": "p_g_toj.jpg",
+    "x": 250,
+    "y": 950,
+    "h": 280,
+    "from": "pop",
+    "motion": "pulse",
+    "at": "Taxtingni"
+   }
+  ],
+  "4": [
+   {
+    "type": "mark",
+    "shape": "circle",
+    "x": 330,
+    "y": 780,
+    "w": 460,
+    "at": "Esan Davlat begim",
+    "label": "BUVISI"
+   }
+  ],
+  "5": [
+   {
+    "type": "tag",
+    "head": "YIL",
+    "text": "1497",
+    "x": 300,
+    "y": 660,
+    "at": "1497"
+   },
+   {
+    "type": "mark",
+    "shape": "check",
+    "x": 540,
+    "y": 860,
+    "w": 300,
+    "at": "uniki",
+    "label": "1-MARTA"
+   }
+  ],
+  "6": [
+   {
+    "type": "mark",
+    "shape": "cross",
+    "x": 540,
+    "y": 820,
+    "w": 320,
+    "at": "100 kun",
+    "label": "100 KUN"
+   }
+  ],
+  "8": [
+   {
+    "type": "tag",
+    "head": "YIL",
+    "text": "1500",
+    "x": 300,
+    "y": 660,
+    "at": "1500"
+   },
+   {
+    "type": "mark",
+    "shape": "check",
+    "x": 820,
+    "y": 1150,
+    "w": 300,
+    "at": "yana uniki",
+    "label": "2-MARTA"
+   }
+  ],
+  "9": [
+   {
+    "type": "prop",
+    "img": "p_g_qilich.jpg",
+    "x": 540,
+    "y": 860,
+    "h": 320,
+    "from": "pop",
+    "motion": "shake",
+    "at": "meniki"
+   }
+  ],
+  "10": [
+   {
+    "type": "mark",
+    "shape": "burst",
+    "x": 540,
+    "y": 820,
+    "w": 380,
+    "at": "ochlik"
+   }
+  ],
+  "11": [
+   {
+    "type": "mark",
+    "shape": "cross",
+    "x": 300,
+    "y": 700,
+    "w": 320,
+    "at": "qo'ldan ketdi"
+   }
+  ],
+  "12": [
+   {
+    "type": "prop",
+    "img": "p_g_xarita.jpg",
+    "x": 760,
+    "y": 840,
+    "h": 300,
+    "from": "pop",
+    "motion": "bounce",
+    "at": "Kobulni"
+   }
+  ],
+  "13": [
+   {
+    "type": "tag",
+    "head": "YIL",
+    "text": "1511",
+    "x": 300,
+    "y": 660,
+    "at": "1511"
+   },
+   {
+    "type": "mark",
+    "shape": "check",
+    "x": 700,
+    "y": 1000,
+    "w": 300,
+    "at": "uchinchi marta",
+    "label": "3-MARTA"
+   }
+  ],
+  "14": [
+   {
+    "type": "mark",
+    "shape": "cross",
+    "x": 540,
+    "y": 820,
+    "w": 360,
+    "at": "butunlay",
+    "label": "BUTUNLAY"
+   }
+  ],
+  "16": [
+   {
+    "type": "tag",
+    "head": "YIL",
+    "text": "1526",
+    "x": 780,
+    "y": 660,
+    "at": "1526"
+   },
+   {
+    "type": "mark",
+    "shape": "arrow",
+    "x": 300,
+    "y": 700,
+    "w": 300,
+    "at": "Hindistonga",
+    "to": [
+     760,
+     1000
+    ]
+   }
+  ],
+  "17": [
+   {
+    "type": "prop",
+    "img": "p_g_fil.jpg",
+    "x": 760,
+    "y": 840,
+    "h": 340,
+    "from": "pop",
+    "motion": "shake",
+    "at": "1000 fil",
+    "label": "1000 FIL"
+   }
+  ],
+  "18": [
+   {
+    "type": "prop",
+    "img": "p_g_top.jpg",
+    "x": 200,
+    "y": 1100,
+    "h": 320,
+    "from": "pop",
+    "motion": "jump",
+    "at": "To'plar"
+   }
+  ],
+  "19": [
+   {
+    "type": "mark",
+    "shape": "circle",
+    "x": 540,
+    "y": 800,
+    "w": 520,
+    "at": "Bobur",
+    "label": "BOBUR!"
+   }
+  ],
+  "20": [
+   {
+    "type": "mark",
+    "shape": "underline",
+    "x": 540,
+    "y": 1300,
+    "w": 460,
+    "at": "xatolarini"
+   }
+  ],
+  "21": [
+   {
+    "type": "final",
+    "lines": [
+     "QAYSI",
+     "TILDA?"
+    ],
+    "at": "qaysi tilda"
+   }
+  ]
+ }
+}

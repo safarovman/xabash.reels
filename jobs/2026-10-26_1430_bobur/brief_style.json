@@ -1,0 +1,82 @@
+{
+ "style_name": "Temuriy va Boburiy miniatyuralar ruhidagi epik kinematik rasm (feruza, zumrad, za'faron, oltin)",
+ "image_prefix": "vertical 9:16, no text, no letters, no logos, semi-realistic cinematic painting inspired by Timurid and Mughal miniatures, realistic natural human proportions and faces (not cartoon), turquoise, emerald green, saffron and gold palette, epic light.",
+ "character_prefix": "semi-realistic cinematic painting, turquoise and saffron palette, realistic proportions and face (not cartoon), single person only, half body, isolated on a plain flat pure white background, no shadow, no scenery, no text.",
+ "prop_prefix": "semi-realistic painted style, single object only, bold clean shape, isolated on a plain flat pure white background, no shadow, no text.",
+ "theme": {
+  "font": "alfaslabone",
+  "font2": "specialelite",
+  "accent": [
+   18,
+   140,
+   132
+  ],
+  "accent2": [
+   236,
+   150,
+   30
+  ],
+  "bubble_bg": [
+   248,
+   240,
+   222
+  ],
+  "bubble_line": [
+   16,
+   104,
+   96
+  ],
+  "bubble_ink": [
+   26,
+   34,
+   30
+  ],
+  "bubble_dim": [
+   124,
+   128,
+   116
+  ],
+  "transitions": [
+   "whip",
+   "slide",
+   "torn"
+  ],
+  "cut_fx": "whip"
+ },
+ "cover": {
+  "layout": "hero",
+  "img": "cover.jpg",
+  "char": "c_shahzoda.jpg",
+  "props": [],
+  "badge": "1497–1512",
+  "accent": [
+   18,
+   140,
+   132
+  ],
+  "accent2": [
+   236,
+   150,
+   30
+  ],
+  "title_colors": [
+   [
+    255,
+    255,
+    255
+   ],
+   [
+    236,
+    150,
+    30
+   ]
+  ],
+  "cover_title": [
+   "3 MARTA",
+   "YO'QOTGAN SHOH"
+  ],
+  "flow_prompt": "(images.json cover.jpg — allaqachon yasalmoqda: shahzoda yolqillagan Samarqand gumbazlari fonida, tepa 1/3 bo'sh)"
+ },
+ "why": "Temuriy Samarqand va Boburiy Hindiston — feruza gumbazlar va za'faron-oltin miniatyura ranglari; Alfa Slab One — jang yilnomasidek og'ir, keng sarlavha (raqamlar 1497/1500/1511 yaxshi o'qiladi), Special Elite — «Boburnoma» kundaligi ruhidagi qo'lyozma-yilnoma matni.",
+ "checked": "oxirgi 5 muqova: split, polaroid, classic, bubble, diagonal, poster (Pompey) va Ibn Sino jobidagi zoom -> hero (oxirgisi 23-okt temur-xitoy, 7 video oldin); shriftlar Pompey abrilfatface/patrickhand va Ibn Sino pacifico/titanone dan farqli, oxirgi 5 da yo'q; palitra Ibn Sinoning lojuvard-oltinidan farqli feruza + za'faron."
+}

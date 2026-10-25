@@ -1,0 +1,88 @@
+{
+ "style_name": "Somoniy Buxoro: fors miniatyurasi ranglaridagi kinematik rasm (lojuvard ko'k, oltin varaq, sham nuri, pergament)",
+ "image_prefix": "vertical 9:16, no text, no letters, no logos, semi-realistic cinematic painting inspired by Persian miniature colors, realistic natural human proportions and faces (not cartoon), 10th century Samanid Bukhara, deep lapis blue, gold leaf, warm candlelight, parchment beige.",
+ "character_prefix": "semi-realistic cinematic painting, lapis blue and gold palette, realistic proportions and face (not cartoon), single person only, half body, isolated on a plain flat pure white background, no shadow, no scenery, no text.",
+ "prop_prefix": "semi-realistic painted style, single object only, bold clean shape, isolated on a plain flat pure white background, no shadow, no text.",
+ "theme": {
+  "font": "pacifico",
+  "font2": "titanone",
+  "accent": [
+   30,
+   70,
+   160
+  ],
+  "accent2": [
+   222,
+   170,
+   48
+  ],
+  "bubble_bg": [
+   246,
+   237,
+   214
+  ],
+  "bubble_line": [
+   30,
+   62,
+   140
+  ],
+  "bubble_ink": [
+   22,
+   28,
+   54
+  ],
+  "bubble_dim": [
+   128,
+   122,
+   108
+  ],
+  "transitions": [
+   "zoom",
+   "torn",
+   "flash"
+  ],
+  "cut_fx": "flash"
+ },
+ "cover": {
+  "layout": "zoom",
+  "img": "cover.jpg",
+  "focus": [
+   540,
+   1060
+  ],
+  "zoom": 1.45,
+  "mark_w": 520,
+  "mark_h": 460,
+  "props": [],
+  "badge": "17 YOSH",
+  "accent": [
+   30,
+   70,
+   160
+  ],
+  "accent2": [
+   222,
+   170,
+   48
+  ],
+  "title_colors": [
+   [
+    255,
+    255,
+    255
+   ],
+   [
+    222,
+    170,
+    48
+   ]
+  ],
+  "cover_title": [
+   "OLTIN EMAS —",
+   "NIMA SO'RADI?"
+  ],
+  "flow_prompt": "(images.json cover.jpg — allaqachon yasalmoqda: yosh olim qorong'i kutubxonada nurli kitob bilan, tepa 1/3 bo'sh)"
+ },
+ "why": "Somoniylar Buxorosi va qo'lyozma kutubxona — lojuvard ko'k va oltin varaqli miniatyura ranglari; Pacifico — xattotlik ruhidagi oqma sarlavha, Titan One — pufakchalarda o'qilishi oson yumaloq qalin shrift.",
+ "checked": "oxirgi 5 muqova: split, polaroid, classic, bubble, diagonal, poster (Pompey) -> zoom; shriftlar: Pompey abrilfatface/patrickhand, oldingilari russo/caveat, permanentmarker/lobster, shrikhand/fredoka, lobster/patrickhand, rubikmonoone/righteous -> pacifico/titanone (Bobur jobidan ham farqli); palitra Pompey terrakotasidan farqli sovuq lojuvard + oltin."
+}

@@ -1,0 +1,52 @@
+{
+ "hook": "Buxoro amiri o'lim to'shagida yotardi. Saroy tabiblari ojiz qoldi — uni 17 yoshli yigit davoladi.",
+ "hook_type": "natijadan boshlash (cold open) + ziddiyat: keksa tabiblar ojiz, 17 yoshli yigit davoladi",
+ "rehooks": [
+  {
+   "scene": 4,
+   "text": "Lekin u oltin ham, mansab ham so'ramadi. Unda nima so'radi?",
+   "t_est": 13
+  },
+  {
+   "scene": 6,
+   "text": "16 yoshida ... dedi: «Tib — qiyin fan emas».",
+   "t_est": 24
+  },
+  {
+   "scene": 7,
+   "text": "Soqoli chiqmagan bola bizga dars beradimi?! (keksa tabib, vizual burilish)",
+   "t_est": 30
+  },
+  {
+   "scene": 9,
+   "text": "Keksa tabiblar taslim. Saroyga o'sha «soqolsiz bola»ni chaqirishdi.",
+   "t_est": 39
+  },
+  {
+   "scene": 12,
+   "text": "Uning javobidan butun saroy jim qoldi. Sababi — bitta bino.",
+   "t_est": 51
+  }
+ ],
+ "open_loop": "Amir xazinasidan nima xohlasa berishga va'da qildi — u oltin ham, mansab ham so'ramadi. Unda nima so'radi?",
+ "payoff_scene": 18,
+ "payoff_note": "Javob (saroy kutubxonasiga kirish ruxsati) 18-qatorda (~83 s, ~82% — oxirgi 18%); 19 — bitta xulosa (kutubxona yongan, dushmanlar aybladi), 20 — savol. 13-14 — ishoralar (ko'p xonali bino, noyob kitoblar), javobning o'zi aytilmaydi.",
+ "final_question": "Keyingi videoda qaysi allomamiz haqida gapiraylik? Ismini izohda yozing.",
+ "question_type": "keyingi qism",
+ "est_duration_s": 101,
+ "changes": [
+  "21 -> 20 qator; taxminiy davomiylik ~111 s -> ~101 s",
+  "3: qisqartirildi ('— seniki!')",
+  "4: 'Nima so'radi deysizmi?' -> 'Unda nima so'radi?' (ochiq halqa)",
+  "5: 'sakseninchi' -> to'g'ri 'saksoninchi'; 'Afshona qishlog'ida' -> 'Afshonada' (≤6 s)",
+  "6: iqtibos gap oxiriga — ~24 s dagi qayta ilmoq",
+  "8: 14 so'z -> 10 so'z; 'Keksa tabiblar...' 9-qatorga ko'chdi",
+  "9: 'Keksa tabiblar taslim... «soqolsiz bola»' — 7-qatordagi hazilga qaytish (~39 s re-hook)",
+  "12: 'Ammo avval bitta sir' -> 'Sababi — bitta bino' (yangi ibora)",
+  "16: qisqartirildi (13 -> 12 so'z TTS)",
+  "18: 'Endi javob:' (takroriy ibora) olib tashlandi -> 'O'sha kuni u oltin emas — ... so'ragan edi!'",
+  "19: mish-mish iqtibosi qisqartirildi: 'Dushmanlari esa Ibn Sinoni aybladi'",
+  "eski 20 (ustozning 'oxirgi odamlardan biri' xulosasi) olib tashlandi — javobdan keyin faqat 1 xulosa",
+  "21 -> 20: yakuniy savol 'shaxsiy hikoya' (oxirgi 5 da bor) -> 'keyingi qism'"
+ ]
+}

@@ -29,8 +29,8 @@
    {
     "type": "prop",
     "img": "p_g_savol.jpg",
-    "x": 820,
-    "y": 520,
+    "x": 300,
+    "y": 760,
     "h": 280,
     "from": "pop",
     "motion": "pulse",
@@ -91,8 +91,8 @@
    {
     "type": "prop",
     "img": "p_g_undov.jpg",
-    "x": 860,
-    "y": 380,
+    "x": 800,
+    "y": 760,
     "h": 300,
     "from": "pop",
     "motion": "jump",
@@ -131,7 +131,7 @@
     "type": "mark",
     "shape": "circle",
     "x": 540,
-    "y": 720,
+    "y": 900,
     "w": 460,
     "h": 320,
     "at": "yostiq",
@@ -142,8 +142,8 @@
    {
     "type": "prop",
     "img": "p_g_savol.jpg",
-    "x": 830,
-    "y": 500,
+    "x": 300,
+    "y": 760,
     "h": 300,
     "from": "pop",
     "motion": "wag",
@@ -179,7 +179,7 @@
     "type": "mark",
     "shape": "burst",
     "x": 540,
-    "y": 520,
+    "y": 900,
     "w": 560,
     "at": "qulay"
    }
@@ -207,8 +207,8 @@
    {
     "type": "prop",
     "img": "p_g_savol.jpg",
-    "x": 840,
-    "y": 480,
+    "x": 300,
+    "y": 760,
     "h": 300,
     "from": "pop",
     "motion": "jump",

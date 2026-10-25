@@ -1,0 +1,40 @@
+{
+ "music": {
+  "genre": "tango",
+  "bpm": 118,
+  "key": -3,
+  "scale": "minor",
+  "progression": [
+   0,
+   3,
+   5,
+   4
+  ]
+ },
+ "music_seed": 2614,
+ "music_gain": 0.72,
+ "moods": [
+  "mystery",
+  "tense",
+  "warm",
+  "groove",
+  "hero",
+  "mystery",
+  "warm",
+  "hero",
+  "tense",
+  "tense",
+  "mystery",
+  "groove",
+  "hero",
+  "sad",
+  "warm",
+  "tense",
+  "tense",
+  "hero",
+  "hero",
+  "warm",
+  "finale"
+ ],
+ "why": "Uch marta olib, uch marta yo'qotish — yutuq va yo'qotish almashinadigan drama: minor tango keskin ritm bilan har burilishni urg'ulaydi; oxirgi 3 videoda (western, epic/sparse, detective) va Ibn Sino jobidagi doira_pop'dan farqli; har bir 'uniki!' da hero, 'butunlay' da bitta sad."
+}

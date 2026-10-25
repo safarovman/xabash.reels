@@ -4,7 +4,7 @@ import json, struct, sys, subprocess, os
 R = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'jobs')
 b = open(sys.argv[1], 'rb').read(); n = struct.unpack('>I', b[:4])[0]; idx = json.loads(b[4:4 + n]); o = 4 + n
 for name, l in idx:
-    job, f = name.split('/'); raw = b[o:o + l]; o += l
+    job, f = name.split('/')[0], name.split('/')[-1]; raw = b[o:o + l]; o += l
     if f.endswith('.mp3'):
         os.makedirs(f'{R}/{job}/aud', exist_ok=True); open(f'{R}/{job}/aud/{f}', 'wb').write(raw)
     else:

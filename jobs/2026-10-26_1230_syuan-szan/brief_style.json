@@ -1,0 +1,48 @@
+{
+ "style_name": "Ipak yo'li sayohat daftari: siyoh chizig'i + akvarel",
+ "image_prefix": "vertical 9:16, no text, no letters, no logos, Silk Road travel sketchbook: ink line drawing with soft watercolor washes, warm paper texture, 7th century Central Asia, realistic natural proportions. ",
+ "character_prefix": "vertical 9:16, no text, no letters, no logos, ink and watercolor travel sketch style, single person, half body, realistic natural proportions, isolated on a clean plain white background. ",
+ "prop_prefix": "no text, ink and watercolor sketch style, single object, isolated on a clean plain white background. ",
+ "theme": {
+  "font": "titanone",
+  "font2": "fredoka",
+  "accent": [
+   190,
+   60,
+   40
+  ],
+  "accent2": [
+   60,
+   130,
+   140
+  ],
+  "bubble_bg": [
+   250,
+   244,
+   228
+  ],
+  "bubble_line": [
+   60,
+   50,
+   40
+  ],
+  "bubble_ink": [
+   30,
+   26,
+   22
+  ],
+  "bubble_dim": [
+   160,
+   140,
+   110
+  ],
+  "bubble_radius": 26,
+  "transitions": [
+   "slide",
+   "whip",
+   "torn"
+  ],
+  "cut_fx": "whip"
+ },
+ "why": "Rohibning o'zi yo'l kundaligi yozgan — sayohat eskizi uslubi; oxirgi 5 videoda yo'q."
+}

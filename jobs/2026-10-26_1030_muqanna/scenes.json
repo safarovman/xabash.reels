@@ -1,0 +1,648 @@
+{
+ "title": "Muqanna va Naxshab oyi",
+ "pace": "fast",
+ "music": {
+  "genre": "detective",
+  "bpm": 92,
+  "key": -2,
+  "scale": "minor",
+  "progression": [
+   0,
+   5,
+   3,
+   4
+  ]
+ },
+ "music_seed": 783,
+ "music_gain": 0.7,
+ "cover_title": [
+  "QUDUQDAN",
+  "OY CHIQDIMI?"
+ ],
+ "cover_sub": "Naxshab, VIII asr",
+ "cover_scene": 0,
+ "cover": {
+  "layout": "poster",
+  "img": "cover.jpg",
+  "props": [
+   "p_g_oy.jpg"
+  ],
+  "badge": "VIII ASR",
+  "title_colors": [
+   [
+    235,
+    240,
+    255
+   ],
+   [
+    230,
+    190,
+    90
+   ]
+  ],
+  "accent": [
+   200,
+   70,
+   50
+  ],
+  "accent2": [
+   210,
+   220,
+   240
+  ],
+  "duo_dark": [
+   14,
+   18,
+   44
+  ],
+  "ink": [
+   235,
+   240,
+   255
+  ]
+ },
+ "anim": "static",
+ "bright": true,
+ "theme": {
+  "font": "alfaslabone",
+  "font2": "caveat",
+  "accent": [
+   200,
+   70,
+   50
+  ],
+  "accent2": [
+   210,
+   220,
+   240
+  ],
+  "bubble_bg": [
+   20,
+   26,
+   56
+  ],
+  "bubble_line": [
+   200,
+   210,
+   235
+  ],
+  "bubble_ink": [
+   240,
+   242,
+   250
+  ],
+  "bubble_dim": [
+   120,
+   130,
+   170
+  ],
+  "bubble_radius": 22,
+  "transitions": [
+   "zoom",
+   "slide",
+   "flash"
+  ],
+  "cut_fx": "punch"
+ },
+ "end_hold": 1.2,
+ "scenes": [
+  {
+   "speaker": "nar",
+   "text": "Muqanna Naxshabda quduqdan qanday qilib «oy» chiqargan?",
+   "tts": "[mysterious] Muqanna Naxshabda quduqdan qanday qilib oy chiqargan?",
+   "mood": "mystery",
+   "img": "01.jpg",
+   "elements": [
+    {
+     "type": "caption",
+     "words": [
+      "QUDUQDAN",
+      "OY?"
+     ],
+     "color": "yellow",
+     "y": 1330,
+     "size": 92,
+     "at": "quduqdan"
+    },
+    {
+     "type": "prop",
+     "img": "p_g_savol.jpg",
+     "x": 880,
+     "y": 640,
+     "h": 250,
+     "from": "pop",
+     "motion": "shake",
+     "at": "Muqanna"
+    }
+   ],
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0",
+   "n": 1,
+   "vo": "vo_01.mp3"
+  },
+  {
+   "speaker": "jasur",
+   "text": "Bobo, osmonda ikkita oy bo'lganmi? Qo'ysangiz-chi, bu ertak-ku!",
+   "tts": "[laughs] Bobo, osmonda ikkita oy bo'lganmi? Qo'ysangiz-chi, bu ertak-ku!",
+   "mood": "groove",
+   "img": "02.jpg",
+   "elements": [
+    {
+     "type": "bubble",
+     "speaker": "JASUR",
+     "x": 540,
+     "y": 330,
+     "at": "start",
+     "hl": {
+      "ikkita": "red"
+     },
+     "tail": "down",
+     "tail_x": 0.75,
+     "tag": "royal",
+     "w": 880
+    },
+    {
+     "type": "char",
+     "img": "c_jasur.jpg",
+     "from": "right",
+     "x": 810,
+     "y": 1440,
+     "h": 680,
+     "at": 0.1,
+     "motion": "jump",
+     "talk": [
+      "vo"
+     ],
+     "label": "JASUR",
+     "label_bg": "royal"
+    }
+   ],
+   "voice_id": "fytsqG6MLzC2aCSw7MLa",
+   "n": 2,
+   "vo": "vo_02.mp3"
+  },
+  {
+   "speaker": "bobo",
+   "text": "Ertak emas, bolam. Bu Qarshining o'zida bo'lgan. Eshit.",
+   "tts": "[elderly voice] [warmly] Ertak emas, bolam. Bu Qarshining o'zida bo'lgan. Eshit.",
+   "mood": "warm",
+   "img": "02.jpg",
+   "elements": [
+    {
+     "type": "bubble",
+     "speaker": "HAMRO BOBO",
+     "x": 540,
+     "y": 330,
+     "at": "start",
+     "hl": {
+      "Qarshining": "red"
+     },
+     "tail": "down",
+     "tail_x": 0.25,
+     "tag": "crimson",
+     "w": 880
+    },
+    {
+     "type": "char",
+     "img": "c_bobo.jpg",
+     "from": "left",
+     "x": 270,
+     "y": 1440,
+     "h": 680,
+     "at": 0.1,
+     "motion": "wag",
+     "talk": [
+      "vo"
+     ],
+     "label": "HAMRO BOBO",
+     "label_bg": "crimson"
+    }
+   ],
+   "voice_id": "eD0k57hUAx0oDuThLFT9",
+   "n": 3,
+   "vo": "vo_03.mp3"
+  },
+  {
+   "speaker": "nar",
+   "text": "VIII asr. Movarounnahrda yuzini doim yopib yuradigan bir odam paydo bo'ladi.",
+   "tts": "[serious] Sakkizinchi asr. Movarounnahrda yuzini doim yopib yuradigan bir odam paydo bo'ladi.",
+   "mood": "mystery",
+   "img": "03.jpg",
+   "elements": [
+    {
+     "type": "tag",
+     "head": "ASR",
+     "text": "VIII",
+     "x": 540,
+     "y": 210,
+     "color": "royal",
+     "at": "start"
+    },
+    {
+     "type": "mark",
+     "shape": "circle",
+     "x": 540,
+     "y": 700,
+     "w": 360,
+     "h": 420,
+     "color": "red",
+     "width": 13,
+     "at": "yopib",
+     "label": "NIQOB"
+    }
+   ],
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0",
+   "n": 4,
+   "vo": "vo_04.mp3"
+  },
+  {
+   "speaker": "nar",
+   "text": "Uni Muqanna, ya'ni «niqobli» deyishgan. Asl ismi — Hoshim ibn Hakim.",
+   "tts": "[warmly] Uni Muqanna, ya'ni niqobli deyishgan. Asl ismi — Hoshim ibn Hakim.",
+   "mood": "mystery",
+   "img": "03.jpg",
+   "elements": [
+    {
+     "type": "card",
+     "kicker": "MUQANNA",
+     "title": [
+      "«NIQOBLI»"
+     ],
+     "sub": "Hoshim ibn Hakim",
+     "at": "Muqanna",
+     "y": 1330
+    }
+   ],
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0",
+   "n": 5,
+   "vo": "vo_05.mp3"
+  },
+  {
+   "speaker": "nar",
+   "text": "U Abbosiylar xalifaligiga qarshi qo'zg'olon ko'taradi. Tarafdorlari oq kiyim kiygan.",
+   "tts": "U Abbosiylar xalifaligiga qarshi qo'zg'olon ko'taradi. Tarafdorlari oq kiyim kiygan.",
+   "mood": "tense",
+   "img": "03b.jpg",
+   "elements": [
+    {
+     "type": "caption",
+     "words": [
+      "OQ KIYIMLILAR"
+     ],
+     "color": "white",
+     "y": 1330,
+     "size": 92,
+     "at": "oq kiyim"
+    }
+   ],
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0",
+   "n": 6,
+   "vo": "vo_06.mp3"
+  },
+  {
+   "speaker": "nar",
+   "text": "Markazi — Kesh, hozirgi Shahrisabz yaqinidagi tog'dagi Sanam qal'asi.",
+   "tts": "[serious] Markazi — Kesh, hozirgi Shahrisabz yaqinidagi tog'dagi Sanam qal'asi.",
+   "mood": "tense",
+   "img": "04.jpg",
+   "elements": [
+    {
+     "type": "mark",
+     "shape": "circle",
+     "x": 600,
+     "y": 820,
+     "w": 300,
+     "h": 260,
+     "color": "red",
+     "width": 13,
+     "at": "Sanam",
+     "label": "SANAM QAL'ASI"
+    },
+    {
+     "type": "mark",
+     "shape": "arrow",
+     "x": 300,
+     "y": 1200,
+     "w": 200,
+     "h": 200,
+     "color": "red",
+     "width": 13,
+     "at": "Shahrisabz",
+     "to": [
+      520,
+      900
+     ]
+    }
+   ],
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0",
+   "n": 7,
+   "vo": "vo_07.mp3"
+  },
+  {
+   "speaker": "nar",
+   "text": "Va shu yerda hikoya g'alati tus oladi. Naxshab yonidagi bir quduqdan har kecha nur chiqa boshlaydi.",
+   "tts": "[whispers] Va shu yerda hikoya g'alati tus oladi. [mysterious] Naxshab yonidagi bir quduqdan har kecha nur chiqa boshlaydi.",
+   "mood": "mystery",
+   "img": "06.jpg",
+   "elements": [
+    {
+     "type": "prop",
+     "img": "p_g_oy.jpg",
+     "x": 540,
+     "y": 820,
+     "h": 280,
+     "from": "pop",
+     "motion": "pulse",
+     "at": "nur"
+    },
+    {
+     "type": "caption",
+     "words": [
+      "HAR KECHA",
+      "NUR"
+     ],
+     "color": "yellow",
+     "y": 1330,
+     "size": 92,
+     "at": "nur"
+    }
+   ],
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0",
+   "n": 8,
+   "vo": "vo_08.mp3"
+  },
+  {
+   "speaker": "nar",
+   "text": "Nur osmonga ko'tarilib, xuddi oydek porlagan. Uzoqdan ham ko'ringan ekan.",
+   "tts": "[surprised] Nur osmonga ko'tarilib, xuddi oydek porlagan. Uzoqdan ham ko'ringan ekan.",
+   "mood": "mystery",
+   "img": "06b.jpg",
+   "elements": [
+    {
+     "type": "mark",
+     "shape": "arrow",
+     "x": 700,
+     "y": 1100,
+     "w": 200,
+     "h": 200,
+     "color": "red",
+     "width": 13,
+     "at": "osmonga",
+     "to": [
+      760,
+      700
+     ]
+    },
+    {
+     "type": "note",
+     "text": "rivoyat qilishlaricha",
+     "y": 260,
+     "x": 540,
+     "size": 70,
+     "rot": -3,
+     "at": "Nur"
+    }
+   ],
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0",
+   "n": 9,
+   "vo": "vo_09.mp3"
+  },
+  {
+   "speaker": "jasur",
+   "text": "Bobo, buni kim yozib qoldirgan? Isboti bormi?",
+   "tts": "[surprised] Bobo, buni kim yozib qoldirgan? Isboti bormi?",
+   "mood": "groove",
+   "img": "02.jpg",
+   "elements": [
+    {
+     "type": "bubble",
+     "speaker": "JASUR",
+     "x": 540,
+     "y": 330,
+     "at": "start",
+     "hl": {
+      "Isboti": "red"
+     },
+     "tail": "down",
+     "tail_x": 0.75,
+     "tag": "royal",
+     "w": 880
+    },
+    {
+     "type": "char",
+     "img": "c_jasur.jpg",
+     "from": "right",
+     "x": 810,
+     "y": 1440,
+     "h": 680,
+     "at": 0.1,
+     "motion": "jump",
+     "talk": [
+      "vo"
+     ],
+     "label": "JASUR",
+     "label_bg": "royal"
+    }
+   ],
+   "voice_id": "fytsqG6MLzC2aCSw7MLa",
+   "n": 10,
+   "vo": "vo_10.mp3"
+  },
+  {
+   "speaker": "nar",
+   "text": "Buni X asrda Narshaxiy «Buxoro tarixi» kitobida yozgan. Lekin u ham buni eshitganlardan olgan.",
+   "tts": "[serious] Buni o'ninchi asrda Narshaxiy, Buxoro tarixi kitobida yozgan. Lekin u ham buni eshitganlardan olgan.",
+   "mood": "warm",
+   "img": "05.jpg",
+   "elements": [
+    {
+     "type": "card",
+     "kicker": "NARSHAXIY, X ASR",
+     "title": [
+      "«BUXORO TARIXI»"
+     ],
+     "sub": "rivoyat sifatida",
+     "at": "Narshaxiy",
+     "y": 1330
+    },
+    {
+     "type": "prop",
+     "img": "p_g_qolyozma.jpg",
+     "x": 860,
+     "y": 640,
+     "h": 250,
+     "from": "pop",
+     "motion": "wag",
+     "at": "kitobida"
+    }
+   ],
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0",
+   "n": 11,
+   "vo": "vo_11.mp3"
+  },
+  {
+   "speaker": "nar",
+   "text": "Qo'zg'olon bir necha yil davom etdi. Oxiri xalifa qo'shini Sanam qal'asini qamal qildi.",
+   "tts": "Qo'zg'olon bir necha yil davom etdi. Oxiri xalifa qo'shini Sanam qal'asini qamal qildi.",
+   "mood": "tense",
+   "img": "07.jpg",
+   "elements": [
+    {
+     "type": "caption",
+     "words": [
+      "QAMAL"
+     ],
+     "color": "white",
+     "y": 1330,
+     "size": 92,
+     "at": "qamal"
+    }
+   ],
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0",
+   "n": 12,
+   "vo": "vo_12.mp3"
+  },
+  {
+   "speaker": "nar",
+   "text": "Taxminan 783-yili qal'a quladi. Muqanna taslim bo'lishni istamagan, deb rivoyat qilinadi.",
+   "tts": "[sad] Taxminan yetti yuz sakson uchinchi yili qal'a quladi. Muqanna taslim bo'lishni istamagan, deb rivoyat qilinadi.",
+   "mood": "sad",
+   "img": "09.jpg",
+   "elements": [
+    {
+     "type": "tag",
+     "head": "YIL",
+     "text": "~783",
+     "x": 540,
+     "y": 210,
+     "color": "royal",
+     "at": "start"
+    }
+   ],
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0",
+   "n": 13,
+   "vo": "vo_13.mp3"
+  },
+  {
+   "speaker": "bobo",
+   "text": "Endi oy masalasiga kelsak, bolam, uning sirini o'zi bilan olib ketgan.",
+   "tts": "[elderly voice] [chuckles] Endi oy masalasiga kelsak, bolam, uning sirini o'zi bilan olib ketgan.",
+   "mood": "warm",
+   "img": "02.jpg",
+   "elements": [
+    {
+     "type": "bubble",
+     "speaker": "HAMRO BOBO",
+     "x": 540,
+     "y": 330,
+     "at": "start",
+     "hl": {
+      "sirini": "red"
+     },
+     "tail": "down",
+     "tail_x": 0.25,
+     "tag": "crimson",
+     "w": 880
+    },
+    {
+     "type": "char",
+     "img": "c_bobo.jpg",
+     "from": "left",
+     "x": 270,
+     "y": 1440,
+     "h": 680,
+     "at": 0.1,
+     "motion": "wag",
+     "talk": [
+      "vo"
+     ],
+     "label": "HAMRO BOBO",
+     "label_bg": "crimson"
+    }
+   ],
+   "voice_id": "eD0k57hUAx0oDuThLFT9",
+   "n": 14,
+   "vo": "vo_14.mp3"
+  },
+  {
+   "speaker": "nar",
+   "text": "Olimlar taxmin qiladi: quduq ichidagi katta ko'zgu yoki simob oy nurini qaytargan bo'lishi mumkin.",
+   "tts": "[serious] Olimlar taxmin qiladi: quduq ichidagi katta ko'zgu yoki simob oy nurini qaytargan bo'lishi mumkin.",
+   "mood": "epic",
+   "img": "08.jpg",
+   "elements": [
+    {
+     "type": "prop",
+     "img": "p_g_kozgu.jpg",
+     "x": 230,
+     "y": 700,
+     "h": 300,
+     "from": "pop",
+     "motion": "pulse",
+     "at": "ko'zgu"
+    },
+    {
+     "type": "caption",
+     "words": [
+      "KO'ZGU",
+      "YOKI SIMOB"
+     ],
+     "color": "yellow",
+     "y": 1330,
+     "size": 92,
+     "at": "simob"
+    },
+    {
+     "type": "note",
+     "text": "bu taxmin",
+     "y": 260,
+     "x": 540,
+     "size": 70,
+     "rot": 3,
+     "at": "taxmin"
+    }
+   ],
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0",
+   "n": 15,
+   "vo": "vo_15.mp3"
+  },
+  {
+   "speaker": "nar",
+   "text": "Aniq javob yo'q. Ammo she'riyatda «Naxshab oyi» soxta mo''jizaning ramziga aylangan.",
+   "tts": "[serious] Aniq javob yo'q. Ammo she'riyatda Naxshab oyi soxta mo'jizaning ramziga aylangan.",
+   "mood": "epic",
+   "img": "01.jpg",
+   "elements": [
+    {
+     "type": "stamp",
+     "text": "SOXTA OY",
+     "y": 1350,
+     "rot": -6,
+     "at": "soxta"
+    }
+   ],
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0",
+   "n": 16,
+   "vo": "vo_16.mp3"
+  },
+  {
+   "speaker": "nar",
+   "text": "Siz o'sha davrda yashaganingizda, quduqdagi oyga ishonarmidingiz? Izohda yozing.",
+   "tts": "[warmly] Siz o'sha davrda yashaganingizda, quduqdagi oyga ishonarmidingiz? Izohda yozing.",
+   "mood": "finale",
+   "img": "09.jpg",
+   "elements": [
+    {
+     "type": "final",
+     "lines": [
+      "SIZ BU OYGA",
+      "ISHONARMIDINGIZ?"
+     ],
+     "at": 0.4
+    }
+   ],
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0",
+   "n": 17,
+   "vo": "vo_17.mp3"
+  }
+ ]
+}

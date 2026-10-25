@@ -1,0 +1,26 @@
+{
+ "hook": "Tutanxamon la'nati rostmi?",
+ "hook_type": "savol (egasi bergan, so'zma-so'z)",
+ "rehooks": [
+  {
+   "scene": 2,
+   "text": "Keling, hujjatlarni tekshiramiz."
+  },
+  {
+   "scene": 6,
+   "text": "Gazetani oling! (muxbir)"
+  },
+  {
+   "scene": 9,
+   "text": "Lekin bitta odam bu hikoyaga umuman to'g'ri kelmaydi."
+  },
+  {
+   "scene": 12,
+   "text": "Endi o'sha odam."
+  }
+ ],
+ "open_loop": "la'nat rostmi + hech kim gapirmaydigan odam kim",
+ "payoff_scene": 15,
+ "final_question": "Sizningcha, bu afsona nega yuz yildan beri yashayapti? Fikringizni izohda yozing.",
+ "question_type": "bahs / fikr"
+}

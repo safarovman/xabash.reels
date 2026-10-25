@@ -1,0 +1,632 @@
+{
+ "title": "Tutanxamon la'nati",
+ "pace": "fast",
+ "music": {
+  "genre": "jazz_swing",
+  "bpm": 112,
+  "key": 2,
+  "scale": "minor",
+  "progression": [
+   0,
+   3,
+   4,
+   0
+  ]
+ },
+ "music_seed": 1922,
+ "music_gain": 0.7,
+ "cover_title": [
+  "TUTANXAMON",
+  "LA'NATI ROSTMI?"
+ ],
+ "cover_sub": "1922 va 1939",
+ "cover_scene": 0,
+ "cover": {
+  "layout": "zoom",
+  "img": "cover.jpg",
+  "props": [
+   "p_g_savol.jpg"
+  ],
+  "badge": "1922",
+  "title_colors": [
+   [
+    245,
+    230,
+    200
+   ],
+   [
+    230,
+    180,
+    70
+   ]
+  ],
+  "accent": [
+   170,
+   40,
+   30
+  ],
+  "accent2": [
+   230,
+   180,
+   70
+  ],
+  "focus": [
+   540,
+   900
+  ],
+  "zoom": 1.5
+ },
+ "anim": "static",
+ "bright": true,
+ "theme": {
+  "font": "rye",
+  "font2": "patrickhand",
+  "accent": [
+   170,
+   40,
+   30
+  ],
+  "accent2": [
+   230,
+   180,
+   70
+  ],
+  "bubble_bg": [
+   245,
+   236,
+   214
+  ],
+  "bubble_line": [
+   90,
+   60,
+   30
+  ],
+  "bubble_ink": [
+   30,
+   22,
+   15
+  ],
+  "bubble_dim": [
+   150,
+   120,
+   80
+  ],
+  "bubble_radius": 10,
+  "transitions": [
+   "flash",
+   "torn",
+   "zoom"
+  ],
+  "cut_fx": "flash"
+ },
+ "end_hold": 1.2,
+ "scenes": [
+  {
+   "speaker": "nar",
+   "text": "Tutanxamon la'nati rostmi?",
+   "tts": "[mysterious] Tutanxamon la'nati rostmi?",
+   "mood": "mystery",
+   "img": "01.jpg",
+   "elements": [
+    {
+     "type": "caption",
+     "words": [
+      "LA'NAT",
+      "ROSTMI?"
+     ],
+     "color": "yellow",
+     "y": 1330,
+     "size": 92,
+     "at": "la'nati"
+    },
+    {
+     "type": "prop",
+     "img": "p_g_savol.jpg",
+     "x": 880,
+     "y": 640,
+     "h": 250,
+     "from": "pop",
+     "motion": "shake",
+     "at": "Tutanxamon"
+    }
+   ],
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0",
+   "n": 1,
+   "vo": "vo_01.mp3"
+  },
+  {
+   "speaker": "nar",
+   "text": "Qabrni ochganlar birin-ketin o'lgan, deyishadi. Keling, hujjatlarni tekshiramiz.",
+   "tts": "[serious] Qabrni ochganlar birin-ketin o'lgan, deyishadi. [pause] Keling, hujjatlarni tekshiramiz.",
+   "mood": "mystery",
+   "img": "01.jpg",
+   "elements": [
+    {
+     "type": "caption",
+     "words": [
+      "HUJJATLARNI",
+      "TEKSHIRAMIZ"
+     ],
+     "color": "white",
+     "y": 1330,
+     "size": 92,
+     "at": "tekshiramiz"
+    },
+    {
+     "type": "prop",
+     "img": "p_g_lupa.jpg",
+     "x": 880,
+     "y": 640,
+     "h": 250,
+     "from": "pop",
+     "motion": "wag",
+     "at": "hujjatlarni"
+    }
+   ],
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0",
+   "n": 2,
+   "vo": "vo_02.mp3"
+  },
+  {
+   "speaker": "nar",
+   "text": "1922-yil noyabr. Misr, Shohlar vodiysi. Qum ostidan zinapoya chiqadi.",
+   "tts": "[warmly] Ming to'qqiz yuz yigirma ikkinchi yil, noyabr. Misr, Shohlar vodiysi. Qum ostidan zinapoya chiqadi.",
+   "mood": "warm",
+   "img": "02.jpg",
+   "imgs": [
+    [
+     "02b.jpg",
+     "zinapoya"
+    ]
+   ],
+   "elements": [
+    {
+     "type": "tag",
+     "head": "YIL",
+     "text": "1922",
+     "x": 540,
+     "y": 210,
+     "color": "royal",
+     "at": "start"
+    },
+    {
+     "type": "mark",
+     "shape": "arrow",
+     "x": 540,
+     "y": 1000,
+     "w": 200,
+     "h": 200,
+     "color": "red",
+     "width": 13,
+     "at": "zinapoya",
+     "to": [
+      540,
+      1250
+     ]
+    }
+   ],
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0",
+   "n": 3,
+   "vo": "vo_03.mp3"
+  },
+  {
+   "speaker": "nar",
+   "text": "Arxeolog Govard Karter teshikdan sham tutadi. Ichkarida oltin yaltiraydi.",
+   "tts": "[whispers] Arxeolog Govard Karter teshikdan sham tutadi. [surprised] Ichkarida oltin yaltiraydi.",
+   "mood": "mystery",
+   "img": "03.jpg",
+   "imgs": [
+    {
+     "img": "03b.jpg",
+     "fx": "flash",
+     "at": "oltin"
+    }
+   ],
+   "elements": [
+    {
+     "type": "prop",
+     "img": "p_g_sham.jpg",
+     "x": 200,
+     "y": 700,
+     "h": 250,
+     "from": "pop",
+     "motion": "pulse",
+     "at": "sham"
+    },
+    {
+     "type": "caption",
+     "words": [
+      "ICHKARIDA",
+      "OLTIN!"
+     ],
+     "color": "yellow",
+     "y": 1330,
+     "size": 92,
+     "at": "oltin"
+    }
+   ],
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0",
+   "n": 4,
+   "vo": "vo_04.mp3"
+  },
+  {
+   "speaker": "ust",
+   "text": "Uning homiysi lord Karnarvon edi. Pulni u bergan, birinchi bo'lib u ham kirgan.",
+   "tts": "[warmly] Uning homiysi lord Karnarvon edi. Pulni u bergan, birinchi bo'lib u ham kirgan.",
+   "mood": "warm",
+   "img": "03.jpg",
+   "elements": [
+    {
+     "type": "bubble",
+     "speaker": "GULBAHOR",
+     "x": 540,
+     "y": 330,
+     "at": "start",
+     "hl": {
+      "Karnarvon": "red"
+     },
+     "tail": "down",
+     "tail_x": 0.75,
+     "tag": "royal",
+     "w": 880
+    },
+    {
+     "type": "char",
+     "img": "c_gulbahor.jpg",
+     "from": "right",
+     "x": 810,
+     "y": 1440,
+     "h": 680,
+     "at": 0.1,
+     "motion": "jump",
+     "talk": [
+      "vo"
+     ],
+     "label": "GULBAHOR",
+     "label_bg": "royal"
+    }
+   ],
+   "voice_id": "rgK9zQmSATbqc0STi5u4",
+   "n": 5,
+   "vo": "vo_05.mp3"
+  },
+  {
+   "speaker": "nar",
+   "text": "Oradan bir necha oy o'tmay, 1923-yil aprelda, lord Qohirada vafot etadi.",
+   "tts": "[sad] Oradan bir necha oy o'tmay, ming to'qqiz yuz yigirma uchinchi yil aprelda, lord Qohirada vafot etadi.",
+   "mood": "sad",
+   "img": "04.jpg",
+   "elements": [
+    {
+     "type": "tag",
+     "head": "YIL",
+     "text": "1923",
+     "x": 540,
+     "y": 210,
+     "color": "royal",
+     "at": "start"
+    },
+    {
+     "type": "caption",
+     "words": [
+      "LORD",
+      "VAFOT ETDI"
+     ],
+     "color": "white",
+     "y": 1330,
+     "size": 92,
+     "at": "vafot"
+    }
+   ],
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0",
+   "n": 6,
+   "vo": "vo_06.mp3"
+  },
+  {
+   "speaker": "muxbir",
+   "text": "Fir'avn la'nati! Qabrga kirganlar birin-ketin o'ladi! Gazetani oling!",
+   "tts": "[excited] Fir'avn la'nati! Qabrga kirganlar birin-ketin o'ladi! Gazetani oling!",
+   "mood": "tense",
+   "img": "05.jpg",
+   "elements": [
+    {
+     "type": "bubble",
+     "speaker": "MUXBIR",
+     "x": 540,
+     "y": 330,
+     "at": "start",
+     "hl": {
+      "la'nati": "red"
+     },
+     "tail": "down",
+     "tail_x": 0.25,
+     "tag": "crimson",
+     "w": 880
+    },
+    {
+     "type": "char",
+     "img": "c_muxbir.jpg",
+     "from": "left",
+     "x": 270,
+     "y": 1440,
+     "h": 680,
+     "at": 0.1,
+     "motion": "shake",
+     "talk": [
+      "vo"
+     ],
+     "label": "MUXBIR",
+     "label_bg": "crimson"
+    },
+    {
+     "type": "prop",
+     "img": "p_g_gazeta.jpg",
+     "x": 860,
+     "y": 700,
+     "h": 250,
+     "from": "pop",
+     "motion": "wag",
+     "at": "Gazetani"
+    }
+   ],
+   "voice_id": "agoC45V78njTIxYzwmSb",
+   "n": 7,
+   "vo": "vo_07.mp3"
+  },
+  {
+   "speaker": "nar",
+   "text": "Gazetalar yana qo'shib yozdi: o'sha kecha Qohiradagi chiroqlar o'chgan ekan.",
+   "tts": "[mysterious] Gazetalar yana qo'shib yozdi: o'sha kecha Qohiradagi chiroqlar o'chgan ekan.",
+   "mood": "mystery",
+   "img": "06.jpg",
+   "imgs": [
+    [
+     "06b.jpg",
+     "o'chgan"
+    ]
+   ],
+   "elements": [
+    {
+     "type": "note",
+     "text": "rivoyat qilishlaricha",
+     "y": 260,
+     "x": 540,
+     "size": 70,
+     "rot": -3,
+     "at": "Gazetalar"
+    }
+   ],
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0",
+   "n": 8,
+   "vo": "vo_08.mp3"
+  },
+  {
+   "speaker": "nar",
+   "text": "Lekin bitta odam bu hikoyaga umuman to'g'ri kelmaydi. Uni hech kim gapirmaydi.",
+   "tts": "[serious] Lekin bitta odam bu hikoyaga umuman to'g'ri kelmaydi. [pause] Uni hech kim gapirmaydi.",
+   "mood": "tense",
+   "img": "03.jpg",
+   "elements": [
+    {
+     "type": "mark",
+     "shape": "circle",
+     "x": 420,
+     "y": 860,
+     "w": 360,
+     "h": 420,
+     "color": "red",
+     "width": 13,
+     "at": "bitta",
+     "label": "KIM U?"
+    },
+    {
+     "type": "prop",
+     "img": "p_g_undov.jpg",
+     "x": 880,
+     "y": 640,
+     "h": 250,
+     "from": "pop",
+     "motion": "shake",
+     "at": "gapirmaydi"
+    }
+   ],
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0",
+   "n": 9,
+   "vo": "vo_09.mp3"
+  },
+  {
+   "speaker": "ust",
+   "text": "Lord kasal bo'lgan sababni ham bilamiz. Soqol olayotib, chivin chaqqan joyni kesib yuborgan.",
+   "tts": "[warmly] Lord kasal bo'lgan sababni ham bilamiz. Soqol olayotib, chivin chaqqan joyni kesib yuborgan.",
+   "mood": "warm",
+   "img": "04b.jpg",
+   "elements": [
+    {
+     "type": "bubble",
+     "speaker": "GULBAHOR",
+     "x": 540,
+     "y": 330,
+     "at": "start",
+     "hl": {
+      "chivin": "red"
+     },
+     "tail": "down",
+     "tail_x": 0.75,
+     "tag": "royal",
+     "w": 880
+    },
+    {
+     "type": "prop",
+     "img": "p_g_chivin.jpg",
+     "x": 850,
+     "y": 1300,
+     "h": 300,
+     "from": "pop",
+     "motion": "jump",
+     "at": "chivin"
+    }
+   ],
+   "voice_id": "rgK9zQmSATbqc0STi5u4",
+   "n": 10,
+   "vo": "vo_10.mp3"
+  },
+  {
+   "speaker": "nar",
+   "text": "Yara yallig'lanib, qon zaharlangan. O'sha davrda antibiotik hali yo'q edi.",
+   "tts": "[serious] Yara yallig'lanib, qon zaharlangan. O'sha davrda antibiotik hali yo'q edi.",
+   "mood": "sad",
+   "img": "04.jpg",
+   "elements": [
+    {
+     "type": "caption",
+     "words": [
+      "ANTIBIOTIK",
+      "HALI YO'Q"
+     ],
+     "color": "white",
+     "y": 1330,
+     "size": 92,
+     "at": "antibiotik"
+    }
+   ],
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0",
+   "n": 11,
+   "vo": "vo_11.mp3"
+  },
+  {
+   "speaker": "nar",
+   "text": "Endi o'sha odam. Qabrni topgan, eng ko'p ichida yurgan Govard Karterning o'zi.",
+   "tts": "[excited] Endi o'sha odam. Qabrni topgan, eng ko'p ichida yurgan Govard Karterning o'zi.",
+   "mood": "groove",
+   "img": "07.jpg",
+   "elements": [
+    {
+     "type": "mark",
+     "shape": "circle",
+     "x": 540,
+     "y": 800,
+     "w": 420,
+     "h": 460,
+     "color": "red",
+     "width": 13,
+     "at": "Karterning",
+     "label": "KARTER"
+    }
+   ],
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0",
+   "n": 12,
+   "vo": "vo_12.mp3"
+  },
+  {
+   "speaker": "nar",
+   "text": "Karter qabrda o'n yilga yaqin ishladi va 1939-yilda, oltmish to'rt yoshida vafot etdi.",
+   "tts": "[surprised] Karter qabrda o'n yilga yaqin ishladi va ming to'qqiz yuz o'ttiz to'qqizinchi yilda, oltmish to'rt yoshida vafot etdi.",
+   "mood": "groove",
+   "img": "07.jpg",
+   "elements": [
+    {
+     "type": "tag",
+     "head": "YIL",
+     "text": "1939",
+     "x": 540,
+     "y": 210,
+     "color": "green",
+     "at": "start"
+    },
+    {
+     "type": "bars",
+     "rows": [
+      [
+       "Qabr ochildi",
+       30,
+       "yellow"
+      ],
+      [
+       "Karter yashadi",
+       100,
+       "green"
+      ]
+     ],
+     "x": 540,
+     "y": 1250,
+     "at": "o'n yilga"
+    }
+   ],
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0",
+   "n": 13,
+   "vo": "vo_13.mp3"
+  },
+  {
+   "speaker": "nar",
+   "text": "2002-yili olim Mark Nelson ro'yxat tuzdi: qabr ochilganda u yerda bo'lgan yigirma besh kishi.",
+   "tts": "[serious] Ikki ming ikkinchi yili olim Mark Nelson ro'yxat tuzdi: qabr ochilganda u yerda bo'lgan yigirma besh kishi.",
+   "mood": "mystery",
+   "img": "08.jpg",
+   "elements": [
+    {
+     "type": "card",
+     "kicker": "BMJ, 2002",
+     "title": [
+      "MARK NELSON"
+     ],
+     "sub": "25 kishi tekshirildi",
+     "at": "Nelson",
+     "y": 1330
+    }
+   ],
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0",
+   "n": 14,
+   "vo": "vo_14.mp3"
+  },
+  {
+   "speaker": "nar",
+   "text": "Natija: ular o'rtacha yetmish yil yashagan. Boshqalardan farqi yo'q. La'nat — gazeta afsonasi.",
+   "tts": "[serious] Natija: ular o'rtacha yetmish yil yashagan. Boshqalardan farqi yo'q. [pause] La'nat — gazeta afsonasi.",
+   "mood": "epic",
+   "img": "09.jpg",
+   "elements": [
+    {
+     "type": "stamp",
+     "text": "AFSONA!",
+     "y": 1350,
+     "rot": -6,
+     "at": "afsonasi"
+    },
+    {
+     "type": "caption",
+     "words": [
+      "O'RTACHA",
+      "70 YIL"
+     ],
+     "color": "white",
+     "y": 1150,
+     "size": 92,
+     "at": "yetmish"
+    }
+   ],
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0",
+   "n": 15,
+   "vo": "vo_15.mp3"
+  },
+  {
+   "speaker": "nar",
+   "text": "Sizningcha, bu afsona nega yuz yildan beri yashayapti? Fikringizni izohda yozing.",
+   "tts": "[warmly] Sizningcha, bu afsona nega yuz yildan beri yashayapti? Fikringizni izohda yozing.",
+   "mood": "finale",
+   "img": "09.jpg",
+   "elements": [
+    {
+     "type": "final",
+     "lines": [
+      "NEGA BU AFSONA",
+      "HALI YASHAYAPTI?"
+     ],
+     "at": 0.4
+    }
+   ],
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0",
+   "n": 16,
+   "vo": "vo_16.mp3"
+  }
+ ]
+}

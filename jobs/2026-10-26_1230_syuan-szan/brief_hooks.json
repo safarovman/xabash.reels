@@ -1,0 +1,26 @@
+{
+ "hook": "Syuan Szan safarida rohib Samarqanddan qanday chiqib ketgan?",
+ "hook_type": "savol (egasi bergan, so'zma-so'z)",
+ "rehooks": [
+  {
+   "scene": 5,
+   "text": "Bu uchrashuv butun safarni hal qiladi."
+  },
+  {
+   "scene": 7,
+   "text": "Faqat podshohimiz sizni yoqtirmaydi."
+  },
+  {
+   "scene": 9,
+   "text": "Hikoya shu yerda burilib ketadi."
+  },
+  {
+   "scene": 12,
+   "text": "Javob — mana shu yo'lda."
+  }
+ ],
+ "open_loop": "Samarqanddan qanday chiqib ketgan",
+ "payoff_scene": 13,
+ "final_question": "Siz bu safarda qaysi shaharni o'z ko'zingiz bilan ko'rishni xohlardingiz? Izohda yozing.",
+ "question_type": "shaxsiy tanlov"
+}

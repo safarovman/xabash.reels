@@ -1,0 +1,48 @@
+{
+ "style_name": "oy nuridagi kyaroskuro moy bo'yoq (indigo, kumush, olov)",
+ "image_prefix": "vertical 9:16, no text, no letters, no logos, moonlit chiaroscuro oil painting, deep indigo and silver tones with warm fire accents, 8th century Sogdiana (Kashkadarya), realistic natural proportions. ",
+ "character_prefix": "vertical 9:16, no text, no letters, no logos, moonlit chiaroscuro oil painting style, single person, half body, realistic natural proportions, isolated on a clean plain white background. ",
+ "prop_prefix": "no text, moonlit oil painting style, single object, isolated on a clean plain white background. ",
+ "theme": {
+  "font": "alfaslabone",
+  "font2": "caveat",
+  "accent": [
+   200,
+   70,
+   50
+  ],
+  "accent2": [
+   210,
+   220,
+   240
+  ],
+  "bubble_bg": [
+   20,
+   26,
+   56
+  ],
+  "bubble_line": [
+   200,
+   210,
+   235
+  ],
+  "bubble_ink": [
+   240,
+   242,
+   250
+  ],
+  "bubble_dim": [
+   120,
+   130,
+   170
+  ],
+  "bubble_radius": 22,
+  "transitions": [
+   "zoom",
+   "slide",
+   "flash"
+  ],
+  "cut_fx": "punch"
+ },
+ "why": "Hikoya tunda, oy va sir atrofida — yorug'-soya kontrasti sirni kuchaytiradi; oxirgi 5 videoda yo'q."
+}

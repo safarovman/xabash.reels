@@ -1,0 +1,600 @@
+{
+ "title": "Syuan Szan Samarqandda",
+ "pace": "fast",
+ "music": {
+  "genre": "doira_folk",
+  "bpm": 100,
+  "key": 5,
+  "scale": "hijaz",
+  "progression": [
+   0,
+   4,
+   5,
+   0
+  ]
+ },
+ "music_seed": 645,
+ "music_gain": 0.7,
+ "cover_title": [
+  "SAMARQANDDAN",
+  "QANDAY CHIQDI?"
+ ],
+ "cover_sub": "Syuan Szan, 629–645",
+ "cover_scene": 0,
+ "cover": {
+  "layout": "split",
+  "img": "cover.jpg",
+  "char": "c_rohib.jpg",
+  "props": [
+   "p_g_xarita.jpg"
+  ],
+  "badge": "629",
+  "title_colors": [
+   [
+    40,
+    30,
+    25
+   ],
+   [
+    190,
+    60,
+    40
+   ]
+  ],
+  "accent": [
+   190,
+   60,
+   40
+  ],
+  "accent2": [
+   60,
+   130,
+   140
+  ]
+ },
+ "anim": "static",
+ "bright": true,
+ "theme": {
+  "font": "titanone",
+  "font2": "fredoka",
+  "accent": [
+   190,
+   60,
+   40
+  ],
+  "accent2": [
+   60,
+   130,
+   140
+  ],
+  "bubble_bg": [
+   250,
+   244,
+   228
+  ],
+  "bubble_line": [
+   60,
+   50,
+   40
+  ],
+  "bubble_ink": [
+   30,
+   26,
+   22
+  ],
+  "bubble_dim": [
+   160,
+   140,
+   110
+  ],
+  "bubble_radius": 26,
+  "transitions": [
+   "slide",
+   "whip",
+   "torn"
+  ],
+  "cut_fx": "whip"
+ },
+ "end_hold": 1.2,
+ "scenes": [
+  {
+   "speaker": "nar",
+   "text": "Syuan Szan safarida rohib Samarqanddan qanday chiqib ketgan?",
+   "tts": "[mysterious] Syuan Szan safarida rohib Samarqanddan qanday chiqib ketgan?",
+   "mood": "mystery",
+   "img": "01.jpg",
+   "elements": [
+    {
+     "type": "caption",
+     "words": [
+      "QANDAY",
+      "CHIQIB KETGAN?"
+     ],
+     "color": "yellow",
+     "y": 1330,
+     "size": 92,
+     "at": "chiqib"
+    },
+    {
+     "type": "prop",
+     "img": "p_g_savol.jpg",
+     "x": 880,
+     "y": 640,
+     "h": 250,
+     "from": "pop",
+     "motion": "shake",
+     "at": "Syuan"
+    }
+   ],
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0",
+   "n": 1,
+   "vo": "vo_01.mp3"
+  },
+  {
+   "speaker": "nar",
+   "text": "629-yil. Xitoyda chegaradan chiqish taqiqlangan. Ruxsatsiz ketgan odam jinoyatchi hisoblanadi.",
+   "tts": "[serious] Olti yuz yigirma to'qqizinchi yil. Xitoyda chegaradan chiqish taqiqlangan. Ruxsatsiz ketgan odam jinoyatchi hisoblanadi.",
+   "mood": "tense",
+   "img": "02.jpg",
+   "elements": [
+    {
+     "type": "tag",
+     "head": "YIL",
+     "text": "629",
+     "x": 540,
+     "y": 210,
+     "color": "royal",
+     "at": "start"
+    },
+    {
+     "type": "caption",
+     "words": [
+      "CHIQISH",
+      "TAQIQLANGAN"
+     ],
+     "color": "white",
+     "y": 1330,
+     "size": 92,
+     "at": "taqiqlangan"
+    }
+   ],
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0",
+   "n": 2,
+   "vo": "vo_02.mp3"
+  },
+  {
+   "speaker": "rohib",
+   "text": "Hindistonga borib, asl kitoblarni o'qishim kerak. Kim to'xtatsa ham, ketaman.",
+   "tts": "[serious] Hindistonga borib, asl kitoblarni o'qishim kerak. [pause] Kim to'xtatsa ham, ketaman.",
+   "mood": "hero",
+   "img": "02.jpg",
+   "elements": [
+    {
+     "type": "bubble",
+     "speaker": "SYUAN SZAN",
+     "x": 540,
+     "y": 330,
+     "at": "start",
+     "hl": {
+      "ketaman": "red"
+     },
+     "tail": "down",
+     "tail_x": 0.75,
+     "tag": "royal",
+     "w": 880
+    },
+    {
+     "type": "char",
+     "img": "c_rohib.jpg",
+     "from": "right",
+     "x": 810,
+     "y": 1440,
+     "h": 680,
+     "at": 0.1,
+     "motion": "jump",
+     "talk": [
+      "vo"
+     ],
+     "label": "SYUAN SZAN",
+     "label_bg": "royal"
+    }
+   ],
+   "voice_id": "RaNVfTYq3HYeFPLng6XN",
+   "n": 3,
+   "vo": "vo_03.mp3"
+  },
+  {
+   "speaker": "nar",
+   "text": "U tunda yashirincha chiqib ketadi. Oldinda Gobi sahrosi va Tyanshan qorlari.",
+   "tts": "U tunda yashirincha chiqib ketadi. Oldinda Gobi sahrosi va Tyanshan qorlari.",
+   "mood": "tense",
+   "img": "03.jpg",
+   "imgs": [
+    [
+     "03b.jpg",
+     "Tyanshan"
+    ]
+   ],
+   "elements": [
+    {
+     "type": "prop",
+     "img": "p_g_xarita.jpg",
+     "x": 860,
+     "y": 640,
+     "h": 250,
+     "from": "pop",
+     "motion": "wag",
+     "at": "Gobi"
+    }
+   ],
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0",
+   "n": 4,
+   "vo": "vo_04.mp3"
+  },
+  {
+   "speaker": "nar",
+   "text": "To'qmoq yaqinida uni G'arbiy turk xoqoni qabul qiladi. Bu uchrashuv butun safarni hal qiladi.",
+   "tts": "[warmly] To'qmoq yaqinida uni G'arbiy turk xoqoni qabul qiladi. [pause] Bu uchrashuv butun safarni hal qiladi.",
+   "mood": "warm",
+   "img": "04.jpg",
+   "elements": [
+    {
+     "type": "mark",
+     "shape": "circle",
+     "x": 540,
+     "y": 760,
+     "w": 420,
+     "h": 420,
+     "color": "red",
+     "width": 13,
+     "at": "xoqoni",
+     "label": "XOQON"
+    },
+    {
+     "type": "prop",
+     "img": "p_g_undov.jpg",
+     "x": 880,
+     "y": 640,
+     "h": 250,
+     "from": "pop",
+     "motion": "shake",
+     "at": "hal qiladi"
+    }
+   ],
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0",
+   "n": 5,
+   "vo": "vo_05.mp3"
+  },
+  {
+   "speaker": "nar",
+   "text": "Keyin Choch, ya'ni Toshkent. Va nihoyat, so'g'dlarning boy shahri — Samarqand.",
+   "tts": "[excited] Keyin Choch, ya'ni Toshkent. Va nihoyat, so'g'dlarning boy shahri — Samarqand.",
+   "mood": "groove",
+   "img": "05.jpg",
+   "elements": [
+    {
+     "type": "tag",
+     "head": "SHAHAR",
+     "text": "SAMARQAND",
+     "x": 540,
+     "y": 210,
+     "color": "crimson",
+     "at": "start"
+    },
+    {
+     "type": "caption",
+     "words": [
+      "SO'G'DLAR",
+      "SHAHRI"
+     ],
+     "color": "yellow",
+     "y": 1330,
+     "size": 92,
+     "at": "Samarqand"
+    }
+   ],
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0",
+   "n": 6,
+   "vo": "vo_06.mp3"
+  },
+  {
+   "speaker": "savdogar",
+   "text": "Xush kelibsiz, mehmon! Ipak kerakmi, shisha kerakmi? Faqat podshohimiz sizni yoqtirmaydi.",
+   "tts": "[laughs] Xush kelibsiz, mehmon! Ipak kerakmi, shisha kerakmi? [whispers] Faqat podshohimiz sizni yoqtirmaydi.",
+   "mood": "groove",
+   "img": "05.jpg",
+   "elements": [
+    {
+     "type": "bubble",
+     "speaker": "SO'G'D SAVDOGARI",
+     "x": 540,
+     "y": 330,
+     "at": "start",
+     "hl": {
+      "yoqtirmaydi": "red"
+     },
+     "tail": "down",
+     "tail_x": 0.25,
+     "tag": "crimson",
+     "w": 880
+    },
+    {
+     "type": "char",
+     "img": "c_savdogar.jpg",
+     "from": "left",
+     "x": 270,
+     "y": 1440,
+     "h": 680,
+     "at": 0.1,
+     "motion": "wag",
+     "talk": [
+      "vo"
+     ],
+     "label": "SO'G'D SAVDOGARI",
+     "label_bg": "crimson"
+    }
+   ],
+   "voice_id": "u20lT5dpbOWoIKz6PpYb",
+   "n": 7,
+   "vo": "vo_07.mp3"
+  },
+  {
+   "speaker": "nar",
+   "text": "Darhaqiqat, Samarqand hukmdori buddizmga sovuq qaragan. Rohibni avvaliga sovuq kutib oladi.",
+   "tts": "[serious] Darhaqiqat, Samarqand hukmdori buddizmga sovuq qaragan. Rohibni avvaliga sovuq kutib oladi.",
+   "mood": "tense",
+   "img": "05b.jpg",
+   "elements": [
+    {
+     "type": "mark",
+     "shape": "cross",
+     "x": 540,
+     "y": 820,
+     "w": 300,
+     "h": 300,
+     "color": "red",
+     "width": 13,
+     "at": "sovuq kutib"
+    }
+   ],
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0",
+   "n": 8,
+   "vo": "vo_08.mp3"
+  },
+  {
+   "speaker": "nar",
+   "text": "Bu yerdan qanday chiqib ketish mumkin? Hikoya shu yerda burilib ketadi.",
+   "tts": "[mysterious] Bu yerdan qanday chiqib ketish mumkin? [pause] Hikoya shu yerda burilib ketadi.",
+   "mood": "mystery",
+   "img": "05b.jpg",
+   "elements": [
+    {
+     "type": "caption",
+     "words": [
+      "HIKOYA",
+      "BURILADI"
+     ],
+     "color": "white",
+     "y": 1330,
+     "size": 92,
+     "at": "burilib"
+    }
+   ],
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0",
+   "n": 9,
+   "vo": "vo_09.mp3"
+  },
+  {
+   "speaker": "nar",
+   "text": "Rohib podshoh bilan suhbat quradi. Manbalarga ko'ra, hukmdorning qahri yumshaydi.",
+   "tts": "[warmly] Rohib podshoh bilan suhbat quradi. Manbalarga ko'ra, hukmdorning qahri yumshaydi.",
+   "mood": "warm",
+   "img": "06.jpg",
+   "elements": [
+    {
+     "type": "prop",
+     "img": "p_g_maktub.jpg",
+     "x": 860,
+     "y": 640,
+     "h": 250,
+     "from": "pop",
+     "motion": "pulse",
+     "at": "suhbat"
+    }
+   ],
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0",
+   "n": 10,
+   "vo": "vo_10.mp3"
+  },
+  {
+   "speaker": "rohib",
+   "text": "Endi janubga yo'l oldim. Oldinda tog'lar orasidagi eng tor yo'l.",
+   "tts": "[serious] Endi janubga yo'l oldim. Oldinda tog'lar orasidagi eng tor yo'l.",
+   "mood": "hero",
+   "img": "07.jpg",
+   "elements": [
+    {
+     "type": "bubble",
+     "speaker": "SYUAN SZAN",
+     "x": 540,
+     "y": 330,
+     "at": "start",
+     "hl": {
+      "janubga": "red"
+     },
+     "tail": "down",
+     "tail_x": 0.75,
+     "tag": "royal",
+     "w": 880
+    },
+    {
+     "type": "char",
+     "img": "c_rohib.jpg",
+     "from": "right",
+     "x": 810,
+     "y": 1440,
+     "h": 680,
+     "at": 0.1,
+     "motion": "jump",
+     "talk": [
+      "vo"
+     ],
+     "label": "SYUAN SZAN",
+     "label_bg": "royal"
+    },
+    {
+     "type": "mark",
+     "shape": "arrow",
+     "x": 540,
+     "y": 1000,
+     "w": 200,
+     "h": 200,
+     "color": "red",
+     "width": 13,
+     "at": "janubga",
+     "to": [
+      540,
+      1250
+     ]
+    }
+   ],
+   "voice_id": "RaNVfTYq3HYeFPLng6XN",
+   "n": 11,
+   "vo": "vo_11.mp3"
+  },
+  {
+   "speaker": "nar",
+   "text": "Javob — mana shu yo'lda. Samarqanddan Kesh orqali janubga, Boysun tog'lari tomon.",
+   "tts": "[serious] Javob — mana shu yo'lda. Samarqanddan Kesh orqali janubga, Boysun tog'lari tomon.",
+   "mood": "tense",
+   "img": "07.jpg",
+   "elements": [
+    {
+     "type": "tag",
+     "head": "YO'L",
+     "text": "KESH - BOYSUN",
+     "x": 540,
+     "y": 210,
+     "color": "green",
+     "at": "start"
+    }
+   ],
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0",
+   "n": 12,
+   "vo": "vo_12.mp3"
+  },
+  {
+   "speaker": "nar",
+   "text": "U «Temir darvoza» degan tor darani kesib o'tadi. Qoyalari temirdek qop-qora.",
+   "tts": "[excited] U Temir darvoza degan tor darani kesib o'tadi. Qoyalari temirdek qop-qora.",
+   "mood": "epic",
+   "img": "08.jpg",
+   "elements": [
+    {
+     "type": "stamp",
+     "text": "TEMIR DARVOZA",
+     "y": 1350,
+     "rot": -6,
+     "at": "Temir"
+    }
+   ],
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0",
+   "n": 13,
+   "vo": "vo_13.mp3"
+  },
+  {
+   "speaker": "nar",
+   "text": "Rohib yozishicha, darada temir qoplangan darvozalar va ko'plab qo'ng'iroqlar osilgan ekan.",
+   "tts": "[surprised] Rohib yozishicha, darada temir qoplangan darvozalar va ko'plab qo'ng'iroqlar osilgan ekan.",
+   "mood": "epic",
+   "img": "08b.jpg",
+   "elements": [
+    {
+     "type": "prop",
+     "img": "p_g_qongiroq.jpg",
+     "x": 860,
+     "y": 640,
+     "h": 250,
+     "from": "pop",
+     "motion": "shake",
+     "at": "qo'ng'iroqlar"
+    },
+    {
+     "type": "mark",
+     "shape": "circle",
+     "x": 540,
+     "y": 900,
+     "w": 460,
+     "h": 520,
+     "color": "red",
+     "width": 13,
+     "at": "darvozalar"
+    }
+   ],
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0",
+   "n": 14,
+   "vo": "vo_14.mp3"
+  },
+  {
+   "speaker": "nar",
+   "text": "Temir darvozadan so'ng Termiz, keyin Hindiston. U 645-yili 657 ta kitob bilan qaytadi.",
+   "tts": "[warmly] Temir darvozadan so'ng Termiz, keyin Hindiston. U olti yuz qirq beshinchi yili, olti yuz ellik yettita kitob bilan qaytadi.",
+   "mood": "hero",
+   "img": "09.jpg",
+   "elements": [
+    {
+     "type": "tag",
+     "head": "YIL",
+     "text": "645",
+     "x": 540,
+     "y": 210,
+     "color": "royal",
+     "at": "start"
+    },
+    {
+     "type": "card",
+     "kicker": "SAFAR NATIJASI",
+     "title": [
+      "657 TA KITOB"
+     ],
+     "sub": "Syuan Szan, 645-yil",
+     "at": "kitob",
+     "y": 1330
+    },
+    {
+     "type": "prop",
+     "img": "p_g_kitob.jpg",
+     "x": 200,
+     "y": 640,
+     "h": 250,
+     "from": "pop",
+     "motion": "jump",
+     "at": "Hindiston"
+    }
+   ],
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0",
+   "n": 15,
+   "vo": "vo_15.mp3"
+  },
+  {
+   "speaker": "nar",
+   "text": "Siz bu safarda qaysi shaharni o'z ko'zingiz bilan ko'rishni xohlardingiz? Izohda yozing.",
+   "tts": "[warmly] Siz bu safarda qaysi shaharni o'z ko'zingiz bilan ko'rishni xohlardingiz? Izohda yozing.",
+   "mood": "finale",
+   "img": "01.jpg",
+   "elements": [
+    {
+     "type": "final",
+     "lines": [
+      "QAYSI SHAHARNI",
+      "KO'RARDINGIZ?"
+     ],
+     "at": 0.4
+    }
+   ],
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0",
+   "n": 16,
+   "vo": "vo_16.mp3"
+  }
+ ]
+}

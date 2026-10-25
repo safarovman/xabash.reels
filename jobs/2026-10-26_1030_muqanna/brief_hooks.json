@@ -1,0 +1,26 @@
+{
+ "hook": "Muqanna Naxshabda quduqdan qanday qilib «oy» chiqargan?",
+ "hook_type": "savol (egasi bergan, so'zma-so'z)",
+ "rehooks": [
+  {
+   "scene": 2,
+   "text": "Qo'ysangiz-chi, bu ertak-ku! (Jasur)"
+  },
+  {
+   "scene": 8,
+   "text": "Va shu yerda hikoya g'alati tus oladi."
+  },
+  {
+   "scene": 10,
+   "text": "Isboti bormi?"
+  },
+  {
+   "scene": 14,
+   "text": "uning sirini o'zi bilan olib ketgan"
+  }
+ ],
+ "open_loop": "quduqdan oy qanday chiqqan",
+ "payoff_scene": 15,
+ "final_question": "Siz o'sha davrda yashaganingizda, quduqdagi oyga ishonarmidingiz? Izohda yozing.",
+ "question_type": "siz bo'lganingizda"
+}

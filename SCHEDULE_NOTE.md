@@ -58,3 +58,6 @@ Avvalgi konteynerdagi rasm/ovoz fayllari yo'qolgan (repo'da yo'q) — kompyuter 
 - Ovozlar (joriy ElevenLabs workspace, flow Qt8Q6Y4AoqOLxuz9B0h4): Hikoyachi UZ; Davronbek agoC45V78njTIxYzwmSb; mirzaev RaNVfTYq3HYeFPLng6XN; Mirzabek2; Shohjahon u20lT5dpbOWoIKz6PpYb; Asilbek fytsqG6MLzC2aCSw7MLa.
 - Flow (ichki brauzer): fillN() JS + Return tugmasi (computer key) ishlaydi, JS click ishlamaydi. Grid virtual: tile pozitsiyasi 4 ustun, qator 325px (collP) bo'yicha kalit topiladi. Konteynerga rembg + pyfluidsynth o'rnatish kerak bo'ldi.
 - 26-okt: 08:00/10:30/12:30 — A (23:00), 14:30 Bobur, 16:30 Emu, 18:30 O'trar.
+
+## 25-okt 23:00 — A ishlayapti (26-okt 08:00/10:30/12:30: tutanxamon, muqanna, syuan-szan)
+- Ssenariy, brieflar, scenes.json, images.json tayyor (jobs/2026-10-26_*). Kompyuter 23:00 da ulanmagan — Flow rasmlari kutilmoqda.

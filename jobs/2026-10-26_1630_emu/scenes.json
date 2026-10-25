@@ -1,0 +1,810 @@
+{
+ "title": "Emu urushi: armiya qushlarga yutqazdi",
+ "pace": "fast",
+ "music": {
+  "genre": "polka",
+  "bpm": 128,
+  "key": 2,
+  "scale": "major",
+  "progression": [
+   0,
+   3,
+   4,
+   0
+  ]
+ },
+ "music_seed": 3211,
+ "music_gain": 0.72,
+ "cover_title": [
+  "QUSHLAR",
+  "ARMIYANI YENGDI?"
+ ],
+ "cover_sub": "Emu urushi, 1932",
+ "cover_scene": 0,
+ "cover": {
+  "layout": "bubble",
+  "img": "cover.jpg",
+  "char": "c_meredit_hayron.jpg",
+  "props": [
+   "p_emu.jpg"
+  ],
+  "badge": "1932",
+  "title_colors": [
+   [
+    40,
+    32,
+    24
+   ],
+   [
+    230,
+    120,
+    40
+   ]
+  ],
+  "accent": [
+   230,
+   120,
+   40
+  ],
+  "accent2": [
+   86,
+   164,
+   214
+  ]
+ },
+ "anim": "static",
+ "bright": true,
+ "theme": {
+  "font": "luckiest",
+  "font2": "chewy",
+  "accent": [
+   230,
+   120,
+   40
+  ],
+  "accent2": [
+   86,
+   164,
+   214
+  ],
+  "bubble_bg": [
+   250,
+   240,
+   214
+  ],
+  "bubble_line": [
+   150,
+   96,
+   40
+  ],
+  "bubble_ink": [
+   40,
+   32,
+   24
+  ],
+  "bubble_dim": [
+   140,
+   124,
+   100
+  ],
+  "transitions": [
+   "whip",
+   "zoom",
+   "slide"
+  ],
+  "cut_fx": "punch",
+  "bubble_radius": 22
+ },
+ "end_hold": 1.2,
+ "scenes": [
+  {
+   "n": 1,
+   "speaker": "b",
+   "text": "Pulemyotli armiya qushlardan yengilgan. Bu — haqiqiy tarix.",
+   "tts": "[dramatic] Pulemyotli armiya qushlardan yengilgan. Bu — haqiqiy tarix.",
+   "mood": "hero",
+   "img": "01.jpg",
+   "elements": [
+    {
+     "type": "mark",
+     "shape": "burst",
+     "x": 820,
+     "y": 700,
+     "w": 340,
+     "at": "qushlardan",
+     "label": "QUSHLARDAN?!"
+    }
+   ],
+   "vo": "vo_01.mp3",
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0"
+  },
+  {
+   "n": 2,
+   "speaker": "b",
+   "text": "Avstraliya, 1932-yil. Bug'doy dalalariga 20 ming emu bostirib keldi.",
+   "tts": "[serious] Avstraliya, ming to'qqiz yuz o'ttiz ikkinchi yil. Bug'doy dalalariga yigirma ming emu bostirib keldi.",
+   "mood": "groove",
+   "img": "02.jpg",
+   "elements": [
+    {
+     "type": "tag",
+     "head": "YIL",
+     "text": "1932",
+     "x": 200,
+     "y": 600,
+     "color": "red",
+     "at": "1932"
+    },
+    {
+     "type": "mark",
+     "shape": "circle",
+     "x": 820,
+     "y": 820,
+     "w": 340,
+     "at": "20 ming",
+     "label": "20 000!"
+    }
+   ],
+   "vo": "vo_02.mp3",
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0"
+  },
+  {
+   "n": 3,
+   "speaker": "f",
+   "text": "Hosilimni yeb, to'siqlarimni buzib ketyapti! Askar yuboringlar!",
+   "tts": "[frustrated] Hosilimni yeb, to'siqlarimni buzib ketyapti! Askar yuboringlar!",
+   "mood": "tense",
+   "img": "03.jpg",
+   "elements": [
+    {
+     "type": "prop",
+     "img": "p_g_ter.jpg",
+     "x": 820,
+     "y": 700,
+     "h": 220,
+     "from": "pop",
+     "motion": "shake",
+     "at": "buzib"
+    },
+    {
+     "type": "bubble",
+     "speaker": "FERMER JIM",
+     "x": 540,
+     "y": 330,
+     "at": "start",
+     "hl": {
+      "Askar yuboringlar": "red"
+     },
+     "tail": "down",
+     "tail_x": 0.75,
+     "tag": "orange",
+     "w": 880
+    },
+    {
+     "type": "char",
+     "img": "c_fermer.jpg",
+     "from": "right",
+     "x": 760,
+     "y": 1440,
+     "h": 680,
+     "at": 0.1,
+     "motion": "shake",
+     "talk": [
+      "vo"
+     ],
+     "label": "FERMER",
+     "label_bg": "orange"
+    }
+   ],
+   "vo": "vo_03.mp3",
+   "voice_id": "RaNVfTYq3HYeFPLng6XN"
+  },
+  {
+   "n": 4,
+   "speaker": "b",
+   "text": "Emu — bo'yi odamdek, soatiga 50 km yuguradigan qush.",
+   "tts": "[curious] Emu — bo'yi odamdek, soatiga ellik kilometr yuguradigan qush.",
+   "mood": "warm",
+   "img": "04.jpg",
+   "elements": [
+    {
+     "type": "mark",
+     "shape": "arrow",
+     "x": 260,
+     "y": 700,
+     "w": 320,
+     "at": "bo'yi",
+     "label": "ODAMDEK!",
+     "to": [
+      470,
+      880
+     ]
+    },
+    {
+     "type": "tag",
+     "head": "TEZLIK",
+     "text": "50 km/s",
+     "x": 840,
+     "y": 600,
+     "color": "red",
+     "at": "50 km"
+    }
+   ],
+   "vo": "vo_04.mp3",
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0",
+   "imgs": [
+    [
+     "04b.jpg",
+     "soatiga"
+    ]
+   ]
+  },
+  {
+   "n": 5,
+   "speaker": "b",
+   "text": "Mudofaa vaziri rozi bo'ldi. Mayor Meredit, 2 askar va 2 ta pulemyot.",
+   "tts": "[serious] Mudofaa vaziri rozi bo'ldi. Mayor Meredit, ikki askar va ikkita pulemyot.",
+   "mood": "groove",
+   "img": "05.jpg",
+   "elements": [
+    {
+     "type": "mark",
+     "shape": "underline",
+     "x": 540,
+     "y": 1060,
+     "w": 460,
+     "at": "2 ta pulemyot",
+     "label": "ATIGI 2 TA!"
+    },
+    {
+     "type": "char",
+     "img": "c_meredit.jpg",
+     "from": "left",
+     "x": 270,
+     "y": 1440,
+     "h": 620,
+     "at": "Mayor",
+     "motion": "bounce",
+     "label": "MAYOR MEREDIT",
+     "label_bg": "green"
+    }
+   ],
+   "vo": "vo_05.mp3",
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0"
+  },
+  {
+   "n": 6,
+   "speaker": "m",
+   "text": "Bir haftada tugatamiz. Qush — bu qush-da!",
+   "tts": "[confident] Bir haftada tugatamiz. Qush — bu qush-da!",
+   "mood": "hero",
+   "img": "05.jpg",
+   "elements": [
+    {
+     "type": "bubble",
+     "speaker": "MAYOR MEREDIT",
+     "x": 540,
+     "y": 330,
+     "at": "start",
+     "hl": {
+      "Bir haftada": "red"
+     },
+     "tail": "down",
+     "tail_x": 0.25,
+     "tag": "green",
+     "w": 880
+    },
+    {
+     "type": "char",
+     "img": "c_meredit.jpg",
+     "from": "left",
+     "x": 270,
+     "y": 1440,
+     "h": 680,
+     "at": 0.1,
+     "motion": "jump",
+     "talk": [
+      "vo"
+     ],
+     "label": "MAYOR",
+     "label_bg": "green"
+    }
+   ],
+   "vo": "vo_06.mp3",
+   "voice_id": "agoC45V78njTIxYzwmSb"
+  },
+  {
+   "n": 7,
+   "speaker": "b",
+   "text": "2-noyabr. 50 ta emu ko'rindi. Birinchi o'q — hammasi mo'ljaldan tashqari.",
+   "tts": "[playful] Ikkinchi noyabr. Ellikta emu ko'rindi. Birinchi o'q — hammasi mo'ljaldan tashqari.",
+   "mood": "groove",
+   "img": "07.jpg",
+   "elements": [
+    {
+     "type": "prop",
+     "img": "p_g_oq.jpg",
+     "x": 820,
+     "y": 720,
+     "h": 260,
+     "from": "pop",
+     "motion": "shake",
+     "at": "Birinchi"
+    },
+    {
+     "type": "mark",
+     "shape": "cross",
+     "x": 260,
+     "y": 820,
+     "w": 280,
+     "at": "mo'ljaldan",
+     "label": "MO'LJAL: 0"
+    }
+   ],
+   "vo": "vo_07.mp3",
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0",
+   "imgs": [
+    [
+     "07b.jpg",
+     "Birinchi"
+    ]
+   ]
+  },
+  {
+   "n": 8,
+   "speaker": "b",
+   "text": "Lekin eng kulgilisi 4-noyabrda bo'ldi.",
+   "tts": "[mysterious] Lekin eng kulgilisi to'rtinchi noyabrda bo'ldi.",
+   "mood": "mystery",
+   "img": "08.jpg",
+   "elements": [
+    {
+     "type": "tag",
+     "head": "SANA",
+     "text": "4-NOYABR",
+     "x": 200,
+     "y": 600,
+     "color": "red",
+     "at": "4-noyabrda"
+    }
+   ],
+   "vo": "vo_08.mp3",
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0"
+  },
+  {
+   "n": 9,
+   "speaker": "b",
+   "text": "1000 dan ortiq emu to'g'onga kelyapti. Pistirma tayyor. O't oching!",
+   "tts": "[tense] Mingdan ortiq emu to'g'onga kelyapti. Pistirma tayyor. O't oching!",
+   "mood": "tense",
+   "img": "09.jpg",
+   "elements": [
+    {
+     "type": "mark",
+     "shape": "burst",
+     "x": 820,
+     "y": 700,
+     "w": 340,
+     "at": "1000",
+     "label": "1000+ EMU!"
+    }
+   ],
+   "vo": "vo_09.mp3",
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0"
+  },
+  {
+   "n": 10,
+   "speaker": "b",
+   "text": "12 ta qushdan keyin pulemyot tiqilib qoldi. Qolganlari tarqab ketdi.",
+   "tts": "[laughs] O'n ikkita qushdan keyin pulemyot tiqilib qoldi. Qolganlari tarqab ketdi.",
+   "mood": "sad",
+   "img": "10.jpg",
+   "elements": [
+    {
+     "type": "mark",
+     "shape": "cross",
+     "x": 820,
+     "y": 760,
+     "w": 300,
+     "at": "tiqilib",
+     "label": "TIQILDI!"
+    },
+    {
+     "type": "prop",
+     "img": "p_g_ter.jpg",
+     "x": 250,
+     "y": 700,
+     "h": 220,
+     "from": "pop",
+     "motion": "shake",
+     "at": "tarqab"
+    }
+   ],
+   "vo": "vo_10.mp3",
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0",
+   "imgs": [
+    [
+     "10b.jpg",
+     "Qolganlari"
+    ]
+   ]
+  },
+  {
+   "n": 11,
+   "speaker": "m",
+   "text": "Pulemyotni yuk mashinasiga o'rnating! Quvib yetamiz!",
+   "tts": "[annoyed] Pulemyotni yuk mashinasiga o'rnating! Quvib yetamiz!",
+   "mood": "hero",
+   "img": "11.jpg",
+   "elements": [
+    {
+     "type": "bubble",
+     "speaker": "MAYOR MEREDIT",
+     "x": 540,
+     "y": 330,
+     "at": "start",
+     "hl": {
+      "yuk mashinasiga": "red"
+     },
+     "tail": "down",
+     "tail_x": 0.25,
+     "tag": "green",
+     "w": 880
+    },
+    {
+     "type": "char",
+     "img": "c_meredit_angry.jpg",
+     "from": "left",
+     "x": 270,
+     "y": 1440,
+     "h": 680,
+     "at": 0.1,
+     "motion": "shake",
+     "talk": [
+      "vo"
+     ],
+     "label": "MAYOR",
+     "label_bg": "green"
+    }
+   ],
+   "vo": "vo_11.mp3",
+   "voice_id": "agoC45V78njTIxYzwmSb"
+  },
+  {
+   "n": 12,
+   "speaker": "b",
+   "text": "Mashina emuga yetolmadi. Silkinishda esa bitta o'q ham tegmadi.",
+   "tts": "[playful] Mashina emuga yetolmadi. Silkinishda esa bitta o'q ham tegmadi.",
+   "mood": "groove",
+   "img": "12.jpg",
+   "elements": [
+    {
+     "type": "mark",
+     "shape": "cross",
+     "x": 820,
+     "y": 760,
+     "w": 300,
+     "at": "yetolmadi",
+     "label": "YETOLMADI"
+    },
+    {
+     "type": "mark",
+     "shape": "circle",
+     "x": 250,
+     "y": 860,
+     "w": 260,
+     "at": "bitta o'q",
+     "label": "0 TA!"
+    }
+   ],
+   "vo": "vo_12.mp3",
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0",
+   "imgs": [
+    [
+     "12b.jpg",
+     "Silkinishda"
+    ]
+   ]
+  },
+  {
+   "n": 13,
+   "speaker": "b",
+   "text": "Emular ham aqlli chiqdi: kichik guruhlarga bo'linib, har biriga qorovul qo'ydi.",
+   "tts": "[serious] Emular ham aqlli chiqdi: kichik guruhlarga bo'linib, har biriga qorovul qo'ydi.",
+   "mood": "mystery",
+   "img": "13.jpg",
+   "elements": [
+    {
+     "type": "prop",
+     "img": "p_g_lampochka.jpg",
+     "x": 820,
+     "y": 680,
+     "h": 260,
+     "from": "pop",
+     "motion": "pulse",
+     "at": "aqlli"
+    },
+    {
+     "type": "mark",
+     "shape": "box",
+     "x": 260,
+     "y": 860,
+     "w": 300,
+     "at": "qorovul",
+     "label": "QOROVUL",
+     "h": 220
+    }
+   ],
+   "vo": "vo_13.mp3",
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0"
+  },
+  {
+   "n": 14,
+   "speaker": "m",
+   "text": "Ular pulemyotga tankdek bardosh beradi!",
+   "tts": "[impressed] Ular pulemyotga tankdek bardosh beradi!",
+   "mood": "warm",
+   "img": "13.jpg",
+   "elements": [
+    {
+     "type": "mark",
+     "shape": "burst",
+     "x": 820,
+     "y": 700,
+     "w": 340,
+     "at": "tankdek",
+     "label": "TANKDEK!"
+    },
+    {
+     "type": "bubble",
+     "speaker": "MAYOR MEREDIT",
+     "x": 540,
+     "y": 330,
+     "at": "start",
+     "hl": {
+      "tankdek": "red"
+     },
+     "tail": "down",
+     "tail_x": 0.25,
+     "tag": "green",
+     "w": 880
+    },
+    {
+     "type": "char",
+     "img": "c_meredit_hayron.jpg",
+     "from": "left",
+     "x": 270,
+     "y": 1440,
+     "h": 680,
+     "at": 0.1,
+     "motion": "wag",
+     "talk": [
+      "vo"
+     ],
+     "label": "MAYOR",
+     "label_bg": "green"
+    }
+   ],
+   "vo": "vo_14.mp3",
+   "voice_id": "agoC45V78njTIxYzwmSb"
+  },
+  {
+   "n": 15,
+   "speaker": "b",
+   "text": "Gazetalar kuldi. 8-noyabr: armiya chaqirib olindi.",
+   "tts": "[serious] Gazetalar kuldi. Sakkizinchi noyabr: armiya chaqirib olindi.",
+   "mood": "groove",
+   "img": "15.jpg",
+   "elements": [
+    {
+     "type": "prop",
+     "img": "p_g_gazeta.jpg",
+     "x": 820,
+     "y": 700,
+     "h": 300,
+     "from": "pop",
+     "motion": "jump",
+     "at": "Gazetalar"
+    },
+    {
+     "type": "stamp",
+     "text": "YENGILDI!",
+     "y": 1000,
+     "rot": -8,
+     "at": "chaqirib"
+    }
+   ],
+   "vo": "vo_15.mp3",
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0"
+  },
+  {
+   "n": 16,
+   "speaker": "f",
+   "text": "Emular qaytib keldi! Yana yordam kerak!",
+   "tts": "[desperate] Emular qaytib keldi! Yana yordam kerak!",
+   "mood": "tense",
+   "img": "16.jpg",
+   "elements": [
+    {
+     "type": "bubble",
+     "speaker": "FERMER JIM",
+     "x": 540,
+     "y": 330,
+     "at": "start",
+     "hl": {
+      "qaytib keldi": "red"
+     },
+     "tail": "down",
+     "tail_x": 0.75,
+     "tag": "orange",
+     "w": 880
+    },
+    {
+     "type": "char",
+     "img": "c_fermer_sad.jpg",
+     "from": "right",
+     "x": 760,
+     "y": 1440,
+     "h": 680,
+     "at": 0.1,
+     "motion": "shake",
+     "talk": [
+      "vo"
+     ],
+     "label": "FERMER",
+     "label_bg": "orange"
+    }
+   ],
+   "vo": "vo_16.mp3",
+   "voice_id": "RaNVfTYq3HYeFPLng6XN"
+  },
+  {
+   "n": 17,
+   "speaker": "b",
+   "text": "Mayor qaytdi. Ikkinchi «urush» bir oy davom etdi.",
+   "tts": "[dramatic] Mayor qaytdi. Ikkinchi urush bir oy davom etdi.",
+   "mood": "hero",
+   "img": "17.jpg",
+   "elements": [
+    {
+     "type": "tag",
+     "head": "MUDDAT",
+     "text": "1 OY",
+     "x": 200,
+     "y": 600,
+     "color": "red",
+     "at": "bir oy"
+    },
+    {
+     "type": "char",
+     "img": "c_meredit_angry.jpg",
+     "from": "left",
+     "x": 270,
+     "y": 1440,
+     "h": 620,
+     "at": "Mayor",
+     "motion": "bounce",
+     "label": "MAYOR MEREDIT",
+     "label_bg": "green"
+    }
+   ],
+   "vo": "vo_17.mp3",
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0"
+  },
+  {
+   "n": 18,
+   "speaker": "b",
+   "text": "Natija? 9 860 ta o'q otildi. Har bir emuga — 10 ta o'q.",
+   "tts": "[serious] Natija? To'qqiz ming sakkiz yuz oltmish o'q otildi. Har bir emuga — o'nta o'q.",
+   "mood": "groove",
+   "img": "18.jpg",
+   "elements": [
+    {
+     "type": "mark",
+     "shape": "circle",
+     "x": 540,
+     "y": 820,
+     "w": 500,
+     "at": "9 860",
+     "label": "9 860 O'Q!"
+    },
+    {
+     "type": "mark",
+     "shape": "underline",
+     "x": 540,
+     "y": 1080,
+     "w": 440,
+     "at": "10 ta",
+     "label": "1 EMU = 10 O'Q"
+    }
+   ],
+   "vo": "vo_18.mp3",
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0"
+  },
+  {
+   "n": 19,
+   "speaker": "b",
+   "text": "Emular esa deyarli kamaymadi. Dalada hamon ular xo'jayin edi.",
+   "tts": "[playful] Emular esa deyarli kamaymadi. Dalada hamon ular xo'jayin edi.",
+   "mood": "warm",
+   "img": "19.jpg",
+   "elements": [
+    {
+     "type": "prop",
+     "img": "p_g_oq_bayroq.jpg",
+     "x": 820,
+     "y": 720,
+     "h": 300,
+     "from": "pop",
+     "motion": "wag",
+     "at": "xo'jayin"
+    },
+    {
+     "type": "char",
+     "img": "c_meredit_hayron.jpg",
+     "from": "left",
+     "x": 270,
+     "y": 1440,
+     "h": 620,
+     "at": "kamaymadi",
+     "motion": "bounce",
+     "label": "MAYOR MEREDIT",
+     "label_bg": "green"
+    }
+   ],
+   "vo": "vo_19.mp3",
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0"
+  },
+  {
+   "n": 20,
+   "speaker": "b",
+   "text": "Fermerlar yana 3 marta askar so'radi. Armiya har safar rad etdi.",
+   "tts": "[warmly] Fermerlar yana uch marta askar so'radi. Armiya har safar rad etdi.",
+   "mood": "hero",
+   "img": "20.jpg",
+   "elements": [
+    {
+     "type": "mark",
+     "shape": "cross",
+     "x": 820,
+     "y": 800,
+     "w": 300,
+     "at": "rad etdi",
+     "label": "RAD!"
+    }
+   ],
+   "vo": "vo_20.mp3",
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0"
+  },
+  {
+   "n": 21,
+   "speaker": "b",
+   "text": "Siz fermer bo'lganingizda emulardan qanday qutulardingiz? Eng aqlli g'oyani izohda yozing!",
+   "tts": "[curious] Siz fermer bo'lganingizda emulardan qanday qutulardingiz? Eng aqlli g'oyani izohda yozing!",
+   "mood": "finale",
+   "img": "21.jpg",
+   "elements": [
+    {
+     "type": "prop",
+     "img": "p_g_lampochka.jpg",
+     "x": 820,
+     "y": 700,
+     "h": 260,
+     "from": "pop",
+     "motion": "pulse",
+     "at": "g'oyani"
+    },
+    {
+     "type": "final",
+     "lines": [
+      "SIZ NIMA",
+      "QILARDINGIZ?"
+     ],
+     "at": "qanday"
+    }
+   ],
+   "vo": "vo_21.mp3",
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0"
+  }
+ ]
+}

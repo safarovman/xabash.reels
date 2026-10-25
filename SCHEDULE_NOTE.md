@@ -45,3 +45,8 @@ Avvalgi konteynerdagi rasm/ovoz fayllari yo'qolgan (repo'da yo'q) — kompyuter 
 ## 25-okt 14:45 (Toshkent) — kechikkan routine run (trig_01QZiexB…)
 - 26-okt 08:00/10:30/12:30 (Tutanxamon/Muqanna/Syuan Szan) — A sessiyasida egasi tasdiqlagan, ishlab chiqarish 25-okt 23:00. Bu run ularga tegmadi (dublikat yo'q).
 - Buffer: 26-okt uchun hali post yo'q. 14:30/18:30/21:00 uchun mavzu/job yo'q (B 22-okt dan beri faol emas) — egasidan so'raldi.
+
+## 25-okt 17:30 — B (egasi so'rovi, sessiya 01VveGvQ)
+- Buffer: 25-okt 16:30 Pompey (6adde77a, SENT), 25-okt 18:30 Ibn Sino (6addef87), 26-okt 14:30 Bobur (6addf60e) — hammasi automatic, reel, QA o'tdi.
+- ElevenLabs workspace o'zgargan (94c07…): flow Qt8Q6Y4AoqOLxuz9B0h4; ovozlar: Hikoyachi UZ sMpnELN3fdB8ZVjj6xa0, Ustoz ayol UZ rgK9zQmSATbqc0STi5u4, Bobo UZ eD0k57hUAx0oDuThLFT9, Mirzabek2 GcnlXfqDudh5dSQpZVll. Bekzod/Dilnoza/Sardor bu akkauntda YO'Q. To'liq video transkripsiya (QA) ~600 kredit.
+- Flow: ichki brauzer (Claude_Browser) — eval Trusted Types bilan bloklangan, fast_flow.js funksiyalarini to'g'ridan javascript_tool ga yozish kerak; grid virtual — tile pozitsiyasi (3 ustun, qator 293.5px) bo'yicha kalit topiladi. Media push: blob:none fetch + commit-tree (/tmp/push_media.sh usuli).

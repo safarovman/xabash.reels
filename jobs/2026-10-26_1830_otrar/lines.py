@@ -1,0 +1,25 @@
+# b=hikoyachi, g=O'trar hokimi G'oyirxon (Mirzabek2), s=Xorazmshoh Muhammad (Shohjahon), t=tuyakash (Asilbek)
+B='sMpnELN3fdB8ZVjj6xa0'; G='GcnlXfqDudh5dSQpZVll'; S='u20lT5dpbOWoIKz6PpYb'; T='fytsqG6MLzC2aCSw7MLa'
+L=[
+(B,"[dramatic] To'rt yuz ellik savdogar o'ldirildi — va butun bir saltanat quladi.","450 savdogar o'ldirildi — va butun bir saltanat quladi.","b"),
+(B,"[serious] Ming ikki yuz o'n sakkizinchi yil. Sirdaryo bo'yidagi O'trar shahri.","1218-yil. Sirdaryo bo'yidagi O'trar shahri.","b"),
+(B,"[curious] Sharqdan katta karvon keldi: oltin, kumush, ipak va qimmatbaho mo'ynalar.","Sharqdan katta karvon keldi: oltin, kumush, ipak va qimmatbaho mo'ynalar.","b"),
+(B,"[mysterious] Karvonni mo'g'ullar xoni yuborgandi — savdo qilish uchun.","Karvonni mo'g'ullar xoni yuborgandi — savdo qilish uchun.","b"),
+(G,"[suspicious] Bular savdogar emas — josuslar! Hammasini qamang!","Bular savdogar emas — josuslar! Hammasini qamang!","g"),
+(B,"[serious] Bu — O'trar hokimi G'oyirxon. U Xorazmshohning onasi Turkon xotunning jiyani edi.","Bu — O'trar hokimi G'oyirxon. U Xorazmshohning onasi Turkon xotunning jiyani edi.","b"),
+(B,"[tense] Savdogarlar o'ldirildi, mollari esa hokimga qoldi.","Savdogarlar o'ldirildi, mollari esa hokimga qoldi.","b"),
+(B,"[mysterious] Ammo bitta odam qochib qutuldi.","Ammo bitta odam qochib qutuldi.","b"),
+(T,"[breathless] Men tuyakashman! Hammasini o'z ko'zim bilan ko'rdim!","Men tuyakashman! Hammasini o'z ko'zim bilan ko'rdim!","t"),
+(B,"[serious] U uzoq sharqqa yetib borib, voqeani aytib berdi. Endi navbat — javobda.","U uzoq sharqqa yetib borib, voqeani aytib berdi. Endi navbat — javobda.","b"),
+(B,"[tense] Mo'g'ullar urush emas, uchta elchi yubordi. Talab — aybdorni topshirish.","Mo'g'ullar urush emas, 3 ta elchi yubordi. Talab — aybdorni topshirish.","b"),
+(S,"[proud] Mening hokimimni hech kimga bermayman!","Mening hokimimni hech kimga bermayman!","s"),
+(B,"[serious] Xorazmshoh Muhammad bitta elchini qatl ettirdi, ikkitasining soqolini oldirdi.","Xorazmshoh Muhammad bitta elchini qatl ettirdi, ikkitasining soqolini oldirdi.","b"),
+(B,"[dramatic] Elchiga tegish — mo'g'ullar uchun eng katta haqorat edi.","Elchiga tegish — mo'g'ullar uchun eng katta haqorat edi.","b"),
+(B,"[tense] Ming ikki yuz o'n to'qqizinchi yil kuzi. Mo'g'ul qo'shini Sirdaryoga yetib keldi.","1219-yil kuzi. Mo'g'ul qo'shini Sirdaryoga yetib keldi.","b"),
+(G,"[defiant] Darvozalarni yoping! O'trar taslim bo'lmaydi!","Darvozalarni yoping! O'trar taslim bo'lmaydi!","g"),
+(B,"[serious] Shahar besh oy qamalda turdi. So'ng ichkaridan darvoza ochildi.","Shahar 5 oy qamalda turdi. So'ng ichkaridan darvoza ochildi.","b"),
+(B,"[mysterious] G'oyirxon tirik qo'lga olindi. Rivoyat qilishlaricha, ko'ziga eritilgan kumush quyilgan.","G'oyirxon tirik qo'lga olindi. Rivoyat qilishlaricha, ko'ziga eritilgan kumush quyilgan.","b"),
+(B,"[sad] O'trardan keyin Buxoro, Samarqand va Urganch ham quladi.","O'trardan keyin Buxoro, Samarqand va Urganch ham quladi.","b"),
+(B,"[dramatic] Bitta hokimning ochko'zligi — va Xorazmshohlar saltanati bir necha yilda yo'q bo'ldi.","Bitta hokimning ochko'zligi — va Xorazmshohlar saltanati bir necha yilda yo'q bo'ldi.","b"),
+(B,"[curious] Sizningcha, bu fojiaga kim ko'proq aybdor — hokimmi yoki shohmi? Fikringizni yozing.","Sizningcha, bu fojiaga kim ko'proq aybdor — hokimmi yoki shohmi? Fikringizni yozing.","b"),
+]

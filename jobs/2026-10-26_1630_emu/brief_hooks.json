@@ -1,0 +1,30 @@
+{
+ "hook": "Pulemyotli armiya qushlardan yengilgan. Bu — haqiqiy tarix.",
+ "hook_type": "ziddiyat / kutilmagan fakt (savol emas — oxirgi 4 video savol bilan boshlangan)",
+ "rehooks": [
+  {
+   "scene": 8,
+   "text": "Lekin eng kulgilisi 4-noyabrda bo'ldi.",
+   "t_est": 33
+  },
+  {
+   "scene": 10,
+   "text": "pulemyot tiqilib qoldi (vizual burilish)",
+   "t_est": 42
+  },
+  {
+   "scene": 14,
+   "text": "Ular pulemyotga tankdek bardosh beradi!",
+   "t_est": 58
+  },
+  {
+   "scene": 16,
+   "text": "Emular qaytib keldi!",
+   "t_est": 66
+  }
+ ],
+ "open_loop": "Armiya qanday qilib qushlarga yutqazdi — yakuniy hisob (9 860 o'q, emular kamaymadi) oxirida.",
+ "payoff_scene": 18,
+ "final_question": "Siz fermer bo'lganingizda emulardan qanday qutulardingiz? Eng aqlli g'oyani izohda yozing!",
+ "question_type": "siz bo'lganingizda"
+}

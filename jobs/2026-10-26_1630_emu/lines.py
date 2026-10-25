@@ -1,0 +1,25 @@
+# b=hikoyachi (Hikoyachi UZ), m=mayor Meredit (Davronbek), f=fermer Jim (mirzaev)
+B='sMpnELN3fdB8ZVjj6xa0'; M='agoC45V78njTIxYzwmSb'; F='RaNVfTYq3HYeFPLng6XN'
+L=[
+(B,"[dramatic] Pulemyotli armiya qushlardan yengilgan. Bu — haqiqiy tarix.","Pulemyotli armiya qushlardan yengilgan. Bu — haqiqiy tarix.","b"),
+(B,"[serious] Avstraliya, ming to'qqiz yuz o'ttiz ikkinchi yil. Bug'doy dalalariga yigirma ming emu bostirib keldi.","Avstraliya, 1932-yil. Bug'doy dalalariga 20 ming emu bostirib keldi.","b"),
+(F,"[frustrated] Hosilimni yeb, to'siqlarimni buzib ketyapti! Askar yuboringlar!","Hosilimni yeb, to'siqlarimni buzib ketyapti! Askar yuboringlar!","f"),
+(B,"[curious] Emu — bo'yi odamdek, soatiga ellik kilometr yuguradigan qush.","Emu — bo'yi odamdek, soatiga 50 km yuguradigan qush.","b"),
+(B,"[serious] Mudofaa vaziri rozi bo'ldi. Mayor Meredit, ikki askar va ikkita pulemyot.","Mudofaa vaziri rozi bo'ldi. Mayor Meredit, 2 askar va 2 ta pulemyot.","b"),
+(M,"[confident] Bir haftada tugatamiz. Qush — bu qush-da!","Bir haftada tugatamiz. Qush — bu qush-da!","m"),
+(B,"[playful] Ikkinchi noyabr. Ellikta emu ko'rindi. Birinchi o'q — hammasi mo'ljaldan tashqari.","2-noyabr. 50 ta emu ko'rindi. Birinchi o'q — hammasi mo'ljaldan tashqari.","b"),
+(B,"[mysterious] Lekin eng kulgilisi to'rtinchi noyabrda bo'ldi.","Lekin eng kulgilisi 4-noyabrda bo'ldi.","b"),
+(B,"[tense] Mingdan ortiq emu to'g'onga kelyapti. Pistirma tayyor. O't oching!","1000 dan ortiq emu to'g'onga kelyapti. Pistirma tayyor. O't oching!","b"),
+(B,"[laughs] O'n ikkita qushdan keyin pulemyot tiqilib qoldi. Qolganlari tarqab ketdi.","12 ta qushdan keyin pulemyot tiqilib qoldi. Qolganlari tarqab ketdi.","b"),
+(M,"[annoyed] Pulemyotni yuk mashinasiga o'rnating! Quvib yetamiz!","Pulemyotni yuk mashinasiga o'rnating! Quvib yetamiz!","m"),
+(B,"[playful] Mashina emuga yetolmadi. Silkinishda esa bitta o'q ham tegmadi.","Mashina emuga yetolmadi. Silkinishda esa bitta o'q ham tegmadi.","b"),
+(B,"[serious] Emular ham aqlli chiqdi: kichik guruhlarga bo'linib, har biriga qorovul qo'ydi.","Emular ham aqlli chiqdi: kichik guruhlarga bo'linib, har biriga qorovul qo'ydi.","b"),
+(M,"[impressed] Ular pulemyotga tankdek bardosh beradi!","Ular pulemyotga tankdek bardosh beradi!","m"),
+(B,"[serious] Gazetalar kuldi. Sakkizinchi noyabr: armiya chaqirib olindi.","Gazetalar kuldi. 8-noyabr: armiya chaqirib olindi.","b"),
+(F,"[desperate] Emular qaytib keldi! Yana yordam kerak!","Emular qaytib keldi! Yana yordam kerak!","f"),
+(B,"[dramatic] Mayor qaytdi. Ikkinchi urush bir oy davom etdi.","Mayor qaytdi. Ikkinchi «urush» bir oy davom etdi.","b"),
+(B,"[serious] Natija? To'qqiz ming sakkiz yuz oltmish o'q otildi. Har bir emuga — o'nta o'q.","Natija? 9 860 ta o'q otildi. Har bir emuga — 10 ta o'q.","b"),
+(B,"[playful] Emular esa deyarli kamaymadi. Dalada hamon ular xo'jayin edi.","Emular esa deyarli kamaymadi. Dalada hamon ular xo'jayin edi.","b"),
+(B,"[warmly] Fermerlar yana uch marta askar so'radi. Armiya har safar rad etdi.","Fermerlar yana 3 marta askar so'radi. Armiya har safar rad etdi.","b"),
+(B,"[curious] Siz fermer bo'lganingizda emulardan qanday qutulardingiz? Eng aqlli g'oyani izohda yozing!","Siz fermer bo'lganingizda emulardan qanday qutulardingiz? Eng aqlli g'oyani izohda yozing!","b"),
+]

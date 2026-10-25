@@ -1,0 +1,30 @@
+{
+ "hook": "450 savdogar o'ldirildi — va butun bir saltanat quladi.",
+ "hook_type": "raqamli va'da + natijadan boshlash",
+ "rehooks": [
+  {
+   "scene": 8,
+   "text": "Ammo bitta odam qochib qutuldi.",
+   "t_est": 30
+  },
+  {
+   "scene": 10,
+   "text": "Endi navbat — javobda.",
+   "t_est": 40
+  },
+  {
+   "scene": 14,
+   "text": "Elchiga tegish — eng katta haqorat",
+   "t_est": 55
+  },
+  {
+   "scene": 17,
+   "text": "So'ng ichkaridan darvoza ochildi.",
+   "t_est": 68
+  }
+ ],
+ "open_loop": "Savdogarlar o'limi saltanatni qanday qulatdi — zanjir oxirida yopiladi (O'trar → Buxoro, Samarqand, Urganch → saltanat yo'q bo'ldi).",
+ "payoff_scene": 20,
+ "final_question": "Sizningcha, bu fojiaga kim ko'proq aybdor — hokimmi yoki shohmi? Fikringizni yozing.",
+ "question_type": "bahs (manbalar ham kelishmaydi: an-Nasaviy — hokim, boshqalar — shoh)"
+}

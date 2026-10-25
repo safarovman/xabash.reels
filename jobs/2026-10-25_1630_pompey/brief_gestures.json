@@ -1,0 +1,300 @@
+{
+ "flow_prompts": [],
+ "note": "Yangi Flow rasmlari yo'q — faqat images.json dagi p_g_* (savol, undov, soat, termometr, tanga, xat) + dvigatel mark/tag. color [240,140,40] = accent2; qolganlari default qizil. Belgilar pastki 1/3 dagi pufakchadan yuqorida (y<1300).",
+ "elements": {
+  "1": [
+   {
+    "type": "prop",
+    "img": "p_g_savol.jpg",
+    "x": 860,
+    "y": 420,
+    "h": 300,
+    "from": "pop",
+    "motion": "wag",
+    "at": "nega"
+   }
+  ],
+  "2": [
+   {
+    "type": "mark",
+    "shape": "cross",
+    "x": 540,
+    "y": 900,
+    "w": 300,
+    "at": "lava",
+    "label": "LAVA EMAS!"
+   }
+  ],
+  "3": [
+   {
+    "type": "prop",
+    "img": "p_g_savol.jpg",
+    "x": 820,
+    "y": 520,
+    "h": 280,
+    "from": "pop",
+    "motion": "pulse",
+    "at": "nima o'ldirgan"
+   }
+  ],
+  "4": [
+   {
+    "type": "tag",
+    "head": "MILODIY",
+    "text": "79",
+    "y": 220,
+    "at": "Milodiy"
+   },
+   {
+    "type": "mark",
+    "shape": "box",
+    "x": 540,
+    "y": 1000,
+    "w": 640,
+    "h": 200,
+    "at": "20 ming",
+    "label": "20 000 KISHI"
+   }
+  ],
+  "5": [
+   {
+    "type": "prop",
+    "img": "p_g_soat.jpg",
+    "x": 820,
+    "y": 560,
+    "h": 360,
+    "from": "pop",
+    "motion": "shake",
+    "at": "bitta soat"
+   }
+  ],
+  "6": [
+   {
+    "type": "mark",
+    "shape": "arrow",
+    "x": 300,
+    "y": 1300,
+    "to": [
+     540,
+     420
+    ],
+    "at": "tutun",
+    "color": [
+     240,
+     140,
+     40
+    ],
+    "label": "14 KM!"
+   }
+  ],
+  "7": [
+   {
+    "type": "prop",
+    "img": "p_g_undov.jpg",
+    "x": 860,
+    "y": 380,
+    "h": 300,
+    "from": "pop",
+    "motion": "jump",
+    "at": "ulkan bulut"
+   }
+  ],
+  "8": [
+   {
+    "type": "prop",
+    "img": "p_g_xat.jpg",
+    "x": 800,
+    "y": 620,
+    "h": 360,
+    "from": "pop",
+    "motion": "point",
+    "rot": -15,
+    "at": "Tatsitga"
+   }
+  ],
+  "9": [
+   {
+    "type": "mark",
+    "shape": "arrow",
+    "x": 860,
+    "y": 300,
+    "to": [
+     600,
+     800
+    ],
+    "at": "pemza",
+    "label": "TOSH YOG'ADI"
+   }
+  ],
+  "10": [
+   {
+    "type": "mark",
+    "shape": "circle",
+    "x": 540,
+    "y": 720,
+    "w": 460,
+    "h": 320,
+    "at": "yostiq",
+    "label": "YOSTIQ!"
+   }
+  ],
+  "11": [
+   {
+    "type": "prop",
+    "img": "p_g_savol.jpg",
+    "x": 830,
+    "y": 500,
+    "h": 300,
+    "from": "pop",
+    "motion": "wag",
+    "at": "Nega hamma"
+   }
+  ],
+  "12": [
+   {
+    "type": "mark",
+    "shape": "box",
+    "x": 540,
+    "y": 1000,
+    "w": 600,
+    "h": 200,
+    "at": "2000",
+    "label": "~2000 QOLDI"
+   }
+  ],
+  "13": [
+   {
+    "type": "prop",
+    "img": "p_g_tanga.jpg",
+    "x": 780,
+    "y": 760,
+    "h": 380,
+    "from": "pop",
+    "motion": "bounce",
+    "at": "oltin"
+   }
+  ],
+  "14": [
+   {
+    "type": "mark",
+    "shape": "burst",
+    "x": 540,
+    "y": 520,
+    "w": 560,
+    "at": "qulay"
+   }
+  ],
+  "15": [
+   {
+    "type": "tag",
+    "head": "YIL",
+    "text": "1860",
+    "y": 220,
+    "at": "1860"
+   },
+   {
+    "type": "mark",
+    "shape": "circle",
+    "x": 540,
+    "y": 860,
+    "w": 520,
+    "h": 360,
+    "at": "gips",
+    "label": "GIPS"
+   }
+  ],
+  "16": [
+   {
+    "type": "prop",
+    "img": "p_g_savol.jpg",
+    "x": 840,
+    "y": 480,
+    "h": 300,
+    "from": "pop",
+    "motion": "jump",
+    "at": "baribir"
+   }
+  ],
+  "17": [
+   {
+    "type": "mark",
+    "shape": "arrow",
+    "x": 820,
+    "y": 300,
+    "to": [
+     420,
+     1000
+    ],
+    "at": "kul buluti",
+    "color": [
+     240,
+     140,
+     40
+    ],
+    "label": "TONG!"
+   }
+  ],
+  "18": [
+   {
+    "type": "prop",
+    "img": "p_g_termometr.jpg",
+    "x": 820,
+    "y": 640,
+    "h": 420,
+    "from": "pop",
+    "motion": "shake",
+    "at": "qaynoq suvdan"
+   },
+   {
+    "type": "mark",
+    "shape": "box",
+    "x": 540,
+    "y": 1000,
+    "w": 520,
+    "h": 200,
+    "at": "5 barobar",
+    "label": "5x ISSIQ"
+   }
+  ],
+  "19": [
+   {
+    "type": "mark",
+    "shape": "cross",
+    "x": 360,
+    "y": 820,
+    "w": 280,
+    "at": "lava emas"
+   },
+   {
+    "type": "mark",
+    "shape": "circle",
+    "x": 560,
+    "y": 560,
+    "w": 600,
+    "h": 420,
+    "at": "shu bulut",
+    "label": "MANA U"
+   }
+  ],
+  "20": [
+   {
+    "type": "mark",
+    "shape": "underline",
+    "x": 540,
+    "y": 1180,
+    "w": 620,
+    "at": "o'tib ketdi"
+   }
+  ],
+  "21": [
+   {
+    "type": "final",
+    "lines": [
+     "«HALI VAQT",
+     "BOR»MI?"
+    ],
+    "at": "Sizda ham"
+   }
+  ]
+ }
+}

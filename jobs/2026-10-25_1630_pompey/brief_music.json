@@ -1,0 +1,40 @@
+{
+ "music": {
+  "genre": "detective",
+  "bpm": 102,
+  "key": -2,
+  "scale": "minor",
+  "progression": [
+   0,
+   5,
+   3,
+   4
+  ]
+ },
+ "music_seed": 7906,
+ "music_gain": 0.7,
+ "moods": [
+  "mystery",
+  "tense",
+  "mystery",
+  "warm",
+  "tense",
+  "hero",
+  "tense",
+  "mystery",
+  "tense",
+  "tense",
+  "groove",
+  "mystery",
+  "groove",
+  "tense",
+  "mystery",
+  "hero",
+  "tense",
+  "hero",
+  "sad",
+  "warm",
+  "finale"
+ ],
+ "why": "Video — 'kim/nima o'ldirgan' tergovi: detective janri minor ladda sir va taranglikni ushlaydi, oxirgi 3 videoda (sparse, western, doira_folk) yo'q; portlash va javob lahzalarida hero, qurbonlar haqida bitta sad."
+}

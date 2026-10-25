@@ -1,0 +1,44 @@
+{
+ "hook": "Pompeyda odamlar nega qochib ulgurmagan?",
+ "hook_type": "savol-ilmoq + afsonani buzish (2-qator: «lava ularga tegmagan»)",
+ "rehooks": [
+  {
+   "scene": 5,
+   "text": "Tushdan keyin tog' uyg'ondi. Va bitta soat hammasini o'zgartirdi.",
+   "t_est": 15.5
+  },
+  {
+   "scene": 8,
+   "text": "Qolgani — tarixchi Tatsitga yozgan xatida.",
+   "t_est": 29
+  },
+  {
+   "scene": 12,
+   "text": "Hikoya teskari aylanadi: ko'pchilik qochgan.",
+   "t_est": 45
+  },
+  {
+   "scene": 16,
+   "text": "Lekin ularni baribir nima o'ldirgan?",
+   "t_est": 62
+  }
+ ],
+ "open_loop": "Lava bo'lmasa, ularni nima o'ldirgan?",
+ "payoff_scene": 17,
+ "payoff_note": "Javob 17-19-qatorlarda (~66-81 s, oxirgi ~20%): issiq gaz-kul buluti (bo'rondan tez, qaynoq suvdan 5 barobar issiq); 20 — bitta xulosa, 21 — savol.",
+ "final_question": "Sizda ham «hali vaqt bor» deydigan do'st bormi? Uni izohda belgilang.",
+ "question_type": "belgilang (tag) + shaxsiy",
+ "est_duration_s": 90,
+ "changes": [
+  "2: 'ham' olib tashlandi",
+  "4: 'boy' olib tashlandi (≤12 so'z)",
+  "5: yangi re-hook qatori (~20 s) — portlash 6-qatorga ajratildi",
+  "8: 'Qolgani — tarixchi Tatsitga yozgan xatida' (~30 s re-hook)",
+  "10: yangi — Pliniy: boshiga yostiq bog'lashdi",
+  "12: 'Qiziq joyi shunda' -> 'Hikoya teskari aylanadi'",
+  "16: Laylo ochiq halqani qayta ochadi",
+  "17: 'Endi javob' olib tashlandi",
+  "19: qisqartirildi",
+  "21: yakuniy savol 'siz bo'lganingizda' turidan (oxirgi 5 da bor) tag turiga almashtirildi"
+ ]
+}

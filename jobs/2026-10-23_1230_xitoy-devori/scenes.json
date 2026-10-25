@@ -278,8 +278,8 @@
   {
    "n": 6,
    "speaker": "b",
-   "text": "Devor ularni to'xtata olmadi. Mo'g'ullar bo'sh joylardan o'tib, darvozalarni birma-bir egalladi.",
-   "tts": "[serious] Devor ularni to'xtata olmadi. Mo'g'ullar bo'sh joylardan o'tib, darvozalarni birma-bir egalladi.",
+   "text": "Devor ularni to'xtata olmadi. Mo'g'ul otliqlari bo'sh joylardan o'tib, darvozalarni birma-bir egallab oldi.",
+   "tts": "[serious] Devor ularni to'xtata olmadi. Mo'g'ul otliqlari bo'sh joylardan o'tib, darvozalarni birma-bir egallab oldi.",
    "mood": "epic",
    "img": "05.jpg",
    "elements": [
@@ -319,20 +319,20 @@
   {
    "n": 8,
    "speaker": "b",
-   "text": "Ammo eng katta zarba tashqaridan emas, ichkaridan keldi.",
-   "tts": "[whispers] Ammo eng katta zarba tashqaridan emas, ichkaridan keldi.",
+   "text": "Biroq eng og'ir zarba devor ortidan emas, uning ichidan keldi.",
+   "tts": "[whispers] Biroq eng og'ir zarba devor ortidan emas, uning ichidan keldi.",
    "mood": "mystery",
    "img": "06.jpg",
    "elements": [
     {
      "type": "caption",
      "words": [
-      "ICHKARIDAN"
+      "ICHIDAN"
      ],
      "color": "yellow",
      "y": 1330,
      "size": 92,
-     "at": "ichkaridan"
+     "at": "ichidan"
     },
     {
      "type": "prop",
@@ -383,8 +383,8 @@
   {
    "n": 10,
    "speaker": "b",
-   "text": "Isyonchilarni yengish uchun u devor ortidagi manjurlardan yordam so'radi va darvozani o'zi ochib berdi.",
-   "tts": "[shocked] Isyonchilarni yengish uchun u devor ortidagi manjurlardan yordam so'radi va darvozani o'zi ochib berdi.",
+   "text": "Isyonchilarni yengish uchun u devor ortidagi manjurlarni yordamga chaqirdi va darvozani o'zi ochib berdi.",
+   "tts": "[shocked] Isyonchilarni yengish uchun u devor ortidagi manjurlarni yordamga chaqirdi va darvozani o'zi ochib berdi.",
    "mood": "tension",
    "img": "09.jpg",
    "elements": [

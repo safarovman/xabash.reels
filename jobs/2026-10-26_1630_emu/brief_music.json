@@ -1,0 +1,40 @@
+{
+ "music": {
+  "genre": "polka",
+  "bpm": 128,
+  "key": 2,
+  "scale": "major",
+  "progression": [
+   0,
+   3,
+   4,
+   0
+  ]
+ },
+ "music_seed": 3211,
+ "music_gain": 0.72,
+ "moods": {
+  "1": "hero",
+  "2": "groove",
+  "3": "tense",
+  "4": "warm",
+  "5": "groove",
+  "6": "hero",
+  "7": "groove",
+  "8": "mystery",
+  "9": "tense",
+  "10": "sad",
+  "11": "hero",
+  "12": "groove",
+  "13": "mystery",
+  "14": "warm",
+  "15": "groove",
+  "16": "tense",
+  "17": "hero",
+  "18": "groove",
+  "19": "warm",
+  "20": "hero",
+  "21": "finale"
+ },
+ "why": "Pulemyotli armiya va qushlar — kulgili harbiy fiasko: polka oompah ritmi (brass/akkordeon) komik marsh tuyg'usini beradi; oxirgi videolardagi tango, doira_pop, detective, epic'dan farqli; pulemyot tiqilib qolganda bitta sad."
+}

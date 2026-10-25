@@ -1,0 +1,117 @@
+{
+ "style_name": "1930-yillar avstraliya pulp-jurnal guash illyustratsiyasi (quyoshda kuygan oxra, evkalipt yashili, osmon ko'ki, halftone dona)",
+ "image_prefix": "vertical 9:16, no text, no letters, no logos, 1930s vintage pulp magazine gouache illustration, Western Australian wheatbelt outback, sunburnt ochre fields, golden wheat, eucalyptus green, bright sky blue, slightly exaggerated comedic expressions but realistic natural human proportions and faces (not cartoon, not chibi), emus drawn anatomically accurate, subtle halftone print grain, warm afternoon light.",
+ "character_prefix": "1930s vintage pulp magazine gouache illustration, realistic natural human proportions and face (not cartoon, not chibi), expressive comedic emotion, single person only, half body, isolated on a plain flat pure white background, no shadow, no scenery, no text.",
+ "prop_prefix": "1930s vintage pulp magazine gouache illustration, single object only (or single emu), bold clean shape, isolated on a plain flat pure white background, no shadow, no text.",
+ "palette": {
+  "ochre": [
+   214,
+   150,
+   58
+  ],
+  "wheat": [
+   238,
+   200,
+   96
+  ],
+  "eucalyptus": [
+   74,
+   120,
+   92
+  ],
+  "sky": [
+   86,
+   164,
+   214
+  ],
+  "khaki": [
+   150,
+   132,
+   88
+  ],
+  "ink": [
+   40,
+   32,
+   24
+  ]
+ },
+ "theme": {
+  "font": "luckiest",
+  "font2": "chewy",
+  "accent": [
+   230,
+   120,
+   40
+  ],
+  "accent2": [
+   86,
+   164,
+   214
+  ],
+  "bubble_bg": [
+   250,
+   240,
+   214
+  ],
+  "bubble_line": [
+   150,
+   96,
+   40
+  ],
+  "bubble_ink": [
+   40,
+   32,
+   24
+  ],
+  "bubble_dim": [
+   140,
+   124,
+   100
+  ],
+  "transitions": [
+   "whip",
+   "zoom",
+   "slide"
+  ],
+  "cut_fx": "punch",
+  "bubble_radius": 22
+ },
+ "cover_title": [
+  "QUSHLAR",
+  "ARMIYANI YENGDI?"
+ ],
+ "cover_sub": "Emu urushi, 1932",
+ "cover": {
+  "layout": "bubble",
+  "img": "cover.jpg",
+  "char": "c_meredit_hayron.jpg",
+  "props": [
+   "p_emu.jpg"
+  ],
+  "badge": "1932",
+  "title_colors": [
+   [
+    255,
+    255,
+    255
+   ],
+   [
+    255,
+    196,
+    60
+   ]
+  ],
+  "accent": [
+   230,
+   120,
+   40
+  ],
+  "accent2": [
+   86,
+   164,
+   214
+  ],
+  "flow_prompt": "vertical 9:16, no text, no letters, no logos, 1930s vintage pulp magazine gouache illustration: close-up of a 1930s Australian army major in khaki uniform and slouch hat, realistic proportions and face (not cartoon), jaw dropped in total disbelief, clutching a Lewis gun on the back of a rattling open truck, while a huge emu sprints right beside him staring back cheekily, dozens more emus scattering across golden wheat field, dust cloud, bright sky blue and sunburnt ochre, strong contrast, empty clear sky in the top third for a title."
+ },
+ "why": "1932-yil avstraliya cho'li va absurd 'urush' — o'sha davr pulp-jurnal guashi kulgili kayfiyatni beradi va oxirgi videolardagi miniatyura/fresko uslublaridan butunlay farq qiladi."
+}

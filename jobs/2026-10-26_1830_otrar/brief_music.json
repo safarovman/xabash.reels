@@ -1,0 +1,40 @@
+{
+ "music": {
+  "genre": "doira_folk",
+  "bpm": 98,
+  "key": -2,
+  "scale": "hijaz",
+  "progression": [
+   0,
+   6,
+   0,
+   4
+  ]
+ },
+ "music_seed": 7218,
+ "music_gain": 0.7,
+ "moods": {
+  "1": "tense",
+  "2": "mystery",
+  "3": "warm",
+  "4": "mystery",
+  "5": "tense",
+  "6": "groove",
+  "7": "tense",
+  "8": "mystery",
+  "9": "hero",
+  "10": "groove",
+  "11": "tense",
+  "12": "hero",
+  "13": "groove",
+  "14": "hero",
+  "15": "tense",
+  "16": "hero",
+  "17": "groove",
+  "18": "mystery",
+  "19": "sad",
+  "20": "hero",
+  "21": "finale"
+ },
+ "why": "1218-yil O'trar — O'rta Osiyo fojiasi: hijaz ladidagi sekin doira_folk (nay, dutor) sharqona dramani beradi; tango, doira_pop, detective, epic/sparse'dan farqli; shaharlar qulaganda bitta sad."
+}

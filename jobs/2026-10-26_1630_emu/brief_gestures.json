@@ -1,0 +1,344 @@
+{
+ "flow_prompts": [
+  {
+   "file": "p_g_oq.jpg",
+   "prompt": "Cheerful hand-drawn cartoon sticker, bold black outlines, flat warm colors (wheat yellow, dusty orange, khaki green), 1930s Australian outback comic vibe, one shiny brass rifle bullet with a comic motion swoosh, slightly tilted, single object, isolated on plain flat pure white background, no text, no letters, no shadow"
+  },
+  {
+   "file": "p_g_ter.jpg",
+   "prompt": "Cheerful hand-drawn cartoon sticker, bold black outlines, flat warm colors (wheat yellow, dusty orange, khaki green), 1930s Australian outback comic vibe, three big blue cartoon sweat drops cluster, nervous embarrassment symbol, single object, isolated on plain flat pure white background, no text, no letters, no shadow"
+  },
+  {
+   "file": "p_g_gazeta.jpg",
+   "prompt": "Cheerful hand-drawn cartoon sticker, bold black outlines, flat warm colors (wheat yellow, dusty orange, khaki green), 1930s Australian outback comic vibe, folded vintage 1930s newspaper with blurry unreadable columns and a small cartoon emu drawing on the front page, single object, isolated on plain flat pure white background, no text, no letters, no shadow"
+  },
+  {
+   "file": "p_g_oq_bayroq.jpg",
+   "prompt": "Cheerful hand-drawn cartoon sticker, bold black outlines, flat warm colors (wheat yellow, dusty orange, khaki green), 1930s Australian outback comic vibe, small white surrender flag on a wooden stick, waving, comic, single object, isolated on plain flat pure white background, no text, no letters, no shadow"
+  },
+  {
+   "file": "p_g_lampochka.jpg",
+   "prompt": "Cheerful hand-drawn cartoon sticker, bold black outlines, flat warm colors (wheat yellow, dusty orange, khaki green), 1930s Australian outback comic vibe, glowing yellow light bulb with radiating idea lines, single object, isolated on plain flat pure white background, no text, no letters, no shadow"
+  }
+ ],
+ "note": "Hazil: belgilar raqam va absurdlikni urg'ulaydi. Hammasi y 560-1160 oralig'ida, yon tomonlarda (x~200-300 yoki ~820), markaz va yuzlar bo'sh; personajlar y~1440. Bitta stamp (15-sahna).",
+ "elements": {
+  "1": [
+   {
+    "type": "mark",
+    "shape": "burst",
+    "x": 820,
+    "y": 700,
+    "w": 340,
+    "at": "qushlardan",
+    "label": "QUSHLARDAN?!"
+   }
+  ],
+  "2": [
+   {
+    "type": "tag",
+    "head": "YIL",
+    "text": "1932",
+    "x": 200,
+    "y": 600,
+    "color": "red",
+    "at": "1932"
+   },
+   {
+    "type": "mark",
+    "shape": "circle",
+    "x": 820,
+    "y": 820,
+    "w": 340,
+    "at": "20 ming",
+    "label": "20 000!"
+   }
+  ],
+  "3": [
+   {
+    "type": "prop",
+    "img": "p_g_ter.jpg",
+    "x": 820,
+    "y": 700,
+    "h": 220,
+    "from": "pop",
+    "motion": "shake",
+    "at": "buzib"
+   }
+  ],
+  "4": [
+   {
+    "type": "mark",
+    "shape": "arrow",
+    "x": 260,
+    "y": 700,
+    "w": 320,
+    "at": "bo'yi",
+    "label": "ODAMDEK!",
+    "to": [
+     470,
+     880
+    ]
+   },
+   {
+    "type": "tag",
+    "head": "TEZLIK",
+    "text": "50 km/s",
+    "x": 840,
+    "y": 600,
+    "color": "red",
+    "at": "50 km"
+   }
+  ],
+  "5": [
+   {
+    "type": "mark",
+    "shape": "underline",
+    "x": 540,
+    "y": 1060,
+    "w": 460,
+    "at": "2 ta pulemyot",
+    "label": "ATIGI 2 TA!"
+   }
+  ],
+  "6": [
+   {
+    "type": "mark",
+    "shape": "circle",
+    "x": 250,
+    "y": 780,
+    "w": 300,
+    "at": "Bir haftada",
+    "label": "7 KUN!"
+   }
+  ],
+  "7": [
+   {
+    "type": "prop",
+    "img": "p_g_oq.jpg",
+    "x": 820,
+    "y": 720,
+    "h": 260,
+    "from": "pop",
+    "motion": "shake",
+    "at": "Birinchi"
+   },
+   {
+    "type": "mark",
+    "shape": "cross",
+    "x": 260,
+    "y": 820,
+    "w": 280,
+    "at": "mo'ljaldan",
+    "label": "MO'LJAL: 0"
+   }
+  ],
+  "8": [
+   {
+    "type": "tag",
+    "head": "SANA",
+    "text": "4-NOYABR",
+    "x": 200,
+    "y": 600,
+    "color": "red",
+    "at": "4-noyabrda"
+   }
+  ],
+  "9": [
+   {
+    "type": "mark",
+    "shape": "burst",
+    "x": 820,
+    "y": 700,
+    "w": 340,
+    "at": "1000",
+    "label": "1000+ EMU!"
+   }
+  ],
+  "10": [
+   {
+    "type": "mark",
+    "shape": "cross",
+    "x": 820,
+    "y": 760,
+    "w": 300,
+    "at": "tiqilib",
+    "label": "TIQILDI!"
+   },
+   {
+    "type": "prop",
+    "img": "p_g_ter.jpg",
+    "x": 250,
+    "y": 700,
+    "h": 220,
+    "from": "pop",
+    "motion": "shake",
+    "at": "tarqab"
+   }
+  ],
+  "11": [
+   {
+    "type": "mark",
+    "shape": "arrow",
+    "x": 260,
+    "y": 640,
+    "w": 320,
+    "at": "Quvib",
+    "label": "QUVAMIZ!",
+    "to": [
+     480,
+     860
+    ]
+   }
+  ],
+  "12": [
+   {
+    "type": "mark",
+    "shape": "cross",
+    "x": 820,
+    "y": 760,
+    "w": 300,
+    "at": "yetolmadi",
+    "label": "YETOLMADI"
+   },
+   {
+    "type": "mark",
+    "shape": "circle",
+    "x": 250,
+    "y": 860,
+    "w": 260,
+    "at": "bitta o'q",
+    "label": "0 TA!"
+   }
+  ],
+  "13": [
+   {
+    "type": "prop",
+    "img": "p_g_lampochka.jpg",
+    "x": 820,
+    "y": 680,
+    "h": 260,
+    "from": "pop",
+    "motion": "pulse",
+    "at": "aqlli"
+   },
+   {
+    "type": "mark",
+    "shape": "box",
+    "x": 260,
+    "y": 860,
+    "w": 300,
+    "at": "qorovul",
+    "label": "QOROVUL",
+    "h": 220
+   }
+  ],
+  "14": [
+   {
+    "type": "mark",
+    "shape": "burst",
+    "x": 820,
+    "y": 700,
+    "w": 340,
+    "at": "tankdek",
+    "label": "TANKDEK!"
+   }
+  ],
+  "15": [
+   {
+    "type": "prop",
+    "img": "p_g_gazeta.jpg",
+    "x": 820,
+    "y": 700,
+    "h": 300,
+    "from": "pop",
+    "motion": "jump",
+    "at": "Gazetalar"
+   },
+   {
+    "type": "stamp",
+    "text": "YENGILDI!",
+    "y": 1000,
+    "rot": -8,
+    "at": "chaqirib"
+   }
+  ],
+  "16": [
+   {
+    "type": "mark",
+    "shape": "burst",
+    "x": 820,
+    "y": 700,
+    "w": 320,
+    "at": "qaytib",
+    "label": "YANA?!"
+   }
+  ],
+  "17": [
+   {
+    "type": "tag",
+    "head": "MUDDAT",
+    "text": "1 OY",
+    "x": 200,
+    "y": 600,
+    "color": "red",
+    "at": "bir oy"
+   }
+  ],
+  "18": [
+   {
+    "type": "mark",
+    "shape": "circle",
+    "x": 540,
+    "y": 820,
+    "w": 500,
+    "at": "9 860",
+    "label": "9 860 O'Q!"
+   },
+   {
+    "type": "mark",
+    "shape": "underline",
+    "x": 540,
+    "y": 1080,
+    "w": 440,
+    "at": "10 ta",
+    "label": "1 EMU = 10 O'Q"
+   }
+  ],
+  "19": [
+   {
+    "type": "prop",
+    "img": "p_g_oq_bayroq.jpg",
+    "x": 820,
+    "y": 720,
+    "h": 300,
+    "from": "pop",
+    "motion": "wag",
+    "at": "xo'jayin"
+   }
+  ],
+  "20": [
+   {
+    "type": "mark",
+    "shape": "cross",
+    "x": 820,
+    "y": 800,
+    "w": 300,
+    "at": "rad etdi",
+    "label": "RAD!"
+   }
+  ],
+  "21": [
+   {
+    "type": "prop",
+    "img": "p_g_lampochka.jpg",
+    "x": 820,
+    "y": 700,
+    "h": 260,
+    "from": "pop",
+    "motion": "pulse",
+    "at": "g'oyani"
+   }
+  ]
+ }
+}

@@ -1,0 +1,347 @@
+{
+ "flow_prompts": [
+  {
+   "file": "p_g_tanga.jpg",
+   "prompt": "Dramatic painterly illustration sticker in medieval Persian miniature style, rich deep colors (crimson, gold, lapis blue, sand), subtle ink outlines, solemn mood, small heap of medieval gold dinars and silver coins with a folded silk cloth, single object, isolated on plain flat pure white background, no text, no letters, no shadow"
+  },
+  {
+   "file": "p_g_tuya.jpg",
+   "prompt": "Dramatic painterly illustration sticker in medieval Persian miniature style, rich deep colors (crimson, gold, lapis blue, sand), subtle ink outlines, solemn mood, single Bactrian camel loaded with caravan bundles, side view, single object, isolated on plain flat pure white background, no text, no letters, no shadow"
+  },
+  {
+   "file": "p_g_xanjar.jpg",
+   "prompt": "Dramatic painterly illustration sticker in medieval Persian miniature style, rich deep colors (crimson, gold, lapis blue, sand), subtle ink outlines, solemn mood, curved medieval Khwarezmian dagger with ornate golden hilt, blade with ominous dark red glint, no blood, single object, isolated on plain flat pure white background, no text, no letters, no shadow"
+  },
+  {
+   "file": "p_g_qumsoat.jpg",
+   "prompt": "Dramatic painterly illustration sticker in medieval Persian miniature style, rich deep colors (crimson, gold, lapis blue, sand), subtle ink outlines, solemn mood, antique brass and wood hourglass with sand running out, single object, isolated on plain flat pure white background, no text, no letters, no shadow"
+  },
+  {
+   "file": "p_g_xarita.jpg",
+   "prompt": "Dramatic painterly illustration sticker in medieval Persian miniature style, rich deep colors (crimson, gold, lapis blue, sand), subtle ink outlines, solemn mood, aged parchment map of 13th century Central Asia, landscape orientation, Syr Darya and Amu Darya rivers in blue ink, small city dots, mountains to the east, torn edges, empty of any labels, single object, isolated on plain flat pure white background, no text, no letters, no shadow"
+  }
+ ],
+ "note": "Drama: kam, og'ir belgilar (qizil). 19-sahna: pergament xarita + strelkalar Mo'g'uliston -> O'trar (Sirdaryo) -> Buxoro / Samarqand / Urganch (ovozdagi shahar nomiga bog'langan). Xarita stikeri ~1000x760 deb taxmin qilingan (x540,y800). Bitta stamp (20-sahna).",
+ "elements": {
+  "1": [
+   {
+    "type": "mark",
+    "shape": "circle",
+    "x": 820,
+    "y": 720,
+    "w": 340,
+    "at": "450",
+    "label": "450 SAVDOGAR"
+   }
+  ],
+  "2": [
+   {
+    "type": "tag",
+    "head": "YIL",
+    "text": "1218",
+    "x": 200,
+    "y": 600,
+    "color": "red",
+    "at": "1218-yil"
+   }
+  ],
+  "3": [
+   {
+    "type": "prop",
+    "img": "p_g_tanga.jpg",
+    "x": 820,
+    "y": 740,
+    "h": 280,
+    "from": "pop",
+    "motion": "jump",
+    "at": "oltin"
+   }
+  ],
+  "4": [
+   {
+    "type": "prop",
+    "img": "p_g_tuya.jpg",
+    "x": 250,
+    "y": 760,
+    "h": 320,
+    "from": "pop",
+    "motion": "bounce",
+    "at": "Karvonni"
+   }
+  ],
+  "5": [
+   {
+    "type": "mark",
+    "shape": "cross",
+    "x": 820,
+    "y": 760,
+    "w": 300,
+    "at": "savdogar emas",
+    "label": "JOSUS?!"
+   }
+  ],
+  "6": [
+   {
+    "type": "tag",
+    "head": "QARINDOSH",
+    "text": "JIYAN",
+    "x": 200,
+    "y": 600,
+    "color": "red",
+    "at": "jiyani"
+   }
+  ],
+  "7": [
+   {
+    "type": "prop",
+    "img": "p_g_xanjar.jpg",
+    "x": 820,
+    "y": 720,
+    "h": 300,
+    "from": "pop",
+    "motion": "shake",
+    "at": "o'ldirildi"
+   }
+  ],
+  "8": [
+   {
+    "type": "mark",
+    "shape": "burst",
+    "x": 820,
+    "y": 700,
+    "w": 320,
+    "at": "bitta odam",
+    "label": "1 KISHI"
+   }
+  ],
+  "9": [
+   {
+    "type": "prop",
+    "img": "p_g_tuya.jpg",
+    "x": 820,
+    "y": 760,
+    "h": 300,
+    "from": "pop",
+    "motion": "jump",
+    "at": "tuyakashman"
+   }
+  ],
+  "10": [
+   {
+    "type": "mark",
+    "shape": "arrow",
+    "x": 240,
+    "y": 820,
+    "w": 320,
+    "at": "uzoq sharqqa",
+    "label": "SHARQQA",
+    "to": [
+     860,
+     620
+    ]
+   }
+  ],
+  "11": [
+   {
+    "type": "mark",
+    "shape": "check",
+    "x": 820,
+    "y": 760,
+    "w": 280,
+    "at": "3 ta elchi",
+    "label": "3 ELCHI"
+   }
+  ],
+  "12": [
+   {
+    "type": "mark",
+    "shape": "cross",
+    "x": 820,
+    "y": 720,
+    "w": 300,
+    "at": "bermayman",
+    "label": "XATO!"
+   }
+  ],
+  "13": [
+   {
+    "type": "mark",
+    "shape": "cross",
+    "x": 250,
+    "y": 760,
+    "w": 260,
+    "at": "qatl",
+    "label": "QATL"
+   }
+  ],
+  "14": [
+   {
+    "type": "mark",
+    "shape": "burst",
+    "x": 820,
+    "y": 700,
+    "w": 340,
+    "at": "haqorat",
+    "label": "HAQORAT!"
+   }
+  ],
+  "15": [
+   {
+    "type": "tag",
+    "head": "YIL",
+    "text": "1219",
+    "x": 200,
+    "y": 600,
+    "color": "red",
+    "at": "1219-yil"
+   }
+  ],
+  "16": [
+   {
+    "type": "mark",
+    "shape": "underline",
+    "x": 540,
+    "y": 1060,
+    "w": 440,
+    "at": "taslim",
+    "label": "TASLIM YO'Q"
+   }
+  ],
+  "17": [
+   {
+    "type": "prop",
+    "img": "p_g_qumsoat.jpg",
+    "x": 820,
+    "y": 720,
+    "h": 300,
+    "from": "pop",
+    "motion": "pulse",
+    "at": "5 oy"
+   }
+  ],
+  "18": [
+   {
+    "type": "mark",
+    "shape": "underline",
+    "x": 540,
+    "y": 1060,
+    "w": 360,
+    "at": "Rivoyat",
+    "label": "RIVOYAT"
+   }
+  ],
+  "19": [
+   {
+    "type": "prop",
+    "img": "p_g_xarita.jpg",
+    "x": 540,
+    "y": 800,
+    "h": 760,
+    "from": "pop",
+    "motion": "pulse",
+    "at": "start"
+   },
+   {
+    "type": "mark",
+    "shape": "arrow",
+    "x": 1000,
+    "y": 520,
+    "w": 320,
+    "at": "O'trardan",
+    "label": "MO'G'ULISTON",
+    "to": [
+     720,
+     740
+    ],
+    "label_x": 860,
+    "label_y": 470
+   },
+   {
+    "type": "mark",
+    "shape": "circle",
+    "x": 680,
+    "y": 780,
+    "w": 150,
+    "at": "O'trardan",
+    "label": "O'TRAR"
+   },
+   {
+    "type": "mark",
+    "shape": "arrow",
+    "x": 650,
+    "y": 800,
+    "w": 320,
+    "at": "Buxoro",
+    "label": "BUXORO",
+    "to": [
+     360,
+     880
+    ]
+   },
+   {
+    "type": "mark",
+    "shape": "arrow",
+    "x": 660,
+    "y": 820,
+    "w": 320,
+    "at": "Samarqand",
+    "label": "SAMARQAND",
+    "to": [
+     480,
+     980
+    ]
+   },
+   {
+    "type": "mark",
+    "shape": "arrow",
+    "x": 640,
+    "y": 770,
+    "w": 320,
+    "at": "Urganch",
+    "label": "URGANCH",
+    "to": [
+     250,
+     620
+    ]
+   }
+  ],
+  "20": [
+   {
+    "type": "mark",
+    "shape": "circle",
+    "x": 820,
+    "y": 720,
+    "w": 320,
+    "at": "ochko'zligi",
+    "label": "OCHKO'ZLIK"
+   },
+   {
+    "type": "stamp",
+    "text": "YO'Q BO'LDI",
+    "y": 1000,
+    "rot": -8,
+    "at": "yo'q bo'ldi"
+   }
+  ],
+  "21": [
+   {
+    "type": "mark",
+    "shape": "circle",
+    "x": 250,
+    "y": 780,
+    "w": 280,
+    "at": "hokimmi",
+    "label": "HOKIM?"
+   },
+   {
+    "type": "mark",
+    "shape": "circle",
+    "x": 830,
+    "y": 780,
+    "w": 280,
+    "at": "shohmi",
+    "label": "SHOH?"
+   }
+  ]
+ }
+}

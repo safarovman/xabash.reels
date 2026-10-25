@@ -1,0 +1,117 @@
+{
+ "style_name": "qorong'i grafik roman (siyoh-akvarel, chiaroscuro) + bitta urg'u rang: qon qizil va eritilgan kumush",
+ "image_prefix": "vertical 9:16, no text, no letters, no logos, dark graphic novel art, heavy black ink linework with muted ink-wash watercolor, dramatic chiaroscuro, 13th-century Central Asian setting (Otrar mud-brick citadel on the Syr Darya, caravans, Khwarazmian and Mongol costume historically accurate), desaturated sand and charcoal tones with a single accent of blood crimson, realistic natural human proportions and faces (not cartoon, not chibi), cinematic low angles, smoke and dust.",
+ "character_prefix": "dark graphic novel art, heavy black ink linework with muted ink-wash, realistic natural human proportions and face (not cartoon, not chibi), 13th-century Central Asian costume, intense emotion, single person only, half body, isolated on a plain flat pure white background, no shadow, no scenery, no text.",
+ "prop_prefix": "dark graphic novel art, heavy black ink linework with muted ink-wash, single object only, bold clean shape, isolated on a plain flat pure white background, no shadow, no text.",
+ "palette": {
+  "charcoal": [
+   28,
+   26,
+   28
+  ],
+  "sand": [
+   196,
+   170,
+   128
+  ],
+  "mudbrick": [
+   150,
+   110,
+   74
+  ],
+  "crimson": [
+   178,
+   28,
+   36
+  ],
+  "silver": [
+   200,
+   204,
+   210
+  ],
+  "bone": [
+   236,
+   228,
+   212
+  ]
+ },
+ "theme": {
+  "font": "blackopsone",
+  "font2": "russo",
+  "accent": [
+   178,
+   28,
+   36
+  ],
+  "accent2": [
+   200,
+   204,
+   210
+  ],
+  "bubble_bg": [
+   236,
+   228,
+   212
+  ],
+  "bubble_line": [
+   120,
+   20,
+   28
+  ],
+  "bubble_ink": [
+   28,
+   26,
+   28
+  ],
+  "bubble_dim": [
+   120,
+   112,
+   100
+  ],
+  "transitions": [
+   "flash",
+   "torn",
+   "whip"
+  ],
+  "cut_fx": "flash",
+  "bubble_radius": 6
+ },
+ "cover_title": [
+  "450 SAVDOGAR",
+  "VA SALTANAT"
+ ],
+ "cover_sub": "O'trar fojiasi, 1218",
+ "cover": {
+  "layout": "split",
+  "img": "cover.jpg",
+  "char": "c_goyirxon_gazab.jpg",
+  "props": [
+   "p_oltin_sandiq.jpg"
+  ],
+  "badge": "1218",
+  "title_colors": [
+   [
+    236,
+    228,
+    212
+   ],
+   [
+    178,
+    28,
+    36
+   ]
+  ],
+  "accent": [
+   178,
+   28,
+   36
+  ],
+  "accent2": [
+   200,
+   204,
+   210
+  ],
+  "flow_prompt": "vertical 9:16, no text, no letters, no logos, dark graphic novel art with heavy black ink and muted ink-wash, chiaroscuro: close-up of a 13th-century Khwarazmian governor in turban and silk robe, realistic proportions and face (not cartoon), greedy suspicious glare, one hand on an open chest overflowing with gold, silver and silk, behind him torchlit mud-brick walls of Otrar and shadowed caravan camels, a single crimson accent of a torn caravan banner, strong contrast, main image in the upper two thirds and a calm dark empty lower third for a title."
+ },
+ "why": "Xiyonat, qatl va qamal — qorong'i grafik roman siyohi va yagona qon-qizil urg'u fojiani kuchaytiradi, emu videosining yorqin guashidan va oxirgi miniatyuralardan keskin farq qiladi."
+}

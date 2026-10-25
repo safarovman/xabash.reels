@@ -1,0 +1,25 @@
+# b=hikoyachi, a=Amir Nuh ibn Mansur (Mirzabek2), t=keksa saroy tabibi (Bobo UZ), u=ustoz Dilorom opa (Ustoz ayol)
+B='sMpnELN3fdB8ZVjj6xa0'; A='GcnlXfqDudh5dSQpZVll'; T='eD0k57hUAx0oDuThLFT9'; U='rgK9zQmSATbqc0STi5u4'
+L=[
+(B,"[tense] Buxoro amiri o'lim to'shagida yotardi.","Buxoro amiri o'lim to'shagida yotardi.","b"),
+(B,"[mysterious] Saroy tabiblari ojiz qoldi — uni o'n yetti yoshli yigit davoladi.","Saroy tabiblari ojiz qoldi — uni 17 yoshli yigit davoladi.","b"),
+(A,"[excited] Tila, yigit! Xazinamdan nima xohlasang, o'shani olasan!","Tila, yigit! Xazinamdan nima xohlasang, o'shani olasan!","a"),
+(B,"[curious] Lekin u oltin ham, mansab ham so'ramadi. Nima so'radi deysizmi?","Lekin u oltin ham, mansab ham so'ramadi. Nima so'radi deysizmi?","b"),
+(B,"[warmly] Bu yigit — Abu Ali ibn Sino. To'qqiz yuz sakseninchi yili Afshona qishlog'ida tug'ilgan.","Bu yigit — Abu Ali ibn Sino. 980-yili Afshona qishlog'ida tug'ilgan.","b"),
+(B,"[playful] O'n olti yoshida tibbiyotni o'rgandi va «tib — qiyin fan emas» dedi.","16 yoshida tibbiyotni o'rgandi va «tib — qiyin fan emas» dedi.","b"),
+(T,"[elderly voice] [grumbles] Soqoli chiqmagan bola bizga dars beradimi?!","Soqoli chiqmagan bola bizga dars beradimi?!","t"),
+(B,"[tense] Somoniy amir Nuh ibn Mansur og'ir kasal edi. Keksa tabiblar hech narsa qila olmadi.","Somoniy amir Nuh ibn Mansur og'ir kasal edi. Keksa tabiblar hech narsa qila olmadi.","b"),
+(B,"[whispers] Shunda saroyga o'sha yosh yigitni chaqirishdi.","Shunda saroyga o'sha yosh yigitni chaqirishdi.","b"),
+(B,"[excited] U amirni davoladi — va amir oyoqqa turdi!","U amirni davoladi — va amir oyoqqa turdi!","b"),
+(A,"[laughs] Gapir, Abu Ali! Oltinmi, yermi, otmi?","Gapir, Abu Ali! Oltinmi, yermi, otmi?","a"),
+(B,"[mysterious] Uning javobi hammani hayron qoldirdi. Ammo avval bitta sir.","Uning javobi hammani hayron qoldirdi. Ammo avval bitta sir.","b"),
+(U,"[curious] Somoniylar saroyida ko'p xonali bir bino bo'lgan. Har bir xonada — bitta fan.","Somoniylar saroyida ko'p xonali bir bino bo'lgan. Har bir xonada — bitta fan.","u"),
+(U,"[amazed] U yerdagi ba'zi kitoblarni o'sha davrda deyarli hech kim ko'rmagan.","U yerdagi ba'zi kitoblarni o'sha davrda deyarli hech kim ko'rmagan.","u"),
+(B,"[serious] Keyinchalik Ibn Sino ko'plab asar yozdi. Eng mashhuri — «Tib qonunlari».","Keyinchalik Ibn Sino ko'plab asar yozdi. Eng mashhuri — «Tib qonunlari».","b"),
+(B,"[excited] O'n ikkinchi asrda u lotinchaga tarjima qilindi. Yevropa tabiblari asrlar davomida shundan o'qidi.","XII asrda u lotinchaga tarjima qilindi. Yevropa tabiblari asrlar davomida shundan o'qidi.","b"),
+(T,"[elderly voice] [sighs] Soqoli chiqmagan bola edi-ya...","Soqoli chiqmagan bola edi-ya...","t"),
+(B,"[tense] Endi javob: u oltin emas, saroy kutubxonasiga kirishga ruxsat so'radi!","Endi javob: u oltin emas, saroy kutubxonasiga kirishga ruxsat so'radi!","b"),
+(B,"[sad] Ko'p o'tmay kutubxona yonib ketdi. Dushmanlari «Ibn Sino yoqdi» deb mish-mish tarqatdi.","Ko'p o'tmay kutubxona yonib ketdi. Dushmanlari «Ibn Sino yoqdi» deb mish-mish tarqatdi.","b"),
+(U,"[warmly] Balki u o'sha kitoblarni o'qigan oxirgi odamlardan biridir.","Balki u o'sha kitoblarni o'qigan oxirgi odamlardan biridir.","u"),
+(B,"[warmly] Sizga hayotingizda eng ko'p foyda bergan kitob qaysi? Izohda yozing.","Sizga hayotingizda eng ko'p foyda bergan kitob qaysi? Izohda yozing.","b"),
+]

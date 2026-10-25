@@ -62,3 +62,6 @@ Avvalgi konteynerdagi rasm/ovoz fayllari yo'qolgan (repo'da yo'q) — kompyuter 
 ## 25-okt 23:00 — A ishlayapti (26-okt 08:00/10:30/12:30: tutanxamon, muqanna, syuan-szan)
 - Ssenariy, brieflar, scenes.json, images.json tayyor (jobs/2026-10-26_*). Kompyuter 23:00 da ulanmagan — Flow rasmlari kutilmoqda.
 - 23:25: 49 ta ovoz ElevenLabs'da yozildi (flow Qt8Q6Y4AoqOLxuz9B0h4, ~4700 kredit); session id'lar jobs/2026-10-26_*/vo_sessions.json da (yangi imzoli URL uchun creative_get_flow_run_status). Yuklab olish va Flow rasmlari uchun kompyuter kerak.
+
+## 26-okt 02:05 — A tayyor
+- 08:00 Tutanxamon (Buffer 6ade65fa), 10:30 Muqanna (6ade6f4d), 12:30 Syuan Szan (6ade6f50) — hammasi automatic, reel. Kompyuter 00:50 da ulandi; rasmlar Flow'da, ovozlar vo_sessions.json dan.

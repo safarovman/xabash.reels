@@ -1,0 +1,15 @@
+{
+ "slot": "2026-10-28T08:30+05:00",
+ "title": "Knyaz Vladimir va islom",
+ "trial": false,
+ "schedulingType": "automatic",
+ "mode": "customScheduled",
+ "dueAt": "2026-10-28T08:30:00+05:00",
+ "video_url": "https://raw.githubusercontent.com/safarovman/xabash.reels/media/2026-10-28/0830_vladimir.mp4",
+ "buffer_post_id": "6ae099b99ce7db40d51c17fb",
+ "status": "Buffer'da 28-okt 08:30 (automatic)",
+ "sources": [
+  "https://www.newworldencyclopedia.org/entry/Vladimir_I_of_Kiev",
+  "https://novaonline.nvcc.edu/eli/evans/HIS101/Documents/Chronicle.html"
+ ]
+}

@@ -1,0 +1,636 @@
+{
+ "title": "Turk xoqonligi",
+ "pace": "fast",
+ "music": {
+  "genre": "epic",
+  "bpm": 96,
+  "key": -1,
+  "scale": "minor",
+  "progression": [
+   0,
+   5,
+   3,
+   4
+  ]
+ },
+ "music_seed": 552,
+ "music_gain": 0.72,
+ "cover_title": [
+  "TEMIRCHILAR",
+  "IMPERIYASI"
+ ],
+ "cover_sub": "Turk xoqonligi, 552–603",
+ "cover_scene": 0,
+ "cover": {
+  "layout": "hero",
+  "img": "cover.jpg",
+  "char": "c_usta.jpg",
+  "props": [
+   "p_g_bori.jpg"
+  ],
+  "badge": "552",
+  "title_colors": [
+   [
+    250,
+    240,
+    215
+   ],
+   [
+    230,
+    190,
+    70
+   ]
+  ],
+  "accent": [
+   30,
+   120,
+   130
+  ],
+  "accent2": [
+   230,
+   190,
+   70
+  ]
+ },
+ "anim": "static",
+ "bright": true,
+ "theme": {
+  "font": "russo",
+  "font2": "patrickhand",
+  "accent": [
+   30,
+   120,
+   130
+  ],
+  "accent2": [
+   230,
+   190,
+   70
+  ],
+  "bubble_bg": [
+   248,
+   243,
+   230
+  ],
+  "bubble_line": [
+   30,
+   90,
+   100
+  ],
+  "bubble_ink": [
+   25,
+   25,
+   35
+  ],
+  "bubble_dim": [
+   30,
+   120,
+   130
+  ],
+  "bubble_radius": 16,
+  "transitions": [
+   "slide",
+   "whip",
+   "zoom"
+  ],
+  "cut_fx": "flash"
+ },
+ "end_hold": 1.2,
+ "scenes": [
+  {
+   "n": 1,
+   "speaker": "b",
+   "text": "Temirchilar qabilasi chorak asr ichida Manjuriyadan Qora dengizgacha bo'lgan yerlarni egalladi. Bu qanday bo'lgan?",
+   "tts": "[mysterious] Temirchilar qabilasi chorak asr ichida Manjuriyadan Qora dengizgacha bo'lgan yerlarni egalladi. Bu qanday bo'lgan?",
+   "mood": "epic",
+   "img": "01.jpg",
+   "elements": [
+    {
+     "type": "tag",
+     "head": "552–576",
+     "text": "TURK XOQONLIGI",
+     "x": 540,
+     "y": 210,
+     "color": "crimson",
+     "at": "start"
+    },
+    {
+     "type": "caption",
+     "words": [
+      "CHORAK ASRDA",
+      "QORA DENGIZGACHA"
+     ],
+     "color": "yellow",
+     "y": 1330,
+     "size": 92,
+     "at": "chorak"
+    },
+    {
+     "type": "prop",
+     "img": "p_g_savol.jpg",
+     "x": 880,
+     "y": 640,
+     "h": 250,
+     "from": "pop",
+     "motion": "shake",
+     "at": "qanday"
+    }
+   ],
+   "vo": "vo_01.mp3",
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0"
+  },
+  {
+   "n": 2,
+   "speaker": "b",
+   "text": "Milodiy V–VI asrlarda turklar Oltoy tog'larida yashardi. Ular rouranlarga bo'ysunib, ularga temir qurol yasab berardi.",
+   "tts": "[serious] Milodiy beshinchi-oltinchi asrlarda turklar Oltoy tog'larida yashardi. Ular rouranlarga bo'ysunib, ularga temir qurol yasab berardi.",
+   "mood": "tense",
+   "img": "02.jpg",
+   "elements": [
+    {
+     "type": "card",
+     "kicker": "OLTOY",
+     "title": [
+      "TEMIRCHILAR"
+     ],
+     "sub": "rouranlarga qurol yasagan",
+     "at": "temir",
+     "y": 1330
+    },
+    {
+     "type": "prop",
+     "img": "p_g_temir.jpg",
+     "x": 880,
+     "y": 640,
+     "h": 250,
+     "from": "pop",
+     "motion": "shake",
+     "at": "qurol"
+    }
+   ],
+   "vo": "vo_02.mp3",
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0"
+  },
+  {
+   "n": 3,
+   "speaker": "m",
+   "text": "Usta bobo, temirchilar qanday qilib imperiya qurgan?",
+   "tts": "[curious] Usta bobo, temirchilar qanday qilib imperiya qurgan?",
+   "mood": "groove",
+   "img": "03.jpg",
+   "elements": [
+    {
+     "type": "bubble",
+     "speaker": "MALIKA",
+     "x": 540,
+     "y": 330,
+     "at": "start",
+     "hl": {
+      "imperiya": "red"
+     },
+     "tail": "down",
+     "tail_x": 0.75,
+     "tag": "pink",
+     "w": 880
+    },
+    {
+     "type": "char",
+     "img": "c_malika.jpg",
+     "from": "right",
+     "x": 810,
+     "y": 1440,
+     "h": 680,
+     "at": 0.1,
+     "motion": "jump",
+     "talk": [
+      "vo"
+     ],
+     "label": "MALIKA OPA",
+     "label_bg": "pink"
+    }
+   ],
+   "vo": "vo_03.mp3",
+   "voice_id": "rgK9zQmSATbqc0STi5u4"
+  },
+  {
+   "n": 4,
+   "speaker": "u",
+   "text": "Temir bor joyda qilich ham bo'ladi, qizim. Rouran xoqoni esa ularni «temirchi qullarim» deb kamsitgan.",
+   "tts": "[chuckles] Temir bor joyda qilich ham bo'ladi, qizim. Rouran xoqoni esa ularni temirchi qullarim deb kamsitgan.",
+   "mood": "warm",
+   "img": "03.jpg",
+   "elements": [
+    {
+     "type": "bubble",
+     "speaker": "USTA BOBO",
+     "x": 540,
+     "y": 330,
+     "at": "start",
+     "hl": {
+      "temirchi qullarim": "red"
+     },
+     "tail": "down",
+     "tail_x": 0.25,
+     "tag": "orange",
+     "w": 880
+    },
+    {
+     "type": "char",
+     "img": "c_usta.jpg",
+     "from": "left",
+     "x": 270,
+     "y": 1440,
+     "h": 680,
+     "at": 0.1,
+     "motion": "wag",
+     "talk": [
+      "vo"
+     ],
+     "label": "USTA BOBO",
+     "label_bg": "orange"
+    }
+   ],
+   "vo": "vo_04.mp3",
+   "voice_id": "eD0k57hUAx0oDuThLFT9"
+  },
+  {
+   "n": 5,
+   "speaker": "b",
+   "text": "552-yili Bumin rouranlarni tor-mor etdi va o'zini xoqon deb e'lon qildi.",
+   "tts": "[tense] Besh yuz ellik ikkinchi yili Bumin rouranlarni tor-mor etdi va o'zini xoqon deb e'lon qildi.",
+   "mood": "epic",
+   "img": "05.jpg",
+   "elements": [
+    {
+     "type": "tag",
+     "head": "YIL",
+     "text": "552",
+     "x": 540,
+     "y": 210,
+     "color": "royal",
+     "at": "start"
+    },
+    {
+     "type": "caption",
+     "words": [
+      "BUMIN",
+      "XOQON!"
+     ],
+     "color": "white",
+     "y": 1330,
+     "size": 92,
+     "at": "xoqon"
+    }
+   ],
+   "vo": "vo_05.mp3",
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0"
+  },
+  {
+   "n": 6,
+   "speaker": "b",
+   "text": "Bumin o'sha yili vafot etdi. Lekin ukasi Istami g'arbga, o'g'li Muqan esa sharqqa qarab yurdi.",
+   "tts": "[epic] Bumin o'sha yili vafot etdi. Lekin ukasi Istami g'arbga, o'g'li Muqan esa sharqqa qarab yurdi.",
+   "mood": "epic",
+   "img": "06.jpg",
+   "elements": [
+    {
+     "type": "caption",
+     "words": [
+      "G'ARBGA",
+      "VA SHARQQA"
+     ],
+     "color": "yellow",
+     "y": 1330,
+     "size": 92,
+     "at": "g'arbga"
+    },
+    {
+     "type": "prop",
+     "img": "p_g_bori.jpg",
+     "x": 880,
+     "y": 640,
+     "h": 250,
+     "from": "pop",
+     "motion": "shake",
+     "at": "Istami"
+    }
+   ],
+   "vo": "vo_06.mp3",
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0"
+  },
+  {
+   "n": 7,
+   "speaker": "b",
+   "text": "Taxminan 557-yili Istami Eron shohi bilan ittifoq tuzib, eftaliylarni yengdi. Movarounnahr turklar qo'liga o'tdi.",
+   "tts": "[serious] Taxminan besh yuz ellik yettinchi yili Istami Eron shohi bilan ittifoq tuzib, eftaliylarni yengdi. Movarounnahr turklar qo'liga o'tdi.",
+   "mood": "epic",
+   "img": "07.jpg",
+   "elements": [
+    {
+     "type": "tag",
+     "head": "~557",
+     "text": "EFTALIYLAR",
+     "x": 540,
+     "y": 210,
+     "color": "crimson",
+     "at": "start"
+    },
+    {
+     "type": "caption",
+     "words": [
+      "MOVAROUNNAHR",
+      "TURKLARDA"
+     ],
+     "color": "white",
+     "y": 1330,
+     "size": 92,
+     "at": "Movarounnahr"
+    }
+   ],
+   "vo": "vo_07.mp3",
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0"
+  },
+  {
+   "n": 8,
+   "speaker": "m",
+   "text": "Demak, Samarqand ham turklarga bo'ysungan ekan-da?!",
+   "tts": "[surprised] Demak, Samarqand ham turklarga bo'ysungan ekan-da?!",
+   "mood": "groove",
+   "img": "08.jpg",
+   "elements": [
+    {
+     "type": "bubble",
+     "speaker": "MALIKA",
+     "x": 540,
+     "y": 330,
+     "at": "start",
+     "hl": {
+      "Samarqand": "red"
+     },
+     "tail": "down",
+     "tail_x": 0.75,
+     "tag": "pink",
+     "w": 880
+    },
+    {
+     "type": "char",
+     "img": "c_malika.jpg",
+     "from": "right",
+     "x": 810,
+     "y": 1440,
+     "h": 680,
+     "at": 0.1,
+     "motion": "jump",
+     "talk": [
+      "vo"
+     ],
+     "label": "MALIKA OPA",
+     "label_bg": "pink"
+    }
+   ],
+   "vo": "vo_08.mp3",
+   "voice_id": "rgK9zQmSATbqc0STi5u4"
+  },
+  {
+   "n": 9,
+   "speaker": "u",
+   "text": "Ha, qizim. Lekin so'g'd savdogarlari ishini to'xtatmadi. Aksincha, ular xoqonning elchisi bo'lishdi.",
+   "tts": "[warmly] Ha, qizim. Lekin so'g'd savdogarlari ishini to'xtatmadi. Aksincha, ular xoqonning elchisi bo'lishdi.",
+   "mood": "warm",
+   "img": "08.jpg",
+   "elements": [
+    {
+     "type": "bubble",
+     "speaker": "USTA BOBO",
+     "x": 540,
+     "y": 330,
+     "at": "start",
+     "hl": {
+      "elchisi": "red"
+     },
+     "tail": "down",
+     "tail_x": 0.25,
+     "tag": "orange",
+     "w": 880
+    },
+    {
+     "type": "char",
+     "img": "c_usta.jpg",
+     "from": "left",
+     "x": 270,
+     "y": 1440,
+     "h": 680,
+     "at": 0.1,
+     "motion": "wag",
+     "talk": [
+      "vo"
+     ],
+     "label": "USTA BOBO",
+     "label_bg": "orange"
+    }
+   ],
+   "vo": "vo_09.mp3",
+   "voice_id": "eD0k57hUAx0oDuThLFT9"
+  },
+  {
+   "n": 10,
+   "speaker": "b",
+   "text": "568-yili so'g'dlik Maniax boshchiligidagi turk elchilari Konstantinopolga, Vizantiya imperatori huzuriga yetib bordi.",
+   "tts": "[serious] Besh yuz oltmish sakkizinchi yili so'g'dlik Maniax boshchiligidagi turk elchilari Konstantinopolga, Vizantiya imperatori huzuriga yetib bordi.",
+   "mood": "warm",
+   "img": "09.jpg",
+   "elements": [
+    {
+     "type": "tag",
+     "head": "YIL",
+     "text": "568",
+     "x": 540,
+     "y": 210,
+     "color": "royal",
+     "at": "start"
+    },
+    {
+     "type": "card",
+     "kicker": "ELCHILIK",
+     "title": [
+      "KONSTANTINOPOL"
+     ],
+     "sub": "so'g'dlik Maniax boshchiligida",
+     "at": "Konstantinopolga",
+     "y": 1330
+    }
+   ],
+   "vo": "vo_10.mp3",
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0"
+  },
+  {
+   "n": 11,
+   "speaker": "b",
+   "text": "Eng katta chog'ida xoqonlik qariyb 6 million kvadrat kilometrni egallagan. Sharqda Manjuriya, g'arbda Qora dengiz.",
+   "tts": "[epic] Eng katta chog'ida xoqonlik qariyb olti million kvadrat kilometrni egallagan. Sharqda Manjuriya, g'arbda Qora dengiz.",
+   "mood": "epic",
+   "img": "10.jpg",
+   "elements": [
+    {
+     "type": "caption",
+     "words": [
+      "~6 MLN KM²"
+     ],
+     "color": "yellow",
+     "y": 1330,
+     "size": 92,
+     "at": "6 million"
+    },
+    {
+     "type": "stamp",
+     "text": "MANJURIYA – QORA DENGIZ",
+     "y": 1350,
+     "rot": -6,
+     "at": "Manjuriya"
+    }
+   ],
+   "vo": "vo_11.mp3",
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0"
+  },
+  {
+   "n": 12,
+   "speaker": "m",
+   "text": "Usta bobo, Yaponiyagacha ham borishganmi?",
+   "tts": "[curious] Usta bobo, Yaponiyagacha ham borishganmi?",
+   "mood": "groove",
+   "img": "11.jpg",
+   "elements": [
+    {
+     "type": "bubble",
+     "speaker": "MALIKA",
+     "x": 540,
+     "y": 330,
+     "at": "start",
+     "hl": {
+      "Yaponiyagacha": "red"
+     },
+     "tail": "down",
+     "tail_x": 0.75,
+     "tag": "pink",
+     "w": 880
+    },
+    {
+     "type": "char",
+     "img": "c_malika.jpg",
+     "from": "right",
+     "x": 810,
+     "y": 1440,
+     "h": 680,
+     "at": 0.1,
+     "motion": "jump",
+     "talk": [
+      "vo"
+     ],
+     "label": "MALIKA OPA",
+     "label_bg": "pink"
+    }
+   ],
+   "vo": "vo_12.mp3",
+   "voice_id": "rgK9zQmSATbqc0STi5u4"
+  },
+  {
+   "n": 13,
+   "speaker": "u",
+   "text": "Yo'q, qizim. Yaponiya dengiz ortida edi. Turklar u yerga yetib bormagan.",
+   "tts": "[chuckles] Yo'q, qizim. Yaponiya dengiz ortida edi. Turklar u yerga yetib bormagan.",
+   "mood": "warm",
+   "img": "11.jpg",
+   "elements": [
+    {
+     "type": "bubble",
+     "speaker": "USTA BOBO",
+     "x": 540,
+     "y": 330,
+     "at": "start",
+     "hl": {
+      "dengiz ortida": "red"
+     },
+     "tail": "down",
+     "tail_x": 0.25,
+     "tag": "orange",
+     "w": 880
+    },
+    {
+     "type": "char",
+     "img": "c_usta.jpg",
+     "from": "left",
+     "x": 270,
+     "y": 1440,
+     "h": 680,
+     "at": 0.1,
+     "motion": "wag",
+     "talk": [
+      "vo"
+     ],
+     "label": "USTA BOBO",
+     "label_bg": "orange"
+    }
+   ],
+   "vo": "vo_13.mp3",
+   "voice_id": "eD0k57hUAx0oDuThLFT9"
+  },
+  {
+   "n": 14,
+   "speaker": "b",
+   "text": "Ammo bunday ulkan yurtni boshqarish oson emasdi. 581-yildan keyin taxt uchun kurash boshlandi va xoqonlik ikkiga bo'linib ketdi.",
+   "tts": "[sad] Ammo bunday ulkan yurtni boshqarish oson emasdi. Besh yuz sakson birinchi yildan keyin taxt uchun kurash boshlandi va xoqonlik ikkiga bo'linib ketdi.",
+   "mood": "sad",
+   "img": "12.jpg",
+   "elements": [
+    {
+     "type": "tag",
+     "head": "581–603",
+     "text": "BO'LINISH",
+     "x": 540,
+     "y": 210,
+     "color": "crimson",
+     "at": "start"
+    },
+    {
+     "type": "stamp",
+     "text": "IKKIGA BO'LINDI",
+     "y": 1350,
+     "rot": -6,
+     "at": "bo'linib"
+    },
+    {
+     "type": "prop",
+     "img": "p_g_qilich.jpg",
+     "x": 880,
+     "y": 640,
+     "h": 250,
+     "from": "pop",
+     "motion": "shake",
+     "at": "taxt"
+    }
+   ],
+   "vo": "vo_14.mp3",
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0"
+  },
+  {
+   "n": 15,
+   "speaker": "b",
+   "text": "Sizningcha, bu ulkan yurtni nima birlashtirib turgan: qilichmi yoki savdomi? Izohda yozing.",
+   "tts": "[playful] Sizningcha, bu ulkan yurtni nima birlashtirib turgan: qilichmi yoki savdomi? Izohda yozing.",
+   "mood": "finale",
+   "img": "01.jpg",
+   "elements": [
+    {
+     "type": "final",
+     "lines": [
+      "QILICHMI",
+      "YOKI SAVDOMI?"
+     ],
+     "at": 0.4
+    }
+   ],
+   "vo": "vo_15.mp3",
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0"
+  }
+ ]
+}

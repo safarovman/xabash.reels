@@ -1,0 +1,631 @@
+{
+ "title": "Antikitera mexanizmi",
+ "pace": "fast",
+ "music": {
+  "genre": "space",
+  "bpm": 94,
+  "key": 2,
+  "scale": "minor",
+  "progression": [
+   0,
+   5,
+   3,
+   4
+  ]
+ },
+ "music_seed": 1901,
+ "music_gain": 0.7,
+ "cover_title": [
+  "2000 YILLIK",
+  "KOMPYUTER"
+ ],
+ "cover_sub": "Antikitera mexanizmi",
+ "cover_scene": 0,
+ "cover": {
+  "layout": "diagonal",
+  "img": "cover.jpg",
+  "char": "c_soatsoz.jpg",
+  "props": [
+   "p_g_tishli.jpg"
+  ],
+  "badge": "1901",
+  "title_colors": [
+   [
+    240,
+    250,
+    250
+   ],
+   [
+    220,
+    170,
+    80
+   ]
+  ],
+  "accent": [
+   20,
+   110,
+   120
+  ],
+  "accent2": [
+   220,
+   170,
+   80
+  ]
+ },
+ "anim": "static",
+ "bright": true,
+ "theme": {
+  "font": "blackopsone",
+  "font2": "patrickhand",
+  "accent": [
+   20,
+   110,
+   120
+  ],
+  "accent2": [
+   220,
+   170,
+   80
+  ],
+  "bubble_bg": [
+   240,
+   246,
+   246
+  ],
+  "bubble_line": [
+   20,
+   80,
+   90
+  ],
+  "bubble_ink": [
+   20,
+   25,
+   30
+  ],
+  "bubble_dim": [
+   20,
+   110,
+   120
+  ],
+  "bubble_radius": 16,
+  "transitions": [
+   "zoom",
+   "slide",
+   "whip"
+  ],
+  "cut_fx": "flash"
+ },
+ "end_hold": 1.2,
+ "scenes": [
+  {
+   "n": 1,
+   "speaker": "b",
+   "text": "Dengiz tubidan ikki ming yillik kompyuter chiqdi.",
+   "tts": "[mysterious] Dengiz tubidan ikki ming yillik kompyuter chiqdi.",
+   "mood": "mystery",
+   "img": "01.jpg",
+   "elements": [
+    {
+     "type": "caption",
+     "words": [
+      "2000 YILLIK",
+      "KOMPYUTER"
+     ],
+     "color": "yellow",
+     "y": 1330,
+     "size": 92,
+     "at": "kompyuter"
+    },
+    {
+     "type": "prop",
+     "img": "p_g_savol.jpg",
+     "x": 880,
+     "y": 640,
+     "h": 250,
+     "from": "pop",
+     "motion": "shake",
+     "at": "chiqdi"
+    }
+   ],
+   "vo": "vo_01.mp3",
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0"
+  },
+  {
+   "n": 2,
+   "speaker": "b",
+   "text": "1901-yil. Yunon g'avvoslari Antikitera oroli yaqinidagi qadimgi kema halokatidan haykal va amforalarni chiqarishdi.",
+   "tts": "[serious] Bir ming to'qqiz yuz birinchi yil. Yunon g'avvoslari Antikitera oroli yaqinidagi qadimgi kema halokatidan haykal va amforalarni chiqarishdi.",
+   "mood": "warm",
+   "img": "02.jpg",
+   "elements": [
+    {
+     "type": "tag",
+     "head": "YIL",
+     "text": "1901",
+     "x": 540,
+     "y": 210,
+     "color": "royal",
+     "at": "start"
+    },
+    {
+     "type": "card",
+     "kicker": "ANTIKITERA",
+     "title": [
+      "KEMA HALOKATI"
+     ],
+     "sub": "Yunoniston",
+     "at": "Antikitera",
+     "y": 1330
+    }
+   ],
+   "vo": "vo_02.mp3",
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0"
+  },
+  {
+   "n": 3,
+   "speaker": "b",
+   "text": "Topilmalar orasida zang bosgan bronza bo'lagi ham bor edi. Avvaliga unga hech kim e'tibor bermadi.",
+   "tts": "[mysterious] Topilmalar orasida zang bosgan bronza bo'lagi ham bor edi. Avvaliga unga hech kim e'tibor bermadi.",
+   "mood": "mystery",
+   "img": "03.jpg",
+   "elements": [
+    {
+     "type": "caption",
+     "words": [
+      "ZANGLAGAN",
+      "BRONZA"
+     ],
+     "color": "yellow",
+     "y": 1330,
+     "size": 92,
+     "at": "bronza"
+    },
+    {
+     "type": "prop",
+     "img": "p_g_lupa.jpg",
+     "x": 880,
+     "y": 640,
+     "h": 250,
+     "from": "pop",
+     "motion": "shake",
+     "at": "e'tibor"
+    }
+   ],
+   "vo": "vo_03.mp3",
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0"
+  },
+  {
+   "n": 4,
+   "speaker": "n",
+   "text": "Soatsoz bobo, bu shunchaki zanglagan temir emasmidi?",
+   "tts": "[curious] Soatsoz bobo, bu shunchaki zanglagan temir emasmidi?",
+   "mood": "groove",
+   "img": "04.jpg",
+   "elements": [
+    {
+     "type": "bubble",
+     "speaker": "NARGIZA",
+     "x": 540,
+     "y": 330,
+     "at": "start",
+     "hl": {
+      "zanglagan": "red"
+     },
+     "tail": "down",
+     "tail_x": 0.75,
+     "tag": "pink",
+     "w": 880
+    },
+    {
+     "type": "char",
+     "img": "c_nargiza.jpg",
+     "from": "right",
+     "x": 810,
+     "y": 1440,
+     "h": 680,
+     "at": 0.1,
+     "motion": "jump",
+     "talk": [
+      "vo"
+     ],
+     "label": "NARGIZA",
+     "label_bg": "pink"
+    }
+   ],
+   "vo": "vo_04.mp3",
+   "voice_id": "rgK9zQmSATbqc0STi5u4"
+  },
+  {
+   "n": 5,
+   "speaker": "s",
+   "text": "Yo'q, qizim. Uning ichida tishli g'ildiraklar bor edi. Xuddi mening soatlarimdagidek.",
+   "tts": "[chuckles] Yo'q, qizim. Uning ichida tishli g'ildiraklar bor edi. Xuddi mening soatlarimdagidek.",
+   "mood": "warm",
+   "img": "04.jpg",
+   "elements": [
+    {
+     "type": "bubble",
+     "speaker": "SOATSOZ BOBO",
+     "x": 540,
+     "y": 330,
+     "at": "start",
+     "hl": {
+      "tishli g'ildiraklar": "red"
+     },
+     "tail": "down",
+     "tail_x": 0.25,
+     "tag": "orange",
+     "w": 880
+    },
+    {
+     "type": "char",
+     "img": "c_soatsoz.jpg",
+     "from": "left",
+     "x": 270,
+     "y": 1440,
+     "h": 680,
+     "at": 0.1,
+     "motion": "wag",
+     "talk": [
+      "vo"
+     ],
+     "label": "SOATSOZ BOBO",
+     "label_bg": "orange"
+    },
+    {
+     "type": "prop",
+     "img": "p_g_tishli.jpg",
+     "x": 880,
+     "y": 560,
+     "h": 250,
+     "from": "pop",
+     "motion": "spin",
+     "at": "soatlarimdagidek"
+    }
+   ],
+   "vo": "vo_05.mp3",
+   "voice_id": "eD0k57hUAx0oDuThLFT9"
+  },
+  {
+   "n": 6,
+   "speaker": "b",
+   "text": "Bugun uning 82 ta bo'lagi saqlangan. Ichida kamida 30 ta bronza tishli g'ildirak bor.",
+   "tts": "[serious] Bugun uning sakson ikkita bo'lagi saqlangan. Ichida kamida o'ttizta bronza tishli g'ildirak bor.",
+   "mood": "serious",
+   "img": "06.jpg",
+   "elements": [
+    {
+     "type": "caption",
+     "words": [
+      "82 BO'LAK"
+     ],
+     "color": "yellow",
+     "y": 1330,
+     "size": 92,
+     "at": "82"
+    },
+    {
+     "type": "stamp",
+     "text": "30+ G'ILDIRAK",
+     "y": 1350,
+     "rot": -6,
+     "at": "30"
+    }
+   ],
+   "vo": "vo_06.mp3",
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0"
+  },
+  {
+   "n": 7,
+   "speaker": "b",
+   "text": "Olimlar uni miloddan avvalgi II–I asrlarda yasalgan deb hisoblaydi. Bunday murakkab mexanizm keyin ming yildan ortiq vaqt ko'rinmagan.",
+   "tts": "[tense] Olimlar uni miloddan avvalgi ikkinchi yoki birinchi asrda yasalgan deb hisoblaydi. Bunday murakkab mexanizm keyin ming yildan ortiq vaqt ko'rinmagan.",
+   "mood": "tense",
+   "img": "07.jpg",
+   "elements": [
+    {
+     "type": "tag",
+     "head": "MIL. AVV.",
+     "text": "II–I ASR",
+     "x": 540,
+     "y": 210,
+     "color": "crimson",
+     "at": "start"
+    },
+    {
+     "type": "caption",
+     "words": [
+      "1000+ YIL",
+      "TENGI YO'Q"
+     ],
+     "color": "white",
+     "y": 1330,
+     "size": 92,
+     "at": "ming"
+    }
+   ],
+   "vo": "vo_07.mp3",
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0"
+  },
+  {
+   "n": 8,
+   "speaker": "n",
+   "text": "Ikki ming yil oldin-a?! Uni kim yasagan?",
+   "tts": "[surprised] Ikki ming yil oldin-a?! Uni kim yasagan?",
+   "mood": "groove",
+   "img": "07.jpg",
+   "elements": [
+    {
+     "type": "bubble",
+     "speaker": "NARGIZA",
+     "x": 540,
+     "y": 330,
+     "at": "start",
+     "hl": {
+      "kim": "red"
+     },
+     "tail": "down",
+     "tail_x": 0.75,
+     "tag": "pink",
+     "w": 880
+    },
+    {
+     "type": "char",
+     "img": "c_nargiza.jpg",
+     "from": "right",
+     "x": 810,
+     "y": 1440,
+     "h": 680,
+     "at": 0.1,
+     "motion": "jump",
+     "talk": [
+      "vo"
+     ],
+     "label": "NARGIZA",
+     "label_bg": "pink"
+    }
+   ],
+   "vo": "vo_08.mp3",
+   "voice_id": "rgK9zQmSATbqc0STi5u4"
+  },
+  {
+   "n": 9,
+   "speaker": "s",
+   "text": "Ustaning nomini hech kim bilmaydi, qizim. Bu hali ham sir.",
+   "tts": "[warmly] Ustaning nomini hech kim bilmaydi, qizim. Bu hali ham sir.",
+   "mood": "mystery",
+   "img": "05.jpg",
+   "elements": [
+    {
+     "type": "bubble",
+     "speaker": "SOATSOZ BOBO",
+     "x": 540,
+     "y": 330,
+     "at": "start",
+     "hl": {
+      "sir": "red"
+     },
+     "tail": "down",
+     "tail_x": 0.25,
+     "tag": "orange",
+     "w": 880
+    },
+    {
+     "type": "char",
+     "img": "c_soatsoz.jpg",
+     "from": "left",
+     "x": 270,
+     "y": 1440,
+     "h": 680,
+     "at": 0.1,
+     "motion": "wag",
+     "talk": [
+      "vo"
+     ],
+     "label": "SOATSOZ BOBO",
+     "label_bg": "orange"
+    }
+   ],
+   "vo": "vo_09.mp3",
+   "voice_id": "eD0k57hUAx0oDuThLFT9"
+  },
+  {
+   "n": 10,
+   "speaker": "b",
+   "text": "2005-yili olimlar uni rentgen tomografiyasida tekshirdi. Ichidagi g'ildiraklar va mayda yozuvlar ko'rindi.",
+   "tts": "[serious] Ikki ming beshinchi yili olimlar uni rentgen tomografiyasida tekshirdi. Ichidagi g'ildiraklar va mayda yozuvlar ko'rindi.",
+   "mood": "serious",
+   "img": "08.jpg",
+   "elements": [
+    {
+     "type": "tag",
+     "head": "YIL",
+     "text": "2005",
+     "x": 540,
+     "y": 210,
+     "color": "royal",
+     "at": "start"
+    },
+    {
+     "type": "caption",
+     "words": [
+      "RENTGEN",
+      "TOMOGRAFIYA"
+     ],
+     "color": "yellow",
+     "y": 1330,
+     "size": 92,
+     "at": "rentgen"
+    }
+   ],
+   "vo": "vo_10.mp3",
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0"
+  },
+  {
+   "n": 11,
+   "speaker": "b",
+   "text": "Ma'lum bo'ldiki, u Quyosh va Oyning osmondagi o'rnini, Oy fazalarini va tutilishlarni oldindan ko'rsatgan.",
+   "tts": "[epic] Ma'lum bo'ldiki, u Quyosh va Oyning osmondagi o'rnini, Oy fazalarini va tutilishlarni oldindan ko'rsatgan.",
+   "mood": "epic",
+   "img": "10.jpg",
+   "elements": [
+    {
+     "type": "caption",
+     "words": [
+      "QUYOSH · OY",
+      "TUTILISHLAR"
+     ],
+     "color": "white",
+     "y": 1330,
+     "size": 92,
+     "at": "tutilishlarni"
+    }
+   ],
+   "vo": "vo_11.mp3",
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0"
+  },
+  {
+   "n": 12,
+   "speaker": "b",
+   "text": "2021-yili London universiteti olimlari uning sayyoralar qismini ham qayta tikladi. Unda o'sha davrda ma'lum beshta sayyora bor edi.",
+   "tts": "[serious] Ikki ming yigirma birinchi yili London universiteti olimlari uning sayyoralar qismini ham qayta tikladi. Unda o'sha davrda ma'lum beshta sayyora bor edi.",
+   "mood": "warm",
+   "img": "11.jpg",
+   "elements": [
+    {
+     "type": "tag",
+     "head": "YIL",
+     "text": "2021",
+     "x": 540,
+     "y": 210,
+     "color": "royal",
+     "at": "start"
+    },
+    {
+     "type": "card",
+     "kicker": "LONDON UNIVERSITETI",
+     "title": [
+      "5 SAYYORA"
+     ],
+     "sub": "qayta tiklangan model",
+     "at": "beshta",
+     "y": 1330
+    }
+   ],
+   "vo": "vo_12.mp3",
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0"
+  },
+  {
+   "n": 13,
+   "speaker": "n",
+   "text": "Demak, bu dunyodagi birinchi kompyutermi?",
+   "tts": "[curious] Demak, bu dunyodagi birinchi kompyutermi?",
+   "mood": "groove",
+   "img": "09.jpg",
+   "elements": [
+    {
+     "type": "bubble",
+     "speaker": "NARGIZA",
+     "x": 540,
+     "y": 330,
+     "at": "start",
+     "hl": {
+      "birinchi kompyuter": "red"
+     },
+     "tail": "down",
+     "tail_x": 0.75,
+     "tag": "pink",
+     "w": 880
+    },
+    {
+     "type": "char",
+     "img": "c_nargiza.jpg",
+     "from": "right",
+     "x": 810,
+     "y": 1440,
+     "h": 680,
+     "at": 0.1,
+     "motion": "jump",
+     "talk": [
+      "vo"
+     ],
+     "label": "NARGIZA",
+     "label_bg": "pink"
+    }
+   ],
+   "vo": "vo_13.mp3",
+   "voice_id": "rgK9zQmSATbqc0STi5u4"
+  },
+  {
+   "n": 14,
+   "speaker": "s",
+   "text": "Unda elektr yo'q, qizim. Lekin osmonni hisoblaydigan mashina. Shuning uchun uni birinchi analog kompyuter deyishadi.",
+   "tts": "[warmly] Unda elektr yo'q, qizim. Lekin osmonni hisoblaydigan mashina. Shuning uchun uni birinchi analog kompyuter deyishadi.",
+   "mood": "warm",
+   "img": "09.jpg",
+   "elements": [
+    {
+     "type": "bubble",
+     "speaker": "SOATSOZ BOBO",
+     "x": 540,
+     "y": 330,
+     "at": "start",
+     "hl": {
+      "analog kompyuter": "red"
+     },
+     "tail": "down",
+     "tail_x": 0.25,
+     "tag": "orange",
+     "w": 880
+    },
+    {
+     "type": "char",
+     "img": "c_soatsoz.jpg",
+     "from": "left",
+     "x": 270,
+     "y": 1440,
+     "h": 680,
+     "at": 0.1,
+     "motion": "wag",
+     "talk": [
+      "vo"
+     ],
+     "label": "SOATSOZ BOBO",
+     "label_bg": "orange"
+    },
+    {
+     "type": "prop",
+     "img": "p_g_soat.jpg",
+     "x": 880,
+     "y": 560,
+     "h": 250,
+     "from": "pop",
+     "motion": "float",
+     "at": "hisoblaydigan"
+    }
+   ],
+   "vo": "vo_14.mp3",
+   "voice_id": "eD0k57hUAx0oDuThLFT9"
+  },
+  {
+   "n": 15,
+   "speaker": "b",
+   "text": "Sizningcha, dengiz tubida yana qanday qadimiy ixtirolar yotibdi? Izohda yozing.",
+   "tts": "[playful] Sizningcha, dengiz tubida yana qanday qadimiy ixtirolar yotibdi? Izohda yozing.",
+   "mood": "finale",
+   "img": "12.jpg",
+   "elements": [
+    {
+     "type": "final",
+     "lines": [
+      "DENGIZ TUBIDA",
+      "YANA NIMA BOR?"
+     ],
+     "at": 0.4
+    }
+   ],
+   "vo": "vo_15.mp3",
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0"
+  }
+ ]
+}

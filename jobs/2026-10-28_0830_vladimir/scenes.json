@@ -1,0 +1,635 @@
+{
+ "title": "Knyaz Vladimir va islom",
+ "pace": "fast",
+ "music": {
+  "genre": "sparse",
+  "bpm": 90,
+  "key": -4,
+  "scale": "minor",
+  "progression": [
+   0,
+   5,
+   3,
+   4
+  ]
+ },
+ "music_seed": 986,
+ "music_gain": 0.7,
+ "cover_title": [
+  "BIR QADAH",
+  "SHAROB"
+ ],
+ "cover_sub": "Knyaz Vladimir islomni nega rad etdi?",
+ "cover_scene": 0,
+ "cover": {
+  "layout": "polaroid",
+  "img": "cover.jpg",
+  "char": "c_hakim.jpg",
+  "props": [
+   "p_g_qadah.jpg"
+  ],
+  "badge": "986",
+  "title_colors": [
+   [
+    250,
+    240,
+    215
+   ],
+   [
+    200,
+    60,
+    60
+   ]
+  ],
+  "accent": [
+   140,
+   40,
+   40
+  ],
+  "accent2": [
+   220,
+   170,
+   70
+  ]
+ },
+ "anim": "static",
+ "bright": true,
+ "theme": {
+  "font": "lobster",
+  "font2": "caveat",
+  "accent": [
+   140,
+   40,
+   40
+  ],
+  "accent2": [
+   220,
+   170,
+   70
+  ],
+  "bubble_bg": [
+   249,
+   243,
+   232
+  ],
+  "bubble_line": [
+   110,
+   40,
+   40
+  ],
+  "bubble_ink": [
+   30,
+   25,
+   25
+  ],
+  "bubble_dim": [
+   140,
+   40,
+   40
+  ],
+  "bubble_radius": 12,
+  "transitions": [
+   "torn",
+   "zoom",
+   "slide"
+  ],
+  "cut_fx": "whip"
+ },
+ "end_hold": 1.2,
+ "scenes": [
+  {
+   "n": 1,
+   "speaker": "b",
+   "text": "Rus yurti musulmon bo'lishiga bir qadah sharob qolgan edi.",
+   "tts": "[mysterious] Rus yurti musulmon bo'lishiga bir qadah sharob qolgan edi.",
+   "mood": "mystery",
+   "img": "01.jpg",
+   "elements": [
+    {
+     "type": "tag",
+     "head": "986–988",
+     "text": "KIYEV RUSI",
+     "x": 540,
+     "y": 210,
+     "color": "crimson",
+     "at": "start"
+    },
+    {
+     "type": "caption",
+     "words": [
+      "BIR QADAH",
+      "SHAROB"
+     ],
+     "color": "yellow",
+     "y": 1330,
+     "size": 92,
+     "at": "qadah"
+    },
+    {
+     "type": "prop",
+     "img": "p_g_qadah.jpg",
+     "x": 880,
+     "y": 640,
+     "h": 250,
+     "from": "pop",
+     "motion": "shake",
+     "at": "musulmon"
+    }
+   ],
+   "vo": "vo_01.mp3",
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0"
+  },
+  {
+   "n": 2,
+   "speaker": "b",
+   "text": "X asr. Kiyev knyazi Svyatoslavning uch o'g'li bor edi: Yaropolk, Oleg va eng kichigi Vladimir.",
+   "tts": "[serious] O'ninchi asr. Kiyev knyazi Svyatoslavning uch o'g'li bor edi: Yaropolk, Oleg va eng kichigi Vladimir.",
+   "mood": "warm",
+   "img": "02.jpg",
+   "elements": [
+    {
+     "type": "card",
+     "kicker": "SVYATOSLAVNING O'G'ILLARI",
+     "title": [
+      "UCH AKA-UKA"
+     ],
+     "sub": "Yaropolk · Oleg · Vladimir",
+     "at": "uch",
+     "y": 1330
+    }
+   ],
+   "vo": "vo_02.mp3",
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0"
+  },
+  {
+   "n": 3,
+   "speaker": "d",
+   "text": "Hakim bobo, Vladimir aka-ukalarning eng kattasi emasmidi?",
+   "tts": "[curious] Hakim bobo, Vladimir aka-ukalarning eng kattasi emasmidi?",
+   "mood": "groove",
+   "img": "03.jpg",
+   "elements": [
+    {
+     "type": "bubble",
+     "speaker": "DILFUZA",
+     "x": 540,
+     "y": 330,
+     "at": "start",
+     "hl": {
+      "eng kattasi": "red"
+     },
+     "tail": "down",
+     "tail_x": 0.75,
+     "tag": "pink",
+     "w": 880
+    },
+    {
+     "type": "char",
+     "img": "c_dilfuza.jpg",
+     "from": "right",
+     "x": 810,
+     "y": 1440,
+     "h": 680,
+     "at": 0.1,
+     "motion": "jump",
+     "talk": [
+      "vo"
+     ],
+     "label": "DILFUZA OPA",
+     "label_bg": "pink"
+    }
+   ],
+   "vo": "vo_03.mp3",
+   "voice_id": "rgK9zQmSATbqc0STi5u4"
+  },
+  {
+   "n": 4,
+   "speaker": "h",
+   "text": "Yo'q, qizim. U eng kichigi edi. Onasi esa saroydagi oddiy xizmatkor Malusha edi.",
+   "tts": "[chuckles] Yo'q, qizim. U eng kichigi edi. Onasi esa saroydagi oddiy xizmatkor Malusha edi.",
+   "mood": "warm",
+   "img": "03.jpg",
+   "elements": [
+    {
+     "type": "bubble",
+     "speaker": "HAKIM BOBO",
+     "x": 540,
+     "y": 330,
+     "at": "start",
+     "hl": {
+      "eng kichigi": "red"
+     },
+     "tail": "down",
+     "tail_x": 0.25,
+     "tag": "navy",
+     "w": 880
+    },
+    {
+     "type": "char",
+     "img": "c_hakim.jpg",
+     "from": "left",
+     "x": 270,
+     "y": 1440,
+     "h": 680,
+     "at": 0.1,
+     "motion": "wag",
+     "talk": [
+      "vo"
+     ],
+     "label": "HAKIM BOBO",
+     "label_bg": "navy"
+    }
+   ],
+   "vo": "vo_04.mp3",
+   "voice_id": "eD0k57hUAx0oDuThLFT9"
+  },
+  {
+   "n": 5,
+   "speaker": "b",
+   "text": "Otasi o'lgach, aka-ukalar taxt uchun urushdi. Oleg halok bo'ldi, Vladimir esa Skandinaviyaga qochdi.",
+   "tts": "[tense] Otasi o'lgach, aka-ukalar taxt uchun urushdi. Oleg halok bo'ldi, Vladimir esa Skandinaviyaga qochdi.",
+   "mood": "tense",
+   "img": "04.jpg",
+   "elements": [
+    {
+     "type": "caption",
+     "words": [
+      "TAXT",
+      "URUSHI"
+     ],
+     "color": "yellow",
+     "y": 1330,
+     "size": 92,
+     "at": "taxt"
+    },
+    {
+     "type": "stamp",
+     "text": "SKANDINAVIYAGA QOCHDI",
+     "y": 1350,
+     "rot": -6,
+     "at": "Skandinaviyaga"
+    }
+   ],
+   "vo": "vo_05.mp3",
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0"
+  },
+  {
+   "n": 6,
+   "speaker": "b",
+   "text": "U vareglar qo'shini bilan qaytib, 980-yili Kiyevni egalladi. Endi butun Rus uning qo'lida edi.",
+   "tts": "[epic] U vareglar qo'shini bilan qaytib, to'qqiz yuz saksoninchi yili Kiyevni egalladi. Endi butun Rus uning qo'lida edi.",
+   "mood": "epic",
+   "img": "06.jpg",
+   "elements": [
+    {
+     "type": "tag",
+     "head": "YIL",
+     "text": "980",
+     "x": 540,
+     "y": 210,
+     "color": "royal",
+     "at": "start"
+    },
+    {
+     "type": "caption",
+     "words": [
+      "KIYEV",
+      "UNIKI"
+     ],
+     "color": "white",
+     "y": 1330,
+     "size": 92,
+     "at": "Kiyevni"
+    }
+   ],
+   "vo": "vo_06.mp3",
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0"
+  },
+  {
+   "n": 7,
+   "speaker": "b",
+   "text": "Rus yilnomasida yozilishicha, 986-yili uning huzuriga turli dinlarning elchilari kela boshladi.",
+   "tts": "[serious] Rus yilnomasida yozilishicha, to'qqiz yuz sakson oltinchi yili uning huzuriga turli dinlarning elchilari kela boshladi.",
+   "mood": "mystery",
+   "img": "07.jpg",
+   "elements": [
+    {
+     "type": "tag",
+     "head": "YIL",
+     "text": "986",
+     "x": 540,
+     "y": 210,
+     "color": "royal",
+     "at": "start"
+    },
+    {
+     "type": "card",
+     "kicker": "RUS YILNOMASI",
+     "title": [
+      "DINLAR ELCHILARI"
+     ],
+     "sub": "rivoyat qilishlaricha",
+     "at": "elchilari",
+     "y": 1330
+    }
+   ],
+   "vo": "vo_07.mp3",
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0"
+  },
+  {
+   "n": 8,
+   "speaker": "b",
+   "text": "Birinchi bo'lib Volga bo'yidagi bulg'orlar keldi. Ular 922-yildayoq islomni qabul qilgan edi.",
+   "tts": "[warmly] Birinchi bo'lib Volga bo'yidagi bulg'orlar keldi. Ular to'qqiz yuz yigirma ikkinchi yildayoq islomni qabul qilgan edi.",
+   "mood": "warm",
+   "img": "08.jpg",
+   "elements": [
+    {
+     "type": "caption",
+     "words": [
+      "VOLGA",
+      "BULG'ORLARI"
+     ],
+     "color": "yellow",
+     "y": 1330,
+     "size": 92,
+     "at": "bulg'orlar"
+    },
+    {
+     "type": "tag",
+     "head": "922-YILDAN",
+     "text": "MUSULMON",
+     "x": 540,
+     "y": 210,
+     "color": "green",
+     "at": "start"
+    }
+   ],
+   "vo": "vo_08.mp3",
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0"
+  },
+  {
+   "n": 9,
+   "speaker": "d",
+   "text": "Vladimir rozi bo'ldimi?!",
+   "tts": "[surprised] Vladimir rozi bo'ldimi?!",
+   "mood": "groove",
+   "img": "08.jpg",
+   "elements": [
+    {
+     "type": "bubble",
+     "speaker": "DILFUZA",
+     "x": 540,
+     "y": 330,
+     "at": "start",
+     "hl": {
+      "rozi": "red"
+     },
+     "tail": "down",
+     "tail_x": 0.75,
+     "tag": "pink",
+     "w": 880
+    },
+    {
+     "type": "char",
+     "img": "c_dilfuza.jpg",
+     "from": "right",
+     "x": 810,
+     "y": 1440,
+     "h": 680,
+     "at": 0.1,
+     "motion": "jump",
+     "talk": [
+      "vo"
+     ],
+     "label": "DILFUZA OPA",
+     "label_bg": "pink"
+    }
+   ],
+   "vo": "vo_09.mp3",
+   "voice_id": "rgK9zQmSATbqc0STi5u4"
+  },
+  {
+   "n": 10,
+   "speaker": "h",
+   "text": "Avvaliga qiziqib tinglagan, qizim. Lekin cho'chqa go'shti va sharob man etilishini eshitib, bosh tortgan.",
+   "tts": "[warmly] Avvaliga qiziqib tinglagan, qizim. Lekin cho'chqa go'shti va sharob man etilishini eshitib, bosh tortgan.",
+   "mood": "warm",
+   "img": "09.jpg",
+   "elements": [
+    {
+     "type": "bubble",
+     "speaker": "HAKIM BOBO",
+     "x": 540,
+     "y": 330,
+     "at": "start",
+     "hl": {
+      "sharob": "red"
+     },
+     "tail": "down",
+     "tail_x": 0.25,
+     "tag": "navy",
+     "w": 880
+    },
+    {
+     "type": "char",
+     "img": "c_hakim.jpg",
+     "from": "left",
+     "x": 270,
+     "y": 1440,
+     "h": 680,
+     "at": 0.1,
+     "motion": "wag",
+     "talk": [
+      "vo"
+     ],
+     "label": "HAKIM BOBO",
+     "label_bg": "navy"
+    }
+   ],
+   "vo": "vo_10.mp3",
+   "voice_id": "eD0k57hUAx0oDuThLFT9"
+  },
+  {
+   "n": 11,
+   "speaker": "b",
+   "text": "Yilnomada uning gapi saqlangan: «Rusning quvonchi — ichish. Usiz yashay olmaymiz.»",
+   "tts": "[playful] Yilnomada uning gapi saqlangan: Rusning quvonchi ichish. Usiz yashay olmaymiz.",
+   "mood": "groove",
+   "img": "09.jpg",
+   "elements": [
+    {
+     "type": "caption",
+     "words": [
+      "«RUSNING QUVONCHI",
+      "— ICHISH»"
+     ],
+     "color": "white",
+     "y": 1330,
+     "size": 92,
+     "at": "quvonchi"
+    },
+    {
+     "type": "prop",
+     "img": "p_g_qadah.jpg",
+     "x": 880,
+     "y": 640,
+     "h": 250,
+     "from": "pop",
+     "motion": "shake",
+     "at": "ichish"
+    }
+   ],
+   "vo": "vo_11.mp3",
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0"
+  },
+  {
+   "n": 12,
+   "speaker": "b",
+   "text": "Keyin u yahudiylar va nemis nasroniylarini ham tingladi, elchilarini esa Konstantinopolga yubordi.",
+   "tts": "[serious] Keyin u yahudiylar va nemis nasroniylarini ham tingladi, elchilarini esa Konstantinopolga yubordi.",
+   "mood": "serious",
+   "img": "07.jpg",
+   "elements": [
+    {
+     "type": "caption",
+     "words": [
+      "KONSTANTINOPOLGA"
+     ],
+     "color": "yellow",
+     "y": 1330,
+     "size": 92,
+     "at": "Konstantinopolga"
+    }
+   ],
+   "vo": "vo_12.mp3",
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0"
+  },
+  {
+   "n": 13,
+   "speaker": "b",
+   "text": "Elchilar Ayasofiya ibodatxonasini ko'rib: «Osmondamizmi yo yerdamizmi, bilmay qoldik», deyishgan.",
+   "tts": "[awed] Elchilar Ayasofiya ibodatxonasini ko'rib: Osmondamizmi yo yerdamizmi, bilmay qoldik, deyishgan.",
+   "mood": "epic",
+   "img": "10.jpg",
+   "elements": [
+    {
+     "type": "card",
+     "kicker": "AYASOFIYA",
+     "title": [
+      "OSMONDAMIZMI?"
+     ],
+     "sub": "elchilar hayrati",
+     "at": "Ayasofiya",
+     "y": 1330
+    }
+   ],
+   "vo": "vo_13.mp3",
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0"
+  },
+  {
+   "n": 14,
+   "speaker": "b",
+   "text": "988-yili Vladimir Qrimdagi Xersones shahrida cho'qintirildi va Vizantiya malikasi Annaga uylandi.",
+   "tts": "[serious] To'qqiz yuz sakson sakkizinchi yili Vladimir Qrimdagi Xersones shahrida cho'qintirildi va Vizantiya malikasi Annaga uylandi.",
+   "mood": "epic",
+   "img": "11.jpg",
+   "elements": [
+    {
+     "type": "tag",
+     "head": "YIL",
+     "text": "988",
+     "x": 540,
+     "y": 210,
+     "color": "royal",
+     "at": "start"
+    },
+    {
+     "type": "caption",
+     "words": [
+      "XERSONES",
+      "VA ANNA"
+     ],
+     "color": "white",
+     "y": 1330,
+     "size": 92,
+     "at": "Annaga"
+    }
+   ],
+   "vo": "vo_14.mp3",
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0"
+  },
+  {
+   "n": 15,
+   "speaker": "h",
+   "text": "Lekin tarixchilar bu hikoyani rivoyat deb biladi, qizim. Asl sabab — Vizantiya bilan ittifoq va siyosat bo'lgan.",
+   "tts": "[warmly] Lekin tarixchilar bu hikoyani rivoyat deb biladi, qizim. Asl sabab Vizantiya bilan ittifoq va siyosat bo'lgan.",
+   "mood": "warm",
+   "img": "12.jpg",
+   "elements": [
+    {
+     "type": "bubble",
+     "speaker": "HAKIM BOBO",
+     "x": 540,
+     "y": 330,
+     "at": "start",
+     "hl": {
+      "rivoyat": "red",
+      "siyosat": "red"
+     },
+     "tail": "down",
+     "tail_x": 0.25,
+     "tag": "navy",
+     "w": 880
+    },
+    {
+     "type": "char",
+     "img": "c_hakim.jpg",
+     "from": "left",
+     "x": 270,
+     "y": 1440,
+     "h": 680,
+     "at": 0.1,
+     "motion": "wag",
+     "talk": [
+      "vo"
+     ],
+     "label": "HAKIM BOBO",
+     "label_bg": "navy"
+    },
+    {
+     "type": "prop",
+     "img": "p_g_tarozi.jpg",
+     "x": 880,
+     "y": 560,
+     "h": 250,
+     "from": "pop",
+     "motion": "float",
+     "at": "ittifoq"
+    }
+   ],
+   "vo": "vo_15.mp3",
+   "voice_id": "eD0k57hUAx0oDuThLFT9"
+  },
+  {
+   "n": 16,
+   "speaker": "b",
+   "text": "Sizningcha, bu tanlovni nima hal qildi: sharobmi yoki siyosatmi? Izohda yozing.",
+   "tts": "[playful] Sizningcha, bu tanlovni nima hal qildi: sharobmi yoki siyosatmi? Izohda yozing.",
+   "mood": "finale",
+   "img": "cover.jpg",
+   "elements": [
+    {
+     "type": "final",
+     "lines": [
+      "SHAROBMI",
+      "YOKI SIYOSATMI?"
+     ],
+     "at": 0.4
+    }
+   ],
+   "vo": "vo_16.mp3",
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0"
+  }
+ ]
+}

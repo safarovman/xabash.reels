@@ -65,3 +65,7 @@ Avvalgi konteynerdagi rasm/ovoz fayllari yo'qolgan (repo'da yo'q) — kompyuter 
 
 ## 26-okt 02:05 — A tayyor
 - 08:00 Tutanxamon (Buffer 6ade65fa), 10:30 Muqanna (6ade6f4d), 12:30 Syuan Szan (6ade6f50) — hammasi automatic, reel. Kompyuter 00:50 da ulandi; rasmlar Flow'da, ovozlar vo_sessions.json dan.
+
+## 27-okt 16:10 — egasi so'rovi (A sessiya)
+- 27-okt 18:30 — Turk xoqonligi (egasi aytdi; B slotida post yo'q edi). Tuzatish: mil. 552-yil (mil. avv. 5-asr emas), Yaponiyagacha emas — Manjuriyadan Qora dengizgacha.
+- 28-okt 08:30 — Knyaz Vladimir va islom; 10:30 — Antikitera mexanizmi. (28-okt 08:00/12:30 — bo'sh, egasi 08:30/10:30 dedi.)

@@ -1,0 +1,709 @@
+{
+ "title": "Backend: to'y oshxonasi",
+ "pace": "fast",
+ "music": {
+  "genre": "doira_folk",
+  "bpm": 118,
+  "key": 4,
+  "scale": "hijaz",
+  "progression": [
+   0,
+   3,
+   4,
+   3
+  ]
+ },
+ "music_seed": 2021,
+ "music_gain": 0.7,
+ "cover_title": [
+  "OSHXONA TO'XTADI",
+  "DUNYO O'CHDI"
+ ],
+ "cover_sub": "Ilovaning ko'rinmas qismi",
+ "cover_scene": 0,
+ "cover": {
+  "layout": "polaroid",
+  "img": "cover.jpg",
+  "tilt": -5,
+  "badge": "6 SOAT",
+  "title_colors": [
+   [
+    120,
+    40,
+    16
+   ],
+   [
+    196,
+    74,
+    30
+   ]
+  ],
+  "accent": [
+   196,
+   74,
+   30
+  ],
+  "accent2": [
+   244,
+   196,
+   92
+  ]
+ },
+ "anim": "static",
+ "bright": true,
+ "logo": "/home/claude/xabash.reels/brand/logo_joylinks_plate.png",
+ "theme": {
+  "font": "shrikhand",
+  "font2": "fredoka",
+  "accent": [
+   196,
+   74,
+   30
+  ],
+  "accent2": [
+   244,
+   196,
+   92
+  ],
+  "bubble_bg": [
+   255,
+   244,
+   222
+  ],
+  "bubble_line": [
+   120,
+   56,
+   24
+  ],
+  "bubble_ink": [
+   50,
+   26,
+   14
+  ],
+  "bubble_dim": [
+   170,
+   140,
+   110
+  ],
+  "bubble_radius": 34,
+  "transitions": [
+   "zoom",
+   "slide",
+   "whip"
+  ],
+  "cut_fx": "punch"
+ },
+ "end_hold": 1.4,
+ "scenes": [
+  {
+   "n": 1,
+   "speaker": "n",
+   "text": "Olti soat. Milliardlab odam yozisha olmay qoldi. Sababi bitta buyruq edi.",
+   "tts": "[tense] Olti soat. Milliardlab odam yozisha olmay qoldi. Sababi bitta buyruq edi.",
+   "mood": "tense",
+   "img": "01.jpg",
+   "vo": "vo_01.mp3",
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0",
+   "elements": [
+    {
+     "type": "caption",
+     "words": [
+      "OLTI",
+      "SOAT.",
+      "BITTA",
+      "BUYRUQ."
+     ],
+     "color": "yellow",
+     "y": 1340,
+     "size": 84,
+     "at": 0.1
+    },
+    {
+     "type": "tag",
+     "head": "VAQT",
+     "text": "6 SOAT",
+     "x": 170,
+     "y": 210,
+     "color": "red",
+     "at": "start"
+    },
+    {
+     "type": "mark",
+     "shape": "underline",
+     "x": 540,
+     "y": 1400,
+     "w": 620,
+     "h": 40,
+     "at": "bitta buyruq",
+     "color": "red"
+    }
+   ],
+   "imgs": [
+    [
+     "01b.jpg",
+     "bitta buyruq"
+    ]
+   ]
+  },
+  {
+   "n": 2,
+   "speaker": "n",
+   "text": "Uni ekranda hech kim ko'rmagan. Chunki u ilovaning ko'rinmas qismida yashaydi.",
+   "tts": "[whispers] Uni ekranda hech kim ko'rmagan. Chunki u ilovaning ko'rinmas qismida yashaydi.",
+   "mood": "mystery",
+   "img": "02.jpg",
+   "vo": "vo_02.mp3",
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0",
+   "elements": [
+    {
+     "type": "caption",
+     "words": [
+      "ILOVANING",
+      "KO'RINMAS",
+      "QISMI"
+     ],
+     "color": "yellow",
+     "y": 1340,
+     "size": 84,
+     "at": 0.1
+    },
+    {
+     "type": "mark",
+     "shape": "arrow",
+     "x": 240,
+     "y": 760,
+     "w": 200,
+     "h": 120,
+     "at": "ko'rinmas",
+     "color": "red",
+     "to": [
+      560,
+      960
+     ]
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "speaker": "nabira",
+   "text": "Bobo, mana bu yurakchani bosdim. Qayoqqa ketdi u?",
+   "tts": "[surprised] Bobo, mana bu yurakchani bosdim. Qayoqqa ketdi u?",
+   "mood": "groove",
+   "img": "03.jpg",
+   "vo": "vo_03.mp3",
+   "voice_id": "CBeZJ4EnTnrJmhtlMCNC",
+   "elements": [
+    {
+     "type": "char",
+     "img": "c_nabira.jpg",
+     "from": "left",
+     "x": 290,
+     "y": 1450,
+     "h": 880,
+     "at": 0.05,
+     "talk": [
+      "vo"
+     ],
+     "motion": "bounce",
+     "label": "ULUG'BEK"
+    },
+    {
+     "type": "bubble",
+     "speaker": "ULUG'BEK",
+     "text": "Bobo, mana bu yurakchani bosdim. Qayoqqa ketdi u?",
+     "x": 540,
+     "y": 340,
+     "at": "start",
+     "tail": "down",
+     "tail_x": 0.25
+    },
+    {
+     "type": "prop",
+     "img": "p_g_yurak.jpg",
+     "x": 820,
+     "y": 740,
+     "h": 280,
+     "at": "yurakchani",
+     "motion": "jump"
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "speaker": "bobo",
+   "text": "Ex bolam, oshni yeysan-u, oshxonaga kirmaysan-da.",
+   "tts": "[elderly voice] [chuckles] Ex bolam, oshni yeysan-u, oshxonaga kirmaysan-da.",
+   "mood": "warm",
+   "img": "04.jpg",
+   "vo": "vo_04.mp3",
+   "voice_id": "eD0k57hUAx0oDuThLFT9",
+   "elements": [
+    {
+     "type": "char",
+     "img": "c_bobo.jpg",
+     "from": "right",
+     "x": 790,
+     "y": 1450,
+     "h": 880,
+     "at": 0.05,
+     "talk": [
+      "vo"
+     ],
+     "motion": "bounce",
+     "label": "BOBO"
+    },
+    {
+     "type": "bubble",
+     "speaker": "BOBO",
+     "text": "Ex bolam, oshni yeysan-u, oshxonaga kirmaysan-da.",
+     "x": 540,
+     "y": 340,
+     "at": "start",
+     "tail": "down",
+     "tail_x": 0.75
+    }
+   ],
+   "imgs": [
+    [
+     "04b.jpg",
+     "oshxonaga"
+    ]
+   ]
+  },
+  {
+   "n": 5,
+   "speaker": "n",
+   "text": "Bobo to'g'ri aytadi. Ilova bu to'y. Dasturxon ko'rinadi, oshxona esa yo'q.",
+   "tts": "[warmly] Bobo to'g'ri aytadi. Ilova bu to'y. Dasturxon ko'rinadi, oshxona esa yo'q.",
+   "mood": "groove",
+   "img": "05.jpg",
+   "vo": "vo_05.mp3",
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0",
+   "elements": [
+    {
+     "type": "caption",
+     "words": [
+      "ILOVA",
+      "—",
+      "BU",
+      "TO'Y"
+     ],
+     "color": "yellow",
+     "y": 1340,
+     "size": 84,
+     "at": 0.1
+    }
+   ],
+   "imgs": [
+    [
+     "05b.jpg",
+     "oshxona esa"
+    ]
+   ]
+  },
+  {
+   "n": 6,
+   "speaker": "n",
+   "text": "Ekrandagi dasturxon frontend. Orqadagi oshxona esa backend.",
+   "tts": "[excited] Ekrandagi dasturxon frontend. Orqadagi oshxona esa backend.",
+   "mood": "hero",
+   "img": "06.jpg",
+   "vo": "vo_06.mp3",
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0",
+   "elements": [
+    {
+     "type": "pill",
+     "text": "FRONTEND",
+     "bg": "royal",
+     "x": 280,
+     "y": 620,
+     "at": "frontend"
+    },
+    {
+     "type": "pill",
+     "text": "BACKEND",
+     "bg": "crimson",
+     "x": 800,
+     "y": 620,
+     "at": "backend"
+    },
+    {
+     "type": "mark",
+     "shape": "arrow",
+     "x": 800,
+     "y": 720,
+     "w": 120,
+     "h": 80,
+     "at": "backend",
+     "color": "red",
+     "to": [
+      800,
+      980
+     ]
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "speaker": "nabira",
+   "text": "Demak, yurakcha oshxonagacha boradimi?",
+   "tts": "[excited] Demak, yurakcha oshxonagacha boradimi?",
+   "mood": "groove",
+   "img": "07.jpg",
+   "vo": "vo_07.mp3",
+   "voice_id": "CBeZJ4EnTnrJmhtlMCNC",
+   "elements": [
+    {
+     "type": "char",
+     "img": "c_nabira_voy.jpg",
+     "from": "left",
+     "x": 290,
+     "y": 1450,
+     "h": 880,
+     "at": 0.05,
+     "talk": [
+      "vo"
+     ],
+     "motion": "bounce",
+     "label": "ULUG'BEK"
+    },
+    {
+     "type": "bubble",
+     "speaker": "ULUG'BEK",
+     "text": "Demak, yurakcha oshxonagacha boradimi?",
+     "x": 540,
+     "y": 340,
+     "at": "start",
+     "tail": "down",
+     "tail_x": 0.25
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "speaker": "n",
+   "text": "Bir soniyaga ham bormay. So'rov serverga boradi, baza yangilanadi, javob qaytadi.",
+   "tts": "[excited] Bir soniyaga ham bormay. So'rov serverga boradi, baza yangilanadi, javob qaytadi.",
+   "mood": "groove",
+   "img": "08.jpg",
+   "vo": "vo_08.mp3",
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0",
+   "elements": [
+    {
+     "type": "caption",
+     "words": [
+      "SO'ROV,",
+      "BAZA,",
+      "JAVOB"
+     ],
+     "color": "yellow",
+     "y": 1340,
+     "size": 84,
+     "at": 0.1
+    },
+    {
+     "type": "prop",
+     "img": "p_g_server.jpg",
+     "x": 830,
+     "y": 740,
+     "h": 340,
+     "at": "serverga",
+     "motion": "bounce"
+    }
+   ],
+   "imgs": [
+    [
+     "08b.jpg",
+     "javob qaytadi"
+    ]
+   ]
+  },
+  {
+   "n": 9,
+   "speaker": "ona",
+   "text": "Oshpaz ketib qolsa-chi? To'y nima bo'ladi?",
+   "tts": "[surprised] Oshpaz ketib qolsa-chi? To'y nima bo'ladi?",
+   "mood": "tense",
+   "img": "09.jpg",
+   "vo": "vo_09.mp3",
+   "voice_id": "rgK9zQmSATbqc0STi5u4",
+   "elements": [
+    {
+     "type": "char",
+     "img": "c_ona.jpg",
+     "from": "right",
+     "x": 790,
+     "y": 1450,
+     "h": 880,
+     "at": 0.05,
+     "talk": [
+      "vo"
+     ],
+     "motion": "bounce",
+     "label": "MEHMON"
+    },
+    {
+     "type": "bubble",
+     "speaker": "MEHMON",
+     "text": "Oshpaz ketib qolsa-chi? To'y nima bo'ladi?",
+     "x": 540,
+     "y": 340,
+     "at": "start",
+     "tail": "down",
+     "tail_x": 0.75
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "speaker": "n",
+   "text": "Aynan shu narsa bir marta butun dunyoda yuz bergan. Kompaniyani ham aytaman.",
+   "tts": "[whispers] [pause] Aynan shu narsa bir marta butun dunyoda yuz bergan. Kompaniyani ham aytaman.",
+   "mood": "mystery",
+   "img": "10.jpg",
+   "vo": "vo_10.mp3",
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0",
+   "elements": [
+    {
+     "type": "caption",
+     "words": [
+      "BU",
+      "BUTUN",
+      "DUNYODA",
+      "YUZ",
+      "BERGAN"
+     ],
+     "color": "yellow",
+     "y": 1340,
+     "size": 84,
+     "at": 0.1
+    },
+    {
+     "type": "mark",
+     "shape": "circle",
+     "x": 540,
+     "y": 820,
+     "w": 520,
+     "h": 520,
+     "at": "butun dunyoda",
+     "color": "red"
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "speaker": "n",
+   "text": "Ikki ming yigirma birinchi yil. Facebook, Instagram, WhatsApp bir vaqtda o'chdi.",
+   "tts": "[surprised] Ikki ming yigirma birinchi yil. Facebook, Instagram, WhatsApp bir vaqtda o'chdi.",
+   "mood": "tense",
+   "img": "11.jpg",
+   "vo": "vo_11.mp3",
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0",
+   "elements": [
+    {
+     "type": "tag",
+     "head": "2021",
+     "text": "4-OKT",
+     "x": 170,
+     "y": 210,
+     "color": "red",
+     "at": "start"
+    },
+    {
+     "type": "card",
+     "kicker": "2021-YIL, 4-OKTABR",
+     "title": [
+      "FACEBOOK",
+      "INSTAGRAM, WHATSAPP"
+     ],
+     "sub": "Taxminan 6 soat ishlamadi",
+     "at": "start",
+     "y": 1290
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "speaker": "n",
+   "text": "Muhandislar xizmat paytida bitta buyruq yuborgan. U markazlarni internetdan uzib qo'ygan.",
+   "tts": "[serious] Muhandislar xizmat paytida bitta buyruq yuborgan. U markazlarni internetdan uzib qo'ygan.",
+   "mood": "tense",
+   "img": "12.jpg",
+   "vo": "vo_12.mp3",
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0",
+   "elements": [
+    {
+     "type": "caption",
+     "words": [
+      "BITTA",
+      "BUYRUQ",
+      "HAMMASINI",
+      "UZDI"
+     ],
+     "color": "yellow",
+     "y": 1340,
+     "size": 84,
+     "at": 0.1
+    },
+    {
+     "type": "prop",
+     "img": "p_g_kalit.jpg",
+     "x": 830,
+     "y": 720,
+     "h": 300,
+     "at": "uzib",
+     "motion": "shake"
+    }
+   ],
+   "imgs": [
+    [
+     "12b.jpg",
+     "uzib qo'ygan"
+    ]
+   ]
+  },
+  {
+   "n": 13,
+   "speaker": "n",
+   "text": "Ichki asboblar ham ishlamay qolgan. Muhandislar serverlar oldiga shaxsan borishgan.",
+   "tts": "[surprised] Ichki asboblar ham ishlamay qolgan. Muhandislar serverlar oldiga shaxsan borishgan.",
+   "mood": "tense",
+   "img": "13.jpg",
+   "vo": "vo_13.mp3",
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0",
+   "elements": [
+    {
+     "type": "caption",
+     "words": [
+      "SERVERLAR",
+      "OLDIGA",
+      "SHAXSAN",
+      "BORISHGAN"
+     ],
+     "color": "yellow",
+     "y": 1340,
+     "size": 84,
+     "at": 0.1
+    },
+    {
+     "type": "mark",
+     "shape": "arrow",
+     "x": 240,
+     "y": 800,
+     "w": 200,
+     "h": 120,
+     "at": "shaxsan",
+     "color": "red",
+     "to": [
+      600,
+      960
+     ]
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "speaker": "bobo",
+   "text": "Ana ko'rdingmi! Oshxona to'xtasa, butun to'y to'xtaydi.",
+   "tts": "[elderly voice] [warmly] Ana ko'rdingmi! Oshxona to'xtasa, butun to'y to'xtaydi.",
+   "mood": "warm",
+   "img": "14.jpg",
+   "vo": "vo_14.mp3",
+   "voice_id": "eD0k57hUAx0oDuThLFT9",
+   "elements": [
+    {
+     "type": "char",
+     "img": "c_bobo.jpg",
+     "from": "left",
+     "x": 290,
+     "y": 1450,
+     "h": 880,
+     "at": 0.05,
+     "talk": [
+      "vo"
+     ],
+     "motion": "bounce",
+     "label": "BOBO"
+    },
+    {
+     "type": "bubble",
+     "speaker": "BOBO",
+     "text": "Ana ko'rdingmi! Oshxona to'xtasa, butun to'y to'xtaydi.",
+     "x": 540,
+     "y": 340,
+     "at": "start",
+     "tail": "down",
+     "tail_x": 0.25
+    },
+    {
+     "type": "prop",
+     "img": "p_g_qozon.jpg",
+     "x": 830,
+     "y": 760,
+     "h": 300,
+     "at": "Oshxona",
+     "motion": "pulse"
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "speaker": "n",
+   "text": "Mana shu oshxonani quradiganlar backend dasturchilar. Joylinks Termiz'da noldan boshlanadi.",
+   "tts": "[warmly] Mana shu oshxonani quradiganlar backend dasturchilar. Joylinks Termiz'da noldan boshlanadi.",
+   "mood": "hero",
+   "img": "15.jpg",
+   "vo": "vo_15.mp3",
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0",
+   "elements": [
+    {
+     "type": "prop",
+     "img": "logo_joylinks.png",
+     "x": 540,
+     "y": 500,
+     "h": 300,
+     "at": 0.1,
+     "motion": "pulse"
+    },
+    {
+     "type": "card",
+     "kicker": "JOYLINKS IT ACADEMY · TERMIZ",
+     "title": [
+      "BACKEND DASTURLASH"
+     ],
+     "sub": "Qo'ng'iroq: +998 99 287 32 20",
+     "at": 0.4,
+     "y": 1240
+    }
+   ]
+  },
+  {
+   "n": 16,
+   "speaker": "n",
+   "text": "Siz dasturxonni tanlaysizmi yoki oshxonani? Izohda yozing.",
+   "tts": "[playful] Siz dasturxonni tanlaysizmi yoki oshxonani? Izohda yozing.",
+   "mood": "finale",
+   "img": "16.jpg",
+   "vo": "vo_16.mp3",
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0",
+   "elements": [
+    {
+     "type": "final",
+     "lines": [
+      "DASTURXONMI",
+      "YOKI OSHXONA?"
+     ],
+     "at": 0.4
+    },
+    {
+     "type": "pill",
+     "text": "JOYLINKS TERMIZ · 99 287 32 20",
+     "bg": "green",
+     "x": 540,
+     "y": 1640,
+     "at": 1.0
+    }
+   ]
+  }
+ ]
+}

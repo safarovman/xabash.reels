@@ -1,0 +1,752 @@
+{
+ "title": "Kompyuter savodxonligi: ikki tugma",
+ "pace": "fast",
+ "music": {
+  "genre": "funk",
+  "bpm": 108,
+  "key": 5,
+  "scale": "minor",
+  "progression": [
+   0,
+   3,
+   5,
+   4
+  ]
+ },
+ "music_seed": 1983,
+ "music_gain": 0.7,
+ "cover_title": [
+  "3 SOATLIK ISH",
+  "QAYERGA KETDI?"
+ ],
+ "cover_sub": "Ikki tugma hammasini qaytaradi",
+ "cover_scene": 0,
+ "cover": {
+  "layout": "hero",
+  "img": "cover.jpg",
+  "char": "c_sanobar_voy.jpg",
+  "props": [
+   "p_g_tugma.jpg"
+  ],
+  "badge": "CTRL + ?",
+  "title_colors": [
+   [
+    255,
+    255,
+    255
+   ],
+   [
+    255,
+    214,
+    0
+   ]
+  ],
+  "accent": [
+   230,
+   40,
+   110
+  ],
+  "accent2": [
+   255,
+   214,
+   0
+  ]
+ },
+ "anim": "static",
+ "bright": true,
+ "logo": "/home/claude/xabash.reels/brand/logo_joylinks_plate.png",
+ "theme": {
+  "font": "bungee",
+  "font2": "patrickhand",
+  "accent": [
+   230,
+   40,
+   110
+  ],
+  "accent2": [
+   255,
+   214,
+   0
+  ],
+  "bubble_bg": [
+   255,
+   250,
+   230
+  ],
+  "bubble_line": [
+   20,
+   20,
+   30
+  ],
+  "bubble_ink": [
+   15,
+   15,
+   25
+  ],
+  "bubble_dim": [
+   150,
+   140,
+   120
+  ],
+  "bubble_radius": 26,
+  "transitions": [
+   "whip",
+   "zoom",
+   "flash"
+  ],
+  "cut_fx": "punch"
+ },
+ "end_hold": 1.4,
+ "scenes": [
+  {
+   "n": 1,
+   "speaker": "n",
+   "text": "Uch soatlik ish. Bitta tugma. Hammasi g'oyib bo'ldi.",
+   "tts": "[tense] Uch soatlik ish. Bitta tugma. Hammasi g'oyib bo'ldi.",
+   "mood": "tense",
+   "img": "01.jpg",
+   "vo": "vo_01.mp3",
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0",
+   "elements": [
+    {
+     "type": "caption",
+     "words": [
+      "3",
+      "SOATLIK",
+      "ISH",
+      "G'OYIB",
+      "BO'LDI!"
+     ],
+     "color": "yellow",
+     "y": 1340,
+     "size": 84,
+     "at": 0.1
+    },
+    {
+     "type": "mark",
+     "shape": "circle",
+     "x": 540,
+     "y": 800,
+     "w": 620,
+     "h": 480,
+     "at": "Hammasi",
+     "color": "red",
+     "label": "BO'SH!",
+     "label_x": 540,
+     "label_y": 510
+    }
+   ],
+   "imgs": [
+    [
+     "01b.jpg",
+     "Bitta tugma"
+    ]
+   ]
+  },
+  {
+   "n": 2,
+   "speaker": "sanobar",
+   "text": "Voy! Hisobot qani?! Hozirgina shu yerda edi-ku!",
+   "tts": "[surprised] [sad] Voy! Hisobot qani?! Hozirgina shu yerda edi-ku!",
+   "mood": "tense",
+   "img": "02.jpg",
+   "vo": "vo_02.mp3",
+   "voice_id": "rgK9zQmSATbqc0STi5u4",
+   "elements": [
+    {
+     "type": "char",
+     "img": "c_sanobar.jpg",
+     "from": "left",
+     "x": 290,
+     "y": 1450,
+     "h": 880,
+     "at": 0.05,
+     "talk": [
+      "vo"
+     ],
+     "motion": "bounce",
+     "label": "SANOBAR OPA"
+    },
+    {
+     "type": "bubble",
+     "speaker": "SANOBAR OPA",
+     "text": "Voy! Hisobot qani?! Hozirgina shu yerda edi-ku!",
+     "x": 540,
+     "y": 340,
+     "at": "start",
+     "tail": "down",
+     "tail_x": 0.25
+    }
+   ],
+   "imgs": [
+    [
+     "02b.jpg",
+     "qani"
+    ]
+   ]
+  },
+  {
+   "n": 3,
+   "speaker": "boss",
+   "text": "Sanobar opa! Hisobot o'n daqiqadan keyin stolimda bo'lsin!",
+   "tts": "[angry] Sanobar opa! Hisobot o'n daqiqadan keyin stolimda bo'lsin!",
+   "mood": "tense",
+   "img": "03.jpg",
+   "vo": "vo_03.mp3",
+   "voice_id": "GcnlXfqDudh5dSQpZVll",
+   "elements": [
+    {
+     "type": "char",
+     "img": "c_boss.jpg",
+     "from": "right",
+     "x": 790,
+     "y": 1450,
+     "h": 880,
+     "at": 0.05,
+     "talk": [
+      "vo"
+     ],
+     "motion": "bounce",
+     "label": "KARIMOV"
+    },
+    {
+     "type": "bubble",
+     "speaker": "KARIMOV",
+     "text": "Sanobar opa! Hisobot o'n daqiqadan keyin stolimda bo'lsin!",
+     "x": 540,
+     "y": 340,
+     "at": "start",
+     "tail": "down",
+     "tail_x": 0.75
+    },
+    {
+     "type": "tag",
+     "head": "VAQT",
+     "text": "10 DAQ",
+     "x": 170,
+     "y": 210,
+     "color": "red",
+     "at": "start"
+    },
+    {
+     "type": "prop",
+     "img": "p_g_soat.jpg",
+     "x": 860,
+     "y": 700,
+     "h": 320,
+     "at": "o'n daqiqadan",
+     "motion": "shake"
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "speaker": "n",
+   "text": "Yigirma yillik tajribali hisobchi. Lekin kompyuter oldida qo'li qaltiraydi.",
+   "tts": "[chuckles] Yigirma yillik tajribali hisobchi. Lekin kompyuter oldida qo'li qaltiraydi.",
+   "mood": "groove",
+   "img": "04.jpg",
+   "vo": "vo_04.mp3",
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0",
+   "elements": [
+    {
+     "type": "caption",
+     "words": [
+      "20",
+      "YILLIK",
+      "TAJRIBA,",
+      "LEKIN",
+      "KOMPYUTERDAN",
+      "QO'RQADI"
+     ],
+     "color": "yellow",
+     "y": 1340,
+     "size": 84,
+     "at": 0.1
+    },
+    {
+     "type": "mark",
+     "shape": "underline",
+     "x": 540,
+     "y": 1400,
+     "w": 700,
+     "h": 40,
+     "at": "qo'li qaltiraydi",
+     "color": "red"
+    }
+   ],
+   "imgs": [
+    [
+     "04b.jpg",
+     "qo'li qaltiraydi"
+    ]
+   ]
+  },
+  {
+   "n": 5,
+   "speaker": "sanobar",
+   "text": "Bu kompyuter menga qasd qilyapti, vallohi!",
+   "tts": "[angry] [sarcastic] Bu kompyuter menga qasd qilyapti, vallohi!",
+   "mood": "groove",
+   "img": "05.jpg",
+   "vo": "vo_05.mp3",
+   "voice_id": "rgK9zQmSATbqc0STi5u4",
+   "elements": [
+    {
+     "type": "char",
+     "img": "c_sanobar_voy.jpg",
+     "from": "left",
+     "x": 290,
+     "y": 1450,
+     "h": 880,
+     "at": 0.05,
+     "talk": [
+      "vo"
+     ],
+     "motion": "bounce",
+     "label": "SANOBAR OPA"
+    },
+    {
+     "type": "bubble",
+     "speaker": "SANOBAR OPA",
+     "text": "Bu kompyuter menga qasd qilyapti, vallohi!",
+     "x": 540,
+     "y": 340,
+     "at": "start",
+     "tail": "down",
+     "tail_x": 0.25
+    },
+    {
+     "type": "mark",
+     "shape": "burst",
+     "x": 780,
+     "y": 850,
+     "w": 300,
+     "h": 300,
+     "at": "qasd",
+     "color": "red",
+     "label": "QASD!",
+     "label_x": 780,
+     "label_y": 650
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "speaker": "n",
+   "text": "Aslida ikki tugma hammasini qaytarardi. Ularni hozircha aytmayman.",
+   "tts": "[whispers] Aslida ikki tugma hammasini qaytarardi. Ularni hozircha aytmayman.",
+   "mood": "mystery",
+   "img": "06.jpg",
+   "vo": "vo_06.mp3",
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0",
+   "elements": [
+    {
+     "type": "caption",
+     "words": [
+      "IKKI",
+      "TUGMA",
+      "HAMMASINI",
+      "QAYTARADI"
+     ],
+     "color": "yellow",
+     "y": 1340,
+     "size": 84,
+     "at": 0.1
+    },
+    {
+     "type": "mark",
+     "shape": "box",
+     "x": 540,
+     "y": 850,
+     "w": 560,
+     "h": 340,
+     "at": "ikki tugma",
+     "color": "red",
+     "label": "QAYSI?",
+     "label_x": 540,
+     "label_y": 630
+    },
+    {
+     "type": "prop",
+     "img": "p_g_tugma.jpg",
+     "x": 540,
+     "y": 1050,
+     "h": 300,
+     "at": "hozircha",
+     "motion": "jump"
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "speaker": "n",
+   "text": "Avval bir sirni ochay. Nusxa ko'chirishni kim o'ylab topgan?",
+   "tts": "[excited] Avval bir sirni ochay. Nusxa ko'chirishni kim o'ylab topgan?",
+   "mood": "mystery",
+   "img": "07.jpg",
+   "vo": "vo_07.mp3",
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0",
+   "elements": [
+    {
+     "type": "caption",
+     "words": [
+      "NUSXA",
+      "KO'CHIRISH",
+      "QAYERDAN",
+      "CHIQQAN?"
+     ],
+     "color": "yellow",
+     "y": 1340,
+     "size": 84,
+     "at": 0.1
+    }
+   ],
+   "imgs": [
+    [
+     "07b.jpg",
+     "kim o'ylab topgan"
+    ]
+   ]
+  },
+  {
+   "n": 8,
+   "speaker": "n",
+   "text": "Bu g'oya muallifi Larri Tesler. Ilhomi esa oddiy qaychi va yelimdan kelgan.",
+   "tts": "[warmly] Bu g'oya muallifi Larri Tesler. Ilhomi esa oddiy qaychi va yelimdan kelgan.",
+   "mood": "groove",
+   "img": "08.jpg",
+   "vo": "vo_08.mp3",
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0",
+   "elements": [
+    {
+     "type": "card",
+     "kicker": "KIM O'YLAB TOPGAN",
+     "title": [
+      "LARRI TESLER"
+     ],
+     "sub": "Kesish, nusxa ko'chirish, joylash",
+     "at": "start",
+     "y": 1290
+    },
+    {
+     "type": "prop",
+     "img": "p_g_qaychi.jpg",
+     "x": 830,
+     "y": 720,
+     "h": 320,
+     "at": "qaychi",
+     "motion": "wag"
+    }
+   ],
+   "imgs": [
+    [
+     "08b.jpg",
+     "qaychi"
+    ]
+   ]
+  },
+  {
+   "n": 9,
+   "speaker": "n",
+   "text": "Ha, odamlar matnni qog'ozdan kesib, boshqa joyga yopishtirgan.",
+   "tts": "[laughs] Ha, odamlar matnni qog'ozdan kesib, boshqa joyga yopishtirgan.",
+   "mood": "groove",
+   "img": "09.jpg",
+   "vo": "vo_09.mp3",
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0",
+   "elements": [
+    {
+     "type": "caption",
+     "words": [
+      "MATN",
+      "QAYCHI",
+      "BILAN",
+      "KESILGAN!"
+     ],
+     "color": "yellow",
+     "y": 1340,
+     "size": 84,
+     "at": 0.1
+    },
+    {
+     "type": "prop",
+     "img": "p_g_qogoz.jpg",
+     "x": 800,
+     "y": 700,
+     "h": 320,
+     "at": "yopishtirgan",
+     "motion": "bounce"
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "speaker": "boss",
+   "text": "Besh daqiqa qoldi! Hisobot qani, Sanobar opa?",
+   "tts": "[angry] Besh daqiqa qoldi! Hisobot qani, Sanobar opa?",
+   "mood": "tense",
+   "img": "10.jpg",
+   "vo": "vo_10.mp3",
+   "voice_id": "GcnlXfqDudh5dSQpZVll",
+   "elements": [
+    {
+     "type": "char",
+     "img": "c_boss.jpg",
+     "from": "right",
+     "x": 790,
+     "y": 1450,
+     "h": 880,
+     "at": 0.05,
+     "talk": [
+      "vo"
+     ],
+     "motion": "bounce",
+     "label": "KARIMOV"
+    },
+    {
+     "type": "bubble",
+     "speaker": "KARIMOV",
+     "text": "Besh daqiqa qoldi! Hisobot qani, Sanobar opa?",
+     "x": 540,
+     "y": 340,
+     "at": "start",
+     "tail": "down",
+     "tail_x": 0.75
+    },
+    {
+     "type": "tag",
+     "head": "VAQT",
+     "text": "5 DAQ",
+     "x": 170,
+     "y": 210,
+     "color": "red",
+     "at": "start"
+    },
+    {
+     "type": "prop",
+     "img": "p_g_soat.jpg",
+     "x": 840,
+     "y": 720,
+     "h": 340,
+     "at": "Besh daqiqa",
+     "motion": "shake"
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "speaker": "jasur",
+   "text": "Opa, qo'rqmang. Bir soniya bering, hozir ko'rsataman.",
+   "tts": "[warmly] Opa, qo'rqmang. Bir soniya bering, hozir ko'rsataman.",
+   "mood": "warm",
+   "img": "11.jpg",
+   "vo": "vo_11.mp3",
+   "voice_id": "CBeZJ4EnTnrJmhtlMCNC",
+   "elements": [
+    {
+     "type": "char",
+     "img": "c_jasur.jpg",
+     "from": "left",
+     "x": 290,
+     "y": 1450,
+     "h": 880,
+     "at": 0.05,
+     "talk": [
+      "vo"
+     ],
+     "motion": "bounce",
+     "label": "JASUR"
+    },
+    {
+     "type": "bubble",
+     "speaker": "JASUR",
+     "text": "Opa, qo'rqmang. Bir soniya bering, hozir ko'rsataman.",
+     "x": 540,
+     "y": 340,
+     "at": "start",
+     "tail": "down",
+     "tail_x": 0.25
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "speaker": "n",
+   "text": "Yosh hamkasb yaqinlashdi. Klaviaturaga barmog'ini qo'ydi...",
+   "tts": "[whispers] [pause] Yosh hamkasb yaqinlashdi. Klaviaturaga barmog'ini qo'ydi...",
+   "mood": "mystery",
+   "img": "12.jpg",
+   "vo": "vo_12.mp3",
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0",
+   "elements": [
+    {
+     "type": "caption",
+     "words": [
+      "ENDI",
+      "DIQQAT",
+      "QILING..."
+     ],
+     "color": "yellow",
+     "y": 1340,
+     "size": 84,
+     "at": 0.1
+    },
+    {
+     "type": "mark",
+     "shape": "arrow",
+     "x": 300,
+     "y": 780,
+     "w": 200,
+     "h": 120,
+     "at": "barmog'ini",
+     "color": "red",
+     "to": [
+      640,
+      1000
+     ]
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "speaker": "n",
+   "text": "Control va Z! Uch soatlik hisobot bir soniyada qaytib keldi!",
+   "tts": "[excited] Control va Z! Uch soatlik hisobot bir soniyada qaytib keldi!",
+   "mood": "hero",
+   "img": "13.jpg",
+   "vo": "vo_13.mp3",
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0",
+   "elements": [
+    {
+     "type": "caption",
+     "words": [
+      "CTRL",
+      "+",
+      "Z.",
+      "HISOBOT",
+      "QAYTDI!"
+     ],
+     "color": "yellow",
+     "y": 1340,
+     "size": 84,
+     "at": 0.1
+    },
+    {
+     "type": "mark",
+     "shape": "burst",
+     "x": 540,
+     "y": 820,
+     "w": 560,
+     "h": 420,
+     "at": "Control va Z",
+     "color": "red",
+     "label": "CTRL + Z",
+     "label_x": 540,
+     "label_y": 560
+    }
+   ],
+   "imgs": [
+    [
+     "13b.jpg",
+     "qaytib keldi"
+    ]
+   ]
+  },
+  {
+   "n": 14,
+   "speaker": "sanobar",
+   "text": "Voy, shu ekanmi? Yigirma yil qo'rqib yurgan ekanman!",
+   "tts": "[laughs] [surprised] Voy, shu ekanmi? Yigirma yil qo'rqib yurgan ekanman!",
+   "mood": "warm",
+   "img": "14.jpg",
+   "vo": "vo_14.mp3",
+   "voice_id": "rgK9zQmSATbqc0STi5u4",
+   "elements": [
+    {
+     "type": "char",
+     "img": "c_sanobar_kulgi.jpg",
+     "from": "right",
+     "x": 790,
+     "y": 1450,
+     "h": 880,
+     "at": 0.05,
+     "talk": [
+      "vo"
+     ],
+     "motion": "bounce",
+     "label": "SANOBAR OPA"
+    },
+    {
+     "type": "bubble",
+     "speaker": "SANOBAR OPA",
+     "text": "Voy, shu ekanmi? Yigirma yil qo'rqib yurgan ekanman!",
+     "x": 540,
+     "y": 340,
+     "at": "start",
+     "tail": "down",
+     "tail_x": 0.75
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "speaker": "n",
+   "text": "Joylinks IT Academy, Termiz. Kompyuter savodxonligi noldan o'rgatiladi.",
+   "tts": "[warmly] Joylinks IT Academy, Termiz. Kompyuter savodxonligi noldan o'rgatiladi.",
+   "mood": "hero",
+   "img": "15.jpg",
+   "vo": "vo_15.mp3",
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0",
+   "elements": [
+    {
+     "type": "prop",
+     "img": "logo_joylinks.png",
+     "x": 540,
+     "y": 500,
+     "h": 300,
+     "at": 0.1,
+     "motion": "pulse"
+    },
+    {
+     "type": "card",
+     "kicker": "JOYLINKS IT ACADEMY · TERMIZ",
+     "title": [
+      "KOMPYUTER SAVODXONLIGI"
+     ],
+     "sub": "Qo'ng'iroq: +998 99 287 32 20",
+     "at": 0.4,
+     "y": 1240
+    }
+   ]
+  },
+  {
+   "n": 16,
+   "speaker": "n",
+   "text": "Kompyuterda qilgan eng alamli xatoingiz qaysi? Izohda yozing.",
+   "tts": "[playful] Kompyuterda qilgan eng alamli xatoingiz qaysi? Izohda yozing.",
+   "mood": "finale",
+   "img": "16.jpg",
+   "vo": "vo_16.mp3",
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0",
+   "elements": [
+    {
+     "type": "final",
+     "lines": [
+      "ENG ALAMLI",
+      "XATOINGIZ?"
+     ],
+     "at": 0.4
+    },
+    {
+     "type": "pill",
+     "text": "JOYLINKS TERMIZ · 99 287 32 20",
+     "bg": "green",
+     "x": 540,
+     "y": 1640,
+     "at": 1.0
+    }
+   ]
+  }
+ ]
+}

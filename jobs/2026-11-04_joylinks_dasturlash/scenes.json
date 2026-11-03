@@ -1,0 +1,663 @@
+{
+ "title": "Dasturlash: yashiringan ism",
+ "pace": "fast",
+ "music": {
+  "genre": "chiptune",
+  "bpm": 112,
+  "key": 2,
+  "scale": "dorian",
+  "progression": [
+   0,
+   3,
+   5,
+   3
+  ]
+ },
+ "music_seed": 825,
+ "music_gain": 0.7,
+ "cover_title": [
+  "HAR ILOVADA",
+  "BIR XORAZMLIK"
+ ],
+ "cover_sub": "Bu ismni har kuni ishlatasiz",
+ "cover_scene": 0,
+ "cover": {
+  "layout": "split",
+  "img": "cover.jpg",
+  "band_y": 1180,
+  "badge": "IX ASR",
+  "title_colors": [
+   [
+    255,
+    248,
+    225
+   ],
+   [
+    232,
+    186,
+    80
+   ]
+  ],
+  "accent": [
+   28,
+   50,
+   110
+  ],
+  "accent2": [
+   232,
+   186,
+   80
+  ]
+ },
+ "anim": "static",
+ "bright": true,
+ "logo": "/home/claude/xabash.reels/brand/logo_joylinks_plate.png",
+ "theme": {
+  "font": "alfaslabone",
+  "font2": "patrickhand",
+  "accent": [
+   200,
+   60,
+   40
+  ],
+  "accent2": [
+   232,
+   186,
+   80
+  ],
+  "bubble_bg": [
+   250,
+   240,
+   214
+  ],
+  "bubble_line": [
+   28,
+   50,
+   110
+  ],
+  "bubble_ink": [
+   24,
+   26,
+   44
+  ],
+  "bubble_dim": [
+   150,
+   130,
+   100
+  ],
+  "bubble_radius": 18,
+  "transitions": [
+   "slide",
+   "torn",
+   "zoom"
+  ],
+  "cut_fx": "whip"
+ },
+ "end_hold": 1.4,
+ "scenes": [
+  {
+   "n": 1,
+   "speaker": "n",
+   "text": "Telefoningizdagi har bir ilova ichida bir xorazmlikning ismi yashiringan.",
+   "tts": "[whispers] Telefoningizdagi har bir ilova ichida bir xorazmlikning ismi yashiringan.",
+   "mood": "mystery",
+   "img": "01.jpg",
+   "vo": "vo_01.mp3",
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0",
+   "elements": [
+    {
+     "type": "caption",
+     "words": [
+      "HAR",
+      "ILOVADA",
+      "BIR",
+      "ISM",
+      "YASHIRINGAN"
+     ],
+     "color": "yellow",
+     "y": 1340,
+     "size": 84,
+     "at": 0.1
+    },
+    {
+     "type": "mark",
+     "shape": "circle",
+     "x": 540,
+     "y": 820,
+     "w": 500,
+     "h": 500,
+     "at": "ismi yashiringan",
+     "color": "red",
+     "label": "KIMNING?",
+     "label_x": 540,
+     "label_y": 520
+    }
+   ],
+   "imgs": [
+    [
+     "01b.jpg",
+     "xorazmlikning"
+    ]
+   ]
+  },
+  {
+   "n": 2,
+   "speaker": "n",
+   "text": "Ishonmaysizmi? O'n olti yoshli Rustam ham ishonmagan edi.",
+   "tts": "[chuckles] Ishonmaysizmi? O'n olti yoshli Rustam ham ishonmagan edi.",
+   "mood": "groove",
+   "img": "02.jpg",
+   "vo": "vo_02.mp3",
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0",
+   "elements": [
+    {
+     "type": "caption",
+     "words": [
+      "RUSTAM,",
+      "16",
+      "YOSH"
+     ],
+     "color": "yellow",
+     "y": 1340,
+     "size": 84,
+     "at": 0.1
+    },
+    {
+     "type": "tag",
+     "head": "YOSH",
+     "text": "16",
+     "x": 170,
+     "y": 210,
+     "color": "red",
+     "at": "start"
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "speaker": "rustam",
+   "text": "Ustoz, dasturim ishlamayapti! Kompyuter meni yomon ko'radi!",
+   "tts": "[sad] [angry] Ustoz, dasturim ishlamayapti! Kompyuter meni yomon ko'radi!",
+   "mood": "tense",
+   "img": "03.jpg",
+   "vo": "vo_03.mp3",
+   "voice_id": "CBeZJ4EnTnrJmhtlMCNC",
+   "elements": [
+    {
+     "type": "char",
+     "img": "c_rustam.jpg",
+     "from": "left",
+     "x": 290,
+     "y": 1450,
+     "h": 880,
+     "at": 0.05,
+     "talk": [
+      "vo"
+     ],
+     "motion": "bounce",
+     "label": "RUSTAM"
+    },
+    {
+     "type": "bubble",
+     "speaker": "RUSTAM",
+     "text": "Ustoz, dasturim ishlamayapti! Kompyuter meni yomon ko'radi!",
+     "x": 540,
+     "y": 340,
+     "at": "start",
+     "tail": "down",
+     "tail_x": 0.25
+    },
+    {
+     "type": "prop",
+     "img": "p_g_kod.jpg",
+     "x": 820,
+     "y": 760,
+     "h": 300,
+     "at": "ishlamayapti",
+     "motion": "shake"
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "speaker": "ustoz",
+   "text": "Kompyuter seni yomon ko'rmaydi, Rustam. Unda shunchaki xato bor.",
+   "tts": "[warmly] [chuckles] Kompyuter seni yomon ko'rmaydi, Rustam. Unda shunchaki xato bor.",
+   "mood": "warm",
+   "img": "04.jpg",
+   "vo": "vo_04.mp3",
+   "voice_id": "rgK9zQmSATbqc0STi5u4",
+   "elements": [
+    {
+     "type": "char",
+     "img": "c_ustoz.jpg",
+     "from": "right",
+     "x": 790,
+     "y": 1450,
+     "h": 880,
+     "at": 0.05,
+     "talk": [
+      "vo"
+     ],
+     "motion": "bounce",
+     "label": "USTOZ"
+    },
+    {
+     "type": "bubble",
+     "speaker": "USTOZ",
+     "text": "Kompyuter seni yomon ko'rmaydi, Rustam. Unda shunchaki xato bor.",
+     "x": 540,
+     "y": 340,
+     "at": "start",
+     "tail": "down",
+     "tail_x": 0.75
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "speaker": "n",
+   "text": "Xato, ya'ni bag. Inglizchada hasharot degani. Bu so'z tasodifiy emas.",
+   "tts": "[excited] Xato, ya'ni bag. Inglizchada hasharot degani. Bu so'z tasodifiy emas.",
+   "mood": "mystery",
+   "img": "05.jpg",
+   "vo": "vo_05.mp3",
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0",
+   "elements": [
+    {
+     "type": "caption",
+     "words": [
+      "BAG",
+      "=",
+      "HASHAROT.",
+      "TASODIFIY",
+      "EMAS!"
+     ],
+     "color": "yellow",
+     "y": 1340,
+     "size": 84,
+     "at": 0.1
+    },
+    {
+     "type": "mark",
+     "shape": "underline",
+     "x": 540,
+     "y": 1400,
+     "w": 640,
+     "h": 40,
+     "at": "hasharot degani",
+     "color": "red"
+    },
+    {
+     "type": "prop",
+     "img": "p_g_kapalak.jpg",
+     "x": 820,
+     "y": 760,
+     "h": 260,
+     "at": "hasharot",
+     "motion": "wag"
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "speaker": "n",
+   "text": "Bir ming to'qqiz yuz qirq yettinchi yil. Garvard. Kompyuter ichidan haqiqiy kapalak topiladi.",
+   "tts": "[surprised] Bir ming to'qqiz yuz qirq yettinchi yil. Garvard. Kompyuter ichidan haqiqiy kapalak topiladi.",
+   "mood": "mystery",
+   "img": "06.jpg",
+   "vo": "vo_06.mp3",
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0",
+   "elements": [
+    {
+     "type": "tag",
+     "head": "YIL",
+     "text": "1947",
+     "x": 170,
+     "y": 210,
+     "color": "red",
+     "at": "start"
+    },
+    {
+     "type": "card",
+     "kicker": "GARVARD, MARK II",
+     "title": [
+      "HAQIQIY KAPALAK"
+     ],
+     "sub": "Grays Xopper jamoasi",
+     "at": "Garvard",
+     "y": 1290
+    }
+   ],
+   "imgs": [
+    [
+     "06b.jpg",
+     "kapalak"
+    ]
+   ]
+  },
+  {
+   "n": 7,
+   "speaker": "n",
+   "text": "Uni daftarga yopishtirib yozib qo'yishadi: birinchi haqiqiy bag topildi.",
+   "tts": "[laughs] Uni daftarga yopishtirib yozib qo'yishadi: birinchi haqiqiy bag topildi.",
+   "mood": "groove",
+   "img": "07.jpg",
+   "vo": "vo_07.mp3",
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0",
+   "elements": [
+    {
+     "type": "caption",
+     "words": [
+      "BIRINCHI",
+      "HAQIQIY",
+      "BAG",
+      "TOPILDI"
+     ],
+     "color": "yellow",
+     "y": 1340,
+     "size": 84,
+     "at": 0.1
+    },
+    {
+     "type": "mark",
+     "shape": "circle",
+     "x": 540,
+     "y": 800,
+     "w": 420,
+     "h": 340,
+     "at": "yopishtirib",
+     "color": "red"
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "speaker": "rustam",
+   "text": "Demak, mening kodimda ham kapalak bormi?",
+   "tts": "[surprised] Demak, mening kodimda ham kapalak bormi?",
+   "mood": "groove",
+   "img": "08.jpg",
+   "vo": "vo_08.mp3",
+   "voice_id": "CBeZJ4EnTnrJmhtlMCNC",
+   "elements": [
+    {
+     "type": "char",
+     "img": "c_rustam_voy.jpg",
+     "from": "left",
+     "x": 290,
+     "y": 1450,
+     "h": 880,
+     "at": 0.05,
+     "talk": [
+      "vo"
+     ],
+     "motion": "bounce",
+     "label": "RUSTAM"
+    },
+    {
+     "type": "bubble",
+     "speaker": "RUSTAM",
+     "text": "Demak, mening kodimda ham kapalak bormi?",
+     "x": 540,
+     "y": 340,
+     "at": "start",
+     "tail": "down",
+     "tail_x": 0.25
+    },
+    {
+     "type": "prop",
+     "img": "p_g_kapalak.jpg",
+     "x": 820,
+     "y": 720,
+     "h": 240,
+     "at": "kapalak",
+     "motion": "bounce"
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "speaker": "ustoz",
+   "text": "Yo'q, senda bitta vergul yetishmayapti. Eng qizig'i esa boshqa joyda.",
+   "tts": "[laughs] Yo'q, senda bitta vergul yetishmayapti. Eng qizig'i esa boshqa joyda.",
+   "mood": "mystery",
+   "img": "09.jpg",
+   "vo": "vo_09.mp3",
+   "voice_id": "rgK9zQmSATbqc0STi5u4",
+   "elements": [
+    {
+     "type": "char",
+     "img": "c_ustoz.jpg",
+     "from": "right",
+     "x": 790,
+     "y": 1450,
+     "h": 880,
+     "at": 0.05,
+     "talk": [
+      "vo"
+     ],
+     "motion": "bounce",
+     "label": "USTOZ"
+    },
+    {
+     "type": "bubble",
+     "speaker": "USTOZ",
+     "text": "Yo'q, senda bitta vergul yetishmayapti. Eng qizig'i esa boshqa joyda.",
+     "x": 540,
+     "y": 340,
+     "at": "start",
+     "tail": "down",
+     "tail_x": 0.75
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "speaker": "n",
+   "text": "Kompyuterga har bir ishni qadam-baqadam aytish kerak. Xuddi choy damlagandek.",
+   "tts": "[warmly] Kompyuterga har bir ishni qadam-baqadam aytish kerak. Xuddi choy damlagandek.",
+   "mood": "groove",
+   "img": "10.jpg",
+   "vo": "vo_10.mp3",
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0",
+   "elements": [
+    {
+     "type": "caption",
+     "words": [
+      "HAR",
+      "ISH",
+      "QADAM-BAQADAM"
+     ],
+     "color": "yellow",
+     "y": 1340,
+     "size": 84,
+     "at": 0.1
+    },
+    {
+     "type": "prop",
+     "img": "p_g_choynak.jpg",
+     "x": 830,
+     "y": 720,
+     "h": 300,
+     "at": "choy",
+     "motion": "jump"
+    }
+   ],
+   "imgs": [
+    [
+     "10b.jpg",
+     "Xuddi choy"
+    ]
+   ]
+  },
+  {
+   "n": 11,
+   "speaker": "rustam",
+   "text": "Algoritm! Lekin bu qanaqa g'alati so'z o'zi?",
+   "tts": "[excited] Algoritm! Lekin bu qanaqa g'alati so'z o'zi?",
+   "mood": "groove",
+   "img": "11.jpg",
+   "vo": "vo_11.mp3",
+   "voice_id": "CBeZJ4EnTnrJmhtlMCNC",
+   "elements": [
+    {
+     "type": "char",
+     "img": "c_rustam.jpg",
+     "from": "left",
+     "x": 290,
+     "y": 1450,
+     "h": 880,
+     "at": 0.05,
+     "talk": [
+      "vo"
+     ],
+     "motion": "bounce",
+     "label": "RUSTAM"
+    },
+    {
+     "type": "bubble",
+     "speaker": "RUSTAM",
+     "text": "Algoritm! Lekin bu qanaqa g'alati so'z o'zi?",
+     "x": 540,
+     "y": 340,
+     "at": "start",
+     "tail": "down",
+     "tail_x": 0.25
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "speaker": "n",
+   "text": "Eslaysizmi, ismi yashiringan xorazmlik? Mana u, to'qqizinchi asr olimi.",
+   "tts": "[excited] [pause] Eslaysizmi, ismi yashiringan xorazmlik? Mana u, to'qqizinchi asr olimi.",
+   "mood": "hero",
+   "img": "12.jpg",
+   "vo": "vo_12.mp3",
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0",
+   "elements": [
+    {
+     "type": "caption",
+     "words": [
+      "IX",
+      "ASR.",
+      "BAGDOD.",
+      "BIR",
+      "XORAZMLIK",
+      "OLIM"
+     ],
+     "color": "yellow",
+     "y": 1340,
+     "size": 84,
+     "at": 0.1
+    },
+    {
+     "type": "tag",
+     "head": "ASR",
+     "text": "IX",
+     "x": 170,
+     "y": 210,
+     "color": "red",
+     "at": "start"
+    },
+    {
+     "type": "prop",
+     "img": "p_g_kitob.jpg",
+     "x": 830,
+     "y": 740,
+     "h": 320,
+     "at": "olimi",
+     "motion": "pulse"
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "speaker": "n",
+   "text": "Muhammad al-Xorazmiy. Yevropada ismi lotinchaga o'girilib, algoritm so'ziga aylangan.",
+   "tts": "[excited] Muhammad al-Xorazmiy. Yevropada ismi lotinchaga o'girilib, algoritm so'ziga aylangan.",
+   "mood": "hero",
+   "img": "13.jpg",
+   "vo": "vo_13.mp3",
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0",
+   "elements": [
+    {
+     "type": "card",
+     "kicker": "AL-XORAZMIY",
+     "title": [
+      "AL-XORAZMIY = ALGORITM"
+     ],
+     "sub": "Har bir dastur shu so'z bilan ishlaydi",
+     "at": "start",
+     "y": 1290
+    }
+   ],
+   "imgs": [
+    [
+     "13b.jpg",
+     "algoritm"
+    ]
+   ]
+  },
+  {
+   "n": 14,
+   "speaker": "n",
+   "text": "Joylinks Termiz'da kodni noldan boshlaysiz. Bitta dars xonasi ham al-Xorazmiy nomida.",
+   "tts": "[warmly] Joylinks Termiz'da kodni noldan boshlaysiz. Bitta dars xonasi ham al-Xorazmiy nomida.",
+   "mood": "hero",
+   "img": "14.jpg",
+   "vo": "vo_14.mp3",
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0",
+   "elements": [
+    {
+     "type": "prop",
+     "img": "logo_joylinks.png",
+     "x": 540,
+     "y": 500,
+     "h": 300,
+     "at": 0.1,
+     "motion": "pulse"
+    },
+    {
+     "type": "card",
+     "kicker": "JOYLINKS IT ACADEMY · TERMIZ",
+     "title": [
+      "DASTURLASH"
+     ],
+     "sub": "Qo'ng'iroq: +998 99 287 32 20",
+     "at": 0.4,
+     "y": 1240
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "speaker": "n",
+   "text": "O'z ilovangizni yaratsangiz, u nima qilardi? Izohda yozing.",
+   "tts": "[playful] O'z ilovangizni yaratsangiz, u nima qilardi? Izohda yozing.",
+   "mood": "finale",
+   "img": "15.jpg",
+   "vo": "vo_15.mp3",
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0",
+   "elements": [
+    {
+     "type": "final",
+     "lines": [
+      "ILOVANGIZ",
+      "NIMA QILARDI?"
+     ],
+     "at": 0.4
+    },
+    {
+     "type": "pill",
+     "text": "JOYLINKS TERMIZ · 99 287 32 20",
+     "bg": "green",
+     "x": 540,
+     "y": 1640,
+     "at": 1.0
+    }
+   ]
+  }
+ ]
+}

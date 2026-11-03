@@ -1,0 +1,728 @@
+{
+ "title": "Sun'iy intellekt: bitta jumla",
+ "pace": "fast",
+ "music": {
+  "genre": "synthwave",
+  "bpm": 104,
+  "key": 9,
+  "scale": "minor",
+  "progression": [
+   0,
+   5,
+   3,
+   4
+  ]
+ },
+ "music_seed": 2026,
+ "music_gain": 0.7,
+ "cover_title": [
+  "BITTA JUMLA",
+  "BAHONI O'ZGARTIRDI"
+ ],
+ "cover_sub": "Sun'iy intellektga to'g'ri so'rov",
+ "cover_scene": 0,
+ "cover": {
+  "layout": "zoom",
+  "img": "cover.jpg",
+  "focus": [
+   540,
+   760
+  ],
+  "zoom": 1.5,
+  "badge": "2 yoki 5?",
+  "title_colors": [
+   [
+    255,
+    255,
+    255
+   ],
+   [
+    80,
+    235,
+    255
+   ]
+  ],
+  "accent": [
+   255,
+   60,
+   170
+  ],
+  "accent2": [
+   80,
+   235,
+   255
+  ]
+ },
+ "anim": "static",
+ "bright": true,
+ "logo": "/home/claude/xabash.reels/brand/logo_joylinks_plate.png",
+ "theme": {
+  "font": "audiowide",
+  "font2": "fredoka",
+  "accent": [
+   255,
+   60,
+   170
+  ],
+  "accent2": [
+   80,
+   235,
+   255
+  ],
+  "bubble_bg": [
+   24,
+   16,
+   60
+  ],
+  "bubble_line": [
+   80,
+   235,
+   255
+  ],
+  "bubble_ink": [
+   255,
+   255,
+   255
+  ],
+  "bubble_dim": [
+   120,
+   120,
+   190
+  ],
+  "bubble_radius": 30,
+  "transitions": [
+   "zoom",
+   "flash",
+   "slide"
+  ],
+  "cut_fx": "flash"
+ },
+ "end_hold": 1.4,
+ "scenes": [
+  {
+   "n": 1,
+   "speaker": "n",
+   "text": "Bitta sun'iy intellekt. Bitta vazifa. Biri ikki oldi, biri besh.",
+   "tts": "[excited] Bitta sun'iy intellekt. Bitta vazifa. Biri ikki oldi, biri besh.",
+   "mood": "tense",
+   "img": "01.jpg",
+   "vo": "vo_01.mp3",
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0",
+   "elements": [
+    {
+     "type": "caption",
+     "words": [
+      "BIR",
+      "XIL",
+      "DASTUR.",
+      "BIRI",
+      "2,",
+      "BIRI",
+      "5!"
+     ],
+     "color": "yellow",
+     "y": 1340,
+     "size": 84,
+     "at": 0.1
+    },
+    {
+     "type": "tag",
+     "head": "BAHO",
+     "text": "2 / 5",
+     "x": 170,
+     "y": 210,
+     "color": "red",
+     "at": "start"
+    },
+    {
+     "type": "mark",
+     "shape": "cross",
+     "x": 300,
+     "y": 800,
+     "w": 220,
+     "h": 220,
+     "at": "ikki oldi",
+     "color": "red"
+    },
+    {
+     "type": "mark",
+     "shape": "check",
+     "x": 780,
+     "y": 800,
+     "w": 220,
+     "h": 220,
+     "at": "biri besh",
+     "color": "green"
+    }
+   ],
+   "imgs": [
+    [
+     "01b.jpg",
+     "Bitta vazifa"
+    ]
+   ]
+  },
+  {
+   "n": 2,
+   "speaker": "ustoz",
+   "text": "Temur, bu referatni kim yozgan? Bitta ham fikr yo'q-ku!",
+   "tts": "[angry] Temur, bu referatni kim yozgan? Bitta ham fikr yo'q-ku!",
+   "mood": "tense",
+   "img": "02.jpg",
+   "vo": "vo_02.mp3",
+   "voice_id": "rgK9zQmSATbqc0STi5u4",
+   "elements": [
+    {
+     "type": "char",
+     "img": "c_ustoz.jpg",
+     "from": "left",
+     "x": 290,
+     "y": 1450,
+     "h": 880,
+     "at": 0.05,
+     "talk": [
+      "vo"
+     ],
+     "motion": "bounce",
+     "label": "USTOZ"
+    },
+    {
+     "type": "bubble",
+     "speaker": "USTOZ",
+     "text": "Temur, bu referatni kim yozgan? Bitta ham fikr yo'q-ku!",
+     "x": 540,
+     "y": 340,
+     "at": "start",
+     "tail": "down",
+     "tail_x": 0.25
+    },
+    {
+     "type": "prop",
+     "img": "p_g_ikki.jpg",
+     "x": 830,
+     "y": 740,
+     "h": 340,
+     "at": "referatni",
+     "motion": "shake"
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "speaker": "temur",
+   "text": "Ustoz, men sun'iy intellektga yozdirdim. U aybdor!",
+   "tts": "[sad] Ustoz, men sun'iy intellektga yozdirdim. U aybdor!",
+   "mood": "groove",
+   "img": "03.jpg",
+   "vo": "vo_03.mp3",
+   "voice_id": "fytsqG6MLzC2aCSw7MLa",
+   "elements": [
+    {
+     "type": "char",
+     "img": "c_temur.jpg",
+     "from": "right",
+     "x": 790,
+     "y": 1450,
+     "h": 880,
+     "at": 0.05,
+     "talk": [
+      "vo"
+     ],
+     "motion": "bounce",
+     "label": "TEMUR"
+    },
+    {
+     "type": "bubble",
+     "speaker": "TEMUR",
+     "text": "Ustoz, men sun'iy intellektga yozdirdim. U aybdor!",
+     "x": 540,
+     "y": 340,
+     "at": "start",
+     "tail": "down",
+     "tail_x": 0.75
+    },
+    {
+     "type": "prop",
+     "img": "p_g_robot.jpg",
+     "x": 820,
+     "y": 760,
+     "h": 300,
+     "at": "aybdor",
+     "motion": "wag"
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "speaker": "n",
+   "text": "Yonidagi Sardor ham aynan o'sha dasturni ishlatgan. Lekin u eng yuqori baho oldi.",
+   "tts": "[surprised] Yonidagi Sardor ham aynan o'sha dasturni ishlatgan. Lekin u eng yuqori baho oldi.",
+   "mood": "mystery",
+   "img": "04.jpg",
+   "vo": "vo_04.mp3",
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0",
+   "elements": [
+    {
+     "type": "caption",
+     "words": [
+      "DASTUR",
+      "BIR",
+      "XIL.",
+      "NATIJA",
+      "BOSHQA!"
+     ],
+     "color": "yellow",
+     "y": 1340,
+     "size": 84,
+     "at": 0.1
+    },
+    {
+     "type": "mark",
+     "shape": "circle",
+     "x": 540,
+     "y": 850,
+     "w": 520,
+     "h": 400,
+     "at": "o'sha dasturni",
+     "color": "red",
+     "label": "O'SHA DASTUR",
+     "label_x": 540,
+     "label_y": 600
+    }
+   ],
+   "imgs": [
+    [
+     "04b.jpg",
+     "eng yuqori baho"
+    ]
+   ]
+  },
+  {
+   "n": 5,
+   "speaker": "n",
+   "text": "Farq pulda emas. O'zbekistonlik talabalar uchun obuna endi bepul.",
+   "tts": "[warmly] Farq pulda emas. O'zbekistonlik talabalar uchun obuna endi bepul.",
+   "mood": "groove",
+   "img": "05.jpg",
+   "vo": "vo_05.mp3",
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0",
+   "elements": [
+    {
+     "type": "caption",
+     "words": [
+      "FARQ",
+      "PULDA",
+      "EMAS"
+     ],
+     "color": "yellow",
+     "y": 1340,
+     "size": 84,
+     "at": 0.1
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "speaker": "n",
+   "text": "Google AI Plus. Yiliga oltmish dollarlik obuna. Aileaders.uz orqali bepul.",
+   "tts": "[excited] Google AI Plus. Yiliga oltmish dollarlik obuna. Aileaders.uz orqali bepul.",
+   "mood": "groove",
+   "img": "06.jpg",
+   "vo": "vo_06.mp3",
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0",
+   "elements": [
+    {
+     "type": "card",
+     "kicker": "TALABALAR UCHUN",
+     "title": [
+      "GOOGLE AI PLUS",
+      "1 YIL BEPUL"
+     ],
+     "sub": "Aileaders.uz · yillik qiymati $60",
+     "at": "start",
+     "y": 1290
+    },
+    {
+     "type": "tag",
+     "head": "NARX",
+     "text": "$60",
+     "x": 170,
+     "y": 210,
+     "color": "red",
+     "at": "start"
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "speaker": "temur",
+   "text": "Demak, dastur bir xil. Unda nega menga bema'ni javob beradi?",
+   "tts": "[sad] [surprised] Demak, dastur bir xil. Unda nega menga bema'ni javob beradi?",
+   "mood": "mystery",
+   "img": "07.jpg",
+   "vo": "vo_07.mp3",
+   "voice_id": "fytsqG6MLzC2aCSw7MLa",
+   "elements": [
+    {
+     "type": "char",
+     "img": "c_temur_voy.jpg",
+     "from": "left",
+     "x": 290,
+     "y": 1450,
+     "h": 880,
+     "at": 0.05,
+     "talk": [
+      "vo"
+     ],
+     "motion": "bounce",
+     "label": "TEMUR"
+    },
+    {
+     "type": "bubble",
+     "speaker": "TEMUR",
+     "text": "Demak, dastur bir xil. Unda nega menga bema'ni javob beradi?",
+     "x": 540,
+     "y": 340,
+     "at": "start",
+     "tail": "down",
+     "tail_x": 0.25
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "speaker": "bobo",
+   "text": "Ex bolam, domlaga ham noaniq savol bersang, noaniq javob olasan.",
+   "tts": "[elderly voice] [warmly] Ex bolam, domlaga ham noaniq savol bersang, noaniq javob olasan.",
+   "mood": "warm",
+   "img": "08.jpg",
+   "vo": "vo_08.mp3",
+   "voice_id": "eD0k57hUAx0oDuThLFT9",
+   "elements": [
+    {
+     "type": "char",
+     "img": "c_bobo.jpg",
+     "from": "right",
+     "x": 790,
+     "y": 1450,
+     "h": 880,
+     "at": 0.05,
+     "talk": [
+      "vo"
+     ],
+     "motion": "bounce",
+     "label": "BOBO"
+    },
+    {
+     "type": "bubble",
+     "speaker": "BOBO",
+     "text": "Ex bolam, domlaga ham noaniq savol bersang, noaniq javob olasan.",
+     "x": 540,
+     "y": 340,
+     "at": "start",
+     "tail": "down",
+     "tail_x": 0.75
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "speaker": "n",
+   "text": "Bobo bir gapni topdi. Sir aynan shu gapning ichida yashiringan.",
+   "tts": "[whispers] Bobo bir gapni topdi. Sir aynan shu gapning ichida yashiringan.",
+   "mood": "mystery",
+   "img": "09.jpg",
+   "vo": "vo_09.mp3",
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0",
+   "elements": [
+    {
+     "type": "caption",
+     "words": [
+      "SIR",
+      "SHU",
+      "GAPNING",
+      "ICHIDA"
+     ],
+     "color": "yellow",
+     "y": 1340,
+     "size": 84,
+     "at": 0.1
+    },
+    {
+     "type": "prop",
+     "img": "p_g_kalit.jpg",
+     "x": 540,
+     "y": 800,
+     "h": 320,
+     "at": "Sir aynan",
+     "motion": "pulse"
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "speaker": "n",
+   "text": "Temur yozgan so'rov mana bu: referat yozib ber. Uch so'z.",
+   "tts": "[sarcastic] Temur yozgan so'rov mana bu: referat yozib ber. Uch so'z.",
+   "mood": "groove",
+   "img": "10.jpg",
+   "vo": "vo_10.mp3",
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0",
+   "elements": [
+    {
+     "type": "caption",
+     "words": [
+      "\"REFERAT",
+      "YOZIB",
+      "BER\"",
+      "—",
+      "3",
+      "SO'Z"
+     ],
+     "color": "yellow",
+     "y": 1340,
+     "size": 84,
+     "at": 0.1
+    },
+    {
+     "type": "mark",
+     "shape": "underline",
+     "x": 540,
+     "y": 1400,
+     "w": 760,
+     "h": 40,
+     "at": "Uch so'z",
+     "color": "red"
+    },
+    {
+     "type": "mark",
+     "shape": "cross",
+     "x": 860,
+     "y": 820,
+     "w": 180,
+     "h": 180,
+     "at": "Uch so'z",
+     "color": "red"
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "speaker": "sardor",
+   "text": "Men esa unga avval ish berdim. Kimligini aytdim, keyin nima kerakligini.",
+   "tts": "[warmly] Men esa unga avval ish berdim. Kimligini aytdim, keyin nima kerakligini.",
+   "mood": "groove",
+   "img": "11.jpg",
+   "vo": "vo_11.mp3",
+   "voice_id": "CBeZJ4EnTnrJmhtlMCNC",
+   "elements": [
+    {
+     "type": "char",
+     "img": "c_sardor.jpg",
+     "from": "left",
+     "x": 290,
+     "y": 1450,
+     "h": 880,
+     "at": 0.05,
+     "talk": [
+      "vo"
+     ],
+     "motion": "bounce",
+     "label": "SARDOR"
+    },
+    {
+     "type": "bubble",
+     "speaker": "SARDOR",
+     "text": "Men esa unga avval ish berdim. Kimligini aytdim, keyin nima kerakligini.",
+     "x": 540,
+     "y": 340,
+     "at": "start",
+     "tail": "down",
+     "tail_x": 0.25
+    },
+    {
+     "type": "prop",
+     "img": "p_g_chiroq.jpg",
+     "x": 840,
+     "y": 720,
+     "h": 300,
+     "at": "ish berdim",
+     "motion": "pulse"
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "speaker": "n",
+   "text": "Mana o'sha jumla. Skrinshot qilib oling.",
+   "tts": "[excited] [pause] Mana o'sha jumla. Skrinshot qilib oling.",
+   "mood": "mystery",
+   "img": "12.jpg",
+   "vo": "vo_12.mp3",
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0",
+   "elements": [
+    {
+     "type": "caption",
+     "words": [
+      "SKRINSHOT",
+      "QILIB",
+      "OLING!"
+     ],
+     "color": "yellow",
+     "y": 1340,
+     "size": 84,
+     "at": 0.1
+    },
+    {
+     "type": "mark",
+     "shape": "arrow",
+     "x": 240,
+     "y": 760,
+     "w": 200,
+     "h": 120,
+     "at": "o'sha jumla",
+     "color": "red",
+     "to": [
+      520,
+      1000
+     ]
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "speaker": "n",
+   "text": "Sen o'qituvchisan. Besh bandli reja tuz. Har bandga misol keltir.",
+   "tts": "[warmly] Sen o'qituvchisan. Besh bandli reja tuz. Har bandga misol keltir.",
+   "mood": "hero",
+   "img": "13.jpg",
+   "vo": "vo_13.mp3",
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0",
+   "elements": [
+    {
+     "type": "card",
+     "kicker": "TO'G'RI SO'ROV",
+     "title": [
+      "SEN O'QITUVCHISAN.",
+      "5 BANDLI REJA TUZ."
+     ],
+     "sub": "Har bandga misol keltir.",
+     "at": "start",
+     "y": 1250
+    },
+    {
+     "type": "mark",
+     "shape": "box",
+     "x": 540,
+     "y": 1290,
+     "w": 900,
+     "h": 320,
+     "at": "Sen o'qituvchisan",
+     "color": "yellow",
+     "out": "Har bandga"
+    }
+   ],
+   "imgs": [
+    [
+     "13b.jpg",
+     "misol keltir"
+    ]
+   ]
+  },
+  {
+   "n": 14,
+   "speaker": "temur",
+   "text": "Voy! Bitta jumla butun referatni o'zgartirdimi?",
+   "tts": "[surprised] [excited] Voy! Bitta jumla butun referatni o'zgartirdimi?",
+   "mood": "warm",
+   "img": "14.jpg",
+   "vo": "vo_14.mp3",
+   "voice_id": "fytsqG6MLzC2aCSw7MLa",
+   "elements": [
+    {
+     "type": "char",
+     "img": "c_temur.jpg",
+     "from": "right",
+     "x": 790,
+     "y": 1450,
+     "h": 880,
+     "at": 0.05,
+     "talk": [
+      "vo"
+     ],
+     "motion": "bounce",
+     "label": "TEMUR"
+    },
+    {
+     "type": "bubble",
+     "speaker": "TEMUR",
+     "text": "Voy! Bitta jumla butun referatni o'zgartirdimi?",
+     "x": 540,
+     "y": 340,
+     "at": "start",
+     "tail": "down",
+     "tail_x": 0.75
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "speaker": "n",
+   "text": "Buni prompt muhandisligi deyishadi. Joylinks Termiz'da shu kurs bor.",
+   "tts": "[warmly] Buni prompt muhandisligi deyishadi. Joylinks Termiz'da shu kurs bor.",
+   "mood": "hero",
+   "img": "15.jpg",
+   "vo": "vo_15.mp3",
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0",
+   "elements": [
+    {
+     "type": "prop",
+     "img": "logo_joylinks.png",
+     "x": 540,
+     "y": 500,
+     "h": 300,
+     "at": 0.1,
+     "motion": "pulse"
+    },
+    {
+     "type": "card",
+     "kicker": "JOYLINKS IT ACADEMY · TERMIZ",
+     "title": [
+      "PROMPT ENGINEERING"
+     ],
+     "sub": "Qo'ng'iroq: +998 99 287 32 20",
+     "at": 0.4,
+     "y": 1240
+    }
+   ]
+  },
+  {
+   "n": 16,
+   "speaker": "n",
+   "text": "Sun'iy intellektga bergan eng g'alati savolingiz qaysi? Izohda yozing.",
+   "tts": "[playful] Sun'iy intellektga bergan eng g'alati savolingiz qaysi? Izohda yozing.",
+   "mood": "finale",
+   "img": "16.jpg",
+   "vo": "vo_16.mp3",
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0",
+   "elements": [
+    {
+     "type": "final",
+     "lines": [
+      "ENG G'ALATI",
+      "SAVOLINGIZ?"
+     ],
+     "at": 0.4
+    },
+    {
+     "type": "pill",
+     "text": "JOYLINKS TERMIZ · 99 287 32 20",
+     "bg": "green",
+     "x": 540,
+     "y": 1640,
+     "at": 1.0
+    }
+   ]
+  }
+ ]
+}

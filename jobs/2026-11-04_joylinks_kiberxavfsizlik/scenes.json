@@ -1,0 +1,754 @@
+{
+ "title": "Kiberxavfsizlik: Shokir akaning paroli",
+ "pace": "fast",
+ "music": {
+  "genre": "detective",
+  "bpm": 92,
+  "key": 7,
+  "scale": "minor",
+  "progression": [
+   0,
+   5,
+   0,
+   4
+  ]
+ },
+ "music_seed": 123456,
+ "music_gain": 0.7,
+ "cover_title": [
+  "PAROLINGIZ",
+  "123456 EMASMI?"
+ ],
+ "cover_sub": "Bir soniyaga bormay buziladi",
+ "cover_scene": 0,
+ "cover": {
+  "layout": "poster",
+  "img": "cover.jpg",
+  "char": "c_shokir_voy.jpg",
+  "badge": "123456",
+  "duo_dark": [
+   16,
+   16,
+   18
+  ],
+  "ink": [
+   230,
+   30,
+   45
+  ],
+  "title_colors": [
+   [
+    255,
+    255,
+    255
+   ],
+   [
+    230,
+    30,
+    45
+   ]
+  ],
+  "accent": [
+   230,
+   30,
+   45
+  ],
+  "accent2": [
+   255,
+   255,
+   255
+  ]
+ },
+ "anim": "static",
+ "bright": true,
+ "logo": "/home/claude/xabash.reels/brand/logo_joylinks_plate.png",
+ "theme": {
+  "font": "russo",
+  "font2": "marker",
+  "accent": [
+   220,
+   25,
+   40
+  ],
+  "accent2": [
+   245,
+   245,
+   245
+  ],
+  "bubble_bg": [
+   14,
+   14,
+   16
+  ],
+  "bubble_line": [
+   220,
+   25,
+   40
+  ],
+  "bubble_ink": [
+   255,
+   255,
+   255
+  ],
+  "bubble_dim": [
+   120,
+   120,
+   125
+  ],
+  "bubble_radius": 8,
+  "transitions": [
+   "flash",
+   "whip",
+   "torn"
+  ],
+  "cut_fx": "punch"
+ },
+ "end_hold": 1.4,
+ "scenes": [
+  {
+   "n": 1,
+   "speaker": "n",
+   "text": "Ikki ming yigirma beshinchi yil. O'zbekistonda deyarli har ikkinchi jinoyat kiberjinoyat bo'lgan.",
+   "tts": "[serious] Ikki ming yigirma beshinchi yil. O'zbekistonda deyarli har ikkinchi jinoyat kiberjinoyat bo'lgan.",
+   "mood": "tense",
+   "img": "01.jpg",
+   "vo": "vo_01.mp3",
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0",
+   "elements": [
+    {
+     "type": "caption",
+     "words": [
+      "DEYARLI",
+      "HAR",
+      "2-JINOYAT",
+      "KIBERJINOYAT"
+     ],
+     "color": "yellow",
+     "y": 1340,
+     "size": 84,
+     "at": 0.1
+    },
+    {
+     "type": "tag",
+     "head": "2025",
+     "text": "49,6%",
+     "x": 170,
+     "y": 210,
+     "color": "red",
+     "at": "start"
+    },
+    {
+     "type": "card",
+     "kicker": "IIV MA'LUMOTI",
+     "title": [
+      "49,6 FOIZ"
+     ],
+     "sub": "Barcha jinoyatlar ichida kiberjinoyat ulushi",
+     "at": "kiberjinoyat",
+     "y": 1280
+    }
+   ],
+   "imgs": [
+    [
+     "01b.jpg",
+     "har ikkinchi"
+    ]
+   ]
+  },
+  {
+   "n": 2,
+   "speaker": "n",
+   "text": "Taksichi Shokir aka bundan bexabar edi. Toki shu xabar kelguncha.",
+   "tts": "[whispers] Taksichi Shokir aka bundan bexabar edi. Toki shu xabar kelguncha.",
+   "mood": "mystery",
+   "img": "02.jpg",
+   "vo": "vo_02.mp3",
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0",
+   "elements": [
+    {
+     "type": "caption",
+     "words": [
+      "SHU",
+      "XABAR",
+      "KELGUNCHA..."
+     ],
+     "color": "yellow",
+     "y": 1340,
+     "size": 84,
+     "at": 0.1
+    },
+    {
+     "type": "prop",
+     "img": "p_g_sms.jpg",
+     "x": 820,
+     "y": 760,
+     "h": 300,
+     "at": "shu xabar",
+     "motion": "shake"
+    }
+   ],
+   "imgs": [
+    [
+     "02b.jpg",
+     "shu xabar"
+    ]
+   ]
+  },
+  {
+   "n": 3,
+   "speaker": "firibgar",
+   "text": "Aka, rasmlaringizni ko'rdingizmi? Mana shu faylni oching.",
+   "tts": "[whispers] [sarcastic] Aka, rasmlaringizni ko'rdingizmi? Mana shu faylni oching.",
+   "mood": "tense",
+   "img": "03.jpg",
+   "vo": "vo_03.mp3",
+   "voice_id": "u20lT5dpbOWoIKz6PpYb",
+   "elements": [
+    {
+     "type": "bubble",
+     "speaker": "NOTANISH",
+     "text": "Aka, rasmlaringizni ko'rdingizmi? Mana shu faylni oching.",
+     "x": 540,
+     "y": 340,
+     "at": "start",
+     "tail": "down",
+     "tail_x": 0.25
+    },
+    {
+     "type": "prop",
+     "img": "p_g_ilgak.jpg",
+     "x": 820,
+     "y": 740,
+     "h": 300,
+     "at": "faylni",
+     "motion": "wag"
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "speaker": "shokir",
+   "text": "Voy, qanaqa rasm? Hozir ochib ko'raman.",
+   "tts": "[surprised] Voy, qanaqa rasm? Hozir ochib ko'raman.",
+   "mood": "tense",
+   "img": "04.jpg",
+   "vo": "vo_04.mp3",
+   "voice_id": "RaNVfTYq3HYeFPLng6XN",
+   "elements": [
+    {
+     "type": "char",
+     "img": "c_shokir.jpg",
+     "from": "right",
+     "x": 790,
+     "y": 1450,
+     "h": 880,
+     "at": 0.05,
+     "talk": [
+      "vo"
+     ],
+     "motion": "bounce",
+     "label": "SHOKIR AKA"
+    },
+    {
+     "type": "bubble",
+     "speaker": "SHOKIR AKA",
+     "text": "Voy, qanaqa rasm? Hozir ochib ko'raman.",
+     "x": 540,
+     "y": 340,
+     "at": "start",
+     "tail": "down",
+     "tail_x": 0.75
+    },
+    {
+     "type": "mark",
+     "shape": "arrow",
+     "x": 240,
+     "y": 780,
+     "w": 200,
+     "h": 120,
+     "at": "ochib",
+     "color": "red",
+     "to": [
+      520,
+      1000
+     ]
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "speaker": "n",
+   "text": "To'xtang! Eng keng tarqalgan usul aynan shu. Kiberjinoyatlarning o'ttiz sakkiz foizi.",
+   "tts": "[angry] To'xtang! Eng keng tarqalgan usul aynan shu. Kiberjinoyatlarning o'ttiz sakkiz foizi.",
+   "mood": "tense",
+   "img": "05.jpg",
+   "vo": "vo_05.mp3",
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0",
+   "elements": [
+    {
+     "type": "caption",
+     "words": [
+      "TO'XTANG!",
+      "38%",
+      "SHU",
+      "USUL"
+     ],
+     "color": "yellow",
+     "y": 1340,
+     "size": 84,
+     "at": 0.1
+    },
+    {
+     "type": "bars",
+     "rows": [
+      [
+       "Zararli dastur",
+       38,
+       "red"
+      ],
+      [
+       "Soxta sotuvchi",
+       18,
+       "yellow"
+      ],
+      [
+       "Onlayn birja",
+       16,
+       "yellow"
+      ]
+     ],
+     "x": 540,
+     "y": 620,
+     "at": "o'ttiz sakkiz"
+    },
+    {
+     "type": "tag",
+     "head": "IIV",
+     "text": "38%",
+     "x": 170,
+     "y": 210,
+     "color": "red",
+     "at": "start"
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "speaker": "shokir",
+   "text": "Bay-bay! Parolim bor-ku, menga hech kim kirolmaydi!",
+   "tts": "[laughs] Bay-bay! Parolim bor-ku, menga hech kim kirolmaydi!",
+   "mood": "groove",
+   "img": "06.jpg",
+   "vo": "vo_06.mp3",
+   "voice_id": "RaNVfTYq3HYeFPLng6XN",
+   "elements": [
+    {
+     "type": "char",
+     "img": "c_shokir_voy.jpg",
+     "from": "left",
+     "x": 290,
+     "y": 1450,
+     "h": 880,
+     "at": 0.05,
+     "talk": [
+      "vo"
+     ],
+     "motion": "bounce",
+     "label": "SHOKIR AKA"
+    },
+    {
+     "type": "bubble",
+     "speaker": "SHOKIR AKA",
+     "text": "Bay-bay! Parolim bor-ku, menga hech kim kirolmaydi!",
+     "x": 540,
+     "y": 340,
+     "at": "start",
+     "tail": "down",
+     "tail_x": 0.25
+    },
+    {
+     "type": "prop",
+     "img": "p_g_quluf.jpg",
+     "x": 830,
+     "y": 740,
+     "h": 280,
+     "at": "Parolim",
+     "motion": "bounce"
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "speaker": "n",
+   "text": "Parolingiz nima, aka?",
+   "tts": "[sarcastic] Parolingiz nima, aka?",
+   "mood": "mystery",
+   "img": "07.jpg",
+   "vo": "vo_07.mp3",
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0",
+   "elements": [
+    {
+     "type": "caption",
+     "words": [
+      "PAROLINGIZ",
+      "NIMA?"
+     ],
+     "color": "yellow",
+     "y": 1340,
+     "size": 84,
+     "at": 0.1
+    },
+    {
+     "type": "mark",
+     "shape": "box",
+     "x": 540,
+     "y": 800,
+     "w": 560,
+     "h": 260,
+     "at": "Parolingiz",
+     "color": "red"
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "speaker": "shokir",
+   "text": "Bir ikki uch to'rt besh olti! Hech kim topolmaydi!",
+   "tts": "[excited] Bir ikki uch to'rt besh olti! Hech kim topolmaydi!",
+   "mood": "groove",
+   "img": "08.jpg",
+   "vo": "vo_08.mp3",
+   "voice_id": "RaNVfTYq3HYeFPLng6XN",
+   "elements": [
+    {
+     "type": "char",
+     "img": "c_shokir.jpg",
+     "from": "right",
+     "x": 790,
+     "y": 1450,
+     "h": 880,
+     "at": 0.05,
+     "talk": [
+      "vo"
+     ],
+     "motion": "bounce",
+     "label": "SHOKIR AKA"
+    },
+    {
+     "type": "bubble",
+     "speaker": "SHOKIR AKA",
+     "text": "Bir ikki uch to'rt besh olti! Hech kim topolmaydi!",
+     "x": 540,
+     "y": 340,
+     "at": "start",
+     "tail": "down",
+     "tail_x": 0.75
+    },
+    {
+     "type": "mark",
+     "shape": "burst",
+     "x": 540,
+     "y": 900,
+     "w": 500,
+     "h": 300,
+     "at": "Bir ikki",
+     "color": "red",
+     "label": "123456",
+     "label_x": 540,
+     "label_y": 700
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "speaker": "n",
+   "text": "Bu dunyodagi eng mashhur parol. Uch milliondan ortiq odam ishlatgan.",
+   "tts": "[sarcastic] Bu dunyodagi eng mashhur parol. Uch milliondan ortiq odam ishlatgan.",
+   "mood": "tense",
+   "img": "09.jpg",
+   "vo": "vo_09.mp3",
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0",
+   "elements": [
+    {
+     "type": "card",
+     "kicker": "NORDPASS TADQIQOTI",
+     "title": [
+      "123456",
+      "3 MLN+ ODAMDA"
+     ],
+     "sub": "Dunyodagi eng ko'p ishlatiladigan parol",
+     "at": "start",
+     "y": 1290
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "speaker": "n",
+   "text": "Eng ommabop parollarning yetmish sakkiz foizi bir soniyaga bormay buziladi.",
+   "tts": "[serious] Eng ommabop parollarning yetmish sakkiz foizi bir soniyaga bormay buziladi.",
+   "mood": "tense",
+   "img": "10.jpg",
+   "vo": "vo_10.mp3",
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0",
+   "elements": [
+    {
+     "type": "caption",
+     "words": [
+      "78%",
+      "PAROL",
+      "1",
+      "SONIYADA",
+      "BUZILADI"
+     ],
+     "color": "yellow",
+     "y": 1340,
+     "size": 84,
+     "at": 0.1
+    },
+    {
+     "type": "prop",
+     "img": "p_g_quluf.jpg",
+     "x": 820,
+     "y": 700,
+     "h": 320,
+     "at": "buziladi",
+     "motion": "shake"
+    }
+   ],
+   "imgs": [
+    [
+     "10b.jpg",
+     "bir soniyaga"
+    ]
+   ]
+  },
+  {
+   "n": 11,
+   "speaker": "shokir",
+   "text": "Unda nima qilay? Telefonni suvga otaymi endi?",
+   "tts": "[sad] [surprised] Unda nima qilay? Telefonni suvga otaymi endi?",
+   "mood": "groove",
+   "img": "11.jpg",
+   "vo": "vo_11.mp3",
+   "voice_id": "RaNVfTYq3HYeFPLng6XN",
+   "elements": [
+    {
+     "type": "char",
+     "img": "c_shokir_voy.jpg",
+     "from": "left",
+     "x": 290,
+     "y": 1450,
+     "h": 880,
+     "at": 0.05,
+     "talk": [
+      "vo"
+     ],
+     "motion": "bounce",
+     "label": "SHOKIR AKA"
+    },
+    {
+     "type": "bubble",
+     "speaker": "SHOKIR AKA",
+     "text": "Unda nima qilay? Telefonni suvga otaymi endi?",
+     "x": 540,
+     "y": 340,
+     "at": "start",
+     "tail": "down",
+     "tail_x": 0.25
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "speaker": "mutaxassis",
+   "text": "Shoshmang, aka. Sizni bitta oddiy qoida qutqaradi.",
+   "tts": "[warmly] Shoshmang, aka. Sizni bitta oddiy qoida qutqaradi.",
+   "mood": "warm",
+   "img": "12.jpg",
+   "vo": "vo_12.mp3",
+   "voice_id": "rgK9zQmSATbqc0STi5u4",
+   "elements": [
+    {
+     "type": "char",
+     "img": "c_mutaxassis.jpg",
+     "from": "right",
+     "x": 790,
+     "y": 1450,
+     "h": 880,
+     "at": 0.05,
+     "talk": [
+      "vo"
+     ],
+     "motion": "bounce",
+     "label": "MUTAXASSIS"
+    },
+    {
+     "type": "bubble",
+     "speaker": "MUTAXASSIS",
+     "text": "Shoshmang, aka. Sizni bitta oddiy qoida qutqaradi.",
+     "x": 540,
+     "y": 340,
+     "at": "start",
+     "tail": "down",
+     "tail_x": 0.75
+    },
+    {
+     "type": "prop",
+     "img": "p_g_qalqon.jpg",
+     "x": 830,
+     "y": 740,
+     "h": 320,
+     "at": "qoida",
+     "motion": "pulse"
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "speaker": "n",
+   "text": "Firibgarga sizning bitta harakatingiz kerak. O'sha harakatni qilmang.",
+   "tts": "[whispers] [pause] Firibgarga sizning bitta harakatingiz kerak. O'sha harakatni qilmang.",
+   "mood": "mystery",
+   "img": "13.jpg",
+   "vo": "vo_13.mp3",
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0",
+   "elements": [
+    {
+     "type": "caption",
+     "words": [
+      "UNGA",
+      "BITTA",
+      "HARAKATINGIZ",
+      "KERAK"
+     ],
+     "color": "yellow",
+     "y": 1340,
+     "size": 84,
+     "at": 0.1
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "speaker": "mutaxassis",
+   "text": "Notanish faylni ochmang. SMS kodni hech kimga aytmang, bankdan deyishsa ham.",
+   "tts": "[serious] Notanish faylni ochmang. SMS kodni hech kimga aytmang, bankdan deyishsa ham.",
+   "mood": "hero",
+   "img": "14.jpg",
+   "vo": "vo_14.mp3",
+   "voice_id": "rgK9zQmSATbqc0STi5u4",
+   "elements": [
+    {
+     "type": "char",
+     "img": "c_mutaxassis.jpg",
+     "from": "left",
+     "x": 290,
+     "y": 1450,
+     "h": 880,
+     "at": 0.05,
+     "talk": [
+      "vo"
+     ],
+     "motion": "bounce",
+     "label": "MUTAXASSIS"
+    },
+    {
+     "type": "bubble",
+     "speaker": "MUTAXASSIS",
+     "text": "Notanish faylni ochmang. SMS kodni hech kimga aytmang, bankdan deyishsa ham.",
+     "x": 540,
+     "y": 340,
+     "at": "start",
+     "tail": "down",
+     "tail_x": 0.25
+    },
+    {
+     "type": "mark",
+     "shape": "cross",
+     "x": 840,
+     "y": 780,
+     "w": 200,
+     "h": 200,
+     "at": "Notanish faylni",
+     "color": "red"
+    },
+    {
+     "type": "mark",
+     "shape": "check",
+     "x": 240,
+     "y": 1150,
+     "w": 180,
+     "h": 180,
+     "at": "bankdan",
+     "color": "green"
+    }
+   ],
+   "imgs": [
+    [
+     "14b.jpg",
+     "SMS kodni"
+    ]
+   ]
+  },
+  {
+   "n": 15,
+   "speaker": "n",
+   "text": "Himoya sirlarini o'rganmoqchimisiz? Joylinks Termiz'da kiberxavfsizlik kursi bor.",
+   "tts": "[warmly] Himoya sirlarini o'rganmoqchimisiz? Joylinks Termiz'da kiberxavfsizlik kursi bor.",
+   "mood": "hero",
+   "img": "15.jpg",
+   "vo": "vo_15.mp3",
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0",
+   "elements": [
+    {
+     "type": "prop",
+     "img": "logo_joylinks.png",
+     "x": 540,
+     "y": 500,
+     "h": 300,
+     "at": 0.1,
+     "motion": "pulse"
+    },
+    {
+     "type": "card",
+     "kicker": "JOYLINKS IT ACADEMY · TERMIZ",
+     "title": [
+      "KIBERXAVFSIZLIK"
+     ],
+     "sub": "Qo'ng'iroq: +998 99 287 32 20",
+     "at": 0.4,
+     "y": 1240
+    }
+   ]
+  },
+  {
+   "n": 16,
+   "speaker": "n",
+   "text": "Sizga kelgan eng ayyor xabar qanday edi? Izohda yozing.",
+   "tts": "[playful] Sizga kelgan eng ayyor xabar qanday edi? Izohda yozing.",
+   "mood": "finale",
+   "img": "16.jpg",
+   "vo": "vo_16.mp3",
+   "voice_id": "sMpnELN3fdB8ZVjj6xa0",
+   "elements": [
+    {
+     "type": "final",
+     "lines": [
+      "ENG AYYOR",
+      "XABAR QANDAY EDI?"
+     ],
+     "at": 0.4
+    },
+    {
+     "type": "pill",
+     "text": "JOYLINKS TERMIZ · 99 287 32 20",
+     "bg": "green",
+     "x": 540,
+     "y": 1640,
+     "at": 1.0
+    }
+   ]
+  }
+ ]
+}

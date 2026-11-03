@@ -667,7 +667,9 @@ LOGO = None
 _lp = CFG.get("logo") or (f"{HERE}/../brand/logo_99foiz.png" if os.path.exists(f"{HERE}/../brand/logo_99foiz.png") else None)
 if _lp and CFG.get("logo", True) is not False:
     _li = Image.open(_lp).convert("RGBA")
-    LOGO = to_np(_li.resize((150, 150), Image.LANCZOS)); LOGO_BIG = to_np(_li.resize((300, 300), Image.LANCZOS))
+    _lw = 150 if _li.width == _li.height else 250  # keng logotip cho'zilmasin
+    _lh = round(_lw * _li.height / _li.width)
+    LOGO = to_np(_li.resize((_lw, _lh), Image.LANCZOS)); LOGO_BIG = to_np(_li.resize((_lw * 2, _lh * 2), Image.LANCZOS))
 COVER = None
 # ---- cover / profile preview: a different layout every video (scenes.json -> "cover": {...}) ----
 CV = CFG.get("cover") or {}
@@ -755,7 +757,7 @@ def render_cover(t):
     if COVER_MARK: draw_mark(fr, COVER_MARK, t, 1.0)
     if COVER_SUB is not None and t > .4: paste(fr, COVER_SUB, W / 2, COVER_SUB_Y, 1.0, -2, clamp((t - .4) / .2))
     if LOGO is not None:
-        lx, ly, ls = COVER_LOGO; paste(fr, LOGO_BIG, lx, ly, ls * ease_out_back(t / .35, 1.8), 0, clamp(t / .15))
+        lx, ly, ls = COVER_LOGO; lx = min(max(lx, 30 + LOGO_BIG.shape[1] * ls / 2), W - 30 - LOGO_BIG.shape[1] * ls / 2); paste(fr, LOGO_BIG, lx, ly, ls * ease_out_back(t / .35, 1.8), 0, clamp(t / .15))
     return fr
 
 def frame_at(T):
@@ -800,7 +802,7 @@ def frame_scene(T):
         if 0 <= d < 0.3:
             amp = 16 * (1 - d / 0.3); fr = cv2.warpAffine(fr, np.float32([[1, 0, amp * math.sin(d * 90)], [0, 1, amp * math.cos(d * 73)]]), (W, H), borderMode=cv2.BORDER_REFLECT)
     fr = fr * (VIGN_SOFT if CFG.get("bright", True) else vign) + cv2.resize(grain_bank[int(T * FPS) % 6], (W, H), interpolation=cv2.INTER_NEAREST)[..., None]
-    if LOGO is not None: paste(fr, LOGO, W - 105, H - 115, 1.0, 0, 0.95)
+    if LOGO is not None: paste(fr, LOGO, W - 30 - LOGO.shape[1] / 2, H - 115, 1.0, 0, 0.95)
     if T < 0.25: fr *= T / 0.25
     if COVER is None and T > TOTAL - 0.5: fr *= max(0, (TOTAL - T) / 0.5)
     return np.clip(fr, 0, 255).astype(np.uint8)
